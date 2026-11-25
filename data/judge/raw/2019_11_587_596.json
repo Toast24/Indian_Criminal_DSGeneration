@@ -1,0 +1,385 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Four accused named: husband, father-in-law, mother-in-law and sister-in-law."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is the male husband; the judgment refers to him as 'him'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused occupation is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status of the accused is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is a woman (the deceased wife, 'her')."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is the deceased's husband, so the relationship is spouse."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is dowry death under Section 304-B IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.304-B; Evidence Act s.113-B",
+   "quote": "The prosecution has even failed to prove the initial presumption under Section 113-B of the Evidence Act.",
+   "page": 10,
+   "reason": "Omits Evidence Act s.113-B presumption, which the judgment expressly discusses."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Poison (organophosphorus pesticide)",
+   "quote": "the same was caused by the administration of poison by the accused",
+   "page": 4,
+   "reason": "Judgment identifies poison, specifically organophosphorus pesticide, as the means of death, not 'none mentioned'."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Evidence consists of oral statements of PW3/PW4 and documentary letters and memorandum."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Protracted trial of more than 15 years, cited by High Court in reducing sentence",
+   "quote": "the appellant had suffered a protracted trial of more than 15 years",
+   "page": 4,
+   "reason": "High Court explicitly reduced sentence due to a protracted trial of over 15 years."
+  },
+  "victim_gender_placeholder_removed": null,
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted appellant under Section 304-B IPC on 12.12.1995."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court acquitted mother-in-law and reduced appellant's sentence to seven years."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court set aside the appellant's conviction, so he was acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was finally established; the conviction was set aside."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Type of imprisonment is not specified in the judgment."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": "10 years (trial court), reduced to 7 years (High Court)",
+   "quote": "reduced the sentence of the appellant from ten years to seven years",
+   "page": 4,
+   "reason": "Judgment states sentence terms of ten years then seven years; null ignores these stated sentences."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts omitting the Supreme Court's outcome (remove the final sentence stating the conviction was overturned and why).",
+   "quote": "The Supreme Court overturned the conviction, finding that the prosecution failed to prove the essential ingredients",
+   "page": 1,
+   "reason": "Facts reveal the Supreme Court's outcome and reasoning, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the punishment stated in Section 304-B(2) quoted in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is completed; the deceased died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death caused by administration of poison is stated."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence (s.304-B IPC) charged against all four accused; no conviction upheld",
+   "quote": "The charge was framed against all the four accused under Section 304-B IPC.",
+   "page": 5,
+   "reason": "Only one charge was framed; the four accused faced it, and no conviction was upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Dowry demands (including Rs.5,000 and a gold chain); payments of Rs.1,000 and Rs.2,000 made",
+   "quote": "the appellant left the deceased at her brother Rajbir's house and demanded Rs.5,000/-",
+   "page": 4,
+   "reason": "Judgment describes monetary dowry demands and payments, so 'Not applicable' is contradicted."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is stated."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Demand for dowry",
+   "quote": "as they demanded dowry",
+   "page": 4,
+   "reason": "Judgment identifies dowry demands as the motive for the alleged cruelty and death."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court rejected PW3/PW4 statements and letters as insufficient to prove dowry cruelty soon before death."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found witness statements insufficient absent independent evidence, though available but not examined."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is mentioned."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is described beyond discharge of bail bonds on acquittal."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Death/information on 08.02.1994; FIR 09.02.1994; Trial judgment 12.12.1995; HC decision 21.01.2009; SC decision 07.08.2019",
+   "quote": "it was on 08.02.1994, that the complainant received information that his daughter, had expired",
+   "page": 4,
+   "reason": "03.02.1994 is a payment date, not the offence date; death information was received 08.02.1994."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR lodged 09.02.1994, report filed before the Magistrate, and trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court dispositions are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution relied on PW3, PW4 and letters, and argued continuous dowry cruelty causing death."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Letters do not relate to dowry demand; gold chain demand was two years before death, so not 'soon before'; no evidence of dowry demand soon before death",
+   "quote": "The letters produced by the prosecution do not relate to demand of dowry, and any demand for a gold chain was made two years before the death",
+   "page": 5,
+   "reason": "'Lack of independent evidence' was the court's reasoning, not an argument the defence made."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Proximate nexus and 'soon before her death' principles are discussed and applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Four precedents and their citations match the judgment's relied-on cases."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction set aside for failure to prove beyond reasonable doubt; appellant set at liberty."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Protracted trial of more than 15 years",
+   "quote": "looking to the fact that the appellant had suffered a protracted trial of more than 15 years",
+   "page": 4,
+   "reason": "High Court treated the protracted trial as a mitigating factor for reducing sentence."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors were identified by the courts."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant set at liberty; bail bonds discharged",
+   "quote": "set him at liberty as long as he is not involved in any other case. Bail bonds shall stand discharged.",
+   "page": 10,
+   "reason": "Supreme Court ordered liberty and discharge of bail bonds, which is an ancillary order."
+  }
+ }
+}

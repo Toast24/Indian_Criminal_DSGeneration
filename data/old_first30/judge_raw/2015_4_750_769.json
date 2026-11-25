@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "incorrect",
+   "correct_value": "9 accused (A-1 to A-9); A-6 is deceased",
+   "quote": "Utukuru Seenaiah, A-6 (since deceased)",
+   "page": 6,
+   "reason": "The judgment names nine accused, not five; the value appears to count only the convicted or appellants."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never states the accused's gender; only generic pronouns appear in legal discussion."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment states A-1 was Councilor for Ward No. 16 of Nellore Municipality."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status of the accused is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned; only previous animosity is described."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment refers to the deceased as 'he', supporting male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Adversarial: the deceased was a witness in a murder case in which A-1 was an accused; rival political party supporters",
+   "quote": "as he was a witness in Velongini Raja's murder case wherein the accused-appellant, A-1, was an accused",
+   "page": 20,
+   "reason": "The judgment states a relationship: the victim was a prosecution witness against A-1 and a rival party supporter."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offence is murder under s.302 IPC, as the judgment confirms."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sections 302, 148, 324 and 149 match the convictions, including s.324 r/w s.149 for A-5."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Knives and iron rods are the weapons described in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, dying declaration, post-mortem and recovery evidence are all described."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Five stab injuries, previous animosity and the witness status are all identified by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted by the court; only the defence's intention argument appears."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions, life sentence under s.302, concurrent s.148 sentence and s.324 convictions match page 6 and 8."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court affirmed conviction for appellants and acquitted A-4, A-8 and A-9."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Supreme Court dismissed the appeals, so the accused stand convicted."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302, s.148 and s.324 (A-2 to A-4) and s.324 r/w s.149 (A-5), as convicted by trial court and affirmed",
+   "quote": "convicted A-2 to A-4 for the offence punishable under Section 324 IPC and A5 for the offences punishable under Sections 324 read with 149 IPC",
+   "page": 8,
+   "reason": "The value omits A-4 from the s.324 convictions and does not reflect the r/w s.149 basis for A-5."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rigorous imprisonment for life is stated for the s.302 conviction."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term of years is stated; life imprisonment is used."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts match pages 6-8 and do not reveal the Supreme Court outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence severity rating is stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim died after the stabbing, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death from five stab injuries and PW-1's left-arm stab wound are both stated."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charge framed as s.302 simpliciter (per defence submission); convictions under ss.302, 148, 324 and 324 r/w 149; all upheld",
+   "quote": "the charge framed against them was simplicitor Section 302 IPC",
+   "page": 9,
+   "reason": "The '3 charged' claim is unsupported; the judgment says the charge was s.302 only, though later convictions were broader."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is mentioned in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not expressly stated, only previous animosity."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive of previous animosity from victim's witness role in murder case is stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness testimony, dying declaration, post-mortem and rejection of alibi are all supported."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found PW-1 to PW-3 not chance witnesses and the dying declaration free of infirmity, as stated."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence, High Court and Supreme Court dates match; no trial judgment date is given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and State match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR Crime No. 57 of 1996, chargesheet and completed trial are stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Non-framing of s.149 charge and the court's no-prejudice finding are stated."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "State's arguments on dying declaration, witnesses, s.149 and s.304 match page 9."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence arguments on chance witnesses, dying declaration, alibi and s.304 match pages 9-10."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Principles on s.149, chance witnesses, dying declaration, alibi and s.304 match the reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All listed authorities and citations appear in the judgment's references."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court upheld life imprisonment and refused conversion given injuries and previous animosity."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Five stab injuries, previous animosity and witness-based assault are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Sentences under s.148 and s.302 IPC to run concurrently",
+   "quote": "all the sentences shall be concurrent",
+   "page": 6,
+   "reason": "The judgment records a concurrency order for the sentences, so 'None' is incorrect."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "3",
+   "quote": "convicted and sentenced the present appellants and the husband of the deceased",
+   "page": 8,
+   "reason": "Husband was also convicted and tried; the value counts only the two appellants."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused include a male husband and female mother-in-law and sister-in-law, so mixed is supported."
+  },
+  "accused_age": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant 1 (mother-in-law) around 60 years; appellant 2 (sister-in-law) more than 35 years",
+   "quote": "the appellant No. 1-mother-in-law of the deceased who is said to be around 60 years of age and appellant No.2-sister-in-law of the deceased who is more than 35 years of age",
+   "page": 17,
+   "reason": "A single age of 60 omits the sister-in-law's age and the 'around' qualifier."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated; the joint family context does not establish it."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record of the accused is mentioned; the prior complaints were filed by the deceased."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased is referred to as a woman throughout."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age is not stated; only a minor daughter's presence is mentioned."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Husband; mother-in-law; sister-in-law (husband and in-laws)",
+   "quote": "the deceased was subjected to cruelty at the hands of her husband and her in-laws",
+   "page": 1,
+   "reason": "Omits that the husband, the main accused, was the spouse rather than an in-law."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Cruelty by husband/relatives (s.498A) and abetment of suicide (s.306)",
+   "quote": "Penal Code, 1860: s.498A, 306 - Dowry death",
+   "page": 1,
+   "reason": "Culpable homicide is not mentioned; the offences are cruelty and abetment of suicide."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "IPC ss.498A, 306 and 114 are the provisions on which conviction was based."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Poison (poisonous tablets)",
+   "quote": "she had consumed the poisonous tablets by mistake",
+   "page": 14,
+   "reason": "The deceased died after consuming poisonous tablets, so no weapon is not accurate."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Oral testimony of witnesses (relatives, neighbours, social worker); circumstantial evidence; medical evidence; dying declaration",
+   "quote": "the deposition of the witnesses and the dying declaration of the deceased",
+   "page": 10,
+   "reason": "Omits the oral witness testimony, which was the main evidence on cruelty."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not identify aggravating circumstances for sentencing."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Age of appellants (mother-in-law around 60; sister-in-law over 35) and need to care for a child",
+   "quote": "Keeping in view the age of the appellants ... and having a child to take care of",
+   "page": 17,
+   "reason": "The court expressly relied on age and child-care responsibility as mitigating factors for sentence."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted and sentenced the accused."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction and sentence upheld",
+   "quote": "the High Court has dismissed the appeal of the appellants and upheld the order of conviction and sentence",
+   "page": 6,
+   "reason": "The High Court was not 'not applicable'; it dismissed the appeal and upheld the conviction."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Partly allowed: s.306 conviction set aside; s.498A conviction upheld; sentence reduced to period already undergone",
+   "quote": "We partly set aside the impugned judgment and order dated 23.02.2015",
+   "page": 17,
+   "reason": "The appellants were not acquitted; the s.498A conviction was upheld and only s.306 was set aside."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Section 498A IPC (cruelty)",
+   "quote": "the conviction and sentence for the offence punishable under Section 498A of I. P. C. with regard to cruelty is held to be proved",
+   "page": 16,
+   "reason": "Section 498A was finally upheld, so 'None' contradicts the judgment."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Rigorous imprisonment (trial court, s.498A); Supreme Court limited sentence to period already undergone",
+   "quote": "3 years of rigorous imprisonment with a fine of Rs.5000/-",
+   "page": 8,
+   "reason": "The trial court's rigorous imprisonment type is stated; 'not_stated' overlooks it."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "3 years (trial court, s.498A); finally limited to period already undergone",
+   "quote": "The accused were to undergo 3 years of rigorous imprisonment",
+   "page": 8,
+   "reason": "Null omits the stated 3-year trial sentence for s.498A."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "5000",
+   "quote": "3 years of rigorous imprisonment with a fine of Rs.5000/-",
+   "page": 8,
+   "reason": "A fine of Rs.5000 for s.498A is stated; null is incorrect."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without the Supreme Court outcome (omit the statement that the s.306 conviction was set aside)",
+   "quote": "the conviction and sentence for offence punishable under Section 306 read with Section 114 of the IPC ... is liable to be set aside",
+   "page": 16,
+   "reason": "The summary reveals the court outcome, which neutral_facts must not do; it also says complaints 'were not addressed', which is not stated."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The value matches the statutory punishment for s.498A quoted in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment states the cruelty caused grave mental and physical injury."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged under ss.498A, 306 r/w 114, and 304B r/w 114 (plus DP Act s.4, acquitted); finally upheld: 1 (s.498A)",
+   "quote": "The accused were acquitted for the offences punishable under Section 304B read with Section 114 of I.P.C.",
+   "page": 8,
+   "reason": "The charge count omits s.304B and the Dowry Prohibition Act counts; the upheld count of 1 is correct."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss arising from the offence is identified."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not stated."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Demands for dowry (Rs.20,000) and harassment of the deceased",
+   "quote": "the husband and in-laws were demanding an amount of Rs.20,000/- from her",
+   "page": 6,
+   "reason": "The judgment identifies dowry demands as the motive, so 'Not identified' is incorrect."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The quoted passage matches the court's acceptance of evidence on cruelty."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found the witnesses reliable, corroborated, and tested on objective parameters."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused were inside the house, then took the deceased to hospital once her condition was critical."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No specific custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only a prayer for bail is mentioned; no bail history is stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence date 12.11.2006; trial judgment 21.11.2009; High Court decision 23.02.2015; Supreme Court decision 14.09.2015",
+   "quote": "on 12.11.2006 at about 11.30 hours",
+   "page": 7,
+   "reason": "The offence date 12.11.2006 is stated, so 'not specified' is wrong."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Complaint lodged (ICR No.172 of 2006); further investigation, panchanama, statements recorded, accused arrested; trial completed",
+   "quote": "The complainant then filed a complaint being I.C.R. No.172 of 2006 before the Kodinar Police Station",
+   "page": 7,
+   "reason": "Charge sheet filing is not stated; the complaint and investigation steps are the documented status."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court dismissal, and partial Supreme Court allowance are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Cruelty by husband and in-laws drove the deceased to suicide; the presumption of abetment under s.113A Evidence Act was relied on",
+   "quote": "the presumption as to the abetment of suicide as per Section 113A of the Indian Evidence Act, 1872, has been clearly proved",
+   "page": 10,
+   "reason": "Omits the s.113A presumption argument; the final sentence states the outcome, not the argument."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "No independent evidence; abetment not proved; s.113A not proved; dying declaration and doctor's deposition not considered by courts below",
+   "quote": "the courts below have not considered the dying declaration of the deceased and the deposition made by the doctor",
+   "page": 9,
+   "reason": "The defence did not rely on the dying declaration's reasoning as the value suggests; it argued the courts ignored it."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Proof beyond reasonable doubt of abetment, with dying declaration and conduct critical, matches the reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The three cases and citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence limited to period undergone due to age and child-care responsibility, as stated."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age and responsibility for a child are the stated mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Jail Superintendent directed to release the appellants forthwith, as stated."
+  }
+ }
+}

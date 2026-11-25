@@ -1,0 +1,13 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same summary, but state that one co-accused allegedly transferred money to the accused's account, and the other co-accused held the car's insurance and registration papers. Omit the court's evidentiary findings.",
+   "quote": "the accused (Virender Singh @ Beerey) who allegedly transferred money to the appellant’s account as payment for the ganja, and the accused (Nepal Yadav @ Tony Pahalwan) from whom the original insurance papers and registration certificate of the car ... was recovered",
+   "page": 14,
+   "reason": "Wrongly calls the two co-accused 'recipients of the transfers'; one was the transferor. It also adds the court's own remarks on missing evidence."
+  }
+ }
+}

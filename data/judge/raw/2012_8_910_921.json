@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Eleven accused",
+   "page": 1,
+   "reason": "Headnote and facts refer to eleven accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Laxman (original Accused No. 2)... is the son of Shetiba",
+   "page": 6,
+   "reason": "Accused are described with male kinship terms and 'he'; male is reasonably supported."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for any accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prior record is not mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Nagoba (the deceased)",
+   "page": 6,
+   "reason": "Victim is male; the judgment refers to him as 'he' and as father and grandfather."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the deceased anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known neighbours from the same village; rival group",
+   "quote": "Both the accused persons and the rival group including that of one Nagoba (the deceased) are residents of the same village",
+   "page": 6,
+   "reason": "Accused and victim were co-villagers in rival groups, with a marriage-related dispute, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Murder - Common intention",
+   "page": 1,
+   "reason": "Offence is murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted A-1,2,3,4, 7 & 10 u/s. 302 r/w s. 149 /PC ... High Court found A-1,2 & 7 guilty u/s.302 r/w s.34",
+   "page": 1,
+   "reason": "Sections 302 r/w 149 (trial) and 302 r/w 34 (High Court and SC) are both stated."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "weapons like axe, stones, sticks etc.",
+   "page": 6,
+   "reason": "Axe, sticks and stones are all identified as weapons used."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness, Medical",
+   "quote": "PW-1, who conducted the post-mortem, opined that the probable cause of death was...",
+   "page": 1,
+   "reason": "Eyewitness and medical evidence are present, but no recovery evidence is mentioned."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no dying declaration was made and recorded",
+   "page": 8,
+   "reason": "No confession is mentioned; only the absence of a dying declaration is discussed."
+  },
+  "aggravating_circumstances": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not identify aggravating circumstances; the listed items are the value's own framing."
+  },
+  "mitigating_circumstances": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The court does not treat these as mitigating; minor accused injuries and victim-saving efforts were used to support the prosecution."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted 6 out of 11 accused ... under Section 302 read with Section 149 of IPC",
+   "page": 2,
+   "reason": "Matches the trial court conviction and life sentence described."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "found A-1,2 and 7 guilty under Section 302 read with Section 34 of IPC ... acquitted A-3,4 and 10",
+   "page": 2,
+   "reason": "Matches the High Court's findings."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "both the appeals are dismissed",
+   "page": 12,
+   "reason": "Supreme Court dismissed the appeals, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has proved its case beyond reasonable doubt in respect of A-1 and A-2 ... and A-7",
+   "page": 12,
+   "reason": "Murder under s.302 r/w s.34 was held proved against A-1, A-2 and A-7."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced them to suffer imprisonment for life",
+   "page": 7,
+   "reason": "Life imprisonment is stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term in years is stated; life imprisonment applies."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs. 500 each (default 7 days simple imprisonment), trial court",
+   "quote": "alongwith a fine of Rs. 500/- each, in default, to further undergo simple imprisonment for 7 days each",
+   "page": 7,
+   "reason": "The trial court imposed a fine of Rs. 500 each, which the value omits."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "The deceased was taken to hospital by PW-3, PW-4, PW-5 and others, who were also injured.",
+   "quote": "the prosecution witnesses made all attempts to save the life of the deceased by taking him to the nearest hospital through a bullock cart",
+   "page": 11,
+   "reason": "Summary wrongly says the accused took the victim to hospital; the injured witnesses did so."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for life",
+   "page": 7,
+   "reason": "Severity is reflected as life imprisonment under s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased died at around 7:30 p.m. on the same day",
+   "page": 11,
+   "reason": "Offence completed with the victim's death."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "cause of death was shock due to head injury with multiple injuries over the body",
+   "page": 12,
+   "reason": "Head injury with multiple injuries leading to death is stated."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "11 accused charged; 6 convicted at trial; 3 finally upheld (A-1, A-2, A-7)",
+   "quote": "found Shetiba (A-1), Laxman (A-2) and Devrao (A-7) guilty",
+   "page": 7,
+   "reason": "Only three convictions were upheld by the High Court and Supreme Court, not six."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment is silent on property loss; 'Not applicable' is an inference, not a stated fact."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Dispute over granddaughter's marriage to PW-5's son; accused alleged the marriage was to gain support",
+   "quote": "scolded him on the pretext of the marriage of his grand daughter with the son of Anjanabai (PW-5)",
+   "page": 6,
+   "reason": "The judgment states a marriage-related motive, not that it is unidentified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PWs 3, 4 and 5 not only witnessed the occurrence but also specified the overt acts of each accused",
+   "page": 10,
+   "reason": "Accurately reflects the court's acceptance of PW-3, PW-4 and PW-5's testimony."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "merely because the witnesses are related to the family of the deceased, their testimonies cannot be eschewed",
+   "page": 9,
+   "reason": "Credibility reasoning, including injuries to PW-3 and PW-4, matches the judgment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the trial judgment was dated 19.07.2003",
+   "page": 7,
+   "reason": "Dates match the judgment, though the field records dates rather than a duration."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Accused: Vikas Upadhyay (A-2), Brij Bhusan (A-1); State: Sushil Karanjakar",
+   "quote": "Mr. Sushil Karanjakar, learned counsel for the respondent-State",
+   "page": 8,
+   "reason": "Karanjakar appeared for the State, not the accused; Nikhilesh Kumar, Sanjay Kharde and Asha Gopalan Nair are not identified as counsel."
+  },
+  "investigation_status": {
+   "verdict": "incorrect",
+   "correct_value": "Crime No. 7/92 registered 20.01.1992 at Dharmabad; Crime No. 6/92 on 19.01.1992 was Devrao's FIR against PW-3, PW-4, PW-5 and others",
+   "quote": "registered as Crime No. 7/92 for the offences punishable under Sections 302",
+   "page": 7,
+   "reason": "Date and crime number are wrong for the accused's case, and no charge sheet is mentioned."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Delay in lodging FIR, no dying declaration, and unexplained minor injuries to accused were argued but held inconsequential",
+   "quote": "the delay in lodging of FIR cannot affect the prosecution case",
+   "page": 11,
+   "reason": "Irregularities were argued and rejected; 'None noted' omits them."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Criminal Appeal No. 605 of 2003 ... Criminal Appeal No. 246 of 2008",
+   "page": 5,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued proper appreciation of evidence, injured eyewitnesses, and no interference warranted",
+   "quote": "on proper appreciation of evidence and the materials, considering the fact that the eye-witnesses were injured",
+   "page": 8,
+   "reason": "Summary attributes the court's reasoning on FIR delay and dying declaration to the prosecution's argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PWs 3, 4 and 5 are relatives of the deceased ... no proper explanation for the delay in lodging of FIR",
+   "page": 8,
+   "reason": "Accurately captures the appellants' arguments on relatives, FIR delay, dying declaration and injuries."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "merely because the witnesses are related to the family of the deceased, cannot be eschewed. However, their testimonies have to be scrutinized carefully",
+   "page": 9,
+   "reason": "Principle on related witnesses and proof beyond reasonable doubt is accurately stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Abdul Rashid Abdul Rahiman Patel & Ors. vs. State of Maharashtra (2007) 9 SCC 1",
+   "page": 9,
+   "reason": "Precedent and citation match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (court gives conviction reasoning only: proof beyond reasonable doubt, common intention)",
+   "quote": "we are satisfied that the prosecution has proved its case beyond reasonable doubt",
+   "page": 12,
+   "reason": "Conviction reasoning is right, but the judgment gives no sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss mitigating factors; 'None' asserts a finding that is not made."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss aggravating factors; 'None' asserts a finding that is not made."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Fine of Rs. 500 each (default 7 days SI) at trial; ss.147/148 r/w 149 convictions with no separate sentence",
+   "quote": "They were also convicted for the offence punishable under Sections 147 and 148 read with Section 149 of IPC, but no separate sentence was awarded",
+   "page": 7,
+   "reason": "Fine and default sentence, plus convictions under ss.147/148 without separate sentence, are stated."
+  }
+ }
+}

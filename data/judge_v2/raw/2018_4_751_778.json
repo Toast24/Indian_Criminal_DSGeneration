@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the case caption and title on the judgment's first page."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Thirteen appellants (Accused 1-5 and 7-14) are before the Court; Accused 6 is dead and 15 did not appeal."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never states the accused's gender; it refers only to 'accused persons' and 'the accused'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated for the accused anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "incorrect",
+   "correct_value": "Non-Scheduled Caste / non-Scheduled Tribe (as alleged in the prosecution's motive; not proved)",
+   "quote": "the accused party belongs to non-SC/ST community",
+   "page": 24,
+   "reason": "The judgment describes the accused's community as non-SC/ST, so 'Not stated' is contradicted."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment makes no statement on the accused's wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record of these accused is mentioned; the separate Raju case is not a prior record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased is referred to as a husband and as 'him' throughout; the victim is male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged Scheduled Caste (prosecution case; not proved by the prosecution)",
+   "quote": "the victim was belonging to SC community",
+   "page": 24,
+   "reason": "The judgment describes the victim as alleged SC, though the prosecution failed to prove it; 'Not stated' omits this."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victim is stated in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Prior dispute alleged: earlier quarrel over Rs.50 in which the deceased slapped Accused No. 4 (alleged, not proved); PW1 said relationship was cordial",
+   "quote": "the relationship between them were cordial",
+   "page": 16,
+   "reason": "The alleged quarrel and cordiality are supported, but 'Neighbour/acquaintance' is not stated for the accused and victim."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The charges are under s.302 IPC read with s.149, so the offence is murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.147, s.148, s.452 r/w s.149, s.302 r/w s.149, s.506; SC/ST (Prevention of Atrocities) Act s.3(i)(x) and 2(v) (as charged/alleged)",
+   "quote": "charge under Section 3(i)(x) and 2(v) of the Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act",
+   "page": 24,
+   "reason": "The value omits the s.2(v) SC/ST Act provision that the judgment expressly mentions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment lists sword, sticks, axe and pipe as the weapons used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, circumstantial, medical, recovery and motive evidence all feature in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by any accused is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court notes no aggravating facts; the brutality point is only the prosecution's argument."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court notes no mitigating facts about the offence or offenders."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The trial court acquitted all accused 1 to 15 after a full trial."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The High Court reversed the acquittal and convicted all except Accused 6, with the stated sentences."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Supreme Court allowed the appeals and restored the trial court's acquittal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence stands after the Supreme Court restored the acquittal."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final sentence was imposed, so 'none' is correct."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fixed-term sentence exists, so null is correct."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine exists after the acquittal, so null is correct."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary is about 270 words, neutral, uses no names, and stops before court proceedings without revealing the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory maximum or minimum punishment for the offence."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death from blood loss due to amputation, incised wounds, and no vital organ injury are all stated."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "6 charged (IPC ss.147, 148, 452 r/w 149, 302 r/w 149, 506; SC/ST Act s.3(i)(x) and 2(v)); 0 finally upheld",
+   "quote": "charge under Section 3(i)(x) and 2(v)",
+   "page": 24,
+   "reason": "Count is ambiguous: the SC/ST charge includes both s.3(i)(x) and s.2(v), and the value omits s.2(v)."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is at issue in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court found no intention to kill or formed unlawful assembly, so no premeditation was found."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Alleged quarrel and caste motive are both identified as alleged and not proved."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Chemical report showing no bloodstains on recovered weapons; contradictions and improvements in witness evidence; PW7's opinion on cause of death noted but found not corroborating",
+   "quote": "the medical evidence is not corroborating with the prosecution's case",
+   "page": 26,
+   "reason": "The Court did not rely on the post-mortem as supporting the prosecution; it found the medical evidence not corroborative."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Related witnesses, PW1's improvements, PW2/3/5 contradictions, and panch and medical failures are all accurately described."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Weapons and clothing recovered at the instance of the accused on disclosure statements; the recoveries were held doubtful",
+   "quote": "alleged weapons used for the crime were recovered",
+   "page": 11,
+   "reason": "The judgment states weapons were recovered at the accused's instance, so 'Not stated' is contradicted."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court noted the accused had undergone about three years' imprisonment before bail."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment says the accused were enlarged on bail, with no date, and bail bonds were discharged."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence date, High Court and Supreme Court dates are given; the trial judgment date is not given, as stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for the accused and for the State are accurately listed from the judgment's appearance and argument paragraphs."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, investigation, panchnamas, charges framed, and trial are all accurately described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court expressly treated the absence of a test identification parade as fatal to the prosecution."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Outcomes at trial court, High Court and Supreme Court are accurately stated."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The State's arguments on minor discrepancies, common object, PW1's conduct and the High Court's assessment match paragraph 12."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The defence points on concoction, interested witnesses, no TIP, no motive, and medical non-corroboration match paragraphs 9-11."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caution on appellate interference, unbroken chain of circumstantial evidence, scrutiny of interested witnesses, and motive principles are all applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The listed precedents match those the Court relied on or referred to in its reasoning."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed after acquittal, so 'Not applicable' is correct."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no mitigating factors for sentence; the prior custody was only noted in passing."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court discharged the bail bonds and disposed of pending applications, as stated."
+  }
+ }
+}

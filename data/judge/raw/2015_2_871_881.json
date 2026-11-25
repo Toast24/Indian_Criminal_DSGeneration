@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants Nos.1 to 3 are named, so three accused is supported."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "the appellant No.3 herein",
+   "page": 4,
+   "reason": "Only the husband (appellant No.3) is clearly male; the gender of appellants Nos.1 and 2 is not stated."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased Truptiben is a woman, referred to as daughter and wife."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are the husband and in-laws of the deceased."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The case is a dowry death under Section 304-B."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.304-B, 498-A, 306 r/w s.114; Evidence Act ss.113-A and 113-B",
+   "quote": "Sections 113A and 1138 of the Indian Evidence Act",
+   "page": 10,
+   "reason": "Omits the Evidence Act presumption provisions; the 'C s.114-8' notation is garbled."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned; the deceased was found hanging from a fan."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Oral testimony of witnesses, documentary evidence, photographs, inquest panchnama, post-mortem",
+   "quote": "the photographs of the dead body at Exhibits 49/1 to 4917 and the inquest Panchnama",
+   "page": 7,
+   "reason": "Recovery is not mentioned and 'circumstantial' is not stated; main evidence is witness testimony and documents."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are stated by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under Sections 498-A, 304-B and 306 read with s.114 IPC",
+   "quote": "the accused were convicted for the offences punishable under Sections 498A, 3048 & 306 IPC read with Section 114 IPC",
+   "page": 7,
+   "reason": "Omits Section 306 (and s.114 read with) from the trial court conviction."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed the appeal and upheld the conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so the conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry death under s.304-B is the principal offence upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state any sentence type."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No term of imprisonment is mentioned anywhere in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount is stated, so null is appropriate."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts only, without stating the trial, High Court or Supreme Court outcome; accused surrendered rather than being arrested",
+   "quote": "the appellants surrendered themselves at the Morbi City Police Station",
+   "page": 6,
+   "reason": "Says accused were arrested, though they surrendered; also reveals the court outcomes, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory sentencing range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased died by suicide, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the deceased died by suicide after cruelty and harassment."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charged under 498-A, 304-B and 306; convictions discussed under 304-B and 498-A."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed; 'Not applicable' matches not stated."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "there was cruelty meted out to the deceased immediately before her unfortunate death",
+   "page": 11,
+   "reason": "Judgment does not discuss premeditation; it only finds cruelty immediately before death."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused demanded dowry and harassed the deceased for insufficient dowry."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on testimony of PW-1, PW-7, PW-8 and PW-9 on torture and dowry demands."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found witness versions supportive and established dowry demands, consistent with the value."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused absconded 36 days and surrendered at Morbi City Police Station on 29.04.2000."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complaint date, High Court date and Supreme Court date match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR/complaint number, investigation and surrender date are supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court upholding and Supreme Court dismissal are accurately reflected."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's reasoning on suicide within seven years and cruelty proved by witnesses."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches counsel's contentions on s.304-B/306 and unreliable interested witnesses."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the non-inclusive 304-B/498-A principle and s.113-B presumption reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Balwant Singh, Iqbal Singh, Dinesh and Thanu Ram are listed as relied upon."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no sentencing rationale; 'Not applicable' matches not stated."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are expressly identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is mentioned."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three appellants are named (Nos.1, 2 and 3) and their liability is decided."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Mixed",
+   "quote": "her husband appellant No.3 herein",
+   "page": 4,
+   "reason": "Accused include a male husband and in-laws, so 'Not stated' is incomplete; the judgment does not state the in-laws' gender explicitly."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The accused's occupation is not stated; only the father's bank job is mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on the accused's wealth or class appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim, Truptiben, is a married daughter referred to as female."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victim is mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Spouse (husband); Relative (in-laws, husband's family)",
+   "quote": "with her in-laws appellant Nos.1 and 2 and her husband appellant No.3",
+   "page": 5,
+   "reason": "Spouse and in-laws are correct, but 'parents-in-law' is not stated in the judgment."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case is framed under dowry death provisions (s.304-B)."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches IPC ss.498-A, 304-B, 306 r/w 114 and Evidence Act ss.113-A and 113-B."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned; death was by hanging from a fan."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Testimonial, documentary (photographs, inquest panchnama) and post-mortem evidence are all referred to."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry demands, harassment and death within seven years are all noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under the three sections is stated; the sentence is not given in the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed the appeal and upheld the trial court's sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so the conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions under ss.498-A, 304-B and 306 r/w 114 were upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the sentence imposed, so not_stated is correct."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence term is stated, so null is correct."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary covers incident, investigation and evidence without names or court outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory punishment range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death by hanging from a fan is described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three sections charged and all three convictions were upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment makes no finding on premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted dowry demand and harassment for insufficient dowry as the basis."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Testimony of PW-1, PW-7, PW-8, PW-9 and documentary evidence is relied on."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court relied on the version of PW-1, PW-7, PW-8 and PW-9 to find reasonable apprehension; it did not expressly address the interested-witness objection",
+   "quote": "going by the version provided by PW-1. PW-7, PW-8 and PW-9, there is a reasonable apprehension of the crime",
+   "page": 9,
+   "reason": "Court accepted the witnesses' version, but never expressly rejected the 'interested witnesses' argument."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 6,
+   "reason": "Absconding for thirty-six days and surrender on 29.04.2000 are recorded."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody period is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail decisions are mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence, High Court and Supreme Court dates are given; trial judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants' and respondent's counsel are listed in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accidental registration, CR No.92/2000 and completed investigation with trial are all noted."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural lapse is noted by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court dismissal and Supreme Court dismissal are all accurately listed."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not record the prosecution's arguments in the Supreme Court."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 8,
+   "reason": "Kishori Lal, interested witnesses, lack of cruelty before death and Matru absconding argument are all recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 9,
+   "reason": "Non-inclusiveness of ss.304-B and 498-A and the ss.113-A/113-B presumptions are applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 10,
+   "reason": "Balwant Singh, Iqbal Singh, Dinesh and Thanu Ram are the authorities expressly relied on."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given; the court only upheld convictions."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 10,
+   "reason": "Suicide within seven years and cruelty immediately before death were weighed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No compensation, directions or other orders are given."
+  }
+ }
+}

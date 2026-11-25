@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "incorrect",
+   "correct_value": "6 (appellant and five others named in FIR)",
+   "quote": "directed lodging of an FIR against the appellant and five others",
+   "page": 968,
+   "reason": "Judgment names the appellant plus five others, not a single accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant's gender is not stated."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age given for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant's occupation is not stated; only respondent No.2's occupation is given."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not discussed in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No individual victim identified; not stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Corruption (Prevention of Corruption Act) with IPC cheating/forgery offences",
+   "quote": "offences involved are under the Prevention of Corruption Act",
+   "page": 970,
+   "reason": "'Other' is vague; the judgment centres on Prevention of Corruption Act offences."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the IPC and PC Act sections in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon involved; none mentioned."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No evidence discussed; not stated."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment is silent on confessions; 'None' is asserted without support."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing-type aggravating factors identified for the accused."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances identified."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No trial outcome; charges not yet framed."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court disposed of application directing expedition of proceedings."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal allowed; High Court order set aside; s.482 application dismissed; trial pending",
+   "quote": "the appeal is allowed, judgment of the High Court dated 09.09.2020 is set aside",
+   "page": 973,
+   "reason": "Accused was not acquitted; trial was still pending at judgment."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence finally established; trial has not concluded."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term given."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "High Court allowed respondent's application and directed trial court to expedite; Supreme Court later set aside that order. Delay attributed by respondent to accused's tactics.",
+   "quote": "the application stands disposed of directing the Court concerned to expedite the proceedings",
+   "page": 969,
+   "reason": "Wrongly says High Court dismissed the application; it directed expedition. Also presents delay cause as settled fact."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Severity not graded in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm discussed."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charged sections correctly listed; no conviction, so final upheld is not stated."
+  },
+  "financial_property_loss": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss any loss; 'Not applicable' asserts more than the text supports."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "criminal trial where offences involved are under the Prevention of Corruption Act have to be conducted and concluded at the earliest",
+   "page": 970,
+   "reason": "Judgment discusses no evidence; the value restates a legal principle as evidence."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "Respondent No.2 is in no way connected with initiation of criminal proceeding",
+   "page": 970,
+   "reason": "No witnesses or credibility assessment; the locus finding is misplaced here."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused post-offence conduct discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "FIR lodged 09.01.2006 (per respondent); charge-sheet 23.05.2020; HC order 09.09.2020; SC judgment 16.12.2020; trial not concluded",
+   "quote": "charge-sheet dated 23.05.2020 was filed",
+   "page": 968,
+   "reason": "23.05.2020 is the charge-sheet date, not a trial judgment; trial is not concluded."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "State counsel appeared (unnamed in para 7; Sharan Thakur, AAG listed); appellant's counsel unnamed",
+   "quote": "Learned counsel for the State submits that all criminal trials",
+   "page": 970,
+   "reason": "State counsel is referenced and AAG listed in the header, so 'Not stated' overlooks this."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR and charge-sheet dates match; trial completion not stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant alleged High Court passed order without notice to him and without disclosure of stay; court made no finding",
+   "quote": "the High Court without issuing any notice to the appellant",
+   "page": 969,
+   "reason": "'None noted' omits the appellant's alleged procedural lapses, though the court did not rule on them."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the HC order of 09.09.2020 and the Supreme Court outcome."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued such trials must be held day to day and no exception could be taken to the High Court order",
+   "quote": "have to be held on day to day basis and no exception can be taken to the order passed by the High Court",
+   "page": 970,
+   "reason": "'Justice delivered if found guilty' is the court's reasoning, not the State's argument."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant argued respondent No.2 lacked locus standi, no notice was issued, and the stay was not disclosed to the High Court",
+   "quote": "no locus standi to file a petition under Section 482 Cr.P.C.",
+   "page": 969,
+   "reason": "Captures locus argument but misstates the application as challenging proceedings; omits notice and non-disclosure points."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's expedition and third-party locus reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Janata Dal v. H.S. Chowdhary, (1993) 1 SCC 756, is the precedent relied upon."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors noted by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors noted by the court against the accused."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence orders; only a trial-expedition observation."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the case caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "who are the father, mother and brother of the appellant",
+   "page": 3,
+   "reason": "Appellant plus three family members makes four accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appellant-husband",
+   "page": 2,
+   "reason": "The accused is the husband."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused appears in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "Painter at Delhi at marriage; later employed in Gulf countries",
+   "quote": "the appellant was employed as a Painter at Delhi and after marriage... secured an employment in Gulf countries",
+   "page": 14,
+   "reason": "Painter was only his occupation at marriage; he later worked in the Gulf."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Lillikutty",
+   "page": 3,
+   "reason": "The victim is the wife, Lillikutty."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the victim is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the 1st accused married Lillikutty",
+   "page": 3,
+   "reason": "They were husband and wife."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Cruelty to wife and abetment of suicide",
+   "quote": "offences punishable under Sections 498A and 306 IPC",
+   "page": 3,
+   "reason": "The offences are s.498A and s.306 IPC, not culpable homicide."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted the appellant/1st accused under Sections 498A and 306 IPC",
+   "page": 4,
+   "reason": "Provisions are correct."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon was used by the accused."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Oral testimony of PWs 1-15, documents (Exs. P-1 to P-25), post-mortem report, material objects",
+   "quote": "PWs 1 to 15 were examined and Exs. P-1 to P-25 were marked and MOs 1 to 18 were identified",
+   "page": 4,
+   "reason": "Medical and material evidence are present, but 'circumstantial' is not stated and witness testimony is omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they denied all the incriminating evidence",
+   "page": 4,
+   "reason": "No confession; the accused denied the allegations."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court identifies no specific aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Only four visits to India in 1988-96; efforts at mediation before the suicide",
+   "quote": "The appellant also appears to have taken efforts for mediation to settle the differences",
+   "page": 14,
+   "reason": "The Court did note mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under s.498A (2 years RI, fine Rs.5,000) and s.306 (7 years RI, fine Rs.50,000); sentences consecutive",
+   "quote": "sentenced him to undergo two years of rigorous imprisonment and to pay a fine of Rs.5,000/-",
+   "page": 4,
+   "reason": "Omits the s.498A sentence and the consecutive direction."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court confirmed the conviction and also the sentence of imprisonment imposed upon all the accused.",
+   "page": 4,
+   "reason": "Accurate."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Conviction upheld; appeal partly allowed, sentences ordered to run concurrently",
+   "quote": "the appeal allowed in part to the extent as indicated above",
+   "page": 15,
+   "reason": "Conviction stands but the sentence was modified."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Cruelty (s.498A IPC) and abetment of suicide (s.306 IPC)",
+   "quote": "convicted the appellant/1st accused under Sections 498A and 306 IPC",
+   "page": 3,
+   "reason": "Not culpable homicide."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fixed-term rigorous imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "2 years and 7 years respectively",
+   "page": 5,
+   "reason": "Sentences run concurrently, so the effective term is 7 years."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "Rs.5,000 (s.498A) plus Rs.50,000 (s.306)",
+   "quote": "pay a fine of Rs.5,000/-",
+   "page": 4,
+   "reason": "Rs.50,000 is only the s.306 fine; total fines were Rs.55,000."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Lillikutty poured kerosene oil on herself",
+   "page": 3,
+   "reason": "Consistent with the judgment and does not reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for 2 years and 7 years respectively",
+   "page": 5,
+   "reason": "Accurate."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The suicide was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Lillikutty committed suicide by hanging",
+   "page": 3,
+   "reason": "The victim died by suicide following the alleged ill-treatment."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 4,
+   "reason": "Two offences, s.498A and s.306 IPC, were upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial loss is involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in a period of eight years from 1988-1996, he came on leave to India for only four times",
+   "page": 14,
+   "reason": "Matches the facts the Court relied on."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The Court did not assess witness credibility; the appeal concerned only concurrent sentences."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence/suicide 23.2.1996; High Court judgment 27.11.2013; Supreme Court 11.11.2014; trial court date not stated",
+   "quote": "From the Judgment & Order dated 27.11.2013 of the High Court of Kerala",
+   "page": 3,
+   "reason": "27.11.2013 is the High Court date, not the trial judgment date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Jayanth Muth Raj, Nishe Rajen Shanker for the Appellant. Bina Madhavan, Ramesh Babu M.R., for the Respondents.",
+   "page": 3,
+   "reason": "Counsel names are as given (Nishe Rajen Shanker omitted)."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Initially FIR was registered for unnatural death under Section 174 Cr.P.C.",
+   "page": 4,
+   "reason": "Accurate."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted with consecutive sentences; High Court confirmed; Supreme Court partly allowed, making sentences concurrent",
+   "quote": "The High Court confirmed the conviction and also the sentence",
+   "page": 4,
+   "reason": "Wrongly says the trial court 'confirmed'; the trial court convicted and sentenced."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State supported the courts below on consecutive sentences, relying on Duryodhan Rout",
+   "quote": "supported the view taken by the courts below. Learned counsel placed reliance on ... Duryodhan Rout",
+   "page": 7,
+   "reason": "Gives the trial case, not the State's argument before the Supreme Court."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 31 Cr.P.C. vests a discretion in the Court to direct that the punishment shall run concurrently",
+   "page": 7,
+   "reason": "Accurate."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 31 Cr.P.C. leaves full discretion with the Court",
+   "page": 13,
+   "reason": "Accurate."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 2,
+   "reason": "The cases listed are those cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Keeping in view the totality of the facts and circumstances of the case",
+   "page": 15,
+   "reason": "Accurate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant also appears to have taken efforts for mediation",
+   "page": 14,
+   "reason": "Accurate."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are cited."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "are ordered to run concurrently",
+   "page": 15,
+   "reason": "Accurate."
+  }
+ }
+}

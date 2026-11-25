@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption on page 1."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Page 2 states 'the 3 accused came to the house of Raja Singh'."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are named Jagga Singh, Jagtar Singh and Kaka Singh; the judgment refers to them as male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not stated; 'Singh' names do not establish it."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prior criminal record is not mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victims Hoshiar Singh and Baggar Singh are referred to as male, with 'his' used on page 3."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the 3 accused came to the house of Raja Singh",
+   "page": 2,
+   "reason": "The judgment does not describe any relationship between accused and victims; 'Stranger' is not supported."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Grievous hurt (s.325 IPC r/w s.34); murder charge under s.302 acquitted",
+   "quote": "guilty under Section 325 IPC read with Section 34 IPC",
+   "page": 3,
+   "reason": "Court acquitted on s.302 and found culpable homicide not established; the upheld offence is grievous hurt."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302, s.307, s.325, s.34",
+   "quote": "convicted ... under Section 307 IPC",
+   "page": 2,
+   "reason": "Omits s.307 IPC, under which the trial court convicted the accused."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Page 2 refers to gun shots fired at Baggar Singh and Hoshiar Singh."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Medical (post mortem report); occurrence/eyewitness-type evidence of firing",
+   "quote": "the post mortem examination on the dead body of the deceased found that there were only lacerated wounds",
+   "page": 2,
+   "reason": "Medical evidence is supported, but 'circumstantial' is not stated and eyewitness-type evidence is omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned, so the judgment is silent on it."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The trial Court convicted Jagga Singh to 7 years R.I. and a fine under Section 307 IPC.",
+   "page": 2,
+   "reason": "Trial court convicted under s.307 IPC, as stated on page 2."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they were convicted under Section 302.",
+   "page": 2,
+   "reason": "High Court convicted under s.302 on the State's appeal, per page 2."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Acquitted of s.302 IPC; convicted under s.325 r/w s.34 IPC; sentence modified to period already undergone",
+   "quote": "they are acquitted of charge under Section 302 IPC",
+   "page": 3,
+   "reason": "'Acquitted' omits that the appellants were convicted under s.325 r/w s.34 IPC."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Grievous hurt under s.325 IPC read with s.34 IPC",
+   "quote": "the appellants are guilty under Section 325 IPC read with Section 34 IPC",
+   "page": 3,
+   "reason": "The judgment establishes s.325 r/w s.34 IPC, so 'None' is contradicted."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Sentence of period already undergone (type not specified)",
+   "quote": "we award the sentence of the period already undergone by the appellants",
+   "page": 3,
+   "reason": "A sentence was awarded, though a period already undergone rather than none; type is unspecified."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No specific number of years is stated for the final sentence."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the Supreme Court's final order."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution case: three accused came to Raja Singh's house; one fired at Baggar Singh, who fell; accused took Hoshiar Singh away; 3-4 shots heard about 20 minutes later; body found next morning; post mortem showed only lacerated wounds; trial court convicted under s.307 and High Court under s.302.",
+   "quote": "leading to the acquittal of the accused on that charge",
+   "page": 2,
+   "reason": "Facts are accurate, but the final sentence reveals the Supreme Court's acquittal outcome, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state punishment ranges for s.302 or any other section."
+  },
+  "attempt_completion": {
+   "verdict": "partially_correct",
+   "correct_value": "Completed as to Hoshiar Singh's death (s.302 charge failed); attempt/hurt as to Baggar Singh",
+   "quote": "convicted under Section 307 IPC",
+   "page": 2,
+   "reason": "'Attempt' fits only the Baggar Singh shooting; the death was alleged, and the trial court's s.307 conviction is not fully reflected."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Gunshot injury to Baggar Singh's right thigh/leg; deceased Hoshiar Singh had only lacerated wounds, no gunshot wound",
+   "quote": "fired at Baggar Singh on his right thigh",
+   "page": 2,
+   "reason": "Omits the gunshot injury to Baggar Singh, which the court relied on for the s.325 conviction."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One count upheld: s.325 IPC r/w s.34; s.302 charge acquitted",
+   "quote": "they are acquitted of charge under Section 302 IPC",
+   "page": 3,
+   "reason": "Section 302 was not upheld; only the s.325 r/w s.34 count survived in the Supreme Court."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment mentions no financial or property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not stated in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is mentioned in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "admittedly a gun shot was fired at Baggar Singh which hit him in the leg",
+   "page": 3,
+   "reason": "Court accepted the admitted firing at Baggar Singh and the post mortem finding of no gunshot wound."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "No witness credibility finding stated; court found some doubt in prosecution version on s.302 based on post mortem findings",
+   "quote": "some doubt is created in the prosecution version regarding the charge under Section 302 IPC",
+   "page": 2,
+   "reason": "Doubt arose from medical evidence, not witness credibility; 'credibility issues' overstates the reasoning."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is mentioned in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; only 'period already undergone' is mentioned."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "On 14.09.2007 the Court suspended the sentence pending appeal on personal bonds of Rs. 20,000 with two sureties of Rs. 10,000 each",
+   "quote": "the sentence of imprisonment imposed on the appellants shall remain suspended during the pendency of the Appeal",
+   "page": 3,
+   "reason": "The judgment does state bail-related history, so 'Not stated' is contradicted."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence date: 24.4.92; High Court judgment: 4.12.2006; Supreme Court judgment: 03.02.2011; trial court judgment date not stated",
+   "quote": "Criminal Appeal ... dated 4.12.2006 of the High Court",
+   "page": 1,
+   "reason": "4.12.2006 is the High Court judgment date; the trial court judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rajiv Garg, Ashish Garg and Annam D.N. Rao for the Appellant. Kuldip Singh for the Respondent.",
+   "page": 1,
+   "reason": "Counsel names match page 1."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial completed; charge sheet not stated",
+   "quote": "Their bonds are discharged accordingly.",
+   "page": 3,
+   "reason": "Trial completion is supported, but the charge sheet filing is not mentioned in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeals of the accused to the High Court were dismissed, but the appeal of the State ... was allowed",
+   "page": 2,
+   "reason": "Matches the trial, High Court and Supreme Court outcomes on page 2 and 3."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution case was that Hoshiar Singh was taken away by the accused and after 15/20 minutes gun shots were heard",
+   "page": 2,
+   "reason": "Summarises the prosecution case on page 2; the 's.302 conviction sought' is a reasonable inference."
+  },
+  "defence_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records no defence counsel argument; the post mortem point is the court's own reasoning."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants are entitled to get the benefit of doubt so far as offence under Section 302 Indian Penal Code is concerned",
+   "page": 2,
+   "reason": "Benefit of doubt principle is applied on page 2."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On that count we award the sentence of the period already undergone by the appellants.",
+   "page": 3,
+   "reason": "Sentence tied to s.325 r/w s.34 conviction for the gunshot injury, per page 3."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentence of imprisonment imposed on the appellants shall remain suspended during the pendency of the Appeal",
+   "page": 3,
+   "reason": "Suspension and bond terms match page 3."
+  }
+ }
+}

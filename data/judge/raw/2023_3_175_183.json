@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "4 accused tried; 3 appellants before the Supreme Court",
+   "quote": "acquitted the accused no.4 Santosh Jangamshetti",
+   "page": 2,
+   "reason": "Four accused were tried; accused no.4 was acquitted by the Sessions Court, so only three appealed."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused include mother-in-law, father-in-law (women and men) and husband, so mixed is supported."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated for the accused."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated for the accused."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is stated for the accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased is referred to as a daughter and wife; victim is female."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused were parents-in-law, brother-in-law and husband of the deceased."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Abetment of suicide",
+   "quote": "306. Abetment of suicide.",
+   "page": 4,
+   "reason": "The offence charged is abetment of suicide under s.306 IPC, not culpable homicide."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.498A r/w s.34; IPC s.306 r/w s.34; s.107 IPC; s.113A Evidence Act",
+   "quote": "Section 113A of the Evidence Act",
+   "page": 8,
+   "reason": "Omits s.107 IPC and s.113A Evidence Act, which the judgment discusses at length."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned; death was by drowning in a well."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Oral testimony, documentary evidence, medical (post-mortem) evidence",
+   "quote": "adduced the documentary evidence",
+   "page": 3,
+   "reason": "Omits oral and documentary evidence; 'circumstantial' is not described by the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sessions Court convicted and sentenced on s.498A and s.306 r/w s.34 with imprisonment and fine."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court confirmed the conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Partly allowed: s.306 acquittal; s.498A conviction upheld",
+   "quote": "upholding the conviction of the appellants under Section 498A, we acquit the appellants from the charges levelled against them under Section 306",
+   "page": 9,
+   "reason": "Appeal was partly allowed; the s.498A conviction was upheld, not simply acquittal."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Section 498A r/w s.34 IPC (cruelty/harassment for dowry)",
+   "quote": "the prosecution had successfully brought home the charges levelled against them so far as the offence under Section 498A read with Section 34 of IPC was concerned",
+   "page": 4,
+   "reason": "The s.498A r/w s.34 offence was established; the judgment says so explicitly."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Simple imprisonment",
+   "quote": "sentenced them to undergo simple imprisonment for a period of two years",
+   "page": 3,
+   "reason": "The judgment states simple imprisonment, not 'not_stated'."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": "2 years (s.498A r/w s.34); 5 years (s.306 r/w s.34) at trial",
+   "quote": "simple imprisonment for a period of two years ... simple imprisonment for a period of five years",
+   "page": 3,
+   "reason": "Sentences of two and five years are stated, so null is wrong."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs. 2,000 each (s.498A); Rs. 5,000 each (s.306)",
+   "quote": "a fine of Rs. 2,000/- each ... a fine of Rs.5,000/- each",
+   "page": 3,
+   "reason": "Fines are stated in the judgment, so null is incorrect."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts of marriage, dowry harassment allegations, body found in well, drowning/asphyxia; no outcome stated",
+   "quote": "The prosecution failed to establish that the accused had abetted the deceased's suicide",
+   "page": 9,
+   "reason": "Facts are accurate, but the final sentence reveals the court's s.306 outcome, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Maximum 10 years (s.306); minimum not stated",
+   "quote": "shall be punishable with imprisonment of either description for a term which may extend to ten years",
+   "page": 4,
+   "reason": "Maximum of ten years is supported; the 6-month minimum is not in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased died; the suicide/death was completed."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Death by drowning as a result of asphyxia; injuries noted in post-mortem but not linked to harassment",
+   "quote": "due to drowning as a result of Asphyxia",
+   "page": 7,
+   "reason": "Drowning from asphyxia is correct, but the judgment does not attribute injuries to harassment."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Two offences charged (s.498A and s.306, each r/w s.34); one upheld",
+   "quote": "for the offences under Section 498A and Section 306 read with Section 34 of IPC",
+   "page": 2,
+   "reason": "The judgment shows two offences charged, not three counts."
+  },
+  "financial_property_loss": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state financial or property loss; 'not applicable' is an unsupported assertion."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is discussed."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Dowry demands; harassment for additional gold and cash",
+   "quote": "on account of demand of dowry",
+   "page": 3,
+   "reason": "The judgment identifies dowry demands for cash and gold as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Harassment evidence accepted for s.498A; no clinching evidence of abetment found."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Witnesses PW-10, 11, 12, 14 turned hostile; court accepted harassment evidence for s.498A, while PW-1's cross-examination undermined knowledge of the death",
+   "quote": "PW-10, PW-11, PW-12 and PW-14 had turned hostile",
+   "page": 3,
+   "reason": "Court accepted harassment evidence as credible; the undermining concerned knowledge of how the death occurred."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused no.3 told PW-1 by phone that the deceased had accidentally slipped into the well; all accused were present when the body was taken out",
+   "quote": "the accused no. 3 had informed her on telephone that her daughter-Jayashree had accidentally slipped",
+   "page": 7,
+   "reason": "The judgment describes the accused's telephone statement and presence at the well, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants already undergone two years' imprisonment",
+   "quote": "the appellants have already undergone the imprisonment for a period of two years",
+   "page": 9,
+   "reason": "The judgment states the custody period of two years served."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Complaint registered with Bableshwar Police Station; trial conducted",
+   "quote": "The said complaint came to be registered against the accused",
+   "page": 3,
+   "reason": "Complaint registration and trial are stated; charge sheet filing is not mentioned."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted; hostile witness cross-examination was permitted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court dismissal, and Supreme Court partly allowed match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Court found the prosecution proved harassment and s.498A r/w s.34; no recorded prosecution submissions",
+   "quote": "the prosecution had successfully brought home the charges",
+   "page": 4,
+   "reason": "Content reflects the court's finding, not recorded prosecution submissions."
+  },
+  "defence_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not record defence submissions; the quoted reasoning is the court's own finding."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court required instigation, conspiracy or intentional aid and a positive act for s.306 conviction."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "M. Mohan and Mangat Ram citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rationale matches: s.498A upheld, s.306 acquittal for lack of evidence, two years already served."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court does not identify mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court does not identify aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Direction to set the appellants free forthwith",
+   "quote": "it is hereby directed to set free the appellants forthwith",
+   "page": 9,
+   "reason": "The judgment directs the appellants be set free forthwith, which is an other sentence order."
+  }
+ }
+}

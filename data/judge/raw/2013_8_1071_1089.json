@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "SHARANJIT KAUR & ANR. v. STATE OF PUNJAB",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "against Sharanjit Kaur, Mukhtiar Singh, Manjit Kaur and Kirandeep @ Mandeep Kaur",
+   "page": 4,
+   "reason": "The FIR names four accused persons."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sharanjit Kaur, Mukhtiar Singh, Manjit Kaur and Kirandeep @ Mandeep Kaur",
+   "page": 4,
+   "reason": "Three women and one man are named, so mixed is supported."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of any accused is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is stated for the accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated for the accused."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "one Kahan Singh, r/o Village Chugawan Roopamali",
+   "page": 4,
+   "reason": "The complainant, who was defrauded, is a male named Kahan Singh."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No relationship between accused and complainant is stated."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Cheating/fraud (IPC s.420)",
+   "quote": "under Section 420 of the Indian Penal Code, 1860",
+   "page": 4,
+   "reason": "Offence is cheating under s.420 IPC, not culpable homicide."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.420; Punjab Panchayati Raj Act 1994 ss.4(2), 5, 44-51, 71, 77; CrPC s.438, s.173; Gram Nyayalayas Act 2008 s.3(3)",
+   "quote": "under Section 420 of the Indian Penal Code, 1860",
+   "page": 4,
+   "reason": "Only IPC s.420 is listed; the PPR Act, CrPC and other provisions are omitted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in a fraud case."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR/written complaint; dishonoured cheque No. 534873; complainant's affidavit; police report under s.173 (referenced generally)",
+   "quote": "The complainant has also filed an affidavit highlighting all these details.",
+   "page": 7,
+   "reason": "Omits the dishonoured cheque and the complainant's affidavit."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Serious nature of allegations; Rs. 30 lakh fraud; common practice of duping innocent rustic villagers",
+   "quote": "the offence of Section 420 IPC where the allegations are of a serious nature and the appellants has duped of Rs. 30 lakhs",
+   "page": 19,
+   "reason": "Judgment states serious allegations and large fraud as aggravating features."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "which were dismissed vide orders dated 19.04.2012 and 18.05.2012 respectively",
+   "page": 4,
+   "reason": "The Additional Sessions Judge dismissed anticipatory bail applications."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court dismissed anticipatory bail petitions (23.07.2012 and 03.05.2012); writ petition dismissed 07.11.2012",
+   "quote": "dismissed by orders dated 23.07.2012 and 03.05.2012 respectively",
+   "page": 5,
+   "reason": "High Court outcomes are stated; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeals dismissed; no acquittal",
+   "quote": "Consequently, both the appeals fail and are accordingly dismissed.",
+   "page": 19,
+   "reason": "Supreme Court dismissed the appeals; no acquittal occurred."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No finding of guilt on the offence is made; the case was only sent to regular court."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is imposed."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without the Supreme Court's holding (remove the final sentence stating the outcome and reasoning)",
+   "quote": "The Supreme Court dismissed the appeals, holding that the investigation should be conducted by the police",
+   "page": 19,
+   "reason": "Facts summary reveals the court outcome, which the rules forbid."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the punishment range for s.420 IPC."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "duped of Rs. 30 lakhs from the complainant",
+   "page": 19,
+   "reason": "Money was taken and a cheque dishonoured, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned in a cheating case."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence charged: IPC s.420 (1). No offence finally established or upheld.",
+   "quote": "the offence of Section 420 IPC",
+   "page": 19,
+   "reason": "One s.420 charge is supported, but no offence was finally upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "duped of Rs. 30 lakhs from the complainant",
+   "page": 19,
+   "reason": "Rs. 30 lakh loss is stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is expressly discussed."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Financial gain by taking Rs. 30 lakhs under pretext of sending complainant's son to America for a job",
+   "quote": "on the pretext of sending his son-Gurpreet Singh to America for a permanent job",
+   "page": 4,
+   "reason": "The judgment states the motive as obtaining money via a false job promise."
+  },
+  "key_evidence_accepted": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (no evidentiary findings); complainant's affidavit and dishonoured cheque were noted as State's material",
+   "quote": "The complainant has also filed an affidavit highlighting all these details.",
+   "page": 7,
+   "reason": "The Court made no evidentiary acceptance findings; it only referenced allegations and the affidavit."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "It is also pointed out by the State that the accused persons failed to join the enquiry proceedings",
+   "page": 7,
+   "reason": "Non-appearance was the State's submission, not a court credibility assessment of witnesses."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Non-appearance is only the State's allegation, not a court finding on conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody period is stated; interim protection is mentioned only."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Anticipatory bail dismissed by ASJ (19.04.2012, 18.05.2012) and High Court (03.05.2012, 23.07.2012); SC stayed co-accused's arrest on 21.09.2012",
+   "quote": "this Court, while issuing notice, stayed the arrest of the co-accused",
+   "page": 5,
+   "reason": "Detailed anticipatory bail history is stated in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mr. R.K. Kapoor, learned counsel for the appellants, Mr. Ajay Kapur, learned AAG for the respondent-State and Mr. A.S.Chandhiok, learned ASG as amicus curiae",
+   "page": 5,
+   "reason": "Counsel details match the judgment."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR lodged 03.04.2012; trial court orders 19.04.2012 and 18.05.2012; High Court orders 03.05.2012, 23.07.2012, 07.11.2012; Supreme Court judgment July 1, 2013",
+   "quote": "On 03.04.2012, a First Information Report (FIR) being No. 17 was lodged",
+   "page": 4,
+   "reason": "03.04.2012 is the FIR date, not offence date; trial-court dates are mislabelled as trial judgment."
+  },
+  "investigation_status": {
+   "verdict": "incorrect",
+   "correct_value": "Investigation to be conducted by police only; no s.173 report or transfer to Gram Panchayat recorded as completed",
+   "quote": "the investigation is to be conducted by the police authorities only",
+   "page": 19,
+   "reason": "Judgment directs police investigation; it does not record a completed report or actual transfer."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is found; Gram Panchayat jurisdiction was only argued."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Vide order dated 20.07.2012, this Court, dismissed the same.",
+   "page": 5,
+   "reason": "Trial court, High Court and Supreme Court dispositions are broadly supported by the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is the stand of the State that criminal courts have no bar for initiation of proceedings against the accused",
+   "page": 7,
+   "reason": "State's argument on serious allegations and police investigation is supported."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in view of Sections 4(2), 5, 44-51, 71 and 77 etc. of the Punjab Panchayati Raj Act, 1994",
+   "page": 5,
+   "reason": "Appellants' PPR Act argument is accurately summarised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the power of the police cannot be abridged or taken away under any circumstances",
+   "page": 8,
+   "reason": "Principle that police power is not abridged and Gram Panchayat lacks jurisdiction until investigation ends is supported."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 14,
+   "reason": "All listed precedents are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (no sentence imposed); Court held the s.420 case should be tried by regular criminal court",
+   "quote": "should be tried by the regular criminal court only and not by the Gram Panchayat",
+   "page": 19,
+   "reason": "Reasoning about forum is supported, but no sentence was imposed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are stated by the Court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Serious nature of allegations; Rs. 30 lakh fraud; practice of duping rustic villagers",
+   "quote": "the allegations are of a serious nature and the appellants has duped of Rs. 30 lakhs",
+   "page": 19,
+   "reason": "Court expressly relies on serious allegations and large fraud as aggravating."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeals dismissed; interim protection granted earlier stood vacated",
+   "quote": "Interim protection granted earlier shall stand vacated.",
+   "page": 19,
+   "reason": "Interim protection vacation is omitted; 'None' is incorrect."
+  }
+ }
+}

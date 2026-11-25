@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "STATE OF A. P. v. M. SOHAN BABU & ANR.",
+   "page": 1,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the two accused, duly armed, had entered the premises",
+   "page": 4,
+   "reason": "Two accused, A1 and A2."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "A2 thereupon took out a knife from the right side of his hip pocket",
+   "page": 3,
+   "reason": "Judgment uses 'his' for A2, so male is a reasonable inference, though it is not explicitly stated for both accused."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated for the accused."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Mixed",
+   "quote": "stabbed him on the lower part of the right arm as well",
+   "page": 3,
+   "reason": "Victims include the deceased and injured witnesses; all appear male per the text ('him'), but the sister P.W.3 Ezzard Moss is described as wife of P.W.4, so there is some ambiguity."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated; names not to be used."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The accused duly armed had entered the house of the deceased",
+   "page": 4,
+   "reason": "No prior connection described; they were intruders."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "restore that of the trial court",
+   "page": 5,
+   "reason": "The s.302 murder conviction restored."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Sections 302/34, 460 and 324 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "armed with knives which they had used repeatedly and effectively",
+   "page": 5,
+   "reason": "Knives."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "relying on the evidence of the aforesaid witnesses as supported by the medical evidence",
+   "page": 3,
+   "reason": "Eyewitness and medical evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "entered the premises at mid night duly armed with the intention of committing robbery",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted and sentenced the accused under Sections 302/34, 460 and 324",
+   "page": 3,
+   "reason": "Sentence terms not given."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "modified the conviction to one under Section 304 Part I IPC (while acquitting the accused of the offence under Section 302)",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "restore that of the trial court",
+   "page": 5,
+   "reason": "Conviction restored."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "set aside this part of the High Court judgment and restore that of the trial court",
+   "page": 5,
+   "reason": "Trial court convictions restored."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence not stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove 'a railway hospital' ambiguity is fine; but 'Other occupants... overpowered' and 'second accused ... another relative' are mostly accurate; the summary names the victim as a sportsman? No. Main issue: it says first accused stabbed relative in arm, which is correct.",
+   "quote": "P.Ws.1 and 2 over powered A-2 and pushed him from balcony",
+   "page": 3,
+   "reason": "Largely accurate, but omits that A-2 was pushed from the balcony and uses 'He' pronouns for the victim; minor."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Punishment not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "succumbed to his injuries on the way",
+   "page": 3,
+   "reason": "Death occurred."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "stabbed the deceased on the left side of the abdomen ... on both his thighs",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted and sentenced the accused under Sections 302/34, 460 and 324",
+   "page": 3,
+   "reason": "Three sections, restored."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No loss stated."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Court noted accused entered armed at midnight intending robbery; no finding of premeditation to kill",
+   "quote": "entered the premises at mid night duly armed with the intention of committing robbery",
+   "page": 4,
+   "reason": "Broadly right."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The initial purpose was to commit robbery",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A2 had caused one injury in the stomach of the deceased while he lay on top of him",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No separate credibility assessment."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused were overpowered and tied up by occupants; police informed",
+   "quote": "they were tied up with a rope and information was also sent to the police",
+   "page": 3,
+   "reason": "Accurate, though describes others' conduct, not the accused's own."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dated 11.12.2003",
+   "page": 2,
+   "reason": "Dates match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "I. Venkatanarayana, Ramesh Allanki, D. Mahesh Babu for the Appellant.",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "information was also sent to the police",
+   "page": 3,
+   "reason": "Reasonable."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "We, accordingly, set aside this part of the High Court judgment",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "challenged by the State of Andhra Pradesh by way of this appeal",
+   "page": 3,
+   "reason": "No detailed arguments."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "common intention can be inferred from the circumstances of the case",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing discussion."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they were willing to kill as well",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other orders."
+  }
+ }
+}

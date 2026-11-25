@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant, Prakash Nayi, is the only accused described."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to throughout with male pronouns."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "it must have been from the age of 14 or 15 years",
+   "page": 16,
+   "reason": "Judgment gives only onset age of schizophrenia, not the accused's current age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "Worked at the store where the incident occurred",
+   "quote": "attacked the deceased at a store in which he was working",
+   "page": 16,
+   "reason": "Judgment indicates the accused was working at the store, though the pronoun is ambiguous."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the deceased",
+   "page": 16,
+   "reason": "Judgment never states the deceased's gender explicitly."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the deceased",
+   "page": 16,
+   "reason": "No age for the deceased appears anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "which belonged to the brother of his grandfather",
+   "page": 16,
+   "reason": "Judgment does not describe a stranger relationship; the store owner is the accused's grandfather's brother."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted and sentenced u/s. 302 IPC for having caused the death",
+   "page": 1,
+   "reason": "Conviction under s.302 for causing death fits murder category."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302, s.84; Evidence Act s.8, s.105; Cr.P.C. Chapter XXV (ss.328-339), incl. s.329, s.330, s.334",
+   "quote": "Section 105 of the Indian Evidence Act, which places the burden of proving",
+   "page": 1,
+   "reason": "Omits Evidence Act ss.8 and 105 and Cr.P.C. Chapter XXV provisions discussed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "with an iron locking plate without any provocation and premeditation",
+   "page": 1,
+   "reason": "Weapon is the iron locking plate."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness (PW2), medical (AW1/AW2/DW1, treatment records), circumstantial conduct evidence",
+   "quote": "It was seen by PW2.",
+   "page": 16,
+   "reason": "Omits eyewitness testimony of PW2 and the medical treatment records and doctor testimony."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are identified by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused's schizophrenia/mental illness and full recovery since the offence",
+   "quote": "We have also been informed that the appellant has recovered fully and mixed well with the society.",
+   "page": 18,
+   "reason": "Mental illness and recovery are present in the judgment, though not framed as mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Court of Sessions and the High Court rendered the conviction on merits.",
+   "page": 17,
+   "reason": "Trial court convicted the accused."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction upheld",
+   "quote": "the judgment and order dated 02.06.2008 of the High Court affirming the same",
+   "page": 18,
+   "reason": "High Court affirmed the conviction; 'Not applicable' contradicts this."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is acquitted of all the charges charged with.",
+   "page": 18,
+   "reason": "Supreme Court acquitted the appellant."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is acquitted of all the charges charged with.",
+   "page": 18,
+   "reason": "Conviction was set aside, so no offence is finally established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment was imposed given acquittal."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence term survives the acquittal."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "A neutral summary of the incident, treatment, doctor evidence and trial history, without the appellate outcome or reasoning",
+   "quote": "he is certainly entitled to the benefit conferred under Section 84 of the IPC",
+   "page": 18,
+   "reason": "Summary reveals the Supreme Court's outcome and reasoning, and says he was unfit at the time of the incident, which the judgment does not state."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the punishment range for s.302 IPC."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the death of the victim-deceased",
+   "page": 1,
+   "reason": "Death was caused, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for having caused the death of the victim-deceased",
+   "page": 1,
+   "reason": "Attack caused the deceased's death."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Number of counts is not stated, so 'Not stated' is consistent."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "incorrect",
+   "correct_value": "No premeditation; attack described as without provocation or premeditation",
+   "quote": "without any provocation and premeditation",
+   "page": 16,
+   "reason": "Judgment records the prosecution case as without premeditation; the court made no finding of premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There was no motive",
+   "page": 16,
+   "reason": "Judgment states there was no motive, consistent with 'Not identified'."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the evidence of the Government doctor as DW1 who withstood cross-examination ought to have been accepted",
+   "page": 18,
+   "reason": "Court held DW1's evidence should have been accepted, plus subsequent fitness to stand trial."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court found the Government doctor (DW1) credible as she withstood cross-examination; other witnesses' evidence was not assessed for credibility",
+   "quote": "the evidence of the Government doctor as DW1 who withstood cross-examination ought to have been accepted",
+   "page": 18,
+   "reason": "Overstates: court assessed only the doctor's testimony, not the main witnesses generally."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused sat at the bus stand without trying to leave; later became fit to stand trial, indicative of prior insanity",
+   "quote": "He neither moved away from the said place nor made any attempt to leave.",
+   "page": 16,
+   "reason": "Omits the accused's conduct of remaining at the bus stand after the attack."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Bail application considered by Sessions Court; bail bonds discharged on acquittal",
+   "quote": "Even while considering the application for bail, the Court noticed the inability of the appellant",
+   "page": 16,
+   "reason": "Judgment mentions a bail application and discharge of bail bonds, so 'Not stated' is wrong."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the order dated 25.07.2006 of the trial court of conviction and sentence",
+   "page": 18,
+   "reason": "Dates of occurrence, trial order, High Court judgment and Supreme Court decision match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Aftab Ali Khan, (SCLSC), M. Z. Chaudhary, Shahbaz, Arvind Kr. Kanva, Sayyed Imtiyaz Ali, Ms. Amna Darakshan, Ali Safeer Farooqi, Advs. for the Appellant.",
+   "page": 4,
+   "reason": "Appellant's counsel names match; State counsel not stated."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial completed; charge sheet filing not stated",
+   "quote": "the trial court of conviction and sentence",
+   "page": 18,
+   "reason": "Trial completion is supported; charge sheet filing is not mentioned in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Courts below ignored DW1 and AW2 evidence and prior treatment; Supreme Court called for a report from the Sessions Judge",
+   "quote": "there was no discussion on the prior treatment given",
+   "page": 17,
+   "reason": "Judgment identifies evidence ignored and a report called for, not 'None noted'."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the judgment and order dated 02.06.2008 of the High Court affirming the same are set aside",
+   "page": 18,
+   "reason": "Trial conviction, High Court affirmance and Supreme Court acquittal are consistent with the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The case of the prosecution is that the appellant attacked the deceased at a store",
+   "page": 16,
+   "reason": "Prosecution case of unprovoked, unpremeditated attack and s.302 offence is supported."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Raising the plea of insanity on the mandate of Section 84",
+   "page": 5,
+   "reason": "Defence plea of insanity under s.84 and schizophrenia is supported."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A mere medical insanity cannot be said to mean unsoundness of mind.",
+   "page": 5,
+   "reason": "Legal insanity versus medical insanity test under s.84 is correctly stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "relied on Para 7 / Para 12 / Para 14",
+   "page": 4,
+   "reason": "Five precedents listed match the case law reference section."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurs given acquittal."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused's schizophrenia and prior insanity; entitlement to s.84 exemption rather than mitigation",
+   "quote": "he is certainly entitled to the benefit conferred under Section 84 of the IPC",
+   "page": 18,
+   "reason": "Court relied on s.84 exemption; burden point is not a mitigating factor."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The bail bonds of the accused shall stand discharged. Pending application(s), if any, shall stand disposed of.",
+   "page": 18,
+   "reason": "Acquittal, bail bond discharge and disposal of pending applications match the order."
+  }
+ }
+}

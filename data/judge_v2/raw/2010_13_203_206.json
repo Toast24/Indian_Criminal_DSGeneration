@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "Sachidanand Thakur v. Union of India & Ors.",
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "1",
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant, the accused soldier, whose liability the Court decides."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "one of his colleagues in the Army",
+   "page": 4,
+   "reason": "Judgment uses male pronoun 'his' for the accused."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Only enrolment year (1978) is given; no age stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Indian Army personnel (Guard Commander on security duty at time of offence)",
+   "quote": "was enrolled in the Indian Army in the year of 1978",
+   "page": 2,
+   "reason": "Army enrolment and Guard Commander role are both stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth, poverty or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment is silent on any prior record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": "the deceased, who was one of his colleagues",
+   "page": 4,
+   "reason": "Victim is referred to only as 'the deceased' without gender pronoun."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No victim age given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victim is mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": "Co-worker (fellow Army colleague)",
+   "quote": "one of his colleagues in the Army",
+   "page": 4,
+   "reason": "Judgment describes victim as a fellow Army colleague."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "the shooting was a deliberate attack of murder",
+   "page": 3,
+   "reason": "Court Martial found murder; offence category matches."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC s.302; Army Act 1950 (other penalties; specific sections not stated)",
+   "quote": "guilty under Section 302 of the IPC",
+   "page": 3,
+   "reason": "Section 302 IPC and Army Act penalties are stated; no Army Act sections given."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "7.62 mm Self Loading Rifle bearing butt number 259",
+   "quote": "A 7.62 mm Self Loading Rifle bearing butt number 259",
+   "page": 2,
+   "reason": "Weapon and butt number match the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": "Eyewitness (Army personnel); medical (post-mortem); recovery of cartridge cases matched to weapon; accused's remark on apprehension",
+   "quote": "witnessed by several Army personnel",
+   "page": 4,
+   "reason": "All listed evidence types appear in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "Oral remark 'MAINE JO KARNA THA KAR DIYA' made on apprehension; relied on by the Court to remove any doubt about culpability",
+   "quote": "it stands removed by the remark that he made when apprehended",
+   "page": 4,
+   "reason": "Remark is an admission the Court expressly relied on."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Three shots fired at close range (8 to 10 ft) despite a warning that the person was a Quick Reaction Team member",
+   "quote": "despite this warning the appellant fired three shots",
+   "page": 4,
+   "reason": "Close-range firing despite warning is noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "Court notes no mitigating facts; defence accident plea was not accepted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted under IPC s.302 (Court Martial); sentenced to life imprisonment plus other penalties under Army Act 1950",
+   "quote": "accordingly guilty under Section 302 of the IPC. He was accordingly sentenced to life imprisonment",
+   "page": 3,
+   "reason": "Court Martial conviction and life sentence match the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Writ petition under Art. 226 dismissed; Court Martial findings confirmed; recall application dismissed",
+   "quote": "dismissed the writ petition and confirmed the findings of the Court Martial",
+   "page": 3,
+   "reason": "High Court dismissal, confirmation and recall dismissal are all stated."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "convicted",
+   "quote": "no error can be found with the findings of fact",
+   "page": 4,
+   "reason": "Supreme Court dismissed the appeal, upholding conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "Murder (IPC s.302)",
+   "quote": "guilty under Section 302 of the IPC",
+   "page": 3,
+   "reason": "Conviction under s.302 IPC is upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "life",
+   "quote": "sentenced to life imprisonment",
+   "page": 3,
+   "reason": "Life imprisonment is the sentence stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentence is not a fixed term, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same summary, but the warning came from a sentry (Naik Sajimon), not a Quick Reaction Team member.",
+   "quote": "followed by Naik Sajimon KT who warned him",
+   "page": 2,
+   "reason": "Warner is described as 'another team member', but judgment identifies him as a sentry; otherwise facts are neutral and accurate."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the statutory minimum or maximum punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": "killing Naik Jityu Yadav at the spot",
+   "page": 3,
+   "reason": "Victim was killed, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Death of the victim from gunshot fire (three shots fired at 8 to 10 ft)",
+   "quote": "killing Naik Jityu Yadav at the spot",
+   "page": 3,
+   "reason": "Death by gunshot at close range is stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": "1 charged; 1 finally upheld",
+   "quote": "guilty under Section 302 of the IPC",
+   "page": 3,
+   "reason": "Only s.302 IPC is identified as the charge and it is upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not stated as premeditation; Court Martial found the shooting deliberate, and this finding was upheld",
+   "quote": "the shooting was a deliberate attack of murder",
+   "page": 3,
+   "reason": "Deliberate act finding is stated; premeditation is not separately addressed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": "Not identified",
+   "quote": null,
+   "page": null,
+   "reason": "No motive is accepted or alleged beyond the defence's accident plea."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "Eyewitness evidence of Army personnel including PW.14's warning; post-mortem observations (PW.16) on firing distance; fired cartridge cases matching the issued weapon; accused's remark on apprehension",
+   "quote": "borne out by the observations of Dr. S. Sharma (PW .16)",
+   "page": 4,
+   "reason": "All listed evidence is relied on by the Supreme Court."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "Court did not separately assess witness credibility; it accepted the Court Martial's findings of fact as free of error",
+   "quote": "no error can be found with the findings of fact recorded by the Court Martial",
+   "page": 4,
+   "reason": "Court defers to factual findings without separate credibility analysis."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Quickly apprehended at the scene; made the remark 'MAINE JO KARNA THA KAR DIYA' when questioned",
+   "quote": "He was quickly apprehended by PW.14",
+   "page": 3,
+   "reason": "Quick apprehension and the remark are both noted."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No custody period is mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No bail information is given."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": "offence: 6 January 2000; trial judgment: not given (Court Martial date not stated); High Court: 23 December 2005 (recall application dismissed 23 November 2005); Supreme Court: 19 October 2010",
+   "quote": "dated 23/12/ 2005",
+   "page": 3,
+   "reason": "Dates match the judgment, with missing Court Martial date marked not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Accused/appellant: D.K. Thakur, D. Jha, Debasis Misra. Respondents: P.P. Tripathi, ASG, with N.S. Sweety Manchanda, Anil Katiyar, Anuj Bhandari, D.S. Mahra",
+   "quote": "D.K. Thakur, D. Jha, Debasis Misra for the Appellant",
+   "page": 2,
+   "reason": "Counsel names match the appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": "Accused apprehended on the spot; tried by Court Martial. Police FIR and charge sheet not stated",
+   "quote": "He was quickly apprehended by PW.14",
+   "page": 3,
+   "reason": "Apprehension and Court Martial trial are stated; FIR not mentioned."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No procedural lapse is noted by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial (Court Martial): guilty under s.302 IPC, life imprisonment. High Court: writ petition dismissed, findings confirmed, recall application dismissed. Supreme Court: appeal dismissed",
+   "quote": "dismissed the writ petition",
+   "page": 3,
+   "reason": "Outcome at each level matches the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": "Court Martial findings of fact were categoric and based on correct appreciation of evidence; interference by courts in such matters should be minimal",
+   "quote": "interference by Courts in such matters was required to be minimal",
+   "page": 3,
+   "reason": "Matches the ASG's submission."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "Killing was an accident arising from suspicion of a terrorist attack; offence under s.302 not made out",
+   "quote": "the killing was an accident and arose from a suspicion of a terrorist attack",
+   "page": 3,
+   "reason": "Matches counsel's submission."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Supreme Court declines to disturb concurrent findings of fact of Court Martial upheld by High Court, finding no error in them",
+   "quote": "This Court would not, in these circumstances, interfere in the assessment",
+   "page": 4,
+   "reason": "Court's restraint on factual findings is accurately described."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "Court does not discuss sentencing; it dismisses the appeal on facts."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "Court weighs no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "None",
+   "quote": "it stands removed by the remark that he made when apprehended",
+   "page": 4,
+   "reason": "Court weighed these facts only on culpability, not as aggravating factors for sentence."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No directions, compensation or guidelines are ordered by the Supreme Court."
+  }
+ }
+}

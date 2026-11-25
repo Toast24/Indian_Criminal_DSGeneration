@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant, Om Pal Singh, is the only accused described."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is referred to as 'he' throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not stated; only a liquor shop licence competition is mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "partially_correct",
+   "correct_value": "A criminal case for beating the deceased was pending against the appellant in Bareilly court",
+   "quote": "a criminal case was pending against the appellant in the local Court at Bareilly",
+   "page": 5,
+   "reason": "Judgment does mention a pending criminal case against the appellant, not just silence."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Rishipal is referred to as 'he'; male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of deceased is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of deceased is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known rival (prior enmity over liquor shop licence and disputes)",
+   "quote": "there was enmity between the deceased Rishipal and Om Pal Singh, the appellant herein for a number of years",
+   "page": 4,
+   "reason": "Parties were known enemies with a long history of enmity, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under Section 302 IPC; FIR initially under 307 is minor context."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Double-barrelled gun is the weapon used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical, recovery (motorcycle, blood-stained earth) and dying declaration evidence are all referenced."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "the appellant had tried to kill the deceased but he had managed to escape",
+   "page": 5,
+   "reason": "Facts are present, but the court never labels them aggravating; contradicts judicial_aggravating_factors 'None'."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under Section 302 IPC and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court confirmed conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under Section 302 was upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rigorous imprisonment for life was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term of years is stated; life imprisonment only."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts without stating the court outcome (remove 'convicted' and 'considered reliable' conclusions)",
+   "quote": "The trial court convicted the appellant under Section 302, IPC.",
+   "page": 2,
+   "reason": "Facts are accurate, but the summary reveals the conviction and the court's reliability finding, violating neutrality."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the statutory minimum or maximum punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased was shot and died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Multiple gun shot injuries to chest, abdomen, arms, thigh, and hand, causing death."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "One offence of murder was charged and upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is discussed; 'Not applicable' is consistent with the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as a finding; prior attempts and encircling the deceased with intent to kill are described",
+   "quote": "encircled Rishipal with the intention of killing him",
+   "page": 9,
+   "reason": "Judgment describes prior attempts but never states the court found premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Enmity and rivalry over liquor shop licence and prior incidents are the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness PW-2 and PW-3, medical evidence and dying declaration were accepted as consistent."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found PW-2 and PW-3 clear, consistent and corroborated."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant fled the scene leaving his motorcycle behind",
+   "quote": "The appellant thereafter escaped, leaving behind his motorcycle.",
+   "page": 5,
+   "reason": "Judgment states the appellant escaped after the shooting, which is post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence date, trial judgment, High Court and Supreme Court dates all match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and State match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR under 307 IPC, charge sheet filed and trial completed are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence alleged irregularity over the dying declaration, but the court found no fatal irregularity."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court confirmation and Supreme Court dismissal all match."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary matches the prosecution case as described in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence submissions on fabrication, medical inconsistency, hearsay and cartridges are accurately summarized."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held dying declaration acceptable despite no Q&A form and no doctor's certificate."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Laxman and Kanti Lal citations match; Kanti Lal was only referred to."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; the court's reasoning concerned conviction (motive and medical consistency), not sentence",
+   "quote": "both the trial court as well as the High Court, in our opinion, have correctly concluded that the motive was not introduced only at the time of the trial",
+   "page": 10,
+   "reason": "Reasoning given concerns the conviction and evidence, not any sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no aggravating factors; 'None' is consistent with the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentencing order is mentioned."
+  }
+ }
+}

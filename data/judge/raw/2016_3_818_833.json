@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant accused is described throughout the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced him to undergo life imprisonment",
+   "page": 821,
+   "reason": "Accused is referred to with male pronouns."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment nowhere states the accused's age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Baby a girl of 18 years",
+   "page": 821,
+   "reason": "Victim is a girl."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Baby a girl of 18 years",
+   "page": 821,
+   "reason": "Victim's age is stated as 18."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Lover (love affair; victim pregnant and asked accused to marry her)",
+   "quote": "was having a love affair with one Raju who was residing nearby",
+   "page": 822,
+   "reason": "Judgment describes a love affair and pregnancy, not a stranger relationship."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302; Evidence Act 1872 s.32 (initially registered under IPC s.307)",
+   "quote": "Evidence Act. 1872 - s.32",
+   "page": 818,
+   "reason": "Omits Evidence Act s.32 and the initial s.307 IPC registration."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Raju poured kerosene on her person and then set her on fire with a burning match-stick",
+   "page": 822,
+   "reason": "Kerosene and match-stick are the means stated."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Dying declarations (oral statement and Magistrate-recorded); medical evidence; PW 4 testimony on motive. No eyewitness to the act is stated.",
+   "quote": "PW 4 Dilawarsha ... the Baby, her sister was having a love affair with Raju",
+   "page": 832,
+   "reason": "Judgment does not describe an eyewitness to the act; PW 4 found her burning afterwards."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Sessions Judge had convicted the appellant for an offence under Section 302 IPC",
+   "page": 821,
+   "reason": "Trial court convicted under s.302 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction maintained",
+   "quote": "the High Court maintained the conviction",
+   "page": 823,
+   "reason": "High Court did hear the appeal and maintained the conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal is dismissed.",
+   "page": 833,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution by cogent evidences having proved the prosecution case both Sessions Judge and the High Court have rightly convicted the accused of offence under Section 302 IPC",
+   "page": 833,
+   "reason": "Murder under s.302 IPC is held established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced him to undergo life imprisonment",
+   "page": 821,
+   "reason": "Life imprisonment is stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term in years is stated; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurately summarised and do not reveal the Supreme Court outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory sentencing range for the offence."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On 9.03.1989 Baby died in the hospital",
+   "page": 822,
+   "reason": "Offence completed; victim died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The doctor in her statement has recorded about 72 per cent burns",
+   "page": 832,
+   "reason": "72 per cent burns is recorded."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence (murder under s.302 IPC); no multiple counts stated",
+   "quote": "The criminal case was converted under Section 302 !PC.",
+   "page": 822,
+   "reason": "Judgment refers to one case converted from s.307 to s.302; no three counts stated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (judgment only notes accused was carrying a tin of kerosene at the time)",
+   "quote": "Raju who was carrying a tin of kerosene then poured kerosene on Baby",
+   "page": 832,
+   "reason": "Judgment does not find planning; only that he carried kerosene during the encounter."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "since he never wanted to live with Baby and wanted to keep her out from his life",
+   "page": 832,
+   "reason": "Motive matches the judgment's account."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "The Court relied on the oral statement to police and the dying declaration recorded by Executive Magistrate Giri on 04.03.1989.",
+   "quote": "the conviction has rightly been recorded relying on the dying declaration of the deceased recorded by Executive Magistrate Giri",
+   "page": 833,
+   "reason": "Judgment does not describe 'first and second' declarations; it names the oral statement and Giri's declaration."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is nothing to indicate that he had any grudge against the accused",
+   "page": 833,
+   "reason": "Court assessed witnesses, medical evidence, and found no grudge by police inspector; broadly supported."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of accused is mentioned."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "{\"dates_of_offence\": \"04.03.1989\", \"trial_judgment\": \"Not stated\", \"high_court_decision\": \"13.04.2007\", \"supreme_court_decision\": \"29 June 2016\"}",
+   "quote": "From the Judgment and Order dated 13.04.2007 in Criminal Appeal No. 226 of 1991",
+   "page": 821,
+   "reason": "High Court decision date 13.04.2007 is stated, not 'Not stated'."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Kumar Parimal, Ms. Praveena Gautam, Advs. for the Appellant. Nishant Ramakantrao Katneshwarkar, Adv. for the Respondents.",
+   "page": 821,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial completed; charge sheet filing not stated",
+   "quote": "Accused was put on trial before the Sessions Judge",
+   "page": 822,
+   "reason": "Trial completion is supported; charge sheet filing is not mentioned."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Rural Hospital lacked trained staff; no doctor's certificate on 04.03.1989 (held inconsequential)",
+   "quote": "where no trained Para-medical Staff/Medical Staff was available to attend the patient",
+   "page": 832,
+   "reason": "Court noted irregularities at the Rural Hospital and absence of doctor's certificate."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court maintained the conviction",
+   "page": 823,
+   "reason": "Trial conviction, High Court maintained, Supreme Court dismissed appeal."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "courts have not committed any error in relying on the dying declaration",
+   "page": 824,
+   "reason": "State supported reliance on the dying declarations and rejection of accidental-death theory."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it was unsafe for courts below to rely on the first two dying declaration",
+   "page": 823,
+   "reason": "Defence contention on third declaration, inconsistencies and lack of corroboration is accurately stated."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "each dying declaration has to be considered independently on its own merit",
+   "page": 831,
+   "reason": "Principles on multiple dying declarations and non-Q&A form are correctly stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 821,
+   "reason": "Cited cases and citations match the judgment headnote and body."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "In the facts and circumstances of the case the conviction has rightly been recorded",
+   "page": 833,
+   "reason": "Judgment gives conviction reasoning only; no sentencing rationale is stated."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal is dismissed.",
+   "page": 833,
+   "reason": "No other sentence order is made."
+  }
+ }
+}

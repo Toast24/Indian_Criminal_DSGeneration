@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "G. RAMESH v. KANIKE HARISH KUMAR UJWAL & ANR.",
+   "page": 1,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court quashed the proceedings... against the first respondent",
+   "page": 9,
+   "reason": "The Court decides liability of only the first respondent (second accused), so 1 is supported."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The defence of the first respondent is that, he resides in Kuwait",
+   "page": 6,
+   "reason": "Judgment uses male pronouns for the first respondent, supporting Male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No age of the accused is given in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No religious identity of the accused is described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he is employed with the National Bank of Kuwait",
+   "page": 6,
+   "reason": "Stated in the first respondent's defence submission, and the value flags it as not a court finding."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "Judgment makes no statement on the accused's wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The complainant presented said two cheques for collection through his bank",
+   "page": 4,
+   "reason": "Complainant referred to with male pronoun, supporting Male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No age of the complainant is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No caste or community of the complainant is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No religious identity of the complainant is described."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "As the accused no. 2 is son of brother in law of complainant",
+   "page": 4,
+   "reason": "Family relationship via brother-in-law is described in the complaint."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "NI Act s.138 cheque dishonour complaint",
+   "page": 3,
+   "reason": "Cheque dishonour under NI Act fits none of the listed categories; Other is appropriate."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "complaint under Section 138 of the Negotiable Instruments Act, 1881",
+   "page": 3,
+   "reason": "s.138 NI Act, s.141 and CrPC s.482 are all referenced in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No weapon is involved in this cheque dishonour matter."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The averments are sufficient to meet the requirement of Section 141(1)",
+   "page": 9,
+   "reason": "Court relied on complaint averments and cheque details; no trial evidence was discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "Assurances and part-payments are not treated as a confession; none is identified."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "None noted",
+   "page": null,
+   "reason": "No aggravating facts are noted by the Court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "None noted",
+   "page": null,
+   "reason": "No mitigating facts are noted by the Court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Non-bailable warrants were issued against the first respondent... The warrants were recalled.",
+   "page": 5,
+   "reason": "No trial verdict is given; warrants issued and recalled, consistent with the value."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "While allowing a petition under Section 482 of the Code of Criminal Procedure... the High Court quashed the proceedings",
+   "page": 3,
+   "reason": "High Court allowed the s.482 petition and quashed the complaint proceedings."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "We accordingly allow the appeal and set aside the impugned judgment and order",
+   "page": 9,
+   "reason": "No conviction or acquittal; 'other' fits the restoration of the complaint without an explicit remand."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No conviction is established; None is appropriate."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No sentence is imposed, so none is correct."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No fixed-term sentence is given; null is correct."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No fine is imposed; null is correct."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A notice of demand was issued on 1 August 2011, and no payment followed.",
+   "page": 5,
+   "reason": "Summary tracks the complaint's allegations, avoids names and outcomes, and stops before court proceedings."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "Judgment does not state the punishment prescribed for s.138."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "both cheques again returned unpaid",
+   "page": 5,
+   "reason": "Dishonour of cheques completes the alleged offence."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No injury or death is involved."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "complaint under Section 138 of the Negotiable Instruments Act, 1881",
+   "page": 3,
+   "reason": "One charge under s.138 with s.141 liability; no conviction stands after the Supreme Court's decision."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "balance of Rs. 7,50,000 towards completed work and Rs.1,00,000 given towards caution deposit",
+   "page": 4,
+   "reason": "Unpaid cheques and alleged balance and caution deposit are all stated in the complaint."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "Court makes no finding on premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not identified",
+   "page": null,
+   "reason": "No motive is accepted or alleged in the judgment, so Not identified is supported."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The averments are sufficient to meet the requirement of Section 141(1).",
+   "page": 9,
+   "reason": "Court relied on complaint averments about the returned cheques, transfers and assurances."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No witness assessment is made; only complaint averments are considered."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "but they have avoided the complainant",
+   "page": 5,
+   "reason": "Complainant's allegation of avoidance is recorded; the Court makes no finding."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No custody period is mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No bail order is discussed; only warrants are mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "High Court... 13 June 2018; Supreme Court... April 05, 2019",
+   "page": 1,
+   "reason": "Dates given for High Court and Supreme Court; offence and trial judgment dates are not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ms. Bhabhna Das, Krishna Dev Jagarlamudi, Advocates for the Appellant. Abhimanyu Bhandari... Advs. for the Respondents.",
+   "page": 2,
+   "reason": "Counsel names match the header; no State counsel is listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The complaint was instituted on 19 September 2011 before the Special Judicial Magistrate First Class",
+   "page": 5,
+   "reason": "Private complaint filed; no police investigation is discussed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The fact that the first accused... has been missed by the High Court.",
+   "page": 9,
+   "reason": "The Court's error concerns substance, not a procedural lapse, so None noted fits."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Be that as it may... the High Court was in error in quashing the criminal case",
+   "page": 9,
+   "reason": "Trial pending, High Court quashed the complaint, Supreme Court allowed the appeal; matches the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court was manifestly in error in quashing the complaint... averments... sufficient to meet the requirement of Section 141",
+   "page": 5,
+   "reason": "Complainant's counsel argued exactly these points, relying on Gunmala Sales."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was no averment in the complaint that the first respondent was incharge of",
+   "page": 6,
+   "reason": "Defence points on lack of averment, Kuwait residence and Article 136 are all recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On a holistic reading of the complaint... company includes a firm",
+   "page": 7,
+   "reason": "Court applied s.141 definition including firms and holistic reading, following Gunmala Sales."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Gunmala Sales Private Limited v. Anu Mehta and Others (2015) 1 SCC 103",
+   "page": 5,
+   "reason": "The only precedent relied upon is Gunmala Sales with the cited reference."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not applicable",
+   "page": null,
+   "reason": "No sentence is imposed, so Not applicable is correct."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "None",
+   "page": null,
+   "reason": "The Court weighs no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "None",
+   "page": null,
+   "reason": "The Court weighs no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "We leave it open to the first respondent to move an application in that regard before the learned Trial Judge",
+   "page": 10,
+   "reason": "Liberty to seek exemption from appearing before the Trial Judge is recorded."
+  }
+ }
+}

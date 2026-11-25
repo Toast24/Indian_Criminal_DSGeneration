@@ -1,0 +1,79 @@
+250 cases, 13500 cells judged by claude-haiku-5-5
+
+Overall verdicts:
+verdict
+correct              12843
+partially_correct      595
+incorrect               50
+unsupported              9
+missing                  3
+
+Per column (sorted by % not fully correct):
+verdict                       correct  incorrect  missing  partially_correct  unsupported  wrong_%
+column                                                                                            
+neutral_facts                     128          3        0                119            0     48.8
+accused_victim_relationship       213          0        0                 37            0     14.8
+number_of_offences                214          1        0                 35            0     14.4
+post_offence_conduct              226         11        0                 13            0      9.6
+aggravating_circumstances         226          0        0                 24            0      9.6
+weapon                            228          1        0                 21            0      8.8
+confession                        229          0        0                 21            0      8.4
+motive                            231          2        0                 17            0      7.6
+fine_rs                           232          1        0                 17            0      7.2
+statutory_provisions              234          0        0                 16            0      6.4
+key_evidence_accepted             234          0        0                 16            0      6.4
+judicial_aggravating_factors      235          0        0                 11            4      6.0
+accused_gender                    235         10        0                  3            2      6.0
+prosecution_argument              235          0        0                 14            1      6.0
+defence_argument                  236          0        0                 14            0      5.6
+procedural_irregularity           237          0        0                 13            0      5.2
+precedent_relied_upon             237          0        0                 13            0      5.2
+premeditation_planning            237          0        0                 13            0      5.2
+offence_severity                  237          1        0                 12            0      5.2
+final_outcome                     238          0        0                 12            0      4.8
+offence_category                  239          0        0                 11            0      4.4
+appeal_history                    241          0        1                  8            0      3.6
+trial_duration                    241          3        0                  6            0      3.6
+offence_finally_established       241          0        1                  8            0      3.6
+evidence_type                     242          0        0                  8            0      3.2
+imprisonment_years                242          1        0                  7            0      3.2
+imprisonment_type                 242          1        0                  7            0      3.2
+witness_credibility               243          0        0                  7            0      2.8
+number_of_accused                 243          1        0                  6            0      2.8
+victim_age                        243          3        0                  4            0      2.8
+legal_principle_applied           243          0        0                  7            0      2.8
+investigation_status              243          1        0                  6            0      2.8
+accused_age                       244          2        0                  4            0      2.4
+accused_occupation                244          1        1                  4            0      2.4
+accused_socioeconomic_status      244          2        0                  4            0      2.4
+legal_representation              244          0        0                  6            0      2.4
+trial_court_outcome               244          0        0                  6            0      2.4
+sentencing_rationale              244          0        0                  6            0      2.4
+high_court_outcome                245          0        0                  5            0      2.0
+financial_property_loss           245          0        0                  5            0      2.0
+previous_criminal_record          246          1        0                  3            0      1.6
+physical_harm                     246          0        0                  4            0      1.6
+victim_gender                     246          0        0                  3            1      1.6
+mitigating_circumstances          246          0        0                  4            0      1.6
+judicial_mitigating_factors       246          1        0                  3            0      1.6
+bail_history                      247          0        0                  3            0      1.2
+attempt_completion                247          0        0                  2            1      1.2
+victim_caste                      247          1        0                  2            0      1.2
+accused_caste                     248          2        0                  0            0      0.8
+accused_religion                  249          0        0                  1            0      0.4
+case_title                        249          0        0                  1            0      0.4
+custody_duration                  249          0        0                  1            0      0.4
+other_sentence_order              249          0        0                  1            0      0.4
+victim_religion                   249          0        0                  1            0      0.4
+
+Judge verdict vs step 2c status:
+verdict               correct  incorrect  missing  partially_correct  unsupported
+step2c_status                                                                    
+not_stated               3097         17        0                 98            5
+not_stated_check          417          4        0                 15            0
+not_stated_confirmed     1861          3        0                 34            0
+partly_verified            95          0        0                 10            1
+quote_not_found          1396          7        0                165            2
+unsupported               503          1        0                 17            0
+value_mismatch             59          1        0                  6            0
+verified                 5412         17        3                250            1

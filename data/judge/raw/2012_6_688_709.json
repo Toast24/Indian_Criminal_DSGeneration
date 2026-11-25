@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant-accused was prosecuted",
+   "page": 2,
+   "reason": "A single accused (appellant Ramesh) is prosecuted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ramesh, appellant which was adjacent to her house",
+   "page": 11,
+   "reason": "The accused is male, referred to by name and as 'his' house."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not stated; the surname 'Harijan' in the case title is not an explicit caste statement."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The accused's own occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's socioeconomic status is not stated; only the grandmother is described as poor."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "her daughter Renu, aged 5-6 years",
+   "page": 9,
+   "reason": "Victim is a female child."
+  },
+  "victim_age": {
+   "verdict": "partially_correct",
+   "correct_value": "5-6 years",
+   "quote": "minor girl aged 5-6 years",
+   "page": 1,
+   "reason": "Judgment gives an age range of 5-6 years, not a single age of 5."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (accused was a neighbour; no family relationship mentioned)",
+   "quote": "Ramesh, appellant which was adjacent to her house",
+   "page": 11,
+   "reason": "Judgment describes only neighbourhood proximity, not any family relationship between accused and victim."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder and rape (sexual offence)",
+   "quote": "raped and caused death of minor girl aged 5-6 years",
+   "page": 1,
+   "reason": "Category omits the rape component; the case involves both rape and murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 302 and 376 of Indian Penal Code, 1860",
+   "page": 8,
+   "reason": "Sections 302 and 376 IPC are correctly listed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Doctor Ajay Kumar Verma (PW.11) who has conducted the autopsy",
+   "page": 13,
+   "reason": "Medical, recovery and eyewitness evidence are all relied on in the judgment."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged extra-judicial confession deposed by PW.1 before PW.7 and PW.8; trial court found it not made",
+   "quote": "Ramesh, appellant made the extra-judicial confession before him",
+   "page": 11,
+   "reason": "Value says 'None', but a confession was alleged in testimony and rejected by the trial court."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not expressly identify aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not identify mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the trial court vide its judgment and order dated 2.2.1999 acquitted the appellant",
+   "page": 9,
+   "reason": "Trial court acquitted the appellant on both charges."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant has been convicted and awarded the sentence of life imprisonment on both counts",
+   "page": 9,
+   "reason": "High Court convicted the appellant on both counts."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dismissing the appeal",
+   "page": 2,
+   "reason": "Supreme Court dismissed the appeal, leaving the conviction in place."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant has been convicted for the offence punishable under Sections 302 and 376",
+   "page": 8,
+   "reason": "Murder and rape convictions stand as upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "awarded him the life imprisonment for both the offences",
+   "page": 8,
+   "reason": "Sentence is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term in years is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only, omitting the outcome of the appeal and the reasoning for reversal",
+   "quote": "the High Court was fully justified in reversing the order of acquittal",
+   "page": 22,
+   "reason": "Neutral facts reveal the court outcome (Supreme Court upheld High Court), which is prohibited; otherwise facts are accurate."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state punishment ranges; only life imprisonment is mentioned."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Renu... died of vaginal injuries",
+   "page": 10,
+   "reason": "Offence was completed with the victim's death."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The cause of death was shock and haemorrhage",
+   "page": 11,
+   "reason": "Death from shock and haemorrhage due to ante-mortem vaginal injuries is stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for both the offences",
+   "page": 8,
+   "reason": "Two offences charged and convicted, both upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment is silent on financial or property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "Last-seen testimony of PW.1, PW.7 and PW.8; medical evidence; blood and semen-stained recovered sheet and FSL/serology report",
+   "quote": "could be relied upon at least to the extent that deceased was last seen in the company of the appellant",
+   "page": 15,
+   "reason": "Null is wrong; the High Court and judgment rely on specific evidence, including last-seen testimony and serology."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "Testimony of PW.1, PW.7 and PW.8 accepted in part; some exaggeration noted; hostile witnesses' relevant parts usable",
+   "quote": "there may be some exaggeration in the evidence of the prosecution witnesses, particularly, that of",
+   "page": 19,
+   "reason": "Null is wrong; the judgment does assess witness credibility at length."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused ran out of the house when the cry was raised; arrested at 3.35 a.m. while waiting for transport at Mahulghat",
+   "quote": "could be arrested at 3.35 a.m. in the intervening night",
+   "page": 13,
+   "reason": "Null is wrong; the judgment describes the accused fleeing and his later arrest while waiting for transport."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Thus, the High Court has convicted",
+   "page": 8,
+   "reason": "Offence date, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rajender Pd. Saxena for the Appellant. Vikrant Yadav, Jyoti Sharma, Vinay Kumar Garg, Gunnam Venkateswara Rao for the Respondent.",
+   "page": 8,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the police filed the chargesheet against the appellant",
+   "page": 9,
+   "reason": "Chargesheet was filed and trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified; errors concern appreciation of evidence."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Government Appeal No. 1246 of 1999",
+   "page": 8,
+   "reason": "Acquittal at trial, conviction on State appeal, and dismissal of accused's appeal match."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State contended the High Court rightly reversed the acquittal, as its findings rested on correct appreciation of evidence",
+   "quote": "the judgment of the trial court has rightly been reversed by the High Court",
+   "page": 10,
+   "reason": "Value attributes the High Court's holding to the prosecution and omits the State's actual contention."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "cannot stand judicial scrutiny as these witnesses had been motivated",
+   "page": 10,
+   "reason": "Accused's arguments on opportunity, PWs 7 and 8, and hostile witnesses are accurately summarised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "only in exceptional cases where there are compelling circumstances and the judgment in appeal is found to be perverse",
+   "page": 16,
+   "reason": "Appellate interference and presumption of innocence principles are correctly stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "(Vide: State of Rajasthan v. Talevar & Anr., AIR 2011 SC 2271",
+   "page": 16,
+   "reason": "The four precedents listed match those relied on in para 16."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (judgment gives no sentencing reasoning; life term follows High Court conviction)",
+   "quote": "awarded him the life imprisonment for both the offences",
+   "page": 8,
+   "reason": "Judgment gives no sentencing reasoning; the value conflates the conviction reasoning with sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment is silent on mitigating factors; 'None' is an unsupported assertion."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not expressly identify aggravating factors; 'None' is unsupported."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Sentences for both offences directed to run concurrently",
+   "quote": "both the sentences have been directed to run concurrently",
+   "page": 8,
+   "reason": "Judgment states the sentences run concurrently, not 'None'."
+  }
+ }
+}

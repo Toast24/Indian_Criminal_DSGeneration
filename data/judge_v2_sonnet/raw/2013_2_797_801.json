@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "RAM PAL @ BUNDA v. STATE OF HARYANA",
+   "page": 1,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The sole appellant is the accused",
+   "page": 2,
+   "reason": "A single accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he was sentenced",
+   "page": 2,
+   "reason": "The accused is referred to as 'he'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The accused's status is not described (only the complainant's family is called labour class)."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is stated."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the younger one who went to the fields",
+   "page": 2,
+   "reason": "The victim is a daughter."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "inimical relations with the family of the complainant",
+   "page": 5,
+   "reason": "Prior enmity via the panchayat incident is accurately described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted for the offences under Sections 302 and 376",
+   "page": 2,
+   "reason": "Murder is the principal offence, with rape alongside."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 302 and 376, Indian Penal Code",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "neck was wrapped with a blue shawl owned by her",
+   "page": 2,
+   "reason": "No weapon; strangulation with a shawl is described."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "As it was a case of circumstantial evidence",
+   "page": 2,
+   "reason": "Circumstantial, medical and forensic evidence, plus testimony of presence at the scene."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Multiple aberrations and contusion of varying sizes on the face, chin",
+   "page": 4,
+   "reason": "Consistent with the injuries and the rape/murder facts."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo rigorous imprisonment for life and 10 years rigorous imprisonment",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "which was also confirmed by the High Court",
+   "page": 5,
+   "reason": "The High Court confirmed the conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal fails and the same is dismissed.",
+   "page": 5,
+   "reason": "Conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction and sentence imposed on the appellant by the trial Court",
+   "page": 5,
+   "reason": "Ss.302 and 376 convictions upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for life and 10 years",
+   "page": 2,
+   "reason": "Life is the main sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Null is acceptable for a life sentence."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same summary but without gendered pronouns for the accused (e.g. 'the accused did not respond and ran away').",
+   "quote": "the appellant... without responding to her query ran away from the place of occurrence",
+   "page": 4,
+   "reason": "Facts are accurate, but it uses 'he'/'his' for the accused, violating the no-pronoun rule."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Statutory punishment not stated in the order."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "asphyxia due to strangulation which was ante-mortem",
+   "page": 4,
+   "reason": "Matches the medical findings."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offences under Sections 302 and 376",
+   "page": 2,
+   "reason": "Two sections; both upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No finding on premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "developed a grudge in his mind to settle score with the family of the complainant",
+   "page": 5,
+   "reason": "Accurately stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all the above circumstances only supported the prosecution version",
+   "page": 5,
+   "reason": "Lists the accepted evidence correctly."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "such variation did not materially affect the evidence of PW-10",
+   "page": 4,
+   "reason": "Matches the court's assessment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "running away from the village and remaining absconding for two days",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Order dated 07.09.2011 of the High Court; APRIL 11, 2013",
+   "page": 1,
+   "reason": "Dates correctly given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "R.K. Talwar, David Rao, K. Kaushik, Chander Shekhar Ashri for the Appellant. Kamal Mohan Gupta for the Respondent.",
+   "page": 1,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant was produced before the investigating officer... on 21.2.2005 when he was arrested",
+   "page": 4,
+   "reason": "Consistent with the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "confirmed by the High Court... The appeal fails",
+   "page": 5,
+   "reason": "Matches each level."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The order records no State arguments before the Supreme Court."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The order records no defence arguments before the Supreme Court."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was no missing link in any of the circumstances found proved",
+   "page": 5,
+   "reason": "Reflects the circumstantial-evidence reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing discussion."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other orders."
+  }
+ }
+}

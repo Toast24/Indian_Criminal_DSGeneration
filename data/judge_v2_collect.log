@@ -1,0 +1,81 @@
+﻿msgbatch_01Sn4s1wAjjFwWmDgBxVcLgV: ended | processing 0, succeeded 30, errored 0, expired 0, canceled 0
+tokens: 475,550 in, 263,295 out; 0 failed
+30 cases, 1620 cells judged by claude-haiku-5-5
+
+Overall verdicts:
+verdict
+correct              1508
+partially_correct      80
+incorrect              26
+unsupported             6
+
+Per column (sorted by % not fully correct):
+verdict                       correct  incorrect  partially_correct  unsupported  wrong_%
+column                                                                                   
+number_of_accused                  18          4                  8            0     40.0
+number_of_offences                 21          0                  9            0     30.0
+neutral_facts                      22          0                  8            0     26.7
+final_outcome                      23          0                  7            0     23.3
+offence_severity                   25          5                  0            0     16.7
+accused_victim_relationship        25          3                  2            0     16.7
+confession                         26          0                  1            3     13.3
+evidence_type                      26          0                  4            0     13.3
+statutory_provisions               26          0                  4            0     13.3
+offence_category                   26          0                  4            0     13.3
+other_sentence_order               27          3                  0            0     10.0
+post_offence_conduct               27          1                  2            0     10.0
+accused_gender                     27          0                  2            1     10.0
+imprisonment_type                  27          0                  3            0     10.0
+imprisonment_years                 28          1                  1            0      6.7
+defence_argument                   28          1                  1            0      6.7
+fine_rs                            28          2                  0            0      6.7
+financial_property_loss            28          0                  2            0      6.7
+prosecution_argument               28          2                  0            0      6.7
+sentencing_rationale               28          0                  2            0      6.7
+legal_principle_applied            28          0                  2            0      6.7
+offence_finally_established        28          0                  2            0      6.7
+premeditation_planning             28          0                  2            0      6.7
+procedural_irregularity            28          0                  2            0      6.7
+key_evidence_accepted              28          0                  2            0      6.7
+judicial_mitigating_factors        28          0                  1            1      6.7
+witness_credibility                29          0                  1            0      3.3
+victim_age                         29          1                  0            0      3.3
+victim_caste                       29          0                  1            0      3.3
+mitigating_circumstances           29          0                  0            1      3.3
+accused_religion                   29          1                  0            0      3.3
+appeal_history                     29          0                  1            0      3.3
+attempt_completion                 29          0                  1            0      3.3
+accused_occupation                 29          1                  0            0      3.3
+motive                             29          0                  1            0      3.3
+judicial_aggravating_factors       29          0                  1            0      3.3
+previous_criminal_record           29          0                  1            0      3.3
+trial_duration                     29          0                  1            0      3.3
+weapon                             29          0                  1            0      3.3
+victim_gender                      29          1                  0            0      3.3
+case_title                         30          0                  0            0      0.0
+custody_duration                   30          0                  0            0      0.0
+aggravating_circumstances          30          0                  0            0      0.0
+accused_age                        30          0                  0            0      0.0
+accused_caste                      30          0                  0            0      0.0
+accused_socioeconomic_status       30          0                  0            0      0.0
+high_court_outcome                 30          0                  0            0      0.0
+bail_history                       30          0                  0            0      0.0
+investigation_status               30          0                  0            0      0.0
+legal_representation               30          0                  0            0      0.0
+physical_harm                      30          0                  0            0      0.0
+precedent_relied_upon              30          0                  0            0      0.0
+trial_court_outcome                30          0                  0            0      0.0
+victim_religion                    30          0                  0            0      0.0
+
+Judge verdict vs step 2c status:
+verdict               correct  incorrect  partially_correct  unsupported
+step2c_status                                                           
+not_stated                325          9                  8            2
+not_stated_check           49          1                  1            0
+not_stated_confirmed      217          0                  3            3
+partly_verified             9          0                  0            0
+quote_not_found           180          3                 14            0
+unsupported                44          3                  4            0
+value_mismatch              3          0                  0            0
+verified                  681         10                 50            1
+-> C:\Users\kedar\Desktop\BITS\Acads\IntroLLM\data\judge_sheet_v2.csv, C:\Users\kedar\Desktop\BITS\Acads\IntroLLM\data\judge_report_v2.txt

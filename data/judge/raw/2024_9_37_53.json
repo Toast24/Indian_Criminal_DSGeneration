@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Nitya Nand v. State of U.P. & Anr.",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all the five accused persons including the appellant herein",
+   "page": 3,
+   "reason": "Judgment states five accused persons."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he was also guilty of the offence",
+   "page": 13,
+   "reason": "Accused are male sons and the appellant is referred to as 'he'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is mentioned for the appellant or any accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his father Satya Narain",
+   "page": 4,
+   "reason": "Deceased Satya Narain is male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age is not mentioned anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Shree Dev, deceased Satya Narain, and Laxmi Narain were the three brothers",
+   "page": 4,
+   "reason": "Accused are sons of the deceased's brother, so a relative; 'nephew' is implied but not stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for the murder of his Uncle",
+   "page": 2,
+   "reason": "The offence is murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 148 and 302/149 of the Indian Penal Code, 1860",
+   "page": 3,
+   "reason": "Provisions match the judgment."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Kanta and knives used in the assault; country-made pistol carried and fired in the air",
+   "quote": "started assaulting him with knives and kanta",
+   "page": 8,
+   "reason": "Murder weapons were kanta and knives; the pistol was fired only in the air, not used to kill."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness, medical",
+   "quote": "neither any country-made pistol was recovered nor any cartridge, empty or otherwise, recovered",
+   "page": 16,
+   "reason": "No recovery was made; 'recovery' wrongly listed as evidence type."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned, consistent with 'None'."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was an old enmity and for that reason, the accused persons had fatally assaulted Satya Narain",
+   "page": 4,
+   "reason": "Old enmity and property-related litigation are stated as the reason for the attack."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted the appellant alongwith three others under Sections 148 and 302/149 IPC",
+   "page": 3,
+   "reason": "Trial court convicted the appellant under ss.148 and 302/149 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction and sentence affirmed; appeal dismissed",
+   "quote": "a division bench of the High Court affirmed the conviction and sentence of all the accused persons including that of the appellant",
+   "page": 3,
+   "reason": "High Court outcome was stated and was not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Result of the case: Appeal dismissed.",
+   "page": 17,
+   "reason": "Conviction was upheld and the appeal dismissed."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it was a case of murder of the deceased by the other accused persons under Section 302 IPC",
+   "page": 13,
+   "reason": "Murder under s.302 IPC is established per the judgment."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for life under Section 302/149 IPC",
+   "page": 3,
+   "reason": "Life imprisonment was imposed under s.302/149."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentence has no fixed term, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs. 2,000 (fine for conviction under Section 148 IPC, with default stipulation)",
+   "quote": "to pay fine of Rs. 2,000.00 for the conviction under Section 148 IPC",
+   "page": 3,
+   "reason": "A fine of Rs. 2,000 is stated, so null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused persons assaulted the deceased with kanta and knives; the appellant fired a pistol in the air to frighten witnesses; the deceased died; eyewitness and medical evidence were led.",
+   "quote": "The appellant was a part of the unlawful assembly which had the common object of eliminating Satya Narain",
+   "page": 13,
+   "reason": "Presents the court's holding on unlawful assembly membership and murder liability as fact, revealing the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for life under Section 302/149 IPC",
+   "page": 3,
+   "reason": "Sentence of life imprisonment under s.302/149 is stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the murder of his Uncle",
+   "page": 2,
+   "reason": "The murder was completed; the victim died on the spot."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he had received multiple injuries inflicted by knives and kanta",
+   "page": 8,
+   "reason": "Multiple injuries leading to death are documented."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Two offences: Section 148 IPC and Section 302/149 IPC",
+   "quote": "convicted the appellant alongwith three others under Sections 148 and 302/149 IPC",
+   "page": 3,
+   "reason": "Column expects a count; the description does not give one, though the convicted sections are supported."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss from the offence is stated."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution alleged a plot to kill the deceased; court made no finding on premeditation",
+   "quote": "This was the real intention behind the plot to kill Satya Narain.",
+   "page": 7,
+   "reason": "The State's submission alleges a plot, so 'Not stated' overlooks it, though no court finding exists."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was an old enmity and for that reason",
+   "page": 4,
+   "reason": "Motive is old enmity arising from property disposition and litigation."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant has been roped in with the aid of Section 149 IPC",
+   "page": 16,
+   "reason": "Accurately states the basis on which the appellant's involvement was accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their testimony in this regard could not be shaken",
+   "page": 16,
+   "reason": "PW-1 and PW-2 are sons of the deceased; their evidence was found unflinching and unshaken."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "State argued the appellant was named as an accused in the 1993 killing of Laxmi Narain",
+   "quote": "In that case, appellant herein along with others were named as accused.",
+   "page": 7,
+   "reason": "The judgment records the State's post-incident conduct argument, so 'Not stated' is inaccurate."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; only bail refusal is mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On 30.06.2014, this Court granted leave but rejected the prayer for bail.",
+   "page": 3,
+   "reason": "Bail rejection by this Court is stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence 08.09.1992; trial judgment 20.01.1997; High Court judgment 27.09.2012; Supreme Court judgment 04.09.2024 (dates only, no duration)",
+   "quote": "judgment and order dated 20.01.1997 passed in Sessions Trial No. 17 of 1993",
+   "page": 3,
+   "reason": "Dates are supported, but the field asks for duration and gives a list of dates."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "P. K. Jain, Saurabh Jain, S.P. Singh Rathore",
+   "page": 2,
+   "reason": "Counsel for appellant and respondents are listed as stated."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he had submitted the chargesheet on 13.10.1992",
+   "page": 11,
+   "reason": "FIR registered, chargesheet filed and trial completed are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Lacunae: scribe Kuldeep and Laxmi Narain not examined; no recovery of pistol or cartridges",
+   "quote": "It is true that there are certain lacunae in the prosecution. The scribe Kuldeep was not examined.",
+   "page": 16,
+   "reason": "Judgment notes prosecution lacunae, contradicting 'None noted'."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted (1997); High Court affirmed conviction and dismissed appeal (2012); Supreme Court dismissed appeal (2024)",
+   "quote": "a division bench of the High Court affirmed the conviction and sentence",
+   "page": 3,
+   "reason": "Trial court convicted rather than 'upheld' the conviction; the rest is correct."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-1 and PW-2, categorically stated that appellant was carrying a country-made pistol from which he fired in the air",
+   "page": 7,
+   "reason": "Accurately reflects the State's arguments on the pistol, overt act, and motive."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "neither were there any firearm injuries on the person of the deceased",
+   "page": 5,
+   "reason": "Accurately reflects the defence points on injuries, recovery, non-examination and suspicion."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 149 IPC creates a constructive or vicarious liability of the members of the unlawful assembly",
+   "page": 15,
+   "reason": "Accurately states the vicarious liability principle applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Krishnappa Vs. State of Karnataka; Vinubhai Ranchhodbhai Patel Vs. Rajivbhai Dudabhai Patel; Yunis alias Kariya Vs. State of M.P.",
+   "page": 14,
+   "reason": "All three cases are cited in the judgment as relied upon."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court imposed life under s.302/149 and two years RI under s.148; this Court held the charges proved and upheld the conviction",
+   "quote": "the trial court had rightly convicted the appellant under Section 148 IPC read with Section 302/149 IPC",
+   "page": 17,
+   "reason": "The sentence was imposed by the trial court, not for the final decision; the reasoning on proof is correct."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not expressly list aggravating factors for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Co-accused Shree Dev convicted under ss.147 and 302/149 IPC, sentenced to two years RI and life imprisonment",
+   "quote": "Another accused Shree Dev was convicted for the offences punishable under Sections 147 and 302/149 IPC.",
+   "page": 3,
+   "reason": "Sentences of co-accused Shree Dev are stated, so 'None' is incomplete."
+  }
+ }
+}

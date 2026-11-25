@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "made accused Nos. 1 to 3 respectively",
+   "page": 8,
+   "reason": "Three accused are named in the chargesheet."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he was witness No.1 and also as accused No.3",
+   "page": 8,
+   "reason": "Appellant is referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the appellant."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "owner of Goodwill Enterprises dealing with wood",
+   "page": 6,
+   "reason": "Occupation is stated in paragraph 6."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he was illegally kept in the Police Station",
+   "page": 15,
+   "reason": "Deceased Ram Kishore is referred to as male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the deceased Ram Kishore."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "cashier/accountant of the appellant",
+   "page": 5,
+   "reason": "Deceased was appellant's cashier/accountant, so employer relationship is supported."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Murder (s.302 IPC) charge, custodial death",
+   "quote": "a grave allegation of commission of an offence of custodial death amounting to murder",
+   "page": 19,
+   "reason": "Judgment describes the charge as murder under s.302, not culpable homicide."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 302, 343, 217, 218, 330, 120B and 34, IPC",
+   "page": 8,
+   "reason": "Listed sections match the chargesheet provisions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is identified as used against the deceased; gun reference relates to the separate robbery."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Witness statements (s.161 Cr.PC), chargesheet/final report, post-mortem report",
+   "quote": "As per the post mortem report dated 24.07.1993",
+   "page": 7,
+   "reason": "Medical and statement evidence are referenced; no recovery evidence is mentioned."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are identified by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are identified by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The said application for discharge under Section 227, Cr.PC, was rejected",
+   "page": 8,
+   "reason": "Trial court rejected the discharge application."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Dismissed the s.482 Cr.PC application, upholding rejection of discharge",
+   "quote": "same was dismissed by the High Court",
+   "page": 1,
+   "reason": "High Court did dismiss the s.482 application, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Discharged (appeal allowed; appellant discharged under s.227)",
+   "quote": "the appellant stands discharged",
+   "page": 20,
+   "reason": "Appellant was discharged, not acquitted after trial."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was established against the appellant."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant, owner of a wood business, was named in a robbery complaint; his cashier Ram Kishore died in police custody; appellant was charged under ss.302, 120B and 34 IPC; the trial court rejected his discharge application.",
+   "quote": "The said application for discharge under Section 227, Cr.PC, was rejected",
+   "page": 8,
+   "reason": "Summary reveals the Supreme Court's findings and conclusions, breaching the no-outcome rule, and says cashier was robbed inaccurately."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Punishment ranges are not in the judgment; these are outside knowledge."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "commission of custodial death owing to the torture",
+   "page": 15,
+   "reason": "Death occurred, so the offence is completed as alleged."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "commission of custodial death owing to the torture to which Ram Kishore was subjected",
+   "page": 15,
+   "reason": "Judgment attributes death to torture in custody."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charged under 7 sections; none sustained against appellant, who was discharged",
+   "quote": "for commission of offences under Sections 302, 343, 217, 218, 330, 120B and 34, IPC",
+   "page": 8,
+   "reason": "No offence was upheld against the appellant; he was discharged."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Cash and a draft belonging to appellant were lost in the robbery in Crime No.351/1993",
+   "quote": "the amount in cash and the draft involved was that of the appellant",
+   "page": 18,
+   "reason": "Judgment describes cash and draft lost by appellant, so 'Not applicable' is wrong."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is found in the materials."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive for the appellant is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "No evidence accepted implicating appellant; court found absence of accusation of his role in torture",
+   "quote": "absolute absence of any accusation or even an insinuation that the appellant had played any role in torturing Ram Kishore",
+   "page": 16,
+   "reason": "Quote accurately reflects the court's finding, but the court accepted no evidence against him."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "Not assessed by the court; defence argued that even if s.161 statements are taken as correct, they reveal no conspiracy",
+   "quote": "even if the statements of the witnesses recorded under Section 161, Cr.PC ... are taken as correct, they would not reveal anything",
+   "page": 8,
+   "reason": "Value presents the defence's hypothetical as the court's credibility finding."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant lodged complaint immediately after deceased's death, which trial court treated as suspicious",
+   "quote": "immediately on the death of Ram Kishore from the hospital he filed the complaint",
+   "page": 9,
+   "reason": "Judgment discusses the immediate complaint as a suspicion ground, so 'Not stated' is incorrect."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "from 17.07.1993 to 23.07.1993",
+   "page": 15,
+   "reason": "Deceased was kept in police custody from 17.07.1993 to 23.07.1993."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence/robbery 15.07.1993; custodial death 17-23.07.1993; chargesheet 21.02.2000; trial court order 19.04.2007; HC order 21.04.2023; SC judgment 15.07.2024",
+   "quote": "chargesheet dated 21.02.2000 filed in Crime No.371/1993",
+   "page": 8,
+   "reason": "21.02.2000 is the chargesheet date, not a trial judgment; trial order date is omitted."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Siddhartha Dave, Sr. Adv.",
+   "page": 4,
+   "reason": "Counsel for both sides are listed in the appearances section."
+  },
+  "investigation_status": {
+   "verdict": "incorrect",
+   "correct_value": "FIR registered; chargesheet filed; trial pending at discharge stage",
+   "quote": "filed in Sessions Trial No.1532/2005",
+   "page": 20,
+   "reason": "Trial is pending; 'trial completed' is not supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "High Court did not consider the aspects in the manner required under law",
+   "quote": "These aspects were not at all considered by the High Court",
+   "page": 19,
+   "reason": "Court found High Court failed to consider material aspects, so 'None noted' is wrong."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "this appeal is allowed",
+   "page": 20,
+   "reason": "Matches trial court, High Court and Supreme Court orders described."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "is sufficient to create a strong suspicion against the appellant",
+   "page": 10,
+   "reason": "Summary accurately reflects prosecution's suspicion-based argument on conspiracy and s.34."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is absolute absence of any material to arraign the appellant herein as an accused with the aid of either Section 120B, IPC or Section 34",
+   "page": 8,
+   "reason": "Summary accurately reflects defence submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "should not be and could not be based on mere suppositions or suspicions or conjectures",
+   "page": 15,
+   "reason": "Principle on confining s.227 consideration to record and avoiding suppositions is stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "State of Orissa v. Debendra Nath Padhi; P. Vijayan v. State of Kerala; Union of India v. Prafulla Kumar Samal; Yogesh alias Sachin Jagadish Joshi; State of Tamil Nadu v. N Suresh Rajan; R. Venkatakrishnan v. CBI; Ajay Aggarwal v. Union of India; Om Parkash Sharma v. CBI; Stree Atyachar Virodhi Parishad; BK Sharma; Kaushalya Devi",
+   "quote": "Union of India v. Prafulla Kumar Samal [1979] 2 SCR 229 : (1979) 3 SCC 4 – relied on.",
+   "page": 3,
+   "reason": "Value omits several authorities cited, including Om Parkash Sharma, Stree Atyachar, BK Sharma and Kaushalya Devi."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred, so no rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence-related order is made beyond setting aside orders and discharge."
+  }
+ }
+}

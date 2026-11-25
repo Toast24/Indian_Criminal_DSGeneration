@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "RANDHIR @ RANDHIR PAL & ORS. v. STATE OF HARYANA",
+   "page": 1,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "11 accused at trial (A1-A11); 5 appellants before the Supreme Court",
+   "quote": "the present five appellants",
+   "page": 2,
+   "reason": "Five is the number of appellants before the Court; the trial involved eleven accused, which is omitted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Randhir A2 S/o Jai Narayan",
+   "page": 6,
+   "reason": "Accused are named male individuals described as 'S/o' (son of)."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated for any accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not stated; 'Brahaman' describes caste, not religion."
+  },
+  "accused_caste": {
+   "verdict": "incorrect",
+   "correct_value": "Brahman (Brahaman) for A2, A4, A7; A8 and A11 caste not given",
+   "quote": "Lakhmi - A 7 S/o Baru, Brahaman by caste",
+   "page": 6,
+   "reason": "Judgment describes the accused as Brahaman by caste, not Scheduled Caste; 'Harijan' refers to a witness."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased Laxman",
+   "page": 7,
+   "reason": "Victim Laxman is referred to with male pronoun 'his' and as brother."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated; 'Laxman Harijan' is a different witness reference."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (accused are relatives of Prem, the earlier deceased, not of Laxman)",
+   "quote": "innocent family members of the accused persons, were also roped in",
+   "page": 8,
+   "reason": "Judgment ties accused to Prem's family, not a stated relationship with victim Laxman."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sections 148, 302, 342, 452 read with section 149",
+   "page": 5,
+   "reason": "Charges include section 302 (murder) on a victim who was shot dead."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under sections 148, 302, 342, 452 read with section 149 of the Indian Penal Code",
+   "page": 5,
+   "reason": "Provisions match those cited in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a country made pistol, knives and 'gandasas' (axes)",
+   "page": 2,
+   "reason": "Weapons match the complaint's account of the assault by the other accused."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness",
+   "quote": "two prosecution witnesses, who claimed to be eye-witnesses",
+   "page": 3,
+   "reason": "Eyewitness evidence is supported; no medical evidence is discussed in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the trial court found the appellants guilty of the charges",
+   "page": 5,
+   "reason": "Trial court convicted under the listed sections read with section 149."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed on 18.09.2009",
+   "quote": "The above appeal was dismissed by the High Court on 18.9.2009.",
+   "page": 5,
+   "reason": "High Court dismissed the appellants' appeal; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants (Randhir - A2, Vijay Kumar - A4, Lakhmi Ram - A 7, Shiv Narain - A8 and Manoj - A11) of the charges",
+   "page": 8,
+   "reason": "Supreme Court allowed the appeal and acquitted the appellants."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants were acquitted, so no offence was finally established against them."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed on these appellants following acquittal."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without the Supreme Court outcome; accused alleged only to have prevented persons from entering the shop and passersby from moving, not to have assaulted the victim.",
+   "quote": "The Supreme Court further acquitted the remaining accused",
+   "page": 8,
+   "reason": "Summary wrongly says witnesses claimed the accused assaulted the victim, and it reveals the court outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No minimum or maximum punishment is stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "attacked and shot dead in a shop",
+   "page": 1,
+   "reason": "Offence is described as completed, with the victim shot dead."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Satpal -A1 fired a shot with the pistol ... which hit the chest",
+   "page": 2,
+   "reason": "Harm matches the complaint's account of shot and blade and axe injuries."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charges under ss. 148, 302, 342, 452 r/w s.149; none upheld for the five appellants",
+   "quote": "acquit the appellants (Randhir - A2, Vijay Kumar - A4, Lakhmi Ram - A 7, Shiv Narain - A8 and Manoj - A11)",
+   "page": 8,
+   "reason": "Four provisions were charged; all five appellants were acquitted, so none was upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not stated."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecution's motive was the earlier murder of Prem s/o Baru on 30.8.2001, in which the victim was allegedly involved",
+   "quote": "the motive for committing the crime was the murder of Prem s/o Baru on 30.8.2001",
+   "page": 6,
+   "reason": "The judgment identifies a motive, namely enmity arising from Prem's earlier murder."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Court relied on PW7 and PW8 to show appellants did not assault the victim, but found PW7's testimony on blocking persons appears false.",
+   "quote": "Even as per the statements of two eye-witnesses ... the present five appellants were not involved in the assault",
+   "page": 7,
+   "reason": "Court did not simply accept the witnesses; it rejected PW7's shop-blocking testimony as false and an afterthought."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "PW7 and PW8 are brothers of the deceased; PW7's testimony on blocking persons was found false and contradicted by PW8, not on assault involvement.",
+   "quote": "The testimony of Raj Mal - PW7, with reference to stopping persons from coming into the shop ... appears to be false.",
+   "page": 7,
+   "reason": "Credibility problems concern the blocking testimony; the witnesses' assault accounts actually exonerated the appellants."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct of the accused is not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; the appellants were on bail."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Since the present appellants are on bail, their bail bonds shall stand discharged.",
+   "page": 8,
+   "reason": "Judgment confirms the appellants were on bail and bonds were discharged."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "26.11.2002; 23.7.2004; 18.9.2009; 06.10.2016",
+   "page": 5,
+   "reason": "Offence, trial judgment, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "V. Giri, Sr. Adv., Mrs. Kawaljit Kochar ... Anish Kumar Gupta, AAG",
+   "page": 3,
+   "reason": "Counsel names for appellants and State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the complaint, which came to be converted into the First Information Report",
+   "page": 4,
+   "reason": "FIR was registered from PW7's complaint on the date of occurrence; witnesses were examined."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Persons named as prevented from entering the shop were not recorded during investigation or trial",
+   "quote": "neither the concerned passersby, nor the persons named ... were recorded during the course of the investigation",
+   "page": 6,
+   "reason": "The judgment notes investigative lapses about unrecorded named persons, so 'None noted' is incomplete."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appeal allowed, acquitting the appellants",
+   "page": 8,
+   "reason": "Trial conviction, High Court dismissal and Supreme Court acquittal are all correctly stated."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecution case was that the appellants stood outside the shop preventing persons from entering and passersby from moving; not that they joined the assault.",
+   "quote": "it is not even the case of the prosecution witnesses ... that the present five appellants, were in any way involved in the injuries",
+   "page": 5,
+   "reason": "Judgment says the prosecution did not allege the appellants were involved in the assault or injuries."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellants were not involved in the assault inside the shop; the case was an effort to rope in family members due to enmity over Prem's murder.",
+   "quote": "the effort now was to involve as many members of the family as possible",
+   "page": 6,
+   "reason": "Defence argued non-involvement and enmity; the claim that the witnesses' statements were false is not attributed to the defence."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is difficult to conclude with certainty ... entitled to the benefit of doubt",
+   "page": 8,
+   "reason": "Court applied the reasonable doubt standard and benefit of doubt to acquit."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred, so 'Not applicable' is consistent."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No judicial mitigating factors are identified."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No judicial aggravating factors are identified."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their bail bonds shall stand discharged",
+   "page": 8,
+   "reason": "Only the bail bond discharge is ordered; no other sentence order is made."
+  }
+ }
+}

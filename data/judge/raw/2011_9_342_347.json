@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only one appellant is referred to throughout the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to with male pronouns, e.g. 'his pocket'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (accused is paternal uncle of a Kshatriya deceased; SC status belongs to PW1)",
+   "quote": "a member of the Scheduled Castes",
+   "page": 2,
+   "reason": "Scheduled Caste status is attributed to PW1, the husband, not the accused. Accused's caste is not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record of the accused is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is female, referred to as the deceased 'her' and 'niece'."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The deceased Varalakshmi who was a Kshatriya",
+   "page": 2,
+   "reason": "Judgment states the deceased was a Kshatriya."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant who was the paternal uncle of the deceased",
+   "page": 2,
+   "reason": "Accused was the deceased's paternal uncle, a relative."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charged under s.302 for killing, so murder is the correct category."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302, 201 and 379 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Sections 302, 201 and 379 of the IPC are correctly listed."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Chunni (cloth) thrust into mouth, causing smothering",
+   "quote": "her chunni had been thrust into her mouth",
+   "page": 2,
+   "reason": "Value says none, but the chunni was used to smother the deceased."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case rests on last-seen, medical and recovery evidence, described as circumstantial."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted him of the offences charged and sentenced him accordingly",
+   "page": 3,
+   "reason": "Trial court convicted under ss.302, 201 and 379."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court has, in appeal, confirmed the judgment of conviction and sentence",
+   "page": 4,
+   "reason": "High Court confirmed the conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we allow the appeal and order the appellant's acquittal",
+   "page": 6,
+   "reason": "Supreme Court allowed the appeal and acquitted the appellant."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant was acquitted, so no offence was finally established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed by the Supreme Court; appellant is ordered released."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated in the final disposition."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned for the accused."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The deceased's family, not the accused's family, accepted the marriage; facts should avoid court's reasoning, which hints at the outcome.",
+   "quote": "the family of the deceased had accepted the marriage for about six years",
+   "page": 5,
+   "reason": "Wrongly attributes marriage acceptance to the accused's family, and includes court's doubts that hint at the acquittal."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Sentencing range for s.302 is not stated in the judgment; it comes from outside knowledge."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "she had died of asphyxia due to smothering as her chunni had been thrust into her mouth",
+   "page": 2,
+   "reason": "Post-mortem showed death from asphyxia due to smothering."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three offences were charged and the conviction was upheld by both lower courts."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Theft of the deceased's jewellery (s.379 charge)",
+   "quote": "the recovery of the ornaments allegedly taken from the deceased",
+   "page": 5,
+   "reason": "Jewellery allegedly taken from the deceased is a property loss linked to the s.379 charge."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not expressly stated; only the pretext used to take the deceased is described."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his niece on account of family honour, would act so low",
+   "page": 5,
+   "reason": "Family honour is the alleged motive, and the court found it suspect."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "None accepted as key evidence; court found last-seen evidence uncertain and jewellery recovery unbelievable",
+   "quote": "the last seen evidence of the prosecution witnesses is equally uncertain",
+   "page": 5,
+   "reason": "Supreme Court rejected the last-seen and recovery evidence rather than accepting it."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no effort had been made to hold a test identification parade",
+   "page": 5,
+   "reason": "Court found last-seen witnesses uncertain, noting late s.164 statements and no test identification parade."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecution alleged appellant kept the jewellery until recovery; court found this completely unacceptable",
+   "quote": "completely unacceptable that though the incident happened on the 14th of August, 2002 the appellant had continued to move around with the jewellery",
+   "page": 5,
+   "reason": "Presents the prosecution's inference as established fact; the court rejected it as unacceptable."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment says appellant is in custody but gives no duration."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence 14 Aug 2002; arrest 7 Sept 2002; trial judgment date not stated; HC 20 Feb 2007; SC 20 July 2011",
+   "quote": "arrested on the 7th September,. 2002",
+   "page": 3,
+   "reason": "7 September 2002 is the arrest date, not the trial judgment date, which is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Siddharth Dave, Jemtiben Ao for the Appellant. D. Mahesh Babu, Ramesh Allanki, Savita Dhanda for the Respondent.",
+   "page": 2,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Investigation completed and appellant brought to trial; charge sheet not expressly mentioned",
+   "quote": "On the completion of the investigation, the appellant was brought to trial",
+   "page": 3,
+   "reason": "Trial after completed investigation is supported, but 'charge sheet filed' is not stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Court noted delayed s.164 statements and no test identification parade",
+   "quote": "no effort had been made to hold a test identification parade",
+   "page": 5,
+   "reason": "Value says none noted, but the court flagged the missing identification parade and delayed statements."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court upheld, and Supreme Court acquittal match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the last seen evidence and the recoveries by themselves did constitute such a chain",
+   "page": 4,
+   "reason": "State relied on last-seen evidence, medical evidence and recoveries, as summarised."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the First Information Report recorded on the 18th August, 2002 was no FIR in the eyes of law",
+   "page": 4,
+   "reason": "Defence argued no evidence linked accused, FIR was invalid, and the chain was missing."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "In a case relating to circumstantial evidence, motive is often a very strong circumstance which has to be proved by the prosecution",
+   "page": 5,
+   "reason": "Motive as a strong circumstance to be proved is stated; chain requirement is consistent with the reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed by the Supreme Court, so no sentencing rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only release order and amicus fee are given; no other sentence order exists."
+  }
+ }
+}

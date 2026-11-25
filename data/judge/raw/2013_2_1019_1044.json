@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant; the case concerns one accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as male throughout (he, his)."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment nowhere states the accused's age; 28 has no basis in the text."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not stated; only witnesses' elephant-riding work is described."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victims include Seema (wife), male persons Munna Mawali, Isha and Sonu, so mixed is supported."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victims' ages are not stated; the value 28 appears to be a copy of the accused's age."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to victims; neighbours in same area; quarrel with Seema on Eid",
+   "quote": "the appellant had a quarrel with Seema (the deceased) on the day of Eid",
+   "page": 13,
+   "reason": "Judgment shows the accused lived in the same colony, quarrelled with Seema, and was a friend of PW-4; not a stranger."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction was under Section 302 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "A blood-stained axe was recovered on the accused's disclosure."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial; witness testimony (PWs 1 and 4); extra-judicial confession; medical; recovery; FSL/DNA; motive; conduct; s.313 statement",
+   "quote": "the FSL report and DNA report matches with the blood group of the deceased",
+   "page": 13,
+   "reason": "Omits witness testimony, FSL/DNA forensic evidence, motive, conduct and s.313 statement listed by the court."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Extra-judicial confession to PW-4 was relied on by the courts."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court stressed five deaths including three children as the gravity of the offence."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss any mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.302 and sentenced to death."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court upheld conviction, commuted death to life for 20 years without remission."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed appeals, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder is established per the Supreme Court's findings."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death sentence commuted to life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Minimum 20 years including period undergone, without remission."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts of the incident, evidence, arrest and flight without stating the courts' conclusions on guilt or reliability",
+   "quote": "The courts below accepted the evidence as reliable and connected the accused to the crime.",
+   "page": 14,
+   "reason": "Facts are accurate but the final sentence reveals the court's conclusion, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence moved from death to 20 years' imprisonment without remission, as stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murders were completed; five persons died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-mortems show five deaths from multiple injuries."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Five deaths; conviction under s.302 IPC; number of counts not stated",
+   "quote": "The trial court convicted the appellant u/s 302 IPC and sentenced him to death.",
+   "page": 2,
+   "reason": "Five deaths are correct, but the judgment does not state five charges or counts."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never finds premeditation or planning; it only discusses motive and conduct."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Quarrel with Seema on Eid is the motive stated by PW-1 and corroborated by PW-4."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Closely matches the Court's summary of accepted evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the judgment's assessment of PWs 1 and 4."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Flight to Delhi, arrest at 2.20 a.m. and false name are accurately described."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, chargesheet and completed trial are described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court rejected FIR and non-examination objections; no irregularity was found."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the State's submissions on circumstances, recoveries, confession and conduct."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the amicus's no-eyewitness, FIR and remission submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court upheld minimum-term restrictions on remission after commutation, consistent with paras 29 and 31."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Listed cases match those relied on; Sangeet is correctly excluded as inapplicable."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Reasoning matches the Court's reliance on gravity and earlier well-reasoned judgments."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not identify or reject mitigating factors; 'None' is not stated."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Five persons died including three children; gravity of the offence",
+   "quote": "Taking note of the fact that the prosecution has established the guilt by way of circumstantial evidence",
+   "page": 25,
+   "reason": "Court expressly relied on the killing of five persons, so 'None' contradicts the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court barred remission until at least 20 years served, as stated."
+  }
+ }
+}

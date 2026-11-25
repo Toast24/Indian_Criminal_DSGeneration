@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "GOPAL v. STATE OF KARNATAKA",
+   "page": 3,
+   "reason": "Matches the title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant - Gopal challenges his conviction",
+   "page": 3,
+   "reason": "Single accused-appellant."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "poured kerosene on the body of his wife Mallavva",
+   "page": 3,
+   "reason": "Accused is the husband, so male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion given."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste given."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation given."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his wife Mallavva",
+   "page": 3,
+   "reason": "Victim is the wife."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste given."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion given."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his wife Mallavva",
+   "page": 3,
+   "reason": "Husband and wife."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction under Section 302 l.P.C.",
+   "page": 3,
+   "reason": "s.302 is murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction under Section 302 l.P.C.",
+   "page": 3,
+   "reason": "Only s.302 IPC is mentioned."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "poured kerosene on the body of his wife ... and set her on fire",
+   "page": 3,
+   "reason": "No weapon; kerosene and fire were used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dying declaration recorded by PW-13 and supported by PW-5",
+   "page": 4,
+   "reason": "Dying declaration, doctor's endorsement, FSL report and circumstances all appear."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The trial court convicted the appellant under Section 302 IPC.",
+   "page": 1,
+   "reason": "Conviction stated; sentence not given."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court upheld the same.",
+   "page": 1,
+   "reason": "Conviction upheld in the High Court appeal."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "We find no merit in this appeal. It is, accordingly, dismissed.",
+   "page": 4,
+   "reason": "Conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "challenges his conviction under Section 302 l.P.C.",
+   "page": 3,
+   "reason": "s.302 conviction stands."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is not stated in the judgment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed term stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same summary, but without gendered wording for the accused (e.g. 'the accused's spouse', no 'his/he').",
+   "quote": "he poured kerosene on the body of his wife Mallavva and set her on fire",
+   "page": 3,
+   "reason": "Facts are accurate, but it uses 'his', 'he' and 'wife' for the accused, breaching the no-gender-pronoun rule."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states no statutory punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On 19.1.1999, Mallawa succumbed to the injuries.",
+   "page": 3,
+   "reason": "Completed offence; victim died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On 19.1.1999, Mallawa succumbed to the injuries.",
+   "page": 3,
+   "reason": "Burn injuries leading to death."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction under Section 302 l.P.C.",
+   "page": 3,
+   "reason": "Only s.302 is mentioned, and it was upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court made no finding on planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "demanded Rs. 100/- from her ... On her refusal, the accused became angry",
+   "page": 3,
+   "reason": "Alleged motive was the Rs.100 dispute, properly marked as alleged."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "We have seen the FSL Report - Exhibit P-25 for that purpose which endorses this fact.",
+   "page": 4,
+   "reason": "Dying declaration, FSL report and lack of explanation were relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the witnesses, who carried the deceased to the hospital, turned hostile ... but that may not be an escape route",
+   "page": 4,
+   "reason": "Accurately reflects the Court's view."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing stated on conduct after the offence."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on 29.12.1998 ... dated 03.11.2003 ... APRIL 19, 2011",
+   "page": 3,
+   "reason": "Dates match; trial judgment date not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ram Lal Roy for the Appellant. Gurudatta Ankolekar, Azeem Kalebudde, V.N. Raghuparthy for the Respondent.",
+   "page": 2,
+   "reason": "Counsel correctly listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-13 PSI Ravi came there and recorded her dying declaration",
+   "page": 3,
+   "reason": "Consistent with the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the investigating officer did not make any attempt to get recorded the second dying declaration",
+   "page": 4,
+   "reason": "Lapse noted and held not fatal."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "From the Judgment & Order dated 03.11.2003 of the High Court of Karnataka (DB) in Criminal Appeal No. 460 of 2000.",
+   "page": 2,
+   "reason": "Matches the outcome at each level."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "State's arguments are not recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "pointed out that the investigating officer did not make any attempt to get recorded the second dying declaration",
+   "page": 4,
+   "reason": "Only defence point recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the dying declaration itself was a good dying declaration and could have been acted upon",
+   "page": 4,
+   "reason": "Reflects the reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing discussion."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other orders."
+  }
+ }
+}

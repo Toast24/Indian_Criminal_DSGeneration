@@ -1,0 +1,385 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "STATE OF MAHARASHTRA v. SYED UMAR SAYED ABBAS & ORS.",
+   "page": 1,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The State of Maharashtra has filed these appeals against the acquittal of Accused Nos. I, 3, 4, 9 and 12.",
+   "page": 5,
+   "reason": "Five accused are before the Court."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused Nos.1, 3, 4, 9 and .12",
+   "page": 5,
+   "reason": "Judgment does not state the gender of the accused."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated; names should not be used to infer it."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing on the accused's wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "opened fire on Rajendra Rajaram Gupta",
+   "page": 4,
+   "reason": "The deceased is a male, Rajendra Rajaram Gupta."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the victim."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "two unknown persons entered the Panda!",
+   "page": 4,
+   "reason": "No relationship is described; the assailants are called unknown."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 302, 307, 120B",
+   "page": 4,
+   "reason": "Murder is the main offence charged."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.302, 307, 120B r/w s.34; Arms Act ss.25, 27, 29",
+   "correct_value_note": "s.34 is charged only with 120B per page 4",
+   "quote": "under Sections 302, 307, 120B read with Section 34 of the Indian Penal Code, 1860 ... and Sections 25, 27, and 29 of the Arms Act, 1959",
+   "page": 4,
+   "reason": "Provisions are right; the 'r/w s.34' grouping is the judgment's own wording, so only minor imprecision."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "opened fire on Rajendra Rajaram Gupta and pumped many bullets",
+   "page": 4,
+   "reason": "Firearm; type not specified."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it was conclusively established by the Test Identification Parade and eye-witness testimonies ... recovery of the weapon along with the ballistic report",
+   "page": 5,
+   "reason": "Eyewitness, TIP, recovery, ballistic and post-mortem evidence are all mentioned."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "pumped many bullets in his head, chest and various parts of his body at point blank range",
+   "page": 4,
+   "reason": "Supported by the facts described."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted Accused Nos.1, 3, 4, 9 and .12 for offences punishable under Sections 302 and 307 read with Section 120-B",
+   "page": 5,
+   "reason": "Accurate; sentence is not stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court allowed the criminal appeals filed by the respondents herein and acquitted them",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we find no grounds to interfere with the judgment passed by the High Court. The appeals are, accordingly, dismissed.",
+   "page": 8,
+   "reason": "Acquittal is upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No conviction stands."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence results from the acquittal."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence, so null is right."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove 'On a Saturday', 'about an hour and a quarter later' and 'roughly a year or more after' as inferences; remove the reference to the post-mortem finding of the victim being attacked from behind unless framed as evidence.",
+   "quote": "on 12.8. I 995, at about 3.00 P.M. ... The FIR came to be immediately lodged at 4: 15 P.M.",
+   "page": 4,
+   "reason": "The weekday 'Saturday' is not in the judgment; the rest is largely accurate. The text also hints at weaknesses in the evidence."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the prescribed punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "declared dead on arrival",
+   "page": 4,
+   "reason": "Death occurred, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "while PW6 tried to run, he was also hit by one bullet",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "6 charged (IPC ss.302, 307, 120B; Arms Act ss.25, 27, 29); 0 finally upheld",
+   "quote": "Sections 302, 307, 120B read with Section 34 ... Sections 25, 27, and 29 of the Arms Act",
+   "page": 4,
+   "reason": "The count of 7 includes s.34, which is a rule of joint liability rather than a distinct offence; the correct count of distinct offences is 6."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court made no finding on planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is mentioned."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the testimonies of the witnesses suffer various infirmities and contradictions",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW7 did not identify any of the accused/ respondents in the Test Identification Parade",
+   "page": 7,
+   "reason": "Matches the assessment of each witness."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The assailants managed to escape.",
+   "page": 4,
+   "reason": "Assailants escaping is noted, but no specific accused conduct is found; 'Not stated' is acceptable, if slightly incomplete."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on 12.8. I 995 ... dated 23.07.2003 ... dated 15 .9.2009 ... FEBRUARY 12, 2016",
+   "page": 4,
+   "reason": "All dates are accurate."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Kuna] A. Cheema, Addi. Govt. Adv., Nishant Ramakantrao Katneshwarkar for the Appellant. Mushtaq Ahmad for the Respondents.",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charges were framed against I 3 accused persons",
+   "page": 4,
+   "reason": "Consistent with the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Test Identification Parade was not conducted properly and was delayed",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeals are, accordingly, dismissed.",
+   "page": 8,
+   "reason": "Accurate summary."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State reiterated that the Trial Court judgment was well reasoned and well considered.",
+   "quote": "reiterated that the judgment of the Trial Court is well reasoned and well considered",
+   "page": 5,
+   "reason": "Only the first point is the State's argument in the SC; the rest is the trial court's reasoning."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "relying upon the judgment of the High Court pressing that ... the prosecution could not bring home the charges",
+   "page": 5,
+   "reason": "Plus the Siddanki Ram Reddy citation on delayed TIP."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "any delay in holding the test identification parade may be held to be fatal to the prosecution case",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Siddanki Ram Reddy v. State of An<lhra Pradesh, [(2010) 7 SCC 697]",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other orders."
+  }
+ }
+}

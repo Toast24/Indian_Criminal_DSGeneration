@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "JAGGA SINGH AND ANR. v. STATE OF PUNJAB",
+   "page": 3,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Jagga Singh and Anr. v. State of Punjab",
+   "page": 1,
+   "reason": "Two appellants are before the Court and their liability is decided."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Jagga Singh to 7 years R.I.",
+   "page": 2,
+   "reason": "Accused named as male persons (Jagga Singh, Jagtar Singh, Kaka Singh); no contrary indication."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated; must not be inferred from names."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation not given."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing on wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No record mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fired at Baggar Singh on his right thigh",
+   "page": 2,
+   "reason": "Both victims are referred to as male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No relationship or prior dispute described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "guilty under Section 325 IPC read with Section 34 IPC",
+   "page": 3,
+   "reason": "Final conviction is for hurt."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "302 read with Section 34 was allowed",
+   "page": 2,
+   "reason": "Sections 302/34, 307 and 325/34 all appear in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a gun shot was fired at Baggar Singh which hit him in the leg",
+   "page": 3,
+   "reason": "A gun was used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the post mortem examination on the dead body of the deceased found that there were only lacerated wounds",
+   "page": 2,
+   "reason": "Medical and testimonial/admitted evidence are referenced."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The trial Court convicted Jagga Singh to 7 years R.I. and a fine under Section 307 IPC.",
+   "page": 2,
+   "reason": "Matches; others got same sentence."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appeals of the accused to the High Court were dismissed, but the appeal of the State ... was allowed",
+   "page": 2,
+   "reason": "Accurately stated."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "acquitted of charge under Section 302 IPC",
+   "page": 3,
+   "reason": "Acquitted of 302 but convicted of 325 with reduced sentence: modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "guilty under Section 325 IPC read with Section 34 IPC",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "fixed_term",
+   "quote": "we award the sentence of the period already undergone by the appellants",
+   "page": 3,
+   "reason": "Sentence is a fixed term (period undergone), not unstated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of the period already undergone",
+   "page": 3,
+   "reason": "Number of years not given, so null."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine specified."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the 3 accused came to the house of Raja Singh",
+   "page": 2,
+   "reason": "Accurate, no names or court outcomes disclosed."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states no punishment prescribed by statute."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the dead body of Hoshiar Singh was found",
+   "page": 2,
+   "reason": "Harm completed; final conviction is for completed hurt."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fired at Baggar Singh on his right thigh ... only lacerated wounds",
+   "page": 2,
+   "reason": "Consistent with judgment."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction under Section 302 ... Section 307 IPC",
+   "page": 2,
+   "reason": "Two charged sections, one conviction stands."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No finding on this."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There was no gun shot wound on the body of the deceased.",
+   "page": 2,
+   "reason": "Matches what the Court relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No assessment of witnesses."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of the period already undergone",
+   "page": 3,
+   "reason": "Duration not specified."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of imprisonment ... shall remain suspended ... personal bond in the sum of Rs. 20,000/-",
+   "page": 3,
+   "reason": "Matches the suspension order."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on 24.4.92 at about 8.30 p.m.",
+   "page": 2,
+   "reason": "Dates correct; trial date not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rajiv Garg, Ashish Garg and Annam D.N. Rao for the Appellant. Kuldip Singh for the Respondent.",
+   "page": 1,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "post mortem examination on the dead body",
+   "page": 2,
+   "reason": "Little stated; post-mortem noted."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The impugned judgment of the High Court is modified",
+   "page": 3,
+   "reason": "Accurate at all levels."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Heard learned counsel for the parties.",
+   "page": 2,
+   "reason": "Arguments not recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Heard learned counsel for the parties.",
+   "page": 2,
+   "reason": "Arguments not recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "some doubt is created in the prosecution version ... whose benefit will go to the accused",
+   "page": 2,
+   "reason": "Benefit of doubt and s.34 applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we award the sentence of the period already undergone",
+   "page": 3,
+   "reason": "No further reasons given."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed expressly."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Their bonds are discharged accordingly.",
+   "page": 3,
+   "reason": "Matches."
+  }
+ }
+}

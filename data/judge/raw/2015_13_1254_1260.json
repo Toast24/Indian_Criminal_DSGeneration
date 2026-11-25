@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three accused are named: Sat Parkash, uncle Hari Chand and aunt Sarla."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is male; the judgment refers to him as 'he'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never states the appellant's age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is a minor girl, referred to as 'her' throughout."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge sheet describes the victim as a minor girl aged about 15."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No relationship between accused and victim is stated; the uncle and aunt are relatives of the accused only."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Kidnapping/abduction of a minor girl, procuration of a minor, and rape",
+   "quote": "The appellant Sat Parkash has also been acquitted of the offence punishable under Section 302",
+   "page": 4,
+   "reason": "Culpable homicide is not charged; the murder charge was dropped and the surviving charges are kidnapping, procuration and rape."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.363, 366, 366-A, 376 (s.368 charged against uncle and aunt; s.302 r/w 34 charged, appellant acquitted)",
+   "quote": "The surviving charges against the appellant are relatable only to Sections 363, 366, 366-A and 376",
+   "page": 4,
+   "reason": "Omits s.302 r/w 34 and wrongly lists s.368 as against the appellant; surviving charges exclude s.368."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Poison",
+   "quote": "when she was administered poison",
+   "page": 3,
+   "reason": "The judgment states poison was administered, so 'None mentioned' contradicts the text."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Suicide note (treated as dying declaration); no eyewitness evidence mentioned",
+   "quote": "The dying declaration of Sushila indicates, that she had committed suicide",
+   "page": 6,
+   "reason": "Dying declaration is correct, but eyewitness evidence is never mentioned in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is recorded; the suicide note is not a confession of the offence."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Headnote records acquittal of murder and conviction under ss.363, 366, 366-A, 368, 376."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Upheld the order of conviction",
+   "quote": "High Court upheld the order of conviction",
+   "page": 1,
+   "reason": "Judgment states the High Court upheld the conviction, not that it was not applicable."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed the appeal and set aside the conviction, so the appellant is acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was finally established; all convictions were set aside."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed as the conviction is set aside."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term of imprisonment is imposed in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral summary of charges, the suicide note and the presumption of kidnapping, without stating the acquittal or that the girl was found dead in the residence.",
+   "quote": "The girl was found dead in the accused's residence.",
+   "page": 1,
+   "reason": "Judgment does not say she was found dead there; the summary also reveals the outcome, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Up to ten years imprisonment and fine (s.366A punishment only)",
+   "quote": "shall be punishable with imprisonment which may extend to ten years, and shall also be liable to fine",
+   "page": 6,
+   "reason": "Penalty text is for s.366A only, not the overall offences charged."
+  },
+  "attempt_completion": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes a suicide attempt, not whether the charged offences were attempted or completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "While in the attempt, Sushila had died",
+   "page": 4,
+   "reason": "Judgment confirms the deceased died; death caused is supported."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Five offences charged; none finally upheld (all convictions set aside)",
+   "quote": "the conviction of the appellant - Sat Parkash, on the charges framed ... is clearly not sustainable",
+   "page": 7,
+   "reason": "Five charges were framed, but none remained; the court set aside all convictions, not four upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning of the alleged murder is stated."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (suicide note reflects deceased's love for 'Satto'; no murder motive stated)",
+   "quote": "I have loved Satto, and by dying I am leaving this writing as proof of my true love",
+   "page": 5,
+   "reason": "Love is in the note about the deceased, not a stated motive of the appellant for murder."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The clear and unequivocal statement made by the deceased Sushila",
+   "page": 5,
+   "reason": "Court relied on the suicide note as clear and unequivocal evidence of free departure."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (court noted no other evidence produced to show enticement)",
+   "quote": "no other evidence had been produced by the prosecution, to demonstrate that Sat Parkash had enticed the deceased",
+   "page": 5,
+   "reason": "Judgment does not assess witness credibility or family witnesses; it only notes lack of other evidence."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant was enlarged on bail. His bail bonds shall stand discharged",
+   "page": 7,
+   "reason": "Matches the judgment's bail order of 15.04.2011 and discharge of bonds."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Charges framed 18.10.1993; High Court judgment 05.01.2011; Supreme Court decision 09.12.2015",
+   "quote": "Judgment and Order dated 05.01.2011 of the High Court",
+   "page": 2,
+   "reason": "05.01.2011 is the High Court date, not the trial judgment; trial court date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The charges depicted in the charge sheet",
+   "page": 6,
+   "reason": "Charge sheet is referenced and trial proceeded to judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Court considered s.366 on its own though no express charge existed",
+   "quote": "even though there was no express charge against the appellant under the above provision",
+   "page": 6,
+   "reason": "Court's consideration of an uncharged section is an irregularity the value omits."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial acquittals, High Court affirmance and Supreme Court allowance are all supported."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution case of kidnapping, rape, concealment and poisoning murder matches the headnote."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "learned counsel for the appellant relied on the \"suicide note\"",
+   "page": 4,
+   "reason": "Defence relied on the suicide note stating free will departure and suicide."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Kidnapping presumption held misconceived; s.366A requires intent regarding another person; rape requires proof of sexual intercourse",
+   "quote": "the above presumption is wholly misconceived and untenable",
+   "page": 5,
+   "reason": "Beyond reasonable doubt standard is not stated; the suicide-note point is included but principles applied are omitted."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing is done since the conviction is set aside."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are recorded by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are recorded by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is made beyond setting aside the conviction and bail discharge."
+  }
+ }
+}

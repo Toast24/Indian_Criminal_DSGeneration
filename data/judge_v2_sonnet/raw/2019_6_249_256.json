@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "NAGJI ODHA VJI KUMBHAR & ANR. v. STATE OF GUJARAT",
+   "page": 1,
+   "reason": "Matches the judgment title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the conviction of the appellants",
+   "page": 3,
+   "reason": "Two appellants (appellant nos. 1 and 2) are before the Court."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "Vajibai, wife of appellant no. 1",
+   "page": 4,
+   "reason": "Gender of the appellants is never expressly stated; Male is inferred from names."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No status stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None mentioned."
+  },
+  "victim_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "causing death of Bhura Govind and Lakha Arjan",
+   "page": 3,
+   "reason": "Victims are referred to as 'both of them' and by male names; the judgment's other references give male victims, so 'Not stated' is likely wrong."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The cause of occurrence is that the appellants were not giving right of way to the deceased.",
+   "page": 3,
+   "reason": "Right-of-way/land dispute and civil injunction are stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "s.302 conviction is murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "ss. 302 and 324 r/w s. 34",
+   "page": 1,
+   "reason": "Matches the headnote."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants were having spear, Hansraj was having axe and others were having sticks.",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Injured eyewitnesses and medical evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The deceased had multiple stab wounds on the chest.",
+   "page": 8,
+   "reason": "Supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted for life for offence under Section 302 but no separate punishment was inflicted for the offence under Section 324",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "high_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court maintained conviction under ss. 302 and 324 (order dated 24.10.2008)",
+   "quote": "order passed by the High Court of Gujarat ... on 24.10.2008 maintaining conviction",
+   "page": 3,
+   "reason": "Maintained conviction is stated; 'dismissed' appeal is an inference but reasonable."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The criminal appeal is dismissed.",
+   "page": 8,
+   "reason": "Conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ss. 302 and 324 conviction upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted for life",
+   "page": 3,
+   "reason": "Life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life, not fixed term."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove the references to arrest and the 'first account' of the accused as being from a cross-complaint, and avoid implying the finding that the victims were unarmed.",
+   "quote": "The first version of the appellants is that the deceased were not armed.",
+   "page": 7,
+   "reason": "Largely accurate, but it includes some adjudicative material and 'men' gendering; 'stabbed... and struck' is slightly beyond the evidence."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the punishment under s.302 (only mentions 10 years under s.304 Part II)."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deaths occurred."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches post-mortem and injury descriptions."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two sections; both maintained."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it cannot be said that the appellants have acted at the spur of the moment without pre-meditation",
+   "page": 8,
+   "reason": "Accurate."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants were not giving right of way to the deceased",
+   "page": 3,
+   "reason": "Alleged cause stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Post-Mortem report corroborates an oral testimony",
+   "page": 7,
+   "reason": "Supported."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Presence of PW-3 and PW-4 not seriously disputed; their testimony of armed appellants relied upon; IO's argument rejected as not meriting consideration.",
+   "quote": "the presence of the two witnesses at the time of occurrence is not seriously disputed",
+   "page": 6,
+   "reason": "'Accepted as reliable' is slightly beyond the text, though relied on."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing about conduct beyond hospitalisation and arrest."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants have undergone more than 11 years of actual imprisonment",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates are accurate."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ravi Prakash Mehrotra, Ankit Agarwal, Ms. Deepti R. Mehrotra, Advs.",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The FIR was lodged at 7 AM on 2nd July 1987 and the appellants were arrested on 17th July 1987.",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No separate State submissions are recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the arguments recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Consistent with the reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Jangir Singh v. State of Punjab 2018 (15) SCALE 88 – distinguished",
+   "page": 2,
+   "reason": "Accurate."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing reasoning."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "multiple injuries on the vital parts of the deceased",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the judgment heading: Achin Gupta v. State of Haryana & Anr."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "This appeal arises from ... filed by the Appellant herein (sole accused in the chargesheet)",
+   "page": 5,
+   "reason": "The appellant is the sole accused named in the chargesheet."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused No.1 had never treated the first informant with love and care rather he used to treat",
+   "page": 8,
+   "reason": "The accused is the husband, referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated for the accused; the 8-year-old is the son, not the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is stated only for the victim and marriage rites, not for the accused."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The FIR says only that the accused 'is doing a good job'; no occupation is named."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused No.1 is doing a good job and almost earns Rs. 1,50,000/- monthly",
+   "page": 6,
+   "reason": "FIR allegation of income is stated and correctly marked as alleged, with no court finding."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim is the first informant wife, female."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated; only the son's age (8) appears."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Being a Hindu woman the first informant tolerated all tortures of the Accused",
+   "page": 8,
+   "reason": "The FIR describes the victim as a Hindu woman, so the value is supported."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Spouse (husband and wife). Divorce petition filed by accused in July 2019, later withdrawn; domestic violence case filed by his mother in October 2020.",
+   "quote": "The divorce petition was withdrawn as the Appellant was finding it difficult to take care of his child",
+   "page": 17,
+   "reason": "Spouse is correct, but the divorce petition was withdrawn and the DV case is not described as pending."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "chargesheet dated 13.10.2021 for the offences punishable under Section 323, 406, 498A and 506",
+   "page": 5,
+   "reason": "Principal charge is s.498A, a cruelty offence, matching the Cruelty category."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for the offences punishable under Section 323, 406, 498A and 506 of the Indian Penal Code, 1860",
+   "page": 5,
+   "reason": "All four sections charged are listed accurately."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The plain reading of the FIR and the chargesheet papers indicate",
+   "page": 17,
+   "reason": "Court relied on FIR and chargesheet papers; no witness or medical evidence is discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court notes no aggravating facts; FIR allegations are not treated as noted by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "CHI/1856/2021 ... pending in the Court of Judicial Magistrate, First Class, Hisar",
+   "page": 35,
+   "reason": "No trial court decision is recorded; the case was pending before the Magistrate."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "declined to quash the criminal proceedings in exercise of its inherent powers under Section 482",
+   "page": 13,
+   "reason": "High Court dismissed the quashing petition on 05.04.2022, as stated."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal succeeds and is hereby allowed ... proceedings ... are hereby quashed",
+   "page": 35,
+   "reason": "Quashing is not conviction; 'other' is a reasonable fit given no listed category is exact."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the criminal proceedings ... are hereby quashed",
+   "page": 35,
+   "reason": "No offence was finally established since the proceedings were quashed."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed; proceedings were quashed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed-term sentence imposed, so null is correct."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine was imposed."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same summary, but replace 'the accused beat her when he was drunk' with gender-neutral wording such as 'the accused was alleged to beat the victim when intoxicated'.",
+   "quote": "the accused beat her when he was drunk",
+   "page": 6,
+   "reason": "Summary is otherwise faithful, but uses the gendered pronoun 'he' for the accused, which the instructions prohibit."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shall be punished with imprisonment for a term which may extend to three years and shall also be liable to fine",
+   "page": 22,
+   "reason": "Judgment quotes s.498A's maximum of three years and fine; no minimum is stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state whether the offence was completed or attempted."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Beatings are alleged only in the FIR; no injuries are recorded by the court."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for the offences punishable under Section 323, 406, 498A and 506",
+   "page": 5,
+   "reason": "Four sections charged; none finally upheld as proceedings were quashed."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they have even not returned the first informant her stridhan",
+   "page": 11,
+   "reason": "Stridhan and salary loss are alleged in the FIR with no value stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation finding is made by the court."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the FIR lodged by the Respondent No. 2 was nothing but a counterblast to the divorce petition",
+   "page": 18,
+   "reason": "Court's counterblast/harassment finding and the alleged dowry motive are both correctly marked."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the allegations levelled by the First Informant are quite vague, general and sweeping",
+   "page": 18,
+   "reason": "Court relied on FIR and chargesheet papers and the unexplained delay, as described."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No witness credibility assessment is made; the court noted the closure against the other accused."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct by the accused is noted by the court."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court vide its judgment & order dated 05.04.2022",
+   "page": 13,
+   "reason": "Only the HC and SC dates are given; offence and trial dates are indeed not given."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant: Mr. Yusuf, Advocate. State (Respondent No. 1): Chritarth Palli. Parveen Kumar Aggarwal appeared for respondent no. 2 (first informant); others are listed collectively for the respondents.",
+   "quote": "Mr. Parveen Kumar Aggarwal, the learned counsel appearing for the First Informant herein",
+   "page": 16,
+   "reason": "Aggarwal represented the first informant, not the State, and the judgment does not tie the other names to the State."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "police carried out the investigation & proceeded to file chargesheet dated 13.10.2021, only against the Appellant herein",
+   "page": 12,
+   "reason": "FIR, chargesheet against accused only, and closure report for the others are all accurately stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural lapse is noted by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court vide its judgment & order dated 05.04.2022 ('impugned order')",
+   "page": 13,
+   "reason": "Trial pending, HC dismissed quashing on 05.04.2022, SC allowed appeal and quashed proceedings."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Police upon registration of the FIR, conducted a fair investigation",
+   "page": 17,
+   "reason": "State and complainant arguments are accurately summarised."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "lodged after a period of more than 11 months from the date the First Informant left her matrimonial home",
+   "page": 16,
+   "reason": "Counterblast, delay, and vague allegations arguments match the submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "If a person is made to face a criminal trial on some general and sweeping allegations ... it is nothing but abuse of the process of the court",
+   "page": 22,
+   "reason": "Inherent power under s.482 and abuse-of-process principle are correctly stated, including post-chargesheet application."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mahmood Ali & Ors. v. State of U.P & Ors., 2023 SCC OnLine SC 950 – relied on",
+   "page": 4,
+   "reason": "Cases listed match the judgment's relied-on authorities; B.S. Joshi was quoted via Geeta Mehrotra."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so 'Not applicable' is correct."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors weighed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors weighed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "We request the Legislature to look into the issue as highlighted above",
+   "page": 34,
+   "reason": "Legislative request (para 40) and Registry directions (para 44) are accurately captured."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant is the only accused in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to throughout with male pronouns."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment nowhere gives the accused's age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "Army personnel, rank of Dafadar (non-commissioned)",
+   "quote": "Dafadar Om Prakash was present",
+   "page": 6,
+   "reason": "Accused is army personnel of Dafadar rank, not a commissioned officer; 'Army Officer' overstates it."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased is referred to with male pronouns and as Dafadar."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the deceased's age."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Fellow army personnel of the same unit (colleague)",
+   "quote": "intentionally causing death of Ram Pratap of his unit",
+   "page": 6,
+   "reason": "Parties were colleagues in the same regiment, not strangers."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Culpable homicide not amounting to murder",
+   "quote": "stood convicted for culpable homicide not amounting to murder under Part-II of Section 304",
+   "page": 6,
+   "reason": "Charged as murder but finally convicted of culpable homicide not amounting to murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "Section 304 Part II IPC (charged under Section 302 IPC); no Section 34 mentioned",
+   "quote": "stood convicted for culpable homicide not amounting to murder under Part-II of Section 304, I.P.C.",
+   "page": 6,
+   "reason": "Section 34 IPC is not mentioned anywhere; Section 302 charge omitted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "stated that he had stabbed one person with a knife",
+   "page": 4,
+   "reason": "Knife is the weapon, though not recovered."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial, medical, confessional (Rule 23 statement, oral testimony); knife not recovered",
+   "quote": "the non-recovery of the kitchen knife",
+   "page": 11,
+   "reason": "No recovery of weapon and no dying declaration are supported; the Rule 23 statement is omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we are not placing any reliance on the confession made by the appellant before the Army officers at the police station",
+   "page": 17,
+   "reason": "Rule 23 statement was held voluntary; the police-station confession was disregarded."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he had indulged in an altercation in the party; that he was in a drunken state",
+   "page": 13,
+   "reason": "Listed circumstances match the court's findings."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "No intention to kill; claimed self-defence; appellant argued punishment was harsh",
+   "quote": "Even though the accused had no Intention to kill the deceased",
+   "page": 7,
+   "reason": "Judgment records no intention to kill and the self-defence and harshness arguments, so 'Not stated' is wrong."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of seven years of rigorous imprisonment imposed by the General Court Martial",
+   "page": 4,
+   "reason": "GCM conviction under s.304 Part II and seven years RI is stated."
+  },
+  "high_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Writ petition filed in Delhi High Court, later transferred to Armed Forces Tribunal; no High Court decision recorded",
+   "quote": "the initial order was challenged before the High Court of Delhi",
+   "page": 5,
+   "reason": "A High Court writ was filed and transferred, so 'Not applicable' is incomplete."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appeal dismissed",
+   "page": 19,
+   "reason": "Conviction was upheld and the appeal dismissed."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "stood convicted for culpable homicide not amounting to murder under Part-II of Section 304",
+   "page": 6,
+   "reason": "Matches the finally established offence."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of seven years of rigorous imprisonment",
+   "page": 4,
+   "reason": "Fixed-term rigorous imprisonment is stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of seven years of rigorous imprisonment",
+   "page": 4,
+   "reason": "Seven years is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same facts without the closing sentence stating that the conviction was upheld by the Tribunal and Supreme Court",
+   "quote": "the conviction was upheld by the Armed Forces Tribunal and the Supreme Court",
+   "page": 4,
+   "reason": "Facts are accurate, but the summary reveals the court outcome, which it must not."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no minimum or maximum sentence range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "where he was declared dead",
+   "page": 5,
+   "reason": "Deceased died, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "lying on the floor bleeding from mouth and nose",
+   "page": 12,
+   "reason": "Pool of blood, mouth and nose bleeding, and death are supported."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charged for the offences under Section 302 of I.P.C.",
+   "page": 6,
+   "reason": "Charged under s.302 and convicted under s.304 Part II is stated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is at issue in the case."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Anger arising from quarrel during the farewell party, while intoxicated",
+   "quote": "the incident that was caused due to anger and intoxication",
+   "page": 7,
+   "reason": "Judgment identifies anger and intoxication from the quarrel as the cause."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Farewell party, altercation, deceased found in blood, surrender, and the Rule 23 statement (police-station confession rejected)",
+   "quote": "we are not placing any reliance on the confession made by the appellant before the Army officers at the police station",
+   "page": 17,
+   "reason": "Describes the confession as accepted without distinguishing the rejected police-station confession."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "both the witnesses have firmly stood embedded to their version",
+   "page": 17,
+   "reason": "Witnesses stood firm during cross-examination and minor discrepancies were held immaterial."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "had surrendered at the police station and stated that he had stabbed one person with a knife",
+   "page": 4,
+   "reason": "Surrender at the police station is stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "{\"dates_of_offence\": \"3rd April 2006\", \"trial_judgment\": \"24.2.2007 (GCM order)\", \"high_court_decision\": \"Not stated\", \"supreme_court_decision\": \"JULY09, 2015\"}",
+   "quote": "the sentence of seven years of rigorous imprisonment imposed by the General Court Martial held at Sabina ... vide order dated 24.2.2007",
+   "page": 4,
+   "reason": "The 05.04.2010 date is the Tribunal's judgment, not the trial judgment; GCM order was 24.2.2007."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mohit Kumar Shah for the Appellant. R. Balasubramaniam, Amarendra Bal, Vikas Malhotra, B.V. Bairam Das and Anil Katiyar for the Respondents.",
+   "page": 4,
+   "reason": "Counsel names match the judgment's appearance record."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR lodged by Adjutant; GCM proceedings initiated; trial completed; no charge sheet mentioned",
+   "quote": "an F.I.R. was lodged by the Adjutant Captain Abhishek",
+   "page": 6,
+   "reason": "FIR and trial are supported, but a charge sheet filing is not mentioned."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was no infirmity in the conviction order",
+   "page": 1,
+   "reason": "Court found no infirmity; the procedural challenges were rejected."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "{\"trial_court\": \"GCM convicted and sentenced to 7 years RI\", \"high_court\": \"Writ petition transferred; Armed Forces Tribunal confirmed conviction and sentence\", \"supreme_court\": \"Appeal dismissed\"}",
+   "quote": "the tribunal has confirmed the conviction under Section 304 Part-II, I.P.C. and the sentence of seven years",
+   "page": 4,
+   "reason": "GCM was the trial court, not a confirming body; Tribunal, not High Court, confirmed the conviction."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary of the prosecution's case matches the judgment's findings and the respondent's submissions."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the knife has not been recovered ... other persons were also present in the room",
+   "page": 10,
+   "reason": "Counsel's arguments on discrepancies, other persons, non-recovery, and hearsay are accurately summarized."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the circumstances from which the conclusion of guilt is sought to be established must be conclusive in nature",
+   "page": 14,
+   "reason": "Principle on conclusive circumstances and chain consistent only with guilt is stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Authorities listed match those cited in the judgment, with relied and referred cases both included."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Judgment gives no reasoning for the seven-year term; GCM reasoned on culpability (knowledge that the stab was likely fatal)",
+   "quote": "the accused should be knowing that death is the likely consequence of that injury",
+   "page": 7,
+   "reason": "The quoted reasoning concerns culpability for conviction, not the choice of sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated by the Supreme Court; GCM noted no intention to kill",
+   "quote": "Even though the accused had no Intention to kill the deceased",
+   "page": 7,
+   "reason": "GCM recorded lack of intention to kill, so 'None' is not fully accurate."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his presence at the police station at an odd hour and his absence at the \"fall in parade\"",
+   "page": 13,
+   "reason": "Aggravating factors listed match the court's analysis."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentencing order is recorded; the appeal was simply dismissed."
+  }
+ }
+}

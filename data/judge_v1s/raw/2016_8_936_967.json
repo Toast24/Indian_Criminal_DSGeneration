@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "RAMESH AND OTHERS v. STATE OF HARYANA",
+   "quote": "RAMESH AND OTHERS v. STATE OF HARYANA",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "4",
+   "quote": "thereby convicting all the four accused persons",
+   "page": 8,
+   "reason": "Four accused are named and convicted."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Mixed: male (Ramesh, Suresh) and female (Saroj, Prem)",
+   "quote": "Saroj and Prem caught hold of her from her arms and Ramesh sprinkled kerosene on her",
+   "page": 9,
+   "reason": "Accused include two women, Saroj and Prem, so 'Male' alone is incomplete."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not stated; only that Ramesh had a truck."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned; only Section 107/151 Cr.P.C. proceedings are referenced."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Female",
+   "quote": "Smt. Roshni",
+   "page": 8,
+   "reason": "Victim is referred to as Smt. Roshni, a woman and wife."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "My marriage was solemnized 20 years before.",
+   "page": 8,
+   "reason": "Only marriage duration and children's ages are given; victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Husband (Ramesh); in-laws and brother-in-law (Suresh, Saroj, Prem)",
+   "quote": "Marriage between Ramesh (Appellant No. 1) and the deceased",
+   "page": 9,
+   "reason": "Only Ramesh is spouse; others are brother-in-law, sister-in-law and mother-in-law."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Dowry death",
+   "quote": "Penal Code, 1860: ss.302, 34, 498-A - Dowry death",
+   "page": 1,
+   "reason": "Headnote describes the case as dowry death."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC s.302, s.34, 498-A",
+   "quote": "Sections 302, 34, 498A of Indian Penal Code",
+   "page": 7,
+   "reason": "Matches sections stated in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "Kerosene",
+   "quote": "Ramesh sprinkled kerosene on her. Suresh lighted a matchstick",
+   "page": 9,
+   "reason": "Kerosene was used and set the victim on fire."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Dying declaration; medical evidence; oral testimony of witnesses (PW-4, PW-11, PW-3); recovery of kerosene container",
+   "quote": "PW-9... got recovered plastic container (Ex.PI)",
+   "page": 11,
+   "reason": "Omits oral witness testimony, which the judgment relies on heavily."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No confession is recorded; the disclosure led only to recovery."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are listed in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are listed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Acquittal",
+   "quote": "The appellants herein were tried and acquitted by the Sessions Court",
+   "page": 7,
+   "reason": "Trial court acquitted all accused."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted",
+   "quote": "the High Court, in appeal, has overturned the verdict of acquittal",
+   "page": 8,
+   "reason": "High Court convicted all four."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted",
+   "quote": "We, thus, do not find any merit in this appeal, which is accordingly dismissed.",
+   "page": 32,
+   "reason": "Supreme Court dismissed the appeal, upholding conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "Section 302/34 IPC:- To undergo rigorous imprisonment for life",
+   "page": 8,
+   "reason": "Conviction under s.302 read with s.34 IPC."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "Life (rigorous imprisonment for life)",
+   "quote": "To undergo rigorous imprisonment for life",
+   "page": 8,
+   "reason": "Life imprisonment under s.302/34 IPC."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is life; no fixed number of years is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": "10000",
+   "quote": "to pay a fine of Rs. 10,000/-",
+   "page": 8,
+   "reason": "Fine under s.302/34 IPC is Rs. 10,000."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Neutral account of allegations and procedure without stating court findings (e.g., PW-4 'found to be false')",
+   "quote": "The victim's brother, PW-4, provided testimony that was later found to be false",
+   "page": 5,
+   "reason": "Facts are broadly accurate but reveal the court's finding on PW-4 and present allegations as fact."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Life imprisonment and Rs. 10,000 fine (default one year RI); 498-A two years RI and Rs. 2,000 fine (default six months RI)",
+   "quote": "Section 498-A/34 IPC:- To undergo rigorous imprisonment for two years and to pay a fine of Rs.2,000/-",
+   "page": 8,
+   "reason": "Sentence details match the High Court order quoted."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": "Roshni succumbed to injuries within few hours",
+   "page": 9,
+   "reason": "Victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "100% burn injuries causing death",
+   "quote": "it was found that she was suffering from 100% burns",
+   "page": 9,
+   "reason": "Matches the burn injuries described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": "Charges under ss.302, 34 and 498-A IPC against four accused; convicted on these",
+   "quote": "The Court of Sessions framed the charges against all the accused persons under Section 302, 498A, IPC",
+   "page": 10,
+   "reason": "Charges and convictions are for the same sections against all four."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment is silent on property loss; 'Not applicable' is an inference, not stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not discussed."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Continuous dowry demands (money, scooter, buffalo) and harassment by husband and in-laws",
+   "quote": "On some occasion they say to bring buffalo and on some occasion they demand money and scooter.",
+   "page": 9,
+   "reason": "'Dowry death' is a label, not the motive described in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "Dying declaration recorded by Magistrate with doctor's fitness certification and medical officer present",
+   "quote": "the Doctor made an endorsement to the effect that the deceased remained fit",
+   "page": 2,
+   "reason": "Accurately reflects the dying declaration relied on and the reasons for acceptance."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "PW-4 found won over by accused and his testimony false per PGIMS records; PW-11 read out of context",
+   "quote": "PW-4, though brother of the deceased, appears to have been won over by the appellants.",
+   "page": 23,
+   "reason": "Accurately summarises the credibility findings on PW-4 and PW-11."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused (Ramesh, Suresh, Prem) took the victim to PGIMS hospital and got her admitted",
+   "quote": "it is Ramesh who had brought the deceased to the hospital and got her admitted",
+   "page": 23,
+   "reason": "Judgment does state post-incident conduct of taking the victim to hospital."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (trial court acquitted; High Court convicted; Supreme Court upheld)",
+   "quote": null,
+   "page": null,
+   "reason": "Describes outcomes, not duration; no trial length is given in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Praveen Kr. Aggarwal, Upendra Pratap Singh, Sanjay Jain for appellants; Jagdeep Kr. Sharma, Gyanendra Kr., Vishwa Pal Singh for respondent",
+   "quote": "Praveen Kr. Aggai-Wal, Upendra Pratap Singh, San jay Jain, Advs. for the Appellants.",
+   "page": 7,
+   "reason": "Counsel names match the judgment (OCR spacing aside)."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": "FIR registered; investigation completed; report under s.173(2) CrPC filed; trial held",
+   "quote": "a report under Section 173(2) Cr.P.C. was presented before the Court of Jurisdictional Magistrate",
+   "page": 10,
+   "reason": "Investigation steps and charge-sheet filing are described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No specific procedural irregularity by police or court is identified as such."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial court acquitted; High Court reversed and convicted; Supreme Court dismissed appeal",
+   "quote": "the High Court, in appeal, has overturned the verdict of acquittal",
+   "page": 8,
+   "reason": "Appeal sequence matches the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Incident occurred in matrimonial house; victim gave statement after reaching hospital and authorities satisfied of fitness; no reason to discard statement",
+   "quote": "The authorities were fully satisfied that she was in a position to give the statement.",
+   "page": 12,
+   "reason": "Respondent's arguments are right in substance but the 'legally unsustainable' point is the court's, not counsel's."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "100% burns made victim incapable of statement; trial court gave cogent reasons; PW-4 showed Ramesh falsely roped in",
+   "quote": "having suffered 100% burns, under no circumstances could she be in a position to give the statement",
+   "page": 12,
+   "reason": "Matches appellants' submissions recorded in the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Dying declaration before competent Magistrate with doctor's fitness certificate is reliable; burn percentage alone not decisive",
+   "quote": "this dying declaration cannot be discarded merely going by the extent of burns",
+   "page": 21,
+   "reason": "Accurately states the principles applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "Sanwat Singh; Govindaraju; Jai Karan; Rambai; Kushal Rao; Vikas; Krishna Mochi; Zahira Habibullah; Sakshi; Sanjeev Nanda",
+   "quote": "Krishna Moc hi v. State of Bihar 2002 (3) SCR 1",
+   "page": 7,
+   "reason": "All cases listed are relied on in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment contains no sentencing discussion or deterrence rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating factors; 'None' asserts an absence not stated."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss aggravating factors; 'None' asserts an absence not stated."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": "In default of payment of fine, to further undergo rigorous imprisonment for one year.",
+   "page": 8,
+   "reason": "Only default-imprisonment terms appear, which are part of the sentence, not separate orders."
+  }
+ }
+}

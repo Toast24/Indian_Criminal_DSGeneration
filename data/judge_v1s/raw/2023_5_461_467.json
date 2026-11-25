@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the judgment header; only a minor spacing difference in 'Raghunath'."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Paragraph 3 states the complaint was filed against six persons."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (judgment uses male pronouns 'his'/'him' for the appellant)",
+   "quote": "the appellant shall surrender his passport before the Special Court",
+   "page": 7,
+   "reason": "Judgment uses male pronouns for the appellant, so gender is indicated, though not expressly stated."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is mentioned in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment repeatedly states the appellant is a Chartered Accountant by profession."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim is a company (Farmax), so no gender is stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes a service relationship only; no personal relationship is stated."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Financial fraud / criminal breach of trust and money-laundering (IPC cheating, criminal breach of trust; PMLA)",
+   "quote": "alleged offences under Sections 406, 407, 415 to 420, 120B read with Section 34 IPC",
+   "page": 2,
+   "reason": "Offences are financial fraud and money-laundering, not narcotics; no drug offence appears."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss. 406, 407, 415-420, 120B r/w 34; PMLA s.3, s.4, s.44, s.45",
+   "quote": "alleged offences under Sections 406, 407, 415 to 420, 120B read with Section 34 IPC",
+   "page": 2,
+   "reason": "PMLA provisions are correct but the IPC sections of the predicate FIR are omitted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the appellant was directly involved in the process and activity connected with the proceeds of crime",
+   "page": 6,
+   "reason": "Judgment does not classify evidence as circumstantial; it only recites prosecution allegations."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not mention any confession, so asserting 'None' is not supported."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecution alleges appellant was the kingpin, master mind and central figure in the scheme",
+   "quote": "the appellant is the kingpin and the master mind behind all the transactions",
+   "page": 4,
+   "reason": "Judgment records prosecution allegations of a central, kingpin role, so 'None noted' misses them."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant offered only professional services; nine-year delay without final report in predicate FIR",
+   "quote": "he offered only professional services within the framework of law",
+   "page": 4,
+   "reason": "Defence mitigating points, including nine-year delay without charge-sheet, are recorded in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No trial court outcome is reported; the case is at pre-trial and bail stage."
+  },
+  "high_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (HC judgment and order dated 07.12.2022 in CRLP No. 9695 of 2022; outcome not described)",
+   "quote": "From the Judgment and Order dated 07.12.2022 of the High Court for the State of Telangana",
+   "page": 1,
+   "reason": "An HC judgment exists, so 'Not applicable' is wrong, though its outcome is not described."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal allowed; appellant directed to be enlarged on bail",
+   "quote": "the appeal is allowed and the appellant is directed to be enlarged on bail",
+   "page": 7,
+   "reason": "The appeal was allowed for bail; no acquittal occurred or was ordered."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment is a bail ruling and makes no finding of guilt."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment is imposed; the appellant is granted bail."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is imposed in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurately summarised from the pleadings and do not reveal the bail outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "alleged offences under Sections 406, 407, 415 to 420, 120B read with Section 34 IPC",
+   "page": 2,
+   "reason": "The judgment does not state minimum or maximum punishment terms for these offences."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the accused raised the GDR amount and transferred only part, indicating completed conduct."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned in the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Six persons named in FIR; prosecution complaint names four individuals and two entities; no offence count stated",
+   "quote": "against six persons, including the appellant herein",
+   "page": 2,
+   "reason": "Person counts are right, but 'finally upheld' is unsupported and the judgment states no offence count."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "to the extent of USD 15.60 millions",
+   "page": 3,
+   "reason": "Paragraph 8 records the alleged diversion causing loss to Farmax of USD 15.60 millions."
+  },
+  "premeditation_planning": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated as a court finding; prosecution alleges appellant created the infrastructure for the fraudulent GDR issue",
+   "quote": "the appellant was responsible for creating the entire infrastructure for Farmax and Arun Panchariya",
+   "page": 4,
+   "reason": "Court made no finding on planning; these are the Enforcement Directorate's allegations only."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged arrangement between Arun Panchariya and promoters to share GDR proceeds; appellant's personal motive not stated",
+   "quote": "arrangement between Arun Panchariya and the Company promoters to share the proceeds of GDR",
+   "page": 6,
+   "reason": "Judgment records an alleged proceeds-sharing arrangement, so 'Not identified' overlooks it."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated; court noted the prosecution complaint para 8 gives room for a valid argument on Section 45(1)(ii)",
+   "quote": "gives room for a valid argument that the second condition found in Clause (ii) of sub-section (1) of Section 45",
+   "page": 6,
+   "reason": "Court did not accept evidence; it only found the complaint allowed a valid argument for bail."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "gives room for a valid argument that the second condition",
+   "page": 6,
+   "reason": "No witness credibility assessment is made; the court only addressed Section 45 conditions."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant is a Chartered Accountant by profession and has been in jail from 26.09.2022",
+   "page": 6,
+   "reason": "Judgment confirms arrest on 26.09.2022 and continuous custody since then."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "has been in jail from 26.09.2022",
+   "page": 6,
+   "reason": "Judgment states the appellant has been in jail from 26.09.2022."
+  },
+  "bail_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Earlier bail rulings not described; Supreme Court directed enlargement on bail",
+   "quote": "the appellant is directed to be enlarged on bail",
+   "page": 7,
+   "reason": "Only the Supreme Court's bail direction is recorded; earlier bail proceedings are not described."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR registered 29.10.2013; HC judgment dated 07.12.2022; Supreme Court decision dated 20.04.2023",
+   "quote": "A criminal complaint in FIR No.664/2013 was registered on 29.10.2013",
+   "page": 2,
+   "reason": "07.12.2022 is a High Court order, not a trial judgment; no trial judgment is mentioned."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "R. Basant, Sr. Adv., M/s. Shakil Ahmad Syed ... for the Appellant",
+   "page": 2,
+   "reason": "Counsel names for both sides match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no final report has been filed so far",
+   "page": 2,
+   "reason": "ECIR date, prosecution complaint and absence of final report for nine years are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Nine years without final report in predicate FIR; ED's remand application for Srinivas Reddy rejected",
+   "quote": "no final report has been filed in the FIR for the predicate offence, for the past nine years",
+   "page": 6,
+   "reason": "Judgment records prolonged delay and rejected remand, which bear on procedure, so 'None noted' is incomplete."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Remand order by Metropolitan Sessions Judge dated 27.09.2022; HC judgment dated 07.12.2022; SC appeal allowed 20.04.2023",
+   "quote": "By an Order dated 27.09.2022, the appellant was remanded to judicial custody",
+   "page": 3,
+   "reason": "Trial-level remand order is mentioned, so 'No mention of judgment' is inaccurate; other dates are right."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant is the kingpin and the master mind behind all the transactions",
+   "page": 4,
+   "reason": "Matches the ASG's arguments on kingpin role and the twin conditions under Section 45."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "that there is nothing in the prosecution complaint to show that the appellant is in possession of 'the proceeds of crime'",
+   "page": 4,
+   "reason": "Accurately reflects senior counsel's arguments on delay, professional role and proceeds of crime."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the second condition found in Clause (ii) of sub-section (1) of Section 45 of PMLA",
+   "page": 6,
+   "reason": "Judgment applies the twin conditions under Section 45, particularly Clause (ii)."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent or case authority is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed, so no sentencing rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Nine-year delay without final report; co-accused's remand rejected; continued incarceration not justified",
+   "quote": "the continued incarceration of the appellant, in our opinion, may not be justified",
+   "page": 7,
+   "reason": "Court's bail reasoning relies on factors favouring the appellant, so 'None' misstates the reasoning."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court records no aggravating finding; the kingpin allegations are only the prosecution's contention."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant shall surrender his passport before the Special Court",
+   "page": 7,
+   "reason": "Bail conditions of passport surrender and regular appearance match paragraph 16."
+  }
+ }
+}

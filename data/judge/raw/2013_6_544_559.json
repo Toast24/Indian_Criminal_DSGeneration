@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only one accused, the appellant, is involved."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused; the value 25 has no basis in the text."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the female prosecutrix."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the prosecutrix was 19 years of age."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Acquaintance; known to each other, accused had promised marriage",
+   "quote": "The appellant and Geeta, prosecutrix, 19 years of age ... had known each other for some time.",
+   "page": 6,
+   "reason": "Judgment shows the parties knew each other and had a marriage promise, not a stranger relationship."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rape is the principal offence at issue, with wrongful confinement also charged."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions were under Sections 365 and 376 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecutrix's statements and testimony; medical examination; father, warden and IO testimony; police apprehension at bus stand; no recovery mentioned",
+   "quote": "The prosecutrix was medically examined on 17.5.1995.",
+   "page": 7,
+   "reason": "Medical evidence is right, but no recovery is mentioned and no true eyewitness to the act exists."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no specific aggravating circumstances in this case."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant had already served more than 3 years of sentence; benefit of doubt given",
+   "quote": "the appellant, who has already served more than 3 years sentence, is entitled to the benefit of doubt.",
+   "page": 16,
+   "reason": "Judgment does state the appellant's prior sentence service as a factor in granting relief."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under Sections 365 and 376 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Affirmed the conviction and sentence",
+   "quote": "the High Court has affirmed the judgment and order of the Additional Sessions Judge",
+   "page": 6,
+   "reason": "High Court affirmed the trial court's conviction and sentence, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed the appeal and set aside conviction, i.e., acquittal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction was set aside, so no offence is finally established."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Rigorous imprisonment (trial court; set aside)",
+   "quote": "rigorous imprisonment for a period of three years",
+   "page": 6,
+   "reason": "Trial court imposed rigorous imprisonment, which the judgment states, though it was later set aside."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "3 years (s.365) and 7 years (s.376), concurrent; set aside",
+   "quote": "rigorous imprisonment for a period of seven years, alongwith a fine of Rs.5,000/- under Section 376 IPC",
+   "page": 6,
+   "reason": "Null omits the trial sentences of 3 and 7 years stated in the judgment, which were later set aside."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "Rs.2,000 (s.365) and Rs.5,000 (s.376); set aside",
+   "quote": "alongwith a fine of Rs.2,000/- under Section 365 IPC",
+   "page": 6,
+   "reason": "Null omits the trial court fines of Rs.2,000 and Rs.5,000 stated in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Summary of facts without the outcome, e.g. the prosecution's case and the victim's voluntary conduct, with no mention of the set-aside.",
+   "quote": "but the conviction was set aside due to insufficient evidence of a false promise.",
+   "page": 16,
+   "reason": "Neutral facts reveal the court outcome and reasoning, which the instructions prohibit; facts are otherwise broadly accurate."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial sentences of 3 years (s.365) and 7 years (s.376), concurrent; later set aside",
+   "quote": "rigorous imprisonment for a period of three years",
+   "page": 6,
+   "reason": "Range matches trial sentences, but it is presented as severity without noting they were set aside."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sexual intercourse is described as having occurred, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes rape; no other physical injury is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "2 offences charged (ss.365, 376); both convicted by trial and High Court, set aside by Supreme Court",
+   "quote": "the appellant stood convicted for the offences punishable under Sections 365 and 376",
+   "page": 6,
+   "reason": "'Upheld' is wrong; the Supreme Court set aside both convictions."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is mentioned in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Agreed plan to go to Kurukshetra and marry; prosecution alleged inducement; no finding of premeditated deceit",
+   "quote": "the appellant induced her to go with him to Kurukshetra, to get married and she agreed.",
+   "page": 6,
+   "reason": "Judgment describes an agreed plan and inducement, so 'Not found' overlooks planning facts."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged sexual gratification via false marriage promise; court found no mala fide intent established",
+   "quote": "had made a false promise to this effect only to satisfy his lust",
+   "page": 13,
+   "reason": "Judgment frames the alleged motive as lust via false promise, though the court did not find it established."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court's findings on voluntary departure, age 19, and understanding match paragraph 23."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment notes contradictions, improvements and the prosecutrix's failure to complain, as described."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecutrix made no complaint about the incidents, stayed with the appellant, and later agreed to go to Ambala to marry him",
+   "quote": "The prosecutrix did not even mention the said incident to any person, despite going to Kurukshetra and staying there for 3-4 days.",
+   "page": 8,
+   "reason": "Judgment does describe post-incident conduct, so 'Not stated' is incorrect."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant has already served more than 3 years of sentence",
+   "quote": "the appellant, who has already served more than 3 years sentence",
+   "page": 16,
+   "reason": "Judgment states the appellant served over three years, so 'Not stated' is wrong."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the appellant is on bail and bail bonds discharged."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "supreme_court_decision: 20.05.2013",
+   "quote": "MAY 20, 2013",
+   "page": 1,
+   "reason": "Offence, trial and High Court dates are correct, but the Supreme Court date should be 20.05.2013."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Amit Pawan for the appellant and Kamal Mohan Gupta for the State are named."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Chargesheet filed, charges framed, and trial completed with 13 witnesses examined."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is clearly identified in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court affirmance, and Supreme Court allowance match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the prosecution case as summarised in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "None present for the appellant.",
+   "page": 6,
+   "reason": "Judgment records no defence arguments; the appellant was unrepresented at hearing."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's consent and mala fide intention analysis."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cases listed are those the judgment cites and relies on."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "No sentence finally imposed; sentences set aside as appellant had served over 3 years and benefit of doubt applied",
+   "quote": "is entitled to the benefit of doubt. Therefore, the appeal succeeds and is allowed.",
+   "page": 16,
+   "reason": "Says a final sentence was imposed, which is wrong; the sentences were set aside on benefit of doubt."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on the victim's voluntary departure, age 19, and voluntary intimacy."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court made no finding of aggravating factors against the accused."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Both sentences ordered to run concurrently (trial court)",
+   "quote": "Both the sentences were ordered to run concurrently.",
+   "page": 6,
+   "reason": "Trial court ordered concurrent sentences, so 'None' is incorrect."
+  }
+ }
+}

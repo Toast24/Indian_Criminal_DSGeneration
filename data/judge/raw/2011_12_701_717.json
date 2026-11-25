@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only one accused, the appellant Gajraj Singh, is involved."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as male throughout (son of Veer Singh, 'his' brother)."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not stated; only 'earnings' is mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated; only a reference to funds 'in excess of his earnings'."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prior record is not mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Harish Kumar is male, identified as husband of Minakshi."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "the deceased and the accused were in touch with each other",
+   "page": 12,
+   "reason": "'Stranger' contradicts the record of calls between them; the relationship itself is not specified."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions were under ss.302 and 404 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Licensed revolver of the deceased was the weapon of offence."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction rested on circumstantial evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned; conviction is based solely on circumstantial evidence."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches convictions under ss.302 and 404, life imprisonment, Rs.50,000 fine, and acquittal on 380/452."
+  },
+  "high_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court dismissed the appeal against conviction on merits and reduced default imprisonment for the s.302 fine from three years to six months.",
+   "quote": "The appeal preferred by the accused-appellant, came to be dismissed on merits, on 18.3.2009.",
+   "page": 10,
+   "reason": "Omits that the High Court dismissed the appeal against conviction on merits."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so the conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution brought home the charges, including murder under s.302."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rigorous imprisonment for life was awarded under s.302."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentence has no fixed years; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs.50,000 for s.302 is stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The prosecution case was that a dead body was found in a house in Delhi, identified as the husband of PW-23; the facts of the investigation and recovery follow, without stating the trial or appellate outcomes.",
+   "quote": "The High Court dismissed the appeal against conviction",
+   "page": 3,
+   "reason": "Facts are accurate but reveal the trial conviction and High Court dismissal, which are court outcomes."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches life imprisonment and Rs.50,000 for s.302, and 3 years and Rs.5,000 for s.404."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder was completed; deceased was killed by bullet injuries."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bullet injuries to left temporal region and left abdomen are stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Four sections were charged (302, 452, 380, 404), with 302 and 404 upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rs.3 lakhs was missing and Rs.9,000 was deposited in the accused's account."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive for the murder is established; the money was taken for a settlement, but motive is not identified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches IMEI evidence, legitimate identification, and recovery of the revolver."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects the assessment of PW12 and PW13 signatures on the recovery memos."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused used the victim's handset with his own SIM soon after the murder and continued using his SIM until arrest on 6.8.2005.",
+   "quote": "and that he continued to use it till his arrest",
+   "page": 17,
+   "reason": "The judgment states post-offence conduct of continued use of the SIM until arrest."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated; only the arrest date of 6.8.2005 appears."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Key dates from offence to Supreme Court decision are supported by the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR no.297 of 2005 registered on 7.1.2006; trial completed. Charge sheet filing is not explicitly stated.",
+   "quote": "First Information Report bearing no.297 of 2005 was registered at Police Station Krishna Nagar",
+   "page": 8,
+   "reason": "FIR date is correct, but charge sheet filing is not stated in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is recorded; discrepancies noted were in evidence, not procedure."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: convicted and sentenced (21.4.2008); High Court: appeal dismissed on merits, sentence modified; Supreme Court: appeal dismissed.",
+   "quote": "The appeal preferred by the accused-appellant, came to be dismissed on merits, on 18.3.2009.",
+   "page": 10,
+   "reason": "Describes the trial court as 'conviction upheld' though it was the original conviction, not an appeal."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary reflects prosecution reliance on IMEI/SIM details, the dead SIM, and recovery of the revolver."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary matches the defence discrepancy, concoction, and planting arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on the exclusive IMEI principle and described the evidence as scientific evidence."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "keeping in mind overwhelming evidence produced by the prosecution in establishing the crime",
+   "page": 17,
+   "reason": "The Supreme Court gave no sentencing rationale; it addressed establishment of charges, not sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss mitigating factors, so 'None' is not supported."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss aggravating factors, so 'None' is not supported."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Trial court sentences ran concurrently; High Court reduced default imprisonment for the s.302 fine from three years to six months.",
+   "quote": "The aforesaid sentences, awarded by the Trial Court, were to run concurrently.",
+   "page": 10,
+   "reason": "Concurrent sentence order and modified default imprisonment are stated, contrary to 'None'."
+  }
+ }
+}

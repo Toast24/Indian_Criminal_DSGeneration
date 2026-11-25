@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption, Sandeep v. State of Uttarakhand."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court decides liability of the appellant alone; co-accused were acquitted and the juvenile's file was separated."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The appellant's age is not stated anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states poor economic background and care of entire family."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment says he had no bad antecedent except this offence."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the father, Abdul Hameed, referred to as male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-mortem report records the deceased as aged 70 years."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Neighbour (co-villagers, all residents of Dosni village); no prior enmity described; refusal of jaggery was the immediate provocation",
+   "quote": "all residents of Dosni village, came there and told to his father that they would teach him a lesson for refusing to give them jaggery",
+   "page": 4,
+   "reason": "Co-villager link is supported, but the judgment does not describe a prior dispute; the jaggery refusal was the immediate provocation."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 IPC, with the murder charge held proved."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the charges: s.302 r/w s.34 IPC and s.25/27 Arms Act, with Arms Act acquittal noted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Country-made pistol 12 bore recovered; P.W.1 calls it a katta."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical, recovery, scene material and FIR evidence all appear in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned; recovery was on pointing out, not a confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Firearm killing; post-mortem noted blackening and tattooing around wounds; appellant was armed with a gun",
+   "quote": "Blackening and tattooing present around the wound",
+   "page": 10,
+   "reason": "Firearm and gun facts are supported, but 'close-range firing' is an inference the judgment does not state."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sudden provocation, no premeditation, antecedents, poverty, jail conduct and reformation are all listed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches conviction under s.302 r/w s.34, life RI, Rs.1,000 fine, co-accused acquitted, Arms Act acquittal."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed the appeal and affirmed conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under s.302 confirmed but s.34 set aside and sentence modified, which fits conviction_modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court confirmed conviction under s.302 IPC and set aside the s.34 conviction."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "fixed_term (life sentence modified to the period already undergone; no specific number of years stated)",
+   "quote": "is modified to the period already undergone by the appellant",
+   "page": 17,
+   "reason": "Judgment states a modified sentence of period already undergone, not 'not stated'; life sentence was replaced."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No specific fixed-term number of years is set; sentence is the period already served."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rs.1,000 fine is imposed by the Sessions Court and continued, payable if not already paid."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary covers incident, investigation and evidence without names, court outcomes or wealth details, and stops before proceedings."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment quotes Navas stating the maximum is death or life imprisonment; no minimum is stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died from gunshot injuries, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death from two firearm wounds with rib fractures, shock and haemorrhage is supported by the post-mortem."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two charges (s.302 r/w s.34 and Arms Act s.25/27) with only s.302 finally upheld fits the judgment."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court expressly found there was no premeditation, arising from sudden provocation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted sudden provocation from refusal to give jaggery as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness testimony, light source, recoveries, post-mortem and prompt FIR are all relied on by the Court."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted P.W.1 and P.W.2 as clearly demonstrating facts and treated discrepancies as minor."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitnesses saw the accused fleeing; weapon recovered on his pointing out."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Jail certificate figures and the court's note of more than 14 years' incarceration are both stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court order dated 27.01.2020 released the appellant on bail on terms."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence 30.10.1997, trial judgment 16.05.2006, High Court 16.12.2011 and Supreme Court 14.10.2024 all match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant's amicus counsel and State counsel names match the appearances section."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Report, Chik report and Crime No.185, charge sheets, charges framed and completed trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Undated sanction order, non-examined investigating officer and instigation contradiction are all noted by the Court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Outcomes at trial, High Court and Supreme Court match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the State's submissions on eyewitnesses, light, recovery and non-examination of witnesses."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the appellant's submissions on FIR role, light, contradictions, motive, non-examination and sentence leniency."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Minor discrepancies, benefit of doubt, s.34 common intention and proportionate sentencing are all applied by the Court."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case names and citations match the headnote and body, including followed, relied on and referred to treatment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rationale matches the Court's reasons: provocation, no premeditation, family support, reform and time served."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Factors listed match those the Court weighed in paragraph 19.2."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court refers generally to gravity and nature of the offence without listing specific aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine payment, liberty if not required elsewhere and bail bond discharge match paragraph 20."
+  }
+ }
+}

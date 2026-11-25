@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "48 persons were arrayed as accused",
+   "page": 4,
+   "reason": "Judgment states 48 persons were arrayed as accused."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never states the accused's genders; 'Mixed' is not backed by the text."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated for the accused."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated for the accused."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the contractors of the licensed vend",
+   "page": 16,
+   "reason": "Respondents are described as contractors of licensed liquor vends; consistent with the value."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victims' genders are not stated; 'Mixed' is not supported by the judgment."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim ages are not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Vendor and customers (victims bought liquor from respondents' vends)",
+   "quote": "He knew the vendor personally.",
+   "page": 17,
+   "reason": "Judgment shows a vendor-customer relationship, with at least one victim knowing the vendor personally, not strangers."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Murder (IPC s.302 r/w s.120B; s.300 fourthly)",
+   "quote": "bring their case within the four corners of Section 300 fourthly",
+   "page": 19,
+   "reason": "Convictions were under s.302 and the court applied s.300 fourthly, which is murder, not culpable homicide."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 r/w s.120B; IPC s.328 r/w s.120B; Punjab Excise Act s.61(1)(a)",
+   "quote": "Section 61(1)(a) of the Punjab Excise Act, 1914",
+   "page": 5,
+   "reason": "Section 34 IPC is not mentioned; the Punjab Excise Act conviction under s.61(1)(a) is omitted."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Spurious liquor adulterated with methyl alcohol (poison)",
+   "quote": "consuming poisonous liquor",
+   "page": 1,
+   "reason": "No conventional weapon, but the means was poisonous methyl-adulterated liquor, which the value omits."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Medical, witness statements and circumstantial evidence (recovered bottles, conduct) are all relied upon."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the respondents is mentioned; accused were interrogated leading to recoveries only."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sale of poisonous liquor and attempt to destroy evidence are both highlighted as aggravating."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Convicted under IPC s.302 r/w s.120B, s.328 r/w s.120B, and Punjab Excise Act s.61(1)(a)",
+   "quote": "for the offences under Section 302 IPC read with Section 120B IPC",
+   "page": 5,
+   "reason": "Trial court convicted under s.302 (murder) and other sections, not culpable homicide."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court allowed the appeal and acquitted the respondents."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "judgment of the High Court acquitting the respondents is hereby set aside and that of the trial court convicting the respondents is restored",
+   "page": 20,
+   "reason": "Supreme Court restored the trial court's conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Murder (IPC s.302; s.300 fourthly)",
+   "quote": "bring their case within the four corners of Section 300 fourthly",
+   "page": 19,
+   "reason": "Court held the case fell within s.300 fourthly, which is murder, not culpable homicide."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "life imprisonment",
+   "quote": "directed to undergo imprisonment for life",
+   "page": 5,
+   "reason": "The s.302 sentence was life imprisonment, not a fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "directed to undergo imprisonment for life",
+   "page": 5,
+   "reason": "The judgment gives life imprisonment for s.302; no 20-year term appears."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "Rs.10,000 each (s.302); Rs.5,000 each (s.328); Rs.1,000 (Excise Act s.61(1)(a))",
+   "quote": "also to pay fine ofRs.10,000/- each",
+   "page": 5,
+   "reason": "Rs.10,000 is the s.302 fine only; other fines under s.328 and the Excise Act are omitted."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only, without the Supreme Court's outcome (remove reference to the Supreme Court overturning the acquittal)",
+   "quote": "The Supreme Court overturned the High Court's acquittal, finding sufficient evidence to connect the respondents to the tragedy.",
+   "page": 20,
+   "reason": "Neutral facts reveal the Supreme Court's outcome, which the field must not do."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for a term of 5 years with fine of Rs.5,000/- each",
+   "page": 5,
+   "reason": "Life term with Rs.10,000 fine and 5-year term with Rs.5,000 fine match the judgment; Excise Act sentence omitted but not contradicted."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deaths and blindings occurred, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "as many as 44 unfortunate persons who fell prey to it",
+   "page": 14,
+   "reason": "Judgment records 36 deaths and 44 cases of permanent blindness from methyl alcohol."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as a count of offences; 48 arrayed as accused, 2 convicted, others acquitted",
+   "quote": "48 persons were arrayed as accused",
+   "page": 4,
+   "reason": "Accused counts are accurate, but the judgment does not state a count of offences."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is discussed; compensation is for deaths and blindness, not property."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the planned sale of methyl alcohol caused havoc",
+   "page": 16,
+   "reason": "Judgment describes a planned sale and knowledge of consequences, supporting the value."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they were perhaps more interested in making easy money",
+   "page": 16,
+   "reason": "Greed for quick money is identified as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Medical evidence, victims' statements and post-offence conduct are accepted as stated."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is no reason to disbelieve them",
+   "page": 15,
+   "reason": "Court found contemporaneous statements credible and not to be disbelieved."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "tried to destroy the evidence in the form of other bottles ... by throwing them away in the river/canal",
+   "page": 15,
+   "reason": "Destruction of remaining bottles by throwing them in river/canal is accurately recorded."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated; respondents were directed to surrender."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not discussed."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates for trial judgment, High Court and Supreme Court decisions match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Advs. for the Respondents",
+   "page": 4,
+   "reason": "Counsel names match the listed appearances."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "48 persons were sent up to stand their trial",
+   "page": 9,
+   "reason": "FIR, investigation, charge sheeting and completed trial are supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Police lapses in investigation; State failed to conduct inquiry into the tragedy",
+   "quote": "there have been some lapses on the part of the police authorities in not investigating the case with the vigour that was necessitated",
+   "page": 19,
+   "reason": "Judgment notes investigative lapses and State administrative failure, so 'None noted' is contradicted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court acquittal and Supreme Court restoration are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution case on methyl alcohol deaths, victims' statements and destruction of bottles is accurately described."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "No evidence of consumption from respondents' bottles; no proof of knowledge or conspiracy; charge framing objections under CrPC ss.218/226",
+   "quote": "there is no proof of the fact that any of the deceased or the persons who lost their vision had actually consumed liquor sold to them",
+   "page": 10,
+   "reason": "The 'faulty investigation' framing is not the main defence argument; the judgment records other specific defence points."
+  },
+  "legal_principle_applied": {
+   "verdict": "incorrect",
+   "correct_value": "Section 300 fourthly IPC (murder) and Section 120B IPC; respondents had full knowledge of consequences",
+   "quote": "bring their case within the four corners of Section 300 fourthly",
+   "page": 19,
+   "reason": "Value wrongly calls s.300 'culpable homicide not amounting to murder'; the court applied s.300 fourthly, which is murder."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Joseph Kurian Philip Jose v. State of Kerala ... Fakhruddin v. State of MP",
+   "page": 4,
+   "reason": "Both cases are cited in the judgment as referred to."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Supreme Court restored trial court's conviction and sentences; respondents directed to surrender; culpability reasons given for conviction",
+   "quote": "The respondents shall surrender to undergo the sentence inflicted by the trial court.",
+   "page": 20,
+   "reason": "Court did not impose a new sentence; it restored the trial court's sentence, so the rationale mischaracterises it."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It is this greed and philistinism of the respondents to make quick money",
+   "page": 17,
+   "reason": "Greed, exploitation of villagers, knowledge of danger and evidence destruction are all weighed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "compensation ofRs.2,00,000/- each to the heirs of36 persons",
+   "page": 6,
+   "reason": "Compensation directions and non-interference after disbursement are accurately described."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Three accused, namely, Anshram, Parasram alias Rangnath and Harilal, were tried",
+   "page": 3,
+   "reason": "Three accused were tried, as stated in paragraph 2."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Parasram's mother tha t his son is being beaten",
+   "page": 10,
+   "reason": "Accused are referred to as male persons throughout the judgment."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for his alleged involvement with a lady of the village",
+   "page": 8,
+   "reason": "The deceased is referred to in the male gender throughout."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age is not stated anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "villagers in general, and none in specific, assault a person",
+   "page": 10,
+   "reason": "Deceased was a village resident and accused were villagers; 'Stranger' is contradicted by this context."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "committing murder of Ellahabadiya alias Vijay",
+   "page": 3,
+   "reason": "Offence is murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicting and sentencing the appellants to imprisonment for life under Section 302",
+   "page": 2,
+   "reason": "Section 302 IPC is the charged and convicting provision."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "seized a lathi, which was lying near the body of deceased",
+   "page": 3,
+   "reason": "Lathi is the weapon described throughout."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "ocular account of PW-2 and PW-6",
+   "page": 8,
+   "reason": "Eyewitness, medical and recovery evidence were all relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued merciless beating, with head injuries and rib fractures on both sides",
+   "quote": "the injuries found on the body of the deceased reflects that he was mercilessly beaten",
+   "page": 7,
+   "reason": "State argued aggravating injuries; 'None noted' omits this submission."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence said street fight and surviving accused had served over 10 years",
+   "quote": "both the surviving accused persons have served over 10 years of sentence",
+   "page": 6,
+   "reason": "Defence raised mitigating points, including over 10 years served, which the value omits."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicting and sentencing the appellants to imprisonment for life under Section 302",
+   "page": 2,
+   "reason": "Trial court convicted and sentenced to life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeals dismissed; conviction and life sentence affirmed",
+   "quote": "the appeals of Harilal and Parasram ... were dismissed",
+   "page": 2,
+   "reason": "High Court dismissed the appeals, so the outcome was not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants are acquitted of the charge for which they have been tried.",
+   "page": 12,
+   "reason": "Supreme Court acquitted the appellants."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants are acquitted of the charge for which they have been tried.",
+   "page": 12,
+   "reason": "Acquittal means no offence was finally established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants are acquitted of the charge",
+   "page": 12,
+   "reason": "No imprisonment was imposed by the final order."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is imposed in the final order."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts without the outcome; the acquittal should not be stated in neutral facts",
+   "quote": "The appellants are acquitted of the charge for which they have been tried.",
+   "page": 12,
+   "reason": "Neutral facts reveal the outcome by stating the courts' findings and the acquittal."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicting and sentencing the appellants to imprisonment for life under Section 302",
+   "page": 2,
+   "reason": "Life imprisonment was the sentence under s.302 imposed by the courts below."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "murder of Ellahabadiya alias Vijay (the deceased) on 25.08.1989",
+   "page": 3,
+   "reason": "Murder was completed; the deceased died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Cause of death - Shock due to injuries in the brain and lungs.",
+   "page": 4,
+   "reason": "Matches autopsy injuries and stated cause of death."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence charged (murder under s.302 IPC) against three accused",
+   "quote": "three accused ... were tried for committing murder",
+   "page": 3,
+   "reason": "The accused were tried for one murder charge, not three offences."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not stated."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged involvement of deceased with a lady of the village; no clear motive proved",
+   "quote": "there is no clear cut motive proved against the accused except that there was some incident concerning a lady of the village",
+   "page": 8,
+   "reason": "A possible motive is identified as the lady issue, though no clear motive was proved."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it would be unsafe to rely on PW-2 to convict the accused",
+   "page": 10,
+   "reason": "Accurately reflects that the Court did not accept the eyewitness evidence as sufficient."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "PW-2 and PW-6 were chance witnesses with inconsistent prior statements; PW-2 unsafe to rely on; PW-6 not stellar",
+   "quote": "it would be unsafe to rely on PW-2 to convict the accused",
+   "page": 10,
+   "reason": "Court did not say the two witnesses failed to corroborate each other; it also said PW-6 was not stellar."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's post-offence conduct is not discussed; only a witness's conduct is discussed."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Surviving accused reportedly served over 10 years of sentence during trial and appeal",
+   "quote": "both the surviving accused persons have served over 10 years of sentence",
+   "page": 6,
+   "reason": "Judgment records this defence submission, so 'Not stated' is inaccurate."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants reported to have been released on bail during the pendency of the appeal",
+   "quote": "The appellants are reported to have been released on bail during the pendency of this appeal.",
+   "page": 12,
+   "reason": "Judgment states the appellants were released on bail during the appeal."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on 25.08.1989 at about 8.00 pm",
+   "page": 3,
+   "reason": "All listed dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "D. N. Goburdhun, Sr. Adv., Aakarsh Kamra, Ms. Gauri Goburdhun, Advs. for the Appellants.",
+   "page": 2,
+   "reason": "Counsel names match the appearances listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a first information report (Ex.P-7) ... was lodged by Smt. Jugmatibai (PW-9) ... on 26.08.1989",
+   "page": 3,
+   "reason": "FIR, recoveries and autopsy dates match the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Delayed FIR without proper explanation; trial and High Court did not carefully consider PW-9's deposition",
+   "quote": "When an FIR is delayed, in absence of proper explanation, the courts must be on guard",
+   "page": 9,
+   "reason": "Judgment identifies FIR delay and failure to consider PW-9's deposition as irregularities."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The judgment and order of the High Court as well as of the Trial Court are set-aside.",
+   "page": 12,
+   "reason": "Trial conviction, High Court dismissal and Supreme Court acquittal are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "cannot be said that the FIR is delayed and, therefore, contrived",
+   "page": 7,
+   "reason": "Summarises the State's reliance on witnesses, recoveries and the non-delayed FIR argument."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Street fight with unclear motive falling under s.300 exception, so s.304 Part I should apply; mob violence was the Court's view",
+   "quote": "it appears to be a case where there was a street fight",
+   "page": 6,
+   "reason": "Defence did not argue mob violence; that was the Court's view. The exception argument is correctly stated."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "When an FIR is delayed, in absence of proper explanation, the courts must be on guard and test the evidence meticulously",
+   "page": 9,
+   "reason": "Accurately states the delayed-FIR principle applied in paragraph 19."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent or case citation is relied on in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing was imposed by the Supreme Court, so no rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (no sentencing mitigation; mob-action doubts were grounds for acquittal)",
+   "quote": "a strong probability of the killing being a consequence of mob action on the deceased",
+   "page": 11,
+   "reason": "These were grounds for acquittal, not sentencing mitigating factors the court weighed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors were weighed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Bail bonds discharged; appellants need not surrender; released forthwith if not on bail",
+   "quote": "Their bail bonds are discharged. They need not surrender.",
+   "page": 12,
+   "reason": "The final order includes bail discharge and release directions, not 'None'."
+  }
+ }
+}

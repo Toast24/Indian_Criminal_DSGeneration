@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "31 accused tried; 28 convicted (headnote says 30 convicted)",
+   "quote": "In total, 31 accused were put to trial.",
+   "page": 25,
+   "reason": "Value 30 comes from the headnote, but the body says 31 tried and 28 convicted."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Accused genders are not stated; 'Mixed' is only an inference from names such as M. Kaveri."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated; the only age given is for a witness."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupations are not stated in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record of accused is stated."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victims are girl students, consistent with the judgment."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim ages are not stated; 'young girls' is descriptive only."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes agitators and students but never states they were strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder (s.302 IPC) is the principal offence for A-2 to A-4."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.302, 307, 114, 147, 148, 149, 188, 341; TN (POL) Act ss.3, 4",
+   "quote": "convicted u/ss .188, 341 IPC, and ss. 3 and 4 of the TNP (POL) Act read with s. 149 IPC",
+   "page": 4,
+   "reason": "Omits ss.188, 341, 147, 148, 149, 114 IPC and the convictions under those sections."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Petrol sprinkled in the bus and set alight with a match stick."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness, medical, recovery, test identification parade, documentary/photographic, confession",
+   "quote": "identified by some of the witnesses in the jail.",
+   "page": 11,
+   "reason": "Omits test identification parades, documentary reports and photographs, and the confession."
+  },
+  "confession": {
+   "verdict": "incorrect",
+   "correct_value": "Extra-judicial confessional statement of A-4 (exhibited in full text)",
+   "quote": "confessional statement of C. Muniappan (A.4) had been exhibited in the court in its full text.",
+   "page": 49,
+   "reason": "Judgment discusses A-4's extra-judicial confession, exhibited in full, so 'None' is contradicted."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's listed aggravating factors: planning, brutality, depravity, unprovoked attack."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court states no mitigating circumstances could be pointed out for A-2 to A-4."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "A-2 to A-4 sentenced to death; 28 others convicted with consecutive sentences totalling about 7 years",
+   "quote": "Accused Nos. 2, 3 and 4 were sentenced to death.",
+   "page": 25,
+   "reason": "Death sentence applies only to A-2 to A-4; others got consecutive sentences, which the value omits."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court confirmed death sentences and ordered other sentences to run concurrently."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused were convicted; the Supreme Court dismissed the appeals with modifications for some."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 IPC is upheld for A-2 to A-4."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Death for A-2 to A-4; reduced to period already undergone for others",
+   "quote": "their sentences are reduced to the period undergone.",
+   "page": 56,
+   "reason": "Death applies only to A-2 to A-4; other appellants' sentences were reduced to time served."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed term of years is imposed; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only, omitting outcomes, and naming the Tamil Nadu (Prevention of Dangerous Activities) Act correctly, not as the Police Act",
+   "quote": "The High Court confirmed the death sentences of A-2 to A-4",
+   "page": 4,
+   "reason": "Reveals court outcomes, which is prohibited, and misnames the TN (POL) Act as the Tamil Nadu Police Act."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death sentence confirmed for A-2 to A-4; the parenthetical is awkward but not contradicted."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bus was set on fire and three girls died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three girls burnt to death and several others suffered burn injuries."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "A-2 and A-3 convicted under s.302 (3 counts) and s.307 (46 counts); A-4 under s.302 r/w s.114 (3 counts) and s.307 r/w s.114 (46 counts); 28 convicted in trial",
+   "quote": "A-2 and A-3 were further convicted u/s 307 IPC each for 46 counts",
+   "page": 4,
+   "reason": "Burn injuries were s.307 attempted murder counts, not murder counts; the 46-count s.307 convictions are omitted."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Damage to government/town buses (broken glass, seat set on fire) and burning of the University bus",
+   "quote": "They damaged the government buses having registration nos.",
+   "page": 22,
+   "reason": "Judgment describes damage to buses and burning of the University bus, so 'Not applicable' is wrong."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found the offence committed after previous planning with extreme brutality."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Protest against former CM's conviction; some agitators intended greater damage so people would learn a lesson",
+   "quote": "Some of the appellants had evil designs to cause damage to a greater extent so that people may learn a \"lesson\".",
+   "page": 55,
+   "reason": "Judgment identifies the political protest and 'lesson' intent, so 'Not identified' is contradicted."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Lists the eyewitness evidence and the motorcycle escape fact the court accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found discrepancies trivial and relied on hostile witnesses' admissible parts, matching the summary."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "A-4 kept the motorcycle engine running to escape with A-2 and A-3; the accused fled the scene",
+   "quote": "C. Muniappan (A.4) had kept the engine of the motor cycle running only to escape from the scene of occurrence",
+   "page": 44,
+   "reason": "Judgment states the accused fled and A-4 kept the engine running to escape, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Most other appellants served more than 14 months; A-4 was in police custody and released on bail 9.2.2000",
+   "quote": "Most of these appellants have already served more than 14 months of their sentence",
+   "page": 56,
+   "reason": "Judgment states custody periods for appellants, so 'Not stated' is contradicted."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "A-4 released on bail on 9.2.2000; most appellants are on bail",
+   "quote": "He had been released on bail on 9.2.2000",
+   "page": 40,
+   "reason": "Judgment states A-4 was released on bail and that most appellants are on bail."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Incident 2.2.2000; trial judgment 16.2.2007; High Court judgment 6.12.2007; Supreme Court decision 30.8.2010",
+   "quote": "the Trial Court delivered the judgment and order dated 16.2.2007",
+   "page": 25,
+   "reason": "High Court judgment was 6.12.2007, not confirmed in 2010; the trial and appeal dates are wrong."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants: Sushil Kumar, P.N. Prakash, P.H. Manoj Pandian and others; Respondent: Altaf Ahmed, R. Shunmugasundaram and others",
+   "quote": "Sushil Kumar, P.N. Prakash, P.H. Manoj Pandian ... for the Appellants.",
+   "page": 20,
+   "reason": "Counsel for both sides are named in the judgment, so 'not stated' is wrong."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Irregularities noted; earlier investigation material not relied on by subsequent I.O."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held earlier I.O. irregularities had too little relevance on the merits."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appeals dismissed, death sentences confirmed, other sentences reduced to time undergone."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "State argued contradictions were trivial, the s.188 charge defect was not fatal, clubbing caused no prejudice, and hostile witnesses' evidence is usable",
+   "quote": "has tried to defend the prosecution's case submitting that the contradictions were trivial in nature.",
+   "page": 28,
+   "reason": "Brutality and collective-conscience points are the court's reasoning, not the State's arguments."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Covers contradictions, missing s.195 complaint, clubbing, and investigation defects raised by the appellants."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court applied the rarest of rare test, balancing aggravating and mitigating circumstances."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bachan Singh, Machhi Singh and Devender Pal Singh are relied on for sentencing."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found life imprisonment inadequate given brutality and shock to collective conscience."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court stated no mitigating circumstances could be pointed out for A-2 to A-4."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Extreme brutality, previous planning, exceptional depravity, and unprovoked attack on innocent girls are listed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Other sentences reduced to time undergone and bail bonds discharged, per the final order."
+  }
+ }
+}

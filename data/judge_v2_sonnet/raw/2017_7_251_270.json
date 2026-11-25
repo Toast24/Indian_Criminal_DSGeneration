@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "STATE OF HARYANA v. KRISHAN & ANR.",
+   "page": 1,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction of only two accused persons, namely, Krishan and Som Nath",
+   "page": 5,
+   "reason": "Two respondents' liability is decided."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "Som Nath son of Lachhu Ram, Krishan son of Ram Chander",
+   "page": 8,
+   "reason": "Both accused are described as sons of named fathers, so they are male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The contractors of the licensed vend were identified as Krishan ... and Som Nath",
+   "page": 16,
+   "reason": "They are described as licensed liquor vend contractors."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "he had purchased a pint of country liquor ... handed over the liquor to his father Puran Chand",
+   "page": 7,
+   "reason": "Victims are described as fathers, sons and nephews, and the many listed names are male. Gender is evident."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He knew the vendor personally.",
+   "page": 17,
+   "reason": "Vendor–customer link, with one witness knowing the vendor."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302 IPC read with Section 120B IPC",
+   "page": 5,
+   "reason": "The main conviction is for murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 328 IPC read with Section 120B IPC ... Section 61(1)(a) of the Punjab Excise Act, 1914",
+   "page": 5,
+   "reason": "All sections are listed correctly."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "adulterated liquor with methyl alcohol which contained methanol poison",
+   "page": 16,
+   "reason": "No weapon; poison in liquor is described."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Post mortem of the deceased persons were conducted",
+   "page": 14,
+   "reason": "Medical, victim statements, recoveries and conduct evidence are all noted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession; the accused pleaded innocence."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "greed and philistinism of the respondents to make quick money",
+   "page": 17,
+   "reason": "Consistent with the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "directed to undergo imprisonment for life and also to pay fine of Rs.10,000/- each",
+   "page": 5,
+   "reason": "Sentences are accurately given."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "This appeal has been allowed by the High Court vide judgment dated May 09, 2006.",
+   "page": 5,
+   "reason": "Acquittal and compensation directions are correct."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "trial court convicting the respondents is restored",
+   "page": 20,
+   "reason": "Conviction restored."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "that of the trial court convicting the respondents is restored",
+   "page": 20,
+   "reason": "Trial court convictions restored."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for life",
+   "page": 5,
+   "reason": "Life imprisonment restored."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The main sentence is life, so null is right."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fine of Rs.10,000/- each",
+   "page": 5,
+   "reason": "Fine for the main offence."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The summary is faithful, anonymised and mentions no court outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deaths occurred, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "36 persons ... lost their lives ... Another 44 persons ... lost their eye-sight permanently",
+   "page": 4,
+   "reason": "Accurate, and the para 14 inconsistency is correctly noted."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The four sections charged are all restored."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial loss is described."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the planned sale of methyl alcohol caused havoc",
+   "page": 16,
+   "reason": "Court describes planned sale and knowledge."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they were perhaps more interested in making easy money",
+   "page": 16,
+   "reason": "Greed is the motive stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Inder Singh (PW-43), Gurdev Singh (PW-44), Gurtej Singh (PW-81), Hari Singh (PW-220) and Harphool Singh (PW-225)",
+   "page": 18,
+   "reason": "Matches the evidence relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "cannot be ignored and there is no reason to disbelieve them",
+   "page": 15,
+   "reason": "Consistent with the Court's assessment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "tried to destroy the evidence ... by throwing them away in the river/canal",
+   "page": 15,
+   "reason": "Accurate."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "judgment by the Session Judge dated August 18, 2000",
+   "page": 5,
+   "reason": "Dates are correct."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sanjay Kumar Tyagi, Addl. AG, Dilip Pratap, Kamal Mohan Gupta, Advs. for the Appellant.",
+   "page": 4,
+   "reason": "Counsel listed correctly."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "upon completion of the investigations 48 persons were sent up to stand their trial",
+   "page": 9,
+   "reason": "Consistent."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there have been some lapses on the part of the police authorities",
+   "page": 19,
+   "reason": "Accurate."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "judgment of the High Court acquitting the respondents is hereby set aside",
+   "page": 20,
+   "reason": "Accurate across three levels."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "both the parties argued the case limited to the acquittal of respondents by the High Court",
+   "page": 7,
+   "reason": "No detailed State arguments are recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was no evidence of conspiracy on the basis whereof the respondents could be convicted",
+   "page": 10,
+   "reason": "Arguments recorded are those before the High Court."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "would bring their case within the four corners of Section 300 fourthly",
+   "page": 19,
+   "reason": "Matches the Court's reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Joseph Kurian Philip Jose v. State of Kerala, (1994) 6 SCC 535",
+   "page": 11,
+   "reason": "Cited as referred to."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing reasoning given."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They have exploited the resilience nature of bucolic and rustic villagers.",
+   "page": 20,
+   "reason": "Matches."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "this Court is not interfering with the directions pertaining to payment of compensation",
+   "page": 7,
+   "reason": "Accurate; surrender order also stated."
+  }
+ }
+}

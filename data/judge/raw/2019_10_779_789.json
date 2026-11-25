@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "3 tried (appellant plus co-accused Ashok Kumar and Seth Pal, both acquitted by trial court); 1 appellant",
+   "quote": "one Ashok Kumar and Seth Pal were made to stand trial",
+   "page": 5,
+   "reason": "Only the appellant was before the Court, but two co-accused were also tried and acquitted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sunita... she",
+   "page": 3,
+   "reason": "The accused is referred to as female throughout the judgment."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is mentioned anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It was found to be a dead body of a female.",
+   "page": 5,
+   "reason": "Post-mortem and DNA results identify the victim as female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age is not stated; only her children's ages are given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "she is familiar with the deceased... cousin of her husband",
+   "page": 9,
+   "reason": "Accused is a cousin-relative of the victim's husband, so 'Relative' is supported."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction for murder",
+   "page": 4,
+   "reason": "The offence concerned is murder under s.302."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "an offence under Section 302 IPC",
+   "page": 10,
+   "reason": "The judgment refers to s.302 IPC; s.106 Evidence Act is also discussed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction can be based on... circumstantial evidence",
+   "page": 7,
+   "reason": "The case rests on circumstantial evidence, including last seen evidence."
+  },
+  "confession": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged extra-judicial confession made to Kashmir Singh (PW-12), held untenable",
+   "quote": "The other evidence of the prosecution is of extra-judicial confession made to Kashmir Singh (PW-12)",
+   "page": 11,
+   "reason": "An extra-judicial confession was alleged and considered, though rejected as untenable."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant Sunita stands convicted for the murder",
+   "page": 4,
+   "reason": "Trial court convicted the appellant."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed (conviction upheld)",
+   "quote": "The appeal against the said judgment was dismissed on March 25, 2008.",
+   "page": 4,
+   "reason": "The High Court did decide the appeal and dismissed it; it is not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is acquitted of the charges levelled against her.",
+   "page": 11,
+   "reason": "The Supreme Court acquitted the appellant."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has not been able to prove that it is the appellant and the appellant alone who is guilty",
+   "page": 11,
+   "reason": "No offence was finally established against the appellant."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment is imposed; the appellant is acquitted."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only: body found burning in 'Bitora'; post-mortem and DNA identified a female; PW-4 and PW-5 gave last-seen evidence; prosecution theory of planned village visit.",
+   "quote": "The accused was acquitted due to the lack of conclusive evidence linking her to the crime.",
+   "page": 11,
+   "reason": "Summary reveals the acquittal outcome and the court's reasoning, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state any minimum or maximum punishment for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution has failed to prove at what place, Sushila was murdered.",
+   "page": 11,
+   "reason": "Death is established by DNA, so the offence is treated as completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution has been able to prove only death of Sushila",
+   "page": 10,
+   "reason": "Death of the victim is established."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (single s.302 charge; conviction set aside, so none upheld)",
+   "quote": "the appellant is acquitted of the charges levelled against her",
+   "page": 11,
+   "reason": "The conviction was not upheld; the number of charges is not stated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss from the offence is discussed; the estate dispute is a separate civil matter."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Planning of the murder is not stated; only a planned village visit is mentioned."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecution alleged appellant feared Roshan would give property to deceased; court found primary motive not made out",
+   "quote": "the motive to take the life of the deceased was that appellant apprehended that her father may give his property to Sushila",
+   "page": 9,
+   "reason": "A motive was alleged by the prosecution and examined, so 'Not identified' is inaccurate."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "Court did not accept last-seen or other evidence as sufficient; DNA proved only death",
+   "quote": "the only evidence against the appellant is of last seen by Neeraj (PW-4) at 2 pm... Such evidence does not complete the chain",
+   "page": 10,
+   "reason": "The Court did not accept the circumstantial evidence; it found it insufficient to establish guilt."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-4 has left his father... There is a civil suit (Ex. D-5) filed by the appellant",
+   "page": 10,
+   "reason": "PW-4 and PW-5 were treated as inimical due to the civil suit and their statements needed corroboration."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is discussed beyond the scooty recovery, which is not treated as conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Bail bonds to be discharged on acquittal; no bail history details given",
+   "quote": "The bail bonds shall stand discharged.",
+   "page": 11,
+   "reason": "Bail bonds are referenced, though details of bail grant are not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Criminal Appeal... JULY 30, 2019; judgment dated 25.03.2008; January 13, 2006 by Additional Sessions Judge",
+   "page": 4,
+   "reason": "All listed dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Shaurya Sahay, Amit Kumar, Advs. for the Appellant.",
+   "page": 4,
+   "reason": "Counsel names match the appearance list."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR lodged June 15, 2004; DNA test conducted; investigation by SI and Inspector; accused made to stand trial",
+   "quote": "a formal FIR (Ex.P/10) was lodged on June 15, 2004",
+   "page": 5,
+   "reason": "FIR and DNA are correct, but charge sheet filing is not explicitly stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court did not identify a procedural irregularity, though FIR delay is noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal against the said judgment was dismissed",
+   "page": 4,
+   "reason": "Trial conviction, High Court dismissal, and Supreme Court acquittal are all correct."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased and the appellant planned to visit a village together",
+   "page": 9,
+   "reason": "Summarises the prosecution's theory of planned visit, DNA identification and last-seen witnesses accurately."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant had filed a suit claiming Baburam's estate, which PW-4 and PW-5 opposed",
+   "quote": "the appellant has filed a suit for claiming estate of Baburam as his wife",
+   "page": 6,
+   "reason": "The summary wrongly says the witnesses filed the suit; the appellant filed it."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution must prove all the circumstances connecting unbroken chain of links",
+   "page": 8,
+   "reason": "Circumstantial evidence and unbroken chain principles are applied as stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Satpal v. State of Haryana (2018) 6 SCC 610; Asar Mohammad v. State of U.P. 2018 SCC OnLine SC 2179",
+   "page": 7,
+   "reason": "Both precedents are cited and relied upon in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed, so no sentencing rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed; 'None' is consistent with the judgment."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed; 'None' is consistent with the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The bail bonds shall stand discharged. She be set at liberty, if not wanted in any other case.",
+   "page": 11,
+   "reason": "Acquittal, bail discharge and release order match the judgment."
+  }
+ }
+}

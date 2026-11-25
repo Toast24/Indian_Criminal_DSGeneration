@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "4 charge-sheeted (3 charged and convicted; 1 acquitted)",
+   "quote": "a charge sheet was filed against four accused namely - Manoj (husband), Jamnadas (father-in-law), Dhanwantari (mother-in-law) and Vishal",
+   "page": 6,
+   "reason": "Four accused were charge-sheeted; three were convicted, so 3 is only partly right."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Male husband and father-in-law, and female mother-in-law."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No ages of the accused are given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appellant Jamnadas is a businessman having his shop",
+   "page": 21,
+   "reason": "Defence version describes Jamnadas as a businessman with a shop."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal history mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased was a young bride."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only 'young bride'; no age given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Husband, father-in-law and mother-in-law of the deceased."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction was for murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offences punishable under Sections 302 (read with Section 34) 201, 304-B and 498-A IPC",
+   "page": 6,
+   "reason": "Charged provisions are accurately listed."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Hard and sharp objects; knives and scissors were examined",
+   "quote": "ante mortem and post mortem injuries were caused by hard and sharp object",
+   "page": 14,
+   "reason": "The judgment mentions hard sharp objects and knives and scissors sent for examination."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial, medical/autopsy, eyewitness (PW1-5), forensic, seizure; no dying declaration",
+   "quote": "Undoubtedly, it is a case of circumstantial evidence.",
+   "page": 16,
+   "reason": "No dying declaration exists in the judgment; other types are roughly right."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Consistent with the facts and circumstances recorded."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "found rest of the three accused, namely, Dhanwantari, Jamnadas and Manoj guilty",
+   "page": 7,
+   "reason": "Three convicted, Vishal acquitted."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "were dismissed",
+   "page": 5,
+   "reason": "The High Court dismissed all three appeals, affirming the convictions."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "these appeals are liable to be dismissed, and the same are accordingly dismissed",
+   "page": 23,
+   "reason": "Convictions upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "common intention with Dhanwantari in commission of brutal murder",
+   "page": 23,
+   "reason": "Murder with common intention, s.302/34."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for life",
+   "page": 7,
+   "reason": "Life imprisonment imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentence, so no fixed years."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs. 5,000 each",
+   "quote": "sentenced each of the convicts under Section 302/34 IPC imprisonment for life and directed to pay fine of Rs.5000/-",
+   "page": 7,
+   "reason": "A fine of Rs 5000 was imposed, not null."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": null,
+   "quote": "The above chain of circumstances against the appellants is complete",
+   "page": 23,
+   "reason": "It states the chain was established and the defence was proven false, revealing the outcome."
+  },
+  "offence_severity": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment with fine imposed under s.302/34",
+   "quote": "sentenced each of the convicts under Section 302/34 IPC imprisonment for life",
+   "page": 7,
+   "reason": "'Minimum: Death' is wrong and the judgment gives no statutory range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "died due to shock and haemorrhage as a result of multiple injuries",
+   "page": 14,
+   "reason": "Consistent with the autopsy findings."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Four offences charged (302/34, 201, 304-B, 498-A); convicted under 302/34 (plus 201 for Dhanwantari)",
+   "quote": "Accused Dhanwantari was further convicted under Section 201 IPC",
+   "page": 7,
+   "reason": "It conflates accused with offences; Vishal was charged only under s.201."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss involved."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "had common intention with Dhanwantari in commission of brutal murder",
+   "page": 23,
+   "reason": "The court found common intention only; premeditation or planning is not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the chain of circumstances in para 30."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dead body was thrown in the park by Dhanwantari ... who was seen doing so by PW 1 to PW 5",
+   "page": 22,
+   "reason": "Court relied on PW1-5 and the medical evidence."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Mother-in-law threw body in park; no report of homicidal death lodged by appellants; false explanation given under s.313",
+   "quote": "There is no report lodged to police by the appellants regarding homicidal death of the deceased",
+   "page": 23,
+   "reason": "The judgment does describe post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only arrest dates are given, no custody duration."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge sheet against four and trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No irregularity found by the court."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: convicted three, acquitted Vishal; High Court: appeals dismissed; Supreme Court: appeals dismissed",
+   "quote": "The three convicts filed separate appeals before the High Court",
+   "page": 8,
+   "reason": "The trial court entry wrongly says conviction affirmed by High Court."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State relied on Suresh v. State of Haryana on s.106 burden; circumstantial chain showed murder inside the house",
+   "quote": "Shri C.D. Singh, learned counsel for the State of Madhya Pradesh has referred to the case of Suresh",
+   "page": 20,
+   "reason": "The value mostly restates the court's conclusions rather than the prosecution's arguments."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Deceased went missing at her relative's place; alibi in shop; right to silence; no blood on appellants' nails; s.106 not applicable",
+   "quote": "there is no adverse finding as against the present appellants",
+   "page": 16,
+   "reason": "Last sentence is garbled and contradictory; it omits the right to silence and forensic arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There must be a chain of evidence so complete",
+   "page": 17,
+   "reason": "Accurately states the Sharad Sarda principles applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Sharad Sarda; Trimukh Maroti Kirkan; Suresh v. State of Haryana; Mir Mohammad Omar; Kuldeep Singh; Rumi Bora Dutta",
+   "quote": "Similar view has been taken by this Court in Rumi Bora Dutta v. State of Assam",
+   "page": 20,
+   "reason": "It omits Kuldeep Singh and Rumi Bora Dutta; Narendra Singh was the appellants' citation."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no sentencing rationale, only the basis for conviction."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing aggravating factors discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other orders for appellants."
+  }
+ }
+}

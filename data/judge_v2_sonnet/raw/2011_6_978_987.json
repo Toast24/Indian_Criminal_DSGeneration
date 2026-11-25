@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "RAJPUT JABBARSINGH MALAJI v. STATE OF GUJARAT",
+   "page": 1,
+   "reason": "Matches the judgment title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appellant was charged and prosecuted",
+   "page": 5,
+   "reason": "Single appellant."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he is innocent",
+   "page": 7,
+   "reason": "Accused referred to as 'he'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "her husband",
+   "page": 8,
+   "reason": "Victim Jethusing is male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "She happened to know the Appellant as they all are related.",
+   "page": 9,
+   "reason": "Relative, unspecified."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offence under Section 302 of the Indian Penal Code",
+   "page": 5,
+   "reason": "Murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Section 302 of the Indian Penal Code (for short 'IPC') and under Section 135 (1) of the Bombay Police Act",
+   "page": 5,
+   "reason": "Both provisions charged."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "with an axe",
+   "page": 8,
+   "reason": "Axe."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "recovery of blood stained scarf of accused and blood stained axe... FSL report and the evidence of the wife",
+   "page": 1,
+   "reason": "Matches the evidence types."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession; only disclosure statements leading to recovery."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Single blow was so hard and powerful that it caused his death instantaneously.",
+   "page": 9,
+   "reason": "Supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "awarded him life imprisonment and a fine of Rs. 500/-... 4 months simple imprisonment and fine of Rs. 100/-",
+   "page": 5,
+   "reason": "Matches the sentences."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "affirmed the judgment and order of Trial Court and thus dismissed the appeal",
+   "page": 5,
+   "reason": "Accurate."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It is accordingly dismissed.",
+   "page": 10,
+   "reason": "Conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder under IPC s.302 and offence under Bombay Police Act s.135(1) (convictions upheld)",
+   "quote": "found the Appellant guilty for commission of the said offence... under Section 135 (1) of Bombay Police Act",
+   "page": 5,
+   "reason": "Omits s.135(1) conviction, which also stands on dismissal of appeal."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "awarded him life imprisonment",
+   "page": 5,
+   "reason": "Life."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life, so null."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a fine of Rs. 500/-",
+   "page": 5,
+   "reason": "Fine for s.302 is Rs. 500 (plus Rs. 100 under the Police Act)."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove 'the accused made disclosure' ambiguity; also 'brothers' sighting while entering the field' is fine, but 'asleep on a cot outside the family home' is a minor detail.",
+   "quote": "Then Jethusing went to sleep in Oshri outside Orda",
+   "page": 6,
+   "reason": "Largely accurate, but it uses 'her husband' and 'wife' phrasing for the victim's wife, which is acceptable; 'Late on the night' is slightly loose."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Punishment range not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "declared the deceased brought dead",
+   "page": 6,
+   "reason": "Completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "deceased had met the homicidal death, on account of severe wounds inflicted upon his face by an axe",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Section 302... and under Section 135 (1) of the Bombay Police Act",
+   "page": 5,
+   "reason": "Two charged, both upheld on dismissal."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No finding."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive discussed."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "from the FSL report and the evidence of P.Ws 2, 3, 5 and 6",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Their evidence is of sterling quality and deserves to be accepted.",
+   "page": 10,
+   "reason": "Accurate."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appellant made disclosure statements pursuant to which blood stained adhivato... and blood stained axe were discovered",
+   "page": 7,
+   "reason": "Accurate."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "decided on 07.03.1998",
+   "page": 5,
+   "reason": "Dates match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "S. Usha Reddy for the Appellant. Kamaldeep Dayal, Hemantika Wahi, Suveni Banerjee for the Respondent.",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On completion of the investigation, the Appellant was charged and prosecuted",
+   "page": 7,
+   "reason": "Accurate."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted; FIR omission of name explained."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appeal being devoid of any merit... It is accordingly dismissed.",
+   "page": 10,
+   "reason": "Accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No arguments recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "challenging the same on variety of grounds",
+   "page": 5,
+   "reason": "Grounds unspecified."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Section 6 of the Indian Evidence Act, 1872... Res Gestae witnesses",
+   "page": 9,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None given."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing discussion."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "Suresh Kumar v. State of Haryana",
+   "quote": "SURESH KUMAR v STATE OF HARYANA",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "2",
+   "quote": "Appellant-accused alongwith his mother was prosecuted",
+   "page": 2,
+   "reason": "Husband and mother-in-law were both prosecuted, so two accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "Appellant Suresh Kumar married Sulochana",
+   "page": 8,
+   "reason": "The accused is the husband, referred to as he throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused; 28 has no textual basis."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Army personnel (serving in the Army, not permanently at matrimonial home)",
+   "quote": "Since Suresh Kumar was in the Army, he was not permanently staying in the matrimonial home",
+   "page": 8,
+   "reason": "The judgment states the accused was in the Army, so 'Not stated' is wrong."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Female",
+   "quote": "the death of a woman",
+   "page": 4,
+   "reason": "The deceased Sulochana is the wife, a woman."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased; 28 is not supported."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": "Spouse (husband)",
+   "quote": "The appellant Suresh Kumar married Sulochana on 18th February, 1990",
+   "page": 8,
+   "reason": "Accused was the husband of the deceased."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Dowry death",
+   "quote": "such death shall be called 'dowry death'",
+   "page": 13,
+   "reason": "Charges were under s.304-B IPC dowry death with s.498A."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC s. 304-B, s. 498A; Evidence Act s. 113-B",
+   "quote": "offences punishable under Section 498-A and Section 304-B of the IPC",
+   "page": 7,
+   "reason": "Both IPC sections are correctly listed; s.113-B Evidence Act is also central but omitted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "None mentioned",
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned; death was by electric shock or electrocution."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Oral testimony of witnesses (PW-4, PW-5, PW-7, father); judgment does not characterise evidence as circumstantial",
+   "quote": "This has come out in the evidence of Gian Singh, Mam Chand, Sardha and PW-7 Beer Singh.",
+   "page": 23,
+   "reason": "Judgment relies on direct witness testimony; 'circumstantial' is never stated."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is recorded; his s.313 statement denied nothing about electrocution."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Demand for dowry (motorcycle), cruelty and harassment, beating despite intervention",
+   "quote": "He had subjected her to cruelty or harassment in connection with the demand by beating her",
+   "page": 23,
+   "reason": "Dowry demand, cruelty and harassment are the aggravating facts relied on."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Acquittal",
+   "quote": "Trial Court acquitted both the accused.",
+   "page": 2,
+   "reason": "Trial court acquitted both accused."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Acquittal reversed; convicted under s.304-B and s.498A",
+   "quote": "the High Court reversed the acquittal and held him guilty",
+   "page": 10,
+   "reason": "High Court reversed acquittal and convicted the accused."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted (Supreme Court dismissed appeal)",
+   "quote": "We find no merit in these appeals and they are accordingly dismissed.",
+   "page": 28,
+   "reason": "Conviction upheld; appeal dismissed."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "Dowry death (s.304-B IPC) and cruelty (s.498A IPC)",
+   "quote": "Conviction confirmed",
+   "page": 1,
+   "reason": "Dowry death under s.304-B was established and upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "fixed_term",
+   "quote": "rigorous imprisonment for a period of seven years",
+   "page": 10,
+   "reason": "Fixed-term rigorous imprisonment was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": "7",
+   "quote": "rigorous imprisonment for a period of seven years under Section 304-B",
+   "page": 10,
+   "reason": "Seven years under s.304-B is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": "5000 (fine under s.498A)",
+   "quote": "rigorous imprisonment of three years along with a fine of Rs.5,000/-",
+   "page": 10,
+   "reason": "Rs.5,000 fine is stated, attached to the s.498A sentence."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts without stating the lower-court outcomes or the finding that the accused failed to rebut the presumption",
+   "quote": "The High Court reversed the acquittal, finding that the victim's death was a dowry death",
+   "page": 10,
+   "reason": "Facts are accurate but reveal the High Court's conviction outcome and rebuttal finding, which should be omitted."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Imprisonment not less than seven years, may extend to life",
+   "quote": "shall be punished with imprisonment for a term which shall not be less than seven years but which may extend to imprisonment for life",
+   "page": 13,
+   "reason": "Matches the statutory punishment text in s.304-B(2)."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": "the deceased died",
+   "page": 2,
+   "reason": "The death occurred; offence completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Death by electric shock/electrocution",
+   "quote": "the deceased is said to have died of an electric shock or electrocution",
+   "page": 24,
+   "reason": "Death by electrocution is described as the cause."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": "Two offences (s.304-B and s.498A), both upheld",
+   "quote": "The correctness of the appellant's conviction for an offence punishable under Section 498-A and Section 304-B",
+   "page": 7,
+   "reason": "Two offences charged and both convictions upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is discussed; dowry demand concerns a motorcycle but no loss is claimed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": "Demand for dowry (motorcycle)",
+   "quote": "Suresh Kumar demanded a motorcycle as dowry",
+   "page": 8,
+   "reason": "Dowry demand for a motorcycle is the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Court accepted the dowry demand for a motorcycle and cruelty/harassment; electrocution was only 'said to have' occurred and was not accepted as proved",
+   "quote": "Sulochana is said to have died of an electric shock or electrocution",
+   "page": 23,
+   "reason": "Court accepted the dowry demand and cruelty; it did not accept electrocution as established."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial judge discarded Gian Singh's testimony; High Court accepted prosecution witnesses on demand and cruelty; arrival-time discrepancy held irrelevant",
+   "quote": "While there is some discrepancy in the time of their arrival ... this seems to us to be not quite relevant",
+   "page": 11,
+   "reason": "Summary omits trial judge discarding Gian Singh and the court's treatment of discrepancies as irrelevant; partly accurate."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Body cremated before victim's family arrived; accused did not mention electrocution in s.313 statement",
+   "quote": "they came to know that Sulochana had already been cremated",
+   "page": 9,
+   "reason": "The judgment records cremation before family arrived and omission of electrocution in s.313 statement, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not quantified; only set-off under s.428 is mentioned."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Bail bond cancelled; accused directed to be taken into custody to serve remainder of sentence",
+   "quote": "The bail bond of Suresh Kumar is cancelled and it is directed that he should be taken into custody",
+   "page": 28,
+   "reason": "Judgment states the bail bond was cancelled, so bail history is stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "None noted (FIR delay argument raised late and rejected)",
+   "quote": "We also do not see any adverse consequence or presumption in the delay",
+   "page": 28,
+   "reason": "FIR delay contention was rejected as raised late; no irregularity found."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": "Trial court judgment 3 October 1996; High Court 25 March 2008; Supreme Court 11 November 2013",
+   "quote": "dated 3rd October, 1996",
+   "page": 10,
+   "reason": "Dates match the judgment's stated decision dates."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "R.C. Kohli, S.S. Shamshery, Bhakti Vardhan for Appellant; Kamal Mohan Gupta, Rajeev Gaur Naseem, Mohd. Zahid Hussain, Naresh Bakshi for Respondent",
+   "quote": "R.C. Kohli, S.S. Shamshery, Bhakti Vardhan for the Appellant.",
+   "page": 7,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR lodged 19 Sept 1993; Suresh Kumar arrested 19 Sept 1993; mother Leela Devi arrested 20 Sept 1993",
+   "quote": "Suresh Kumar was arrested on the same day while his mother Leela Devi was arrested on 20th September, 1993",
+   "page": 9,
+   "reason": "The 20 September arrest was of the mother, not the accused; otherwise accurate."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial court acquittal; High Court reversed and convicted; Supreme Court dismissed appeal",
+   "quote": "his acquittal was reversed and he was convicted of the offences charged",
+   "page": 7,
+   "reason": "Appeal history matches the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution case reflected in High Court reasoning; judgment does not expressly record prosecution submissions on s.113-B",
+   "quote": "The High Court held that the ingredients of Section 304-B of the IPC were made out",
+   "page": 11,
+   "reason": "Content reflects the High Court's reasoning, not explicitly recorded prosecution arguments; attribution is inferred."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "High Court should not have interfered with acquittal; death was accidental; prosecution should have produced doctor",
+   "quote": "it was submitted that if two views are possible, the High Court should lean in favour of the accused",
+   "page": 24,
+   "reason": "Defence contentions on acquittal interference, accidental death and the doctor are recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Initial burden on prosecution; reverse onus on accused to prove death accidental",
+   "quote": "a reverse onus is put on the accused to prove his innocence by showing, inter alia, that the death was accidental",
+   "page": 24,
+   "reason": "Matches the principle stated in para 48."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Also Shamnsaheb M. Multtani, Yashoda, Nallam Veera Stayanandam, Sharad, Pathan Hussain Basha, Hira Lal, Ghurey Lal, S. Anil Kumar, Rohtash",
+   "quote": "Shamnsaheb M. Multtani vs. State of Karnataka (2001) 2 SCC 577",
+   "page": 5,
+   "reason": "Listed cases are correct but the list omits many precedents relied on, including Multtani and Ghurey Lal."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as a sentencing rationale; judgment gives conviction reasoning only",
+   "quote": "The High Court held that the ingredients of Section 304-B of the IPC were made out",
+   "page": 11,
+   "reason": "Conviction reasoning is accurate, but the judgment gives no sentencing rationale; the value conflates the two."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors were identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated as formal sentencing factors; court described accused as unrelenting in insisting on dowry",
+   "quote": "Suresh Kumar was unrelenting and insisted on a motorcycle being given by way of dowry",
+   "page": 24,
+   "reason": "Court described accused as unrelenting and insisting on dowry, so 'None' is inaccurate."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": "Seven years rigorous imprisonment under s.304-B; three years rigorous imprisonment and Rs.5,000 fine under s.498A; concurrent; s.428 CrPC set-off",
+   "quote": "The sentences were directed to run concurrently",
+   "page": 10,
+   "reason": "Sentence details and concurrency match the judgment."
+  }
+ }
+}

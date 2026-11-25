@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to the sole appellant accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only the witness PW-11's labour-class status is mentioned, not the accused's."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only past misbehaviour toward PW-11 is mentioned, not a criminal record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Devi is referred to as female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the victim."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to the victim's family; prior dealings and inimical relationship with them",
+   "quote": "It is not the case of the appellant that there was no previous contact in any manner whatsoever",
+   "page": 5,
+   "reason": "Judgment shows prior contact and inimical relations with the victim's family, not a stranger."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder and rape",
+   "quote": "committing rape and murder of one Devi",
+   "page": 2,
+   "reason": "Category omits rape, which was also charged and upheld."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment cites Sections 302 and 376 IPC."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Blue shawl (apparently used for strangulation); no weapon expressly identified",
+   "quote": "whose neck was wrapped with a blue shawl owned by her",
+   "page": 2,
+   "reason": "Judgment does not call it a weapon, but the shawl around the neck relates to the strangulation."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states it was a case of circumstantial evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned; accused only made a simple denial under s.313."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "no missing link in any of the circumstances found proved against the appellant",
+   "page": 5,
+   "reason": "These are incriminating circumstances, not sentencing aggravating factors, which the judgment does not state."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted and sentenced to life and 10 years RI."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction and sentence confirmed by the High Court",
+   "quote": "which was also confirmed by the High Court",
+   "page": 5,
+   "reason": "Judgment states the High Court confirmed the conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction for murder and rape was upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Rigorous imprisonment for life (s.302) and 10 years rigorous imprisonment (s.376)",
+   "quote": "rigorous imprisonment for life and 10 years rigorous imprisonment",
+   "page": 2,
+   "reason": "Value gives only life, omitting the 10-year rigorous imprisonment for rape."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "10 years rigorous imprisonment (s.376); life imprisonment for s.302",
+   "quote": "10 years rigorous imprisonment for committing rape and murder",
+   "page": 2,
+   "reason": "Null omits the stated 10-year term for rape."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "A neutral summary of the facts without stating the conviction, e.g. the accused was produced by police on 21.2.2005 after being absent from the village.",
+   "quote": "the appellant was produced before the investigating officer by Jagmal Singh only on 21.2.2005 when he was arrested",
+   "page": 4,
+   "reason": "States the conviction, revealing the outcome, and wrongly says accused was not present during investigation."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Statutory punishment ranges are not in the judgment and rely on outside knowledge."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rape and murder were completed; the victim died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment mentions intercourse, asphyxia from strangulation, and contusions and abrasions."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two offences under ss.302 and 376 were charged and the conviction upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is mentioned, so 'not applicable' is substantively accurate."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (the court found motive based on past grudge, not premeditation)",
+   "quote": "one day or other he would take a revenge for the said incident",
+   "page": 3,
+   "reason": "Judgment never finds premeditation or planning; it relies on motive and grudge."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Past misbehaviour, Panchayat apology and resulting grudge match the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Medical evidence of intercourse and PW-10's testimony on accused's presence were accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found PW-10 and PW-11 corroborated each other and that variations were immaterial."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused ran away without answering PW-10 and remained absent for two days."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Length of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence: 18.2.2005; High Court judgment: 07.09.2011; Supreme Court decision: April 11, 2013; trial court judgment date not stated",
+   "quote": "Judgment and Order dated 07.09.2011 of the High Court of Punjab and Haryana",
+   "page": 1,
+   "reason": "The 07.09.2011 date is the High Court order, not the trial judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial completed; accused arrested 21.2.2005; FIR registration and charge sheet not stated",
+   "quote": "On reaching the spot PW-14, SHO recorded the statement",
+   "page": 2,
+   "reason": "FIR registration and charge sheet filing are not mentioned in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted; defence variation argument was rejected as immaterial."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: convicted and sentenced; High Court: conviction and sentence confirmed; Supreme Court: appeal dismissed",
+   "quote": "which was also confirmed by the High Court",
+   "page": 5,
+   "reason": "Trial court entry wrongly says conviction was confirmed rather than the accused being convicted."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the prosecution case on presence, flight, absconding and inimical relations."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused claimed false implication due to inimical relations and led no defence evidence."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no missing link in the circumstances, consistent with the chain-of-circumstances principle."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as a separate sentencing rationale; court held conviction and sentence perfectly justified on the evidence",
+   "quote": "the conviction and sentence imposed on the appellant ... was perfectly justified",
+   "page": 5,
+   "reason": "Judgment gives reasons for conviction and motive, not separate sentencing reasons."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence or order is mentioned."
+  }
+ }
+}

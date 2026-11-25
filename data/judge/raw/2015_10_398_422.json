@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment concerns a single appellant accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused referred to as 'he' throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the appellant."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not stated; the jeweller reference concerns the victim's husband."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the female prosecutrix."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the prosecutrix is given; only her children and residence periods are mentioned."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states they were neighbours."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Sexual offence (rape, IPC s.376) with criminal intimidation (s.506(2))",
+   "quote": "allegations of rape go back to the years 1997-1998",
+   "page": 14,
+   "reason": "Culpable homicide is not involved; the offence concerns alleged rape and threats."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "IPC ss.376 and 506(2) are the provisions cited."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecutrix's statement (testimonial); no other circumstantial evidence collected on rape",
+   "quote": "no other circumstantial evidence could be collected regarding the rape as alleged by the complainant except her statement",
+   "page": 10,
+   "reason": "The judgment says the rape allegation rests on her statement, not circumstantial evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Serious nature of the rape charge (s.376) added later",
+   "quote": "Merely because the charge under Section 376 IPC, which is a serious charge, is now added",
+   "page": 15,
+   "reason": "The judgment describes the added s.376 charge as serious, so 'Not stated' is wrong."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant participated in proceedings; investigation complete; no flight risk alleged",
+   "quote": "the appellant has participated in the proceedings",
+   "page": 25,
+   "reason": "The judgment identifies mitigating points relevant to bail, so 'Not stated' is inaccurate."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sessions Judge granted anticipatory bail."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Anticipatory bail cancelled by High Court (order dated 18.07.2014)",
+   "quote": "allowed by the High Court vide impugned order dated 18.07.2014 cancelling the anticipatory bail granted to the appellant",
+   "page": 5,
+   "reason": "The High Court did act; it cancelled the anticipatory bail, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal allowed; High Court order set aside; anticipatory bail restored; trial pending",
+   "quote": "we set aside the impugned judgment and restore the order dated 18.05.2013",
+   "page": 25,
+   "reason": "No acquittal occurred; the Supreme Court restored anticipatory bail and the trial continues."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court expressly left determination of the charge to trial; none established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed; not stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is given."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts only, without the Supreme Court's outcome (remove the final sentence)",
+   "quote": "The Supreme Court set aside the High Court's order and restored the trial court's decision to grant anticipatory bail.",
+   "page": 25,
+   "reason": "Facts are largely accurate, but the final sentence reveals the court outcome, which is prohibited."
+  },
+  "offence_severity": {
+   "verdict": "incorrect",
+   "correct_value": "Serious (s.376 rape charge described as a serious charge)",
+   "quote": "Merely because the charge under Section 376 IPC, which is a serious charge, is now added",
+   "page": 15,
+   "reason": "The judgment explicitly characterises the charge as serious."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment reports allegations only and does not determine whether the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged rape; prosecutrix's case is of physical abuse and mental torture (allegation only)",
+   "quote": "physically abused and mentally tortured by the appeliant",
+   "page": 13,
+   "reason": "Presented as fact, but the judgment records these only as the prosecutrix's allegations."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Two charges (s.506(2) framed 2001; s.376 added 2014); neither adjudicated, merits left to trial",
+   "quote": "The fact remains that a charge of rape has been framed.",
+   "page": 13,
+   "reason": "Charges are correctly listed, but 'both upheld' is wrong; the court did not decide their merits."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged blackmail and harassment; alleged evil eye on prosecutrix's daughter",
+   "quote": "wanted to blackmail the prosecutrix in this behalf as well",
+   "page": 12,
+   "reason": "The judgment records alleged motives (blackmail, harassment), so 'Not identified' is incomplete."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "No findings on evidence; Court said merits, including delay and rape charge, are for trial",
+   "quote": "It would ultimately be for the trial court to arrive at the findings",
+   "page": 13,
+   "reason": "The Court made no evidentiary findings or acceptance; it expressly reserved the merits for trial."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "No credibility assessment; Court said the delay and statement issues are for trial",
+   "quote": "it is not for us to go into the same at this stage",
+   "page": 14,
+   "reason": "The Court expressly declined to assess witness credibility, so the value wrongly claims an assessment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There is no allegation that during this period he had tried to influence the witnesses.",
+   "page": 25,
+   "reason": "Matches the judgment's statement on participation and witness influence."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated; the custody order was stayed."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sessions grant, High Court cancellation and Supreme Court restoration are accurately described."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence 1997-98; FIR/charge 2001; s.376 added 2014; HC order 18.07.2014; SC decision 01.09.2015; trial ongoing",
+   "quote": "SEPTEMBER 01, 2015",
+   "page": 1,
+   "reason": "Dates are mostly right, but no trial judgment in 2014 exists; the trial is ongoing."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant: Dushyant Dave and others; Respondents: Hemantika Wahi, Jesal Wahi, Puja Singh; prosecutrix appeared in person",
+   "quote": "Respondent-in-Person, Hemantika Wahi, Jesal Wahi, Puja Singh for the Respondents.",
+   "page": 3,
+   "reason": "Names are correct, but the prosecutrix appeared in person and is not counsel for the State."
+  },
+  "investigation_status": {
+   "verdict": "incorrect",
+   "correct_value": "Investigation complete; charge sheet filed; trial ongoing",
+   "quote": "the trial in this case may be expeditiously conducted",
+   "page": 25,
+   "reason": "Trial is not completed; the Court directed it to be concluded within one year."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged that the IO did not record the statement correctly and omitted rape allegations; delay in charge addition",
+   "quote": "the statement ... was not correctly recorded who intentionally omitted her statement concerning her rape",
+   "page": 12,
+   "reason": "The judgment records allegations of irregularity in recording the statement, so 'None noted' is wrong."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sessions grant, High Court cancellation and Supreme Court allowance are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued s.376 is serious and non-bailable, so appellant should surrender and seek regular bail",
+   "quote": "the proper course of action was to direct the appellant to surrender before the trial court and apply for regular bail",
+   "page": 12,
+   "reason": "Captures the seriousness point, but the delay and inaction arguments were not the prosecution's."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued consensual relationship, no rape in 31.05.2001 statement, 9-year delay, and no tampering",
+   "quote": "after a gap of more than 9 years from the framing of charge, application was moved for this purpose",
+   "page": 10,
+   "reason": "Delay is raised, but the stated reasoning mirrors the Court's holding; defence's key points are missing."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the Court's reasoning on serious charges and balancing liberty and public interest."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Gurbaksh Singh and Siddharam Satlingappa Mhetre citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred; not applicable."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Investigation completion, participation and no flight or witness influence are the Court's stated factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court noted the serious charge but held it not to be a reason to deny bail; 'None' is defensible."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Trial to be expedited and concluded within one year; liberty to seek cancellation before trial court",
+   "quote": "the trial court should endeavour to complete the same within one year",
+   "page": 25,
+   "reason": "The Court made a direction on trial timing and liberty to apply for cancellation, not 'None'."
+  }
+ }
+}

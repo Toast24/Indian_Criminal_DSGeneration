@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "BADAL MURMU AND ORS. V. STATE OF WEST BENGAL",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There are eleven appellants.",
+   "page": 6,
+   "reason": "Judgment expressly states eleven appellants."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The women who had assembled there also assaulted the wives, mother and sister",
+   "page": 7,
+   "reason": "Accused are implicitly male, distinguished from the women who assaulted; no explicit statement, but supported."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of any accused is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They are tribals.",
+   "page": 13,
+   "reason": "Judgment states Santhal community and tribal status of appellants."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They come from a very poor strata of the society",
+   "page": 13,
+   "reason": "Judgment describes accused as very poor and economically weak."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "stealing of the hen by her husband",
+   "page": 8,
+   "reason": "Victim is the husband of the first wife, so male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "partially_correct",
+   "correct_value": "Not explicitly stated; implied Santhal community (wives are Santhal material witnesses)",
+   "quote": "The appellants as well as the material witnesses belong to Santhal community.",
+   "page": 12,
+   "reason": "Caste of victim is not stated directly, though the material witnesses (victim's wives) are Santhal."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants and the prosecution witnesses belong to Santhal Community of village Mobarakpur.",
+   "page": 6,
+   "reason": "Supported: fellow villagers of same community with prior inimical dealings."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted for culpable homicide not amounting to murder",
+   "page": 13,
+   "reason": "Final conviction is culpable homicide not amounting to murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction of the appellants for offences punishable under Section 302 read with Section 149 of the IPC is quashed",
+   "page": 12,
+   "reason": "Sections 148, 302/149 and 304 Part II are all supported."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "some of the appellants had tangies in their hand. PW-1 Nilmoni stated that some of them had tangies but they did not use them.",
+   "page": 10,
+   "reason": "Lathis used; tangies carried but not used, as stated."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The doctor ... stated that the death was caused due to the injuries",
+   "page": 9,
+   "reason": "Eyewitness testimony and post-mortem evidence are the evidence relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The accused denied the prosecution case.",
+   "page": 7,
+   "reason": "No confession; accused denied the prosecution case."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It is true that there were also two rib fractures and haemotoma under the scalp.",
+   "page": 10,
+   "reason": "Death, fourteen injuries, rib fractures and haematoma are stated; court did not weigh them as aggravating."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It is an unusual case where a trivial incident led to a murder.",
+   "page": 12,
+   "reason": "Trivial trigger, unused tangies, poverty and long custody are all stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo imprisonment for life",
+   "page": 6,
+   "reason": "Trial court convicted under s.148 and s.302/149 and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants' appeal was dismissed by the High Court.",
+   "page": 6,
+   "reason": "High Court dismissed the appeal, confirming conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the impugned order is modified to the above extent",
+   "page": 13,
+   "reason": "Conviction was modified by the Supreme Court."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted for culpable homicide not amounting to murder",
+   "page": 13,
+   "reason": "Finally established offence is culpable homicide under s.304 Part II."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentence already undergone by them is directed to be treated as sentence imposed on them",
+   "page": 13,
+   "reason": "No fresh imprisonment; time already undergone treated as sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No specific term of years is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Earlier assault on the second man is described without naming the weapon; the judgment does not say sticks were used then.",
+   "quote": "caused bleeding injuries to him",
+   "page": 6,
+   "reason": "Facts are accurate, but the claim that the second man was assaulted with sticks is not supported; weapon is unspecified."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence severity classification is stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he was beaten to death",
+   "page": 7,
+   "reason": "Offence completed with death of the victim."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the doctor noticed fourteen injuries on the deceased. Most of them were bruises and abrasions.",
+   "page": 10,
+   "reason": "Death, fourteen injuries, fractures and haematoma are all stated."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Two offences charged (s.148; s.302 r/w s.149). s.302/149 conviction set aside and replaced by s.304 Part II; s.148 not expressly addressed.",
+   "quote": "the conviction of the appellants for offences punishable under Section 302 read with Section 149 of the IPC is quashed and set aside. Instead, they are convicted for culpable homicide",
+   "page": 13,
+   "reason": "Charge count is right, but s.304 Part II was a substitution, not an upheld conviction."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he was ordered to give a hen to appellant-B and, in addition, he had to give two handies of liquor.",
+   "page": 13,
+   "reason": "Theft of hen and penalty of hen and liquor are supported."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the attendant circumstances do not indicate that the appellants shared any common object to kill",
+   "page": 10,
+   "reason": "Court found no shared intent to kill; blows in a frenzy, consistent with the value."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It appears that they were no( happy with the penalty imposed by the Salishman.",
+   "page": 10,
+   "reason": "Motive is anger at the community penalty over the hen theft."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The evidence of PW-1 Nilmoni, PW-3 Rabi Soren, PW-6 Sumi Soren and PW-7 Kanka is truthful",
+   "page": 9,
+   "reason": "Ocular testimony and PW-9's blunt-object opinion are accepted as stated."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-7 Kanka did not hesitate to name his brother as one of the assailants.",
+   "page": 9,
+   "reason": "Witnesses found truthful, rustic, related but not falsely implicating."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused post-offence conduct is stated; the flight concerns the witness PW-7."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we are informed that the appellants are in jail for almost 14 years",
+   "page": 13,
+   "reason": "Matches the judgment's statement of nearly 14 years."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On the next day, in the morning, deceased-Jhore Soren and PW-7 Kanka were called",
+   "page": 7,
+   "reason": "Incident date and High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Vibha Datta Makhija, Ruchi Agnihotri for the Appellants. Anip Sachthey, Kabir S. Bose, Shagun Matta, Saakaar Sardana for the Respondents.",
+   "page": 6,
+   "reason": "Counsel names and roles match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-1 Nilmoni ... rushed to Memari Police Station and gave her statement.",
+   "page": 7,
+   "reason": "Complaint, investigation, charges and 10 witnesses are stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants' appeal was dismissed by the High Court. Hence, the present appeal.",
+   "page": 6,
+   "reason": "Appeal history across trial, High Court and Supreme Court is accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants who were members of the unlawful assembly knew that the murder was likely to be committed",
+   "page": 8,
+   "reason": "Prosecution's common-object and intent arguments are accurately stated."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants are poor tribals; they are in jail for a considerably long time",
+   "page": 8,
+   "reason": "Defence arguments on acquittal and s.304 Part II are accurately stated."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Common object under s.149 must be established on the facts; individual roles and the fatal injury must be considered; absent intention to kill, s.304 Part II applies.",
+   "quote": "It is not, therefore, known as to which is the fatal injury.",
+   "page": 10,
+   "reason": "The court did not treat the injuries as non-fatal; the doctor said all injuries led to death."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sukhdev Singh v. State of Punjab (AIR 1992 SC 755); Sarman & Ors. v. State of Madhya Pradesh (1993 Supp. (2) SCC 356)",
+   "page": 8,
+   "reason": "All listed precedents and citations appear in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "justice must be tempered with mercy",
+   "page": 13,
+   "reason": "Rationale matches the court's reasoning on poverty, trivial cause, and time served."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their anger and reaction to the theft of hen must be viewed against the background of their economic and social status",
+   "page": 13,
+   "reason": "Mitigating factors match the court's stated reasoning."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there can be no justification for the appellants' actions",
+   "page": 13,
+   "reason": "Court noted no justification but weighed no aggravating factor."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They are directed to be released forthwith unless they are otherwise required in any other case.",
+   "page": 13,
+   "reason": "Release order matches the judgment."
+  }
+ }
+}

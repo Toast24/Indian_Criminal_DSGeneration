@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction of 17 accused out of which six accused persons",
+   "page": 10,
+   "reason": "Seventeen accused were convicted at trial, and the Supreme Court decided their appeals."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Radhey Shyam s/o Gopal, Bhojraj",
+   "page": 11,
+   "reason": "All named accused are male; the judgment uses male patronymics and 'his son' references."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or tribe of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not stated; the Sarpanch is a deceased co-accused, not occupation of accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class statement about the accused appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Purshottam, Ram Kumar Dhaka, Kalu Lal Mali and Lakendra Sharma",
+   "page": 10,
+   "reason": "All five deceased are named male victims."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victims is named as such."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victims is described."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the father nurtured deep rooted suspicion that the deceased persons had not only masterminded a well thought out plan",
+   "page": 10,
+   "reason": "Prior enmity from suspected involvement in the Sarpanch's son's murder is accurately described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the massacre of five persons",
+   "page": 10,
+   "reason": "Murder is the main offence."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charges under Sections 147, 427, 435, 148, 302, 460 and 342 IPC and in respect of 435/149 IPC",
+   "page": 12,
+   "reason": "Sections listed match the charges and convictions in the judgment."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Gandasis, swords, sabals and sticks",
+   "quote": "armed with Gandasis, Swords, Sabals and sticks",
+   "page": 11,
+   "reason": "Weapons match, but the 'axe-like' description is not in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "got the autopsy done in respect of !he dead bodies, seized the blood stained clothes, recorded the statements of the witnesses",
+   "page": 12,
+   "reason": "Eyewitness, medical, recovery, site plan and autopsy evidence are all described."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "None; weapons were recovered on information furnished by accused in custody, but the judgment does not say the court treated it as a non-confession",
+   "quote": "on the basis of the information furnished by the accused persons, while they were in custody, recovered the weapons",
+   "page": 12,
+   "reason": "The recovery is described, but the claim that the court rejected it as a confession is not stated."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the whole crime was committed in a planned design",
+   "page": 14,
+   "reason": "High Court finding of planned design and the ghastly assault are both supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "specific overt acts have not been attributed and similarly placed accused persons have been given life sentence",
+   "page": 26,
+   "reason": "High Court mitigating reasons, custody period and similarly placed accused are all supported."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "six accused persons ... were imposed death sentence and the rest 11 accused ... were sentenced with rigorous imprisonment of life",
+   "page": 10,
+   "reason": "Death sentences for six and life for eleven, with the rest acquitted, match the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the conviction and sentence imposed by the trial court was maintained",
+   "page": 14,
+   "reason": "Partial allowance, commutations, acquittals and maintained convictions for four accused match."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal filed by the accused-appellants ... are dismissed",
+   "page": 30,
+   "reason": "Supreme Court dismissed the appeals, so the convictions of the four accused stand."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the conviction under Section 302 could not be interfered with",
+   "page": 14,
+   "reason": "Murder conviction under s.302 (with s.149 for the group) is upheld for those whose convictions stand."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no error in the decision of the High Court by which it commuted the death sentence to life imprisonment",
+   "page": 30,
+   "reason": "Final sentence for the upheld accused is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment is not a fixed term, so null is correct."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine is stated at the Supreme Court level."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The first group comprised about 24 named men plus 15-20 others, roughly 40 persons in total.",
+   "quote": "Ram Narayan, Mohan Lal, Yuvraj, Hansraj ... along with 15-20 others came being armed",
+   "page": 11,
+   "reason": "Crowd size '25 to 30' understates the named accused plus 15-20 others; otherwise facts track the judgment without outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory punishment for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the real crime, the assault and the murder took place after midnight",
+   "page": 10,
+   "reason": "Murders were completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "assaulted them with Gandasis and swords on their heads, faces, hands and feet",
+   "page": 11,
+   "reason": "Five deaths and the blows to head, face, hands and feet are described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "7 charged; 5 finally upheld for the four accused whose convictions were maintained (ss.148, 427, 342, 460, 302)",
+   "quote": "the High Court ... Hence the present cross-appeals ... conviction and sentence imposed by the trial court was maintained",
+   "page": 14,
+   "reason": "Seven sections charged is correct, but the upheld count is not given; the judgment maintains multiple convictions per accused."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They took both the motorcycles in the passage and burnt the same",
+   "page": 11,
+   "reason": "Two motorcycles taken and burnt; value not stated, which is accurate."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the whole crime was committed in a planned design",
+   "page": 14,
+   "reason": "High Court's planned-design finding is accurately recorded, with the revenge motive."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the crime had taken place because Ram Narayan had suspected that the deceased persons were responsible for extinguishing the life spark of his son",
+   "page": 29,
+   "reason": "Court accepted revenge motive from suspected killing of the Sarpanch's son."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their testimony have withstood the rigorous cross-examination in material particulars and received corroboration from the evidence of the doctor",
+   "page": 21,
+   "reason": "Eyewitness testimony, medical corroboration, seized weapons and FIR delay explanation are all supported."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "We find that their evidence is reliable and credible",
+   "page": 21,
+   "reason": "Relatives were scrutinised with care and found reliable, with minor discrepancies."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "After the killings, the accused burnt the two motorcycles and left the scene.",
+   "quote": "They took both the motorcycles in the passage and burnt the same and, after the inhumane and barbaric act, left the scene.",
+   "page": 11,
+   "reason": "The judgment describes post-offence conduct (burning motorcycles, leaving the scene), so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all the accused persons have almost spent thirteen years in custody",
+   "page": 30,
+   "reason": "The Court states almost thirteen years in custody."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in the intervening night of 28th and 29th June, 2001",
+   "page": 10,
+   "reason": "Offence, High Court and Supreme Court dates match; trial judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sushil Kumar Jain, Puneet Jain, Anurag Gohil, Pratibha Jain for the Appellants. Imtiaz Ahmed, Naghma Imtiaz, Milind Kumar for the Respondent",
+   "page": 9,
+   "reason": "Counsel names for accused and State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "submitted the charge-sheets on different dates before the Judicial Magistrate, Digod",
+   "page": 12,
+   "reason": "FIR, investigation steps, charge-sheet, committal and completed trial are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment notes no procedural irregularity."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dismissing all the appeals",
+   "page": 3,
+   "reason": "Trial outcome, High Court partial allowance and Supreme Court dismissal are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records no State submissions, so 'Not stated' is accurate."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "innocent persons were dragged into trial and suffered immensely",
+   "page": 15,
+   "reason": "Delay, interested witnesses, no independent witness, unspecified roles and innocent implication are all raised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "mere delay in lodging the First Information Report cannot be regarded by itself as fatal",
+   "page": 16,
+   "reason": "Delay, related-witness scrutiny, acquittal interference and rarest of rare principles are applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "State of H.P. v. Gian Chand1, ... (2001) 6 sec 11",
+   "page": 16,
+   "reason": "Main precedents and citations match the judgment's footnotes."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is not a case which can be treated to be a case of extreme culpability",
+   "page": 30,
+   "reason": "Rationale for life imprisonment over death is accurately summarised."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "similarly placed persons have been imposed life sentence. Quite apart from that, all the accused persons have almost spent thirteen years in custody",
+   "page": 30,
+   "reason": "Court weighed similarly placed accused and custody; overt-acts and Ram Narayan points come from High Court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Supreme Court did not expressly weigh aggravating factors, so 'None' is accurate."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No compensation, directions or guidelines are ordered."
+  }
+ }
+}

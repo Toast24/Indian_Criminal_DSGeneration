@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single accused appellant; the State is the other party."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is the wife, referred to as 'her' and 'Rohini'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the deceased aged 38 years",
+   "page": 4,
+   "reason": "The age of 38 belongs to the deceased; the accused's age is never stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only the deceased's occupation is given; accused's occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased is male, referred to as 'his' and 'son'."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased is stated to be aged 38 years."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the deceased is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the deceased is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is the wife of the deceased."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Abetment of suicide",
+   "quote": "accused of abetment to suicide and was thus charged under Section 306 of IPC",
+   "page": 4,
+   "reason": "Offence is abetment of suicide under s.306, not culpable homicide; no homicide charge appears."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment discusses s.306 read with s.107 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned; death was by hanging."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Oral (FIR by mother, colleagues' statements), post-mortem report; no recovery mentioned",
+   "quote": "The post mortem report found no signs of injuries on the body of deceased.",
+   "page": 4,
+   "reason": "Medical and oral evidence are mentioned, but no recovery is described; 'circumstantial' is not stated."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial Court rejected the discharge application."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Dismissed the revision application against the Trial Court's order",
+   "quote": "The High Court has dismissed the Revision Application filed by the Appellant",
+   "page": 3,
+   "reason": "High Court outcome exists: it dismissed the revision, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeal allowed; High Court order set aside; discharge application allowed (not an acquittal after trial)",
+   "quote": "The application for discharge is allowed.",
+   "page": 9,
+   "reason": "Accused was discharged at the discharge stage; 'acquitted' overstates the outcome."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No conviction; the three essentials of s.306 r/w s.107 were found absent."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term was imposed."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine was imposed."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts match the judgment and do not reveal the Supreme Court's outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Quotes the punishment prescribed under s.306 IPC."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased hanged himself to death, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-mortem found no injuries; cause of death was hanging."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single s.306 charge, with discharge refused by Trial Court and High Court."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No actual financial or property loss is recorded; money and house transfer were only alleged demands."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is mentioned."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged demand for money and transfer of house; marital disputes (appellant cites deceased's liquor addiction)",
+   "quote": "on account of demand of money and for transfer of the dwelling house at Shingapur in her name",
+   "page": 4,
+   "reason": "Motive is identified in the FIR allegations and in the appellant's account, so 'Not identified' is wrong."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Court considered the FIR and colleagues' statements but found they showed no instigation or proximate link",
+   "quote": "Neither the statement of the complainant nor that of the colleagues of the deceased ... suggest any kind of instigation",
+   "page": 9,
+   "reason": "Court did not 'accept' this evidence; it considered it and held it insufficient."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court did not expressly assess credibility; it held the complainant and colleagues' statements disclosed no instigation",
+   "quote": "Neither the statement of the complainant nor that of the colleagues of the deceased ... suggest any kind of instigation",
+   "page": 9,
+   "reason": "Judgment does not expressly assess witness credibility; it addresses whether statements show instigation."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates match: offence 17.02.2020, trial order 24.02.2022, HC 05.09.2023, SC 10 July 2024."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearances listed for appellant and respondents."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Chargesheet date and pending Sessions Case No. 100 of 2021 match the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court, High Court, and Supreme Court steps match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Respondent submitted the s.306 ingredients were clearly made out from investigation evidence, so the High Court rightly dismissed the petition",
+   "quote": "the ingredients essential for the offence under Section 306 IPC were clearly made out from the evidence collected",
+   "page": 6,
+   "reason": "Specific acts come from the FIR allegations, not the recorded prosecution submission, which is generic."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Covers no active role, the deceased's frustration, and his liquor addiction as recorded in the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Mens rea, active or direct act, and proximate link are all applied in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "S.S. Chheena; Amalendu Pal; Ramesh Kumar (relied on); Gurucharan Singh (referred to)",
+   "quote": "Gurucharan Singh v. State of Punjab [2020] 8 SCR 741 : [2020] 10 SCC 200 – referred to",
+   "page": 2,
+   "reason": "Headnote says Gurucharan Singh was only referred to, not relied on; other three are correctly listed."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing took place, so no rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence or other sentencing order is made; only discharge is ordered."
+  }
+ }
+}

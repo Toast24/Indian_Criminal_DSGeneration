@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "incorrect",
+   "correct_value": "3",
+   "quote": "all the three accused were convicted for the offence punishable under Section 302 IPC",
+   "page": 9,
+   "reason": "Value counts only the two appellants; three accused were tried and convicted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he had already served the sentence of more than 14 years",
+   "page": 10,
+   "reason": "Appellants are referred to with male pronouns and male names."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for any accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the body of the deceased",
+   "page": 9,
+   "reason": "Victim Kailash is referred to as male with 'his' pronouns and as a nephew's uncle."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the deceased anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to each other, residents of the same village",
+   "quote": "As the parties were known to each other being the residents of the same village",
+   "page": 16,
+   "reason": "Judgment says the parties knew each other, so 'Stranger' is contradicted."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302 IPC",
+   "page": 9,
+   "reason": "Offence is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302; Arms Act s.25 (in FIR)",
+   "quote": "an FIR was lodged under Section 302 of Indian Penal Code, 1860 ... and Section 25 of the Arms Act, 1959",
+   "page": 8,
+   "reason": "Omits the Arms Act Section 25 cited in the FIR."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Knife, gupti, katarna and kalama (axe with long wooden handle); sharp edged weapons",
+   "quote": "weapons such as knife, gupti and 'katarna'",
+   "page": 14,
+   "reason": "Captures sharp-edged weapons but omits specific weapons, including the axe-like kalama."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the statements of the Investigating Officer (PW.21) and PW9, the arrest of the accused, and recovery of weapons",
+   "page": 2,
+   "reason": "Eyewitness, medical and recovery evidence are all relied on, consistent with the judgment."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (weapons recovered on disclosure statements)",
+   "quote": "the weapons used in the offence were recovered on their disclosure statements",
+   "page": 8,
+   "reason": "Judgment never says there was no confession; it only mentions disclosure statements leading to recovery."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are listed for sentencing in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced them to rigorous imprisonment for life",
+   "page": 2,
+   "reason": "Trial court convicted under s.302 IPC and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeals dismissed; conviction upheld (15.12.2006, after remand)",
+   "quote": "the appeals have been heard afresh and dismissed vide judgment and order dated 15.12.2006 by the High Court",
+   "page": 10,
+   "reason": "High Court upheld conviction; 'Not applicable' ignores its decisions."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appeal lacks merit and is, accordingly, dismissed.",
+   "page": 17,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302 IPC",
+   "page": 9,
+   "reason": "Murder under s.302 IPC is the established offence."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for life",
+   "page": 9,
+   "reason": "Sentence is rigorous imprisonment for life."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment has no fixed year term stated."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs. 2,000 each",
+   "quote": "a fine of Rs. 2,000/- each, in default thereof, to serve further sentence of one year",
+   "page": 9,
+   "reason": "Judgment states a fine of Rs. 2,000 each, so null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": null,
+   "quote": "The Court also noted that the witness's testimony was trustworthy",
+   "page": 3,
+   "reason": "Facts are accurate but state the Supreme Court's holdings on witness credibility and primacy, revealing the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for life",
+   "page": 9,
+   "reason": "Life imprisonment is the sentence imposed for the murder."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "succumbed to his injuries",
+   "page": 8,
+   "reason": "Victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "three incised wounds found on his body, one on the neck, one on the chest and another in the abdomen",
+   "page": 9,
+   "reason": "Death caused by sharp-edged weapon wounds is supported."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence (murder under s.302 IPC)",
+   "quote": "convicted for the offence punishable under Section 302 IPC",
+   "page": 9,
+   "reason": "Judgment shows one offence; 'three offences' confuses three accused with three offences."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rakesh, accused, wanted utensils from Kailash (deceased), who refused to oblige the accused",
+   "page": 14,
+   "reason": "Motive of wanting utensils from the deceased is stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW11 is a natural witness and his testimony inspired confidence and is, thus, worth acceptance",
+   "page": 20,
+   "reason": "Accepted evidence and corroboration described accurately."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no discrepancy or error could be shown in spite of the fact that he was nephew of Kailash",
+   "page": 16,
+   "reason": "Trustworthiness despite relation and cross-examination is supported."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Assailants fled the scene after the assault; arrested later",
+   "quote": "the assailants managed to flee",
+   "page": 8,
+   "reason": "Flight from the scene is stated, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Rakesh served over 14 years, then premature release; Rajesh served about 7-1/2 years and still in jail",
+   "quote": "Appellant Rajesh has served about 7 -1 /2 years and is still in jail",
+   "page": 10,
+   "reason": "Custody periods are stated for both appellants."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence 5.3.1996; trial judgment 21.2.1997; HC decision 10.2.2005 (set aside 20.7.2006); HC dismissal 15.12.2006; SC judgment 19.9.2011",
+   "quote": "remanded the appeals to be heard by the High Court afresh",
+   "page": 9,
+   "reason": "Labels 15.12.2006 as the Supreme Court decision; that was the High Court's decision after remand."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Siddharth Aggarwal, Aditya Wadhoa, Stui Gujral, Senthil Jagadeesan for the Appellant",
+   "page": 8,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "an FIR was lodged under Section 302 ... at 12.30 p.m.",
+   "page": 8,
+   "reason": "FIR timing, chargesheet and completed trial are supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "High Court decided appeals on 10.2.2005 in absence of counsel; Supreme Court set aside and remanded",
+   "quote": "which were decided by judgment and order dated 10.2.2005 in absence of their counsel",
+   "page": 9,
+   "reason": "A procedural irregularity (decision in counsel's absence) is stated, so 'None noted' is wrong."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted; HC 10.2.2005 set aside by SC 20.7.2006 and remanded; HC dismissed 15.12.2006; SC dismissed",
+   "quote": "this Court after setting aside the judgment and order dated 10.2.2005 ... remanded the appeals",
+   "page": 9,
+   "reason": "Trial court 'upheld' is mislabeled and the 2006 Supreme Court remand is omitted."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution case of assault with sharp weapons, recovery, and PW11 as eyewitness; promptness of FIR was the court's reasoning",
+   "quote": "it is improbable that the appellants had been enroped falsely as promptness in lodging the FIR shows that there was no time for manipulation",
+   "page": 5,
+   "reason": "Core case is accurate, but FIR promptness is the court's reasoning, not stated as a prosecution argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the ocular evidence was contradictory to the medical evidence as regards the time of death",
+   "page": 10,
+   "reason": "Defence grounds on medical contradiction and related witness are accurately stated."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The ocular evidence would have primacy unless it is established that oral evidence is totally irreconcilable with the medical evidence",
+   "page": 3,
+   "reason": "Principle matches the judgment's statement."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Adds Kishan Singh (dead) thr. Lrs. v. Gurpal Singh, AIR 2010 SC 3624, which is omitted",
+   "quote": "(See: Kishan Singh (dead) thr. Lrs. v. Gurpal Singh & Ors., AIR 2010 SC 3624)",
+   "page": 15,
+   "reason": "Most precedents listed correctly, but Kishan Singh is omitted."
+  },
+  "sentencing_rationale": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (rationale given concerns conviction, not sentence)",
+   "quote": "Prompt and early reporting of the occurrence by the informant with all its vivid details gives an assurance regarding truth of its version",
+   "page": 16,
+   "reason": "The cited reasoning supports conviction on credibility; the judgment gives no sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are stated by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; court calls the crime a 'heinous crime' (in the context of rejecting false implication)",
+   "quote": "such a heinous crime",
+   "page": 16,
+   "reason": "Court describes the offence as heinous, though not as a formal aggravating factor."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Fine Rs. 2,000 each; default one year further imprisonment",
+   "quote": "a fine of Rs. 2,000/- each, in default thereof, to serve further sentence of one year",
+   "page": 9,
+   "reason": "Fine and default sentence are part of the sentence order, not 'None'."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "POLAMURI CHANDRA SEKHARARAO @ CHINNA@ BABJI .V. STATE OF A.P.",
+   "page": 1,
+   "reason": "Matches the title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant was prosecuted for committing the murder",
+   "page": 1,
+   "reason": "Single accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused ... his two daughters",
+   "page": 4,
+   "reason": "Male accused, referred to as 'his', father of daughters."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never gives accused's age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Employed at Steel Plant (not attending duty on 06.04.2004)",
+   "quote": "The accused not attending to his duty on 06.04.2004;",
+   "page": 10,
+   "reason": "Judgment indicates he had a job/duty, and PW-10 is a technician in the Steel Plant; occupation partly implied, not wholly absent."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased, Ravi Kishore",
+   "page": 4,
+   "reason": "Male victim."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Maternal uncle and nephew (victim was son of accused's elder sister)",
+   "quote": "the deceased is none other than the nephew of the appellant i.e. son of his elder sister",
+   "page": 7,
+   "reason": "'Relative' is vague but right; specific relationship is uncle-nephew."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offence punishable under Section 302",
+   "page": 4,
+   "reason": "Murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "punishable under Section 302, Indian Penal Code",
+   "page": 4,
+   "reason": "Correct."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "brought a long knife from his bed room",
+   "page": 4,
+   "reason": "Knife (M.O.-10)."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "FSL report ... doctor (PW-13) also confirmed",
+   "page": 10,
+   "reason": "Circumstantial, medical and seizure evidence relied upon."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "No formal confession; but accused allegedly told police he had killed the deceased when handing over knife (extra-judicial statement alleged)",
+   "quote": "handed over the knife to the Station writer stating that he had killed the deceased",
+   "page": 4,
+   "reason": "Prosecution alleged oral admission at police station; 'None' omits this."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None stated as such."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imposed the sentence of imprisonment for life apart from a fine of Rs. 1000/-",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court declined to interfere with conviction and sentence",
+   "quote": "The High Court declined to interfere with the conviction and sentence",
+   "page": 6,
+   "reason": "High Court did decide; not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal, therefore, fails and the same is dismissed.",
+   "page": 11,
+   "reason": "Conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "guilt of the accused-appellant in the killing of the Eeceased",
+   "page": 11,
+   "reason": "Murder."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for life",
+   "page": 4,
+   "reason": "Life."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentence, no fixed years."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a fine of Rs. 1,000/-",
+   "page": 4,
+   "reason": "Correct."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove 'knife found at the scene' (it was handed over at police station) and 'testimony of daughters' as relied-on evidence; daughters turned hostile.",
+   "quote": "handed over the knife to the Station writer",
+   "page": 4,
+   "reason": "Mostly accurate, but states prosecution relied on knife at scene and daughters' testimony, which is inaccurate; also states stabbing as fact."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for life and a fine of Rs. 1,000/- with default sentence of simple imprisonment for a period of three months",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "resulted in his instantaneous death",
+   "page": 11,
+   "reason": "Completed murder."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "17 injuries ... 13 injuries were incised cut injuries",
+   "page": 10,
+   "reason": "Accurate."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single s.302 offence."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "incorrect",
+   "correct_value": "Trial court noted accused phoned PW-3 asking her to send the deceased to his house, but prosecution case is of sudden enraged act",
+   "quote": "the accused gave a telephonic call to PW-3 and requested her to send the deceased to his house",
+   "page": 9,
+   "reason": "Judgment states the accused called deceased over after grudge, so planning is touched upon."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "got enraged by the conduct of the deceased in his attempt to develop close relationship with his daughter",
+   "page": 11,
+   "reason": "Matches."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The fact that the dead body of the deceased was found in the compound of the appellant is not in dispute",
+   "page": 8,
+   "reason": "Accurately summarises."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "PW-1 and PW-2 turned hostile; court accepted their presence at police station and that Ex. P-1 could not be questioned by them; their shopping alibi was rejected; related witnesses PW-3,4,6,7 not discredited",
+   "quote": "Merely because PWs-3,4,6 and 7 are related to the deceased., there is no reason why they should implicate the appellant",
+   "page": 11,
+   "reason": "Broadly right but omits related witnesses' credibility and rejection of alibi."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused went to police station with daughters and handed over the knife; offered alibi of shopping which was rejected",
+   "quote": "went to the Steel Plant Police Station in his two-wheeler and handed over the knife",
+   "page": 4,
+   "reason": "Post-offence conduct is described in judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence 06.04.2004; High Court judgment dated 28.03.2008 (appeal 646 of 2006); SC decision 23.07.2012; trial judgment date not stated",
+   "quote": "Judgment & Order dated 28.03.2008 of the High Court",
+   "page": 3,
+   "reason": "28.03.2008 is the High Court date, not trial judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Chanchal Kumar Ganguli for the Appellant. Amit K. Nain, D. Mahesh Babu, Mayur R. Shah, Savita Devi for the Respondent.",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Charge sheet filing not mentioned; FIR/statement registered and trial held."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court declined to interfere with the conviction and sentence",
+   "page": 6,
+   "reason": "Accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued PW-1 supported Ex. P-1 before turning hostile, motive existed, no explanation for body in accused's courtyard, alibi failed",
+   "quote": "absence of proper explanation as to how the body of the deceased was found in the courtyard of the accused and failure to satisfy the Court about the plea of alibi",
+   "page": 7,
+   "reason": "Omits the State's actual arguments (motive, no explanation, failed alibi)."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Related witnesses' version could not be relied upon due to close relationship; not that they were biased per se",
+   "quote": "closely related to the deceased and, therefore, their version also cannot be relied upon",
+   "page": 6,
+   "reason": "Substantially right; 'biased' is slight embellishment."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Hostile witnesses' admitted facts usable; unexplained dead body in accused's house; related witnesses not discredited merely by relationship; circumstances establish guilt",
+   "quote": "it was for him to explain as to how the dead body was found in his house",
+   "page": 11,
+   "reason": "Omits key principle of accused's duty to explain; some embellishment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no sentencing rationale; it addresses guilt only."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Default sentence of three months simple imprisonment on non-payment of fine",
+   "quote": "default sentence of simple imprisonment for a period of three months",
+   "page": 4,
+   "reason": "A default sentence was ordered, so 'None' is incomplete."
+  }
+ }
+}

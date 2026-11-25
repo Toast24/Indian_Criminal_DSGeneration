@@ -1,0 +1,389 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "Birender Poddar v. State of Bihar",
+   "quote": "BIRENDER PODDAR v. STATE OF BIHAR",
+   "page": 873,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "4",
+   "quote": "The appellant along with three others was convicted",
+   "page": 873,
+   "reason": "Appellant plus three others, consistent with the four persons who filed the SLP."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "the husband of the deceased woman",
+   "page": 877,
+   "reason": "Accused is the husband, so male is supported."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Female",
+   "quote": "the deceased woman",
+   "page": 877,
+   "reason": "Deceased is a married woman, so female is supported."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the deceased appears in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": "Spouse",
+   "quote": "the husband of the deceased woman",
+   "page": 877,
+   "reason": "Husband-wife relationship is stated, so spouse is correct."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "causing the death of appellant's wife",
+   "page": 873,
+   "reason": "Conviction under s.302 for causing death is murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC s.302/34; IPC s.498-A",
+   "quote": "convicted under Section 302/34 of the Indian Penal Code",
+   "page": 877,
+   "reason": "Both provisions of conviction are correctly listed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "None mentioned",
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is named; injuries are described only as incised injuries."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial; medical (post-mortem); oral (related witnesses); documentary (letters, post-mortem report)",
+   "quote": "this case rests solely on circumstantial evidence",
+   "page": 878,
+   "reason": "Recovery is not mentioned; letters and oral witness evidence are omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": "this case rests solely on circumstantial evidence",
+   "page": 878,
+   "reason": "No confession is mentioned; the case rests solely on circumstantial evidence."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Illicit relationship, torture, injuries sufficient to cause death",
+   "quote": "as the deceased was complaining of such illicit relations of the appellant with that lady, she was subjected to torture",
+   "page": 879,
+   "reason": "These factors are described in the judgment's findings."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted under s.302/34 and s.498-A IPC; life imprisonment and two years RI",
+   "quote": "was convicted under Section 302/34 of the Indian Penal Code and was sentenced to suffer imprisonment for life",
+   "page": 877,
+   "reason": "Trial court conviction under both sections is accurately stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Affirmed the conviction and sentence",
+   "quote": "The High Court on appeal, affirmed the conviction and the sentences.",
+   "page": 877,
+   "reason": "High Court affirmation of conviction and sentences is accurately stated."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "convicted",
+   "quote": "Dismissing the appeal",
+   "page": 874,
+   "reason": "Supreme Court dismissed the appeal, leaving conviction intact."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder under s.302 read with s.34 IPC; cruelty under s.498-A IPC",
+   "quote": "convicted under Section 302/34 of the Indian Penal Code",
+   "page": 877,
+   "reason": "Omits s.34 and the separate s.498-A conviction that was upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "life",
+   "quote": "sentenced to suffer imprisonment for life",
+   "page": 877,
+   "reason": "Life imprisonment is stated for the s.302/34 conviction."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No specific years for the life sentence; null is consistent."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The accused, along with three others, was involved in the death of his wife. The prosecution presented evidence of torture and ill-treatment; medical evidence showed injuries sufficient to cause death; the defence claimed jaundice-related natural death; identification was confirmed by several witnesses; letters from the deceased were relied on.",
+   "quote": "The High Court upheld the conviction, finding the defense's claim of natural death unsupported.",
+   "page": 873,
+   "reason": "Facts are accurate but the summary reveals the High Court outcome, which neutral facts must not do.",
+   "_note": "Remove outcome statements."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Life imprisonment / 2 years rigorous imprisonment",
+   "quote": "sentenced to suffer two years rigorous imprisonment, sentence to run concurrently",
+   "page": 877,
+   "reason": "Both sentences are stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": "causing the death of appellant's wife",
+   "page": 873,
+   "reason": "Death occurred, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Deep incised injuries on the neck and abdomen sufficient to cause death",
+   "quote": "indicating deep incised injuries on the neck and on the abdomen of the deceased, which were sufficient to cause the death",
+   "page": 874,
+   "reason": "Matches the post-mortem findings described by the court."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Two convictions: s.302/34 IPC and s.498-A IPC",
+   "quote": "The appellant was also convicted under Section 498-A of the Indian Penal Code",
+   "page": 877,
+   "reason": "Judgment records two convictions, not four charged with three upheld.",
+   "_note": ""
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": "Illicit relationship of the appellant with his brother's wife; torture after deceased complained",
+   "quote": "as the deceased was complaining of such illicit relations, she was subjected to torture",
+   "page": 879,
+   "reason": "Motive is stated as the illicit relationship and resulting torture."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "Circumstantial evidence, post-mortem injury evidence, consistent ill-treatment evidence, and deceased's letters to PW-8",
+   "quote": "Some letters were written by the deceased to the PW-8 complaining of such ill-treatment, one of which has been made an exhibit",
+   "page": 879,
+   "reason": "Accepted evidence listed matches the court's findings."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "Evidence of PWs 5, 6, 7 and 8 found cogent; High Court scrutinised relatives' evidence with due care",
+   "quote": "the evidence given by PWs 5, 6, 7 and 8 is quite cogent and clearly established the prosecution case",
+   "page": 881,
+   "reason": "Credibility assessment of the relatives' testimony is accurately reflected."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is recorded in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": "he has been in custody for all these years",
+   "page": 877,
+   "reason": "Custody is mentioned only generally; no duration is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not discussed in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Sessions Trial No. 380 of 1994 (judgment date not stated); High Court judgment dated 18.7.2002; Supreme Court judgment 16 May 2011",
+   "quote": "From the Judgment & Order dated 18.7.2002 of the High Court of Patna",
+   "page": 877,
+   "reason": "High Court and Supreme Court dates are stated in the judgment and were marked not stated.",
+   "_note": ""
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Counsel for the accused: Manu Shanker Mishra, Rituraj Choudhary, Mayur Chaturvedi, C.D. Singh; Counsel for the State: Gopal Singh, Chandan Kumar",
+   "quote": "Manu Shanker Mishra, Rituraj Choudhary, Mayur Chaturvedi, C.D. Singh for the Appellant. Gopal Singh, Chandan Kumar for the Respondent.",
+   "page": 877,
+   "reason": "Counsel names match the appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial completed (Sessions Trial No. 380 of 1994); charge sheet not mentioned",
+   "quote": "In the Sessions Trial No. 380of1994, the appellant stood convicted",
+   "page": 877,
+   "reason": "Trial completion is supported; 'charge sheet filed' is not stated in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "Court notes no procedural irregularity; contentions were on evidence, not procedure."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court (Sessions Judge): convicted; High Court on appeal: affirmed; Supreme Court: appeal dismissed",
+   "quote": "The High Court on appeal, affirmed the conviction and the sentences.",
+   "page": 877,
+   "reason": "Trial court convicted rather than upheld a conviction; the other two stages are correct."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued no contradiction in material prosecution evidence, defence was unproven, and hostile witnesses did not support the defence; concurrent findings were correct.",
+   "quote": "there is no contradiction in the material part of the prosecution case and the defence taken by the appellant has not at all been proved",
+   "page": 878,
+   "reason": "Attributes court's own circumstantial-evidence reasoning to the prosecution; the recorded argument differs.",
+   "_note": ""
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued no direct evidence, identification contradiction, hostile witnesses, medical-oral contradiction, natural death from jaundice, and interested witnesses.",
+   "quote": "His main contention is that there is no direct evidence in the case.",
+   "page": 877,
+   "reason": "Omits no-direct-evidence and medical-versus-oral contradiction arguments.",
+   "_note": ""
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Chain of circumstances must be complete and conclusive; interested witnesses not discarded merely for being related",
+   "quote": "the chain must be so complete and conclusive as to unmistakably point to the guilt of the accused",
+   "page": 878,
+   "reason": "Both principles are stated in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "Hanumant Govind Nargundkar v. State of Madhya Pradesh 1952 SCR 1091; Bhagat Ram v. State of Punjab AIR 1954 SC 621; Eradu v. State of Hyderabad AIR 1956 SC 316",
+   "quote": "(See AIR 1952 SC 343 'Hanumant Govind Nargundkar and another v. State of Madhya Pradesh', AIR 1954 SC 621 'Bhagat Ram v. State of Punjab' and AIR 1956 SC 316 'Eradu and others v. State of Hyderabad)",
+   "page": 878,
+   "reason": "Cases listed match those relied on in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no sentencing rationale; it addresses only conviction and evidence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The court does not expressly list aggravating factors for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Two-year rigorous imprisonment under s.498-A ordered to run concurrently with life sentence",
+   "quote": "sentence to run concurrently",
+   "page": 877,
+   "reason": "Judgment expressly orders the s.498-A sentence to run concurrently, not 'None'."
+  }
+ }
+}

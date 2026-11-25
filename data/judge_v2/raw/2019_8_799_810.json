@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "ASIM SHARIFF v. NATIONAL INVESTIGATION AGENCY",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The present appeal has been preferred by the accused appellant",
+   "page": 3,
+   "reason": "Only the appellant's discharge plea is decided; five accused were named in total, but the Court decides one."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rejecting his application for discharge under Section 227 CrPC",
+   "page": 5,
+   "reason": "The judgment uses the male pronoun for the appellant accused."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age for the accused is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described; PFI membership is an organisation, not a religion."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused appellant is the President of Bengaluru unit of Popular Front of India(PFI)",
+   "page": 11,
+   "reason": "Only an organisational post is stated, not an occupation; Not stated is defensible."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on the accused's wealth or class appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record of the accused is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his throat was slit in a single blow",
+   "page": 6,
+   "reason": "The victim is male per the judgment's pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the RSS workers had organised a path sanchalan, and the deceased, who was dressed in uniform",
+   "page": 6,
+   "reason": "RSS affiliation is described, but it is an organisation, not a religious identity; Not stated is acceptable."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "No personal animosity admitted by prosecution; accused's PFI and the alleged target group (RSS members) describe an ideological opposition.",
+   "quote": "Admittedly, there is no animosity between the appellant and deceased.",
+   "page": 6,
+   "reason": "No-animosity point is right, but the value omits the alleged ideological/organisational rivalry between PFI and RSS described in the judgment."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for the offences punishable under Section 302 read with Section 34 IPC",
+   "page": 4,
+   "reason": "Murder under s.302 IPC is the main charged offence."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 120-B, 109, 150, 153A, 302, 201 read with Section 34 of IPC; Sections 3 and 27 of the Arms Act and Sections 15,16,17,18 & 20 of the Unlawful Activities",
+   "page": 3,
+   "reason": "Sections listed match the judgment's charge description."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "hacked Rudresh with a sharp edged and lethal machete",
+   "page": 3,
+   "reason": "Machete is the weapon stated in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "witnesses of the Mahzar proce edings who provided some information like bank account details and call data records",
+   "page": 5,
+   "reason": "Documentary, call-record and recovery-type evidence described as prosecution material; the Court did not test it."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused no. 4 confesses that accused appellant was the mastermind behind the killing of RSS members.",
+   "page": 6,
+   "reason": "Alleged confession appears only as prosecution submission; the Court did not rely on it."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution submitted the attack was brutal and intended to create fear and insecurity among people at large; the Court did not weigh these.",
+   "quote": "brutually attacked by the accused persons whereby his throat was slit in a single blow",
+   "page": 6,
+   "reason": "Judgment records prosecution's brutality and fear-creation claims, so 'None noted' overlooks facts recorded, though the Court did not weigh them."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The application filed under Section 227 Cr.P.C. by the accused No.5 is hereby dismissed.",
+   "page": 11,
+   "reason": "Discharge dismissed and charges framed; no verdict reached."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court after analysing the entire material on record confirmed the view expressed by the trial Judge",
+   "page": 11,
+   "reason": "Writ petition dismissed and trial court order affirmed."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "With these observations, the appeal is dismissed.",
+   "page": 12,
+   "reason": "No conviction or acquittal exists; 'other' is the only fitting category."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No conviction exists, so 'None' is correct."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed-term sentence exists."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same summary, but refer to the accused without gender pronoun (e.g. 'nothing incriminating had been recovered from the accused').",
+   "quote": "nothing incriminating has been recovered from the appellant",
+   "page": 5,
+   "reason": "Summary is largely accurate and outcome-neutral, but 'from him' uses a gender pronoun for the accused, which the rules forbid."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the punishment prescribed for the offences."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rudresh was taken to a hospital wherein he wa s declared brought dead.",
+   "page": 3,
+   "reason": "The killing was completed, as the victim died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "right side of his neck",
+   "page": 3,
+   "reason": "Fatal neck wound from a machete blow, as described in the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for the offences punishable under Sections 120-B, 109, 150, 153A, 302, 201 read with Section 34 of IPC",
+   "page": 3,
+   "reason": "Counting 6 IPC, 2 Arms Act and 5 UAP sections gives 13 charged; none finally upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is a prima facie material of conspiracy among the accused persons",
+   "page": 12,
+   "reason": "Only prima facie conspiracy found; final premeditation left to trial."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "to create fear in the minds of the people at large and to create insecurity and foster disharmony",
+   "page": 6,
+   "reason": "Motive is the prosecution's alleged motive, correctly marked as alleged."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "frequent telephonic/mobile conversation between appellant(accused no. 5) with other accused persons",
+   "page": 11,
+   "reason": "Court relied on charge-sheet material of phone contacts, accepted only as prima facie."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "truth & veracity of such conspiracy is to be examined during the course of trial",
+   "page": 12,
+   "reason": "The Court did not assess witness credibility; it left veracity to trial."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is found or noted by the Court."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused no. 5(appellant herein) was arrested on 2 nd November, 2016.",
+   "page": 3,
+   "reason": "Arrest date is stated; total custody period is not given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Order dated 2 nd January, 2018 ... dismissed by a lucid impugned judgment dated 22 nd November, 2018",
+   "page": 3,
+   "reason": "Offence, trial order, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Kamini Jaiswal, Abdul Rahiman, Shereef K.A., Ms. Rani Mishra, Jatinderpal Singh., Advs. for the Appellant.",
+   "page": 2,
+   "reason": "Accused and State counsel names match the judgment's listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "After investigation, the charge sheet was submitted against all five accused persons on 21 st April, 2017",
+   "page": 4,
+   "reason": "FIR, NIA transfer, chargesheet and framing of charges all match."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural lapse is noted by the Court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The said order came to be affirmed by the High Court on dismissal of the writ petition",
+   "page": 4,
+   "reason": "Trial court dismissal, High Court dismissal of writ, and Supreme Court dismissal all match."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 15 of UAP Act covers both the act of an individual and a terrorist gang/association",
+   "page": 6,
+   "reason": "Prosecution arguments on s.15, s.20, evidence and confession match the judgment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Navaratri was already over on the said date",
+   "page": 6,
+   "reason": "Defence arguments on suspicion, lack of evidence, Navaratri date and UAP Act match the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the trial Judge will be justified in discharging him",
+   "page": 9,
+   "reason": "Sift-and-weigh, grave suspicion and no mini-trial principles match the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Union of India v. Prafulla Kumar Samal & Ors. (1979) 3 SCC 4",
+   "page": 1,
+   "reason": "Four precedents and citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so Not applicable is correct."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "any observations made shall either way not prejudice the rights of the parties during the course of trial",
+   "page": 12,
+   "reason": "Non-prejudice observation and dismissal of appeal match the judgment."
+  }
+ }
+}

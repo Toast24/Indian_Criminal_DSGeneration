@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Nara Chandrababu Naidu v. The State of Andhra Pradesh & Anr.",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "38 persons including multiple public servants have been arrayed as the accused in Crime No. 29 of 2021",
+   "page": 42,
+   "reason": "The State's submission states 38 persons were arrayed as accused, consistent with the value."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male (implied by pronouns for the appellant)",
+   "quote": "He was remanded to judicial custody by the Special Judge.",
+   "page": 7,
+   "reason": "The judgment refers to the appellant with male pronouns, so 'Not stated' is inaccurate."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Chief Minister of Andhra Pradesh (public office, roughly 2014/2015 to 2019)",
+   "quote": "the period during which he was the Chief Minister of the State of Andhra Pradesh",
+   "page": 1,
+   "reason": "The judgment states the appellant's office, so 'Not stated' understates what is given."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No individual victim is identified; the harmed party is the State exchequer."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused-victim relationship is described."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Corruption and misappropriation of public funds (PC Act); cheating, forgery and criminal breach of trust (IPC)",
+   "quote": "The primarily allegation against the appellant is facilitating diversion of public money",
+   "page": 7,
+   "reason": "Criminal breach of trust is only one of several alleged categories; corruption and cheating/forgery are omitted."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 166, 167, 418, 420, 465, 468, 471, 409, 209 and 109 read with Sections 120-B, 34 and 37 of the Indian Penal Code",
+   "page": 6,
+   "reason": "IPC and PC Act sections listed match the judgment's paragraph 2."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not characterise the evidence as circumstantial; it is a quashing and remand matter."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned, so 'None' matches the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court does not identify aggravating circumstances; only prosecution allegations are recorded."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He was remanded to judicial custody by the Special Judge.",
+   "page": 7,
+   "reason": "Special Judge remanded the appellant to judicial custody, matching the value."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Petition to quash FIR and remand order dismissed on 22.09.2023",
+   "quote": "his petition was dismissed on 22.09.2023 by a learned Single Judge",
+   "page": 7,
+   "reason": "The High Court outcome is stated and was dismissal, not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Matter referred to a larger bench (Bose J. partly allowed; Trivedi J. dismissed); not acquitted",
+   "quote": "Matter referred to the Hon'ble the Chief Justice of India for constitution of a Larger Bench.",
+   "page": 55,
+   "reason": "No acquittal occurred; the Court referred the divided question to a larger bench."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence is finally established; the case is at the pre-trial stage."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed, so no imprisonment type applies."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is imposed."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Allegations (per the State) of siphoning about Rs.370 crore from APSSDC funds; appellant named as accused and remanded; High Court dismissed quashing petition",
+   "quote": "As per the investigating authorities a sum of Rs.370/- crores from the government funds of the APSSDC has been siphoned off.",
+   "page": 8,
+   "reason": "Allegations are presented as established findings, and the appellant is described as 'charged' rather than implicated."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not rate offence severity."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Attempt or completion status is not discussed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is alleged."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Allegations against him for commission of offences under Sections 166, 167, 418, 420, 465, 468, 471, 409, 209 and 109",
+   "page": 6,
+   "reason": "Lists the alleged offences and correctly notes the finally upheld count is not stated."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Allegedly Rs.370 crore siphoned off per investigating authorities; other figures (Rs.330 crore outflow, Rs.279 crore) also mentioned",
+   "quote": "As per the investigating authorities a sum of Rs.370/- crores from the government funds of the APSSDC has been siphoned off.",
+   "page": 8,
+   "reason": "The figure is an investigators' allegation, not a finding, and the judgment cites other amounts too."
+  },
+  "premeditation_planning": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged prior conspiracy led by A-37 with A-1, A-2 and others",
+   "quote": "A-36 committed the offence through a prior conspiracy led by A-37 along with A-1 A-2 and others.",
+   "page": 36,
+   "reason": "The prosecution memo alleges prior conspiracy, so 'Not stated' is inaccurate."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged criminal intent in approving cost estimate and fast-tracking project; alleged wrongful gain",
+   "quote": "he had fast tracked the project and approved the cost estimation with criminal intent",
+   "page": 9,
+   "reason": "The judgment records an alleged criminal intent and wrongful gain, so 'Not identified' is incomplete."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "No evidence was accepted; the Court held the appellant was implicated under IPC and the Special Court had jurisdiction to remand",
+   "quote": "the Special Court was completely within its jurisdiction to pass the remand order",
+   "page": 54,
+   "reason": "These are legal findings, not accepted evidence; the wording mischaracterises the holding."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment assesses no witnesses; the text concerns investigating agency rights under General Clauses Act."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged removal of the note file from the secretariat by the appellant with others to tamper with evidence",
+   "quote": "the note file pertaining to the project was removed by the appellant from the secretariate in collaboration with other accused persons",
+   "page": 13,
+   "reason": "The State alleges file removal to tamper with evidence, so 'Not stated' is inaccurate."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Arrested 09.09.2023; remanded to judicial custody 10.09.2023 till 22.09.2023; later enlarged on bail",
+   "quote": "remanding the appellant (accused no.37) to the judicial custody till 22.09.2023",
+   "page": 37,
+   "reason": "Custody dates are stated in the judgment, so 'Not stated' is inaccurate."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant later enlarged on bail (noted during hearing)",
+   "quote": "We are apprised in course of hearing that the appellant has been enlarged on bail.",
+   "page": 34,
+   "reason": "The judgment states the appellant was enlarged on bail, contrary to 'Not stated'."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Criminal Appeal No. 279 of 2024 ... 16 January 2024",
+   "page": 1,
+   "reason": "Offence period, High Court and Supreme Court dates match the judgment; trial judgment is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Harish N Salve, Sidharth Luthra, Dammalpati Srinivas ... Advs. for the Appellant.",
+   "page": 6,
+   "reason": "Counsel lists for appellant and State match the appearances section."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR dated 09.12.2021; accused adding memo dated 08.09.2023; arrest 09.09.2023; remand order 10.09.2023",
+   "quote": "the appellant was also arraigned as an accused by an 'Accused Adding Memo' dated 08.09.2021",
+   "page": 6,
+   "reason": "Most references date the adding memo 08.09.2023; the judgment is inconsistent, and the arrest date is omitted."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the absence of prior approval as mandated by s.17A vitiated the conduct of enquiry or inquiry or investigation",
+   "page": 1,
+   "reason": "Absence of s.17A prior approval is the procedural irregularity raised."
+  },
+  "appeal_history": {
+   "verdict": "incorrect",
+   "correct_value": "Supreme Court: appeal partly allowed (Bose J.), dismissed (Trivedi J.), and referred to larger bench",
+   "quote": "The appeal stands partly allowed, in the above terms.",
+   "page": 34,
+   "reason": "The appeal was not simply dismissed; it was partly allowed and referred to a larger bench."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Case of the State against the appellant is that he was the mastermind",
+   "page": 8,
+   "reason": "State's mastermind allegation, validity of FIR and remand, and IPC jurisdiction arguments are accurately summarised."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "once fault is found with implicating the appellant under the aforesaid provisions of the 1988 Act, the entire proceeding ... would also collapse",
+   "page": 10,
+   "reason": "Accurately summarises the s.17A non-compliance and collapse-of-proceedings arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Trivedi J. held s.17A applies only to amended offences; Bose J. held it applies where enquiry began after 2018; the Court was divided",
+   "quote": "it is required to be presumed that the intention of the legislature was to make Section 17A applicable only to the new offences",
+   "page": 50,
+   "reason": "Presents one judge's view as the Court's holding; the bench was split and referred the question."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Also relied on: Yashwant Sinha, Tejmal Choudhary, Managipet, Vineeta Sharma, Ebha Arjun Jadeja, M.C. Gupta, Subramanian Swamy (2012) and (2014)",
+   "quote": "Subramanian Swamy vs. Director, Central Bureau of Investigation and Another (2014) 8 SCC 682",
+   "page": 51,
+   "reason": "The list is incomplete; key precedents such as Tejmal Choudhary and Managipet are omitted."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed, so no sentencing rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence or other sentencing order is made."
+  }
+ }
+}

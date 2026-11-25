@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Five accused were put on trial, per paragraph 41."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "he himself kidnapped Gadadharanandji from the temple",
+   "page": 12,
+   "reason": "All accused are referred to with male pronouns; 'Mixed' is contradicted by the text."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused religion is not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused caste is not stated."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Temple functionaries: Accused 1 Assistant Kothari; Accused 2 informal assistant; Accused 3-5 henchmen of Accused 1 and 2",
+   "quote": "Narayan Shastri (Accused No. I) was the Assistant Kothari",
+   "page": 11,
+   "reason": "Judgment states the accused's temple roles, so 'Not stated' is wrong."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated; only cash and investments are noted."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Gadadharanandji is referred to as male throughout."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only 'advanced age' is mentioned; no specific age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not expressly stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known: fellow temple functionaries/trustees; accused resented the victim's proposed transfer of the Kotharis",
+   "quote": "the Chairman, Gadadharanandji, proposed to transfer the Kotharis away from the Vadtal Temple",
+   "page": 11,
+   "reason": "Accused were temple insiders with a motive tied to the victim's proposal, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 with conspiracy and kidnapping."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 r/w s.120-B, s.364 and s.201",
+   "quote": "Sections 302 r/w 120-B, 364 and 20 l of the Indian Penal Code",
+   "page": 11,
+   "reason": "Judgment body cites s.201, not s.301 as extracted; s.301 is a headnote misprint."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Cloth ('khesiya') used for strangulation per panchnama; sedating tablets also used",
+   "quote": "then strangled him there using the deceased's 'khcsiya' (cloth usually placed around the neck)",
+   "page": 12,
+   "reason": "Judgment describes strangulation with a cloth and drugging, so 'None mentioned' is incorrect."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution case hinges on circumstantial evidence, per paragraph 40."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "No formal confession admitted; Accused 3 is described as confessing in a panchnama; s.27 disclosures by Accused 3 and 5",
+   "quote": "wherein he is stated to have confessed that he himself kidnapped Gadadharanandji",
+   "page": 12,
+   "reason": "'None' ignores the panchnama confession narrative and the s.27 disclosure statements relied on."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court called the case rarest of rare; prosecution did not support that before the High Court. Circumstances: strong motive, conspiracy, body disposal, false insurance claim",
+   "quote": "a rarest of rare case warranting the death penalty",
+   "page": 17,
+   "reason": "Listed circumstances are supported, but the rarest-of-rare framing was not accepted and is omitted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Convicted all five accused (1-5), including Accused 4, under s.302 r/w 120-B and sentenced to death",
+   "quote": "convicted all the five accused for offence under Section 302 r/w 120-B",
+   "page": 13,
+   "reason": "Trial court convicted Accused 4 too; the value omits him."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court acquitted Accused 4 and commuted the death sentence to life imprisonment."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeals, upholding convictions of Accused 1, 2 and 5."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 r/w 120-B was upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court commuted death to life imprisonment, upheld by the Supreme Court."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term of years is given for the life sentence."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Accused were temple functionaries (Assistant Kothari, assistant, henchmen), not all Board members; facts framed as prosecution case without stating the outcome",
+   "quote": "Narayan Shastri (Accused No. I) was the Assistant Kothari. Charandas Swami (Accused No.2) was informally working as an assistant",
+   "page": 11,
+   "reason": "Wrongly says accused were Board members, and states 'the prosecution established' contested findings, revealing the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court imposed death; High Court commuted to life for s.302 conviction."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim was killed, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's death by strangulation is established."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (convictions under s.302, s.364 and s.201, each r/w s.120-B)",
+   "quote": "Accused Nos. 2 and 5 were further convicted under S. 20 I r/w S. 120-B and sentenced to 5 years' imprisonment",
+   "page": 13,
+   "reason": "Judgment does not count offences as 'four'; that count is not supported."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged misappropriation of temple funds; large unaccounted cash and investments recovered",
+   "quote": "the accused were misappropriating funds from the temple in which they were functionaries",
+   "page": 13,
+   "reason": "Financial loss to the temple is central to the case, so 'Not applicable' is wrong."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court held the crime involved pre-planning; conspiracy was upheld."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fear of transfer, loss of control and financial irregularities is the accepted motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The listed circumstances match those the Court accepted."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Hostile witnesses (PW14, PW15, PW25, PW42, PW43, PW49) relied on only in admissible parts; PW30 relied on for limited purpose",
+   "quote": "after sifting the irrelevant or inadmissible part therefrom",
+   "page": 35,
+   "reason": "Overgeneralises; the Court weighed hostile witnesses selectively and limited PW30's evidence."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the account of car burning, garage handover and rejected insurance claim."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Accused were on bail; Supreme Court ordered them to surrender forthwith",
+   "quote": "The Accused on bail shall surrender forthwith.",
+   "page": 57,
+   "reason": "Judgment expressly states the accused were on bail."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence 03.05.1998; trial judgment 11.06.2004; High Court judgment 01.09.2006; Supreme Court decided 10.04.2017",
+   "quote": "Sessions Court, Nadiad convicted all the five accused",
+   "page": 13,
+   "reason": "Several dates are stated in the judgment, so 'Not stated' is incorrect."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and State match the judgment's appearance block."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "CBI filed a chargesheet, as referenced in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Investigation lacunae noted by High Court; panchas with prior disputes; alleged fabricated medical records; names dropped from chargesheet",
+   "quote": "This conclusion has been recorded even after noticing certain lacunae in the investigation",
+   "page": 23,
+   "reason": "Judgment notes several irregularities and defence allegations, so 'None noted' is incorrect."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution case on conspiracy, last-seen, disposal and recovery is accurately summarised."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence arguments on figment, rival persons and insufficient evidence are accurately summarised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conspiracy rarely hatched in the open and inferred from proved facts, per paragraph 62."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Same list, but 'State of Maharashtra v. Damu' (not 'Daliu'); 'Afsan Guru' (not 'Afsm; Juru'); 'Satender' (not 'Satinder')",
+   "quote": "State of Maharashtra v. Damu 2000 (6) SCC 269",
+   "page": 32,
+   "reason": "Mostly accurate, but several case names are misspelled."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Supreme Court upheld convictions as inescapable; sentence of life imprisonment was imposed by the High Court, not the Supreme Court",
+   "quote": "The finding of guilt against the appellants is inescapable.",
+   "page": 57,
+   "reason": "Rationale on guilt is right, but the Supreme Court did not impose the final sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are expressly recorded by the courts."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Trial court found the offence heinous and a rarest of rare case",
+   "quote": "not only heinous but also a rarest of rare case warranting the death penalty",
+   "page": 17,
+   "reason": "Trial court recorded aggravating findings, so 'None' is contradicted by the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Accused 2 and 5 convicted under s.201 r/w s.120-B and sentenced to 5 years' imprisonment",
+   "quote": "sentenced to 5 years' imprisonment",
+   "page": 13,
+   "reason": "Judgment records additional sentences for s.201 convictions, so 'None' is incorrect."
+  }
+ }
+}

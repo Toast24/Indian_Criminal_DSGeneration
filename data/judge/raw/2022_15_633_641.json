@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to the respondents as three accused (A1, A2, A3)."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "A1 caused injury on the right shoulder of the deceased",
+   "page": 3,
+   "reason": "Accused are referred to only as A1, A2, A3; no gender is stated anywhere in the judgment."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated for the accused."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated for the accused."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is stated for the accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated for the accused."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased is referred to with male pronouns, e.g., 'he reached the shed'."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "owing to animosity between the friend of the accused viz., Selvakumar and one Periyavan",
+   "page": 3,
+   "reason": "Judgment never describes the accused as strangers; it only mentions animosity linked to Selvakumar."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offences are murder under Section 302 IPC and 302 r/w 34."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions are under IPC Sections 302 and 302 r/w 34."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Weapons used were aruvals, as stated in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness testimony and postmortem/medical evidence are both referenced."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not mention any confession, so 'None' is an unsupported assertion."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are stated in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted and sentenced each accused to life imprisonment and fine."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court allowed the appeals and acquitted the accused."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court quashed the acquittal and restored the conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction restored under Sections 302 and 302 r/w 34 IPC."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence imposed was life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No number of years is stated; sentence is life imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "1000 (Rs. 1,000 each accused)",
+   "quote": "life imprisonment and fine of Rs. 1,000/- each, in default, three months simple imprisonment",
+   "page": 4,
+   "reason": "Judgment explicitly states a fine of Rs. 1,000 each, so null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without the Supreme Court's outcome, e.g., omit 'The Supreme Court overturned the High Court's acquittal...'",
+   "quote": "The Supreme Court overturned the High Court's acquittal, finding PW1's testimony reliable and sufficient for conviction",
+   "page": 9,
+   "reason": "Facts summary reveals the Supreme Court's outcome, which is prohibited in neutral_facts."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death resulted from the offence under Section 302, with life sentence and fine."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence was completed; deceased died on the spot."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Injuries inflicted on the deceased caused death."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Convictions under s.302 (A1) and s.302 r/w 34 (A2, A3); charges under ss.341, 506(2), 302 r/w 3(1) TNPPDL Act",
+   "quote": "charge sheet was filed against the accused for the offences punishable under Sections 341, 506(2), 302 IPC r/w 3(1) of TNPPDL Act",
+   "page": 4,
+   "reason": "Charges were under three provisions, but the 'three upheld' count is not explained and omits the other charged sections."
+  },
+  "financial_property_loss": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss property or financial loss; 'Not applicable' is an inference, not stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not expressly state premeditation or planning."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Suspicion that deceased Saravanan informed the accused about the whereabouts of Selvakumar, amid animosity over Selvakumar's murder",
+   "quote": "Suspecting that the deceased Saravanan had informed the whereabouts of Selvakumar",
+   "page": 3,
+   "reason": "Judgment states a motive: suspicion the deceased revealed Selvakumar's whereabouts, so 'Not identified' is wrong."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted PW1's deposition as the key eyewitness evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "PW1 found credible; PW2, PW3, PW5 hostile, PW4 and PW6 disbelieved, complainant not examined."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused ran away after the attack; arrested on 02.08.2013 and 17.08.2013",
+   "quote": "came out of the shed and ran away",
+   "page": 8,
+   "reason": "Judgment states the accused ran away after the attack, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "From the Judgment and Order dated 12.06.2018 of the High Court of Madras at Madurai Bench",
+   "page": 3,
+   "reason": "The date given is the High Court judgment date, not the trial duration, which is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondents match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registered on the day of occurrence, charge sheet filed, and trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "High Court noted delayed dispatch of 161(3) Cr.P.C. statements and FIR reaching Magistrate at 7 pm; complainant not examined",
+   "quote": "we do not consider it necessary to dwell on the delayed dispatch of the 161(3) Cr.P.C., statements to Court",
+   "page": 6,
+   "reason": "Judgment records delayed dispatch of statements and late FIR delivery, contradicting 'None noted'."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court acquittal, and Supreme Court restoration of conviction match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects PW1's reliability, two-part incident, and that weapon recovery and FIR timing do not defeat conviction."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects non-examination of complainant and witnesses, weapon recovery, and PW1 contradictions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sole eyewitness conviction and non-necessity of weapon recovery principles match the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Krishna Mochi and Kunju Muhammed citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court restored conviction and sentence because the acquittal was unsustainable and PW1's testimony was reliable."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating factors; 'None' is an unsupported assertion."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss aggravating factors; 'None' is an unsupported assertion."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Surrender within six weeks and custody direction for non-compliance match the judgment."
+  }
+ }
+}

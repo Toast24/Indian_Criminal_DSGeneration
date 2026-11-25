@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "NANA KESHAV LAGAD v. STATE OF MAHARASHTRA",
+   "quote": "NANA KESHAV LAGAD V. STATE OF MAHARASHTRA",
+   "page": 1,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "4",
+   "quote": "In all, four accused were prosecuted and convicted by the learned Sessions Judge.",
+   "page": 7,
+   "reason": "The judgment states four accused were prosecuted and convicted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "he has not explained how this blood stains were on his clothes",
+   "page": 20,
+   "reason": "Accused are referred to with male pronouns throughout; male gender is implied."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not stated; only ownership of adjacent agricultural lands is mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated beyond land ownership."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "P.W.4 and his deceased father, Ramachandra Lagad",
+   "page": 9,
+   "reason": "Deceased is the complainant's father, referred to as male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased father."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Neighbours/co-villagers with adjacent agricultural lands in a land dispute",
+   "quote": "residents of the same village, Lagadwadi. They owned and possessed agricultural lands adjacent to each other.",
+   "page": 8,
+   "reason": "Judgment does not describe a kinship relationship; parties are village neighbours in a land dispute."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "Penal Code, 1860 - s.302 rlw s.34 and s.324 rlw s.34 - Murder",
+   "page": 1,
+   "reason": "Offence is categorised as murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC s.302 r/w s.34 and s.324 r/w s.34",
+   "quote": "under Section 302 read with Section 34 and Section 324 read with Section 34",
+   "page": 8,
+   "reason": "Provisions of conviction match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "Cycle chain and stone",
+   "quote": "attacked PW4-complainant and his father with cycle chain and stone",
+   "page": 2,
+   "reason": "Both weapons identified in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": "Eyewitness, medical, recovery (also expert opinion)",
+   "quote": "the evidence of PW4, read along with the version of PW5 and medical evidence, as well as the expert opinion",
+   "page": 5,
+   "reason": "Main evidence categories are listed; expert opinion is omitted but the value is substantively right."
+  },
+  "confession": {
+   "verdict": "incorrect",
+   "correct_value": "Admissible portion of appellants' confession statement led to seizure of cycle chain and stones",
+   "quote": "Based on the admissible portion of the confession statement made by the appellants, cycle chain and stones were seized",
+   "page": 10,
+   "reason": "Judgment states a confession statement was relied on for seizure of weapons, not 'None'."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Coordinated vengeance; assault with multiple assailants to ensure deceased did not survive",
+   "quote": "discloses the coordinated vengeance with which the assault was caused by the appellants, in order to ensure that the deceased did not survive",
+   "page": 21,
+   "reason": "Judgment identifies coordinated vengeance and intent to kill, which the value wrongly says is not stated."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are mentioned in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted under s.302 r/w s.34 and s.324 r/w s.34 IPC",
+   "quote": "found all the accused guilty of the offence falling under Section 302 read with Section 34 of I.P.C. and for offence punishable under Section 324 read with Section 34",
+   "page": 10,
+   "reason": "Trial court conviction under both sections matches the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Affirmed conviction and sentence",
+   "quote": "The High Court having confirmed the conviction and sentence, the appellants are before us.",
+   "page": 11,
+   "reason": "High Court upheld conviction and sentence; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted; appeals dismissed",
+   "quote": "These appeals fail and the same are dismissed.",
+   "page": 21,
+   "reason": "Convictions were upheld and the Supreme Court appeals dismissed."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "Section 302 read with Section 34",
+   "page": 8,
+   "reason": "Murder conviction under s.302 r/w s.34 was upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "Life (rigorous imprisonment for life)",
+   "quote": "sentenced them to undergo rigorous imprisonment for life",
+   "page": 2,
+   "reason": "Sentence was rigorous imprisonment for life."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is life imprisonment, so no fixed term in years is stated."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.500 (s.302 r/w s.34) and Rs.300 (s.324 r/w s.34)",
+   "quote": "a-part from payment of fine of Rs.500/- ... along with fine of Rs.300/-",
+   "page": 8,
+   "reason": "Fines of Rs.500 and Rs.300 are stated; value of null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts without reference to trial or appellate outcome",
+   "quote": "The trial court convicted the accused based on the eyewitness account... The High Court affirmed the conviction.",
+   "page": 10,
+   "reason": "Facts reveal the trial and High Court outcomes, which neutral_facts must not disclose; other facts are accurate."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Life imprisonment under s.302 r/w s.34",
+   "quote": "sentenced them to undergo rigorous imprisonment for life",
+   "page": 2,
+   "reason": "Severity matches the life sentence under s.302 r/w s.34."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": "the death of his father",
+   "page": 2,
+   "reason": "Death resulted; offence completed for the deceased, with complainant surviving."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Death of father from multiple injuries by hard and blunt objects; multiple injuries to complainant",
+   "quote": "caused by hard and blunt objects and cycle chain",
+   "page": 16,
+   "reason": "Death and multiple injuries from blunt objects are supported by the medical evidence."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": "Convicted of two offences: s.302 r/w s.34 and s.324 r/w s.34",
+   "quote": "under Section 302 read with Section 34 and Section 324 read with Section 34",
+   "page": 8,
+   "reason": "Two convicted offences are correctly described."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss financial or property loss; 'Not applicable' asserts more than the text states."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Coordinated vengeance and common intention to eliminate the deceased",
+   "quote": "the injuries sustained by the deceased discloses the coordinated vengeance",
+   "page": 21,
+   "reason": "Court found coordinated vengeance and common intention to eliminate the deceased."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": "Dispute over right of way to agricultural land",
+   "quote": "There were disputes, as regards the use of way to their respective lands.",
+   "page": 8,
+   "reason": "Land and right-of-way dispute is the stated motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "Postmortem (19 external, 4 internal injuries); P.W.6 doctor's evidence; P.W.4 and P.W.5 eyewitness evidence",
+   "quote": "There were as many as 19 injuries on the dead body. Apart from the 19 external injuries, Ex.35 has also referred to 4 internal injuries",
+   "page": 3,
+   "reason": "Medical and eyewitness evidence summary matches the judgment."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "P.W.4 partly discredited on two names but credible overall; corroborated by P.W.5 and medical evidence",
+   "quote": "there is no reason to disbelieve his version in order to reject the case of the prosecution",
+   "page": 18,
+   "reason": "Accurately reflects the court's credibility assessment of P.W.4."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Custody period is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": "Offence 04.10.2002; Sessions 21.08.2003; High Court 16.01.2006; Supreme Court 03.07.2013",
+   "quote": "by its judgment dated 21.08.2003",
+   "page": 7,
+   "reason": "All listed dates are supported by the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Appellants: Sushil Karanjkar, M.Y. Deshmukh, Nikilesh Kumar, Shrikand R. Deshmukh, Rameshwar Prasad Goyal; State: Shankar Chillarge, Asha Gopalan Nair",
+   "quote": "Sushil Karanjkar, M.Y. Deshmukh, Nikilesh Kumar, Shrikand R. Deshmukh, Rameshwar Prasad Goyal for the Appellant.",
+   "page": 7,
+   "reason": "Counsel names match the judgment header."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": "FIR registered; charge-sheet filed; trial completed",
+   "quote": "Charge-sheet came to be filed before the learned Judicial Magistrate First Class",
+   "page": 10,
+   "reason": "FIR, charge-sheet and completed trial are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "Court notes no irregularity; defence's blood-evidence objection was rejected."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial: conviction and sentence; High Court: affirmed; Supreme Court: appeals dismissed",
+   "quote": "The conviction and sentence was affirmed by the High Court.",
+   "page": 3,
+   "reason": "Appeal progression matches the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued case squarely fell under Section 300 thirdly, supported by doctor's evidence, P.W.5, medical evidence and weapons proof",
+   "quote": "the case squarely fell under Section 300 thirdly",
+   "page": 12,
+   "reason": "Omits the State's Section 300 thirdly argument and the weapons-proof point, though other content is accurate."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Sole eyewitness P.W.4 discrepancies; injuries and weapons did not correlate; P.W.3 unreliable; bloodstains unproven; s.34 not attracted",
+   "quote": "the injuries on the deceased, as well as P.W.4 and the weapons used, do not correlate with each other",
+   "page": 11,
+   "reason": "Omits the injury-weapon mismatch and s.34 arguments; the medical-challenge wording is imprecise."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Conviction not based solely on P.W.4; combined evidence established common intention under s.34",
+   "quote": "the conviction was not based on the solitary statement of PW4 alone",
+   "page": 1,
+   "reason": "Principle of corroborated eyewitness evidence and common intention is accurately summarised."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "Vadivelu Thevar v. State of Madras, AIR 1957 SC 614; Abdul Sayeed v. State of M.P., (2010) 10 SCC 259 (both held inapplicable)",
+   "quote": "Vadivelu Thevar vs. The State of Madras AIR 1957 SC 614; Abdul Sayeed vs. State of Madhya Pradesh (2010) 10 SCC 259 - held inapplicable.",
+   "page": 6,
+   "reason": "Both precedents match; the judgment held them inapplicable, which the value omits but does not contradict."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no reasoning on sentence; the value restates conviction rather than sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating factors; 'None' asserts a finding the judgment does not make."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Coordinated vengeance; assault intended to ensure deceased did not survive",
+   "quote": "in order to ensure that the deceased did not survive",
+   "page": 21,
+   "reason": "Court expressly relied on coordinated vengeance and intent to kill, so 'None' is contradicted."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Default imprisonment: six months (s.302 r/w s.34) and one month (s.324 r/w s.34)",
+   "quote": "in default to undergo further rigorous imprisonment for six months ... in default to undergo one month rigorous imprisonment",
+   "page": 8,
+   "reason": "Default imprisonment terms are sentence orders omitted from the value, which says 'None'."
+  }
+ }
+}

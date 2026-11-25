@@ -1,0 +1,394 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all the five accused",
+   "page": 15,
+   "reason": "Judgment repeatedly refers to five accused, including appellant, parents and two brothers."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant",
+   "page": 5,
+   "reason": "Appellant is male, husband of the deceased."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Earning about Rs.3000 per month; cross-examination referred to him possibly working as a turner",
+   "quote": "The appellant was earning a sum of Rs.3000/- per month.",
+   "page": 5,
+   "reason": "Judgment states his earnings and mentions the turner suggestion, so occupation is not truly unstated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "incorrect",
+   "correct_value": "Average/poor family, of lower status than PW3's affluent in-laws",
+   "quote": "The family of PW3 is well off whereas the family of the accused is an average family.",
+   "page": 18,
+   "reason": "Judgment describes the accused's family as average and lower in status than PW3's family."
+  },
+  "accused_victim_relationship_placeholder": null,
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the appellant's wife, female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "The daughter was aged about 1½ years at the time of her death.",
+   "page": 14,
+   "reason": "Age 5 is not supported; the only age given is the daughter's, about 1½ years."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is the deceased's husband."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is dowry death under s.304-B IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment applies s.304-B IPC and s.113-B Evidence Act."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned; death was by drowning."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Testimonial (PW-1, PW-3, PW-4, PW-5 on phone call and harassment), medical (post-mortem); no eyewitness to the death",
+   "quote": "PW5 ... he just saw but did not hear her talk. She was weeping",
+   "page": 17,
+   "reason": "Labelling it eyewitness overstates; no one saw the drowning, and PW-5 only saw her weeping."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "treated with cruelty or harassed for or in connection with demand for dowry",
+   "page": 21,
+   "reason": "Cruelty and dowry-related harassment are the aggravating features the court relied on."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are formally identified in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Convicted under s.304-B IPC and sentenced to 8 years rigorous imprisonment",
+   "quote": "reducing the sentence from 8 years rigorous imprisonment to a period of 7 years",
+   "page": 5,
+   "reason": "The 8-to-7 reduction was made by the High Court, not the trial court."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "affirming the judgment of the trial Court convicting the appellant under Section 304-B IPC but reducing the sentence",
+   "page": 5,
+   "reason": "High Court affirmed conviction and reduced sentence to 7 years."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction under s.304-B IPC upheld",
+   "quote": "The appeal shall stand dismissed.",
+   "page": 23,
+   "reason": "Supreme Court dismissed the appeal; the appellant was not acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Dowry death under s.304-B IPC",
+   "quote": "the appellant under Section 304-B IPC",
+   "page": 5,
+   "reason": "Conviction under s.304-B IPC stands; 'None' contradicts the judgment."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Rigorous imprisonment",
+   "quote": "reducing the sentence from 8 years rigorous imprisonment to a period of 7 years",
+   "page": 5,
+   "reason": "Judgment states rigorous imprisonment, not 'not_stated'."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": 7,
+   "quote": "reducing the sentence from 8 years rigorous imprisonment to a period of 7 years",
+   "page": 5,
+   "reason": "Final sentence stated in judgment is 7 years, not null."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurate and procedural history is stated without revealing the final outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Statutory minimum and maximum are not given; only the 7-year sentence appears."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "died along with her child by way of drowning",
+   "page": 5,
+   "reason": "Death occurred, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "she died along with her child by way of drowning in a river",
+   "page": 5,
+   "reason": "Accurately reflects death by drowning of wife and child."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under s.304-B IPC; acquitted under s.406 IPC; no separate s.498-A conviction recorded",
+   "quote": "was acquitted of the charge under Section 406 of the Indian Penal Code",
+   "page": 5,
+   "reason": "Omits the s.406 acquittal and that no separate s.498-A conviction was recorded."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss from the offence is identified; 'Not applicable' is acceptable."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "she will not be allowed to come back without a Maruti car or Rupees two lakhs",
+   "page": 21,
+   "reason": "Motive was dowry demand and related harassment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Testimony of PW-1, PW-3 and PW-4 treated as material; PW-5 saw deceased weeping; courts believed PW-1 and PW-3, the Supreme Court did not itself accept them",
+   "quote": "If he is to be believed (In fact, two courts have)",
+   "page": 21,
+   "reason": "Supreme Court did not itself accept the testimony; it noted the two courts believed it. PW-4 is omitted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Credibility of witnesses as commended to Courts below is not ordinarily reappraised",
+   "page": 21,
+   "reason": "Matches the court's stated principle on credibility and concurrent findings."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court does not identify specific post-offence conduct by the accused."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "dates_of_offence": "16-17 February 2001 (death); marriage 24 January 1998",
+    "trial_judgment": "Not stated",
+    "high_court_decision": "27.02.2015",
+    "supreme_court_decision": "26 September 2018"
+   },
+   "quote": "Judgment and Order dated 27.02.2015 of the High Court",
+   "page": 4,
+   "reason": "Offence date, High Court date and Supreme Court date are stated in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dr. J.P. Dhanda, Ms. Raj Rani Dhanda, Vineet Dhanda, N.A. Usmani, K.P. Singh, Gopi Chand, Advs. for the Appellant.",
+   "page": 5,
+   "reason": "Counsel names for accused and State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only FIR date is given; investigation status is not stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court does not formally identify a procedural irregularity."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": {
+    "trial_court": "Convicted under s.304-B IPC; sentenced to 8 years rigorous imprisonment",
+    "high_court": "Affirmed conviction under s.304-B IPC, reduced sentence from 8 years to 7 years",
+    "supreme_court": "Appeal dismissed"
+   },
+   "quote": "reducing the sentence from 8 years rigorous imprisonment to a period of 7 years",
+   "page": 5,
+   "reason": "Trial court entry wrongly attributes the sentence reduction to the trial court; High Court made it."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the law enjoins under Section 113-B of the Evidence Act drawing of the presumption",
+   "page": 5,
+   "reason": "Matches prosecution's reliance on PW-1, PW-3 and s.113-B presumption."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "neither cruelty nor any demand for dowry is made out",
+   "page": 5,
+   "reason": "Matches defence contentions about evidence and absence of cruelty or dowry demand."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "this Court will not reassess the evidence at large",
+   "page": 7,
+   "reason": "Matches the Article 136 principles the court applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Listed cases match those cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "the trial Court ... finds solace in rejecting the defence version",
+   "page": 22,
+   "reason": "Judgment gives no explicit sentencing rationale; it rests on conviction and rejection of the defence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state sentencing mitigating factors, so 'None' overstates; 'Not stated' fits."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not list sentencing aggravating factors; 'None' overstates."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentencing order is recorded."
+  }
+ }
+}

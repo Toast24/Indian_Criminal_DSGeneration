@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the cause title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The remaining 28 accused were convicted",
+   "page": 25,
+   "reason": "31 tried, 1 died, 2 acquitted; 28 convicted and appealed."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He tendered a confessional statement",
+   "page": 40,
+   "reason": "Principal accused are referred to as male; no female accused is indicated."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of any accused is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only party membership/agitators mentioned; no occupation stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class statement."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is stated."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "bus carrying 47 female students",
+   "page": 21,
+   "reason": "Victims were girl students."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ages of the deceased are not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No relationship or prior connection is described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Main offence is s.302 murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.147, 148, 149, 341, 342, 307 r/w 302, 114; TNP (POL) Act ss.3 and 4; s.188 IPC (charge held impermissible)",
+   "quote": "framed 21 charges ... under Sections 147, 148, 149, 341, 342, 307 read with Sections 302, 114 IPC and Sections 3 and 4 TNP (POL) Act",
+   "page": 24,
+   "reason": "Omits s.342 and wrongly merges the TNP (PDL) Act with the TNP (POL) Act."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sprinkled petrol inside the bus ... lit a match stick",
+   "page": 22,
+   "reason": "Petrol and match stick."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches eyewitness, identification parade, arrest and confession evidence discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "full exhibition of the statement had not prejudiced the case against him",
+   "page": 49,
+   "reason": "Full exhibition improper; other material sufficed."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "committed after previous planning and with extreme brutality",
+   "page": 56,
+   "reason": "Matches the Court's listed circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "No mitigating circumstances could be pointed to us",
+   "page": 56,
+   "reason": "Accurate for A-2 to A-4; delay and time served for the others."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused Nos. 2, 3 and 4 were sentenced to death.",
+   "page": 25,
+   "reason": "Accurately summarises convictions and sentences."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "modified the conviction of accused No. 24 under section 148 IPC as being under section 147 IPC",
+   "page": 26,
+   "reason": "Death confirmed; other sentences concurrent."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "conviction_modified",
+   "quote": "the sentences are reduced as undergone",
+   "page": 57,
+   "reason": "Death confirmed for A-2 to A-4, but sentences of the other appellants were changed."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of death imposed on them is confirmed",
+   "page": 57,
+   "reason": "Consistent with the judgment."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of death imposed on them is confirmed",
+   "page": 57,
+   "reason": "Death for the main accused."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death is not a fixed term."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same summary but gender-neutral (e.g. 'persons' instead of 'men'/'man').",
+   "quote": "approached by men who carried petrol in plastic cans",
+   "page": 22,
+   "reason": "Uses 'men'/'man' for the accused, revealing gender, which the rules prohibit."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the statutory maximum punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murders completed; s.307 counts for injured."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "three girls stood to death and about 20 girls received burn injuries",
+   "page": 56,
+   "reason": "Matches headnote/para 77 figures."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charges framed under ss.147, 148, 149, 341, 342, 307/302/114, TNP (POL) Act ss.3-4 and 188 (22 charges framed); convictions stand except s.188",
+   "quote": "framed 22 charges against the 31 accused",
+   "page": 25,
+   "reason": "Not in 'N charged; M upheld' form; no count of upheld convictions."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "damaged the government buses ... by breaking their glasses",
+   "page": 22,
+   "reason": "Bus damage described, no value."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "committed after previous planning and with extreme brutality",
+   "page": 56,
+   "reason": "Accurate."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "evil designs to cause damage to a greater extent so that people may learn a \"lesson\"",
+   "page": 55,
+   "reason": "Matches the Court's reasoning."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "identification of A.2 to A.4 by the witnesses, if examined, in conjunction with the evidence of the Judicial Magistrate",
+   "page": 38,
+   "reason": "Accurate list of accepted evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his deposition remained trustworthy throughout",
+   "page": 45,
+   "reason": "Matches the Court's assessment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "kept the engine of the motor cycle running only to escape from the scene",
+   "page": 44,
+   "reason": "Accurate."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "released on bail on 9.2.2000",
+   "page": 40,
+   "reason": "Consistent with the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they are presently on bail",
+   "page": 56,
+   "reason": "Accurate."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The incident occurred on 2.2.2000",
+   "page": 56,
+   "reason": "Dates match: trial 16.2.2007, HC 6.12.2007, SC 30.8.2010."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellants: Sushil Kumar and Udai U. Lalit (senior counsel) with P.N. Prakash and others; State: Altaf Ahmed and others",
+   "quote": "Shri Sushil Kumar and Shri Udai U. Lalit, learned senior counsel appearing for all these appellants",
+   "page": 26,
+   "reason": "Lalit appeared in this Court, not 'at trial'."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "report under Section 173 ... was filed on 28.4.2000, arraying 31 persons",
+   "page": 24,
+   "reason": "Accurate."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no such complaint had ever been filed",
+   "page": 32,
+   "reason": "Matches s.195, investigation and confession lapses noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all the appeals are dismissed",
+   "page": 57,
+   "reason": "Accurate summary."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the contradictions were trivial in nature",
+   "page": 28,
+   "reason": "Matches State's submissions."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Two separate FIRs ... could not be clubbed",
+   "page": 26,
+   "reason": "Matches defence submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The provisions of Section 195 Cr.PC are mandatory",
+   "page": 32,
+   "reason": "Principles correctly listed."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "M.S. Ah/awat v. State of Haryana & Anr., AIR 2000 SC 168",
+   "page": 31,
+   "reason": "Cases and citations match."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shocking to the collective conscience of society",
+   "page": 56,
+   "reason": "Accurate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "more than ten and a half years have already elapsed",
+   "page": 56,
+   "reason": "Accurate."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "helpless, innocent, unarmed, young girl students in a totally unprovoked situation",
+   "page": 56,
+   "reason": "Accurate."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their bail bonds stand discharged",
+   "page": 57,
+   "reason": "Accurate."
+  }
+ }
+}

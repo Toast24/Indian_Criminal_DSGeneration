@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the caption: Kamal v. State (NCT of Delhi)."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to the original three accused convicted under s.302/34."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are described as male, e.g. the son Prem Singh and the other male accused."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not stated; the shop mentioned belongs to witness PW-21."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned; only earlier beatings and threats are alleged."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Hoshiyar Singh is male, referred to as brother and him."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Prem Singh was the deceased's son; the other two accused (Kamal Kishore, Manoj) were Prem Singh's associates, not stated as related to the deceased",
+   "quote": "revealed the names of his associates Kamal Kishore and Manoj, the present appellants",
+   "page": 4,
+   "reason": "'Relative' covers only the son; the other accused are described as associates, not relatives."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offence is murder under s.302 IPC read with s.34."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Section 302 read with Section 34 IPC is stated."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Rusted iron rod (recovered at instance of Kamal Kishore); sweater used to strangulate the deceased (recovered at instance of Manoj)",
+   "quote": "one rusted iron rod was recovered... a sweater was recovered which was used to strangulate the deceased",
+   "page": 4,
+   "reason": "Judgment mentions a rusted iron rod and a strangulating sweater as recovered items, not 'none mentioned'."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial evidence; last-seen witness testimony (PW-20, PW-21); Call Detail Records; recovery of iron rod and sweater; identification parade",
+   "quote": "The prosecution relied on circumstantial evidence... Call Detail Records",
+   "page": 5,
+   "reason": "No eyewitness to the killing or medical evidence is discussed; last-seen testimony and CDRs were omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is recorded; only disclosure of associates' names during interrogation is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court notes no aggravating circumstances for sentencing; only alleged prior beatings and threats appear."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.302 r/w s.34 and sentenced to rigorous imprisonment for life."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court dismissed all appeals, affirming the trial court's conviction and sentence (judgment dated 5 August 2014)",
+   "quote": "By the impugned judgment and order dated 5th August 2014, the High Court dismissed all their appeals.",
+   "page": 4,
+   "reason": "High Court outcome occurred and was dismissal of appeals, not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appeals allowed and all appellants acquitted of all charges."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was finally established since all accused were acquitted."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused were acquitted, so no final imprisonment was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment term exists after acquittal."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine stands after acquittal; the trial court's Rs.50,000 fine was quashed."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "A neutral summary without the outcome: a father found dead; his son, suspected due to a property dispute, fled and was arrested; two associates were also arrested; circumstantial evidence, last-seen testimony and CDRs were relied on; the trial court convicted and the High Court affirmed.",
+   "quote": "The High Court upheld the conviction, but the Supreme Court quashed the conviction, finding that the prosecution failed to prove the case beyond reasonable doubt.",
+   "page": 3,
+   "reason": "Facts reveal the court outcome, which is prohibited; also wrongly call the son's associates 'associates of the deceased'."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment (sentence imposed by trial court for s.302 offence)",
+   "quote": "sentenced them to suffer rigorous imprisonment for life",
+   "page": 4,
+   "reason": "'Death' is not a stated sentence; only life imprisonment was imposed by the trial court."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased was found dead, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death of the deceased is stated; he was found dead and declared dead."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence (s.302 r/w s.34 IPC) charged against three accused; none upheld, all acquitted",
+   "quote": "convicted all the three accused under Section 302 read with Section 34 of the IPC",
+   "page": 4,
+   "reason": "Only one offence was charged and none was upheld; all accused were acquitted."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss from the offence is stated; only a property dispute is alleged."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is stated in the judgment."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Property dispute between the father and son, as alleged by the prosecution",
+   "quote": "since he had a property dispute with the deceased",
+   "page": 3,
+   "reason": "Judgment identifies a property dispute as the alleged motive, not 'not identified'."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found last-seen evidence totally unreliable and CDR evidence did not inspire confidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court doubted PW-20's presence and noted improvements in his statement; PW-21 was declared hostile."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Prem Singh fled from the scene and was apprehended on 12 September 2009",
+   "quote": "Prem Singh fled away from the scene of incident and was apprehended on 12th September 2009",
+   "page": 4,
+   "reason": "Flight from the scene and apprehension two days later is stated, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not detailed; only discharge of bail bonds on acquittal is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Listed dates match the judgment: offence 10 Sept 2009, trial 17 May 2013, HC 5 Aug 2014, SC Aug 2023."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and respondent match the appearances section."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR lodged, charge-sheet filed and case committed and tried; investigation completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found TIP sanctity doubtful as accused were already shown to witnesses at the police station."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court dismissal, and Supreme Court allowing appeals are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Covers flight and arrest, reliance on PW-20, PW-21 and CDRs, and prior beatings and threats; consistent with the judgment."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence (Mr Kapoor) submitted that circumstantial evidence requires an unbroken chain of circumstances; other points were the court's own findings",
+   "quote": "unless the prosecution establishes an unbroken link of circumstances, conviction based upon circumstantial evidence is not permissible",
+   "page": 4,
+   "reason": "Recorded defence submission is only the unbroken-chain point; attributing CDR and TIP arguments to counsel is not supported."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately states the Sharad Sarda panchsheel and that suspicion cannot replace proof beyond reasonable doubt."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sharad Birdhichand Sarda v. State of Maharashtra (1984) 4 SCC 116 is the sole precedent relied on."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given since the accused were acquitted."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Acquittal, release if not required elsewhere, bail discharge and disposal of applications match the order."
+  }
+ }
+}

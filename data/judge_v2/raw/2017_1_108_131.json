@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "2",
+   "quote": null,
+   "page": null,
+   "reason": "Only Mahendra and Vijendra's appeals were decided by the Court; the other accused died or abated."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": null,
+   "page": null,
+   "reason": "Accused are described as brothers and male persons throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": "16",
+   "quote": "found to be a juvenile being 16 years 3 months 10 days old on the date of offence",
+   "page": 24,
+   "reason": "Age stated for appellant Vijendra; he is the juvenile appellant, so the value is supported."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment describes the deceased as a student but gives no accused occupation."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth or class of the accused appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record of the accused is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": null,
+   "page": null,
+   "reason": "The deceased Badan Pal is male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim is called a student and nephew, but no age is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victim is mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": "Prior enmity/dispute with victim's uncle (PW-1); victim was PW-1's nephew; same village",
+   "quote": "there was enmity between the accused, Dharam Pal and his family on the one side and Charan Singh, PW-1, on the other",
+   "page": 7,
+   "reason": "Enmity, nephew relationship and same village are all described in the judgment."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": null,
+   "page": null,
+   "reason": "Conviction is under s.302 IPC for murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC s.302 read with s.34",
+   "quote": null,
+   "page": null,
+   "reason": "Charges and conviction were under s.302 read with s.34 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "Pistols/gun (fatal gunshot); ballam and lathi carried by appellants",
+   "quote": "Dhani Ram and Dharam Pal carried pistols, Vijendra was armed with a ballam and Mahendra carried a lathi",
+   "page": 8,
+   "reason": "Pistols, ballam and lathi are all described; the value captures the gunshot as fatal weapon."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": "Eyewitness testimony; medical evidence; recovery of cartridges; panchanama and sketch map",
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical, recovery and investigation documents are all relied on or described."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Accused armed with lathi/ballam alongside gun-carrying co-accused; gunshot murder",
+   "quote": "the accused-appellants had accompanied the other accused persons who were armed with gun",
+   "page": 19,
+   "reason": "Armed accompaniment and gunshot killing are factual aggravating points noted by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Vijendra was a juvenile (16 years 3 months 10 days) at the offence",
+   "quote": "a juvenile being 16 years 3 months 10 days old on the date of offence",
+   "page": 24,
+   "reason": "Juvenility of Vijendra is stated and was treated as mitigating."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted under s.302 r/w s.34 IPC; rigorous imprisonment for life",
+   "quote": "found the accused person guilty of the offence under Section 302 read with Section 34 IPC and sentenced them to suffer rigorous imprisonment for life",
+   "page": 8,
+   "reason": "Trial court conviction and life sentence are stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Appeal dismissed; conviction and life sentence upheld; Dhani Ram's appeal abated on death",
+   "quote": "the High Court concurred with the view expressed by the trial court and resultantly dismissed their appeal",
+   "page": 8,
+   "reason": "High Court dismissal and affirmance are stated, with abatement for Dhani Ram."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "convicted",
+   "quote": null,
+   "page": null,
+   "reason": "Conviction of Mahendra upheld and Vijendra's conviction sustained, though Vijendra was released."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "IPC s.302 read with s.34 (murder)",
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under s.302 r/w s.34 was upheld for both appellants."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "life",
+   "quote": "while sustaining the conviction, we release him from custody forthwith",
+   "page": 24,
+   "reason": "Life sentence remains the sentence type; Vijendra was released on juvenility grounds."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment is not a fixed term, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine was imposed; the prosecution only suggested one, which the court did not order."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "Summary is neutral, uses no names, stops before proceedings and does not reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory maximum or minimum for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": null,
+   "page": null,
+   "reason": "The victim died from gunshot injuries, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Death from gunshot injuries; multiple entry wounds on neck",
+   "quote": "gunshot wound of entry eight in number",
+   "page": 13,
+   "reason": "Death and multiple gunshot entry wounds are supported by medical evidence."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": "1 charged; 1 finally upheld",
+   "quote": "charges were framed under Section 302 read with Section 34 IPC",
+   "page": 8,
+   "reason": "Single charged offence (s.302 r/w s.34), upheld for the remaining appellants."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "No property or money loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Not expressly decided; court held common intention may form on the spot, and the intention to go to the shed was established",
+   "quote": "Their intention was to go to the shed where the deceased was studying because of availability of the electric light, has been established.",
+   "page": 23,
+   "reason": "Court never expressly found absence of premeditation; it only said intention could arise on the spot."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": "alleged: revenge over earlier murder case in which the victim's uncle was prosecuted",
+   "quote": "the accused persons had harboured vengeance against them after their acquittal",
+   "page": 12,
+   "reason": "Vengeance over the prior case is recorded as the High Court's finding and labelled as alleged motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "Testimony of PWs 1-3; cartridges from spot; doctor's evidence of gunshot death",
+   "quote": null,
+   "page": null,
+   "reason": "The Court relied on eyewitness testimony, cartridges and medical evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "PWs 1-3 trustworthy; related witnesses not treated as interested; PW-3 not discredited as chance witness",
+   "quote": "they satisfy the test of careful scrutiny and cautious approach. They can be relied upon.",
+   "page": 21,
+   "reason": "Court found PWs 1-3 reliable and rejected the interested and chance witness objections."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Fled on being seen; all accused except Dhani Ram surrendered; Dhani Ram arrested on 19.04.1979",
+   "quote": "On seeing them, they took to their heels.",
+   "page": 8,
+   "reason": "Flight, surrender and later arrest of Dhani Ram are all stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Vijendra remained in custody beyond the maximum juvenile confinement period; exact duration not stated",
+   "quote": "remained in custody for more than the maximum period for which he could have been confined to a special home",
+   "page": 24,
+   "reason": "Prolonged custody beyond juvenile maximum is stated; exact duration is not given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No bail grant or refusal is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": "offence: 26.03.1979; trial judgment: not given; High Court: 13.05.2009; Supreme Court: 04.01.2017",
+   "quote": null,
+   "page": null,
+   "reason": "Dates match the judgment; trial judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Accused: Mukesh K. Giri, Advocate; State: R. K. Dash, Sr. Adv., with Ms. Archana Singh and others",
+   "quote": "Mukesh K. Giri, Adv. for the Appellant. R. K. Dash, Sr. Adv.",
+   "page": 7,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": "FIR lodged; investigation completed; charge sheet laid; trial completed",
+   "quote": "eventually after concluding the investigation, charge sheet was laid against the accused persons",
+   "page": 8,
+   "reason": "FIR, investigation, charge sheet and trial stages are all described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "The court notes no procedural lapse by the trial court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial court: convicted, life. High Court: appeals dismissed, abated for Dhani Ram. Supreme Court: Mahendra's appeal dismissed; Vijendra's conviction sustained, released as juvenile",
+   "quote": null,
+   "page": null,
+   "reason": "Outcomes at each level match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": "Conviction under s.34 supported; non-examination does not affect case; juvenility conceded; compensation suggested",
+   "quote": "learned senior counsel fairly conceded to the claim of juvenility and submitted that this Court may levy fine upon the appellant to be paid as compensation",
+   "page": 10,
+   "reason": "The State's conceded juvenility and compensation suggestion are both stated."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "No common intention; interested and chance witnesses; non-examination of witnesses; no lathi/ballam injury; no scorching; juvenility",
+   "quote": "it is put forth that the said witness has stated that there was no blackening and scorching",
+   "page": 9,
+   "reason": "All listed defence contentions appear in counsel's submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Section 34 is a question of fact; common intention may form on spot; interested-witness and non-examination tests",
+   "quote": "Thus, the applicability of Section 34 IPC is a question of fact and is to be ascertained from the evidence brought on record.",
+   "page": 18,
+   "reason": "Principles applied by the Court match the listed items."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "Pandurang; Mohan Singh; Harshadsingh Pahelvansingh Thakore; Suresh Sakharam Nangare; Jai Bhagwan; Hari Obula Reddy; Rana Pratap; Hari Ram",
+   "quote": null,
+   "page": null,
+   "reason": "Listed precedents are those the Court discussed and relied upon."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Vijendra released because he was a juvenile and had been in custody beyond the maximum juvenile confinement period",
+   "quote": "as the appellant-Vijendra Singh remained in custody for more than the maximum period for which he could have been confined to a special home, we release him from custody forthwith",
+   "page": 24,
+   "reason": "The Court did explain its release order, so 'Not applicable' omits the stated rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "Juvenility of Vijendra and prolonged custody beyond juvenile confinement maximum",
+   "quote": null,
+   "page": null,
+   "reason": "Juvenility and prolonged custody are the factors the Court weighed in release."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "The Court does not weigh any aggravating factor in its own analysis."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": "Vijendra released from custody forthwith as juvenile; Crl. A. 1452/2010 dismissed; Crl. A. 1448/2010 disposed of",
+   "quote": "we release him from custody forthwith",
+   "page": 24,
+   "reason": "Release and disposal orders are stated in the judgment."
+  }
+ }
+}

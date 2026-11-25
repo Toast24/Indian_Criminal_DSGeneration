@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "RAJIB RANJAN & ORS. V. R. VIJAYKUMAR",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "6 accused in total: four appellants (accused Nos. 3-6) plus accused No.1 (successful bidder) and No.2 (Chief Engineer, JSEB)",
+   "quote": "arrayed as accused Nos.3, 4, 5 and 6; accused No.1 (Successful Bidder) & accused No. 2",
+   "page": 4,
+   "reason": "Count of 4 covers only the appellants; the complaint also named accused Nos. 1 and 2."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Gender of accused is not stated in the judgment."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age of accused is not stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants being public servants and Gazetted officers of the State Government of Chhattisgarh",
+   "page": 4,
+   "reason": "Judgment states appellants are public servants."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complainant's gender is not stated; he is a company officer, not an individual victim described."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No personal relationship between accused and complainant is stated; they were competing bidder-side parties."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Forgery, cheating, criminal conspiracy and defamation (IPC ss.120B, 468, 420, 500)",
+   "quote": "complaint u/ss. 120B, 468, 420 and 500",
+   "page": 1,
+   "reason": "Charged offences are forgery, cheating, conspiracy and defamation; breach of trust is only mentioned as an element."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 120-B, 468, 420 and 500 of the Indian Penal Code",
+   "page": 4,
+   "reason": "Matches the IPC sections in the complaint."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Performance Report Cum Certificate, which was issued by accused No.2",
+   "page": 7,
+   "reason": "Judgment does not characterise evidence as circumstantial; it refers to documents and reports."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The learned Judicial Magistrate took cognizance of the said complaint and summoned the appellants.",
+   "page": 4,
+   "reason": "Judgment confirms cognizance was taken and summons issued."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court dismissed the appellants' petitions under s.482 and refused to quash the proceedings",
+   "quote": "The High Court ... has not found any merit ... and, consequently, dismissed their petitions.",
+   "page": 5,
+   "reason": "High Court did act: it dismissed the quashing petitions, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeals allowed; High Court order set aside; cognizance and summoning orders set aside; complaint dismissed",
+   "quote": "these appeals are allowed. Order of the High Court is set aside ... resulting into the dismissal of the said complaint.",
+   "page": 22,
+   "reason": "No acquittal occurred; the complaint itself was dismissed through quashing."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was established; the complaint was quashed."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment is mentioned."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed in this case; the Rs.25,000 costs relate to the earlier writ petition."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "A neutral summary of the tender, rejection, civil suit, writ petition, SLP and criminal complaint, without stating the Supreme Court's outcome",
+   "quote": "the Supreme Court allowed the appeal and set aside the High Court's order, finding the criminal complaint was a misuse of the process of law",
+   "page": 22,
+   "reason": "Facts reveal the court outcome, which the neutral_facts field must not do. Other facts are broadly accurate."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence severity is not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fabrication of the Certificate-cum-Report dated 28.12.2004 which was used against him in rejecting his tender",
+   "page": 10,
+   "reason": "Alleged certificate was created and used, supporting a completed-offence allegation."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Four counts charged (IPC ss.120B, 468, 420, 500); none upheld; complaint quashed",
+   "quote": "complaint u/ss. 120B, 468, 420 and 500",
+   "page": 1,
+   "reason": "Four counts were charged, but none were upheld; the complaint was dismissed."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged wrongful loss to complainant's company by losing its chance to get the Boiler Plant Units contract at Korba (as alleged, not found)",
+   "quote": "caused a wrongful loss to the complainant's company by robbing its due chance to get a contract for the Boiler Plant Units at Korba",
+   "page": 8,
+   "reason": "This is only an allegation in the complaint, not a finding of loss."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Complaint alleged a conspiracy and a plan to fabricate the certificate dated 28.12.2004; Court found the fabrication allegation an afterthought",
+   "quote": "they planned to fabricate the said certificate dated 28.12.2004",
+   "page": 7,
+   "reason": "Value gives the court's afterthought finding, not the alleged planning, which is what the field asks for."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "attempt is made by the respondent to convert a case with civil nature into criminal prosecution",
+   "page": 19,
+   "reason": "Court identifies this as the respondent's motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the report of the technical experts went against the respondent as it opined that the respondent was not technically suitable",
+   "page": 16,
+   "reason": "Court relied on JSEB and technical reports as supporting the tender rejection."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the evidence regarding the allegations made in the complaint have to be recorded and gone into by the trial court",
+   "page": 10,
+   "reason": "No witness credibility assessment is made; the High Court said evidence is yet to be recorded."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is described as such; the respondent's civil and writ proceedings are not characterised as such."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence/certificate date: 28.12.2004; Trial judgment: not stated; High Court decision: 03.06.2009; Supreme Court decision: 14.10.2014",
+   "quote": "From the Judgment & Order dated 03.06.2009 of the High Court of Madras",
+   "page": 4,
+   "reason": "High Court (03.06.2009) and Supreme Court (14.10.2014) decision dates are stated; the certificate date is also given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rahul Srivastava, Ram Swarup Sharma for the Appellants. R. Vijaykumar (Respondent-in-person).",
+   "page": 4,
+   "reason": "Appellant counsel matches; no State counsel is recorded."
+  },
+  "investigation_status": {
+   "verdict": "incorrect",
+   "correct_value": "No charge sheet; police refused to register the complaint and a private complaint was filed before the Magistrate",
+   "quote": "The police authorities refused to register the same on the ground that it is a civil dispute.",
+   "page": 7,
+   "reason": "No charge sheet is mentioned; the complaint was filed directly before the Magistrate."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is found by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court ... dismissed their petitions.",
+   "page": 5,
+   "reason": "High Court dismissal and Supreme Court allowance match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Respondent (complainant) argued the appellants conspired and fabricated the certificate, and that s.197 sanction was not needed as the offences were conspiracy, cheating and defamation",
+   "quote": "the question of obtaining sanction under Section 197 Cr.P.C. will not arise in so far as the present complaint is concerned",
+   "page": 9,
+   "reason": "Value assigns the appellants' sanction and abuse-of-process arguments to the prosecution, reversing the roles."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellants argued s.197 sanction was required, the complaint was an afterthought after failed civil suit, complainant lacked locus standi, and the acts were official duties",
+   "quote": "the complaint has been lodged as an afterthought, having failed in the civil suit",
+   "page": 4,
+   "reason": "Afterthought, locus standi and official duties are covered, but the sanction argument is omitted and 'fabricated' is overstated."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Sanction under s.197 applies only if the act has reasonable connection with official duty (Budhikota test); fabrication and conspiracy are not official duty; s.482 quashing for abuse of process (Bhajan Lal categories 6 and 7)",
+   "quote": "reasonable connection with discharge of his duty then it must be held to be official",
+   "page": 13,
+   "reason": "Budhikota test is correct, but the value omits the Bhajan Lal and abuse-of-process quashing principles the court applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Shambhoo Nath Misra; State of Haryana v. Bhajan Lal; Indian Oil Corpn. v. NEPC India; Inder Mohan Goswami; also Dr. Budhikota Subbarao (applied) and Naresh Kumar Madan (cited)",
+   "quote": "Shambhoo Nath Misra v. State of U.P. (1997) 5 SCC 326 ... relied on",
+   "page": 3,
+   "reason": "Listed cases are correct, but Dr. Budhikota Subbarao, which the court applied, is omitted."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so no sentencing rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There shall however be no order as to costs.",
+   "page": 22,
+   "reason": "No other sentence or order besides no costs."
+  }
+ }
+}

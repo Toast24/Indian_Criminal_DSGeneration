@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "Achhar Singh v. State of Himachal Pradesh",
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": 2,
+   "quote": "The appellants Achhar Singh and Budhi Singh are aggrieved",
+   "page": 10,
+   "reason": "Two appellants whose liability the Court decided; the other accused were acquitted and not before it."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "reason for Budhi Singh to start a fight with his neighbours",
+   "page": 25,
+   "reason": "Accused are referred to with male pronouns and male names."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of either accused is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No individual occupation is stated; only a general farming-community description exists."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No statement on the accused's wealth or class is made."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Mixed",
+   "quote": "Swari Devi ... Beli Ram ... Netar Singh",
+   "page": 10,
+   "reason": "Female victim (Swari Devi) and male injured victims (Beli Ram, Netar Singh)."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": "an old woman's vital body part",
+   "page": 19,
+   "reason": "Only described as old or elderly; no numeric age is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victims is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victims is described."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": "Neighbour; prior enmity/dispute (alleged land dispute, prior litigation and social boycott of the complainant's family)",
+   "quote": "their neighbour Budhi Singh",
+   "page": 10,
+   "reason": "Neighbour relation, land-purchase animosity, prior litigation and social boycott are all described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "justifies his conviction for the offence under Section 302 IPC",
+   "page": 19,
+   "reason": "Main offence is murder under s.302 IPC for Budhi Singh."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.147, s.148, s.452, s.506, s.323, s.302, s.326 (charged); convicted under IPC s.302, s.452 (Budhi Singh) and s.452, s.326, s.323 (Achhar Singh)",
+   "quote": "Sections 147, 148, 452, 506, 323, 302 and 326 of the IPC",
+   "page": 11,
+   "reason": "Lists only convicted sections; omits the charged ss.147, 148 and 506 the column asks for."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "Axe (used by both appellants); other accused had sickles, spears and sticks",
+   "quote": "Budhi Singh and Achhar Singh had axes, while the other accused were armed with sickles, spears and sticks",
+   "page": 11,
+   "reason": "Matches the judgment's description of weapons used by each group."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": "Eyewitness; medical (post-mortem and injury evidence); recovery (axe and house articles); FIR",
+   "quote": "the FIR, though not an encyclopedia of the entire incident, is the most spontaneous account",
+   "page": 25,
+   "reason": "All main evidence categories discussed by the Court are listed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Axe blow to the head of an elderly victim, with knowledge that it would in all probability cause death",
+   "quote": "knowing fully well that an axe blow on an old woman's vital body part would in all probability cause her death",
+   "page": 19,
+   "reason": "Accurately reflects the Court's reasoning on aggravating facts."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "All accused acquitted by Additional Sessions Judge, Mandi, giving benefit of doubt (24.02.1998)",
+   "quote": "The Additional Sessions Judge, Mandi acquitted all the accused vide judgment dated 24.02.1998",
+   "page": 11,
+   "reason": "Matches the trial court's acquittal and date."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Acquittal of Budhi Singh and Achhar Singh set aside; Budhi Singh convicted under ss.302 and 452 IPC (life with fine); Achhar Singh convicted under ss.452, 326, 323 IPC (5 years RI with fine); acquittal of other five upheld",
+   "quote": "Budhi Singh ... sentenced to undergo imprisonment for life along with fine ... Achhar Singh ... five years",
+   "page": 10,
+   "reason": "High Court actions and sentences are accurately reflected."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "convicted",
+   "quote": "Budhi Singh's conviction under Sections 302 and 452 IPC by the High Court are maintained",
+   "page": 25,
+   "reason": "Supreme Court dismissed appeals and maintained the convictions."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "Budhi Singh: IPC s.302 and s.452. Achhar Singh: IPC s.452, s.326 and s.323",
+   "quote": "Achhar Singh's conviction under Sections 452, 326 and 323 IPC and Budhi Singh's conviction under Sections 302 and 452 IPC",
+   "page": 25,
+   "reason": "Matches the final conclusion of the Supreme Court."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "life",
+   "quote": "Budhi Singh has been convicted for offences under Sections 302 and 452 IPC and sentenced to undergo imprisonment for life along with fine",
+   "page": 10,
+   "reason": "Life sentence for the principal accused (Budhi Singh) is supported; Achhar Singh's term is fixed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Null is acceptable as the main accused's sentence is life, not a fixed term."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo rigorous imprisonment for five years along with fine",
+   "page": 10,
+   "reason": "Fines are mentioned without any rupee amount, so null is correct."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Neutral summary of incident and evidence; no names, outcomes or court references appear."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory punishment range for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": "Swari Devi died due to a head injury",
+   "page": 19,
+   "reason": "Death occurred, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Death of the elderly victim from a single fatal sharp-edged head injury (axe); injured male with incised wounds on face and posterior skull, facial bone fracture, and other grievous and simple injuries",
+   "quote": "one fatal injury to the head by a sharp-edged weapon",
+   "page": 19,
+   "reason": "Injuries match the post-mortem and injury descriptions."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": "7 charged (IPC ss.147, 148, 452, 506, 323, 302, 326); 4 finally upheld (ss.302, 452, 326, 323)",
+   "quote": "Sections 147, 148, 452, 506, 323, 302 and 326 of the IPC",
+   "page": 11,
+   "reason": "Seven charged sections and four distinct upheld sections are correctly counted."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": "Property damage to the house (broken door, windows, utensils); no monetary value stated",
+   "quote": "the accused had broken the door, windows and utensils",
+   "page": 12,
+   "reason": "Property damage is described; no monetary value is given."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not stated. The High Court noted no common intention to kill was suggested; premeditation was not addressed.",
+   "quote": "the evidence on record did not suggest a common intention to kill Swari Devi",
+   "page": 13,
+   "reason": "Court did not find premeditation; common intention to kill was not suggested."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": "alleged: land dispute (purchase of the complainant's land) and prior litigation; social boycott of the complainant's family",
+   "quote": "Budhi Singh and Narinder Singh wanted to purchase the land where he had constructed a house",
+   "page": 17,
+   "reason": "Motive is presented as alleged and the Court did not formally accept it."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "Consistent eyewitness testimony (P.W.1, P.W.11, P.W.12) on fatal axe blow and axe attack; post-mortem report; doctor's testimony; axe recovery; house recoveries corroborated by P.W.14 and P.W.16",
+   "quote": "independent witness P.W.14 also corroborated the recovery",
+   "page": 23,
+   "reason": "Accepted evidence matches the Court's relied-upon items."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "Eyewitnesses exaggerated but core account consistent and matched medical evidence; no reason to falsely implicate; trial court erred in discarding evidence",
+   "quote": "The truth can be effortlessly extracted from their statements",
+   "page": 24,
+   "reason": "Assessment of exaggeration, consistency and trial court error is accurately summarised."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct such as flight or concealment is described."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Custody period is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Bail bonds cancelled by the Supreme Court; grant of bail earlier not described",
+   "quote": "Their bail bonds are cancelled and they are directed to undergo the remainder of their sentence",
+   "page": 25,
+   "reason": "Matches the Supreme Court's order; no earlier bail history is given."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": "offence: 23.02.1996 (night; FIR on 24.02.1996); trial judgment: 24.02.1998; High Court: 12.05.2010 and 27.05.2010; Supreme Court: 07.05.2021",
+   "quote": "on the night of 23.02.1996",
+   "page": 10,
+   "reason": "All listed dates match those given in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Appellants: J.S. Attri, R. Basant (Senior Advocates) with others; State: Abhinav Mukerji, AAG",
+   "quote": "J.S. Attri, R. Basant, Sr. Advs. ... Abhinav Mukerji, AAG . for the Respondent",
+   "page": 10,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": "FIR registered; investigation completed; charge-sheet filed against seven; trial completed",
+   "quote": "The police after investigation found that only seven persons out of the lot were involved",
+   "page": 11,
+   "reason": "Investigation, charge-sheet against seven and completed trial are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": "the Court found the delay in registering the FIR to be fatal to the prosecution",
+   "page": 12,
+   "reason": "No procedural lapse is noted by the Supreme Court; FIR delay was an evidentiary matter, explained by the High Court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial court: all acquitted (24.02.1998). High Court: acquittal of two set aside, convictions recorded; acquittal of others upheld. Supreme Court: appeals dismissed.",
+   "quote": "the appeals are dismissed",
+   "page": 25,
+   "reason": "Outcome at each level matches the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": "FIR not substantive evidence (Sheikh Hasib, Dharma Rama Bhagare); credibility not affected by relationship or exaggerations (Kishan Chand, Leela Ram); inconsistent evidence against one accused cannot benefit another (Gangadhar Behera, Prabhu Dayal)",
+   "quote": "inconsistent evidence by the prosecution witnesses against one accused cannot be capitalised to give the benefit of doubt to another",
+   "page": 15,
+   "reason": "State counsel's arguments and cited authorities are accurately reported."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "Trial court's view was possible, so interference needed perversity (Murugesan, Aruvelu); exaggeration and false implication; single head injury in medical evidence; axe from public place; blood trail; police timing; no reason to attack on wedding day",
+   "quote": "the four head injuries to the deceased as alleged by the eye-witnesses were falsified by the medical evidence",
+   "page": 13,
+   "reason": "Defence contentions are accurately summarised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Presumption of innocence doubled after acquittal; self-restraint and perversity test, but High Court may re-appreciate evidence fully; exaggeration separated from falsity; benefit of doubt only where firm conclusion not reached",
+   "quote": "there is no bar on the High Court's power to re-appreciate evidence in an appeal against acquittal",
+   "page": 16,
+   "reason": "Principles applied by the Court are accurately captured."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "Chandrappa (2007) 4 SCC 415; M. Madhusudhan Rao (2008) 15 SCC 582; Raveen Kumar 2020 SCC OnLine SC 869; Murugesan (2012) 10 SCC 383; Aruvelu (2009) 10 SCC 206; Hari Chand (1996) 9 SCC 112; Sucha Singh (2003) 7 SCC 643; Babu (2010) 9 SCC 189; Dalip Singh AIR 1953 SC 364; Sarwan Singh (1976) 4 SCC 369",
+   "quote": "Chandrappa v. State of Karnataka 12, State of Andhra Pradesh v. M. Madhusudhan Rao 13",
+   "page": 16,
+   "reason": "Principal cited precedents and citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no separate sentencing rationale; the case is decided on conviction."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighs no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": "Axe blow to the head of an elderly victim, with knowledge that it would in all probability cause death",
+   "quote": "knowing fully well that an axe blow on an old woman's vital body part would in all probability cause her death",
+   "page": 19,
+   "reason": "Matches the aggravating factor the Court itself weighed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": "Bail bonds cancelled; appellants directed to undergo the remainder of their sentence",
+   "quote": "Their bail bonds are cancelled and they are directed to undergo the remainder of their sentence",
+   "page": 25,
+   "reason": "Matches the Court's final directions."
+  }
+ }
+}

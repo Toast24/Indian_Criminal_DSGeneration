@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two appellants' liability is decided; the value is a float rather than an integer, but the count is right."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "he was accosted by the deceased Abbas",
+   "page": 9,
+   "reason": "The judgment uses male pronouns for appellant No. 2, so 'Not stated' is contradicted."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The only age given (22) belongs to the first informant, not the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated; the Hindu/Muslim reference concerns community tension, not the accused."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated; 'workers of Hindi Ekta Mandal' is a claimed affiliation, not an occupation."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth, poverty or class statement about the accused appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased Abbas Baig is referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior relationship is described; only the night's verbal altercation, though the wording is somewhat muddled."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction is under s.302 IPC, which is murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges under ss.302, 323, 324 and 504 IPC, each r/w s.34, match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sickle and sword are the weapons throughout."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical, recovery and res gestae evidence are all discussed."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence counsel's cross-examination suggestions admitting PW 1's presence and the assault were relied on; police-custody statements leading to recovery are noted, not relied on.",
+   "quote": "the suggestions put by the defence counsel in the cross-examination of the eyewitnesses establishes the presence of PW 1 Asgar Shaikh at the scene of offence",
+   "page": 21,
+   "reason": "'None relied on' omits the defence suggestions the Court expressly relied on as admissions (paras 33, 38-42)."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nine blows on an unarmed, helpless victim and vital-part injuries are noted by the Court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sudden fight argument was only assumed arguendo and rejected; no mitigating factor was accepted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment, Rs. 1000 fine each and acquittal of A2 and A4 match the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed the appeal, affirming conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under s.302 r/w s.34 IPC stands."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment was imposed and upheld."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not a fixed term, so null is right."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs. 1000/- each is stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The victim was talking with a friend when the accused, passing by, was accosted by the victim, and a verbal exchange followed.",
+   "quote": "he was accosted by the deceased Abbas",
+   "page": 9,
+   "reason": "Summary reverses the direction: the victim accosted the accused, not the other way round. Otherwise accurate and within length, with no outcome disclosed."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory punishment range for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death from nine injuries including chest stab wound; friend's head injury noted."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Four sections charged (302, 323, 324, 504 each r/w 34); only s.302 r/w 34 upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or money loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court did not find premeditation; sudden-fight point was only assumed for argument."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Verbal altercation leading to fight is the only motive described, marked as alleged."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ocular evidence, cross-examination admissions, res gestae statement and post-mortem evidence are all accepted by the Court."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found the three eyewitnesses reliable and upheld concurrent findings."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Police-custody statements are noted as 'said to' be made; the Court makes no finding on them."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail dates for both appellants match paragraph 64."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence, trial judgment, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment, with minor spelling variation in one name."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, panchnamas, post-mortem, discovery, chargesheet and trial completion are all described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The High Court's note on missing medical certificate is accurately reported; the Supreme Court raised no lapse."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Outcomes at trial, High Court and Supreme Court are accurately recorded."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the State's submissions on eyewitnesses, Exception 4 and s.8 discovery conduct."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the appellants' submissions on eyewitnesses, medical treatment, panch witnesses and Exception 4."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Principles on ocular evidence, concurrent findings, suggestions, res gestae, Exception 4 and s.300 thirdly are all applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Bharwada Bhoginbhai Hirjibhai v. State of Gujarat (AIR 1983 SC 753); Leela Ram v. State of Haryana (AIR 1995 SC 3717); Tahsildar Singh v. State of UP (AIR 1959 SC 1012); Tarun Bora v. State of Assam (2002 Cri LJ 4076); Rakesh Kumar v. State of Haryana (1987) 2 SCC 34; Rajwant Singh v. State of Kerala (AIR 1966 SC 1874); State of AP v. Rayavarapu Punnayya (1976) 4 SCC 382; Sukhar v. State of UP (1999) 9 SCC 507; Govind s/o Soneram v. State of MP (2005 Cri LJ 1244); Parkash Chand v. State of HP (2004) 11 SCC 381; Virsa Singh v. State of Punjab (AIR 1958 SC 465)",
+   "quote": "In Virsa Singh v. State of Punjab [AIR 1958 SC 465",
+   "page": 36,
+   "reason": "Omits Virsa Singh, quoted at length on the clause thirdly test; the other listed precedents are accurate."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court gives no sentencing rationale, so 'Not applicable' fits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nine blows on an unarmed, helpless victim and vital-part injuries are weighed by the Court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail bonds cancelled and surrender ordered, as stated in paragraphs 64-65."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the cause title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only one appellant-accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused referred to as 'he'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in the year 2001, the accused was 28 years old and was jobless",
+   "page": 17,
+   "reason": "Court states age 28 at time of incident."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "was jobless",
+   "page": 17,
+   "reason": "Court describes him as jobless."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "antecedents of the accused-appellant are unblemished",
+   "page": 17,
+   "reason": "Court finds no prior criminal activity."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Male and female victims."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No ages of victims given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "real brother of Manohar Matkari-the deceased",
+   "page": 9,
+   "reason": "Victims were his brother's family."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder is the main offence."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 302, 307 and 201 of the Indian Penal Code",
+   "page": 8,
+   "reason": "Sections and s.201 acquittal are accurate."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Large stone, gas cylinder with tube, and a blood-stained wooden rafter (seized); court said no dangerous weapon was used",
+   "quote": "seized the articles found lying there including wooden rafter having stains of blood and a big stone",
+   "page": 8,
+   "reason": "Omits the seized blood-stained wooden rafter."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately lists eyewitness, medical, recovery and confession evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "treated as statement under Section 164",
+   "page": 12,
+   "reason": "Statement to Executive Magistrate relied on."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 14,
+   "reason": "Fairly summarises the High Court's recited circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 17,
+   "reason": "Matches the factors in para 14."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 8,
+   "reason": "Sentences and fines match."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 9,
+   "reason": "Matches para 2(f)."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Conviction upheld; death sentence set aside and life imprisonment restored (sentence modified)",
+   "quote": "while maintaining the conviction ... award of extreme penalty of death by the High Court is set aside",
+   "page": 18,
+   "reason": "Conviction was maintained; only the sentence was modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 13,
+   "reason": "ss.302 and 307 conviction upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "restore the sentence of life imprisonment",
+   "page": 18,
+   "reason": "Life imprisonment restored."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 18,
+   "reason": "Life term; no fixed years."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "Rs.25,000 (s.302) and Rs.1,000 (s.307) per trial court sentence restored",
+   "quote": "pay a fine of Rs.25,000/-",
+   "page": 8,
+   "reason": "Trial court sentence including fine was restored; null omits it."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurate to the judgment and does not reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No severity classification stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murders completed; s.307 for injured children."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he expired on 29.06.2001",
+   "page": 8,
+   "reason": "Three deaths and two injured children."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 8,
+   "reason": "Three sections charged, two upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No loss quantified."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he has no pre-plan or pre-determination",
+   "page": 17,
+   "reason": "Accurately reflects SC and HC views."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "only on account of property dispute",
+   "page": 17,
+   "reason": "Land/property dispute."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 12,
+   "reason": "Matches para 8."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no reason to disbelieve the version of Monika (PW-7)",
+   "page": 12,
+   "reason": "Witnesses believed."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "three thieves had entered",
+   "page": 11,
+   "reason": "Thieves story and hospital statement noted."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in jail since 30.06.2001 and in the death cell since",
+   "page": 17,
+   "reason": "Matches para 14."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail not discussed."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 8,
+   "reason": "Dates match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 5,
+   "reason": "Counsel names match."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 8,
+   "reason": "Matches para 2(d),(e)."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None raised."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 9,
+   "reason": "Accurate progression."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 9,
+   "reason": "Matches para 4."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 9,
+   "reason": "Matches para 4."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 18,
+   "reason": "Rarest of rare and adequate reasons for enhancement."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 13,
+   "reason": "Citations and treatment match."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 18,
+   "reason": "Reflects para 14."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 17,
+   "reason": "Matches para 14."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 17,
+   "reason": "Court only acknowledges three deaths."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 18,
+   "reason": "No other orders."
+  }
+ }
+}

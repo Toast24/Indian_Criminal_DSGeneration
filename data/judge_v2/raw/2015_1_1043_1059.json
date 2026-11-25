@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption, though the header OCR also shows 'Bhim Singh' and 'Utiarakhand'."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court decides the liability of appellants 1 and 2 on appeal; the value of 2 matches that."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Mixed",
+   "quote": "appellant No.4, namely Janki Devi is the wife of Aan Singh",
+   "page": 5,
+   "reason": "The accused group includes a female co-accused, Janki Devi, so 'Male' omits that, though the two appellants decided are male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of any accused is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupations are attributed to defence counsel's submissions, and the value says so accurately."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence counsel said none of the accused were in a position to demand or give dowry; no court finding on wealth.",
+   "quote": "None of them were in a position to demand and give dowry",
+   "page": 11,
+   "reason": "The judgment contains a wealth-related submission that the value's 'Not stated' overlooks."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim, Prema Devi, is female."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victim is described."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Spousal relationship and in-law relationships are described in the judgment."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The case is a dowry death under s.304-B IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "IPC ss.304-B and 498-A, DPA ss.3-4 and Evidence Act ss.113-A and 113-B all appear in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Poison found in viscera and burning are the means described; the value reflects this."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Circumstantial, medical and oral evidence are the main types relied on."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Admissions in s.313 replies to the marriage date and unnatural death; noted by High Court; not expressly relied on by the Supreme Court.",
+   "quote": "the accused had themselves admitted in their replies recorded under Section 313",
+   "page": 8,
+   "reason": "The admission is correctly described, but the claim it was 'not treated as such by the court' is not stated in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The 90% burns, five-month timing, in-laws' house and dowry complaints are all noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court noted no mitigating facts; defence points were arguments only."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the trial court sentences, including the page 5 and page 7 discrepancy over the s.498-A term."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed the appeal, acquitted two co-accused and upheld the conviction of appellants 1 and 2."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Supreme Court dismissed the appeal and upheld the conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court held the s.304-B IPC guilt of appellants 1 and 2 established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment was imposed under s.304-B."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The final sentence is life, not a fixed term, so null is right."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated for the s.304-B conviction that the Supreme Court upheld."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same content, but refer to the accused without gender pronouns (e.g. 'the husband's brothers and the brother's wife').",
+   "quote": "his brothers and his brother's wife",
+   "page": 6,
+   "reason": "Uses the gender pronoun 'his' for the accused, which the instructions forbid; otherwise the summary is accurate and reveals no outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment states no statutory range; null is equivalent to 'Not stated'."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim died, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death, 90% skin-deep burns and poison in viscera are all recorded."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "4 charged (IPC s.304-B; IPC s.498-A; DPA s.3; DPA s.4); 1 expressly upheld by Supreme Court (s.304-B) as to appellants 1 and 2.",
+   "quote": "under Section 304-B IPC has been successfully established",
+   "page": 17,
+   "reason": "The Supreme Court expressly confirmed only s.304-B; the other convictions are not addressed, so '4 finally upheld' is overstated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is described."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court noted only the opportunity to administer poison, with no premeditation finding."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry-related cruelty is accepted; the unrecovered expenses point is alleged, which the value marks."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Post-mortem and viscera report; relatives' testimony on dowry; two prior complaints; death within five months; death in accused's house; opportunity to administer poison.",
+   "quote": "the accused had themselves admitted in their replies recorded under Section 313",
+   "page": 8,
+   "reason": "Lists s.313 admissions as accepted evidence, but only the High Court noted them; the Supreme Court did not rely on them."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Relatives' testimony is treated as cogent, and the defence points are rejected."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Reporting the death and the failure to take the victim to hospital are both noted by the court."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates for offence, trial judgment, High Court and Supreme Court match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for the appellants and the respondent State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, investigation, charge-sheet and committal are all described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court noted no procedural irregularity; the charge objection was rejected."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Outcomes at trial, High Court and Supreme Court match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Poisoning after dowry torture, then burning to ensure death, matches the State's submission."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No pre-marriage demand, self-reporting, suicide theory and non-involvement all match the defence case."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conjoint reading of s.113-B and s.304-B, s.113-A, circumstantial chain and motive are all applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Main precedents are listed with citations matching the judgment, though Liyakat is omitted."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court gave no sentencing rationale, so 'Not applicable' is right."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death within months after dowry cruelty, at the accused's house, and the suicide rejection are all noted."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court made no other order; costs were not awarded."
+  }
+ }
+}

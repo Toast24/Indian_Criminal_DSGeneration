@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single accused, the appellant Anokhilal."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as 'he' and 'his' throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment nowhere gives the accused's age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "incorrect",
+   "correct_value": "Earlier convicted vide judgment dated 21.10.2010 for committing carnal sex with a small boy",
+   "quote": "the accused was convicted vide judgment dated 21.10.2010, Ex.49, for committing carnal sex with a small boy",
+   "page": 18,
+   "reason": "The judgment expressly records a prior conviction for a sexual offence."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is a female child, referred to as 'his daughter' and 'she'."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim described as aged about nine years."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is described as the victim's neighbour."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder and sexual offences (rape/child sexual abuse, kidnapping)",
+   "quote": "the case of rape and murder of a minor girl",
+   "page": 1,
+   "reason": "Murder is correct but the category omits the rape and sexual offences charged."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Lists IPC ss.302, 363, 366, 376(2)(f), 377 and POCSO ss.4, 5, 6 as in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is named; the judgment describes throttling and a knot in the neck."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial (last seen together) and forensic evidence (DNA and FSL reports)",
+   "quote": "the prosecution has successfully established the last seen theory beyond any reasonable doubt",
+   "page": 17,
+   "reason": "Circumstantial and forensic evidence are right, but no dying declaration is mentioned."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is referred to in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Premeditation, brutal rape and throttling of a nine-year-old, dumping the body, prior sexual conviction, breach of trust",
+   "quote": "with a premeditated mind to commit the crime",
+   "page": 18,
+   "reason": "The High Court relied on several aggravating circumstances, so 'Not stated' is wrong."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted and imposed death sentence along with other sentences."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction and death sentence affirmed; appeal dismissed; death sentence confirmed",
+   "quote": "The High Court by its judgment and order presently under appeal, affirmed the view taken by the Trial Court and upheld the death sentence",
+   "page": 17,
+   "reason": "The High Court upheld the conviction and death sentence, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction and sentences set aside; de novo consideration directed",
+   "quote": "setting aside the judgments of conviction and orders of sentence passed by the Trial Court and the High Court ... and directing de novo consideration",
+   "page": 38,
+   "reason": "Supreme Court set aside conviction and directed de novo consideration; no acquittal was ordered."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions were set aside, so no offence stands established finally."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court imposed death (s.302), life imprisonment (s.376(2)(f)) and 7 years rigorous imprisonment (ss.363, 366, 377), all set aside",
+   "quote": "376(2) IPC Life",
+   "page": 14,
+   "reason": "The trial court's sentences are stated in the judgment; 'not_stated' omits them, though all were set aside."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No surviving term exists since the sentences were set aside."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fines were set aside with the sentences; no surviving fine applies."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "The accused, a neighbour, sent the nine-year-old victim to buy bidi; she went missing and her body was found in an open field. The accused was arrested and charged. Counsel was appointed on the day charges were framed and the trial concluded within a fortnight.",
+   "quote": "the appellant, his neighbour had sent the victim to get a bidi from a kirana shop",
+   "page": 8,
+   "reason": "Misstates who sent the victim and reveals the outcome via 'miscarriage of justice' and 'criticized'."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (only trial court sentences given; statutory ranges not in judgment)",
+   "quote": "imposing punishing of only imprisonment for life cannot be adequate and death sentence is necessary",
+   "page": 15,
+   "reason": "Statutory punishment ranges are not in the judgment and are drawn from outside knowledge."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim was killed and the offences were completed."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Death of a nine-year-old girl after brutal rape and throttling",
+   "quote": "subjected to brutal rape and carnal sex most gruesomely throttled her to death",
+   "page": 18,
+   "reason": "Death is correct but the value omits the sexual assault and violence described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted of IPC ss.302, 363, 366, 376(2)(f), 377 and POCSO s.6 (no separate sentence for POCSO)",
+   "quote": "Due to being similar act, no separate sentence is being awarded for the offence under Section 6",
+   "page": 15,
+   "reason": "Judgment does specify the counts convicted; the value wrongly says the number is unspecified."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is discussed; only fines and compensation to the mother."
+  },
+  "premeditation_planning": {
+   "verdict": "incorrect",
+   "correct_value": "High Court found the accused followed the victim with a premeditated mind",
+   "quote": "The accused then followed the victim with a premeditated mind to commit the crime",
+   "page": 18,
+   "reason": "The High Court expressly found premeditation, so 'Not stated' is wrong."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court relied on the last seen evidence (Kirti Bai) and the DNA report (Ex.58)",
+   "quote": "We also find that the report, Ex.58, of the DNA Finger Printing Unit completely connects the accused",
+   "page": 17,
+   "reason": "DNA report is right, but the value omits the last seen evidence the High Court accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment flags process concerns over 13 witnesses in seven days and does not assess credibility."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused absconded after the incident, per the High Court",
+   "quote": "after the incident no one saw the accused alone because he had absconded",
+   "page": 17,
+   "reason": "The High Court recorded that the accused absconded after the incident."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "In detention since 04.02.2013 (arrest) through the trial",
+   "quote": "The accused is in detention since 04.02.2013",
+   "page": 16,
+   "reason": "The judgment states the accused has been in detention since his arrest on 04.02.2013."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not discussed in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Evidence from 19.02.2013 to 02.03.2013; trial court judgment 04.03.2013; High Court judgment 27.06.2013",
+   "quote": "Put up on 04.03.2013 for judgment",
+   "page": 13,
+   "reason": "Trial court judgment date is wrong; the 30.04.2009 date comes from the Ankush Maruti case."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial: amicus appointed 19.02.2013 (name not given), D.S. Chauhan appeared; State: B.L. Mandloi P.P. Supreme Court: Siddharth Luthra (amicus), Varun Chopra (Dy. AG)",
+   "quote": "Mr. Siddharth Luthra, learned Senior Advocate who appeared for the appellant on behalf of the Supreme Court Legal Services Authority",
+   "page": 4,
+   "reason": "Omits the Supreme Court counsel and the amicus appointed on 19.02.2013."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Charge-sheet filed 13.02.2013; trial court judgment 04.03.2013; appeal to High Court, judgment 27.06.2013",
+   "quote": "charge-sheet was filed on 13.02.2013 in the concerned court",
+   "page": 8,
+   "reason": "Charge-sheet date is right, but 27.06.2013 is the High Court judgment, not trial completion."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the finding that the amicus lacked sufficient time and the trial ended within a fortnight."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: conviction and death sentence. High Court: conviction and death sentence affirmed on appeal and reference. Supreme Court: convictions and sentences set aside, de novo consideration directed.",
+   "quote": "The High Court by its judgment and order presently under appeal, affirmed the view taken by the Trial Court",
+   "page": 17,
+   "reason": "Trial and Supreme Court entries are right, but the High Court was not 'restored' to the Supreme Court."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecution argued evidence pointed to guilt and the conviction was correct, requiring no interference",
+   "quote": "the evidence on record, without any doubt, pointed towards the guilt of the accused and as such the order of conviction ... was correct",
+   "page": 20,
+   "reason": "The judgment records a different prosecution argument; expediting the trial was not argued by the State."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the amicus's submission that counsel lacked sufficient time and opportunity to interact with the accused."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the principles on free legal aid, real assistance and expeditious trial not compromising fairness."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Listed precedents, including Bashira, Ambadas, Imtiyaz Ramzan Khan, Best Bakery and Hussainara Khatoon, are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "incorrect",
+   "correct_value": "Trial court and High Court held the case the 'rarest of rare'; prior sexual conviction supported death sentence",
+   "quote": "the present case having similar facts ... is in the category of 'rarest of rare' case",
+   "page": 15,
+   "reason": "Both courts gave a sentencing rationale of rarest of rare; 'Not applicable' is wrong."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss mitigating factors, so 'None' is asserted without support."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Rarest of rare; prior conviction for sexual offence; brutality; victim's trust exploited; body dumped",
+   "quote": "the crime committed satisfies the test of 'rarest of rare' cases",
+   "page": 18,
+   "reason": "Courts identified multiple aggravating factors; 'None' contradicts the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the de novo direction, the permitted submissions and the norms on amicus appointment."
+  }
+ }
+}

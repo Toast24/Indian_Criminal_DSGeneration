@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "RAVINDRA TUKARAM HIWALE V. STATE OF MAHARASHTRA",
+   "page": 1,
+   "reason": "Matches the case heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant was married with the deceased Alka",
+   "page": 2,
+   "reason": "Only one appellant-accused, the husband."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "she had a quarrel with her husband",
+   "page": 2,
+   "reason": "The accused is the husband."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing on wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased Alka",
+   "page": 2,
+   "reason": "The victim is the wife, female."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant was married with the deceased Alka",
+   "page": 2,
+   "reason": "They were husband and wife."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "ss. 306 and 498-A",
+   "page": 1,
+   "reason": "Abetment of suicide plus cruelty; 'Other' is a reasonable fit."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offences punishable under Section 498-A ... and under Section 306",
+   "page": 2,
+   "reason": "Both sections are correctly listed."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Kerosene (poured on herself and set alight)",
+   "quote": "she had thereafter poured kerosene on herself and then burnt herself",
+   "page": 2,
+   "reason": "Kerosene is the mentioned means of burning, not 'None mentioned'."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in the light of the dying declaration made by the deceased",
+   "page": 3,
+   "reason": "Dying declaration is the main evidence discussed; two letters were also relied on by the High Court."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court found no aggravating factors; the High Court's quarrelsome-nature view was rejected."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no misbehaviour on the part of the appellant over a period of time and the incident was a spontaneous one",
+   "page": 3,
+   "reason": "Accurately reflects the trial court's findings."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Section 498-A and to a sentence of one year and under Section 306 to a sentence of four years",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal filed by the State was allowed ... enhanced from four to six years",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "conviction_modified",
+   "quote": "quash the sentence awarded by the High Court and confirm the judgment of the Trial Court",
+   "page": 3,
+   "reason": "Conviction stands but the High Court's enhanced sentence was quashed, so the sentence changed."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "confirm the judgment of the Trial Court",
+   "page": 3,
+   "reason": "Convictions under ss.306 and 498-A stand."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "four years and one year's RI",
+   "page": 1,
+   "reason": "Fixed-term sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to four years and one year's RI respectively",
+   "page": 1,
+   "reason": "Four years under s.306 is the main sentence; concurrency is not stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same summary without 'her husband' and 'first wife', which reveal the accused's gender.",
+   "quote": "the accused, her husband ... after the death of the accused's first wife",
+   "page": 2,
+   "reason": "Facts are accurate, but the wording reveals the accused's gender, which is prohibited."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 306 of the IPC provides for a sentence which may extend to 10 years",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "ultimately died of those injuries",
+   "page": 2,
+   "reason": "The victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "suffered serious burn injuries ... ultimately died",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offences punishable under Section 498-A ... and under Section 306",
+   "page": 2,
+   "reason": "Two sections, both upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the incident was a spontaneous one arising out of a family quarrel",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "quarrel with her husband over the house-hold chores and over the feeding of the children",
+   "page": 2,
+   "reason": "The quarrel is the stated cause."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in the light of the dying declaration",
+   "page": 3,
+   "reason": "The court relied on the dying declaration and the trial court's findings."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No witness credibility assessment in the order."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant has undergone about four years of the sentence",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant who is in custody, shall be released forthwith",
+   "page": 3,
+   "reason": "No bail history is stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Judgment & Order dated 02.08.2006",
+   "page": 2,
+   "reason": "Dates are accurately given; the trial date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "B. Sridhar for the Appellant. Shankar Chillargee, Asha G. Nair, Ravindra Keshavrao Adsure for the Respondent.",
+   "page": 2,
+   "reason": "Matches; an amicus curiae is also mentioned."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dying declaration to PW.10 - a Police Head Constable",
+   "page": 2,
+   "reason": "Consistent with the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "We accordingly allow the appeal, quash the sentence awarded by the High Court",
+   "page": 3,
+   "reason": "Accurate at all levels."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The learned counsel for the appellant has made only one argument",
+   "page": 3,
+   "reason": "No State argument recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant appeared to be of a quarrelsome and aggressive nature and as evidence ... two letters",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "interference of the appellate court on the quantum of sentence should be rare and only in exceptional cases",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the finding of the High Court based on two letters ... would therefore have little value",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "spontaneous one arising out of a family quarrel ... undergone about four years",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shall be released forthwith if not required in connection with any other case",
+   "page": 3,
+   "reason": "Matches."
+  }
+ }
+}

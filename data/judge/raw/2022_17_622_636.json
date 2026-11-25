@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "11 accused in all (6 in original FIR)",
+   "quote": "the charge sheet has been filed against eleven accused persons in Case Crime No. 337/2016",
+   "page": 5,
+   "reason": "Six was the original FIR count, but the judgment states eleven accused were eventually charge-sheeted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused include the female appellant and male co-accused (husband Sharvan Gupta), so mixed is supported."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of any accused is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not stated."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Household lady (appellant's own claim)",
+   "quote": "that she is neither a gang leader nor a member of the gang being a household lady",
+   "page": 6,
+   "reason": "The judgment records the appellant describing herself as a household lady."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is stated; only the appellant's argument that she is not a habitual offender."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Sadhna Sharma is referred to as female ('her sister')."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant and deceased are sisters among the five daughters, so 'Relative' is accurate."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conspiracy to commit murder of Sadhna Sharma is the central offence alleged."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the IPC sections and Gangsters Act sections 2 and 3 recorded in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned; only a car ramming the scooter is described."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "on the basis of the call recordings between the co-accused",
+   "page": 5,
+   "reason": "Judgment mentions call recordings and eyewitnesses but never characterises evidence as circumstantial."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not mention any confession, so 'None' is not affirmatively supported."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing aggravation is weighed by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (Special Court took cognizance on 2.7.2018; outcome not given)",
+   "quote": "the cognizance of the same was taken by the learned Special Judge under the Gangsters Act",
+   "page": 5,
+   "reason": "Trial outcome is not stated; 'Not applicable' misdescribes an unrecorded outcome."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Writ petition under s.482 CrPC dismissed; quashing refused",
+   "quote": "The High Court has dismissed the said writ petition and has refused to quash the criminal proceedings",
+   "page": 6,
+   "reason": "The High Court outcome is clearly stated and was not 'not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeals dismissed; High Court refusal to quash upheld",
+   "quote": "the present appeals fail and the same deserve to be dismissed and are accordingly dismissed",
+   "page": 15,
+   "reason": "Appellant was not acquitted; the Supreme Court dismissed her appeals."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence is finally established; the court only held prosecution could proceed."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed on the appellant."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is imposed."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused were in the car that followed the scooter; the person told to be killed was the driver Behari, not the victim",
+   "quote": "stopped it near Behari and shouted, 'kill this fellow also otherwise he may also give evidence'",
+   "page": 4,
+   "reason": "Facts wrongly say the accused shouted to kill the driver of the victim, and attribute car actions to the appellant specifically."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shall be punished with imprisonment of either description for a term which shall not be less than two years and which may extend to ten years",
+   "page": 12,
+   "reason": "Quoted statutory punishment under section 3 of the Gangsters Act is accurately taken from the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Her sister Sadhna died in the hospital.",
+   "page": 4,
+   "reason": "Death of the victim is recorded."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "the FIR for the offences under the Gangsters Act has been registered against eleven accused in all",
+   "page": 6,
+   "reason": "Eleven is the number of accused, not offences; offence counts are not stated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss from the offence is recorded."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged conspiracy to kill for pecuniary benefit; the court did not find premeditation",
+   "quote": "it is alleged that the main accused P.C. Sharma was a gang leader and who was the mastermind and he hatched the criminal conspiracy",
+   "page": 14,
+   "reason": "The judgment records an allegation of conspiracy, not a court finding of premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "to commit the murder of the deceased Sadhna Sharma for a pecuniary benefit as there was a property dispute",
+   "page": 15,
+   "reason": "Pecuniary benefit linked to property dispute matches the judgment's stated motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (no evidence assessed; allegations only)",
+   "quote": "it is alleged that the main accused P.C. Sharma was a gang leader",
+   "page": 14,
+   "reason": "Court did not accept evidence; it recorded allegations and decided a legal question only."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The court made no assessment of witness credibility; passers-by detail comes from the FIR narrative."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused ran away when people arrived (per complainant's account)",
+   "quote": "The accused, however, ran away on the arrival of the people.",
+   "page": 4,
+   "reason": "The judgment records flight by the accused after the incident, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Incident 23.5.2016; HC writ order 27.09.2019; review order 10.11.2020; SC judgment 26.04.2022",
+   "quote": "the impugned order dated 27.09.2019 passed by the High Court",
+   "page": 4,
+   "reason": "27.09.2019 is the High Court writ order, not a trial judgment; 10.11.2020 is the review order."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 3,
+   "reason": "Counsel names for appellant and respondents match the judgment's listing."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR registered; charge sheets filed; trial status not stated",
+   "quote": "The charge sheet was filed against the said eight accused persons on 26.5.2018",
+   "page": 5,
+   "reason": "FIR and charge sheets are stated, but trial completion is not recorded."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant alleged malicious gang chart and late implication under s.173(8) CrPC; not decided",
+   "quote": "the Senior Superintendent of Police, Badaun maliciously submitted the supplementary gang chart",
+   "page": 6,
+   "reason": "Irregularities were alleged by the appellant and not ruled on, so 'None noted' is incomplete."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "No trial court appeal recorded; HC writ and review dismissed; SC appeals dismissed",
+   "quote": "A review application was also filed which has also been dismissed.",
+   "page": 6,
+   "reason": "No trial court appeal is stated; the trial court dismissal is unsupported."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is no bar like in the other statutes, such as, Maharashtra Control of Organized Crime Act, 1999",
+   "page": 9,
+   "reason": "Summary matches the State's arguments on single FIR, gang membership and conspiracy."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "she was not named in the FIR; her name has surfaced in further investigation",
+   "page": 6,
+   "reason": "Summary matches the appellant's contentions on non-naming, single FIR and non-gangster status."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "even in case of a single offence/FIR/charge sheet, if it is found that the accused is a member of a 'Gang'",
+   "page": 14,
+   "reason": "Matches the court's stated legal principle on single offence prosecution under the Gangsters Act."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Piyush Kantilal Mehta (SC); Karansinh Chetansinh Vaghela (Guj HC); also Allahabad HC decisions relied on by State",
+   "quote": "Relying upon the decision of the Gujarat High Court in the case of Karansinh Chetansinh Vaghela",
+   "page": 7,
+   "reason": "Two cases are listed correctly but the Allahabad HC decisions relied on by the State are omitted."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing was imposed, so no rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court does not weigh aggravating factors for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is recorded beyond dismissal of appeals."
+  }
+ }
+}

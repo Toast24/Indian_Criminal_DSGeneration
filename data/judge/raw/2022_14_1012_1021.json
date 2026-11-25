@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Respondent No.1 is the sole accused whose anticipatory bail is in issue."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as male (he, his niece, maternal uncle)."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the petitioner being an advocate has high influence and hold in the society",
+   "page": 6,
+   "reason": "Judgment records the accused is an advocate."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is a girl child (female)."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant is the mother of the victim who is a 12 years old girl child",
+   "page": 2,
+   "reason": "Victim's age is stated as 12."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "her maternal uncle, namely, Respondent No.1",
+   "page": 3,
+   "reason": "Accused is the victim's maternal uncle, a relative."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Allegations are of sexual assault under IPC and POCSO."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 354A(1)(i),(ii) & (iv), 354 A-(2) and 354-A(3) of the Indian Penal Code read with Sections 7, 8, 9 and 11",
+   "page": 2,
+   "reason": "Sections listed match the judgment's statement of charges."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Medical examination; Section 164 statement of victim; counselling records and statement of counsellor; educational report; WhatsApp chats printout; case diary",
+   "quote": "medical examination was conducted and Statement of the victim under Section 164 of the Code of Criminal Procedure, 1973 was recorded",
+   "page": 3,
+   "reason": "Omits educational report, WhatsApp chats and case diary material referred to in the orders."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The fact that the victim was traumatized to such a high degree that her academic pursuits were adversely impacted",
+   "page": 8,
+   "reason": "Trauma, academic impact and the accused-victim relationship are cited as aggravating."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence raised a six-month delay in reporting and a possible retaliatory motive; the High Court suggested hugs might be affection (none accepted by the Supreme Court)",
+   "quote": "there was delay of about 6 months in reporting the crime",
+   "page": 4,
+   "reason": "Defence points existed in the orders, though the Supreme Court did not accept them."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Apprehending his arrest, Respondent No.1 approached the learned Sessions Court but was declined anticipatory bail.",
+   "page": 3,
+   "reason": "Sessions Court declined anticipatory bail."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the said Court granted him conditional anticipatory bail",
+   "page": 3,
+   "reason": "High Court granted conditional anticipatory bail."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal allowed; High Court's order granting anticipatory bail set aside; no acquittal",
+   "quote": "we allow this appeal; set aside the impugned Judgment and Order dated 25-7-2022",
+   "page": 10,
+   "reason": "No acquittal occurred; the Supreme Court allowed the victim's mother's appeal against anticipatory bail."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "without expressing any views on merits of the case",
+   "page": 10,
+   "reason": "No finding of guilt; the court expressly expressed no views on merits."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment is imposed or stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed; the Rs 50,000 is a bail bond condition."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts as stated, omitting the closing sentence on the Supreme Court overturning the High Court's decision",
+   "quote": "The Supreme Court overturned the High Court's decision, emphasizing the seriousness of the allegations and the need for the investigation to proceed without interference.",
+   "page": 10,
+   "reason": "Facts are accurate but the final sentence reveals the court outcome, which is prohibited."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No punishment range is stated; judgment refers only to 'severity of punishment' generally."
+  },
+  "attempt_completion": {
+   "verdict": "partially_correct",
+   "correct_value": "Mixed: completed acts (hugging, kissing on cheeks, lap-sitting) and attempts (kissing lips, attempted disrobing)",
+   "quote": "He asked the victim to sit on his lap and thereafter hugged her and kissed her on the cheeks and tried to kiss her on her lips. He further attempted to disrobe",
+   "page": 3,
+   "reason": "Attempt label ignores the completed acts of hugging and kissing alleged."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (no physical injury mentioned); psychological trauma causing academic decline",
+   "quote": "the incident traumatized her to an extent that she slumped down in her course and performance",
+   "page": 3,
+   "reason": "Describes psychological trauma accurately but no physical harm is stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Multiple sections are listed; the exact number of counts is not stated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss from the offence is stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not stated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive of the accused is identified; only the defence's alleged retaliatory motive of the complainant is noted."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated; the court expressed no views on merits and said it was not going into Section 29",
+   "quote": "We are not going into the issue of Section 29 of the POCSO Act in the present case.",
+   "page": 10,
+   "reason": "Court did not accept evidence or decide merits; it expressly declined to examine Section 29."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated; the court made no credibility assessment",
+   "quote": "without expressing any views on merits of the case",
+   "page": 10,
+   "reason": "Supreme Court made no credibility finding; it expressly refrained from views on merits."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is recorded in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No period of custody is stated; the accused sought anticipatory bail."
+  },
+  "bail_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Sessions Court declined anticipatory bail (4 July 2022); High Court granted conditional anticipatory bail (25 July 2022); Supreme Court set aside the High Court order",
+   "quote": "the Special Judge... vide order dated 4th of July, 2022... declined",
+   "page": 4,
+   "reason": "Omits the Sessions Court refusal; 'quashed' is close to the court's 'set aside'."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the allegations are that... The occurrence allegedly took place on 14-12-2021",
+   "page": 2,
+   "reason": "Incident, FIR, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Gaurav Agrawal, Ms. Anu K. Joy, Alim Anvar, Arvind Gupta, Advs. for the Appellant",
+   "page": 2,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It may be true... that charge-sheet has already been filed.",
+   "page": 8,
+   "reason": "Charge-sheet filing and continuing investigation are reflected in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "No procedural irregularity stated; High Court committed a serious error of law and discretion (para 9 observations unwarranted)",
+   "quote": "the High Court committed a serious error in exercising its discretion",
+   "page": 10,
+   "reason": "Court found serious substantive error by High Court, not procedural irregularity; 'None noted' understates it."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sessions refusal, High Court grant and Supreme Court setting aside are accurately reflected."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Allegations described accurately, but no prosecution argument is recorded; victim's counsel argued the victim had not recovered and bail would harm her and the accused could influence witnesses",
+   "quote": "learned counsel for the victim submits that the victim has not gained normalcy even now and granting of bail would adversely affect her mental condition",
+   "page": 6,
+   "reason": "Allegations are accurate, but the argument attribution and framing are not supported as stated."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Accused's counsel argued charge-sheet filed, no custodial interrogation needed, nothing to recover; before Sessions Court, delay and property-dispute retaliation were argued",
+   "quote": "learned counsel appearing for Respondent No.1 ... charge-sheet has already been filed",
+   "page": 8,
+   "reason": "The 'HC wrongly granted bail' argument is the appellant's and the court's reasoning; the defence case is misattributed."
+  },
+  "legal_principle_applied": {
+   "verdict": "incorrect",
+   "correct_value": "First consider prima facie case, then nature and severity of offence; custodial interrogation alone is no ground for anticipatory bail; Section 29 not decided",
+   "quote": "The first and foremost thing that the court hearing an anticipatory bail application should consider is the prima facie case",
+   "page": 9,
+   "reason": "Court expressly stated it was not going into Section 29 of POCSO."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Joy v. State of Kerala (2019) 1 KLT 935 is discussed in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred, so no sentencing rationale is stated."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Supreme Court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Serious nature of allegations ('extreme serious in nature'); trauma and academic impact on victim; POCSO offence against a child relative",
+   "quote": "the allegations, which are of extreme serious in nature",
+   "page": 8,
+   "reason": "Court stressed serious allegations, trauma and academic impact as aggravating; 'None' contradicts this."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Investigating Officer granted liberty to proceed further in accordance with law",
+   "quote": "Investigating Officer is granted liberty to proceed further in accordance with law.",
+   "page": 10,
+   "reason": "No sentence ordered, but the court granted the Investigating Officer liberty to proceed."
+  }
+ }
+}

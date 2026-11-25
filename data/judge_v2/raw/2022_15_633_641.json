@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Header matches the judgment's case title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three accused (A1, A2, A3) are tried and decided, as the judgment states."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the accused's gender."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class statement about the accused appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is referred to as 'he' and 'the deceased' Saravanan; male is supported."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Prior dispute/suspicion: accused suspected the deceased of informing on the whereabouts of Selvakumar (a friend of the accused); otherwise not stated",
+   "quote": "owing to animosity between the friend of the accused viz., Selvakumar and one Periyavan @ Murugan ... Suspecting that the deceased Saravanan had informed the whereabouts of Selvakumar",
+   "page": 3,
+   "reason": "Judgment's animosity is between Selvakumar and Periyavan; accused-victim link is suspicion, not enmity."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges are under s.302 IPC for murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sections 302, 302 r/w 34, 341, 506(2) IPC and TNPPDL Act s.3(1) match the judgment."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Aruvals",
+   "quote": "broke the wind screen of the car with aruvals",
+   "page": 4,
+   "reason": "Aruvals are correct, but 'machete-type' is not stated in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness PW1, recovered blood-stained aruvals, postmortem and clothing evidence are all referenced."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating facts are noted by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced each of them to undergo life imprisonment and fine of Rs. 1,000/- each, in default, three months simple imprisonment",
+   "page": 4,
+   "reason": "Matches the trial court's convictions, life sentences and fines."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court allowed the appeals and acquitted the accused."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court set aside the acquittal and restored convictions."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions under s.302 and s.302 r/w s.34 are restored as stated."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment is the sentence restored."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not a fixed term, so null is right."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs. 1,000 each is stated."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary covers incident and evidence, uses no names or outcome, and stops before court proceedings."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory maximum or minimum punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim was killed, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Shoulder injury, further injuries in the shed, and death are described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "4 charged (IPC ss.341, 506(2), 302; TNPPDL Act s.3(1)); 1 section finally upheld (IPC s.302, with s.34 for A2 and A3; two convictions)",
+   "quote": "convicting the accused for the offences under Sections 302 and 302 r/w 34 IPC is hereby restored",
+   "page": 9,
+   "reason": "Charged count is right, but upheld count treats s.302 r/w 34 as a separate section; it is one section with two convictions."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or money loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment makes no finding of premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Suspecting that the deceased Saravanan had informed the whereabouts of Selvakumar",
+   "page": 3,
+   "reason": "Alleged motive of suspected informing about a murdered friend's whereabouts matches the prosecution case."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Deposition of PW1, the sole eyewitness, on both the attack in the car and the attack in the shed",
+   "quote": "there can be a conviction on the basis of the deposition of the sole eye witness, if the said witness is found to be trustworthy and/or reliable",
+   "page": 9,
+   "reason": "Court relied only on PW1's testimony; it did not accept the aruvals or clothing evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW1 stood by what he has stated and has fully supported the case of the prosecution",
+   "page": 8,
+   "reason": "Accurately reflects the court's assessment of PW1 as a star, reliable eyewitness."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Ran away after the attack in the shed (per PW1); arrests on 02.08.2013 and 17.08.2013 noted",
+   "quote": "came out of the shed and ran away",
+   "page": 8,
+   "reason": "Court noted the accused ran away after the attack, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail grant or refusal is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence, High Court and Supreme Court dates match; trial judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for the appellant (State) and respondents (accused) match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, investigation, charge sheet and committal to Sessions are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court noted unmarked complaint, late FIR dispatch and constable not examined; Supreme Court's holding is accurate."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court acquittal and Supreme Court restoration are accurately stated."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "State's argument on PW1 and both parts of the incident, relying on Krishna Mochi, is accurate."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All listed defence submissions, including Kunju Muhammed reliance, appear in the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sole eyewitness conviction, non-necessity of weapon recovery and FIR timing principles are applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Krishna Mochi relied on by State; Kunju Muhammed cited by defence and referred to by the court."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court gives no sentencing reasoning; 'Not applicable' fits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court weighed no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "within a period of six weeks from today. If the accused do not surrender ... the concerned Superintendent of Police/Court is directed to take the accused into custody",
+   "page": 9,
+   "reason": "Surrender direction within six weeks and custody direction match the judgment."
+  }
+ }
+}

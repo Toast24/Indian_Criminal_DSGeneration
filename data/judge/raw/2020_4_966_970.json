@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment header: Ex-Gunner Virender Prasad v. Union of India & Anr."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only one appellant is before the Court, consistent with the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment refers to the appellant as 'he' and 'his' throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never states the accused's age. The value 25 has no support in the text."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the appellant was enrolled in the Signals Corps and is titled Ex-Gunner."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim is named 'Gunner-Sushil Kumar', a male name; the text does not contradict male gender."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the deceased's age. The value 25 is unsupported."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the victim is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the victim is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Both were in the same unit and the appellant was 'on good terms' with the deceased."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offence is a civil offence of murder, tried under Section 69 of the Army Act."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "Army Act s.69; Ranbir Penal Code s.302 (via Army Act s.69); Army Act ss.164(2) and 165; Code of Criminal Procedure s.433-A",
+   "quote": "contrary to Section 302 of the Ranbir Penal Code",
+   "page": 3,
+   "reason": "Lists Army Act s.69 and CrPC s.433-A but omits RPC s.302 and Army Act ss.164(2), 165."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment says the appellant fired a complete magazine of rifle ammunition."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Testimony of 15 witnesses including a Psychiatrist; appellant's confession of guilt",
+   "quote": "in all 15 witnesses including a Psychiatrist was examined",
+   "page": 3,
+   "reason": "Confession and psychiatrist testimony are supported, but 'circumstantial' evidence is not mentioned anywhere in the judgment."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant surrendered and confessed his guilt to his Senior Authorities",
+   "quote": "surrendered himself to his Senior Authorities and confessed his guilt",
+   "page": 3,
+   "reason": "A confession is supported, but the judgment does not say the court relied on it as evidence."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not identify aggravating circumstances, so 'Not noted' is accurate."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Surrender, excellent jail conduct and more than 14 years served are all stated in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary Court Martial found the appellant guilty of murder and sentenced him to life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Writ petition filed in Delhi High Court, later transferred to the AFT; no High Court decision reported",
+   "quote": "preferred a writ petition in Delhi High Court, which was subsequently transferred to the AFT",
+   "page": 4,
+   "reason": "A Delhi High Court writ was filed, so 'Not applicable' is wrong, though no HC decision is reported."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction affirmed; sentence reduced to period already undergone and appellant ordered released",
+   "quote": "while dismissing the appeal we direct that the appellant be forthwith released from custody",
+   "page": 5,
+   "reason": "The appeal was dismissed and conviction affirmed; the appellant was not acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Murder as a civil offence under Section 69 of the Army Act, 1950",
+   "quote": "liable to be convicted for the offence punishable under Section 69 of the Army Act for committing a civil offence of murder",
+   "page": 4,
+   "reason": "The murder conviction under Section 69 was affirmed, so 'None' contradicts the judgment."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment (sentence reduced to period already undergone)",
+   "quote": "sentence of life imprisonment reduced to the period already undergone",
+   "page": 1,
+   "reason": "The sentence imposed was life imprisonment, not 'none'."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is life imprisonment, which has no fixed years; the judgment gives only time served, so null is defensible."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts summarised without reference to the sentence reduction or time served",
+   "quote": "he has served the sentence for a period of more than 14 years",
+   "page": 5,
+   "reason": "Facts are accurate, but stating the 14-year service and jail conduct reveals the court's reasoning and outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment is stated; the judgment does not specify minimum or maximum terms."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased was shot and died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The firing caused the death of the deceased."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The appellant was charged under Section 69 of the Army Act for murder, and the conviction was upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed, so 'Not applicable' is a reasonable reading."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss premeditation; it describes a shooting in sleep under claimed delusion."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted CM and AFT findings that the appellant was liable to be convicted under Section 69."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Judgment notes 15 witnesses, including a Psychiatrist, were examined; no credibility assessment is recorded",
+   "quote": "in all 15 witnesses including a Psychiatrist was examined",
+   "page": 3,
+   "reason": "The judgment does not assess witness credibility; it only notes witnesses were examined and findings were not disturbed."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Immediate surrender, the explanation given, and excellent jail conduct are all stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment states the appellant had actually served 16 years and 6 months as on 6.1.2020."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence date 30.06.2003, Court Martial 21.08.2004 and SC judgment 18.03.2020 match the text; HC decision not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match those listed in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Challan before CJM Rajouri, transfer to Army for trial, and confirmation by CM and AFT are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment notes no procedural irregularity."
+  },
+  "appeal_history": {
+   "verdict": "incorrect",
+   "correct_value": "Court Martial convicted; petition to MoD/COAS dismissed 22.05.2007; writ in Delhi HC transferred to AFT, which dismissed; SC dismissed appeal and reduced sentence",
+   "quote": "Thereafter, the appellant preferred a writ petition in Delhi High Court",
+   "page": 4,
+   "reason": "Court Martial did not 'affirm' a conviction on appeal, and no High Court appeal was decided; the AFT did."
+  },
+  "prosecution_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records no prosecution arguments; the value restates the court's holding rather than a submission."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment records the appellant's contention of a delusion of militant attack and no control over his senses."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Santa Singh's amalgam-of-factors principle is quoted and applied, including prior record, age and mental condition."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The three cases and their citations match those in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the sentence served is much more than proportionate and exceeds 14 years."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Kashmir terrorism context, immediate surrender and excellent jail behaviour are all stated."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court, so 'None' is accurate."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court directed the appellant be forthwith released from custody."
+  }
+ }
+}

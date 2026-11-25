@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the title of the judgment."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dheeraj Kalra, Rishi Kumar, Saurabh, Som Prakash, Sanjeev Kumar@Happy, Nitin @Vippu and Bhagat Singh",
+   "page": 7,
+   "reason": "Seven accused are tried and convicted, and their appeals are decided."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he",
+   "page": 12,
+   "reason": "All accused are male names and are referred to as 'he'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased, Alok Chandana, is male and referred to as 'he'. The injured PW1 is also male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "asked Vipin Singh Singh Negi and Alok Chandana to withdraw their names from the election of Commerce Faculty",
+   "page": 6,
+   "reason": "Election-related rivalry is supported. 'Prior' dispute is slightly loose but acceptable."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302 read with Section 149",
+   "page": 5,
+   "reason": "The case is a murder conviction."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.148; s.302 r/w s.149 (all accused); additional charges s.147 and s.323 r/w s.149 against some accused",
+   "quote": "An additional charge was framed against accused Rishi Kumar, Saurabh and Dheeraj under Sections 147 and 323 read with Section 149",
+   "page": 6,
+   "reason": "Lists only the convicted sections and omits the additional charges under ss.147 and 323/149."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "armed with Lathis, Knives and Khukries",
+   "page": 6,
+   "reason": "Lathis, knives, khukris and dandas are all mentioned."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "proved by medical evidence corroborated by testimonies of the prosecution witnesses",
+   "page": 18,
+   "reason": "Eyewitness, medical and shirt-recovery evidence are all noted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "were armed with deadly weapons",
+   "page": 19,
+   "reason": "Armed accused and the renewed chase and attack are supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced them to imprisonment for life and a fine of Rs.10,000/-",
+   "page": 8,
+   "reason": "Matches, including rigorous imprisonment for two years under s.148 running concurrently."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it cancelled the bail of the appellants affirming the conviction and sentence",
+   "page": 9,
+   "reason": "High Court dismissed the appeals and affirmed the conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "these appeals are dismissed",
+   "page": 19,
+   "reason": "Conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "affirming the conviction and sentence of the accused persons under Section 302 read with Section 149 and under Section 148",
+   "page": 9,
+   "reason": "Matches."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for life",
+   "page": 8,
+   "reason": "Life imprisonment upheld."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentence is not a fixed term, so null is right."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fine of Rs.10,000/-",
+   "page": 8,
+   "reason": "Fine of Rs.10,000 each."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurate summary of the prosecution case and evidence. It reveals no court outcome and uses no names."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory punishment for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "succumbed to his injuries on the succeeding day",
+   "page": 6,
+   "reason": "The offence was completed, as the victim died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "found the frontal bone fractured and right lung ruptured",
+   "page": 10,
+   "reason": "Death plus the injuries described are consistent with the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Sections 147 and 323 read with Section 149",
+   "page": 6,
+   "reason": "Four distinct charges, of which two convictions stand."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the common intention to kill might have arisen on the spur of the moment",
+   "page": 19,
+   "reason": "Matches the Court's finding."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their common object was to threaten and prevent the deceased and other persons from contesting the College elections",
+   "page": 18,
+   "reason": "Matches the Court's finding."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness testimony of injured PW1 and PW3, and medical evidence (PW8 injury report, PW6 post-mortem); the shirt recovery was noted as a flaw, not relied on",
+   "quote": "recovery of the blood stained shirt after six days of the date of the incident",
+   "page": 18,
+   "reason": "The shirt was treated as an investigation flaw rather than accepted evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the testimonies of the prosecution witnesses are fully reliable and there has been no improvement made",
+   "page": 18,
+   "reason": "Accurate, and PW4 turned hostile."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not describe the accused's post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it cancelled the bail of the appellants",
+   "page": 9,
+   "reason": "Bail cancelled by the High Court; no other bail history given."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "offence: 24.9.1996; trial judgment: not given; High Court: 08.04.2011; Supreme Court: May 2015 (header garbled 'MAYOS,2015')",
+   "quote": "MAYOS,2015",
+   "page": 1,
+   "reason": "The judgment header gives a 2015 Supreme Court date, so 'not given' is wrong."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "K. T. S. Tulsi, R. S. Suri, A. Sharan",
+   "page": 5,
+   "reason": "Counsel for the appellants and the State are listed correctly."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Case Crime No.275/96",
+   "page": 6,
+   "reason": "FIR registered, charge sheet filed and trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "non-recovery of the weapon used by the accused appellants and recovery of the blood stained shirt after six days",
+   "page": 18,
+   "reason": "Matches the flaws noted by the Court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "these appeals are dismissed",
+   "page": 19,
+   "reason": "Accurate at all three levels."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The State's arguments are not separately recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the name of appellant Sanjeev Kumar Gupta was not mentioned in the F. I. R.",
+   "page": 12,
+   "reason": "Fair summary of the defence arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the common object may form on the spur of the moment",
+   "page": 19,
+   "reason": "Matches the principles applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dharmendrasinh alias Mansinq Ratansinh Vs. State of Gujarat, (2002) 4 SCC 679",
+   "page": 17,
+   "reason": "All three precedents and citations match."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing discussion."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentences were directed to run concurrently",
+   "page": 8,
+   "reason": "No further Supreme Court orders."
+  }
+ }
+}

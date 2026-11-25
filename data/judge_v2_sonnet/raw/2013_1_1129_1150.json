@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "RAMESH KUMAR SONI v. STATE OF MADHYA PRADESH",
+   "page": 1,
+   "reason": "Matches the judgment's title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "against the appellant",
+   "page": 7,
+   "reason": "Single appellant/accused."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never states the appellant's gender; only 'appellant' is used, no pronouns. Name inference is not allowed."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim described."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Cheating/Fraud (or Forgery); multiple offences incl. criminal breach of trust, cheating, forgery",
+   "quote": "offences punishable under Sections 408, 420, 467, 468 and 471 of the IPC",
+   "page": 7,
+   "reason": "Charges span breach of trust, cheating and forgery; single 'Forgery' label is only one of several."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 408, 420, 467, 468 and 471 of the IPC",
+   "page": 7,
+   "reason": "Matches."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None mentioned."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No evidence discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "held that since no charge-sheet had been filed before the Magistrate as on the date the amendment came into force, the case was exclusively triable by the Sessions Court",
+   "page": 9,
+   "reason": "Accurate."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court has affirmed that view and dismissed the revision petition",
+   "page": 9,
+   "reason": "Accurate."
+  },
+  "final_outcome": {
+   "verdict": "other",
+   "correct_value": "other",
+   "quote": "this appeal fails and is hereby dismissed",
+   "page": 22,
+   "reason": "Placeholder"
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No conviction decided; trial pending."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "not_stated",
+   "quote": "this appeal fails and is hereby dismissed",
+   "page": 22,
+   "reason": "No sentence exists; 'not_stated' fits better than 'none'."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove the 'Bheraghat' detail inconsistencies and the description of the later charge-sheet as it implies court-stage matters; keep focus on the crime registration and alleged offences.",
+   "quote": "Crime No.129 of 2007 ... was registered against the appellant on 18th May, 2007, at Bheraghat Police Station.",
+   "page": 7,
+   "reason": "Largely accurate, but dwells on amendment/legal status rather than the incident, and lacks substance."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Punishments not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "5 charged; 0 convictions (no conviction decided)",
+   "quote": "Sections 408, 420, 467, 468 and 471 of the IPC",
+   "page": 7,
+   "reason": "Five charged is right; 'upheld' is inapplicable since no conviction was decided."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not identified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No evidence accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No witnesses."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "offence: not given; trial judgment: not given; High Court: 02.05.2011; Supreme Court: 26.02.2013",
+   "quote": "From the Judgment & Order dated 02.05.20111 of the High Court",
+   "page": 7,
+   "reason": "Dates right, but extra parenthetical text deviates from the required format."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "June Chaudhary, Sumeeta Chaudhari, Prabhat Kumar, Anshuman Ashok, Dr. Kailash Chand for the Appellant.",
+   "page": 7,
+   "reason": "State counsel not listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the investigation in the case was pending as on the date the amendment came into force",
+   "page": 9,
+   "reason": "Consistent."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted; committal held valid."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "this appeal fails and is hereby dismissed",
+   "page": 22,
+   "reason": "Accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "State's arguments not recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant had acquired the right of trial by a forum specified in Schedule I",
+   "page": 9,
+   "reason": "Accurate."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "any amendment shifting the forum of the trial had to be on principle retrospective",
+   "page": 16,
+   "reason": "Accurate."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches cases cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the overruling of the Full Bench decision ... will not affect cases that have already been tried or are at an advanced stage",
+   "page": 22,
+   "reason": "Accurate."
+  }
+ }
+}

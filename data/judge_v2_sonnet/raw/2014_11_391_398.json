@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "NARESH KUMAR v. STATE OF HARYANA",
+   "page": 1,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "upholding the conviction of the appellant under Section 304-B",
+   "page": 3,
+   "reason": "Only the husband's appeal is decided."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The husband is not only primarily responsible for safety of his wife",
+   "page": 7,
+   "reason": "The appellant is the husband, so male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Employed; his employer DW-2 Raj Kumar testified that he was on duty at the time (specific occupation not stated)",
+   "quote": "Raj Kumar (DW-2) employer of the appellant was also examined",
+   "page": 4,
+   "reason": "The judgment mentions an employer, so employment is stated, though the job itself is not."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class statement about the accused."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing on prior record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased Rekha Rani",
+   "page": 3,
+   "reason": "The victim is a woman."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given; 'young married girl' is not a number."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant was married to the deceased Rekha Rani on 7th July, 2000",
+   "page": 3,
+   "reason": "Husband and wife."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction of the appellant under Section 304-B",
+   "page": 3,
+   "reason": "Dowry death."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction of the appellant under Section 304-B of the Indian Penal Code",
+   "page": 3,
+   "reason": "s.304-B, with s.113B Evidence Act presumption, is accurate."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon; burning is mentioned but no instrument."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "apart from medical evidence and evidence of investigation",
+   "page": 4,
+   "reason": "Matches the evidence described. The dying declaration is only implied."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The deceased died within 10 months of the marriage.",
+   "page": 5,
+   "reason": "Consistent with the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted the appellant and the co-accused",
+   "page": 4,
+   "reason": "The sentence is not stated for the trial court."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "upheld the conviction of the appellant but acquitted the co-accused Champa Devi",
+   "page": 5,
+   "reason": "Accurate."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal is accordingly, dismissed.",
+   "page": 8,
+   "reason": "Conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "upholding the conviction of the appellant under Section 304-B",
+   "page": 3,
+   "reason": "Accurate."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of Rigorous Imprisonment tot seven years",
+   "page": 3,
+   "reason": "Fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rigorous Imprisonment tot seven years",
+   "page": 3,
+   "reason": "Seven years."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove 'her' pronouns for the victim if needed, and the defence's uncle claim is fine; the suicide-note detail is acceptable. The main flaw is the reference to 'first information report' and 'sent the accused for trial', which hint at court proceedings.",
+   "quote": "sent up the accused for trial",
+   "page": 4,
+   "reason": "Mostly accurate, but it mentions sending the accused for trial and uses gendered pronouns for the victim."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the punishment range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death occurred."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased died on account of extensive burn injuries",
+   "page": 4,
+   "reason": "Accurate."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only s.304-B is mentioned."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No loss stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No finding on this."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant raised a demand for motor cycle",
+   "page": 3,
+   "reason": "Dowry demand."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Testimony of PW-3, PW-10 and PW-12 on dowry harassment; death by burning; s.113B presumption; suicide note held not exonerating",
+   "quote": "The version is supported by her death by burning.",
+   "page": 6,
+   "reason": "Largely right, but 'medical evidence' is not specifically relied on by the Court."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "have specifically and categorically deposed about demand of dowry soon before her death",
+   "page": 6,
+   "reason": "Accurate."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "offence: 1 May 2001; trial judgment: not given; High Court: 12 March 2013; Supreme Court: 14 November 2014",
+   "quote": "on 1st May, 2001, at about 12 O'clock, information was received",
+   "page": 4,
+   "reason": "Dates are right, but 1 May 2001 is when the family got word of the burns, not clearly the offence date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "G.C. Shahpuri, Surinder Singh, Balbir Singh Gupta for the Appellant. Kamal Mohan Gupta for the Respondents.",
+   "page": 3,
+   "reason": "Accurate."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "lodged the First Information Report (Exhibit PA/1)",
+   "page": 4,
+   "reason": "Accurate."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "upheld the conviction of the appellant but acquitted the co-accused",
+   "page": 5,
+   "reason": "Accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "The judgment does not record the State's arguments in detail, but it relies on consistent evidence of dowry harassment soon before death and the s.113B presumption.",
+   "quote": "There is consistent evidence on record to prove harassment for dowry soon before the death",
+   "page": 5,
+   "reason": "Although the State's submissions are not recorded, a 'Not stated' value is borderline; the State's case is reflected in the Court's reasoning."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution failed to prove the demand of dowry \"soon before the death\"",
+   "page": 5,
+   "reason": "Matches the three submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Failure to give an explanation or giving of false explanation can be taken as an additional circumstance against him.",
+   "page": 8,
+   "reason": "Accurate."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "2003 (1) Suppl. SCR 734 relied on",
+   "page": 3,
+   "reason": "Accurate."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we have no hesitation in upholding the conviction and sentence",
+   "page": 8,
+   "reason": "Accurate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "None",
+   "quote": "no separate sentencing aggravation",
+   "page": 8,
+   "reason": "The Court weighed no aggravating factors for sentence; the death within 10 months is part of the offence evidence."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is directed to surrender to undergo the remaining sentence",
+   "page": 8,
+   "reason": "Accurate."
+  }
+ }
+}

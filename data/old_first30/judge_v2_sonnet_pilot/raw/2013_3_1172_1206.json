@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "R. SHAJI v. STATE OF KERALA",
+   "page": 1,
+   "reason": "Matches the title."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "2 tried (appellant A-1 and Vinu A-2); 5 charge-sheeted",
+   "quote": "The trial however, could be conducted only against two persons, i.e. the appellant (A-1) and Vinu (A-2)",
+   "page": 15,
+   "reason": "Two accused were tried and five charge-sheeted; the value 1 counts only the appellant."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant's wife",
+   "page": 12,
+   "reason": "Appellant is male (he, his wife)."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age not stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant at the relevant time had been working as the Deputy Superintendent of Police at Malappuram",
+   "page": 12,
+   "reason": "Matches."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No record mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his son Praveen",
+   "page": 14,
+   "reason": "Victim is male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He was also related to the appellant.",
+   "page": 12,
+   "reason": "Relative and trusted driver with free access to the house."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Section 302 read with Section 120-B",
+   "page": 15,
+   "reason": "Murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Section 201 read with Section 120-B IPC... Section 364 read with Section 120-B IPC",
+   "page": 16,
+   "reason": "All three provisions listed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The chopper (M.0.4), alleged to have been used in the said crime",
+   "page": 15,
+   "reason": "Chopper."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution case was based on circumstantial evidence.",
+   "page": 3,
+   "reason": "Matches listed evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant made a disclosure statement to the effect that Praveen's body was mutilated using the chopper",
+   "page": 20,
+   "reason": "Disclosure leading to recovery; no confession to the killing."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he would chop him up into pieces",
+   "page": 25,
+   "reason": "Circumstances supported by the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of life imprisonment and a fine of Rs. one lakh",
+   "page": 16,
+   "reason": "Matches sentences."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "which was dismissed by the High Court vide judgment and order dated 10.12.2009",
+   "page": 16,
+   "reason": "Appeal dismissed."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the same is dismissed accordingly",
+   "page": 35,
+   "reason": "Appeal dismissed, conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we do not find any merit in the appeal",
+   "page": 35,
+   "reason": "Convictions upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of life imprisonment",
+   "page": 16,
+   "reason": "Life."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life term, so null is fine."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a fine of Rs. one lakh",
+   "page": 16,
+   "reason": "Matches."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurate to the judgment's facts and does not reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died; completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dismembered parts of the body recovered from the lake",
+   "page": 18,
+   "reason": "Death and dismemberment."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 16,
+   "reason": "Three convictions."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "handed them over to the appellant in early January, 2005",
+   "page": 20,
+   "reason": "Conspiracy and earlier chopper preparation supported."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant had adequate reason to harbour animosity towards Praveen",
+   "page": 24,
+   "reason": "Matches."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The DNA report did not leave any room for doubt",
+   "page": 31,
+   "reason": "Items match the judgment."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we do not find any cogent reason to dis-believe the testimony of Shanavas (PW.12) in toto",
+   "page": 35,
+   "reason": "Broadly accurate."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The same became entirely insignificant",
+   "page": 30,
+   "reason": "Letter and recoveries described accurately."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated beyond arrest date."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dated 3.1.2006... 10.12.2009",
+   "page": 12,
+   "reason": "Dates match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dr. S. Gopakumaran Nair, T.G. Narayanan Nair, K.N. Madhusoodhanan for the Appellant",
+   "page": 12,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A-5 is still absconding.",
+   "page": 15,
+   "reason": "Matches."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant raised this issue for the first time before the High Court",
+   "page": 21,
+   "reason": "Accurate summary."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appeal dismissed.",
+   "page": 35,
+   "reason": "Matches."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no one apart from the appellant could have committed the murder",
+   "page": 17,
+   "reason": "Matches."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no blood group could be detected",
+   "page": 17,
+   "reason": "Matches."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 27,
+   "reason": "Principles correctly listed."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cases are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing discussion."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  }
+ }
+}

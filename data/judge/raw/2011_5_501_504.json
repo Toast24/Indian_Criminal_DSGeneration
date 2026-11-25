@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "Go Pal v. State of Karnataka",
+   "quote": "GO PAL v. STATE OF KARNATAKA",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "1",
+   "quote": "the appellant - Gopal challenges his conviction",
+   "page": 3,
+   "reason": "Single accused appellant is identified throughout."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "he poured kerosene on the body of his wife",
+   "page": 3,
+   "reason": "Accused is referred to as male (his wife, he)."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Female",
+   "quote": "his wife Mallavva",
+   "page": 3,
+   "reason": "Victim is the accused's wife, a female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the victim."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": "Spouse",
+   "quote": "his wife Mallavva",
+   "page": 3,
+   "reason": "Accused is the victim's husband."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "conviction under Section 302 I.P.C.",
+   "page": 3,
+   "reason": "Conviction under s.302 IPC for killing by burning supports murder category."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC s.302",
+   "quote": "conviction under Section 302 I.P.C.",
+   "page": 3,
+   "reason": "Section 302 IPC is the provision applied."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "Kerosene",
+   "quote": "poured kerosene on her body and set her ablaze",
+   "page": 3,
+   "reason": "Kerosene was the means used to burn the victim."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Dying declaration; medical evidence (PW-5 doctor); forensic evidence (FSL Report, kerosene residue on garments)",
+   "quote": "We have seen the FSL Report - Exhibit P-25",
+   "page": 4,
+   "reason": "Dying declaration and medical evidence are right, but 'recovery' is not stated; FSL report evidence is omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted under Section 302",
+   "quote": "The trial court convicted the appellant under Section 302",
+   "page": 1,
+   "reason": "Trial court conviction under s.302 is stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Upheld the conviction",
+   "quote": "The High Court upheld the same.",
+   "page": 1,
+   "reason": "High Court upheld the conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "convicted",
+   "quote": "Dismissing the appeal",
+   "page": 1,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "Murder under Section 302",
+   "quote": "it is the accused and accused alone who has committed this offence",
+   "page": 4,
+   "reason": "Court found accused committed the offence under s.302."
+  },
+  "imprisonment_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state any sentence or its type."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No term of imprisonment is mentioned in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned, so null is appropriate."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": "The accused poured kerosene on his wife and set her on fire; she died of burns after dying declaration and FSL evidence.",
+   "quote": "the presence of kerosene residue on the inner and outer garments provides strong corroboration",
+   "page": 4,
+   "reason": "Facts match the judgment and do not reveal the court's outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Punishment range is not in the judgment; it comes from outside knowledge."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": "the victim succumbed to the burn injuries",
+   "page": 1,
+   "reason": "Victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Death caused by burn injuries",
+   "quote": "the victim succumbed to the burn injuries",
+   "page": 1,
+   "reason": "Death from burn injuries is stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": "One offence charged and upheld",
+   "quote": "convicted the appellant under Section 302",
+   "page": 1,
+   "reason": "Only a single s.302 conviction is discussed."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is discussed; the Rs.100 dispute is not a loss from the offence."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes a sudden altercation; no planning is stated."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Dispute over Rs.100 demanded back; accused angry when wife refused to return ration",
+   "quote": "the accused became angry, tied her hands and poured kerosene",
+   "page": 3,
+   "reason": "The judgment does identify a motive: the money demand and the wife's refusal."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "Dying declaration as sole basis, corroborated by kerosene residue on garments and FSL report",
+   "quote": "this dying declaration can be made the sole basis for the conviction",
+   "page": 3,
+   "reason": "Accurately reflects the evidence the court accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "Hostile witnesses who carried deceased to hospital did not undermine the case",
+   "quote": "that may not be an escape route for the accused",
+   "page": 4,
+   "reason": "Court's treatment of hostile witnesses is accurately summarised."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is mentioned."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Custody period is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Dates of offence: 29.12.1998; High Court judgment: 03.11.2003; Supreme Court decision: April 19, 2011; trial court date not stated",
+   "quote": "Judgment & Order dated 03.11.2003 of the High Court of Karnataka",
+   "page": 2,
+   "reason": "The 03.11.2003 date is the High Court judgment, not the trial judgment; offence and SC dates are correct."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Ram Lal Roy for the Appellant; Gurudatta Ankolekar, Azeem Kalebudde, V.N. Raghuparthy for the Respondent",
+   "quote": "Ram Lal Roy for the Appellant.",
+   "page": 2,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Police officer (PW-13) recorded dying declaration; trial completed; FIR and charge sheet not mentioned",
+   "quote": "PW-13 PSI Ravi came there and recorded her dying declaration",
+   "page": 3,
+   "reason": "FIR and charge sheet filing are not stated in the judgment; trial completion is supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "Investigating officer did not get the second dying declaration recorded by a Magistrate",
+   "quote": "the investigating officer did not make any attempt to get recorded the second dying declaration",
+   "page": 4,
+   "reason": "Matches the procedural lapse noted by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial court convicted under s.302; High Court upheld; Supreme Court dismissed appeal",
+   "quote": "Dismissing the appeal",
+   "page": 1,
+   "reason": "Appeal progression is accurately stated."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution case: accused poured kerosene on wife and set her on fire; dying declaration recorded and endorsed by doctor",
+   "quote": "The prosecution case was that the appellant poured kerosene on the body of his wife",
+   "page": 1,
+   "reason": "Describes the prosecution case accurately but the judgment does not report counsel's arguments on sufficiency."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "Investigating officer did not get the second dying declaration recorded by a Magistrate",
+   "quote": "Mr. Ram Lal Roy... pointed out that the investigating officer did not make any attempt",
+   "page": 4,
+   "reason": "Accurately reflects the defence point raised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Dying declaration can be the sole basis for conviction when corroborated and found reliable",
+   "quote": "can be made the sole basis for the conviction of accused is a correct inference",
+   "page": 3,
+   "reason": "Principle applied matches the court's reasoning with kerosene corroboration."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment contains no sentencing discussion."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": "We find no merit in this appeal. It is, accordingly, dismissed.",
+   "page": 4,
+   "reason": "No other sentencing order is stated; appeal simply dismissed."
+  }
+ }
+}

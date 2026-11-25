@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's caption, Prem Kumar Gulati v. State of Haryana and another."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two appellants whose liability is decided: Mahender Singh and Prem Kumar Gulati."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The two accused whose liability is decided are both male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence statement says the husband was working at a flour mill; the value attributes this correctly."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on the accused's wealth or class appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment mentions a 2001 case compromised via panchayat but states no prior conviction; Not stated is supported."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is a married woman, Rajni, referred to as female throughout."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dying declaration records the victim as aged 28 years."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victim is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Husband, brother-in-law, and alleged illicit relations and prior disputes are all described in the judgment."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charged under s.302 IPC, with the death of the victim by burning."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states s.302/498-A read with s.34, Indian Penal Code."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Kerosene oil poured and set alight is the method described."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dying declaration, medical, father's and brother's testimony, investigation evidence and defence child witness all appear."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Repeated dowry harassment, prior panchayat-settled incidents, and no attempt made to extinguish the fire (as recorded in the dying declaration and testimony)",
+   "quote": "None made attempt to extinguish fire.",
+   "page": 4,
+   "reason": "Court records aggravating facts such as dowry harassment and no attempt to extinguish the fire, so 'None noted' understates them."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts about the accused are noted by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted all three; life and Rs.5,000 under s.302, one year RI and Rs.500 under s.498A, each accused."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed the appeal and upheld the trial judgment; date discrepancy is accurately flagged."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "convicted (Mahender Singh); acquitted (Prem Kumar Gulati)",
+   "quote": "dismiss Criminal Appeal No. 1423 of 2009 and uphold the conviction of Mahender Singh",
+   "page": 17,
+   "reason": "Single value hides that the brother-in-law was acquitted while the main accused was convicted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Main accused's conviction upheld; brother-in-law acquitted, as the value states."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment for the main accused under s.302 is the final sentence type."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "1 (one year RI under s.498A, which stands with the upheld conviction)",
+   "quote": "rigorous imprisonment for one year and fine of Rs. 500/-under Section 498A",
+   "page": 7,
+   "reason": "Null ignores the one-year RI under s.498A that accompanied the upheld conviction."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "5000 (s.302); 500 (s.498A)",
+   "quote": "imposed a fine of Rs.5,000/-under Section 302 read with Section 34 IPC",
+   "page": 6,
+   "reason": "Only the s.302 fine is given; the Rs.500 fine under s.498A was also imposed and upheld."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Summary should avoid pronouns for the accused, e.g. 'the husband' rather than 'he' and 'him'",
+   "quote": "she quarrelled with him over it, and that after drinking liquor he beat her",
+   "page": 4,
+   "reason": "Summary is otherwise accurate and within length, but uses gender pronouns ('him', 'he') for the accused husband."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the statutory maximum or minimum punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died from the burns, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death from about 50% ante-mortem burns and superficial deep burns across the body are both recorded."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two sections charged (s.302 and s.498A, each r/w s.34); conviction of the main accused upheld on both."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is described."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court does not discuss premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Alleged motive of illicit relationship and dowry harassment is marked alleged, and the court did not separately decide it."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on the truthful and reliable dying declaration and found sufficient evidence against the main accused."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted the dying declaration, found no corroboration against brother-in-law, and did not assess the child witness."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is noted by the court."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody period is stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is stated in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence date, trial judgment, HC date (with header discrepancy) and SC date all match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for the appellants and the State match the judgment's listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR based on dying declaration, investigation completed, only main accused arraigned, others added under s.319, trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "None noted",
+   "quote": "Prem Kumar Gulati and Smt. Bimla alias Nirmla were summoned to face trial along with other accused Mahender, as additional accused, by invoking the provisions of Section 319",
+   "page": 5,
+   "reason": "Court describes the s.319 addition but does not flag it as a lapse; 'None noted' is the supported value."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction of all three, HC dismissal, SC upholding main accused's conviction and acquitting brother-in-law, all match."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dying declaration sufficiency, narrative form citing Shariff, father's reliability and same-building residence all match the State's arguments."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Innocence of brother-in-law, vague dying declaration, no eyewitness, child witness disbelief and past-litigation motive are all raised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dying declaration as sole basis subject to close scrutiny, no q&a requirement, and benefit of doubt for co-accused match the reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Godhu, K. Ramachandra Reddy, Kali Ram, Khushal Rao, Harbans Singh, Tapinder Singh and Lallubhai are all relied on by the court."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court gives no sentencing rationale; Not applicable is supported."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court weighs no mitigating factors itself."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court weighs no aggravating factors itself in sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Brother-in-law ordered released forthwith and main accused's appeal dismissed, as stated."
+  }
+ }
+}

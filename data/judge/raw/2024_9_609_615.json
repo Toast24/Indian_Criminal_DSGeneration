@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Five individuals, namely, Laadkunwar Bai, Jitendra Singh, Nirbhay Singh @ Rajesh Mama, Meharban Singh and the appellant",
+   "page": 3,
+   "reason": "Judgment states five individuals were prosecuted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "prompting him to file the present appeal; Laadkunwar Bai and Jitendra Singh are the wife and son",
+   "page": 4,
+   "reason": "Appellant is male by pronoun; co-accused Laadkunwar Bai is a female relation, so mixed is supported."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "prompting him to open the door",
+   "page": 4,
+   "reason": "Victim Narayan Singh is referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant is not a family member; described as an allegedly hired killer",
+   "quote": "The remaining two persons, namely, Nirbhay Singh and the appellant... are allegedly hired killers.",
+   "page": 3,
+   "reason": "Judgment does not use 'stranger'; it says the appellant is an alleged hired killer, not related to the victim."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "prosecuted for the murder of Narayan Singh",
+   "page": 3,
+   "reason": "Offence is murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.302, 34 and 120B; Arms Act s.25(1-B)(A)",
+   "quote": "Sections 302, 34 and 120B of the Indian Penal Code, 1860, and Section 25(1-B)(A) of the Arms Act, 1959",
+   "page": 3,
+   "reason": "Value omits section 120B IPC, which the judgment lists."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fired from the country-made pistol",
+   "page": 4,
+   "reason": "Weapon was a country-made pistol."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The case against the appellant... rests entirely on circumstantial evidence",
+   "page": 4,
+   "reason": "Circumstantial evidence, recovery and ballistic report are all relied on."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "No confession by the appellant; co-accused Nirbhay Singh's disclosure statement (Exhibit P-35) led to recovery",
+   "quote": "the disclosure statement (Exhibit P-35) provided by the co-accused, Nirbhay Singh (since deceased)",
+   "page": 5,
+   "reason": "A disclosure statement by a co-accused exists; 'None' omits it, though no appellant confession is stated."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On 30.11.2017, the trial court acquitted Laadkunwar Bai and Meharban Singh. However, ... the appellant... were convicted.",
+   "page": 3,
+   "reason": "Appellant was convicted by the trial court."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction upheld",
+   "quote": "the conviction of the appellant, Santosh @ Rajesh @ Gopal, was upheld",
+   "page": 4,
+   "reason": "High Court upheld the appellant's conviction; 'Not applicable' contradicts this."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeal allowed; conviction set aside",
+   "quote": "We, therefore, allow the present appeal and set aside the conviction of the appellant",
+   "page": 7,
+   "reason": "Judgment sets aside conviction; it does not expressly use the term 'acquitted'."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant... may be guilty under Section 201 of the IPC, the evidence... is insufficient",
+   "page": 7,
+   "reason": "No offence is finally established; murder conviction was not sustained."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment is imposed in this judgment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts match the judgment and do not reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state punishment range; the 7-10 year figure has no support."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Narayan Singh... striking Narayan Singh in the chest, and causing him to fall",
+   "page": 4,
+   "reason": "Murder was completed with the victim's death."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the murder of the victim, Narayan Singh",
+   "page": 7,
+   "reason": "Death of the victim is the harm."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charged under ss.302, 34, 120B IPC and s.25(1-B)(A) Arms Act; conviction set aside",
+   "quote": "for offence(s)punishable under Sections 302, 34 and 120B of the Indian Penal Code, 1860, and Section 25(1-B)(A) of the Arms Act, 1959",
+   "page": 3,
+   "reason": "Five refers to accused, not offences; no offence was upheld for the appellant."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution alleged appellant was a hired killer; no premeditation finding stated",
+   "quote": "are allegedly hired killers",
+   "page": 3,
+   "reason": "Hired-killer allegation implies planning; 'Not stated' ignores it, though no premeditation finding is made."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "This is an inculpatory fact.",
+   "page": 5,
+   "reason": "The ballistic report linking pistol and bullet is identified as inculpatory."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There are no eyewitnesses to the crime, implicating the appellant.",
+   "page": 4,
+   "reason": "Judgment confirms no eyewitnesses implicate the appellant."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the appellant is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant... was granted bail by this Court on suspension of sentence, vide order dated 08.04.2024.",
+   "page": 7,
+   "reason": "Bail order and cancellation of sureties are stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence date 13.11.2011; trial court judgment 30.11.2017; High Court judgment 18.10.2022; Supreme Court judgment 19.09.2024",
+   "quote": "On 30.11.2017, the trial court acquitted Laadkunwar Bai and Meharban Singh.",
+   "page": 3,
+   "reason": "Trial judgment date is 30.11.2017; 18.10.2022 is the High Court decision."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ms. Shweta Garg, Ashish Gopal Garg, Rakesh Garg, Advs. for the Appellant",
+   "page": 3,
+   "reason": "Counsel names match the appearance section."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "chargesheet arising out of First Information Report No. 640/2011",
+   "page": 3,
+   "reason": "FIR registered and chargesheet filed; trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is discussed."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "During the pendency of the appeal, Nirbhay Singh @ Rajesh Mama passed away, resulting in the dismissal of his appeal as abated.",
+   "page": 3,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is also the prosecution's case that the said discovery and recovery is attributable to the disclosure statement",
+   "page": 5,
+   "reason": "Prosecution case on recovery, disclosure statement and section 8 is accurately reflected."
+  },
+  "defence_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the absence of any corroborative evidence directly linking the appellant to the crime introduces a significant gap",
+   "page": 6,
+   "reason": "No defence submissions are recorded; this reasoning is the Court's own finding."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a finding of guilt is justified only if all the incriminating facts and circumstances are incompatible with the accused's innocence",
+   "page": 4,
+   "reason": "Accurately summarises the circumstantial evidence principle applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Hanumant v. State of Madhya Pradesh; Sharad Birdhichand Sharda; Perumal Raja; Mohmed Inayatullah; State of Maharashtra v. Suresh",
+   "page": 2,
+   "reason": "All cited cases appear in the judgment's case law list."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing is imposed, so no rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The bail bonds and sureties furnished by the appellant... shall be treated as cancelled.",
+   "page": 7,
+   "reason": "Bail bond cancellation is accurately recorded."
+  }
+ }
+}

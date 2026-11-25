@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Header reads 'STATE OF PUNJAB v. JAGGA SINGH ETC.', matching the extracted title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two appellants and five respondents, seven accused in total, per the Court's account of the sessions case."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No explicit gender statement; only pronouns like 'his garments' are used, so 'Not stated' is defensible."
+  },
+  "accused_age": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (witnesses described the two visitors as aged about 30 and 40, unnamed individually)",
+   "quote": "Two persons aged about 30 and 40 respectively wrapping themselves in Chaddars were standing outside",
+   "page": 4,
+   "reason": "Judgment gives approximate ages of the two visitors, later identified as accused, though not individually; 'Not stated' omits this."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment records accused Charanjit Singh as working as driver, as stated in the prosecution case."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth, poverty or class of the accused appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Satnam Singh is male, referred to with 'his' throughout."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victim is described."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence contention that accused was known to the victim's mother and worked under the partnership is accurately labelled as defence version."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under IPC s.302."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment cites IPC s.302, s.120-B and Arms Act s.25."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two .303 country-made pistols with live cartridges were recovered and used, per the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, fingerprint, medical, recovery and identification evidence are all discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Alleged extra-judicial confession to PW9 was not relied on as uncorroborated, per the High Court's view the Court accepted."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating facts are noted by the Court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted by the Court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the judgment's account of two s.302 plus s.25 Arms Act convictions and five s.302 r/w s.120-B convictions with stated sentences."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court allowed five acquittal appeals and dismissed two appeals, confirming conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "convicted (for the two appellants); acquitted (for the five accused whose acquittal was upheld)",
+   "quote": "In the result all the criminal appeals are dismissed.",
+   "page": 11,
+   "reason": "Single value 'convicted' ignores that five accused were acquitted and the acquittals stood."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two accused stand convicted under s.302 IPC and Arms Act s.25; five acquittals upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final sentence for the convicted accused includes life imprisonment for murder."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Null is appropriate since the principal sentence is life, not a fixed term."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "Rs.2000 for IPC s.302 and Rs.1000 for Arms Act s.25 for each of the two convicted accused",
+   "quote": "to pay a fine of Rs.1000/- each with default sentence for the offence punishable under the Arms Act",
+   "page": 3,
+   "reason": "Only the s.302 fine of Rs.2000 is recorded; the Rs.1000 Arms Act fine is omitted."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary covers the incident, identification, fingerprint, autopsy and recovery evidence without names or outcome, and stays within the evidence."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory maximum or minimum punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim was shot and died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death from firearm wound to left chest perforating lung and heart, per autopsy."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three sections charged; two accused's convictions under s.302 and Arms Act s.25 stand."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no evidence of conspiracy; the phone arrangement is noted as prosecution fact without a premeditation finding."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court does not identify or accept any motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness testimony, fingerprint match, identification after arrest and autopsy evidence are all relied on by the Court."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects the Court's findings on PW1, PW2, the wedding alibi, PW9 and PW3."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court made no finding on post-offence conduct; 'Not stated' is accurate."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives arrest dates but no custody duration."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The bail granted to the appellant/accused Surjit Singh in Criminal Appeal no. 2328 of 2009 shall be cancelled",
+   "page": 11,
+   "reason": "Bail cancellation for Surjit Singh is stated; other bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "passed by the High Court of Punjab and Haryana at Chandigarh. [page 3, dated 17.09.2007]",
+   "page": 3,
+   "reason": "Dates match page 3, though the page 2 header gives the High Court order as 17.09.2001; the conflict is unflagged."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "V. Madhukar, AAG represents the State; the other counsel are listed for the appearing parties without sides."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registration, completed investigation, charge sheet, 25 witnesses and completed trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court notes no procedural lapse and rejects the s.5 Identification of Prisoners Act objection as devoid of merit."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records only that the State's submissions were heard, with no detailed arguments."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Listed defence contentions (unnamed in complaint, no TIP, fingerprint custody, wedding alibi) all appear in the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Principles on credibility, omission in complaint, corroboration by fingerprints and benefit of doubt match the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Mohd. Aman (1997) 10 SCC 44 is cited and distinguished, as stated."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appeals were dismissed without a separate sentencing discussion, so 'Not applicable' fits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighs no mitigating factors itself."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighs no aggravating factors itself."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The bail granted to the appellant/accused Surjit Singh ... shall be cancelled and he is directed to surrender",
+   "page": 11,
+   "reason": "Bail cancellation and surrender direction for Surjit Singh are recorded in the judgment."
+  }
+ }
+}

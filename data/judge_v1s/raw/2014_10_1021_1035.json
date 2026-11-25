@@ -1,0 +1,389 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single accused-appellant throughout the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is male; the deceased is his wife."
+  },
+  "accused_age": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "one Smt. Leelavati ... (at the age of 28 years)",
+   "page": 3,
+   "reason": "The 28 years refers to the deceased; the accused's age is not given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not stated; only community (Kodava) is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "partially_correct",
+   "correct_value": "Kodava community (caste not stated)",
+   "quote": "We belong to kodava community.",
+   "page": 5,
+   "reason": "Judgment states Kodava community, not caste; the label is a loose fit."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is a woman, the deceased wife."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased was at the age of 28 years."
+  },
+  "victim_caste": {
+   "verdict": "partially_correct",
+   "correct_value": "Kodava community (caste not stated)",
+   "quote": "the deceased and the accused both belonged to Kodava community",
+   "page": 7,
+   "reason": "Judgment gives community, not caste."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused was the deceased's husband."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry death under s.304-B IPC is the central offence."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches sections of IPC and Dowry Prohibition Act relied on for conviction."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Kerosene (means of self-immolation); no weapon as such",
+   "quote": "after pouring kerosene on herself",
+   "page": 6,
+   "reason": "Kerosene used for self-immolation is omitted; 'None mentioned' is incomplete."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Medical (postmortem), recovery (ornaments), oral testimony of relatives about dowry demand and cruelty; no eyewitness to the act",
+   "quote": "PWs 1, 2 and 3 ... have consistently deposed about the demand and acceptance of dowry",
+   "page": 14,
+   "reason": "Relatives testified to prior complaints and demands, not as eyewitnesses to the burning."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is recorded; information led to recovery only."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court acquitted the accused."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court set aside acquittal and convicted."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry death under s.304-B upheld along with related offences."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fixed term of 7 years imposed under s.304-B."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court sentenced 7 years for s.304-B."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs 15000 imposed for Dowry Prohibition Act s.3 offence."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution alleged cruelty and dowry harassment; the accused denied it and defence disputed it.",
+   "quote": "Further case of the prosecution is that before marriage",
+   "page": 3,
+   "reason": "Presents contested prosecution allegations of cruelty as established fact; not neutral. Otherwise facts accurate."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shall be punished with imprisonment for a term which shall not be less than seven years but which may extend to imprisonment for life",
+   "page": 9,
+   "reason": "Matches statutory punishment text for s.304-B quoted in judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death occurred, so offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states 97% ante-mortem burns and death due to shock."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Multiple offences: DPA ss.3, 4, 6; IPC ss.498-A and 304-B (no count given)",
+   "quote": "convicted the appellant for the offences under Sections 3, 4 and 6",
+   "page": 6,
+   "reason": "Sections listed correctly, but 'charged' and 'upheld all charges' wording goes beyond the text."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Rs 15,000 cash dowry and gold ornaments, recoverable on default",
+   "quote": "return the dowry amount of Rs 15000/- as well as the gold ornaments",
+   "page": 6,
+   "reason": "Judgment orders return or recovery of dowry cash and gold ornaments; not 'not applicable'."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is stated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry demand and harassment is the prosecution's motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on consistent testimony of PWs 1-3 on dowry demand and cruelty."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court noted PWs 1-3 consistently deposed; it did not expressly assess credibility or answer bias arguments.",
+   "quote": "have consistently deposed about the demand and acceptance of dowry",
+   "page": 14,
+   "reason": "Credibility and reliability are inferred; the court did not expressly address bias objections."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant reported death to SHO; later pledged deceased's ornaments, which he led police to recover.",
+   "quote": "appellant himself informed about the unnatural death of the deceased to the SHO",
+   "page": 4,
+   "reason": "Judgment states reporting and pledging of ornaments; 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Arrest date given but custody duration not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "dates_of_offence": "16.3.1990",
+    "trial_judgment": "Not stated",
+    "high_court_decision": "25.08.2005",
+    "supreme_court_decision": "14.10.2014"
+   },
+   "quote": "judgment and order dated 25.08.2005 of the High Court of Karnataka",
+   "page": 2,
+   "reason": "25.08.2005 is the High Court judgment date, not trial judgment; trial date is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registered, chargesheet filed, and trial completed per judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence alleged irregularities: independent witnesses not examined or cited, recovery evidence inadequate; court made no finding of irregularity.",
+   "quote": "the independent witnesses were not even cited in the chargesheet",
+   "page": 7,
+   "reason": "Value omits defence-raised irregularities, though court made no finding of irregularity."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Acquittal, High Court conviction, and dismissed Supreme Court appeal match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects prosecution's dowry, cruelty, and burns arguments."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence: no dowry harassment, close relatives biased, dowry was gift, recovery not proved; non-conceiving reason was accused's s.313 statement.",
+   "quote": "Even after 9 months of marriage my wife did not conceive.",
+   "page": 5,
+   "reason": "Non-conception was the accused's statement, not a defence argument; custom and recovery points are omitted."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately describes s.304-B presumption and ss.113-A/113-B Evidence Act."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bansi Lal, Thanu Ram, and Rajesh Bhatnagar citations match."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "High Court sentenced the accused-appellant for the offence under Section 304-B, IPC to undergo imprisonment for a period of 7 years",
+   "page": 6,
+   "reason": "Judgment gives no sentencing reasoning; rebuttal of presumption is not expressly addressed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating factors; 'None' is an unsupported finding."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss aggravating factors; 'None' is unsupported."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Return of dowry and ornaments, with recovery as fine on default, matches the judgment."
+  }
+ }
+}

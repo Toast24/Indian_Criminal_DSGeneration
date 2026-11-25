@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states all four persons were put to trial."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to with male pronouns, consistent with 'Male'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Ajgar Ibrahim Shaikh aged 22 years, Occupation Turner",
+   "page": 9,
+   "reason": "Age 22 belongs to the first informant PW 1, not the accused; no accused age is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused religion is not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused caste is not stated."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Accused said they were workers of Hindi Ekta Mandal (s.313 statement); otherwise Not stated",
+   "quote": "they were workers of one Hindi Ekta Mandal",
+   "page": 11,
+   "reason": "'Turner' is the first informant's occupation, not the accused's."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Abbas Baig is referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Ajgar Ibrahim Shaikh aged 22 years",
+   "page": 9,
+   "reason": "The 22 years is the first informant's age; the deceased's age is not given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "I met my friend Abbas Baig (deceased)",
+   "page": 9,
+   "reason": "Judgment does not describe accused as strangers; the deceased is described as a friend of the first informant only."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction is for murder under Section 302 read with 34."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under Section 302 r/w 34 IPC is supported."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sickle and sword are the weapons used, per the prosecution case."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical (post mortem) and recovery evidence are all relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is identified; only statements leading to discovery of weapons are mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on dangerous weapons, nine blows, and the unarmed, helpless victim."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Assumed arguendo: incident in heat of moment and fight sudden (rejected by Court)",
+   "quote": "Assuming for the moment that the incident had occurred in the heat of the moment and fight was also sudden",
+   "page": 41,
+   "reason": "Court assumed heat-of-moment and sudden fight as possible mitigation before rejecting it, so 'None noted' omits this."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted both appellants under s.302 r/w 34 and imposed life imprisonment and fine."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court dismissed the appeal and affirmed conviction and sentence",
+   "quote": "the High Court dismissed the criminal appeal referred to above, and thereby affirmed the order of conviction",
+   "page": 8,
+   "reason": "High Court outcome is stated in the judgment; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held the case falls under Section 302, not Exception 4."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment",
+   "quote": "sentencing them to suffer life imprisonment",
+   "page": 8,
+   "reason": "Sentence was life imprisonment, not a fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "sentencing them to suffer life imprisonment",
+   "page": 8,
+   "reason": "No fixed term of 20 years appears; sentence is life imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs. 1000/- each is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Accused and deceased relationship not stated; head bleeding was the first informant's injury; victim's injuries were to left paw, wrist, right hand and right shoulder; no outcome should be revealed",
+   "quote": "bleeding on his head, left paw, wrist, right hand, and right shoulder",
+   "page": 10,
+   "reason": "Head injury was PW1's, not the victim's; 'strangers' is unsupported; the summary also reveals the Supreme Court's outcome."
+  },
+  "offence_severity": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment",
+   "quote": "sentencing them to suffer life imprisonment",
+   "page": 8,
+   "reason": "Death sentence is not imposed or mentioned as the sentence."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died, so offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Severe assault causing death is supported by post mortem evidence."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Four charges framed (s.302, 323, 324, 504 r/w 34); conviction upheld only under s.302 r/w 34",
+   "quote": "convicting both the appellants herein for the offence under Section 302 read with Section 34",
+   "page": 8,
+   "reason": "Only one conviction (s.302 r/w 34) was upheld; '2 upheld' is not supported."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation is found; the fight is treated as sudden."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No specific motive is identified beyond the verbal altercation."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted the consistent oral evidence of all three eyewitnesses."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Concurrent finding that the witnesses are reliable is stated."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Assailants ran away when people assembled; appellants made statements leading to discovery of weapons",
+   "quote": "all the four assailants ran away",
+   "page": 10,
+   "reason": "Flight and discovery of weapons after statements are stated, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail orders and cancellation of bail bonds are stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Incident 01.04.2001; FIR lodged 02.04.2002 (as printed); conviction 12.03.2003; High Court 02.03.2009; SC decided 29.03.2023",
+   "quote": "The FIR was lodged on 2.04.2002",
+   "page": 8,
+   "reason": "Lists dates but no duration; omits the 01.04.2001 incident date and the 2001 Sessions Case."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance note."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Panchnamas, post mortem, FSL and chargesheet steps are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court records no procedural irregularity as a finding; defence points were arguments only."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary of the prosecution case and its reliance on eyewitnesses is accurate."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued PW1's presence was doubtful, panch witnesses failed to support recovery, and Exception 4 or s.304 Part I applied",
+   "quote": "the very presence of the first informant PW 1 Asgar Shaikh is doubtful",
+   "page": 14,
+   "reason": "Omits doubt over PW1's presence, panch witness failure, and the alternative s.304 Part I plea."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Burden of proof on prosecution and all-ingredients rule for Exception 4 are stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Listed authorities appear in the judgment; Virsa Singh is cited but omitted, a minor gap."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Court affirmed conviction under s.302 because injuries were caused by dangerous weapons on vital parts; no separate sentencing reasoning given",
+   "quote": "there is no escape from the conclusion that it is a case of Section 302 of the IPC",
+   "page": 41,
+   "reason": "Reasoning concerns conviction under s.302, not sentence; court did not separately justify the sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no mitigating factors in its weighing."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Dangerous weapons on vital parts; nine blows on unarmed, helpless victim",
+   "quote": "the fact that the appellants inflicted as many as nine blows with a dangerous weapon on the deceased who was unarmed and was helpless",
+   "page": 41,
+   "reason": "Heat of moment and sudden fight were assumed arguendo as mitigating, not aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Surrender, judicial custody to serve sentence, and cancellation of bail bonds are ordered."
+  }
+ }
+}

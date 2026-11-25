@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the case name in the page 3 header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant/contemnor is the subject of the proceedings."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is referred to with male pronouns, e.g. 'his' withdrawal and 'him'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the advocate appears in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is described as the advocate of the complainant."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "The complainant is also not seeking any disciplinary action. His prayer is confined to the refund",
+   "page": 3,
+   "reason": "Complainant is referred to with male pronoun 'his', so gender is stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complainant's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Advocate and client (complainant was the appellant's client)",
+   "quote": "for professional services rendered to the de facto complainant appropriate fees had been charged",
+   "page": 2,
+   "reason": "Judgment states the advocate rendered professional services to the complainant, establishing the relationship."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Proceedings are for criminal contempt."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches section 2(c), 10 and 15 of the Contempt of Courts Act and Article 215."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is involved."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Affidavit filed by appellant; Bar Council of Delhi order dated 30.09.2006; complainant's allegations",
+   "quote": "except the opportunity of filing an affidavit",
+   "page": 2,
+   "reason": "'Written records' is vague; judgment specifically mentions affidavit and Bar Council order."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are identified."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant complied with refund direction; disciplinary authority completely absolved him",
+   "quote": "the appellant has complied with the direction to refund the money, the conviction and sentence imposed on the appellant is set aside",
+   "page": 3,
+   "reason": "Court relied on refund compliance and disciplinary absolution as mitigating grounds."
+  },
+  "trial_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Additional Sessions Judge made a reference to the High Court; no conviction by trial court stated",
+   "quote": "Reference to High Court - High Court held him guilty of criminal contempt",
+   "page": 1,
+   "reason": "Conviction was by the High Court on reference, not by the trial court."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Convicted of criminal contempt; fine of Rs.2,000 and two-month suspension from practice",
+   "quote": "High Court held him guilty of criminal contempt",
+   "page": 1,
+   "reason": "High Court convicted the appellant and imposed fine and suspension."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appeal allowed and conviction and sentence set aside, consistent with acquittal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction was set aside, so no offence is established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment was imposed; only fine and suspension."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term was imposed."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "2000",
+   "quote": "Under the Contempt of Courts Act a fine of Rs.2,000/- was imposed",
+   "page": 1,
+   "reason": "Judgment states a Rs.2,000 fine was imposed, though later set aside."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "An advocate was accused by a former client, an NDPS accused, of excessive fees and withdrawal from the case; the Bar Council and disciplinary authority examined the complaint; the High Court made a contempt reference.",
+   "quote": "the conviction was later overturned due to procedural irregularities and the disciplinary authority's findings",
+   "page": 1,
+   "reason": "Summary reveals the appellate outcome, which neutral facts must not do; also overstates the Bar Council findings."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Severity is not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not applicable and not stated."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Number of offences is not stated."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Complainant alleged excessive fees of Rs.7.05 lakhs; refund of Rs.4 lakhs was directed",
+   "quote": "charged exorbitant fees to the tune of Rs. 7 .05 Lacs",
+   "page": 2,
+   "reason": "Judgment describes a claimed financial loss and a refund amount, so 'Not applicable' is wrong."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The accused's motive is not stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on the disciplinary authority's complete absolution of the appellant."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court did not assess credibility; complainant was an NDPS accused and the allegations were not shown proved, as appellant could not cross-examine",
+   "quote": "unless the allegations made by the de facto complainant who was an accused in a criminal case under the N.D.P.S. Act; had actually been established or proved in accordance with law",
+   "page": 2,
+   "reason": "Court made no credibility finding; it found no opportunity to cross-examine, so proof was lacking."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states appellant complied with the refund direction."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "High Court judgment dated 02.01.2007; Supreme Court judgment dated 26 July 2017",
+   "quote": "From the Judgment and Order dated 02.01.2007 of the High Court of Delhi",
+   "page": 1,
+   "reason": "Judgment dates are stated; the value wrongly says they are not."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the page 1 listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Investigation is not mentioned."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant not given opportunity to adduce evidence or cross-examine complainant; procedural safeguards not followed",
+   "quote": "the appellant was not granted such an opportunity except the opportunity of filing an affidavit",
+   "page": 2,
+   "reason": "Judgment identifies procedural lapses as a ground for setting aside the conviction."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: reference by Additional Sessions Judge (Not stated outcome); High Court: judgment dated 02.01.2007 in Crl. C. Ref. No. 2 of 2005, convicted; Supreme Court: appeal allowed",
+   "quote": "From the Judgment and Order dated 02.01.2007 of the High Court of Delhi at New Delhi in Cr!. C. Ref. No. 2 of2005.",
+   "page": 1,
+   "reason": "High Court decision and reference number are stated, so 'Not stated' for High Court is wrong."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "The main contention of the learned senior counsel appearing for the appellant",
+   "page": 2,
+   "reason": "The argument described was made by the appellant's counsel, not the prosecution, and no prosecution argument is recorded."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Conviction rested on complainant's unilateral version; appellant had no opportunity to adduce evidence or cross-examine; fees charged were appropriate",
+   "quote": "the whole conviction is based on the unilateral version of the complainant",
+   "page": 2,
+   "reason": "Omits the cross-examination and fee-appropriateness arguments; absolution point is the court's own reasoning."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court stated that in contempt proceedings the contemnor must be given an opportunity to establish innocence."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given for the imposed sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court cited disciplinary absolution and refund compliance."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Suspended from practice as advocate for two months under Article 215",
+   "quote": "under Article 215 of the Constitution of India the appellant was suspended from practice for a period of two months",
+   "page": 1,
+   "reason": "Judgment states a two-month suspension from practice was imposed."
+  }
+ }
+}

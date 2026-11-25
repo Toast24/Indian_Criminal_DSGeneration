@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's header on page 1."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Seven accused are named and convicted; judgment refers to 'all seven'."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to with male pronouns, e.g. Bhagat's 'his knife'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of any accused is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of any accused is mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not stated; only shop and college context appears."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status of accused is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only P.W.3's involvement in another murder case is mentioned, not an accused's record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Alok Chandana is referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "asked Vipin Singh Negi and Alok Chandana to withdraw their names from the election",
+   "page": 6,
+   "reason": "Judgment gives no relationship between accused and victim; 'Stranger' is not supported, though they were election rivals."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction is under Section 302 IPC, which is murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 read with s.149; s.148 (also charged under ss.147, 307, 323)",
+   "quote": "All the accused persons were also convicted under Section 148 of l.P.C.",
+   "page": 8,
+   "reason": "Omits Section 148, under which all accused were convicted."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Lathis, Knives, Khukries, Danda",
+   "quote": "armed with Lathis, Knives and Khukries; Dheeraj Kalra instantly caused head injury with a Danda",
+   "page": 6,
+   "reason": "Omits Danda, which the judgment names as a weapon used by Dheeraj Kalra."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "eyewitness, medical, recovery of blood-stained shirt only (weapon not recovered)",
+   "quote": "non-recovery of the weapon used by the accused appellants and recovery of the blood stained shirt after six days",
+   "page": 18,
+   "reason": "Recovery was only of the shirt; the weapon was not recovered, so 'recovery' is incomplete."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned; the judgment does not contradict 'None'."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as formal aggravating factors; court notes being armed with deadly weapons and injuries inflicted",
+   "quote": "were armed with deadly weapons",
+   "page": 18,
+   "reason": "Court only says common intention to kill 'cannot be ruled out'; it does not find it as an aggravating factor."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.302 r/w s.149 and imposed life imprisonment and Rs.10,000 fine."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court affirmed the conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed appeals, upholding conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under s.302 r/w s.149 upheld by the Supreme Court."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence was imprisonment for life."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is life imprisonment; no number of years is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs.10,000 on each accused is stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Neutral facts without the court's findings, e.g. the accused were members of an unlawful assembly, or that medical evidence supported the prosecution case.",
+   "quote": "were the members of unlawful assembly because their common object was to threaten and prevent",
+   "page": 18,
+   "reason": "Facts are accurate, but the court's findings on unlawful assembly and corroboration reveal reasoning and outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment and Rs.10,000 fine are stated as the sentence."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased died from injuries, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased succumbed to injuries and PW 1 was injured."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "All the accused persons were also convicted under Section 148 of l.P.C.",
+   "page": 8,
+   "reason": "Judgment gives no count of offences; seven refers to accused, not offences."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Common intention to kill might have arisen on the spur of the moment",
+   "quote": "the common intention to kill might have arisen on the spur of the moment",
+   "page": 19,
+   "reason": "Judgment says this 'might have arisen' and 'cannot be ruled out', not that it did."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Common object was to stop the deceased and others contesting college elections."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on medical evidence corroborated by eyewitness testimony to prove homicidal death."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held testimonies fully reliable, no improvement, and injured eyewitness given much credence."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is described."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "High Court cancelled the bail of the appellants",
+   "quote": "it cancelled the bail of the appellants affirming the conviction and sentence",
+   "page": 9,
+   "reason": "Judgment states the High Court cancelled the appellants' bail."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "dates_of_offence: 24.9.96; trial_judgment: Not stated; high_court_decision: 08.04.2011; supreme_court_decision: 2015 (OCR 'Mayos, 2015')",
+   "quote": "From the Judgment and Order dated 08.04.2011 of the",
+   "page": 4,
+   "reason": "08.04.2011 is the High Court judgment date, not the trial judgment; high_court_decision is wrongly 'Not stated'."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel lists for the accused and the State match the judgment's appearance section."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge-sheet was filed and trial was completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Non-recovery of weapon and shirt recovered after six days are both stated."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court confirmation, and Supreme Court dismissal are all supported."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution case as recorded: accused armed, demanded withdrawal, assaulted on refusal; medical and eyewitness evidence corroborated homicide; the court's own reasoning on common intention is not recorded as prosecution argument.",
+   "quote": "The prosecution witnesses have established the presence and participation of all the accused in the offence.",
+   "page": 16,
+   "reason": "Facts are right, but the common-intention reasoning is the court's conclusion, not a recorded prosecution argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence arguments on place of occurrence, credibility, medical evidence, common object, and falling on ground are recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court applied spur-of-moment common object and gave much credence to injured eyewitness testimony."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All three cases and citations match those relied upon in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as a separate sentencing rationale; conviction upheld on corroborated medical and eyewitness evidence",
+   "quote": "the deceased died a homicidal death",
+   "page": 18,
+   "reason": "Judgment gives no separate sentencing reasoning; it upholds conviction on evidence, not sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are recorded by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not formally stated; court notes accused armed with deadly weapons and injuries inflicted on the deceased",
+   "quote": "were armed with deadly weapons",
+   "page": 18,
+   "reason": "'None' conflicts with the court's reliance on deadly weapons and injuries to infer intent."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Sentences directed to run concurrently",
+   "quote": "the sentences were directed to run concurrently",
+   "page": 8,
+   "reason": "Judgment states the sentences were directed to run concurrently."
+  }
+ }
+}

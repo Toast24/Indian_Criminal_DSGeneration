@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two appellants are named and the case is against two accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to with male pronouns and as father and son."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the accused is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the accused is mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status of the accused is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Sadashiv is referred to as male, with a wife and an elder brother."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the appellants were also known to the witness whom he identified",
+   "page": 7,
+   "reason": "Judgment never describes accused as relatives; Manoj only visited the deceased's house, and PW-8 denied relation."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence charged and upheld is murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 r/w s.34; IPC s.506 r/w s.34; IPC s.325 (appellant No.2)",
+   "quote": "Appellant No.2 can at best be held guilty of causing grievous hurt to the deceased punishable under Section 325 of the IPC.",
+   "page": 11,
+   "reason": "Omits s.325 IPC, the provision applied to appellant No.2 on appeal."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sword and stone are both identified as weapons used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical, and recovery/seizure evidence are relied on; FSL report also supports."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned; accused denied charges under s.313."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are listed by the court as such."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are listed as such under this column."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under ss.302 and 506 r/w s.34 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court affirmed s.302/34 conviction and set aside s.506/34 conviction."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant No.1 convicted under s.302 IPC (upheld); appellant No.2 convicted under s.325 IPC and sentenced to time already undergone",
+   "quote": "The conviction of appellant No.2 is, however, altered from Section 302 read with Section 34 IPC to Section 325 IPC.",
+   "page": 11,
+   "reason": "Omits that appellant No.2's conviction was altered to s.325 IPC; 'convicted' alone is incomplete."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Section 302 IPC (appellant No.1); Section 325 IPC (appellant No.2)",
+   "quote": "Appellant No.2 can at best be held guilty of causing grievous hurt to the deceased punishable under Section 325 of the IPC.",
+   "page": 11,
+   "reason": "Only covers appellant No.1; appellant No.2's finally established offence is s.325 IPC."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "life imprisonment (appellant No.1); time already undergone (appellant No.2)",
+   "quote": "imprisonment for life besides a fine of Rs.10,000/- each for offence punishable under Section 302",
+   "page": 5,
+   "reason": "Sentence for appellant No.1 is life imprisonment, not a fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "imprisonment for life",
+   "page": 5,
+   "reason": "Judgment states life imprisonment; no 20-year term appears anywhere."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a fine of Rs.10,000/- each for offence punishable under Section 302 read with Section 34",
+   "page": 5,
+   "reason": "Trial court fine of Rs.10,000 each under s.302/34 is stated and upheld."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurately summarized without revealing the appellate outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death under s.302 and grievous hurt under s.325 accurately reflect the outcome."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence resulted in the deceased's death, so completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Crush injury, cut wounds, frontal and C2 vertebra fractures are documented in medical evidence."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged under ss.302 and 506 r/w s.34 IPC; s.506 conviction set aside by High Court; s.302 upheld for appellant No.1; s.325 for appellant No.2",
+   "quote": "guilt of the accused persons for offences punishable under Sections 302 and 506 read with Section 34 of the IPC",
+   "page": 5,
+   "reason": "Omits that the s.506 conviction was set aside and that the count was altered to s.325 for appellant No.2."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is mentioned in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation found; the court notes no pre-concert and a sudden fight."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive is the illicit relationship suspicion between Manoj and the deceased's wife."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted PWs 8, 18 and 16 and the supporting medical evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Credibility findings for PW-16, PW-8, PW-18 and presence at bus stand match the judgment."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants ran away from the spot after the incident, thinking the deceased was dead",
+   "quote": "After the incident, the appellants ran away from the spot thinking that Sadashiv was dead.",
+   "page": 8,
+   "reason": "Judgment states the appellants fled the scene, which is post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "nearly 3½ years",
+   "quote": "Appellant No.2 has been in jail for nearly 3Y:i years now",
+   "page": 11,
+   "reason": "Judgment says nearly 3½ years, not 3 years."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence date 30 August 2006; High Court judgment 15 November 2011; Supreme Court judgment 5 July 2013 (trial judgment date not stated)",
+   "quote": "on 30th August, 2006 at about 12 noon",
+   "page": 5,
+   "reason": "Lists 15.11.2011 as the trial judgment date, but that is the High Court's date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge-sheet was filed and trial completed, per the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary matches the prosecution case as accepted in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Counsel argued appellant No.2's role was restricted to throwing a stone, with no intention to kill and no pre-concert with appellant No.1",
+   "quote": "Learned Counsel for the appellants, however, argued that even though appellant-Manoj was alleged to have used the sword ... the role played by appellant No.2 was restricted to throwing a stone",
+   "page": 10,
+   "reason": "Motive points are the court's own observations, not counsel's arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Intention or shared intention for s.302 and proof beyond reasonable doubt are applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Altered s.325 conviction and time already served as sufficient is accurately described."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant No.2's limited role (throwing a stone), no intent to kill, and nearly 3½ years in custody",
+   "quote": "Appellant No.2 has been in jail for nearly 3Y:i years now which sentence should, in our opinion, suffice.",
+   "page": 11,
+   "reason": "Court considered appellant No.2's limited role and custody period as mitigating; 'None' is wrong."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant No.1 used a dangerous weapon (sword) to fatally injure the deceased in a gruesome assault",
+   "quote": "responsibility for the gruesome assault, cannot be shifted from Manoj who used a dangerous weapon like a Sword to fatally injury the deceased.",
+   "page": 11,
+   "reason": "Court expressly described the sword assault as gruesome and fatal, an aggravating factor."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant No.2 to be released if not required in any other case; fine on appellant No.2 unaltered",
+   "quote": "He shall be released from custody if not otherwise required in connection with any other case.",
+   "page": 11,
+   "reason": "Judgment orders release and leaves the fine unaltered, so 'None' is incorrect."
+  }
+ }
+}

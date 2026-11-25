@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "8 (tried); 5 appellants before the Supreme Court",
+   "quote": "In all, eight persons ... were put on trial",
+   "page": 9,
+   "reason": "Five is the number of appellants, but eight accused were tried; the value omits this."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused Rajeshwar Singh fired at the deceased",
+   "page": 10,
+   "reason": "Accused are male; the judgment refers to them as male persons throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Upendra Singh, the deceased, succumbed to the injuries",
+   "page": 10,
+   "reason": "The deceased, Upendra Singh, is male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the deceased or for PW-4 in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Land-dispute parties; closely related (per defence/appellant submission)",
+   "quote": "a series of proceedings and litigations ... between closely related parties",
+   "page": 13,
+   "reason": "Judgment describes closely related parties locked in a land dispute, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "murder of 'US'",
+   "page": 2,
+   "reason": "Primary offence is murder, with attempt to murder also charged."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.302/149, 307/149, 302, 307, 148, 147; Arms Act s.27",
+   "quote": "Sections 302 and 307 of the Indian Penal Code ... Section 27 of the Arms Act",
+   "page": 9,
+   "reason": "Omits ss.147 and 148 IPC and Arms Act s.27 convictions mentioned in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "armed with lethal weapons such as spear, farsa and lathi",
+   "page": 10,
+   "reason": "Gun, spear, farsa and lathi are all identified in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Medical, eyewitness",
+   "quote": "Dr.Kamta Prasad Rai (PW-7) ... Dr.Vijai Pratap Singh (PW-6)",
+   "page": 10,
+   "reason": "Medical and eyewitness evidence are present; circumstantial evidence is not discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they were determined to teach a lesson to the complainant party",
+   "page": 18,
+   "reason": "Common object and use of lethal weapons are identified as aggravating features."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The learned Additional Sessions Judge convicted accused Rajeshwar Singh",
+   "page": 9,
+   "reason": "Trial court convicted and sentenced the accused."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeals dismissed; convictions affirmed",
+   "quote": "the High Court has dismissed all the appeals",
+   "page": 9,
+   "reason": "Value says not applicable, but the High Court dismissed the appeals."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we do not find any merit in the appeal and the same is dismissed",
+   "page": 23,
+   "reason": "Supreme Court dismissed the appeal, upholding convictions."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the murder of Upendra Singh and injuries to PW-4 were immediately connected with their common object",
+   "page": 18,
+   "reason": "Murder and attempt to murder under s.149 were upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment (s.302/149 for appellants), with concurrent terms",
+   "quote": "rigorous imprisonment for life under Section 302 read with Section 149",
+   "page": 9,
+   "reason": "Main sentence was life imprisonment, not a fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (life imprisonment under s.302/149)",
+   "quote": "rigorous imprisonment for life under Section 302 read with Section 149",
+   "page": 9,
+   "reason": "No 20-year term appears; the judgment states life imprisonment for murder."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Deceased's brother PW-4 was shot and injured; facts without stating court outcome.",
+   "quote": "the accused's brother sustained non-fatal injuries",
+   "page": 10,
+   "reason": "Wrongly calls the injured brother the accused's brother, and reveals trial and High Court outcomes."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment under s.302 (with s.149); 10 years under s.307 for Rajeshwar Singh",
+   "quote": "rigorous imprisonment for life under Section 302 ... rigorous imprisonment for ten years under Section 307 IPC",
+   "page": 9,
+   "reason": "Maximum is supported; 'minimum: death' is not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder completed; attempt to murder PW-4 (attempted)",
+   "quote": "an attempt on the life of his brother (PW-4) was made",
+   "page": 18,
+   "reason": "Murder was completed, but the value ignores the attempt on PW-4."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "died instantaneously at the spot",
+   "page": 10,
+   "reason": "One victim died at the spot; PW-4 was injured but survived."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (multiple offences under ss.302/149, 307/149, 148, 147, Arms Act s.27)",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not count offences as 'five charged, five upheld'."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No loss is quantified; 'not applicable' is less accurate than 'not stated'."
+  },
+  "premeditation_planning": {
+   "verdict": "incorrect",
+   "correct_value": "After an exhortation to eliminate the deceased, Rajeshwar went home and returned with a gun, with armed companions",
+   "quote": "Nagina Singh ... exhorted Rajeshwar Singh to eliminate the deceased. Soon thereafter Rajeshwar Singh went to his house and came back with a gun",
+   "page": 10,
+   "reason": "Judgment describes an exhortation to kill and arming before returning, which bears on planning."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Dispute over the plot of land in front of the deceased's cattle shed; pending title suit",
+   "quote": "There was dispute between the parties over the land and a title suit in respect thereof was pending",
+   "page": 10,
+   "reason": "Judgment clearly identifies a land dispute as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "particularly the testimony of PW-4 and PW-5",
+   "page": 17,
+   "reason": "Court relied on PW-4 and PW-5 testimony and weapons evidence for common object."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the evidence against the appellants ... has been found to be cogent and creditworthy",
+   "page": 23,
+   "reason": "Courts found the evidence cogent and creditworthy, relying on PW-4 and PW-5."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial judgments dated 7 and 12 June 2001; HC 3 Sept 2004; SC 9 July 2010",
+   "quote": "dated 3rd September 2004 ... judgment and orders dated 7th June 2001 and 12th June 2001",
+   "page": 8,
+   "reason": "Dates are accurate, but no trial duration is given; the value lists judgment dates only."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "P.S. Mishra, Tathagat H. Vardhan ... for the Appellants. Anuj Prakash, Manish Kumar, Gopal Singh for the Respondent",
+   "page": 8,
+   "reason": "Counsel names match the judgment's listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "chargesheet was submitted against all ... eight afore-mentioned accused",
+   "page": 12,
+   "reason": "Chargesheet was filed and the trial was completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is found; injury non-explanation was argued but rejected."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court has dismissed all the appeals",
+   "page": 9,
+   "reason": "Trial conviction, High Court dismissal and Supreme Court dismissal are all supported."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued s.144 order had expired, PW-4 and PW-5 were unimpeachable, and accused acted with common object",
+   "quote": "the evidence of PW-4 and PW-5 is unimpeachable",
+   "page": 14,
+   "reason": "Common object is supported, but the aggressor/no-self-defence point is a court finding, not a stated prosecution argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is no evidence on record to show the meeting of minds",
+   "page": 12,
+   "reason": "No meeting of minds, self-defence with complainant as aggressors, and unexplained injuries were all argued."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Once it is established that the unlawful assembly had common object, it is not necessary that all persons ... must be shown to have committed some overt act",
+   "page": 14,
+   "reason": "Vicarious liability under s.149 and the defensive nature of private defence are both applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Also Pandurang Chandrakant Mhatre, Jai Dev, Laxman Sahu, Dharam, Vidhya Singh, Munshi Ram, Bai Fatima, Salim Zia, Takhaji Hiraji, Sukhan Raut etc.",
+   "quote": "Dharam & Ors. Vs. State of Haryana",
+   "page": 5,
+   "reason": "Lists only some authorities; many other cases were relied on or cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Supreme Court dismissed the appeal, affirming convictions for common object and rejecting self-defence",
+   "quote": "we do not find any merit in the appeal and the same is dismissed",
+   "page": 23,
+   "reason": "Reasoning is largely right, but the Supreme Court did not impose the sentence; it affirmed it."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused were aggressors; armed with lethal weapons; common object to eliminate the deceased",
+   "quote": "the appellants were, in fact, aggressors and being members of the aggressors party",
+   "page": 22,
+   "reason": "Court did identify aggressive conduct and armed common object as aggravating; 'None' is inaccurate."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Sentences to run concurrently",
+   "quote": "The sentences awarded to all the accused were to run concurrently",
+   "page": 9,
+   "reason": "Judgment states the sentences were to run concurrently."
+  }
+ }
+}

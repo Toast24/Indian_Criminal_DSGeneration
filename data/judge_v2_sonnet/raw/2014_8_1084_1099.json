@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the reported case title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Four accused appealed and their liability was decided."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused no. 1 is a woman; the other three accused are men."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is stated for the accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No class or wealth statement about the accused."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim, Bhavna, was a woman."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Shashi Tripathi is the step mother-in-law of deceased Bhavna Tripathi.",
+   "page": 8,
+   "reason": "Matches the relationship and dispute described; no animosity was shown for accused 2 and 4."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The charge was murder under s.302."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302 read with Sections 34 and 120B",
+   "page": 8,
+   "reason": "Charged sections are correctly listed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "attacked her with knife 3 to 4 times",
+   "page": 10,
+   "reason": "A knife was the weapon."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, recovery, medical and identification evidence all appear in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "acted as contract killers",
+   "page": 11,
+   "reason": "Contract killing, 14 wounds and the pregnancy are all noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for life with a fine of Rs. 1,000/-, and in default, to undergo additional rigorous imprisonment for three months",
+   "page": 6,
+   "reason": "Matches the conviction and sentence."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "confirming the Judgment of the Additional Sessions Judge",
+   "page": 6,
+   "reason": "The High Court confirmed the convictions; its judgment is dated 17.09.2010."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The lead appellant's conviction was upheld; only accused no. 3 was acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder under IPC s.302 read with ss.34 and 120B for accused nos. 1, 2 and 4; accused no. 3 acquitted",
+   "quote": "Criminal Appeal Nos. 822 of 2012, 589 of 2014 and Criminal Appeal arising out of SLP (Criminal) No. 3737 of 2014 are dismissed.",
+   "page": 16,
+   "reason": "The convictions upheld included s.120B, which the value omits."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The sentence is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment is not a fixed term, so null is right."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The fine is Rs. 1,000."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Should say the victim's father-in-law (not husband) returned from his clinic; the victim's husband lived and practised elsewhere.",
+   "quote": "when PW-1 - Dr. Sharda Prasad Tripathi came home from his clinic, found that his daughter-in-law Bhavna Tripathi has been murdered",
+   "page": 7,
+   "reason": "PW-1 was the victim's father-in-law, not her husband. The summary also reveals the accused's gender via 'step mother-in-law'."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the prescribed punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "punctured wound on right and left lungs",
+   "page": 9,
+   "reason": "Matches the post-mortem findings."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "3 charged (ss.302, 34, 120B); 3 upheld for accused 1, 2 and 4",
+   "quote": "framed charges under Section 302 read with Sections 34 and 120B of the IPC",
+   "page": 8,
+   "reason": "The count is by sections, so three sections were charged, not one."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss was established."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "had a single mission, namely, to kill Bhavana",
+   "page": 11,
+   "reason": "The court found accused 2 and 4 were engaged to kill the victim."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution has found it difficult to pinpoint the motive",
+   "page": 11,
+   "reason": "The motive is properly marked as alleged."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the evidence the Court relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we have not found any reason why he would have lied",
+   "page": 12,
+   "reason": "Accurate account of how the Court assessed PW-21."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "asked him not to disclose the truth to anyone but to say that thieves came into the house",
+   "page": 11,
+   "reason": "The threat, the fleeing and the false story are all in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "His bail bonds stand cancelled and sureties are discharged.",
+   "page": 16,
+   "reason": "Accused no. 3's bail is shown by the cancellation of his bonds; nothing else is stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The dates are accurate and the trial judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel are listed as in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Consistent with the investigation and trial described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No lapse was found by the Court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately states the outcome at each level."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No State arguments are set out in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the arguments recorded for the accused."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately states the principles applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The cases and citations match the judgment and its headnote."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court gave no sentencing reasons."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors were weighed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors were weighed for sentence."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "His bail bonds stand cancelled and sureties are discharged.",
+   "page": 16,
+   "reason": "This is the only additional order."
+  }
+ }
+}

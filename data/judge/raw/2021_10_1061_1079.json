@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant, Surinder Singh, is the only accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as male throughout (he, his)."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused was a Head Constable in Chandigarh Police."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment notes no untoward activity before or after the incident, a clean record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complainant is referred to as male (his office, his clerk)."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the complainant."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (accused claimed visiting terms with complainant; defence argued good relations or strangers)",
+   "quote": "he was on visiting terms with the Complainant",
+   "page": 9,
+   "reason": "'Stranger' is not established; the accused claimed visiting terms and the relationship is left open."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is attempt to murder under s.307 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges were under s.307 IPC and s.27 Arms Act."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Weapon was the accused's service pistol, a semi-automatic pistol."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness, medical, forensic (CFSL ballistic report), recovery",
+   "quote": "the empty cartridge found at the residential office of the Complainant, upon forensic examination, was proved to have been fired from the pistol",
+   "page": 8,
+   "reason": "No dying declaration appears in the judgment; forensic evidence is mislabelled as recovery only."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned; accused gave a denial and alternate version under s.313."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment records inebriation, use of service pistol, and aiming it at complainant."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment lists no motive or planning, clean record, passage of time, and no injury."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.307 IPC and s.27 Arms Act, 3 years RI."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court dismissed the appeal and sustained the conviction and sentence",
+   "quote": "The High Court upon reappraisal of the evidence, sustained conviction and the consequential sentence imposed by the Trial Court and dismissed the appeal.",
+   "page": 9,
+   "reason": "High Court outcome was not 'Not applicable'; it dismissed the appeal."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeal partly allowed: convicted under s.307 IPC; acquitted of s.27 Arms Act",
+   "quote": "his conviction under Section 307 IPC is maintained",
+   "page": 19,
+   "reason": "'Convicted' omits that the s.27 Arms Act conviction was set aside."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only s.307 IPC conviction was maintained."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence was fixed term of 3 years, reduced to period already undergone."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "3 years RI at trial; reduced to 3 months and 19 days already undergone",
+   "quote": "Appellant has already undergone a sentence of 3 months and 19 days.",
+   "page": 18,
+   "reason": "3.0 is the trial sentence only; final sentence was reduced to time served."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurately summarised and do not reveal the court's outcome."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial sentence of 3 years rigorous imprisonment; no statutory range for s.307 stated in judgment",
+   "quote": "prescribes a minimum punishment of 3 years of imprisonment",
+   "page": 15,
+   "reason": "The 3-year minimum relates to Arms Act s.5, not s.307; no s.307 range is stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence was an attempt; no injury was caused."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states neither complainant nor any other person was hurt."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Two offences charged; s.27 Arms Act conviction set aside, s.307 IPC conviction maintained",
+   "quote": "While the conviction and sentence awarded to the Appellant under Section 27 of the Arms Act is set aside, his conviction under Section 307 IPC is maintained.",
+   "page": 19,
+   "reason": "Only the s.307 conviction was upheld; the s.27 conviction was set aside."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss or financial loss is recorded in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states no element of planning has been proved."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution failed to attribute any motive to the appellant."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary matches the CFSL, medical and eyewitness evidence accepted by the court."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Witnesses were accepted as corroborating; defence version called 'a patch of lies' by trial court."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused rushed out in panic, leaving his wireless set and scooter; refused urine and blood samples",
+   "quote": "Panic-stricken, Appellant rushed out of the office, leaving behind his wireless set on the table",
+   "page": 7,
+   "reason": "Judgment does state post-offence conduct: flight in panic and refusal of samples."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Accused had already undergone 3 months and 19 days of sentence",
+   "quote": "Appellant has already undergone a sentence of 3 months and 19 days.",
+   "page": 18,
+   "reason": "Judgment states the custody period served, so 'Not stated' is wrong."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the appellant is on bail and bail bonds are discharged."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Key dates (offence, trial judgment, HC and SC decisions) match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearance listed in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR lodged, charge sheet filed, and trial completed, per the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution case: accused, inebriated, aimed pistol at complainant; CFSL linked cartridge to his pistol; State urged concurrent findings",
+   "quote": "canvassed that no substantial question of law is involved in this appeal",
+   "page": 10,
+   "reason": "Attribution of arguments is inferred; the judgment records the prosecution case and State's reliance on concurrent findings."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accidental firing by complainant, fabrication, and no motive or intent match the defence case."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Doctrine of proportionality in sentencing; also s.307 ingredients (intent plus overt act) and Arms Act s.27 narrowed to ss.5/7 violations",
+   "quote": "The equality of ratio between two sets of variables is now well known as the doctrine of proportionality.",
+   "page": 17,
+   "reason": "Omits the s.307 ingredients and the s.27 Arms Act interpretation, which were central holdings."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All six cases cited in the judgment are listed."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Reduction to time served is based on absence of injury, clean record, and passage of time."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Clean record, no injury, long passage of time, and unblemished service record are all cited."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are expressly listed at sentencing in the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Arms Act conviction set aside, s.307 sentence reduced, and bail bonds discharged, per the judgment."
+  }
+ }
+}

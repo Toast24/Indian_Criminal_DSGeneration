@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Short title matches the judgment's caption and is supported."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant was charged of the offence as accused No.1",
+   "page": 5,
+   "reason": "Only the appellant's conviction is before the Court; she is the sole accused decided."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "while her husband Gulab",
+   "page": 5,
+   "reason": "The appellant is referred to with feminine pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the appellant's age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No explicit statement on the accused's wealth or class is made."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prior criminal record is not mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased Mandabai and her children",
+   "page": 9,
+   "reason": "Victims include two females (Mandabai, Nikita) and one male child (Akash)."
+  },
+  "victim_age": {
+   "verdict": "partially_correct",
+   "correct_value": "Akash 5 years; Nikita 2 years; Mandabai's age not stated",
+   "quote": "Akash, a son aged 5 years and Nikita, the daughter aged 2 years",
+   "page": 6,
+   "reason": "Child ages are stated, but the value is not numeric and omits that Mandabai's age is not given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victims is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victims is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant as the second wife of his son when he had already got married to deceased Mandabai",
+   "page": 7,
+   "reason": "Co-wife relationship is described; stepmother status is a fair inference from the facts."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Murder",
+   "page": 1,
+   "reason": "Charges under s.302 IPC fall under the Murder category."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302 and 436 of the Indian Penal Code",
+   "page": 5,
+   "reason": "Sections 302 and 436 IPC are the charged and convicted provisions."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Kerosene (used as accelerant, sprinkled to set fire); none otherwise mentioned",
+   "quote": "the appellant poured kerosene around the persons of the deceased",
+   "page": 9,
+   "reason": "Kerosene was the means of setting fire, so 'Not stated' overlooks it; the definition says 'None mentioned'."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in view of the medical evidence, the deaths of the deceased Mandabai and her children would certainly be homicidal",
+   "page": 10,
+   "reason": "Lists all main evidence kinds the judgment discusses, including medical evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant was proceeded against mainly based on the extra-judicial confession said to have been made to her father-in-law",
+   "page": 10,
+   "reason": "Extra-judicial confession is described as disbelieved and not relied upon for conviction."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "gruesome as it resulted in the death of three persons of which two were small children",
+   "page": 10,
+   "reason": "The Court notes the three deaths, two of them small children, as gruesome."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicting the appellant in respect of the offence punishable under Section 302 and 436",
+   "page": 5,
+   "reason": "Conviction under ss.302 and 436 is stated; the sentence term is not given."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court has dismissed the appeal filed by the appellant herein",
+   "page": 5,
+   "reason": "High Court dismissed the appeal and confirmed conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant is entitled to be acquitted as the benefit of doubt weighs in her favour",
+   "page": 15,
+   "reason": "Supreme Court allowed the appeal and acquitted the appellant."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the order of conviction of the appellant cannot be sustained",
+   "page": 15,
+   "reason": "No offence stands after the conviction was set aside."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the judgment passed by the High Court affirming the conviction and sentence ordered by the Sessions Court is set aside",
+   "page": 16,
+   "reason": "Acquittal means no final sentence, so 'none' is correct."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed-term sentence stands; null is correct."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine stands after acquittal; null is correct."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The house was occupied by the accused, the first wife, her two children, a servant and the husband's father; the husband and mother-in-law were away that night.",
+   "quote": "the husband's parents and a servant who occupied one room",
+   "page": 6,
+   "reason": "Lists the husband and mother-in-law as occupants, but the judgment says both were away on the night of the fire."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the punishment prescribed for ss.302 or 436."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "two of them died later",
+   "page": 1,
+   "reason": "Deaths resulted, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mandabai the first wife of Gulab and their daughter Nikita rushed out of the house with burn injuries, while their son Akash got burnt to death inside the house",
+   "page": 3,
+   "reason": "Accurately describes the two deaths in hospital, the child's death in the house, and the accused's lack of injury."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicting the appellant in respect of the offence punishable under Section 302 and 436",
+   "page": 5,
+   "reason": "Two sections charged; none finally upheld after acquittal."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the fire accident was of the nature which had destroyed the entire house and also the adjoining cowshed",
+   "page": 15,
+   "reason": "House and adjoining cowshed destruction is supported by the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court made no finding of premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the desire for domestic dominance and the execution of document for maintenance ... cannot be accepted",
+   "page": 15,
+   "reason": "Alleged motive is described and the Supreme Court rejected it as a strong motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "even if the chemical analysis report referring to the frock is accepted",
+   "page": 11,
+   "reason": "Frock analysis, deceased's declaration, house layout and PW-1's account are the evidence the Court engaged with."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased had stated that he was awake when she came out",
+   "page": 15,
+   "reason": "Accurately reflects which evidence was disbelieved and which PW-1 account was relied upon."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "she did not try to alarm the deceased Mandabai and her children to leave the house",
+   "page": 7,
+   "reason": "Matches the High Court's inference and the Supreme Court's rejection of it as sufficient."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant Parubai who is on interim bail is set at liberty",
+   "page": 16,
+   "reason": "Interim bail status is stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the judgment dated 16.11.2007 passed by the Learned Sessions Judge",
+   "page": 5,
+   "reason": "All listed dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sudhanshu S. Choudhari, Adv. for the Appellant.",
+   "page": 5,
+   "reason": "Counsel for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The father-in-law of the appellant namely Gajanan had lodged a complaint",
+   "page": 6,
+   "reason": "Complaint, PSI investigation and completed trial are supported; charge sheet absence is accurately left unstated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural lapse is recorded; the uncharted can is an evidentiary gap, not a noted irregularity."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The judgment dated 12.10.2017 passed by the High Court affirming the conviction and sentence",
+   "page": 15,
+   "reason": "Trial conviction, High Court dismissal and Supreme Court acquittal are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records no prosecution arguments, only counsel names."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records no defence arguments, only counsel names."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the mere suspicion would not be sufficient, unless the circumstantial evidence tendered by the prosecution leads to the conclusion that it 'must be true' and not 'may be true'",
+   "page": 13,
+   "reason": "Principles on chain of circumstances, suspicion and s.106 additional link are accurately stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sharad Birdhichand Sarda v. State of Maharashtra (1984) 4 SCC 116; Devilal v. State of Rajasthan (2019) 19 SCC 447",
+   "page": 1,
+   "reason": "Both main precedents with citations are listed in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not applicable since the accused was acquitted."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court did not weigh aggravating factors for sentence; the gruesome remark is not a sentencing factor."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant Parubai who is on interim bail is set at liberty and her bail bond shall stand discharged",
+   "page": 16,
+   "reason": "Liberty granted and bail bond discharged are the only orders given."
+  }
+ }
+}

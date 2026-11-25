@@ -1,0 +1,385 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PURAN CHAND v. STATE OF H.P.",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant was prosecuted for committing an offence punishable uls 376 IPC.",
+   "page": 1,
+   "reason": "Single accused-appellant is referred to throughout."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused forcibly committed sexual assault/rape on her",
+   "page": 10,
+   "reason": "Accused is referred to as male (he/his) throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused; the value 25 has no basis in the text."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the accused's religion."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the accused's caste."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the victim girl who was only 17 years",
+   "page": 11,
+   "reason": "Victim is a female girl throughout."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecutrix/the victim girl aged 17 years",
+   "page": 5,
+   "reason": "Judgment states the victim was aged 17 years and a minor."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never describes the relationship; 'Stranger' is not supported by the text."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offence punishable uls 376 IPC",
+   "page": 1,
+   "reason": "Offence is rape under Section 376 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s. 376 read with s. 506-1; Evidence Act s. 114-A",
+   "quote": "Section 376 read with Section 506-1 of the Indian Penal Code",
+   "page": 5,
+   "reason": "Omits Section 506-1 IPC and Evidence Act s.114-A, both central to the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon used by the accused is mentioned; poison was consumed by the victim."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Oral testimony of prosecutrix, medical evidence, circumstantial evidence, corroboration by father and brother",
+   "quote": "The prosecutrix victim has stood the test of cross examination",
+   "page": 10,
+   "reason": "No dying declaration is mentioned; the victim survived and her oral account was relied upon."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not label any aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the learned Session Judge ... convicted and sentenced the accused as noted above",
+   "page": 6,
+   "reason": "Trial court convicted and sentenced the accused to seven years."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction and sentence upheld on 29.09.2009",
+   "quote": "the appeal preferred by the appellant was dismissed by the High Court",
+   "page": 5,
+   "reason": "High Court dismissed the appeal and upheld conviction and sentence; value says not applicable."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we find no substance in this appeal and hence uphold the conviction and sentence",
+   "page": 13,
+   "reason": "Supreme Court upheld the conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the offence of rape would be held to have been proved",
+   "page": 12,
+   "reason": "Rape is held proved."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of seven years imposed on the appellant",
+   "page": 5,
+   "reason": "Fixed-term imprisonment of seven years, described as rigorous imprisonment in headnote."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of seven years imposed on the appellant",
+   "page": 5,
+   "reason": "Seven years imprisonment is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "alongwith a fine of Rs.5,000/-",
+   "page": 5,
+   "reason": "Fine of Rs. 5,000 is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts only: accused charged with rape of 17-year-old; victim attempted suicide after alleged rape; FIR lodged 11.09.2006 after discharge; doctor did not categorically deny hymen rupture; appeal raised delay, enmity and medical defences. No outcome or reasoning.",
+   "quote": "the Doctor has not categorically denied the rupture of hymen",
+   "page": 10,
+   "reason": "Says hymen was intact (doctor was non-committal), says victim's family lodged FIR, and reveals court's reasoning and outcome.",
+   "_note": "Court findings included, violating neutral requirement."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of seven years imposed on the appellant",
+   "page": 5,
+   "reason": "Seven years imprisonment is supported as the severity measure."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused forcibly committed sexual assault/rape on her against her wish",
+   "page": 10,
+   "reason": "Rape is alleged as committed, and the court found it proved."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "suffered the risk of death after consuming poison",
+   "page": 4,
+   "reason": "Trauma from rape and risk of death from poison consumption are both described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "2 offences charged (s. 376 and s. 506-1 IPC); both upheld",
+   "quote": "conviction of the appellant under Section 376 read with Section 506-1 of the Indian Penal Code was upheld",
+   "page": 5,
+   "reason": "Value omits Section 506-1 IPC; two offences were charged and upheld, not one."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation is discussed."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence alleged previous enmity with victim's family; prosecution motive not stated",
+   "quote": "the appellant was falsely implicated due to enmity",
+   "page": 1,
+   "reason": "Value says not identified, but defence attributed false implication to enmity."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The delay in lodging the FIR thus stands fully explained",
+   "page": 11,
+   "reason": "Delay explanation and victim's version relied upon as stated."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecutrix victim has stood the test of cross examination",
+   "page": 10,
+   "reason": "Cross-examination and corroboration by father and brother are described."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "After raping her, the accused left and threatened her not to disclose the incident.",
+   "quote": "threatened her that in case she disclosed the incident to anyone",
+   "page": 6,
+   "reason": "Judgment states the accused threatened the victim after the rape; 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; only arrest date is given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "29.9.2009 of the High Court",
+   "page": 5,
+   "reason": "Offence, High Court and Supreme Court dates are supported; trial judgment date not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Anne Mathew, A.C., Rishi Maheshwari, R.V. Kameshwaran for the Appellant",
+   "page": 4,
+   "reason": "Counsel names match the judgment; amicus was appointed for appellant."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "FIR was registered on 11.09.2006",
+   "page": 7,
+   "reason": "FIR date, chargesheet and completed trial are supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "This appeal was going unrepresented as no one had appeared for the appellant",
+   "page": 5,
+   "reason": "No irregularity is identified; amicus was appointed to address unrepresented appeal."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: convicted and sentenced; High Court: appeal dismissed, conviction upheld; Supreme Court: appeal dismissed",
+   "quote": "the conviction of the appellant under Section 376 read with Section 506-1 of the Indian Penal Code was upheld",
+   "page": 5,
+   "reason": "Trial court convicted rather than upheld a conviction; no appeal from trial court is described."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution relied on the time gap, victim's testimony, and corroboration; the courts (not the prosecution) found the hymen evidence insignificant",
+   "quote": "the medical report of the prosecutrix not reflecting sexual act is not of much significance, as per the view taken by the courts below",
+   "page": 10,
+   "reason": "Hymen-significance view is attributed to the courts below, not the prosecution's argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it was sought to be explained that the prosecutrix was suffering from the fear of compartmental examination",
+   "page": 6,
+   "reason": "Enmity, delay, intact hymen and examination-fear arguments are all supported."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the offence of rape would be held to have been proved even if there is an attempt of rape on the woman",
+   "page": 13,
+   "reason": "Principle on attempt and victim's version is stated in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "No case precedent cited; relies on statutory s. 114-A Evidence Act",
+   "quote": "the amendment introduced in the Indian Evidence Act, 1872 in Section 114-A",
+   "page": 12,
+   "reason": "Section 114-A is a statute, not precedent; no case law is cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "No separate sentencing reasoning; sentence upheld as conviction was proved beyond reasonable doubt",
+   "quote": "we find no substance in this appeal and hence uphold the conviction and sentence",
+   "page": 13,
+   "reason": "Judgment gives no separate sentencing rationale; reasoning relates to conviction."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court does not label aggravating factors; none expressly identified."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "simple imprisonment for a period of one year under Section 376 IPC",
+   "page": 5,
+   "reason": "Fine, default terms and sentence are supported by the judgment."
+  }
+ }
+}

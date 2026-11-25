@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "CENTRAL BUREAU OF INVESTIGATION v. SHYAM BIHARI & OTHERS",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charged Anil Kumar, Shyam Bihari and Arshad Ali",
+   "page": 6,
+   "reason": "Three accused are named and charged in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused persons... three in number",
+   "page": 14,
+   "reason": "Accused are named male policemen; gender is inferable, though not stated expressly."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is mentioned in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the accused is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all armed constables, were patrolling the area",
+   "page": 10,
+   "reason": "Accused are described as armed constables and policemen."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status of the accused is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he died from a .12 bore gun- shot",
+   "page": 13,
+   "reason": "Deceased Raj Kumar Baliyan is referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "admitted that they had not seen the accused before",
+   "page": 8,
+   "reason": "Judgment only says witnesses had not seen accused before; no accused-victim relationship is stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "killed... charged... under Section 302 read with Section 34",
+   "page": 5,
+   "reason": "Charge is murder under section 302 read with 34."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Section 302 read with Section 34 of the Indian Penal Code, 1860",
+   "page": 6,
+   "reason": "IPC sections 302 and 34 are both stated."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Rifles (service rifles), country-made pistol, and a .12 bore gun that caused the fatal injury",
+   "quote": "died from a .12 bore gun- shot which could not be ascribed to rifles",
+   "page": 13,
+   "reason": "Omits the .12 bore gun, which is the weapon that killed the deceased."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "ocular account as well as on certain circumstances",
+   "page": 12,
+   "reason": "Ocular, circumstantial, medical and recovered-cartridge evidence all feature in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused denied the incriminating circumstances",
+   "page": 6,
+   "reason": "No confession is mentioned; accused denied the circumstances."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "acquittal dated 13.12.2011 passed by the third Additional District & Sessions Judge",
+   "page": 5,
+   "reason": "Trial court acquitted the accused."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Delay condoned; leave to appeal rejected; Government Appeal dismissed",
+   "quote": "the application seeking leave to appeal... was rejected and in consequence the Government Appeal was dismissed",
+   "page": 5,
+   "reason": "High Court did have an outcome: leave rejected and appeal dismissed, not 'not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal is dismissed.",
+   "page": 14,
+   "reason": "Supreme Court dismissed the appeal, leaving acquittal intact."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal is dismissed.",
+   "page": 14,
+   "reason": "No offence was finally established given the acquittal stands."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Three policemen allegedly fired on a scooter carrying the deceased at night; two witnesses on another scooter said torchlight caused a skid and shots followed; only some cartridges matched the accused's rifles; a .12 bore gun caused the death. Omit trial and appeal outcomes.",
+   "quote": "which were matched to the rifles of the accused... leading to the acquittal of the accused... The High Court dismissed the appeal",
+   "page": 8,
+   "reason": "Overstates cartridge matching (only some matched) and reveals the acquittal and High Court dismissal."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No punishment range for section 302 is stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he succumbed to his injuries on the way",
+   "page": 6,
+   "reason": "Victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased did not die of a rifle bullet injury. Rather, he died from a .12 bore gun- shot",
+   "page": 13,
+   "reason": "Death from a .12 bore gunshot, not a rifle bullet, is stated."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence (murder, s.302 r/w s.34) charged against three accused; no conviction upheld",
+   "quote": "charged Anil Kumar, Shyam Bihari and Arshad Ali... for committing offence punishable under Section 302",
+   "page": 6,
+   "reason": "Only one offence was charged, and none was upheld; 'three upheld' contradicts the acquittal."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is stated in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was no proven motive to commit such an act",
+   "page": 11,
+   "reason": "Motive is not identified; the judgment notes no proven motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Witnesses consistent that police action occurred that night; .12 bore gunshot not ascribable to service rifles; no reliable evidence fire was meant to kill",
+   "quote": "the witnesses are consistent that there was a police action on that fateful night",
+   "page": 13,
+   "reason": "Court did not accept the ocular account; it only noted consistency of police action and the .12 bore finding."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "PW-15 found unreliable (silence, identical affidavits, lying about going alone); PW-3 and PW-6 found of little help as they could not identify accused",
+   "quote": "PW-3 and PW-6 were found inconsequential as they could not identify the accused",
+   "page": 12,
+   "reason": "Overgeneralises that main witnesses were unreliable; PW-3 and PW-6 were found unhelpful, not shown unreliable."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused remained at the spot after the incident; police set up a cross version (Case Crime No.48A/87); PW-15 delayed disclosure",
+   "quote": "the continued presence of the accused at the spot is a circumstance which goes in favour of the accused",
+   "page": 13,
+   "reason": "Post-incident conduct is discussed: continued presence at spot and the cross version case."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dated 26.07.2012 of the High Court of Uttarakhand",
+   "page": 5,
+   "reason": "Offence, trial judgment, HC and SC dates all match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Anil K. Sharma, Sanjeev Kumar, Praveen Chaturvedi, Advs. for the Respondents",
+   "page": 5,
+   "reason": "Counsel for respondents and appellant listed accurately."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "CBI submitted a charge-sheet against the accused persons",
+   "page": 6,
+   "reason": "Charge-sheet filed and trial conducted, matching the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court judgment noted as 'a bit cryptic'; appeal pending over a decade; held not fatal",
+   "quote": "the judgment and order of the High Court appears a bit cryptic",
+   "page": 11,
+   "reason": "Judgment notes the cryptic HC order and decade-long pendency, though held not a ground to set aside."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Government Appeal was dismissed",
+   "page": 5,
+   "reason": "Trial acquittal, HC dismissal and SC dismissal are consistent with the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased was shot by persons who were wearing police uniform",
+   "page": 10,
+   "reason": "Matches the prosecution's submissions on uniform, patrol, cartridges and cross version."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "some of the empty cartridges lifted from the spot did not match with the rifles",
+   "page": 10,
+   "reason": "Matches respondents' submissions on identification, .12 bore gun, cartridges and PW-15."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellate court must not interfere with an order of acquittal merely because a contrary view is permissible",
+   "page": 12,
+   "reason": "Principle stated in paragraph 27 is accurately captured."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent or case law is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred, so no sentencing rationale is stated."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence or order is stated beyond dismissal of the appeal."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PATHAN HUSSAIN BASHA v. STATE OF A.P.",
+   "page": 1,
+   "reason": "Matches the case title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The trial court convicted all the three accused",
+   "page": 2,
+   "reason": "Three accused were tried; one was later acquitted."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Male and female (husband, father-in-law male; mother-in-law female)",
+   "quote": "mother Pathan Nazeer Abi",
+   "page": 5,
+   "reason": "Accused include a woman, the mother-in-law, so 'Male' alone is incomplete."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is given in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not stated; only Ramzan and Muslim law are mentioned in passing."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Pathan Haseena Begum (now deceased)",
+   "page": 5,
+   "reason": "The victim was a married woman."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is never mentioned."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not explicitly stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Husband and mother-in-law (in-laws) of the deceased",
+   "quote": "accused Pathan Hussain Basha, was married to Pathan Haseena Begum",
+   "page": 5,
+   "reason": "Husband and in-laws; 'Spouse, Relative' is vague but roughly right."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Suicide by married woman",
+   "page": 1,
+   "reason": "Dowry death under s.304-B is the central offence."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "ss.304-B and 498-A",
+   "page": 1,
+   "reason": "Both provisions are correctly listed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon was used; death was by hanging with a saree."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Witness testimony (family, neighbours), medical/post-mortem evidence, seizure of saree",
+   "quote": "LW-13 ... conducted autopsy",
+   "page": 6,
+   "reason": "No eyewitness to the hanging; 'eyewitness' is a stretch, though other types are fine."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dowry demands were being raised by the accused persons persistently",
+   "page": 9,
+   "reason": "Dowry demands, harassment and cruelty are supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the age of the accused and the fact that they have already being in jail for a considerable period",
+   "page": 17,
+   "reason": "Matches the court's stated mitigating factors."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under ss.498A and 304-B; 3 years RI plus Rs.1,000 fine under 498A and life imprisonment under 304-B, concurrent",
+   "quote": "sentenced to undergo imprisonment for LIFE for the offence u/s. 304-B IPC",
+   "page": 6,
+   "reason": "Life imprisonment is correct, but the 498A sentence and fine are omitted."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "acquitted accused No. 3, namely, Pathan Khadar Basha. The sentence awarded by the Trial Court was confirmed.",
+   "page": 7,
+   "reason": "Matches the High Court outcome."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeals partly allowed; conviction upheld, sentence reduced to ten years RI",
+   "quote": "Appeals partly allowed.",
+   "page": 17,
+   "reason": "Convicted is right but omits the sentence reduction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "ingredients of Section 304B read with Section 498A IPC are completely satisfied",
+   "page": 16,
+   "reason": "Dowry death and cruelty are upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we award ten years Rigorous Imprisonment",
+   "page": 17,
+   "reason": "A fixed term of ten years was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we award ten years Rigorous Imprisonment",
+   "page": 17,
+   "reason": "Ten years."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs. 1,000 each under s.498A (trial court)",
+   "quote": "further sentenced to pay a fine of Rs. 1,000/- each",
+   "page": 6,
+   "reason": "A fine was imposed by the trial court and not set aside; null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The accused husband and his mother (not 'his mother-in-law') were charged ...",
+   "quote": "accused Pathan Hussain Basha, his father ... and mother Pathan Nazeer Abi",
+   "page": 5,
+   "reason": "Calls the accused mother-in-law of the husband ambiguously and omits the third accused; otherwise accurate."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment at trial, reduced to ten years RI",
+   "quote": "we award ten years Rigorous Imprisonment",
+   "page": 17,
+   "reason": "Roughly right but vaguely worded; omits 498A sentence."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The death occurred, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "cause of death was stated to be asphyxia, as a result of hanging",
+   "page": 9,
+   "reason": "Matches the medical evidence."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Two offences (s.304-B and s.498-A)",
+   "quote": "Accused were charged with offences under Sections 498A and 304B of the IPC.",
+   "page": 7,
+   "reason": "Only two offences were charged; 'three' counts is wrong."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Dowry of Rs. 15,000 paid; Rs. 10,000 balance demanded; items like fan given",
+   "quote": "Out of this amount, a sum of Rs. 15,000/-was paid at that time",
+   "page": 5,
+   "reason": "Dowry payments and demands are described, so 'Not applicable' is not accurate."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "harassed the deceased primarily for non-payment of the amount of dowry",
+   "page": 8,
+   "reason": "Dowry demand is the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution by reliable and cogent evidence has established the guilt of the accused",
+   "page": 17,
+   "reason": "Consistent with the judgment."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court relied on LW-1, LW-3, LW-7 testimony as corroborated, but did not explicitly assess credibility",
+   "quote": "The statement of this witness i.e. LW-1 is corroborated by LW-3 and LW-7.",
+   "page": 8,
+   "reason": "Corroboration is noted, but no detailed credibility assessment was made."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused were absent when the body was found and did not explain the death",
+   "quote": "found the accused absent and the bride hanging in the house",
+   "page": 5,
+   "reason": "The judgment notes absence and failure to explain, so 'Not stated' is incomplete."
+  },
+  "custody_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Arrested 16 Feb 2003; court notes they have been in jail for a considerable period",
+   "quote": "they have already being in jail for a considerable period",
+   "page": 17,
+   "reason": "Exact duration not stated, but the arrest date and 'considerable period' are noted."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "judgment dated 4th October, 2004",
+   "page": 6,
+   "reason": "Dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Param Kumar Mishra (for Kumud Lata Das) for the Appellant D. Mahesh Babu for the Respondent.",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Investigating Officer arrested all the three accused persons.",
+   "page": 6,
+   "reason": "Consistent with the investigation described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No irregularity is noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeals are partially accepted",
+   "page": 17,
+   "reason": "Accurate summary."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "deceased was being harassed and ill-treated by her husband, father-in-law and mother-in-law",
+   "page": 2,
+   "reason": "Consistent."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellants argued for a lenient view on sentence given prosecution evidence, age and long jail period",
+   "quote": "some substance in the argument raised on behalf of the appellants",
+   "page": 17,
+   "reason": "Only the sentence-leniency argument is recorded; the stated defence arguments are invented."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "By a deeming fiction in law, the onus shifts on to the accused",
+   "page": 16,
+   "reason": "Matches the principle applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Biswajit Halder alias Babu Halder and Others v. State of W.B. ... Ashok Kumar v. State of Haryana",
+   "page": 9,
+   "reason": "Both cases are cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "keeping in view the prosecution evidence, the attendant circumstances, the age of the accused",
+   "page": 17,
+   "reason": "Accurate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the age of the accused and the fact that they have already being in jail for a considerable period",
+   "page": 17,
+   "reason": "Accurate."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed in sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other orders were made by this Court."
+  }
+ }
+}

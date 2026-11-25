@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The accused appellant and the main accused Khilai",
+   "page": 5,
+   "reason": "Two accused are named: the appellant and the main accused Khilai."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No gender pronoun or other explicit gender reference for the accused appellant appears in the judgment."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused appellant."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record of the accused is stated; only cases against the complainant are mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "took out a pistol from the right pocket of his pants and pointed it at him",
+   "page": 8,
+   "reason": "The complainant is referred to with male pronouns throughout."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the complainant."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the complainant is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the complainant is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The accused appellant, the main accused, Khilai, and the complainant were all related.",
+   "page": 6,
+   "reason": "Parties are stated to be related; complainant is a cousin of the main accused."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for attempt, with common intent ... to murder the complainant",
+   "page": 5,
+   "reason": "Charge was attempt to murder under s.307 with s.34."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charges under Section 307/34 of the Indian Penal Code",
+   "page": 5,
+   "reason": "Sections 307 and 34 IPC are the provisions in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fired at the instigation of the accused appellant ... with a country made pistol",
+   "page": 5,
+   "reason": "Weapon is a country-made pistol."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Common intention can only be inferred from proved facts and circumstances",
+   "page": 10,
+   "reason": "Eyewitness testimony (PW-3, PW-4) and circumstances are both discussed."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged confession by main accused Khilai to PW-9 and PW-10, denied by them; not proved",
+   "quote": "The ninth and tenth Prosecution Witnesses who were produced to testify to the confession allegedly made by the main accused Khilai ... were declared hostile.",
+   "page": 7,
+   "reason": "A confession was alleged but not established; 'None' omits the alleged confession and its denial."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are stated in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "held the accused appellant guilty of offence under Section 307/34",
+   "page": 6,
+   "reason": "Trial court convicted the appellant under s.307/34."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction upheld",
+   "quote": "The said appeal being Criminal Appeal No. 1050 of 1994 has been dismissed",
+   "page": 6,
+   "reason": "The High Court dismissed the appeal and upheld the conviction, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The accused appellant is acquitted and directed to be set free forthwith.",
+   "page": 13,
+   "reason": "Supreme Court acquitted the appellant."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Sessions Court and the High Court both fell in error in convicting the accused appellant",
+   "page": 13,
+   "reason": "No offence was finally established against the appellant."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The accused appellant is acquitted and directed to be set free forthwith.",
+   "page": 13,
+   "reason": "Final outcome is acquittal, so no imprisonment is imposed; trial sentence was rigorous imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment is finally imposed; the trial sentence of five years was set aside."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is finally imposed; the trial fine of Rs.1000 was set aside with the conviction."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts of the incident without stating the court's findings or conclusions on pre-arrangement and credibility",
+   "quote": "However, the court found that the prosecution failed to establish a pre-arranged common intention",
+   "page": 13,
+   "reason": "Facts are accurate, but the summary states the court's findings and conclusions, revealing the outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the punishment prescribed for s.307; the value is not backed by the text."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Attempt to murder",
+   "page": 1,
+   "reason": "Charge is attempt to murder; the injury did not complete the offence."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "causing injury to the complainant with the splinters",
+   "page": 8,
+   "reason": "Injuries from pistol splinters are described."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence charged (s.307 read with s.34 for the appellant); conviction set aside, none upheld",
+   "quote": "charges under Section 307/34 of the Indian Penal Code",
+   "page": 5,
+   "reason": "Only one charge (s.307/34) is stated, and no offence was upheld; 'one finally upheld' is wrong."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not address property or financial loss; 'Not applicable' is a different label than 'Not stated'."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Pre-arrangement is not established.",
+   "page": 10,
+   "reason": "Court found no premeditation or prearranged plan."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Land dispute and previous enmity over cultivation of land",
+   "quote": "There were land disputes between members of the family and in particular between the complainant and the accused appellant.",
+   "page": 6,
+   "reason": "The judgment identifies a land dispute and enmity as the background motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It is not in dispute that the accused appellant neither carried arms nor opened fire.",
+   "page": 8,
+   "reason": "Accurately reflects undisputed facts and the finding of no instigation."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there are some notable discrepancies between the evidence of the complainant (PW-3) and PW-4 which raise serious doubts",
+   "page": 12,
+   "reason": "Accurately reflects the court's doubts about PW-3 and PW-4."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Main accused Khilai fled the scene; the accused appellant followed him running",
+   "quote": "whereupon Khilai fled towards the bus stand and the accused appellant followed him running",
+   "page": 8,
+   "reason": "Post-incident flight by the main accused and appellant's pursuit is stated in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "22nd October, 1992 ... 26th August, 1994 ... 5th November, 2008 ... 6th February, 2020",
+   "page": 5,
+   "reason": "Dates of offence, trial, High Court and Supreme Court decisions are all supported."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Saurabh Mishra and P. V. Yogeswaran, Advs. for the Appellant",
+   "page": 5,
+   "reason": "Counsel names for appellant and state match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Chargesheet was filed against the accused appellant and the main accused Khilai",
+   "page": 6,
+   "reason": "Chargesheet against both accused is stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified; the court's criticism concerns evidentiary appraisal."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dismissing Criminal Appeal No. 1050 of 1994",
+   "page": 5,
+   "reason": "Trial conviction, High Court dismissal and Supreme Court acquittal all match."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fired at the instigation of the accused appellant, who urged the said accused Khilai to kill the complainant",
+   "page": 5,
+   "reason": "Prosecution case of instigation and firing at its exhortation is stated."
+  },
+  "defence_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not record any defence arguments; the court's reasoning is not presented as defence submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Common intention implies acting in concert. Existence of a prearranged plan has to be proved",
+   "page": 10,
+   "reason": "Accurately states the s.34 common intention and prearranged plan principles applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "B.N. Srikantiah; Bharwad Mepa Dana; Harbans Kaur; Manik Das; Abdul Mannan (2010) 3 SCC 381; Lallan Rai; Ashok Basho; Barendra Kumar Ghosh",
+   "quote": "Abdul Mannan vs. State of Assam reported in (2010) 3 SCC 381",
+   "page": 10,
+   "reason": "Lists most authorities but omits Abdul Mannan v. State of Assam (2010) 3 SCC 381."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no sentencing rationale; 'Not applicable' is a different label than 'Not stated'."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss mitigating factors; 'None' asserts a finding not made."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss aggravating factors; 'None' asserts a finding not made."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The accused appellant is acquitted and directed to be set free forthwith.",
+   "page": 13,
+   "reason": "Matches the operative order in the judgment."
+  }
+ }
+}

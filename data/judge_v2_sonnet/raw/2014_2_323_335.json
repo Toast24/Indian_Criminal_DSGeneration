@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the cause title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There are eleven appellants.",
+   "page": 6,
+   "reason": "Eleven appellants were tried and their liability decided."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never states the gender of the accused as a group."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity is stated; Santhal is a tribal community, not a religion."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants and the prosecution witnesses belong to Santhal Community",
+   "page": 6,
+   "reason": "Santhal tribe is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is given."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They come from a very poor strata of the society",
+   "page": 13,
+   "reason": "Poverty is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing on prior record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim, Jhore Soren, is male (wives, 'her husband')."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The deceased-Jhore Soren stole a hen... This angered the community",
+   "page": 13,
+   "reason": "The victim is treated as part of the Santhal community that penalised him."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is given."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appellant-Bhagbat's hen was stolen by deceased-Jhore Soren.",
+   "page": 9,
+   "reason": "Prior dispute over the hen is described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The charge was murder (s.302 r/w s.149); category as charged is reasonable."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 148 and Section 302 read with Section 149",
+   "page": 6,
+   "reason": "Charged sections and the final s.304 Part II are correctly captured."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "some of them had tangies but they did not use them",
+   "page": 10,
+   "reason": "Lathis were used; tangies were carried but not used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness and medical evidence were relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "doctor noticed fourteen injuries on the deceased",
+   "page": 10,
+   "reason": "Injuries and the victim being tied up are supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appellants are in jail for almost 14 years",
+   "page": 13,
+   "reason": "Matches the factors noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo imprisonment for life",
+   "page": 6,
+   "reason": "Convicted under s.148 and s.302/149 and given life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants' appeal was dismissed by the High Court.",
+   "page": 6,
+   "reason": "The High Court affirmed the conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The conviction was altered to s.304 Part II."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted for culpable homicide not amounting to murder",
+   "page": 13,
+   "reason": "Matches the final conviction."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "fixed_term",
+   "quote": "sentence already undergone by them is directed to be treated as sentence imposed on them under Section 304 Part II",
+   "page": 13,
+   "reason": "A sentence of the period already undergone (about 14 years) was imposed, which is a fixed term, not 'not stated'."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in jail for almost 14 years",
+   "page": 13,
+   "reason": "No exact figure is stated, so null is defensible."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurate to the judgment; no names, outcome or court proceedings revealed."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory punishment range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fourteen injuries... two rib fractures and haemotoma under the scalp",
+   "page": 10,
+   "reason": "Matches."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "2 charged; 2 finally upheld (s.148 conviction not disturbed; s.302/149 replaced by s.304 Part II)",
+   "quote": "the conviction of the appellants for offences punishable under Section 302 read with Section 149 of the IPC is quashed and set aside",
+   "page": 13,
+   "reason": "Only the s.302/149 conviction was set aside; the s.148 conviction was not disturbed, so two stand."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss from the offence."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "In a frenzy lathi blows were dealt with force.",
+   "page": 10,
+   "reason": "The court found no common object to kill."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they were not happy with the penalty imposed by the Salishman",
+   "page": 10,
+   "reason": "Matches the court's view."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The evidence of PW-1 Nilmoni, PW-3 Rabi Soren, PW-6 Sumi Soren and PW-7 Kanka is truthful",
+   "page": 9,
+   "reason": "Matches."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Their evidence has a ring of truth.",
+   "page": 9,
+   "reason": "Matches."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused conduct after the offence is described."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants are in jail for almost 14 years",
+   "page": 13,
+   "reason": "Matches."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail details are given."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On 14/4/1989... On the next day, in the morning",
+   "page": 6,
+   "reason": "Dates are given as stated; the trial judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Vibha Datta Makhija, Ruchi Agnihotri for the Appellants.",
+   "page": 6,
+   "reason": "Counsel for both sides match."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "upon completion of the investigation, the appellants came to be charged",
+   "page": 7,
+   "reason": "Matches."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Outcomes at each level are accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "every member of the unlawful assembly must be held guilty of murder",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 304 Part II of the IPC is clearly attracted to this case",
+   "page": 7,
+   "reason": "Matches."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is not possible to hold that the appellants shared common object to murder the deceased",
+   "page": 12,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All the cases listed are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "justice must be tempered with mercy",
+   "page": 13,
+   "reason": "Matches."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the factors the court weighed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no aggravating factor in sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They are directed to be released forthwith",
+   "page": 13,
+   "reason": "Matches."
+  }
+ }
+}

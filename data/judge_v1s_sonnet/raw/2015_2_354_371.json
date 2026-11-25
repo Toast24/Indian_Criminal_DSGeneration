@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "DR. VINOD BHANDARI v. STATE OF M.P.",
+   "page": 1,
+   "reason": "Matches the case caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there are in all 516 accused out of which 329 persons have been arrested",
+   "page": 5,
+   "reason": "516 accused stated overall."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Gender not explicitly stated; judgment only uses 'Dr.' and 'he'. Acceptable as Not stated."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age is not mentioned."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Managing Director of Shri Aurbindo Institute of Medical Sciences, Indore",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No explicit socioeconomic status stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecuted for another similar offence (FIR No.14 of 2013, 8 other candidates); granted anticipatory bail there",
+   "quote": "is also prosecuted for another offence of similar type of having sponsored 8 other candidates",
+   "page": 8,
+   "reason": "Judgment mentions another similar case against him."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No specific victim; not stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No identifiable victim relationship stated."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Cheating/forgery/criminal conspiracy in medical entrance exam admissions (corruption scam)",
+   "quote": "Sections 420, 467, 468, 471, 120B of the Indian Penal Code",
+   "page": 4,
+   "reason": "Criminal breach of trust is not charged; offences are cheating, forgery, conspiracy."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 420, 467, 468, 471, 120B of the Indian Penal Code (\"IPC\") read with Section 3(d), 1, 2/4 of the Madhya Pradesh Manyata Prapt Pariksha Adhiniyam, 1937 and under Sections 65 and 66 of the l.T. Act",
+   "page": 4,
+   "reason": "Matches FIR provisions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon involved."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Documentary (excel sheet, seized documents, hard disc), recovery of cash, co-accused memoranda, s.164 statement; no medical evidence",
+   "quote": "The certified copy of the excel sheet of the data retrieved from the hard disc",
+   "page": 7,
+   "reason": "'Medical' evidence is not present; 'circumstantial' is loose."
+  },
+  "confession": {
+   "verdict": "incorrect",
+   "correct_value": "Disclosure statement by co-accused Pradeep Raghuvanshi leading to recovery; memorandums of other accused",
+   "quote": "disclosure statement was made by Pradeep Raghuvanshi which led to the recovery of money and documents",
+   "page": 5,
+   "reason": "Co-accused disclosure statements exist; not 'None'."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Large scale conspiracy, huge money, kingpin role, potential to influence witnesses, went abroad after FIR",
+   "quote": "the role of the applicant is being part of the conspiracy and is the kingpin",
+   "page": 8,
+   "reason": "Courts noted several aggravating features."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Prolonged custody of about one year with no prospect of immediate trial; anticipatory bail in other FIR",
+   "quote": "the appellant has been in custody for about one year and there is no prospect of immediate trial",
+   "page": 17,
+   "reason": "Delay in trial was a recognized consideration."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "considered by the 9th Additional Sessions Judge, Bhopal and dismissed vide Order dated 9.5.2014",
+   "page": 6,
+   "reason": "Bail rejected by trial court."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "High Court dismissed the bail application filed by the appellant",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal disposed of; bail declined, with liberty to apply afresh if trial not completed within one year",
+   "quote": "The appeal is accordingly disposed of with the above observations.",
+   "page": 18,
+   "reason": "No acquittal; only bail matter decided."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Not determined; no trial finding, bail stage only",
+   "quote": "observations in our above judgment will not be treated as expression of any opinion on merits",
+   "page": 18,
+   "reason": "'None' wrongly implies finding; merits not decided."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts without outcome claims or invented details; no 'loss to State exchequer' finding in this case",
+   "quote": "The offences alleged are economic offences which have resulted in loss to the State exchequer.",
+   "page": 16,
+   "reason": "Last sentence about financial loss comes from quoted precedent, not this case; otherwise broadly accurate."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the offence is punishable with life sentence",
+   "page": 8,
+   "reason": "High Court noted life sentence punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "7 candidates out of aforesaid candidates were got passed by using unfair means",
+   "page": 7,
+   "reason": "Offence alleged as completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Two FIRs (No.12 and No.14 of 2013); 516 accused is not offence count",
+   "quote": "FIR No.14 of 2013 registered on 20th November, 2013",
+   "page": 5,
+   "reason": "Value gives accused counts, not number of offences."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant allegedly received few crores of rupees; Rs.60 lakh cash seized",
+   "quote": "The appellant received few crores of rupees in the process from undeserving candidates",
+   "page": 5,
+   "reason": "Money amounts are stated; 'Not applicable' is wrong."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged (by charge sheet), not found by the Supreme Court: well-designed conspiracy",
+   "quote": "committed a serious crime in well designed conspiracy",
+   "page": 7,
+   "reason": "This was an allegation in the charge-sheet, not a court finding."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Monetary gain alleged (money received from candidates for admissions)",
+   "quote": "for monetary consideration helped the undeserving students",
+   "page": 4,
+   "reason": "Money-driven motive is evident from the allegations."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Court only found allegations supported by material on record at bail stage; no evidence accepted as proof",
+   "quote": "when the allegations are supported by material on record",
+   "page": 17,
+   "reason": "Overstates; prima facie only, expressly no opinion on merits."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not assessed",
+   "quote": "observations in our above judgment will not be treated as expression of any opinion on merits",
+   "page": 18,
+   "reason": "No witness credibility assessment is made."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court noted he went abroad after FIR and returned only after anticipatory bail; Supreme Court did not itself rely on it",
+   "quote": "going abroad soon after the registration of the Crime No.12/2013 and returning back to India on 21.1.2014",
+   "page": 8,
+   "reason": "Fact correct but 'attempt to avoid arrest' was the State's contention."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant has been in custody for about one year",
+   "page": 17,
+   "reason": "Matches."
+  },
+  "bail_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Anticipatory bail in FIR 14/2013 (16.1.2014); first bail in this case rejected 5.2.2014, second rejected 9.5.2014, HC rejected",
+   "quote": "first bail application had been dismissed on 5th February, 2014",
+   "page": 6,
+   "reason": "Omits rejections in this case; value suggests bail granted."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates given are accurate; trial not yet begun."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Siddharth Luthra, H. P. Raval, Kunal Verma, Keki Vajpei, Prasanna Mohan, Anando Mukherjee for the Appellant",
+   "page": 3,
+   "reason": "Matches counsel list."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Charge sheets filed in part; investigation still pending, final charge sheet due by March 15, 2015",
+   "quote": "certain aspects are still being investigated",
+   "page": 5,
+   "reason": "'Investigation completed' contradicts pending status."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Bail denied by trial court and High Court; Supreme Court disposed of appeal, upholding denial with directions",
+   "quote": "The appeal is accordingly disposed of with the above observations.",
+   "page": 18,
+   "reason": "'Dismissed' is imprecise; disposed of with directions."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State urged no interference: prima facie case, life sentence, kingpin, could influence witnesses, investigation pending, went abroad; excel sheet and s.164 statement",
+   "quote": "the appellant was the kingpin in the conspiracy, he had the potential of influencing the witnesses",
+   "page": 10,
+   "reason": "Value borrows from precedent text and misstates arguments."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant cannot be kept in custody for indefinite period before his guilt is established",
+   "page": 9,
+   "reason": "Accurate."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The object of keeping a person in custody is to ensure his availability to face the trial",
+   "page": 10,
+   "reason": "Accurate."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Kalvan Chandra Sarkar vs. Rajesh Ranjan, State of U.P. vs. Amarmani Tripathi, State of Kerala vs. Raneef and Sanjay Chandra vs. CBI",
+   "page": 10,
+   "reason": "All four cases listed."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Custody of about one year and no prospect of immediate trial; speedy trial right",
+   "quote": "It is certainly a matter of serious concern that the appellant has been in custody for about one year",
+   "page": 17,
+   "reason": "Court noted delay as concern."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Serious adverse impact on society, high magnitude, depravity, black money, undermining trust in medical profession",
+   "quote": "the offence alleged against the appellant has serious adverse impact on the fabric of the society",
+   "page": 16,
+   "reason": "Court expressly cited aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "if the trial is not completed within one year from today for reasons not attributable to the appellant, the appellant will be entitled to apply for bail afresh",
+   "page": 18,
+   "reason": "Accurate; investigation deadline was earlier directed by this Court."
+  }
+ }
+}

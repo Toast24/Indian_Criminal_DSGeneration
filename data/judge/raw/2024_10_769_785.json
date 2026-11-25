@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sandeep v. State of Uttarakhand",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Veer Singh, Mintu, Dharamveer and Sandeep (appellant herein)",
+   "page": 4,
+   "reason": "Four persons were charged, as the prosecution case names four accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant ... he has good conduct during this period",
+   "page": 16,
+   "reason": "Appellant is referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never states the appellant's age; 25 has no support in the text."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned anywhere in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned anywhere in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not stated in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant belonged to poor economic background",
+   "page": 16,
+   "reason": "Judgment expressly records poor economic background."
+  },
+  "previous_criminal_record": {
+   "verdict": "incorrect",
+   "correct_value": "No bad antecedents other than this offence",
+   "quote": "he had no bad antecedent except this",
+   "page": 16,
+   "reason": "Judgment states he had no bad antecedents, not that the record is unknown."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his father Abdul Hameed (deceased)",
+   "page": 4,
+   "reason": "Victim is male, identified as the complainant's father."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Abdul Hameed, aged 70 years",
+   "page": 10,
+   "reason": "Post-mortem evidence records the deceased's age as 70."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (accused were fellow villagers who came demanding jaggery from the victim)",
+   "quote": "all residents of Dosni village, came there and told to his father",
+   "page": 4,
+   "reason": "Accused were known village residents who demanded goods from the victim, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the charge of murder framed against the appellant stood proved",
+   "page": 13,
+   "reason": "Offence is murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "section 302 r/w 34 of the Indian Penal Code, 1860 ... and section 25/27 of the Arms Act, 1959",
+   "page": 4,
+   "reason": "Matches the provisions charged in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "one country made pistol 12 bore and one empty cartridge were recovered",
+   "page": 11,
+   "reason": "The weapon recovered and used was a country-made pistol, 12 bore."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness, medical, recovery/material objects",
+   "quote": "P.W.1 and P.W.2 clearly demonstrated in their deposition",
+   "page": 11,
+   "reason": "Eyewitness, medical and recovery evidence are present; 'circumstantial' is not identified by the court."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (weapon recovered on pointing out by appellant; no confession recorded)",
+   "quote": "recovered one country-made pistol 12 bore ... on pointing out by the appellant",
+   "page": 5,
+   "reason": "No confession is mentioned; 'None' overstates, as only a recovery on pointing out is recorded."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (sudden provocation and absence of premeditation were treated as mitigating)",
+   "quote": "due to sudden provocation, for not giving jaggery ... there was no premeditation",
+   "page": 16,
+   "reason": "Court treated sudden provocation and lack of premeditation as factors favouring leniency, not aggravation."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Sudden provocation, no premeditation, no bad antecedents, good conduct, poor economic background, possibility of reformation, appellant's family care",
+   "quote": "he has good conduct during this period ... the appellant belonged to poor economic background",
+   "page": 16,
+   "reason": "Omits sudden provocation, absence of premeditation, and lack of prior antecedents, which the court relied on."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "found the appellant guilty of the offence under section 302 r/w Section 34 IPC ... acquitting the other two co-accused",
+   "page": 4,
+   "reason": "Trial court convicted appellant of murder and acquitted him under Arms Act; co-accused acquitted."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court dismissed the said appeal and confirmed the judgment",
+   "page": 4,
+   "reason": "High Court dismissed the appeal and confirmed conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Partly allowed: s.302 conviction confirmed; s.34 conviction set aside; life sentence modified to period undergone",
+   "quote": "the appellant is acquitted of the charge under section 34 IPC",
+   "page": 13,
+   "reason": "'Convicted' omits that the s.34 conviction was set aside and the sentence was modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the conviction under section 302 IPC is confirmed",
+   "page": 13,
+   "reason": "Murder under s.302 IPC is the offence upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Sentence modified to period already undergone (time served)",
+   "quote": "is modified to the period already undergone by the appellant",
+   "page": 17,
+   "reason": "Court did not impose a fixed term; it reduced the life sentence to time already served."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (modified to period undergone; 17 years 1 month 9 days is the total sentence)",
+   "quote": "the total sentence of 17 years 1 month and 9 days",
+   "page": 16,
+   "reason": "17.08 is the total sentence figure, not the modified term, which is the period already undergone."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "with fine of Rs.1,000/-",
+   "page": 4,
+   "reason": "Fine of Rs.1,000 is stated in the Sessions Court sentence."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Four accused charged; the appellant alone convicted of murder under s.302 r/w 34 and acquitted of Arms Act; co-accused acquitted; pistol recovered from a field on appellant's pointing out",
+   "quote": "concealed in the field of Dharmdas under a transformer, was recovered",
+   "page": 5,
+   "reason": "States the appellant and co-accused were all acquitted of arms charges and recovery was 'from the scene', both contrary to the judgment."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Originally life imprisonment under s.302; modified to period undergone",
+   "quote": "the sentence of imprisonment for life awarded by the Sessions Court",
+   "page": 17,
+   "reason": "Life imprisonment was the original sentence but was modified, so it is incomplete."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased died due to the injuries sustained by firing of bullet",
+   "page": 11,
+   "reason": "Murder was completed with the victim's death."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the victim died due to gunshot",
+   "page": 13,
+   "reason": "Death caused by gunshot injuries is supported."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Two charges against appellant (s.302 r/w 34 IPC and s.25/27 Arms Act); s.302 conviction upheld, s.34 set aside",
+   "quote": "the appellant was charge sheeted for the offence under section 25/27 of the Arms Act",
+   "page": 4,
+   "reason": "Four is the number of accused, not offences; the appellant faced two charges."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss financial or property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was no premeditation in the commission of crime",
+   "page": 16,
+   "reason": "Court expressly found no premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for refusing to give them jaggery (GUR)",
+   "page": 4,
+   "reason": "Motive recorded as refusal to give jaggery."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "P.W.1 and P.W.2 clearly demonstrated in their deposition that the accused were having weapons",
+   "page": 11,
+   "reason": "Accepted eyewitness testimony and recovered pistol and cartridge match the judgment."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court accepted P.W.1 and P.W.2 evidence; treated their discrepancies as minor, without expressly labelling witnesses credible",
+   "quote": "they being minor in nature, cannot be considered as remissness",
+   "page": 11,
+   "reason": "Court did not use credibility language; it held discrepancies minor and evidence corroborated."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he has good conduct during this period",
+   "page": 16,
+   "reason": "Good conduct in custody is recorded."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "13 years 6 months and 20 days without remission and the total sentence of 17 years 1 month and 9 days",
+   "page": 16,
+   "reason": "Matches the jailor certificate figures in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "by order dated 27.01.2020 disposed of Interlocutory Application ... by releasing him on bail",
+   "page": 6,
+   "reason": "Supreme Court bail order dated 27.01.2020 is recorded."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on 30.10.1997 at 9.45 p.m.; judgment dated 16.05.2006; 16.12.2011",
+   "page": 4,
+   "reason": "Offence, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mrs. Sudha Gupta, learned counsel appointed ... Mr. Akshat Kumar, learned counsel for the respondent",
+   "page": 7,
+   "reason": "Counsel names match the appearances and hearing record."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Investigating Officer filed charge sheet (Ext.A8) on 27.12.1997",
+   "page": 5,
+   "reason": "FIR registered, charge sheet filed and trial completed are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Arms Act acquittal on sanction defect; Sub Inspector who investigated not examined",
+   "quote": "the Sub Inspector of Police Satish Verma, who did not come forward to let in evidence",
+   "page": 11,
+   "reason": "Judgment records non-examination of the investigating officer and a defective sanction order."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted and sentenced; High Court dismissed appeal; Supreme Court partly allowed appeal",
+   "quote": "the Sessions Court ... found the appellant guilty",
+   "page": 4,
+   "reason": "Trial court imposed conviction; it did not affirm anything, so 'affirmed' is mislabelled."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the charge of murder framed against the appellant stood proved beyond doubt",
+   "page": 9,
+   "reason": "Prosecution argued proof of murder through eyewitnesses and recovery, as recorded."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Identical roles unidentified in FIR; co-accused acquitted; Arms Act acquittal; non-examination of witnesses; vague motive",
+   "quote": "all the accused played identical role",
+   "page": 7,
+   "reason": "Premeditation was not argued; defence raised identical roles, co-accused acquittal and non-examination instead."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The law on minor discrepancies which does not affect the basic case of the prosecution, is well settled",
+   "page": 11,
+   "reason": "Court applied minor-discrepancy principle and proportionality in sentencing."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "C. Muniappan v. State of Tamil Nadu; Shiva Kumar; Navas; V. Sriharan",
+   "page": 3,
+   "reason": "Listed authorities match those relied on or followed in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it would meet the ends of justice, if the sentence ... is modified to the period already undergone",
+   "page": 16,
+   "reason": "Rationale covers lack of premeditation, good conduct, and reformation possibility."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant belonged to poor economic background ... there exists a possibility of reformation",
+   "page": 16,
+   "reason": "Good conduct, poor background and reformation are all recorded as mitigating."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (no aggravating factors expressly identified; sudden provocation was mitigating)",
+   "quote": "due to sudden provocation, for not giving jaggery",
+   "page": 16,
+   "reason": "Sudden provocation was treated as a mitigating circumstance, not aggravating."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant shall pay the fine amount imposed by the Sessions Court, if not paid already",
+   "page": 17,
+   "reason": "Fine payment, liberty and bail bond discharge are all recorded."
+  }
+ }
+}

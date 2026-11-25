@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Eight accused",
+   "page": 1,
+   "reason": "Headnote confirms eight accused."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "Alamelu (A5) were already inside the car",
+   "page": 15,
+   "reason": "Gender is not stated; one accused is named Alamelu, and no judgment text confirms gender for all accused."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is given in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the female daughter PW-2."
+  },
+  "victim_age": {
+   "verdict": "incorrect",
+   "correct_value": "Disputed: prosecution said minor (15 yrs 2 months per PW1); transfer certificate DOB 15 June 1977; radiological estimate 17-19; minority not proved.",
+   "quote": "the girl (PW2) was only 15 years and 2 months old on 31st July, 1993",
+   "page": 20,
+   "reason": "Judgment states competing age claims and holds minority unproven; 'Not stated' misses these stated figures."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Local acquaintance not related to victim's family; no prior relationship or familiarity.",
+   "quote": "There is no previous history of any relationship between Sekar and the girl.",
+   "page": 21,
+   "reason": "'Stranger' omits that A-1 was a local boy known to the family, though not related."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges were abduction and rape under IPC ss.366 and 376."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment lists ss.366 and 376 read with s.109 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim testimony, witnesses, medical/radiological evidence and documents are all discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is recorded; accused only denied charges under s.313 and made a statement to police."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted all accused."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court confirmed the trial court's conviction.",
+   "quote": "confirming the common judgment passed in S.C. No. 255 of 1997",
+   "page": 14,
+   "reason": "Judgment states the High Court confirmed the convictions, not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All appellants were acquitted by the Supreme Court."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held prosecution failed to prove any offence beyond reasonable doubt."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants acquitted, so no imprisonment is imposed finally."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment term; acquitted."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine; acquitted."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only: charges, trial and High Court convictions, victim's account, age evidence, and conduct evidence, without the Supreme Court outcome or fabrication finding.",
+   "quote": "The court ultimately acquitted the accused, finding the prosecution's case to be fabricated.",
+   "page": 33,
+   "reason": "Neutral facts reveal the acquittal outcome and the court's conclusion, which they must not do."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Trial court sentence: ten years rigorous imprisonment and Rs.500 fine (s.376 r/w s.109).",
+   "quote": "sentenced to undergo rigorous imprisonment for ten years and a fine of Rs.500/-",
+   "page": 14,
+   "reason": "No '3 years to life' range appears; the judgment states ten years RI sentences."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Alleged rape and forced marriage are described as completed acts."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Alleged repeated rape and forced mangalsutra tying are described."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charges under ss.366 and 376 r/w 109 against eight accused; none established, all convictions set aside.",
+   "quote": "All the appellants are acquitted.",
+   "page": 33,
+   "reason": "Judgment does not count offences; it acquits all, so 'upheld' is wrong."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation finding is made; the court found the story concocted."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence suggested old enmity over a land dispute; court noted father may have suspected romantic involvement; no motive established.",
+   "quote": "The entire abduction story is due to enmity because of a dispute over land.",
+   "page": 19,
+   "reason": "'Not identified' omits the defence's enmity/land-dispute motive argument stated in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "No evidence accepted; court rejected the abduction and forced marriage story and PW-2's testimony as unreliable.",
+   "quote": "the entire story about the abduction by car and the forced marriage seems to have been concocted",
+   "page": 26,
+   "reason": "Quoted content describes rejected evidence; the court accepted none of it as reliable."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment finds PW-2's testimony infirm and notes father's silence on the transfer certificate."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states PW-2 made no complaint at Selvi's house, PW5's house, or the police station."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; only remand to judicial custody is mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "No trial duration stated; charge-sheet filed 19 June 1996, PW-1 examined 9 Aug 1999, trial judgment 28 April 2000.",
+   "quote": "filed the charge sheet on 19th June, 1996",
+   "page": 17,
+   "reason": "Value gives charge-sheet and convictions, not any trial duration or dates."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "R. Venkataramani, R. Ayyam Perumal, Aljo K. Joseph for appellants; S. Thananjayan for respondent.",
+   "quote": "R. Venkataramani, R. Ayyam Perumal, Aljo K. Joseph for the Appellants.",
+   "page": 14,
+   "reason": "Counsel names are stated in the judgment, so 'not specified' is wrong."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge-sheet filing after investigation by PW12 is supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court faults both courts for ignoring inherent improbabilities and perverse findings."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appeal contentions and Article 136 principles are supported, though the value has a minor typo."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution alleged abduction, forced marriage, rape, and that PW-2 was a minor."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued the complaint was falsely lodged due to old enmity and that the girl ran away to avoid a cousin marriage; romantic suspicion was the court's view.",
+   "quote": "the complaint was falsely lodged by the father (PW1) of the girl (PW2) due to old enmity against A1",
+   "page": 18,
+   "reason": "Romantic suspicion and unnatural conduct are the court's reasoning, not defence arguments; enmity and run-away claims are omitted."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Article 136 deference and sole-victim-testimony principles are both applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All five cited precedents and citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given since appellants were acquitted."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "None identified; court considered PW-2's conduct only as evidence undermining the prosecution.",
+   "quote": "PW-2 continued to be a willing partner in the entire episode.",
+   "page": 1,
+   "reason": "Victim's conduct was evidentiary reasoning for acquittal, not a sentencing mitigating factor."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are recognised."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants acquitted and directed to be released forthwith."
+  }
+ }
+}

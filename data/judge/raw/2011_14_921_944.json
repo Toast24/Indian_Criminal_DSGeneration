@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single accused, referred to throughout as 'the appellant'."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is male; judgment refers to 'his house' and 'his home'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is a girl, Pooja."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is stated as aged 10 years."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Neighbour (lived in close vicinity; well acquainted with victim and her family)",
+   "quote": "appellant had been living for a long time in close vicinity of the house of Pooja, deceased and was very well acquainted with the victim as well as her family members",
+   "page": 19,
+   "reason": "Judgment shows the accused was a known neighbour, not a stranger."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder and rape",
+   "quote": "conviction ... for the offences of rape and murder",
+   "page": 7,
+   "reason": "Omits the rape offence, which is central to the conviction under s.376."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sections 302 and 376 IPC are stated."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Rope (recovered from accused's house; its use in the crime was not established)",
+   "quote": "Recovery of rope used in the crime at the instance of the appellant from his house.",
+   "page": 17,
+   "reason": "Judgment discusses a rope recovered and alleged to be the murder instrument, so 'None mentioned' is wrong."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case rests on circumstantial evidence with no eye-witness."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Alleged extra-judicial confession was found not proved; no accepted confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Rape and murder of a 10-year-old child; body concealed under cot (court found these insufficient for death)",
+   "quote": "The death sentence may be warranted where the victims are innocent children and helpless women.",
+   "page": 15,
+   "reason": "Judgment lists child victim, rape and concealment of body as relevant factors, not 'none noted'."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not identify specific mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted and imposed life under s.302 and 10 years under s.376, concurrent."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Upheld conviction; enhanced sentence to death penalty",
+   "quote": "The High Court upheld the conviction and enhanced the sentence to death penalty.",
+   "page": 8,
+   "reason": "High Court outcome is stated; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction was affirmed by the Supreme Court."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under ss.302 and 376 affirmed."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment restored by Supreme Court."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentence has no fixed years; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts without outcome (remove 'was convicted' and the Supreme Court outcome sentence)",
+   "quote": "which was later overturned by the Supreme Court, restoring the life imprisonment sentence",
+   "page": 24,
+   "reason": "Neutral facts reveal the court outcome, which the rules prohibit."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "sentenced him to undergo life imprisonment under Section 302 IPC and 10 years imprisonment under Section 376 IPC",
+   "page": 8,
+   "reason": "Gives sentences rather than an offence severity assessment; the sentence itself is supported."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rape and murder were completed; victim was killed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-mortem records sexual injuries, strangulation and ligature marks."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two offences charged and convictions under both sections affirmed."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is mentioned; 'Not applicable' conveys this."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not find premeditation on the facts."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Body recovery, blood stains, medical evidence and false alibi match the judgment."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court rejected Nitesh's claim of seeing Pooja in the house; Khushal declared hostile; other witnesses found reliable",
+   "quote": "the Trial Court ... came to the conclusion that it was nothing but an imagination of Nitesh (PW.3)",
+   "page": 20,
+   "reason": "Omits that Nitesh's sighting was rejected and that Khushal was declared hostile."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused was present when police arrived and his liquor-shop alibi was found false."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Key dates (offence, trial, High Court, Supreme Court) are supported by the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment (OCR artefact aside)."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Chargesheet filed under ss.302 and 376 IPC."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Police entered the house before panchanama; rope recovery held to lack link to the crime",
+   "quote": "The police had entered the house prior to Panchanama.",
+   "page": 23,
+   "reason": "Judgment notes police entry before panchanama, so 'None noted' is contradicted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Strangulation after rape and circumstantial case match the prosecution submissions."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No evidence connecting accused; enhancement unjustified; matches defence submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Circumstantial evidence tests and rarest-of-rare framework are applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Relied on: Krishnan; Sharad Birdhichand Sarda; Paramjeet Singh; Wakkar; Mohd. Mannan; John David; SK Yusuf; Muniappan; Rabindra Kumar Pal; Surendra Kofi; Sudam. Referred to only: Bachan Singh; Machhi Singh",
+   "quote": "Bachan Singh v. State of Punjab AIR 1980 SC 898 and Machhi Singh & Ors. v. State of Punjab AIR 1983 SC 957: 1983 (3) SCR 413 - referred to.",
+   "page": 5,
+   "reason": "Bachan Singh and Machhi Singh were only referred to, not relied on; the value misclassifies them."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case not rarest of rare; High Court enhancement unjustified; life restored."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no aggravating factors sufficient for death; consistent with the outcome."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court directed both sentences to run concurrently",
+   "quote": "However, both the sentences were directed to run concurrently.",
+   "page": 8,
+   "reason": "Concurrent sentencing order was made, so 'None' omits it."
+  }
+ }
+}

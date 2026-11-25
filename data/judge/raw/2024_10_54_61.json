@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only one accused, the husband appellant, is referred to throughout."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is the husband, referred to as male throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the accused appears anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record of the accused is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the wife, Raksha Devi, a female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated; only marriage and birth dates are given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused was the victim's husband, so spouse is correct."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Cruelty by husband (s.498A IPC) and abetment of suicide (s.306 IPC)",
+   "quote": "convicted the appellant for the offence under Section 306 of IPC",
+   "page": 4,
+   "reason": "No culpable homicide charge; offences were cruelty and abetment of suicide."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "IPC ss.498A and 306 and Evidence Act s.113A are all referred to."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Aluminum phosphide tablets (insecticide), consumed by the victim",
+   "quote": "consumed tablets of aluminum phosphide at about 1:45 a.m.",
+   "page": 3,
+   "reason": "Judgment identifies the poison used; 'None mentioned' ignores this, though it is not a weapon strictly."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-mortem, FIR, witness and circumstantial evidence all feature, though the list is not exhaustive."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused; the victim's suicide note was not exhibited."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not expressly list aggravating circumstances for sentencing."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sessions court convicted under 498A and acquitted under 306, as stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court upheld 498A conviction and convicted under 306."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so the conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Cruelty by husband (s.498A IPC) and abetment of suicide (s.306 IPC)",
+   "quote": "convicting the Appellant for the offences under Section 498-A r/w Section 306 of IPC",
+   "page": 8,
+   "reason": "Culpable homicide is not an established offence; conviction was under ss.498A and 306."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rigorous imprisonment for a fixed term is stated."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "5 years (s.306 IPC); 2 years (s.498A IPC, confirmed)",
+   "quote": "rigorous imprisonment for a period of five years ... sentenced him to undergo rigorous imprisonment for a period of two years",
+   "page": 4,
+   "reason": "Five years is correct for s.306 but omits the two-year sentence for s.498A."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "Rs.3,000 (s.306); Rs.1,000 (s.498A)",
+   "quote": "pay a fine of Rs.3,000/- ... pay a fine of Rs.1,000/-",
+   "page": 4,
+   "reason": "Rs.3,000 is the s.306 fine; the s.498A fine of Rs.1,000 is omitted."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "The accused married the victim in 1992 and a male child was born in 1993. The victim filed complaints against the accused, and she died by consuming aluminum phosphide tablets in 1994, within seven years of marriage.",
+   "quote": "The High Court vide the impugned Judgment and Order dismissed the appeal preferred by the appellant",
+   "page": 4,
+   "reason": "Facts reveal outcomes: High Court conviction, and that the court rejected the defence and found cruelty proved."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Maximum punishments under s.498A (three years) and s.306 (ten years) are stated in the provisions quoted."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death after consuming aluminum phosphide tablets is stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges under ss.498A and 306 were framed and both upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is mentioned, so 'Not applicable' is consistent with the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Cruelty and harassment by husband, including beatings, driving victim to suicide",
+   "quote": "the appellant used to beat his wife even when she was pregnant",
+   "page": 3,
+   "reason": "Judgment identifies cruelty and harassment by the husband as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Suicide within seven years of marriage (s.113A), proved by consumption of aluminum phosphide, and prior cases of cruelty filed by the victim",
+   "quote": "the deceased had committed suicide within a period of seven years from the date of her marriage",
+   "page": 8,
+   "reason": "Court's finding is 'within seven years'; the value says two years and omits the prior complaints."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "Two defence neighbour witnesses were found unconvincing; prosecution witnesses' credibility was not assessed.",
+   "quote": "The two defense witnesses claiming to be the neighbours of the appellant ... do not inspire any confidence",
+   "page": 7,
+   "reason": "Court only discounted two defence witnesses; main witnesses were not assessed as not credible."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant did not inform the deceased's parents immediately after the incident, which smacked of guilt.",
+   "quote": "the fact that the appellant had not even bothered to inform the parents of the deceased immediately after the incident smacked of his guilt",
+   "page": 7,
+   "reason": "Judgment expressly discusses this post-incident conduct as indicating guilt."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence/death date: 26.09.1994; marriage 10.10.1992; FIR 01.10.1994; sessions judgment 24.02.2000; HC 16.03.2011; SC 23.09.2024",
+   "quote": "on 26.09.1994 the wife of the appellant Raksha Devi consumed tablets of aluminum phosphide",
+   "page": 3,
+   "reason": "Marriage date is mislabelled as offence date; the offence date is the death, and FIR date is omitted."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondent match the appearances section."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIRs 59/1993 and 97/1994, chargesheet and completed trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Suicide note was not duly exhibited for admission in evidence.",
+   "quote": "the said suicidal note does not appear to have been duly exhibited for being admitted in evidence",
+   "page": 7,
+   "reason": "Judgment notes the suicide note was not duly exhibited, contradicting 'None noted'."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cruelty, suicide within seven years and s.113A presumption match the prosecution's submissions."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Suicide due to victim's pain and illness per suicide note; no cruelty allegations between June 1993 and suicide; no s.113A presumption; conviction based on conjecture.",
+   "quote": "there were no allegations of cruelty made between the period June 1993 till she committed suicide",
+   "page": 4,
+   "reason": "Omits the no-cruelty and conjecture arguments and attributes the court's own findings on the note and parents to the defence."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Section 113A discretionary presumption of abetment is correctly identified."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Hans Raj and Naresh Kumar citations match the footnotes."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; the court gives no sentencing reasoning, only the basis for conviction (cruelty and abetment).",
+   "quote": "We therefore, do not find any illegality or infirmity in the impugned order",
+   "page": 8,
+   "reason": "Judgment gives reasons for conviction, not for the sentence imposed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed, so 'None' is consistent."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are expressly identified for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Fine with default clause for both the s.498A and s.306 sentences.",
+   "quote": "pay a fine of Rs.1,000/- with the default clause",
+   "page": 4,
+   "reason": "Default clauses attached to both fines are omitted; 'None' understates the sentence orders."
+  }
+ }
+}

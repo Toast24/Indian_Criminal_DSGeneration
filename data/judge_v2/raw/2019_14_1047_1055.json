@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "Imrat Singh & Ors. v. State of Madhya Pradesh",
+   "quote": "IMRAT SINGH & ORS. v. STATE OF MADHYA PRADESH",
+   "page": 1,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "5",
+   "quote": "all the five accused Imrat Singh, Hetam Singh, Raghubir Singh, Nirbhaya Singh and Ratan Singh",
+   "page": 4,
+   "reason": "Five named accused are the appellants whose liability was decided."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Accused gender is not expressly stated; only names appear."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is given in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class of the accused is discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": "almost all the witnesses have some criminal antecedents",
+   "page": 9,
+   "reason": "Antecedents are attributed to witnesses, not the accused."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "He had a lot of enemies.",
+   "page": 9,
+   "reason": "Victim Gajraj Singh is referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": "Prior enmity/dispute",
+   "quote": "It may be true that there was enmity between the two sides.",
+   "page": 9,
+   "reason": "Judgment notes enmity between the two sides and victim's many enemies."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "Section 302 read with 149",
+   "page": 3,
+   "reason": "Charge is murder under s.302 r/w s.149."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC s.148; IPC s.302 r/w s.149",
+   "quote": "Sections 148 and 302 read with 149 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Sections match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "Lathis",
+   "quote": "beating Gajraj Singh with lathis",
+   "page": 4,
+   "reason": "Lathis are the weapon described."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness testimony (PW-10, PW-11); last-seen testimony (PW-6, PW-7); police investigation record",
+   "quote": "We are not using the site plan to support the prosecution case or the case of the accused",
+   "page": 7,
+   "reason": "Court expressly disclaimed reliance on the site plan as evidence; it was used only to show unfair investigation."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating facts are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted under ss.148 and 302 r/w 149 IPC; life imprisonment for murder, two years RI, fine Rs.25,000",
+   "quote": "Appellants were sentenced to undergo life imprisonment for the offence of murder and two years rigorous imprisonment",
+   "page": 3,
+   "reason": "Matches the Sessions Court conviction and sentence described."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Appeal dismissed; conviction and sentence upheld",
+   "quote": "the High Court upheld the judgment of the Sessions Judge",
+   "page": 3,
+   "reason": "High Court upheld the trial court judgment."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "acquitted",
+   "quote": "we allow the appeal, set aside the conviction of both the Courts below. Accused are acquitted accordingly.",
+   "page": 9,
+   "reason": "Supreme Court acquitted the accused."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": "Accused are acquitted accordingly.",
+   "page": 9,
+   "reason": "No offence stands after acquittal."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "none",
+   "quote": "Accused are acquitted accordingly.",
+   "page": 9,
+   "reason": "No sentence remains after acquittal."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fixed-term sentence exists."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine exists after acquittal."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Summary without stating that the witnesses named as signing the site plan denied signing; only one witness denied signing and the other denied going to the spot",
+   "quote": "Lakhan Singh states that he never went to the place of occurrence with the police and Ram Singh states that he never signed the site plan.",
+   "page": 7,
+   "reason": "Facts say all named signatories denied signing; Lakhan denied going to the spot, not signing. Otherwise neutral and in range."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "life imprisonment for the offence of murder",
+   "page": 3,
+   "reason": "Null is not the required 'Not stated' format; judgment gives no statutory punishment range for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": "beaten to death",
+   "page": 4,
+   "reason": "Death of the victim is alleged, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Death of Gajraj Singh from beating with lathis, as alleged by prosecution",
+   "quote": "Gajraj Singh was beaten to death by the five accused with lathis",
+   "page": 8,
+   "reason": "Matches prosecution case of death by lathi beating."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": "2 charged; 0 finally upheld",
+   "quote": "Sections 148 and 302 read with 149",
+   "page": 3,
+   "reason": "Two sections charged; none finally upheld after acquittal."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Court does not discuss premeditation or planning."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "alleged: enmity between the two sides (court noted it could be the motive); alleged voting-related grievance (Meera)",
+   "quote": "It may be true that there was enmity between the two sides. Enmity... It can be the motive",
+   "page": 9,
+   "reason": "Judgment discusses enmity as possible motive and a voting-related remark, so 'Not identified' is wrong."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "None relied on for conviction; eyewitness and last-seen evidence found doubtful",
+   "quote": "a doubt has been cast and the benefit of doubt has to be given to the accused",
+   "page": 9,
+   "reason": "Court relied on none of the prosecution testimony for conviction."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "PW-10 and PW-11 unreliable: prepared witnesses, contradictory, improving statements; PW-15 and PW-10 versions totally different",
+   "quote": "The versions of Har Bilas and that of Lakhan Singh (PW-10) are totally different.",
+   "page": 8,
+   "reason": "Matches the court's credibility findings on these witnesses."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No accused post-offence conduct is described."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": "Accused are on bail.",
+   "page": 9,
+   "reason": "Custody duration is not given; only bail status is mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Accused on bail; bail bonds discharged on acquittal",
+   "quote": "Accused are on bail. Their bail bonds are discharged.",
+   "page": 9,
+   "reason": "Matches the judgment's bail statement."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": "offence: 25.05.1994; trial judgment: 30.03.1995; High Court: 24.10.2008; Supreme Court: 24.10.2019",
+   "quote": "judgment of the Sessions Judge, Datia dated 30.03.1995",
+   "page": 3,
+   "reason": "All dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Accused: Ms. June Chaudhary, Sr. Adv., with others; Shikhil Suri as amicus. State: Rahul Kaushik and others",
+   "quote": "Shikhil Suri, Adv. (A.C.) ... Advs. for the Appellants. Rahul Kaushik ... Advs. for the Respondent.",
+   "page": 2,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": "FIR recorded after police visited the spot; site plan prepared; investigation found unfair",
+   "quote": "The FIR has been recorded admittedly after visiting the spot by the police",
+   "page": 9,
+   "reason": "Matches the judgment's account of investigation."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Unfair investigation: site plan prepared on Lakhan Singh's instructions though he denied going to the spot and Ram Singh denied signing; Head Constable and SDOP not examined; important witnesses not examined",
+   "quote": "Lakhan Singh states that he never went to the place of occurrence with the police and Ram Singh states that he never signed the site plan.",
+   "page": 7,
+   "reason": "Attributes both denials to one witness; Lakhan denied going, Ram denied signing."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial court: convicted; High Court: appeal dismissed; Supreme Court: appeal allowed, acquitted",
+   "quote": "the High Court upheld the judgment of the Sessions Judge",
+   "page": 3,
+   "reason": "Outcome at each level matches the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The State's arguments before the Supreme Court are not recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "PW-10 and PW-11 testimonies untrustworthy and contradictory; PW-6 and PW-7 contradictory and at best against Imrat Singh only",
+   "quote": "at best the testimonies will go against Imrat Singh and not against any of the other accused",
+   "page": 3,
+   "reason": "Matches defence submissions recorded at paragraph 3."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Benefit of doubt to accused where contradictions, non-examination of witnesses and unfair investigation cast doubt",
+   "quote": "the benefit of doubt has to be given to the accused",
+   "page": 9,
+   "reason": "Matches the principle applied by the court."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No precedents are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": "Accused are acquitted accordingly.",
+   "page": 9,
+   "reason": "No sentence imposed after acquittal."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "Court weighs no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "Court weighs no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": "Bail bonds discharged",
+   "quote": "Their bail bonds are discharged.",
+   "page": 9,
+   "reason": "Matches the order at the end of the judgment."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "3 (respondents 2-4, whose challenge was decided); 11 accused named in the final report",
+   "quote": "the 11 accused persons named in the Final Report under Section 173 of the Code of Criminal Procedure",
+   "page": 2,
+   "reason": "Three respondents challenged the charge, but the order applies to all accused, and 11 were named in the report."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused gender is not stated; only names and 'accused persons' appear."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is stated."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Councillor (accused Rataul, per the complainant's statement)",
+   "quote": "Mr. Rataul, Councilor raised lalkara",
+   "page": 4,
+   "reason": "The judgment states one accused's occupation as councillor, so 'Not stated' is wrong."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class of the accused is described."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victims are the complainant, his brother and an employee, all male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victims is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victims is stated; names must not be used to infer it."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prior dispute from four cases and the alleged instigation are described, and it is flagged as an allegation."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges are under s.307 IPC, attempt to murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Framed sections and FIR section 120-B match paragraphs 3 and 5."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Swords, daatars (sharp-edged), gandassa, baseball bat, as alleged; sharp-edged weapon caused grievous injuries",
+   "quote": "armed with sharp and deadly weapons including Gandassa, daatars, baseball bat, etc.",
+   "page": 2,
+   "reason": "Iron rod, farsa and talwar come from the quoted precedent facts, not this case."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness statements, medical report, recoveries, call records and CCTV are all described."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Attack by 10-12 persons armed with swords and other weapons on victims in a car; grievous sharp-edged injuries; assailants smashed car glass",
+   "quote": "The assailants smashed front, backside and driving side glass of the car",
+   "page": 3,
+   "reason": "The assailants, not the victims, smashed the car glass; the value reverses this."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sessions Judge framed charges including s.307; no verdict is recorded."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Revision partly allowed, s.307 charge deleted, other charges maintained."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court order quashed and accused to be tried under s.307, which is a remand for trial."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No conviction is recorded, so none is established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed; 'none' fits."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed-term sentence exists, so null is right."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The victim, a practising advocate, was in a car with his brother and an employee when 10-12 men attacked it. The victim, seated inside, was struck and bent away; a later blow hit his right arm after he got out. The brother was struck on the head and injured his fingers protecting himself.",
+   "quote": "gave blow of daatar on me, while I was sitting inside the car, on which. I bent towai;i,ls backside and saved myself",
+   "page": 3,
+   "reason": "The head blow was to the brother; the victim's right-arm injury occurred after he left the car."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the prescribed punishment for s.307."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offence is an attempt to murder with no death."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complainant's 11 injuries, 12-day admission, brother's three injuries and employee's four simple injuries all match."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nine sections were framed by the Sessions Judge and no conviction stands."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Car glass damage is noted with no value given."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court made no finding of premeditation; only the alleged common object is mentioned."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The alleged motive of teaching a lesson for four cases is correctly marked as alleged."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court relied on the statements recorded under s.161 and the medical report."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No credibility finding was made; statements were taken as prima facie support at framing."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fleeing is noted only as the complainant's allegation, not a court finding."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody period is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail details are given."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates for offence, FIR, High Court order and Supreme Court judgment match; trial judgment not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant and respondent counsel are listed; the respondent counsel are shown as the accused side, and the State is not separately named."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, SIT investigation, 11 arrests, charge sheet and framed charges are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The High Court's deletion of the s.307 charge at framing stage was held unsustainable."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Outcomes at trial, High Court and Supreme Court levels are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The complainant's ground that s.307 was rightly framed is accurately summarised."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused 2-4's argument on medical evidence, missing intention and s.326 is accurate."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Intention as a question of fact, presumption from deadly weapons and non-fatal injuries are all in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Anjani Kumar Chaudhary and Vasant Vithu Jadhav (as quoted) are cited correctly."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed, so not applicable."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Several armed assailants attacking victims with deadly weapons; injuries to head and hands; presumption of intention to kill",
+   "quote": "when several persons attack an unarmed person with deadly weapons, it is reasonable to presume",
+   "page": 5,
+   "reason": "'Unarmed victims' comes from the quoted precedent, not a finding about these victims."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused to be tried under s.307; no compensation or other directions are given."
+  }
+ }
+}

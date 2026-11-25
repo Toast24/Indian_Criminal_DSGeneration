@@ -1,0 +1,48 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "the First Party and Second Party are Uncle and Nephew in relation",
+   "page": 3,
+   "reason": "The deed calls the appellants the 'Nephew' of the uncle, which is a male descriptor, so the gender is stated."
+  },
+  "victim_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "respondent no. 4, who is the uncle of the appellants",
+   "page": 4,
+   "reason": "An injured party is described as the appellants' uncle, so at least one victim is male. Genders of the others are not given."
+  },
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the reported case title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two appellants are the accused."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cousins and uncle/nephew relationship and the land/bullock dispute are stated."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction was set aside under Art.142, with no conviction remaining."
+  }
+ }
+}

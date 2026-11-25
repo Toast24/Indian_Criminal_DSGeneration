@@ -1,0 +1,34 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "Amar Singh, S/o Likhi Chand and Shiv Charan, S/o Pooran Chand were giving hockey blows",
+   "page": 5,
+   "reason": "The accused are described as sons ('S/o') and as 'boys', so the judgment indicates male accused."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged prior enmity (defence said the victim was accused of murdering Inderjeet Singh's father); PW-1 said he knew the accused from before. The Court did not rule on the enmity.",
+   "quote": "since the victim was accused of murdering the father of the appellant, the brothers of the deceased victim had clear motive to falsely implicate",
+   "page": 7,
+   "reason": "The enmity claim is correct, but the Court never expressly rejected it, so 'did not accept this' is unsupported."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "As noted by the Court: the accused fled the spot; disclosure statements led to recovery of the knife and hockey sticks (prosecution case).",
+   "quote": "Thereafter all of them ran towards Bhisham Pitamah Marg",
+   "page": 6,
+   "reason": "The judgment notes the accused fled and made disclosure statements leading to recoveries, so 'Not stated' is wrong."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Incident inherently improbable; PW-1's conduct unnatural making his presence doubtful; two other eyewitnesses hostile; conviction on uncorroborated sole eyewitness unsafe.",
+   "quote": "conviction and sentence of the appellants based upon the sole testimony of one eye witness ... is highly unsafe without corroboration",
+   "page": 8,
+   "reason": "The knife-tip and false-implication motive points were High Court contentions, not the Supreme Court arguments recorded in para 11."
+  }
+ }
+}

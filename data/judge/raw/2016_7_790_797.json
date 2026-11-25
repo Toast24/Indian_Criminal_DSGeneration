@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "RAM AUTAR & ORS. v. STATE OF U.P.",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "Four named accused (Deo Munni, Ram Autar, Suraj Bali, Chandra Bali); total number not explicitly stated",
+   "quote": "the appellants along with Suraj Bali and Chandra Bali pounced on the deceased",
+   "page": 4,
+   "reason": "Four accused are named, but the judgment never states a total count."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appellant Deo Munni @ Putti, at his instance, brought his gun",
+   "page": 4,
+   "reason": "Male pronouns are used for the accused."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no accused age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "incorrect",
+   "correct_value": "No infamous criminal background",
+   "quote": "the accused- appellants do not have any infamous criminal background as well",
+   "page": 7,
+   "reason": "Judgment states the appellants have no infamous criminal background, not that it is unstated."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased herded back the cattle and returned home crestfallen",
+   "page": 4,
+   "reason": "Deceased referred to with male pronouns; male victim."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused- appellants, first informant as well as the deceased did descend from a common ancestor",
+   "page": 7,
+   "reason": "Accused and deceased are relatives descended from a common ancestor."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Culpable homicide not amounting to murder (s.304 Part I) after trial charge under s.302",
+   "quote": "conviction of the appellants under Section 304-Part I read with Sections 147, 148, 149 IPC",
+   "page": 8,
+   "reason": "Final conviction is under s.304 Part I, not murder; the murder charge was altered."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction of the appellants under Section 304-Part I read with Sections 147, 148, 149 IPC",
+   "page": 8,
+   "reason": "Matches final provisions; original s.302 charge omitted but not required."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Gun and lathis",
+   "quote": "the other accused persons joined in the assaults with lath is",
+   "page": 4,
+   "reason": "Lathis were also used in the assault alongside the gun."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness, medical, sketch map and blood-stained earth collection with chemical analyst report",
+   "quote": "the blood stained earth collected therefrom in course of the investigation",
+   "page": 6,
+   "reason": "'Recovery' is not described; blood-stained earth collection and chemical report are the relevant items."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment identifies no aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Spur of the moment incident without premeditation; no infamous criminal background; over three decades since incident; deceased contributed to tension",
+   "quote": "The incident happened on the spur of the moment and in an uncontrollable, embittered and agitated state of enragement",
+   "page": 7,
+   "reason": "Judgment clearly identifies several mitigating circumstances, so 'None noted' is wrong."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under Sections 302, 147, 148 and 149 IPC; life imprisonment for s.302",
+   "quote": "convicted all the accused persons under Sections 302, 147,148 B and 149 !PC",
+   "page": 5,
+   "reason": "Conviction under s.302 is right but omits the 147-149 convictions and life sentence."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "moderated the conviction under Section 302 IPC to one under Section 304-Part I",
+   "page": 5,
+   "reason": "Matches the High Court modification described."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal is thus partly allowed with the above modifications.",
+   "page": 8,
+   "reason": "Conviction maintained under modified provisions; 'convicted' is supported."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction of the appellants under Section 304-Part I read with Sections 147, 148, 149 IPC",
+   "page": 8,
+   "reason": "Final offence is the s.304 Part I offence, which matches this label."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentence for the offence under Section 304-Part I/149 IPC to rigorous imprisonment for 7 years",
+   "page": 8,
+   "reason": "Rigorous imprisonment for a fixed term is stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "reduce the sentence for the offence under Section 304-Part 1/149 IPC to rigorous imprisonment for 7 years",
+   "page": 8,
+   "reason": "Seven years matches the reduced sentence."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "5000",
+   "quote": "fine of Rs.5000/-, in default, simple imprisonment for further two months",
+   "page": 5,
+   "reason": "High Court imposed Rs.5000 fine; null ignores this, though SC did not restate it."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts without stating the outcome; no HC finding on premeditation or criminal background",
+   "quote": "there was as such no pre-meditation or prior concert on the part of the accused persons to commit murder",
+   "page": 7,
+   "reason": "Summary reveals the outcome and wrongly attributes the no-premeditation finding to the High Court rather than the Supreme Court."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "reduced to rigorous imprisonment for 7 years",
+   "page": 8,
+   "reason": "Matches the final sentence stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Lalni died at the spot.",
+   "page": 4,
+   "reason": "Victim died, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fire arm wounds on the head, chest and right upper arm of the deceased",
+   "page": 6,
+   "reason": "Injuries and cause of death match the medical evidence."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charge was framed under Section 302, read with Sections 147/ 149 IPC",
+   "page": 4,
+   "reason": "Charged and upheld offences match the judgment."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Arhar crop allegedly destroyed by the deceased's cattle (prior incident)",
+   "quote": "had allegedly destroyed the Arhar crop of the accused persons",
+   "page": 4,
+   "reason": "Crop destruction is alleged background loss, so 'Not applicable' overlooks it."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was as such no pre-meditation or prior concert on the part of the accused persons",
+   "page": 7,
+   "reason": "Matches the judgment's finding on premeditation and spur of the moment."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Dispute over deceased's cattle straying into accused's fields and destroying crop, leading to abuse and altercation",
+   "quote": "the cattle of the deceased had strayed into the fields ofSuraj Bali and others and had allegedly destroyed the Arhar crop",
+   "page": 4,
+   "reason": "Judgment identifies the cattle trespass and crop dispute as the source of the quarrel."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they have with noteworthy consistency and cohesion authenticated the case of the prosecution",
+   "page": 6,
+   "reason": "Matches the eyewitness and post-mortem evidence the court accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they have with noteworthy consistency and cohesion authenticated the case of the prosecution in all material particulars",
+   "page": 6,
+   "reason": "Matches the court's assessment of eyewitness reliability."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody period is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on 04.04.1982 at 1.00 p.m.",
+   "page": 4,
+   "reason": "Offence date matches; trial and appeal dates are not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dr. J. P. Dhanda, Ms. Raj Rani Dhanda, Vineet Dhanda, N. A. Usmani, Mohd. Shahid Hussain, Advs. for the Appellant.",
+   "page": 2,
+   "reason": "Counsel names for appellants and State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "After the charge-sheet was laid against the accused persons, charge was framed",
+   "page": 4,
+   "reason": "FIR, charge-sheet and completed trial match the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court in appeal sustained the conviction under Sections 147/148/149 IPC but moderated the conviction under Section 302",
+   "page": 5,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "had formed an unlawful assembly and had with the intention of eliminating the deceased, had jointly launched a lethal attack",
+   "page": 5,
+   "reason": "Matches the prosecution's submissions on unlawful assembly and lethal attack."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Deceased and cohorts attacked accused; DW-1 Shyam Lal fired in self-defence; no pre-meditation or pre-concert",
+   "quote": "for which DW-1 Shyam Lal had to open fire in self defence",
+   "page": 5,
+   "reason": "Defence said Shyam Lal fired in self-defence, not that the accused used a firearm."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was as such no pre-meditation or prior concert on the part of the accused persons to commit murder",
+   "page": 7,
+   "reason": "Fair paraphrase of the no-common-object reasoning and sentence reduction."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "having regard to the singular facts and circumstances, the sentence",
+   "page": 8,
+   "reason": "Rationale factors match paragraphs 19 and 20."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The evidence demonstrates that the accused- appellants do not have any infamous criminal background",
+   "page": 7,
+   "reason": "Listed mitigating factors match the judgment's reasoning."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified in the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The other sentences are hereby affirmed.",
+   "page": 8,
+   "reason": "Matches the order reducing one sentence and affirming the rest."
+  }
+ }
+}

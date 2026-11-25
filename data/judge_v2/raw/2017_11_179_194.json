@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "Kuna @ Sanjaya Behera v. State of Odisha",
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "2",
+   "quote": null,
+   "page": null,
+   "reason": "Appellant and co-accused Pravati Behera are the two accused whose liability is decided."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Mixed",
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is male; co-accused is referred to as female ('her hands')."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community is named for the accused."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Only the deceased's employment at a sweet meat shop is mentioned; accused occupation is not."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No statement on the accused's wealth or class appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": null,
+   "page": null,
+   "reason": "The deceased is a male uncle of the eyewitness (Santosh Behera)."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Relative: accused and co-accused are related as nephew and aunt; appellant is the eyewitness's cousin brother; co-accused's spousal link to the deceased is not stated.",
+   "quote": "the accused persons were related as nephew and aunt",
+   "page": 7,
+   "reason": "Relative relationship is right, but the 'deceased's wife' claim is unsupported; the judgment never states it."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": null,
+   "page": null,
+   "reason": "Charged under s.302 IPC for murder of the deceased."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC s.302 r/w s.34; IPC s.203 r/w s.34",
+   "quote": null,
+   "page": null,
+   "reason": "Charged under Sections 302/203/34 IPC; s.203 acquittal noted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "None mentioned for the killing (pressing neck by hands); rope used to suspend body",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes strangulation by hands and a rope tied to the neck and used to suspend the body."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": "Eyewitness (sole eyewitness); medical (post-mortem); circumstantial/motive evidence; disclosure witnesses",
+   "quote": null,
+   "page": null,
+   "reason": "Covers the sole eyewitness, post-mortem, motive evidence and disclosure witnesses."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is noted; they denied the allegations."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating facts are noted by the courts."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted by the courts."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted under s.302 r/w s.34 IPC; life imprisonment and Rs. 100 fine (default 30 days RI); acquitted under s.203",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the trial court's sentence and the s.203 acquittal."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Appeals dismissed; conviction and sentence under s.302 r/w s.34 affirmed; s.203 acquittal affirmed; co-accused left free to seek premature release",
+   "quote": null,
+   "page": null,
+   "reason": "Consistent with the High Court's affirmance and liberty granted to co-accused."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "acquitted",
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed the appeal and acquitted the appellant."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is acquitted, so no offence is finally established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "none",
+   "quote": null,
+   "page": null,
+   "reason": "Acquittal means no final sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fixed-term sentence exists after acquittal."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine after acquittal."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "Summary is neutral, uses roles not names, stops before court proceedings, and does not reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory punishment range for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": null,
+   "page": null,
+   "reason": "The deceased was killed; the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Death by asphyxia from constriction of the neck; external abrasions",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the post-mortem findings described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": "2 charged; 0 finally upheld",
+   "quote": null,
+   "page": null,
+   "reason": "Two sections charged (302/34 and 203/34); none upheld after acquittal."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No finding on premeditation or planning is made."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": "alleged: illicit/extra-marital relationship between the accused; not proved, High Court's motive inference held flawed",
+   "quote": null,
+   "page": null,
+   "reason": "Alleged motive is correctly marked and the court's rejection is correctly stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "No evidence accepted as sufficient for conviction; Trial Court's motive analysis accepted; PW5, PW6, PW8 treated as non-substantive",
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects that the court accepted the motive analysis and discounted the disclosure witnesses."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "PW1 wholly unacceptable: intoxicated, silent during incident, unexplained delay; PW5, PW6, PW8 derived knowledge from PW1; PW3 motive evidence flawed",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's assessment of PW1, PW5, PW6, PW8 and PW3."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Per PW1's account (not accepted): appellant locked co-accused inside the house and threatened PW1 with death if he disclosed; accused arrested after disclosures",
+   "quote": "the appellant locked Pravati Behera in the house from outside and threatened to kill him, if he disclosed the offence to anyone",
+   "page": 11,
+   "reason": "'Not stated' overlooks the threat and locking narrated as post-offence conduct; only the delay is noted."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Time in custody is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No bail details appear in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": "offence: 19/20.2.2000; trial judgment: 26.1.2001; High Court: 07.11.2007; Supreme Court: 17.11.2017",
+   "quote": null,
+   "page": null,
+   "reason": "All dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Accused: Krishnan Venugopal, Sr. Adv., with Shivendra Singh, Deepanshi Ishar, Dharmendra Kumar Sinha; State: Shibashish Misra, Sylona Mohapatra",
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment, with minor spelling variants."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": "Initial report 20.2.2000; FIR 26.2.2000 under ss.302/203/34; inquest, spot map, rope seizure, post-mortem; charge-sheet filed; trial completed",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the investigation steps and dates described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "Delay in FIR/conversion (six days) and in eyewitness disclosure (three days) noted by the court",
+   "quote": null,
+   "page": null,
+   "reason": "Court noted both delays and the unexplained silence as weakening the case."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial court: convicted s.302 r/w s.34 (life), acquitted s.203; High Court: appeals dismissed, conviction and s.203 acquittal affirmed; Supreme Court: appeal allowed, appellant acquitted",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the outcomes at each level."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": "Sole eyewitness PW1 credible and corroborated by medical evidence; PW2 and PW12 support discovery; PW1 and PW3 prove motive; delay explained by threat; Gulam Sarbar cited",
+   "quote": null,
+   "page": null,
+   "reason": "All main prosecution arguments are accurately summarized."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "PW1 unbelievable (intoxicated, silent, no lighting, doubtful presence); delay; PW5, PW6, PW8 hearsay; inconsistent injuries; motive not proved",
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects the defence submissions recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Single eyewitness conviction if reliable (quality over number); motive matters in circumstantial cases; s.3 Evidence Act proof standard; benefit of reasonable doubt",
+   "quote": null,
+   "page": null,
+   "reason": "Principles match those applied in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "Anil Phukhan; Ramji Surya Padvi; Patnam Anandam; Gulam Sarbar; Mahamadkhan Nathekhan; Lokeman Shah; M. Narsinga Rao (approved); Vijayee Singh",
+   "quote": null,
+   "page": null,
+   "reason": "Main precedents and citations match the judgment's stated authorities."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "Appellant acquitted; no sentence imposed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no mitigating factors for sentencing."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no aggravating factors for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": "Appellant to be set at liberty if not required in any other case",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the final direction in paragraph 25."
+  }
+ }
+}

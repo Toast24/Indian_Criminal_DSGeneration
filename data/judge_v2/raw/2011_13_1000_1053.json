@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant; one accused's liability decided."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused referred to as male throughout (he, his, husband)."
+  },
+  "accused_age": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (approximate age 'around 50 to 52 years' at the time, per the High Court quoted by the Court)",
+   "quote": "looking to the age of accused, who was around 50 to 52 years at that time",
+   "page": 27,
+   "reason": "Judgment gives an approximate age via the High Court; 'Not stated' ignores it, though no exact age is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community identity is stated for the accused."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the accused is a businessman running a catering business."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Business losses, employees, car and cash of Rs.7,68,080 are all mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victims are the wife, a son and two daughters, so mixed."
+  },
+  "victim_age": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated for a single victim age (multiple victims; son about 20, daughters about 22 and 13, wife's age not given)",
+   "quote": "one son Amandeep Singh aged about 20 years and two daughters viz. Neeti and Taniya, aged about 22 years and 13 years respectively",
+   "page": 16,
+   "reason": "Children's ages are stated; the wife's is not. The value's gloss is accurate but the column cannot hold multiple ages."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victims is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victims is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused was husband and father of the victims, as described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charged and convicted of murder under s.302."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only Section 302 IPC is charged and convicted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Petrol poured with a red bucket; petrol can noted in flat."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Circumstantial evidence, last-seen, recovery under s.27 and chemical analysis all relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Section 27 disclosure pointing out bucket was relied on; no confession to killing."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sleeping victims, pre-planning, family members and absconding are all noted by the Court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment notes no mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convicted under s.302 and sentenced to death by Sessions Judge."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed appeal and upheld the death sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal; conviction and death sentence upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 for the four deaths is upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death sentence upheld."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed term; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount is imposed or stated in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Summary should describe the can as seen by a witness one month before the incident (petrol in a white plastic can); 'new' was noted by police. Avoid gendered terms ('his', 'man') and the unsupported claim that investigators rejected the alibi.",
+   "quote": "one month before the incident when he returned to the building ... he went inside the flat of the accused inadvertently opened a white color plastic can and he noticed petrol in the said can",
+   "page": 24,
+   "reason": "Conflates the witness's earlier sighting with the new can; claims investigators rejected the alibi (not stated); uses gendered pronouns and 'man'."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it has to sentence the offender to either death or for imprisonment for life",
+   "page": 33,
+   "reason": "Judgment states s.302 punishment is death or life imprisonment and fine."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All four victims died; the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Four deaths by burning; son's incised injuries explained as broken glass."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "One section (s.302) charged in four counts; one finally upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cash was seized, not lost; no property loss is recorded."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found pre-planned murder, not on spur of moment, given petrol brought into flat."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held motive could only be speculated; no motive was accepted."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Witness testimony, the petrol can, bucket recovery, false alibi and flight are all accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "PW3, PW4, PW5 and PW16 found credible with no reason to disbelieve them."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Flight, cash and safari suits found on arrest, and a false alibi, are all noted."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives arrest date only, not custody duration."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail information is given in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence dated 19.3.2005; High Court judgment dated 26.6.2006; incident 10.4.2003",
+   "page": 16,
+   "reason": "All listed dates match the judgment's stated dates."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for appellant and State match the appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR by PSI, inquest, post mortem, arrest 14.4.2003, charge sheet and 19 witnesses are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Section 313 objection rejected; no procedural lapse found by the Court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction and death sentence at trial, upheld by High Court, dismissed by Supreme Court."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (State's submissions are not recorded; the Court's own chain-of-circumstances analysis is noted)",
+   "quote": "Thus, in our opinion the prosecution has been able to establish the entire chain of circumstances which connect the accused to the crime.",
+   "page": 31,
+   "reason": "The judgment does not record State arguments, only the Court's chain analysis; the value presents the Court's reasoning as the argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive, happy marriage, bucket fabrication, alibi, s.313, injuries and inconsistencies are all recorded as defence submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Circumstantial chain, last-seen theory, s.114, and rarest of rare with balance sheet are applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cited precedents match those relied on, including Bachan Singh, Machhi Singh and Common Cause."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rationale matches the Court's reasoning on rarest of rare and irreformability."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court weighed no mitigating factors in favour of the accused."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Pre-planning, cruelty, burning living persons and irreformability are weighed by the Court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No compensation, directions or guidelines ordered beyond dismissal of appeal."
+  }
+ }
+}

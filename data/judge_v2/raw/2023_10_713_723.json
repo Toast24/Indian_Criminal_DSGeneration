@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment heading: Arvind Kumar v. State of NCT, Delhi."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant-accused; the Court decides his liability alone."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 2,
+   "reason": "The appellant is referred to with male pronouns throughout (e.g., 'his conviction')."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the accused is stated or described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant was posted as a guard at the Police Station.",
+   "page": 2,
+   "reason": "Judgment states he was a guard posted at the police station; 'Santri Ct.' indicates constable rank."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on the accused's wealth, poverty or class appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased ... his neck",
+   "page": 6,
+   "reason": "Victim (constable Mohd. Rashid) is referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victim is stated or described."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-12 and the appellant were annoyed with him and thus, threatened to kill him",
+   "page": 4,
+   "reason": "Co-worker relationship at the same station and the alleged grudge motive are both described in the judgment."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Other (causing death by negligence, IPC s.304A; initially charged as murder)",
+   "quote": "Section 302 of IPC was applied while filing the chargesheet.",
+   "page": 3,
+   "reason": "Charged as murder, but the Court held it was not culpable homicide and finally convicted for negligence under s.304A."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction u/s. 302 set aside ... guilty ... punishable u/s. 304A",
+   "page": 1,
+   "reason": "Covers the charged s.302 and the finally established s.304A; s.80 and s.6 are arguments, not charges."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "9 mm carbine marked A",
+   "page": 7,
+   "reason": "Semi-Automatic Fire carbine, described as 9 mm, is the weapon used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 6,
+   "reason": "Eyewitness testimony, ballistic reports, circumstantial evidence and s.6 res gestae statements are all discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the statement of an accused to which Section 6 is applicable cannot be treated as a confession of guilt",
+   "page": 10,
+   "reason": "Court held the alleged statement is not a confession and was not relied on as one."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Gross negligence: appellant holding a sophisticated automatic weapon failed to keep the change lever in safety position",
+   "quote": "there is a failure on the part of the appellant who was holding a sophisticated automatic weapon to ensure that the change lever was always kept in a safety position",
+   "page": 10,
+   "reason": "Judgment notes gross negligence and failure to engage safety, which are aggravating facts, not 'None noted'."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 10,
+   "reason": "Accidental firing and lack of intention or knowledge of likely death are noted by the Court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Trial Court sentenced the appellant to undergo a life sentence.",
+   "page": 2,
+   "reason": "Conviction under s.302 with life sentence matches the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the conviction of the appellant has been confirmed",
+   "page": 2,
+   "reason": "High Court confirmed the conviction, which matches the value."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the conviction of the appellant under Section 302 of the IPC is set aside and he is held guilty ... under Section 304A",
+   "page": 11,
+   "reason": "Conviction altered to a lesser offence, which is conviction_modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "guilty of committing the offence punishable under Section 304A of IPC",
+   "page": 11,
+   "reason": "Final conviction is s.304A, causing death by negligence."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant has undergone the maximum sentence prescribed for the said offence.",
+   "page": 11,
+   "reason": "Final sentence is a fixed-term sentence, effectively served as the prescribed maximum."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the maximum sentence is imprisonment for two years",
+   "page": 11,
+   "reason": "Court states the maximum of two years has been undergone, so 2 years is supported."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 2,
+   "reason": "Summary covers the incident, investigation and evidence without names or outcome; accurately reflects the judgment."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for which the maximum sentence is imprisonment for two years",
+   "page": 11,
+   "reason": "Judgment states the maximum for s.304A is two years; no minimum is given."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 2,
+   "reason": "Death resulted from the firing, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The deceased got five rounds of bullets in his neck.",
+   "page": 3,
+   "reason": "Death from five gunshot wounds, neck and chest, is described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "1 charged (s.302); 1 conviction stands (s.304A, lesser offence not charged)",
+   "quote": "Section 302 of IPC was applied while filing the chargesheet.",
+   "page": 3,
+   "reason": "Only s.302 was charged; s.304A was a lesser-offence conviction, not an upheld charge."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution has failed to prove that the appellant had either any intention of causing the death",
+   "page": 10,
+   "reason": "Court found no intention to cause death; no planning was found."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the existence of motive does not inspire confidence",
+   "page": 4,
+   "reason": "Alleged motive is marked as alleged and the Court held it was not established."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the version of PW-12 and PW-25 ... completely supports the defence of the appellant of accidental firing",
+   "page": 7,
+   "reason": "Eyewitness accounts, ballistic opinions and bullet injuries are the evidence the Court relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-12 Shashi Bala was not declared as a hostile witness.",
+   "page": 5,
+   "reason": "Accurately reflects the Court's assessment of PW-12, PW-25, PW-22, PW-5 and PW-13."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "assuming that the statements attributed to the appellant and PW-12 were in fact made",
+   "page": 10,
+   "reason": "Court treated the alleged statement as relevant conduct only assuming it was made."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant had undergone incarceration for a period of about 8 years and 11 months",
+   "page": 2,
+   "reason": "Custody duration of about 8 years 11 months is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "released on bail by this Court by the order dated 27th November 2017",
+   "page": 2,
+   "reason": "Supreme Court bail release on 27 November 2017 is stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on 28th December 1994 ... the order dated 27th November 2017",
+   "page": 2,
+   "reason": "Offence date, High Court judgment date and Supreme Court date are given; trial judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "S. Nagamuthu, Sr. Adv., Ms. Prerna Mehta, Adv. for the Appellant.",
+   "page": 2,
+   "reason": "Appellant and respondent counsel match the judgment's listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "an offence under Section 304A was registered ... investigation was transferred to the Crime Branch",
+   "page": 3,
+   "reason": "FIR under s.304A, transfer to Crime Branch, chargesheet under s.302 and completed trial are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the case of the prosecution that he intentionally opened fire by aiming at the deceased was not put to the appellant",
+   "page": 8,
+   "reason": "Court noted the intentional-firing case was not put in the s.313 statement."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appeal partly allowed.",
+   "page": 11,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant certainly had knowledge that the use of SAF carbine may cause death",
+   "page": 4,
+   "reason": "State's argument based on ballistic and ocular evidence is accurately stated."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no offence was committed by the appellant in view of Section 80 of IPC",
+   "page": 4,
+   "reason": "Accidental firing, s.80 defence, alternative s.304 Part II and motive argument are all stated."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "not a case of culpable homicide as defined u/s. 299",
+   "page": 1,
+   "reason": "Court applied the s.299 culpable homicide test, gross negligence under s.304A and s.6 relevance."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment cites no precedents, so 'Not stated' is correct."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant has undergone the maximum sentence prescribed for the said offence. Hence, his detention in prison is no longer required.",
+   "page": 11,
+   "reason": "Rationale for no further detention is accurately stated."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant has undergone a sentence of more than eight years.",
+   "page": 11,
+   "reason": "Accidental firing, lack of intention or knowledge, and time already served are noted by the Court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is gross negligence on the part of the appellant which led to a loss of human life",
+   "page": 11,
+   "reason": "Gross negligence with a sophisticated automatic weapon is the aggravating factor the Court weighed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Hence, his bail bonds are cancelled.",
+   "page": 11,
+   "reason": "Bail bond cancellation is the only other order stated."
+  }
+ }
+}

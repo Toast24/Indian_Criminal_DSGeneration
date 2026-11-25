@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two appellants, Digamber Vaishnav and Girdhari Vaishnav, are identified."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to with male pronouns, e.g. 'belongs to him'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for either accused anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "murder of all the five ladies",
+   "page": 10,
+   "reason": "Victims were all women (the five deceased ladies)."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victims' ages are not given; only the child witness PW-8's age (9) is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "not sufficient to show the acquaintance",
+   "page": 18,
+   "reason": "Judgment does not establish any relative relationship; acquaintance itself was held insufficiently shown."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder and robbery",
+   "quote": "committed robbery in the house of the deceased persons and committed murder",
+   "page": 10,
+   "reason": "Offence category omits the robbery charge, which the case was built around."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302 read with Section 34 IPC... Section 394 read with Section 34 of IPC",
+   "page": 10,
+   "reason": "Sections 302/34 and 394/34 IPC are both correctly listed."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "No weapon identified; death caused by strangulation",
+   "quote": "asphyxia due to strangulation and the deaths were homicidal",
+   "page": 9,
+   "reason": "Judgment states the cause of death was strangulation, not that no weapon existed; 'None mentioned' is inaccurate."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial evidence: child witness testimony, s.27 recoveries, fingerprint report, FSL report, motive of robbery, last seen together",
+   "quote": "(i) Testimony of child witness... (ii) The recoveries made under Section 27... (v) Motive... (vi) Evidence of last seen together",
+   "page": 13,
+   "reason": "Omits motive and last-seen evidence, which the prosecution relied on as circumstances."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is described; s.27 memorandum statements are not treated as confessions."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed; 'None noted' is consistent with the text."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced with capital punishment for the offence under Section 302",
+   "page": 10,
+   "reason": "Sessions Court convicted and sentenced both accused to death."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Affirmed death sentence; dismissed appeals and confirmed the Sessions Court judgment",
+   "quote": "High Court by its judgment dated 30.04.2015 affirmed the judgment of the Sessions Court",
+   "page": 10,
+   "reason": "High Court affirmed the death sentence and dismissed the appeals; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants/accused are hereby acquitted",
+   "page": 20,
+   "reason": "Supreme Court acquitted both appellants."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants/accused are hereby acquitted for the offences for which they were tried",
+   "page": 20,
+   "reason": "No offence was finally established against the accused."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final order sets aside all sentences, so no imprisonment remains."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment term; trial-level ten-year term was set aside."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine; the trial-level Rs.500 fine was set aside with the conviction."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Two male accused; five women found dead in the house after 16-17.12.2012; circumstantial case with child witness, recoveries, fingerprint and FSL reports; trial court sentenced both to death; High Court affirmed.",
+   "quote": "The appeals succeed and are allowed",
+   "page": 20,
+   "reason": "Neutral facts reveal the Supreme Court outcome, and describe a single victim rather than five deceased women."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Severity is not formally stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not classify attempt or completion; deaths occurred."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "bleeding from the nose and mouth of deceased and there were marks of injuries on the neck",
+   "page": 9,
+   "reason": "Matches the description of injuries in the complainant's account."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder of five women and robbery alleged; convictions by courts below, set aside by Supreme Court",
+   "quote": "murder of all the five ladies",
+   "page": 10,
+   "reason": "Five deaths are correct, but the counts were not 'upheld' since the Supreme Court acquitted."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Robbery alleged; cash of Rs.3000 and Rs.2600 and silver anklet seized, but loss not established",
+   "quote": "Rs.3000/- and anklet (pair patti) was kept in his house",
+   "page": 9,
+   "reason": "Cash and anklet were seized and robbery alleged, so property loss is not wholly inapplicable."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution has alleged robbery as motive for the commission of the offence",
+   "page": 19,
+   "reason": "Robbery was the alleged motive and was held unsubstantiated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court rejected the child witness, recoveries, fingerprint and FSL evidence as insufficient."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Her evidence is fraught with inconsistencies",
+   "page": 14,
+   "reason": "Court found PW-8's evidence inconsistent and risky without corroboration."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused post-offence conduct is discussed; delay concerns the child witness."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence dates 16.12.2012 and 17.12.2012 (bodies found 17.12.2012); trial judgment 14.05.2014; High Court 30.04.2015; Supreme Court decision 05.03.2019",
+   "quote": "from when PW-8 saw the deceased and the appellants together on 16.12.2012 and when the deceased were found on 17.12.2012",
+   "page": 20,
+   "reason": "Offence date omits 16.12.2012 when the accused were allegedly seen; other dates are correct."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and respondent match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "chargesheet was filed in the court of Judicial Magistrate",
+   "page": 10,
+   "reason": "Chargesheet filed and trial completed, as the judgment describes."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Lists delay in reporting, withheld best evidence, unreliable recoveries and uncorroborated child testimony, all discussed."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "affirmed the judgment of the Sessions Court",
+   "page": 10,
+   "reason": "Trial conviction, High Court affirmance and Supreme Court acquittal are accurately recorded."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution has relied on (i) Testimony of child witness... (vi) Evidence of last seen together",
+   "page": 13,
+   "reason": "Reliance on child witness, recoveries, reports, motive and last-seen evidence is accurately summarized."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was an unexplained delay in reporting the offence",
+   "page": 11,
+   "reason": "Defence contentions on delay, uncorroborated child witness, recoveries and last seen match the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the burden of proof squarely rests on the prosecution and that the general burden never shifts",
+   "page": 11,
+   "reason": "Burden of proof and favourable-view principles are correctly identified."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Jaharlal Das; Varkey Joseph; Sujit Biswas; Kali Ram; Arjun Marik; Kanhaiya Lal; Panchhi; State of U.P. v. Ashok Dixit; State of Rajasthan v. Om Prakash; Alagupandi",
+   "quote": "See Panchhi and others v. State of U.P, State of U.P. v. Ashok Dixit and another, and State of Rajasthan v. Om Prakash",
+   "page": 14,
+   "reason": "Omits Panchhi, Ashok Dixit, Om Prakash and Alagupandi, all cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale applies since the accused were acquitted."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Judgments of High Court and Sessions Court set aside; accused acquitted and ordered released forthwith unless required in other cases",
+   "quote": "they shall be released forthwith, unless required in any other case/cases",
+   "page": 20,
+   "reason": "Release order was made; 'None' omits the release direction and setting aside of lower court orders."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "DAUVARAM NIRMALKAR v. STATE OF CHHATTISGARH",
+   "page": 1,
+   "reason": "Title matches."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant, Dauvaram Nirmalkar, has been convicted",
+   "page": 6,
+   "reason": "Single accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the murder of his brother",
+   "page": 6,
+   "reason": "Appellant referred to as 'his' and brother; male."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused appears in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated; the s.309 charge arose from the suicide attempt on the night of the incident",
+   "quote": "he was charged for the offence under Section 309 of the IPC",
+   "page": 8,
+   "reason": "Suicide attempt was part of the same incident, not a prior record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the murder of his brother, Dashrath Nirmalkar",
+   "page": 6,
+   "reason": "Victim is male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No victim age given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the murder of his brother, Dashrath Nirmalkar",
+   "page": 6,
+   "reason": "Brothers."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder (s.302) converted to culpable homicide not amounting to murder (s.304 Part I)",
+   "quote": "convert the conviction of the appellant from Section 302 to Part I of Section 304",
+   "page": 14,
+   "reason": "Murder was the lower-court conviction; finally culpable homicide."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Exception 1 to Section 300 of the IPC",
+   "page": 9,
+   "reason": "Sections listed are discussed; s.309 and Evidence Act also mentioned but core ones present."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a pick-axe was seized from a wooden box",
+   "page": 7,
+   "reason": "Pick-axe seized, blood-stained."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Medical, circumstantial, recovery on disclosure; witnesses turned hostile (no eyewitness)",
+   "quote": "Kumari Madhu Nirmalkar (PW-10) did not profess ... that she had seen the appellant committing the offence",
+   "page": 8,
+   "reason": "No eyewitness to the act; eyewitness label is inaccurate."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Confession to police inadmissible under s.25; only identification of maker, s.27 discovery portion and conduct (s.8) admissible",
+   "quote": "the confession is inadmissible as proof of confession is prohibited under Section 25",
+   "page": 7,
+   "reason": "Omits that the confession itself was held inadmissible."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "None stated",
+   "quote": null,
+   "page": null,
+   "reason": "Deceased's abuse is provocation (mitigating), not aggravating."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the acts of provocation ... were both sudden and grave and that there was loss of self-control",
+   "page": 14,
+   "reason": "Supported."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "has been convicted under Section 302 of the Indian Penal Code",
+   "page": 6,
+   "reason": "Courts below convicted under s.302."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction under s.302 upheld",
+   "quote": "we are in agreement with the High Court and the trial court",
+   "page": 6,
+   "reason": "High Court appeal was decided, upholding conviction."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeal partly allowed; conviction modified to s.304 Part I, sentence reduced to period undergone",
+   "quote": "The appeal is partly allowed modifying the conviction and sentence",
+   "page": 15,
+   "reason": "Convicted but of lesser offence."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convert the conviction of the appellant from Section 302 to Part I of Section 304",
+   "page": 14,
+   "reason": "Matches."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "modify the sentence of imprisonment to the period already undergone",
+   "page": 15,
+   "reason": "Term already undergone is fixed-term."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "Period already undergone (over 10 years, in custody since 27 Sept 2011)",
+   "quote": "suffered incarceration for over 10 years",
+   "page": 14,
+   "reason": "Approximately right but 'over 10', not exactly 10."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "pay a fine of Rs. 1,000/-",
+   "page": 15,
+   "reason": "Matches."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Should avoid outcome-revealing language; also contains a stray fragment and says the accused lost self-control as deemed",
+   "quote": "were both sudden and grave and that there was loss of self-control",
+   "page": 14,
+   "reason": "Reveals court's finding on provocation; garbled fragment; pick-axe infliction not expressly stated."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states no statutory min/max range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dashrath Nirmalkar had died",
+   "page": 6,
+   "reason": "Death occurred."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "died due to coma as a result of shock ... multiple fractures on the skull bone",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "s.302 conviction converted to s.304 Part I; separate s.309 charge for suicide attempt",
+   "quote": "he was charged for the offence under Section 309",
+   "page": 8,
+   "reason": "Omits s.309; 'upheld' is wrong, converted."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None involved."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Court found sudden loss of self-control; no express finding of absence of planning beyond applying exception",
+   "quote": "There was sudden loss of self-control on account of a ‘slow burn’ reaction",
+   "page": 14,
+   "reason": "Implied but 'no evidence of reflection' quote is a general principle, not a finding."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution does not dispute this position and in fact, has relied upon these facts to show motive.",
+   "page": 9,
+   "reason": "Supported."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant and no other person was the perpetrator",
+   "page": 8,
+   "reason": "Accurate."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Witnesses turned hostile but in unison deposed to separate rooms; no third person suggested; s.313 defence rejected",
+   "quote": "carries no weight and has been rightly rejected",
+   "page": 8,
+   "reason": "Accurate but incomplete."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Went to police station and confessed; attempted suicide by live wires; burns; 10 days' simple imprisonment under s.309",
+   "quote": "the appellant himself went to the police station and confessed the crime",
+   "page": 7,
+   "reason": "Omits his self-surrender and disclosure leading to recovery."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in custody since 27th September, 2011",
+   "page": 15,
+   "reason": "Over 10 years."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence night before 26 Sept 2011; confession 26 Sept 2011; HC judgment 25.02.2019; SC decision 02.08.2022",
+   "quote": "Judgment and Order dated 25.02.2019 of the High Court",
+   "page": 6,
+   "reason": "Several dates are stated though value says Not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Harinder Mohan Singh, Adv. for the Appellant",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated in detail; police recovered pick-axe on disclosure",
+   "quote": null,
+   "page": null,
+   "reason": "FIR registration and charge sheet are not stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Confession to police inadmissible under s.25",
+   "quote": "the confession is inadmissible",
+   "page": 7,
+   "reason": "An admissibility issue was noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we are in agreement with the High Court and the trial court",
+   "page": 6,
+   "reason": "Fits."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecution case: appellant killed brother; deceased's abusive behaviour relied on as motive",
+   "quote": "has relied upon these facts to show motive",
+   "page": 9,
+   "reason": "Prosecution did not argue provocation; that is the court's use of its case."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence claimed some third person killed the deceased (s.313); rejected",
+   "quote": "some third person had killed his brother Dashrath Nirmalkar",
+   "page": 8,
+   "reason": "Judgment records third-party defence, not provocation argument."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Exception 1 applies when due to grave and sudden provocation, the offender, deprived of the power of self-control, causes the death",
+   "page": 10,
+   "reason": "Accurate."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Aghnoo Nagesia v. State of Bihar ... K. M. Nanavati ... Budhi Singh ... relied on",
+   "page": 5,
+   "reason": "Matches relied-on cases."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appellant has already suffered incarceration for over 10 years",
+   "page": 14,
+   "reason": "Matches."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "suffered incarceration for over 10 years",
+   "page": 14,
+   "reason": "Reasonable."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None identified."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "directed to be released forthwith",
+   "page": 15,
+   "reason": "Matches."
+  }
+ }
+}

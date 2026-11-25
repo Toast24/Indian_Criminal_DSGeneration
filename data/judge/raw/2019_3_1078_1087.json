@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "incorrect",
+   "correct_value": "At least four accused (nos. 1-4) named; total not explicitly stated",
+   "quote": "appeal filed by accused No.4, i.e, (Ram Nath Sharma...) and the appeal filed by accused no.2, i.e, (Ram Uday Singh)",
+   "page": 4,
+   "reason": "Only two appellants, but judgment names accused nos. 1-4 and also refers to Rama Shankar Prasad Singh as a conspirator."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "he was responsible for making entries in the register at the gate",
+   "page": 9,
+   "reason": "Judgment refers to male accused with 'he'; no female accused is mentioned, so 'Mixed' is contradicted."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age of accused is not mentioned in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "FCI employees: Shiv Shankar Prasad Singh as AG-III (receipt incharge); Ramdeo Prasad as AG-I, Depot Incharge",
+   "quote": "Ramdeo Prasad, AG-I was posted as Depot Incharge, F.S.D, F.C.I, at Tilrath",
+   "page": 4,
+   "reason": "Judgment states both accused's FCI posts; occupation is not 'Not stated'."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim (FCI, an organisation) has no gender; not stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Relationship is not explicitly stated; accused were FCI employees, but the judgment does not describe it as such."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Criminal breach of trust by falsification of accounts; corruption (Prevention of Corruption Act)",
+   "quote": "criminal breach of trust by falsification of accounts",
+   "page": 8,
+   "reason": "Breach of trust is supported, but the Prevention of Corruption Act offence is omitted."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "IPC ss.409, 477A r/w 120B and PC Act s.5(2) r/w 5(1)(c),(d) match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment relies on oral and documentary evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are expressly noted by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are expressly noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.120B r/w 409, 477A IPC and PC Act s.5(1)(c),(d)."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court confirmed conviction while reducing sentence, as stated in the judgment."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed appeals, leaving convictions in place."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment finds criminal misappropriation, falsification of accounts and conspiracy proved."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentences are rigorous imprisonment for fixed terms."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": "0.5 (6 months RI for each appellant on the lead offences)",
+   "quote": "sentenced to undergo RI for 6 months under Section 120B, read with Section 409",
+   "page": 3,
+   "reason": "Sentences are 6 months, not 6 years, per the High Court reduction."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs.15,000 under s.5(1)(d) for the lead appellant matches the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Remove the outcome statement ('The Supreme Court upheld the conviction, noting... proved guilt beyond reasonable doubt'); keep facts only",
+   "quote": "we do not find any merit in these appeals, same are accordingly dismissed",
+   "page": 10,
+   "reason": "Facts summary states the Supreme Court's outcome and reasoning, which neutral_facts must not reveal."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: RI 3 years each for s.409 and s.477A IPC; RI 2 years plus Rs.10,000 fine for PC Act s.5(1)(c),(d). High Court reduced to 6 months each.",
+   "quote": "sentenced to undergo RI for 3 years for committing offence under Section 409 of the IPC",
+   "page": 3,
+   "reason": "Trial sentences are given but '3 to 6 years' is wrong and the High Court's reduction is omitted."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Misappropriation and falsification were carried out; offence treated as completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned in the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Multiple charges were framed and High Court confirmed convictions; Supreme Court dismissed appeals."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Misappropriation of 1040 bags of urea (monetary value not stated)",
+   "quote": "misappropriation of entire qualtity of 1040 bags of urea",
+   "page": 9,
+   "reason": "Judgment quantifies property loss as 1040 bags of urea, so 'Not applicable' is contradicted."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court records conspiracy with criminal intent and falsification of accounts, supporting planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive is not identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accepted case of 1040 bags misappropriated and falsified registers; matches judgment."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court relied on depositions of truck owners, driver and khalasi; inconsistencies were defence contentions, not findings",
+   "quote": "There is no reason to discard such positive evidence on record",
+   "page": 10,
+   "reason": "Court relied on the witnesses but did not itself note inconsistencies; those were defence submissions."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed beyond the falsification of records."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellants were on bail; bail bonds cancelled and they must surrender within four weeks",
+   "quote": "the bail bonds of the appellants stand cancelled",
+   "page": 10,
+   "reason": "Judgment does refer to bail bonds and their cancellation, so 'Not stated' is incomplete."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence date, trial, High Court and Supreme Court dates all match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, chargesheet after investigation and completed trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted (26.09.1997); High Court confirmed conviction with reduced sentence; Supreme Court dismissed appeals",
+   "quote": "By the judgment dated 26.09.1997, the Special Judge C.B.I. (North), Patna convicted",
+   "page": 3,
+   "reason": "Trial court did not 'affirm' a conviction; it convicted. Rest of history is accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution case of conspiracy, misappropriation of 1040 bags and false delivery entries is supported."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence contentions on 540 bags in FIR and inconsistent evidence are recorded in the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Beyond reasonable doubt standard applied on totality of evidence is stated by the court."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Considering the totality of oral and documentary evidence on record, we are of the view that the prosecution has proved the guilt",
+   "page": 10,
+   "reason": "Judgment addresses proof of guilt, not reasons for the sentence or its reduction."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are expressly identified; 'None' is consistent with the text."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Bail bonds cancelled; appellants to surrender within four weeks to serve remaining sentence",
+   "quote": "The appellants shall surrender to serve the remaining sentence, within a period of four weeks from today",
+   "page": 10,
+   "reason": "Court ordered surrender and cancellation of bail bonds, so 'None' is contradicted."
+  }
+ }
+}

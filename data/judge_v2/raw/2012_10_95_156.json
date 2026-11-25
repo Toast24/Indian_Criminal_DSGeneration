@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "SHYAMAL GHOSH v. STATE OF WEST BENGAL",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "incorrect",
+   "correct_value": "8",
+   "quote": "Eight accused, namely, Panchanan Tarafdar@ Chotka, Uttam Das, ... were charged",
+   "page": 18,
+   "reason": "Eight accused were charged and their liability decided; four is only the number of appellants in this appeal."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused Ganesh, in his statement under Section 313 Cr.P.C., admitted the fact that he was absconding",
+   "page": 46,
+   "reason": "Accused are male, referred to with male pronouns and names."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupations are given for witnesses and the victim, not for the accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Poverty is attributed to witnesses, not to the accused."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the victim Archideb Bhattacharjee had started from his house on his Avon bicycle",
+   "page": 20,
+   "reason": "Victim is male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused persons had demanded Rs.40,000/- from Archideb Bhattarcharjee towards 'Tola Mastani Salami'",
+   "page": 21,
+   "reason": "Extortion demand and threats over shop rooms describe a prior dispute; no family tie is stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charged with offences under Sections 302, 201, 379, 411 read with Section 34",
+   "page": 18,
+   "reason": "Main offence is murder under s.302."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charged with offences under Sections 302, 201, 379, 411 read with Section 34 of the Indian Penal Code, 1860",
+   "page": 18,
+   "reason": "Sections match the charge as stated."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "recovered the chopper ... admitted that they had cut the body of the deceased with the chopper; gumcha used in strangulation",
+   "page": 32,
+   "reason": "Chopper and gumcha are both supported by the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "These are the recoveries of the weapon of offence as well as the vehicle",
+   "page": 32,
+   "reason": "Eyewitness, circumstantial, recovery, medical and documentary evidence are all discussed."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Admission by accused Bishu, made during recovery of the chopper and recorded in PW-2's evidence; not expressly analysed as a confession.",
+   "quote": "the chopper which was recovered on the statement of accused Bishu ... admitted that they had cut the body",
+   "page": 32,
+   "reason": "Admission and recovery are supported, but the judgment never says the Court disregarded the admission as a confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Absconding in such a manner and for such a long period is a relevant consideration.",
+   "page": 44,
+   "reason": "Absconding, threats and dismemberment are noted as aggravating facts in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Trial Court awarded sentence of death to all the accused persons for the offence under Section 302 IPC",
+   "page": 18,
+   "reason": "Conviction on all charges, death sentence, and s.201 and s.379 sentences match."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "answering the death reference in the negative, acquitted all the accused persons of the offence under Section 379 read with Section 34 IPC",
+   "page": 19,
+   "reason": "Death reference, s.379 acquittal, life sentence and s.201 sentence all match."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dismissing the appeals, the Court",
+   "page": 4,
+   "reason": "Appeals dismissed, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "maintained their conviction except u/s.379/34 IPC",
+   "page": 4,
+   "reason": "Murder and s.201 convictions stand; s.379 acquittal is supported."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "awarded R1 for life and fine of Rs. 5000/-",
+   "page": 4,
+   "reason": "Final sentence for s.302/34 is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not a fixed-term sentence, so null is correct."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "awarded them rigorous imprisonment for life and to pay a fine of Rs.5,000/- each",
+   "page": 19,
+   "reason": "Fine of Rs.5,000 for the s.302 conviction is supported."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary describes incident and evidence without naming parties or revealing outcome; no court proceedings mentioned."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory punishment range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he was murdered by them on the midnight of 29th/30th September, 2003",
+   "page": 20,
+   "reason": "Offence was completed by death."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The cause of death was due to effect of strangulation by ligature",
+   "page": 33,
+   "reason": "Death by ligature strangulation and dismemberment is supported."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charged with offences under Sections 302, 201, 379, 411 read with Section 34",
+   "page": 18,
+   "reason": "Four sections charged; s.302 and s.201 upheld; s.379 acquitted; s.411 not addressed."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "according to PW4 the deceased was wearing four rings, HMT watch and was carrying cash",
+   "page": 27,
+   "reason": "Cash and jewellery are supported; extortion demand of Rs.40,000 also noted."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all these acts obviously were in furtherance to the common intention of doing away with the deceased",
+   "page": 62,
+   "reason": "Common intention to kill if money not paid is found; no separate premeditation finding."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "statements of all these witnesses clearly show one motive, i.e., illegal demand of money",
+   "page": 39,
+   "reason": "Demand of money with threats is the motive the Court accepted."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The statements of PWs 8, 17, 19, 7, 9 and 11 completely establish",
+   "page": 25,
+   "reason": "Eyewitness, post-mortem, recovery and last-seen evidence relied on are accurately listed."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Their statements are reliable and trustworthy.",
+   "page": 43,
+   "reason": "Eyewitnesses, related witnesses and hostile witnesses are assessed as described."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused Ganesh ... admitted the fact that he was absconding even till the charge-sheet was filed",
+   "page": 46,
+   "reason": "Absconding, arrests from Delhi and Sodhpur, and surrender are supported."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Trial Court vide its judgment dated 13th September, 2005",
+   "page": 18,
+   "reason": "Offence, trial, High Court and Supreme Court dates are all supported."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Pradip Ghosh, J.K. Das, Yadunandan Bansal, ... for the appearing parties",
+   "page": 18,
+   "reason": "Counsel are listed collectively without separation, as the value states."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Charge sheet against all other six accused was filed.",
+   "page": 22,
+   "reason": "FIR, investigation, charge sheet and later arrests are supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Investigating Officer failed to send the blood stained gunny bags and other recovered weapons to the FSL",
+   "page": 43,
+   "reason": "Investigation lapses and delays in recording statements are noted by the Court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court ... while answering the death reference in the negative",
+   "page": 19,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "According to the learned counsel, defective investigation normally would not prove fatal",
+   "page": 24,
+   "reason": "Motive, eyewitnesses, absconding and s.34 arguments are accurately summarised."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW17, Amal Ray is a tutored witness ... PW8, Binode Mallick and PW19, Kali Das cannot be believed as they are chance witnesses",
+   "page": 23,
+   "reason": "Defence arguments on hostile witnesses, tutoring, chance witnesses and s.34 are supported."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Once the last seen theory comes into play, the onus was on the accused",
+   "page": 46,
+   "reason": "Principles applied by the Court are accurately listed."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Govindaraju@ Govinda v. State by Sriramapuram P.S. (2012) 4 SCC 122 - relied on",
+   "page": 16,
+   "reason": "Main precedents and citations match the judgment; minor spelling variant only."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we see no reason to interfere with the judgment of the High Court either on merits or on the quantum of sentence",
+   "page": 62,
+   "reason": "No separate sentencing reasoning; the Court simply declined to interfere."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no mitigating factors for sentence."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "None",
+   "quote": "Absconding in such a manner and for such a long period is a relevant consideration.",
+   "page": 44,
+   "reason": "Absconding was weighed as evidence of guilt, not as a sentencing aggravator; the Court weighed no aggravating factors for sentence."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No compensation, directions or other orders are made."
+  }
+ }
+}

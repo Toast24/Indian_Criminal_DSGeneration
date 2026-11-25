@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading and parties."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "Six persons named in FIR No. 664/2013, including the appellant; appeal concerns the appellant alone",
+   "quote": "against six persons, including the appellant herein",
+   "page": 2,
+   "reason": "Value 1.0 counts only the appellant; the FIR named six persons, and the ECIR later named more."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is referred to in masculine terms throughout, consistent with Male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the appellant is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the appellant is a Chartered Accountant by profession offering professional services."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is a company (Farmax India Ltd); no gender is stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Accused was engaged as service provider by the victim company, Farmax India Ltd, to raise GDRs",
+   "quote": "Farmax availed the services of the accused in raising Global Depository Receipts",
+   "page": 2,
+   "reason": "Judgment states the professional service relationship between the accused and the complainant company, not 'Not stated'."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Economic/financial offences: cheating, criminal breach of trust, conspiracy, and money-laundering",
+   "quote": "offences under Sections 406, 407, 415 to 420, 120B read with Section 34 IPC",
+   "page": 2,
+   "reason": "'Other' is vague; the offences are cheating, breach of trust, conspiracy and money-laundering."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "IPC and PMLA provisions listed match those referred to in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Documentary material as alleged: SEBI order dated 14.07.2020, email communications, bank pledge and loan documents",
+   "quote": "the email communications indicate that its role was limited",
+   "page": 5,
+   "reason": "Judgment refers to documentary material (SEBI order, emails, pledged documents), though none was tested."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court notes no aggravating circumstances; prosecution's kingpin allegation is an argument only."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court records no mitigating circumstances; defence points are arguments only."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Metropolitan Sessions Judge remanded appellant to judicial custody on 27.09.2022, as stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment identifies the 07.12.2022 HC order but does not state its result."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeal allowed; appellant directed to be enlarged on bail",
+   "quote": "the appeal is allowed and the appellant is directed to be enlarged on bail",
+   "page": 7,
+   "reason": "'Other' omits the clear result: appeal allowed and bail granted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence is finally established; the judgment makes no finding of guilt."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary accurately presents allegations and history without revealing the bail outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Severity is not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Attempt versus completion is not addressed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR alleges offences under ss.406, 407, 415-420, 120B r/w s.34 IPC; none finally established",
+   "quote": "alleged offences under Sections 406, 407, 415 to 420, 120B read with Section 34 IPC",
+   "page": 2,
+   "reason": "Charges are specified in the FIR; 'Not stated charged' understates the listed sections."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "GDR raise of INR 318 crores, INR 2.20 crores transferred, and USD 15.60 million loss match the judgment's allegations."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged: accused decided on all participants, coordinated the GDR offering, and arranged bank requirements as part of a planned scheme",
+   "quote": "Sanjay Agarwal decided on all the participants",
+   "page": 5,
+   "reason": "Judgment records prosecution allegations of planning; 'Not stated' omits them, though they are unproven."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Alleged arrangement to share GDR proceeds is recorded as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court tested no evidence on merits and relied only on undisputed procedural facts and allegations."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No witness credibility assessment is made."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "ED's flight-risk apprehension is noted without any finding on post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant in jail from 26.09.2022; no end date is given in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Remand, ED custody dates, HC order and SC bail grant are supported by the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates for FIR, ECIR, HC order and SC judgment match; no trial dates are given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for both sides match the judgment's listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, no final report, ECIR, arrest and prosecution complaint dates match the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the judgment: HC order under challenge, SC appeal allowed with bail."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Kingpin/mastermind argument and s.45 twin conditions argument match the judgment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence points on prolonged custody, rejected remand, professional role and no proceeds match the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court applied s.45(1) clause (ii) reasoning, found continued incarceration unjustified, and addressed flight risk with conditions."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred, so 'Not applicable' is supported."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Passport surrender and regular appearance conditions match the order."
+  }
+ }
+}

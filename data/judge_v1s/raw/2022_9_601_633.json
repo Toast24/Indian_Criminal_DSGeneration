@@ -1,0 +1,389 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "CHOTKAU v. STATE OF UTTAR PRADESH",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sole accused has come up with the above appeals",
+   "page": 6,
+   "reason": "Judgment confirms a single accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant... his mother",
+   "page": 7,
+   "reason": "Accused is referred to as male throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the accused appears anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not stated in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not stated; labourer reference concerns his brothers."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "incorrect",
+   "correct_value": "Poor; could not afford to engage a lawyer in the Sessions Court",
+   "quote": "the appellant is so poor that he could not afford to engage a lawyer even in the Sessions Court",
+   "page": 32,
+   "reason": "The judgment expressly states the appellant was poor and was provided an amicus."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "took his niece aged about 6 years",
+   "page": 6,
+   "reason": "Victim is a girl, consistently described as female."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his niece aged about 6 years",
+   "page": 6,
+   "reason": "Judgment states the victim was about six years old."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "took his niece aged about 6 years",
+   "page": 6,
+   "reason": "Accused was the victim's uncle-level relative (niece), i.e., a relative."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Rape and murder",
+   "quote": "charged for the commission of the offences of raping the minor girl and murdering her",
+   "page": 7,
+   "reason": "Category omits the rape offence; both rape and murder were charged and are central."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 302 and 376 of the Indian Penal Code, 1860",
+   "page": 6,
+   "reason": "Matches the convicting provisions cited in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution of the appellant is based on circumstantial evidence",
+   "page": 8,
+   "reason": "Judgment explicitly says the case rests on circumstantial evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Six-year-old victim; rarest of rare case; deviant behaviour and abnormal sexual urge (per courts below)",
+   "quote": "one of the rarest of rare cases where a six year old girl had been raped and murdered",
+   "page": 7,
+   "reason": "Judgment records aggravating findings made by the lower courts, so 'Not stated' is wrong."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are recorded as such in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to death by the Sessions Court",
+   "page": 6,
+   "reason": "Sessions Court convicted and imposed death sentence."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Confirmed conviction and death sentence",
+   "quote": "the High Court confirmed the conviction and sentence",
+   "page": 7,
+   "reason": "High Court confirmed conviction and death sentence on reference and appeal."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeals are allowed and the conviction and penalty are set aside",
+   "page": 33,
+   "reason": "Supreme Court set aside conviction and sentence, effectively acquitting the appellant."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we are not convinced that the guilt of the appellant stood established beyond reasonable doubt",
+   "page": 33,
+   "reason": "No offence was finally established given the acquittal."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment sentence survives; none stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts match the judgment and do not reveal the Supreme Court outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "sentenced to death by the Sessions Court",
+   "page": 6,
+   "reason": "No minimum or maximum prison terms are stated; only the death sentence is mentioned."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the offences of raping the minor girl and murdering her",
+   "page": 7,
+   "reason": "Rape and murder are described as committed, implying completed offences."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the dead body of the girl was found in the sugarcane field",
+   "page": 6,
+   "reason": "Death of the victim is established."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charged with 2 offences (ss.302 and 376 IPC); both convictions set aside",
+   "quote": "the conviction and penalty are set aside",
+   "page": 33,
+   "reason": "Convictions were set aside, so 'upheld' is wrong."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss from the offence is stated; land dispute is only the defence claim."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under the pretext of showing dance and song performances",
+   "page": 6,
+   "reason": "Court made no premeditation finding; the pretext is only narrated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution motive is not identified; the land dispute is the defence's theory."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "None accepted; PWs 1 to 3 evidence held completely untrustworthy and last seen theory not established",
+   "quote": "These contradictions make the evidence of PWs 1 to 3 completely untrustworthy.",
+   "page": 20,
+   "reason": "Supreme Court did not accept the circumstantial evidence or last seen theory; it rejected the evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "These contradictions make the evidence of PWs 1 to 3 completely untrustworthy.",
+   "page": 20,
+   "reason": "Accurately reflects the court's finding on PWs 1 to 3."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Absconding when the body was found (per courts below)",
+   "quote": "the appellant was absconding",
+   "page": 9,
+   "reason": "Judgment records that the appellant was absconding when the body was found."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "dates_of_offence": "08.03.2012",
+    "trial_judgment": "Not stated",
+    "high_court_decision": "18.04.2016",
+    "supreme_court_decision": "28.09.2022"
+   },
+   "quote": "Judgment and Order dated 18.04.2016 of the High Court",
+   "page": 6,
+   "reason": "18.04.2016 is the High Court decision date, not the trial judgment; HC date marked 'Not stated' is wrong."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "S. Nagamuthu, Sr. Adv... Advs. for the Appellant; Ardhendumauli Kumar Prasad, AAG... Advs. for the Respondent",
+   "page": 6,
+   "reason": "Counsel for appellant and State match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "documents submitted by the police, presumably along with the final report",
+   "page": 20,
+   "reason": "Final report/charge sheet filed, FIR registered, and trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Therefore, we hold that the delay of 5 days in transmitting the FIR to the jurisdictional court, especially in the facts and circumstances of this case was fatal.",
+   "page": 26,
+   "reason": "Five-day FIR delay and failure to medically examine accused are the irregularities found fatal."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court confirmed the conviction and sentence",
+   "page": 7,
+   "reason": "Trial conviction and death sentence, HC confirmation, and SC allowance all match."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "PWs 1 to 3 evidence was cogent and trustworthy; FIR delay did not vitiate trial or prejudice accused; forensic/medical evidence not always mandatory",
+   "quote": "that their evidence was found to be cogent and trustworthy by two Courts; that the delay in forwarding the FIR to the court did not vitiate the trial",
+   "page": 9,
+   "reason": "Summary omits the State's actual arguments on delay and forensic evidence, attributing court reasoning instead."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "PWs 1 to 3 untrustworthy due to contradictions; unexplained five-day FIR delay; I.O. failed to produce forensic/medical evidence; s.313 non-compliance; insufficient last seen evidence; material witnesses not examined",
+   "quote": "that in a shocking abdication of duties, the I.O. failed to produce forensic/medical evidence",
+   "page": 9,
+   "reason": "Omits s.313 and last seen and missing-witness arguments; 'gaping hole' is the court's phrasing, not counsel's."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the chain of circumstances is complete and unbroken... exclude every possible hypothesis except the one to be proved",
+   "page": 8,
+   "reason": "Matches the panchsheel principles applied for circumstantial evidence."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "relied on",
+   "page": 5,
+   "reason": "All nine cases listed in the judgment's headnote are included."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "one of the rarest of rare cases where a six year old girl had been raped and murdered",
+   "page": 7,
+   "reason": "Accurately reflects lower courts' rarest of rare rationale and the SC overturning it."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court records no mitigating factors for sentencing."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Ghastly and shocking nature of rape and murder of a six-year-old child",
+   "quote": "It is a ghastly case of rape and murder of a 6 year old child.",
+   "page": 32,
+   "reason": "Judgment describes the case as ghastly and shocking, an aggravating characterisation, so 'None' is wrong."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant shall be released forthwith if not wanted in connection with any other case.",
+   "page": 33,
+   "reason": "Release direction matches the judgment."
+  }
+ }
+}

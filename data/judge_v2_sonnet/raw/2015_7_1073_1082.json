@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "STATE OF M.P. v. ASHOK & OTHERS ETC.",
+   "page": 1,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "5 (six respondents acquitted by the HC; Surendra's proceedings abated, leaving five)",
+   "quote": "proceedings stand abated as against said respondent no.6",
+   "page": 8,
+   "reason": "Five is plausible after abatement, but the judgment never states this count; six respondents were named."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ashok s/o Banshilal Vedehi, Raju @ Rajendra s/o Banshilal Vedehi",
+   "page": 3,
+   "reason": "All respondents are described as sons ('s/o'), so male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated; surnames are not caste descriptions."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing on wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Tikaram son of Chote Lal Pandey",
+   "page": 4,
+   "reason": "Victim is male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There is an old enmity and quarrel was going on between us and Dibbu etc.",
+   "page": 5,
+   "reason": "Accurately reflects the enmity described; no separate respondent relationship is stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "s. 302 r/w s. 149 - Murder",
+   "page": 1,
+   "reason": "Murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 r/w s.149; s.147 (respondents); s.148 for Dibbu and Jittu",
+   "quote": "found guilty under section 302 read with section 149 I.P.C. ... rigorous imprisonment for 6 month under section 147",
+   "page": 7,
+   "reason": "Right for respondents, but omits s.148 charged against the main accused."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Petrol and matchstick (set afire), burning tyre, and sword",
+   "quote": "Dibbu then poured petrol over him and Jittu burnt him by igniting a match stick",
+   "page": 4,
+   "reason": "Items are correct, but the sword attribution is inconsistent: the headnote says the original accused threw it, while the text names Harilal."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dying declarations namely statements Exts.P-20 and P-17, so also oral declarations ... and the eye-witness account through PW13",
+   "page": 7,
+   "reason": "Matches."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they were waiting in ambush ... ensured by surrounding Tikaram that he would not be allowed to escape",
+   "page": 9,
+   "reason": "Consistent with the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "All the other accused were sentenced to life imprisonment under section 302 read with section 149 I.P.C. and to rigorous imprisonment for 6 month under section 147",
+   "page": 7,
+   "reason": "Matches."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court however gave benefit of doubt to the respondents",
+   "page": 7,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "restore the judgment of conviction and sentence as recorded by the trial Court",
+   "page": 10,
+   "reason": "Conviction restored."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "restore the judgment of conviction and sentence as recorded by the trial Court",
+   "page": 10,
+   "reason": "s.302/149 and s.147 restored."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to life imprisonment under section 302 read with section 149",
+   "page": 7,
+   "reason": "Life sentence restored."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life, not fixed term."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Remove 'Before dying' references to the victim's death outcome and the charge sheet/investigation details are fine; but avoid 'persons' etc. Revise to eliminate the mention of the death date and gender pronouns.",
+   "quote": "Tikaram succumbed to his injuries",
+   "page": 6,
+   "reason": "Uses 'him/his' for the victim (acceptable) but the 'one member ... another' attribution is fine; however it states 'brother ran home' correctly. Main issue: it reveals no outcome, yet says 'one member threw a burning tyre' and 'another threw a sword' without the evidence nuance."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Punishment not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On 12.04.1989 at about 8:15 p.m. Tikaram succumbed to his injuries",
+   "page": 6,
+   "reason": "Completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The deceased was burnt about 90%. ... Incised wound obliquely on back of chest",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "3 charged (s.302/149, s.147, s.148 across accused); for respondents 2 charged; 2 upheld",
+   "quote": "found guilty under section 302 read with section 149 ... section 147",
+   "page": 7,
+   "reason": "For respondents 2 is right, but s.148 was also charged against other accused."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they were waiting in ambush",
+   "page": 9,
+   "reason": "Fair characterization."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "For taking revenge from the said enmity today they poured petrol on me",
+   "page": 5,
+   "reason": "Alleged revenge motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Both these statements are consistent and name the present respondents",
+   "page": 9,
+   "reason": "Matches."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we find the presence of said PW13 completely established and accept him to be eye witness",
+   "page": 9,
+   "reason": "Matches."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Judgment and Order dated 11.01.2007",
+   "page": 3,
+   "reason": "Dates correct; trial judgment date not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Vanshaja Shukla, Mishra Saurabh for the Appellant. Akshat Shrivastava, Sarabjit Dutta for the Respondents.",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "After due investigation charge sheet was filed and 10 accused persons were sent for trial",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "We therefore allow these appeals, set-aside the judgment and order of acquittal",
+   "page": 10,
+   "reason": "Matches."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the role of the present respondents ... clearly made out from the dying declarations as well as from the testimony of the eye witness",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the principal role as alleged in the dying declarations was not as regards the present respondents",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The intent of the entire assembly was clear, eloquently established by their presence, preparedness and participation.",
+   "page": 10,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None given."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "throwing of burning tyre and the sword would also indicate the active role played by them",
+   "page": 9,
+   "reason": "Consistent."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The respondents shall be taken in custody forthwith",
+   "page": 10,
+   "reason": "Matches."
+  }
+ }
+}

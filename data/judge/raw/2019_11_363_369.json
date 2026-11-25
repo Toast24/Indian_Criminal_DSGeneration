@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appellant no.1 ... along with five other accused persons including appellant no.2",
+   "page": 1,
+   "reason": "One appellant plus five others totals six accused, consistent with charge sheet against appellants and four others."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appellant No.2 was armed with rifle",
+   "page": 2,
+   "reason": "Accused are referred to with male pronouns and roles, supporting male gender."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age of accused is not mentioned in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the back of deceased",
+   "page": 4,
+   "reason": "Deceased Ram Autar is referred to with male pronouns and as husband of PW-1."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Rivalry (known to the deceased; not a stranger)",
+   "quote": "appellant No.1-Rameshwar with whom the deceased had rivalry",
+   "page": 4,
+   "reason": "Judgment states the accused had rivalry with the deceased, so 'Stranger' contradicts the text."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Penal Code, 1860: s.302 r/w s.34 – Conviction and life imprisonment",
+   "page": 1,
+   "reason": "Offence is murder under s.302 IPC with s.34."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Section 302 IPC read with Section 34 IPC",
+   "page": 3,
+   "reason": "Conviction provisions match the judgment; FIR sections are not part of the final conviction."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "farsa (axe) ... rifles and danda",
+   "page": 1,
+   "reason": "Axe (farsa), rifles and danda are all mentioned as weapons."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "consistent evidence of the eye-witnesses ... post-mortem",
+   "page": 2,
+   "reason": "Eyewitness, medical (post-mortem) and recovery evidence are all relied on."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "No confession recorded; appellant No.1 gave an interrogation statement that led to recovery of the axe",
+   "quote": "he gave the statement which led to recovery of axe in the gonad",
+   "page": 4,
+   "reason": "Judgment mentions an interrogation statement leading to recovery, which the 'None' value omits."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Aggravating circumstances are not discussed in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Mitigating circumstances are not discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted appellant No.1-Rameshwar and appellant No.2-Balaram under Section 302 IPC read with Section 34 IPC",
+   "page": 5,
+   "reason": "Trial court convicted both appellants under s.302 r/w s.34 and acquitted others."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court affirmed the conviction of the appellants",
+   "page": 5,
+   "reason": "High Court affirmed conviction and life sentence."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant No.2's conviction and life sentence affirmed; appellant No.1's appeal dismissed as abated after his death",
+   "quote": "the appeal against him is dismissed as abated",
+   "page": 3,
+   "reason": "'Convicted' omits that appellant No.1's appeal abated on his death and was not decided on merits."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his conviction under Section 302 IPC was rightly affirmed",
+   "page": 2,
+   "reason": "Murder under s.302 IPC was affirmed against appellant No.2."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of life imprisonment imposed upon him is affirmed",
+   "page": 3,
+   "reason": "Sentence is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed term in years is stated; sentence is life imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "along with fine of Rs.5,000/- each",
+   "page": 4,
+   "reason": "Fine of Rs.5,000 each is stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused approached the victim's house; accused attacked victim with axe; others held him; mother was injured; accused fired gun hitting victim's back; victim ran out and fell; post-mortem showed one gunshot wound to back; prosecution relied on eyewitnesses, medical and recovery evidence.",
+   "quote": "The trial court convicted the accused based on the evidence, and the High Court affirmed the conviction.",
+   "page": 4,
+   "reason": "Facts largely match, but the outcome sentence breaches neutral rules; 'later found dead' is not in the judgment."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Death under s.302 IPC; life imprisonment imposed",
+   "quote": "sentenced each of them to undergo life imprisonment",
+   "page": 5,
+   "reason": "Life imprisonment is supported, but the min/max punishment range is not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "resulting in the death of the deceased",
+   "page": 5,
+   "reason": "Murder was completed; the deceased died of the gunshot injury."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "one gun shot injury, that is, circular hole of 1.5 cm on his back",
+   "page": 2,
+   "reason": "Single gunshot injury on the back causing death; mother injured near ear."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Single count under s.302 r/w s.34 against each appellant; appellant No.2's conviction affirmed, appellant No.1's appeal abated",
+   "quote": "the appeal against him is dismissed as abated",
+   "page": 3,
+   "reason": "Judgment does not count two offences; appellant No.1's conviction was not upheld, as his appeal abated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed; 'Not applicable' is substantively equivalent to not stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has proved that the appellants have shared the common intention to commit the murder of the deceased",
+   "page": 5,
+   "reason": "Common intention to murder is recorded as found by the High Court and affirmed."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Rivalry between appellant No.1 and the deceased",
+   "quote": "appellant No.1-Rameshwar with whom the deceased had rivalry",
+   "page": 4,
+   "reason": "The judgment states rivalry as the relationship context, so 'Not identified' is contradicted."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness evidence (PWs 1, 2, 6, 7) on appellant No.2's presence and rifle was accepted; post-mortem and seized cartridges were recited, and the axe recovery was noted by the trial court",
+   "quote": "the presence of appellant No.2 has been established by consistent evidence of the eye-witnesses viz. PWs 1, 2, 6 and 7",
+   "page": 5,
+   "reason": "Eyewitness reliance is correct, but the judgment does not expressly accept the cartridges as key evidence."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "The trial court found PW-1's Ex-P1 statement more reliable and corroborated by PWs 6 and 7; the Supreme Court relied on consistent eyewitness evidence of PWs 1, 2, 6, 7",
+   "quote": "The statement of PW-1 in Ex.-P1 appears to be more reliable because her statement in Ex.-P1 is corroborated",
+   "page": 6,
+   "reason": "These credibility findings are the trial court's reasoning, not an assessment by the Supreme Court."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "All accused fled the spot when villagers came",
+   "quote": "When the villagers came, all the accused fled away from the spot.",
+   "page": 4,
+   "reason": "Judgment states the accused fled when villagers arrived, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; only a surrender direction is given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence 08.01.1984; trial court judgment date not stated; High Court judgment 25.06.2008; Supreme Court decision 16.08.2019",
+   "quote": "judgment dated 25.06.2008 in Criminal Appeal No.275 of 1995 passed by the High Court",
+   "page": 3,
+   "reason": "25.06.2008 is the High Court judgment date, not the trial court judgment date, which is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Nagendra Rai, Sr. Adv., Rajesh, Advs. for the Appellants; Rahul Kaushik ... for the Respondent",
+   "page": 3,
+   "reason": "Counsel for appellants and respondent match the listed names."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "FIR in Crime Case No.08/84 was registered ... charge sheet was filed",
+   "page": 4,
+   "reason": "FIR registration, charge sheet and completed trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted; witness contradictions are substantive, not procedural."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: life sentence and fine; High Court: affirmed; Supreme Court: appellant No.2's conviction and sentence affirmed, appellant No.1's appeal abated on death",
+   "quote": "the appeal against him stands abated",
+   "page": 5,
+   "reason": "Supreme Court outcome ignores that appellant No.1's appeal abated rather than being affirmed."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State submitted that upon appreciation of eyewitness and other evidence, the High Court rightly affirmed the conviction",
+   "quote": "the High Court rightly affirmed the conviction of the appellants and the impugned judgment warrants no interference",
+   "page": 6,
+   "reason": "The common intention and rifle points are the court's reasoning, not the State's recorded submission."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was no clear evidence for arriving at the conclusion that there was any prior concert or meeting of mind",
+   "page": 6,
+   "reason": "Defence argued no prior concert and inconsistent eyewitness depositions; the wording is garbled but substance matches."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "To invoke Section 34 IPC, it must be established that the criminal act was done by more than one person in furtherance of common intention of all",
+   "page": 7,
+   "reason": "Section 34 principles match the judgment's stated test."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "No separate sentencing rationale is given; life sentence was affirmed as the High Court imposed it and no reason to interfere was found",
+   "quote": "We do not find any reason for warranting interference with the impugned judgment.",
+   "page": 7,
+   "reason": "Judgment gives no sentencing reasoning; affirmance is the only basis, which the value overstates."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed; 'None' is consistent with the judgment."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed; 'None' is consistent with the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant No.2 shall surrender within a period of six weeks from today to serve the remaining period of sentence",
+   "page": 7,
+   "reason": "Surrender order within six weeks is accurately recorded."
+  }
+ }
+}

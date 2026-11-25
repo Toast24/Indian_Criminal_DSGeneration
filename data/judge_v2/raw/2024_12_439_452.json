@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the caption on page 1."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three appellants: husband (appellant no.1) and in-laws (appellant nos. 2 and 3)."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Male",
+   "quote": "cruelty by her husband and the in-laws",
+   "page": 8,
+   "reason": "The husband is identified as male; the in-laws' gender is not stated, so 'Not stated' overlooks the husband."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class statement about the accused appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only the absence of prior 498A complaints is mentioned, not a criminal record; 'Not stated' is apt."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim is referred to as the deceased wife, i.e. female."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appellant no.1 was married to the deceased – wife in the year 2009",
+   "page": 4,
+   "reason": "Spousal and in-law relationships are described accurately."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges concern cruelty (s.498A) with abetment of suicide (s.306); 'Cruelty' is a reasonable category."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offences under sections 306, 498A, 114 of the IPC",
+   "page": 4,
+   "reason": "The three charged sections are correctly listed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned; death was by hanging."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Witness statements, FIR and chargesheet findings are the evidence relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged physical and mental cruelty by husband and in-laws; sale of streedhan gold ornaments; torture when the victim demanded their return",
+   "quote": "physical as well as mental cruelty by her husband and the in-laws",
+   "page": 8,
+   "reason": "The court noted these alleged cruelty facts, so 'None noted' is inaccurate."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence points on no complaints over twelve years were rejected; no mitigating facts were noted by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dismissed the discharge application observing that ... it did not seem just and proper to discharge",
+   "page": 5,
+   "reason": "Discharge application dismissed and charges framed, as stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court upheld the decision of the Sessions Court to frame charges under Sections 306 and 498A of the IPC",
+   "page": 5,
+   "reason": "Revision dismissed and framing of charges upheld, as stated."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Partly allowed, with discharge from s.306 and trial on s.498A pending; 'other' fits the enum."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No conviction has been recorded; trial under s.498A is yet to proceed."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence has been imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed-term sentence exists, so null is correct."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine has been imposed."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary is neutral, uses roles only, avoids court proceedings and outcome, and matches the prosecution case."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "may extend to ten years, and shall also be liable to fine",
+   "page": 8,
+   "reason": "Maximum ten years and fine is stated for s.306; minimum not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The alleged suicide was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "committed suicide by hanging herself",
+   "page": 4,
+   "reason": "Death by hanging, as alleged, is accurately described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offences punishable under sections 306, 498A and 114",
+   "page": 4,
+   "reason": "Three sections charged, with s.498A alone upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant – accused had sold her ornaments, given to her as streedhan",
+   "page": 4,
+   "reason": "Sale of streedhan gold ornaments is alleged, and the value is flagged as alleged."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning finding is made."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "alleged: harassment over the accused's sale of the victim's streedhan gold ornaments and the victim's demands for their return; prima facie, no intention to instigate suicide found",
+   "quote": "prima facie, it appears that the appellants did not have the requisite mens rea",
+   "page": 14,
+   "reason": "Court's finding was prima facie only, not a definitive finding of no intention."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "prima facie indicate that the deceased was subjected to physical as well as mental cruelty",
+   "page": 8,
+   "reason": "FIR, chargesheet findings and cousins' statements were relied on prima facie for s.498A."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Merely because she did not file any complaint for twelve years does not guarantee that there was no instance of cruelty",
+   "page": 8,
+   "reason": "No definitive credibility finding; consistent statements relied on prima facie, as recorded."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is mentioned."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "offence: not given (informant received news of death on 18.04.2021; FIR dated 18.04.2021); trial judgment: 28.02.2024 (Sessions discharge order); High Court: 09.05.2024; Supreme Court: 10.12.2024",
+   "quote": "On 18.04.2021, the informant received information that the deceased had committed suicide",
+   "page": 4,
+   "reason": "18.04.2021 is the date of information and FIR, not clearly the offence date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 3,
+   "reason": "Counsel for appellants and respondent State are correctly listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "findings of the Investigating Officer in the chargesheet",
+   "page": 2,
+   "reason": "FIR, chargesheet and framed charges are accurately noted."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural lapse is noted by the court."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court (Sessions): discharge application dismissed 28.02.2024. High Court: criminal revision dismissed 09.05.2024. Supreme Court: appeal partly allowed; discharged from s.306, s.498A charge upheld. Earlier: quashing petition dismissed by High Court; SLP withdrawn",
+   "quote": "the Special Leave Petition before this Court against the dismissal order of the High Court was dismissed as withdrawn",
+   "page": 4,
+   "reason": "Omits the earlier quashing petition history."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The State's arguments before the Supreme Court are not recorded in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the allegations against them are completely baseless and they have been roped in on concocted facts",
+   "page": 6,
+   "reason": "Defence arguments on baseless allegations, mens rea and single old incident are accurately summarized."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mere allegations of harassment are not enough unless the accused's actions were so compelling",
+   "page": 12,
+   "reason": "Principles for s.306 and s.498A match the judgment's reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 3,
+   "reason": "Cases and citations match the judgment's case-law list."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so 'Not applicable' is correct."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no aggravating factors in a sentencing sense."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the trial under this provision shall proceed against them",
+   "page": 14,
+   "reason": "Trial under s.498A continues and pending applications are disposed of, as ordered."
+  }
+ }
+}

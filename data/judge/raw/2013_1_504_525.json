@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only one appellant-accused, Prashant Bharti, is identified."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "would never lead to his conviction",
+   "page": 16,
+   "reason": "The accused is referred to as male throughout, e.g., 'his conviction'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "aged 21 years",
+   "page": 5,
+   "reason": "The judgment gives the complainant's age as 21; the accused's age is never stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The complainant/prosecutrix is a woman, referred to as 'her' throughout."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "aged 21 years",
+   "page": 5,
+   "reason": "The complainant is stated to be aged 21 years."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Acquaintance (known about four months; alleged prior relationship and friendship)",
+   "quote": "was known to her for about four months",
+   "page": 5,
+   "reason": "Judgment shows an acquaintance, not a stranger; complainant alleges friendship and relationship."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Rape (on false promise of marriage), outraging modesty, and administering intoxicant",
+   "quote": "offences punishable ulss 328, 354 and 376 on false promise of marriage",
+   "page": 1,
+   "reason": "Rape is included, but the category omits outraging modesty and administering stupefying substance."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Penal Code, 1860 - ss.328, 354 and 376",
+   "page": 1,
+   "reason": "Sections 328, 354 and 376 IPC are correctly listed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned; only a Pepsi drink containing an intoxicant."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Scientific/digital (mobile phone call details), medical reports, prosecutrix's statements (s.164 and supplementary)",
+   "quote": "as revealed by mobile phones of prosecufrix and accused",
+   "page": 1,
+   "reason": "Medical evidence is right, but 'circumstantial' misses the central mobile phone call records and statements."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is recorded."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are identified in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are expressly identified by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "framed charges against the appellant-accused",
+   "page": 11,
+   "reason": "The Additional Sessions Judge framed charges on 1.12.2008."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Writ petitions dismissed (27.8.2007 and by prosecutrix); revision petition dismissed on 16.1.2009",
+   "quote": "The Delhi High Court dismissed the revision petition on 16.1.2009",
+   "page": 11,
+   "reason": "The High Court did not quash anything; it dismissed the writs and the revision petition."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Criminal proceedings quashed: FIR, charge-sheet and framing of charges set aside by Supreme Court",
+   "quote": "deserves to be quashed. The same are accordingly quashed.",
+   "page": 22,
+   "reason": "The accused was not acquitted; the Supreme Court quashed the FIR, charge-sheet and charges."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "would never lead to his conviction",
+   "page": 16,
+   "reason": "The court held the allegations would never lead to conviction; none was established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so no imprisonment is recorded."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "The accused, a man, was alleged by a woman to have had sexual relations with her on assurance of marriage on several dates in 2006–2007, and to have misbehaved with her on 15.2.2007 after giving her a Pepsi allegedly containing an intoxicant. An FIR was registered and the accused was arrested and later granted bail. A charge-sheet was filed and charges were framed. Mobile phone records placed both parties elsewhere on 15.2.2007. The complainant had been married during the alleged occurrences. Medical examination showed no external injuries and no evidence of poisoning.",
+   "quote": "The High Court quashed the criminal proceedings due to lack of credible evidence",
+   "page": 11,
+   "reason": "High Court did not quash proceedings; the summary also reveals the court's outcome and misstates the 15.2.2007 allegation as intercourse."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "invites a minimum punishment of 07 years",
+   "page": 11,
+   "reason": "The High Court noted s.376 IPC invites a minimum punishment of 7 years."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "physical relations with her on 23.12.2006, 25.12.2006 and 1.1.2007",
+   "page": 5,
+   "reason": "Completed intercourse is alleged in the supplementary statement; no attempt is claimed for those dates."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "No external injuries; hymen not intact; no evidence of poisoning; no death",
+   "quote": "no external injuries, and that her hymen was not intact",
+   "page": 6,
+   "reason": "Omits the medical finding that the hymen was not intact, so 'no injuries' is overstated."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Three offences charged (ss.328, 354, 376 IPC); charges later quashed by Supreme Court",
+   "quote": "consequential chargesheet dated 28.6.2007, as also the framing of charges ... deserves to be quashed",
+   "page": 22,
+   "reason": "Count is right, but 'all upheld' is wrong since the Supreme Court quashed all charges."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is found or discussed."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged revenge for the complainant having complained to his father",
+   "quote": "as I complained to his father, he will take revenge from me",
+   "page": 8,
+   "reason": "The complainant's statement alleges revenge for her complaint to the accused's father; motive is not 'not identified'."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Mobile phone call details (scientific evidence) and the prosecutrix's marriage records showed her allegations were false; medical reports were not decisive",
+   "quote": "since the basis of the aforesaid determination is scientific evidence",
+   "page": 16,
+   "reason": "Mobile records are right, but medical reports did not establish falsity; the marriage records were key too."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecutrix's allegations were held falsified by mobile call records, her marriage status and lack of medical corroboration; no general credibility test applied",
+   "quote": "the assertion made by the complainant/prosecutrix ... stands irrefutably falsified",
+   "page": 13,
+   "reason": "Court found allegations falsified, but did not frame it as a credibility test tied to scientific evidence alone."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Told police she was unmarried despite being married; later sought quashing of her own FIR in High Court",
+   "quote": "in the complaint made to the police ... she had suggested that she was not married",
+   "page": 9,
+   "reason": "The judgment records the complainant's false marital statements to police and her own quashing petition, which are post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (arrested 16.2.2007; bail granted 12.3.2007)",
+   "quote": "the appellant-accused was arrested at 6 pm, on the same day",
+   "page": 6,
+   "reason": "'Five days' is the gap before the supplementary statement, not custody; arrest date and bail date are stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "By an order dated 12.3.2007, the Additional Sessions Judge, Delhi granted bail",
+   "page": 8,
+   "reason": "Bail was granted by order dated 12.3.2007."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; key dates: framing of charges 1.12.2008, High Court revision 16.1.2009, Supreme Court 23.1.2013",
+   "quote": "On 1.12.2008, the Additional Sessions Judge, New Delhi, framed charges",
+   "page": 11,
+   "reason": "Dates are mostly correct, but 1.12.2008 is charge framing, not a trial judgment, and no duration is stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "K.T.S. Tulsi, Gaurave Bhargava (for Niraj Gupta) for the Appellant",
+   "page": 4,
+   "reason": "Counsel names for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "incorrect",
+   "correct_value": "Charge-sheet filed 28.6.2007; charges framed 1.12.2008; High Court dismissed writ petition 27.8.2007; charge-sheet and FIR quashed by Supreme Court",
+   "quote": "dismissed the said writ petition on 27.8.2007",
+   "page": 10,
+   "reason": "High Court dismissed the writ on 27.8.2007; it did not quash the FIR, contrary to the value."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Investigative lapses: medical examination delayed over a month, no vaginal smear, clothes not sent for forensic examination, Pepsi not recovered",
+   "quote": "a vaginal smear was not taken, because more than a month had elapsed",
+   "page": 6,
+   "reason": "The judgment notes these investigative shortfalls, so 'none noted' is inaccurate."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The order framing the charges having been unsuccessfully challenged by the accused, in revision before the High Court, he filed the instant appeal.",
+   "page": 2,
+   "reason": "Trial, High Court revision and Supreme Court appeal sequence is accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records no prosecution submissions; it only describes the FIR and charge-sheet."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused claimed false implication; his affidavit and mobile records showed he was elsewhere on 15.2.2007",
+   "quote": "on the ground, that the appellant-accused had been falsely implicated",
+   "page": 10,
+   "reason": "False implication and mobile records are right; the marital-status argument is not attributed to the defence."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the material relied upon by the accused is sound, reasonable, and indubitable",
+   "page": 17,
+   "reason": "Accurately states the Rajiv Thapar test for quashing under s.482 Cr.P.C."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Gajraj Vs. State (NCT) of Delhi [(2011) 1 O sec 675]; Rajiv Thapar & Ors. vs. Madan Lal Kapoor",
+   "page": 15,
+   "reason": "Both precedents are cited; citation details match the judgment's references."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so no sentencing rationale exists."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing-type order is made; quashing is the disposition, not a sentence."
+  }
+ }
+}

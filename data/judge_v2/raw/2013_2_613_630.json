@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption: Venkatesha v. State of Karnataka."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court decides liability of appellant Venkatesha (A-2) only; A-1 was released and A-3 was an approver."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appellant-Venkatesha (A-2), son of Gurappa",
+   "page": 8,
+   "reason": "Male is supported by 'son of' descriptor and male-referring usage for the accused."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age of the accused is not stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not described; only the victim's employment is mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on the accused's wealth or class appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment is silent on any prior criminal record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased-Shankar ... his death",
+   "page": 4,
+   "reason": "Deceased Shankar is male; judgment uses male pronouns for him."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Prior enmity/dispute with PW-14 (the intended target, shop owner), not with the deceased; the deceased Shankar was an unintended victim and a stranger to the accused",
+   "quote": "claimed the life of Shankar who was totally innocent and an un-intended victim of the crime",
+   "page": 9,
+   "reason": "Enmity was with PW-14; the deceased had no described connection to the accused, so the value conflates the two."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction for murder under s.302 IPC read with s.34 is consistent with the offence category."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 302, 307, 427 read with Section 34 of the IPC and Section 3 of the Explosive Substances Act, 1908 read with Section 34 of the IPC",
+   "page": 4,
+   "reason": "All sections and read-with provisions match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "kept a tape recorder loaded with an explosive substance (bomb)",
+   "page": 4,
+   "reason": "Explosive-loaded tape recorder is the weapon described in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Approver, eyewitness/injured, medical, forensic, extrajudicial confession and recovery evidence are all described in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A-1 and A-2 confessed before them that they have kept the bomb in the said box",
+   "page": 13,
+   "reason": "Extrajudicial confession to PW-3, a relative, was relied on by the trial court as corroboration."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Shankar who was totally innocent and an un-intended victim",
+   "page": 9,
+   "reason": "Explosive use, death of an innocent employee and injuries to two others are noted facts."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo rigorous imprisonment for life and a fine of Rs.5,000/-",
+   "page": 4,
+   "reason": "Sentences and fines for all four offences match the trial court outcome in the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "which conviction and sentence has been upheld by the High Court",
+   "page": 7,
+   "reason": "High Court upheld conviction and sentence; appeal dismissed."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "In the result this appeal fails and is hereby dismissed.",
+   "page": 18,
+   "reason": "Supreme Court dismissed the appeal, upholding the conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There is, in our opinion, no perversity or miscarriage of justice",
+   "page": 18,
+   "reason": "Convictions under all four provisions stand; the s.427 label 'mischief' is a legal gloss not stated in the judgment but does not contradict it."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for life",
+   "page": 4,
+   "reason": "Final sentence for the murder conviction is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Main sentence is life, not a fixed term, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "5000 (s.302 fine); other fines were Rs.1000 (s.307) and Rs.2000 (Explosive Substances Act s.3)",
+   "quote": "a fine of Rs.5,000/-",
+   "page": 4,
+   "reason": "Value gives only the s.302 fine, omitting the other fines imposed."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Neutral, within length, describes prosecution case and evidence without names or court outcomes."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the sentences imposed but not the statutory maximum or minimum punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "resulted in the death of the deceased-Shankar",
+   "page": 5,
+   "reason": "Main offence of murder was completed by a fatal blast."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Shankar ... succumbed to the injuries sustained by him",
+   "page": 7,
+   "reason": "Death of Shankar and injuries to PW-1 and PW-7 are accurately described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Four sections charged (302, 307, 427, EAS s.3) and all four convictions upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "damaging the shop and several articles lying around",
+   "page": 6,
+   "reason": "Property damage is noted with no monetary value given."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the planting of the bomb, was actually intended to kill him ... Hanif was deputed to carry the cardboard box",
+   "page": 9,
+   "reason": "Courts found deliberate planting and deputing of the box, consistent with planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has established the alleged motive against A-1 and A-2",
+   "page": 8,
+   "reason": "Marital-grievance motive and threats were accepted by the courts."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The depositions of PW-4, PW-8, PW-10, PW-11, the Approver- PW-2 and the injured witnesses",
+   "page": 4,
+   "reason": "Listed witnesses and forensic and medical evidence match what the Supreme Court relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There is no reason for PW-3 to falsely implicate the Accused",
+   "page": 15,
+   "reason": "Assessment of PW-3, the approver's corroboration and forensic/medical witnesses is accurately reflected."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they have kept the bomb in the said box to take the life of their enemy- pw.14 Muniraju and threatened them not to disclose this fact",
+   "page": 13,
+   "reason": "Trial court found disclosure to a witness and threats against disclosure, as described."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "has undergone 12 years' imprisonment",
+   "page": 7,
+   "reason": "Judgment states about 12 years served as of March 2012."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail grant or refusal for this accused is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "High Court Criminal Appeal ... judgment & order dated 16.03.2004",
+   "page": 3,
+   "reason": "Offence, High Court and Supreme Court dates are given; trial judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Tanuj Bagga Sharma (A.C.) for the Appellant.",
+   "page": 3,
+   "reason": "Appellant's amicus and State's counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A first information report about the occurrence was lodged by PW-1",
+   "page": 7,
+   "reason": "FIR, CCB investigation, chargesheet and completed trial are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court notes no procedural lapse."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court dismissal and Supreme Court dismissal are all supported."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "counsel appearing for the State at some length",
+   "page": 7,
+   "reason": "Specific State arguments in the Supreme Court are not recorded in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "entitle the appellant to an acquittal",
+   "page": 9,
+   "reason": "Defence argument on uncorroborated approver evidence matches paragraph 14."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is unsafe to record a conviction on the testimony of an approver unless the same is corroborated in material particulars",
+   "page": 9,
+   "reason": "Section 133 and corroboration rule of practice applied as described."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court did not discuss sentencing; 'Not applicable' fits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court did not weigh aggravating factors for sentencing; 'None' is acceptable."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No compensation, directions or guidelines are ordered."
+  }
+ }
+}

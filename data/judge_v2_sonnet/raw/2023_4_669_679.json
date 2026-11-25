@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "SHIV A KUMAR @ SHIV A @ SHIV AMURTHY v. STATE OF KARNATAKA",
+   "page": 1,
+   "reason": "Matches the judgment's title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant has been convicted for the offences",
+   "page": 4,
+   "reason": "Single appellant."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he has no antecedents and poses no threat to society",
+   "page": 5,
+   "reason": "Referred to as 'he'."
+  },
+  "accused_age": {
+   "verdict": "partially_correct",
+   "correct_value": "27 at conviction (22 at time of offence, per counsel)",
+   "quote": "on the date of conviction, the age of the appellant was 27 years",
+   "page": 10,
+   "reason": "Judgment gives 27 at conviction and 22 at offence; the value omits the latter."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant, who was the driver",
+   "page": 10,
+   "reason": "Driver stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "this was the first offence committed by the appellant",
+   "page": 10,
+   "reason": "First offence and no antecedents are noted."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The deceased woman",
+   "page": 10,
+   "reason": "Victim is a woman."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "at the age of 28 years",
+   "page": 10,
+   "reason": "Stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Driver of the company vehicle in which the victim travelled (employee transport provider/stranger-like prior connection)",
+   "quote": "she was informed by the appellant, who was the driver, that the vehicle operating on route no.131 was not available",
+   "page": 10,
+   "reason": "Judgment describes a connection: the accused was the company's driver who transported her."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Rape (with murder and kidnapping)",
+   "quote": "convicted for the offences punishable under Sections 366, 376 and 302",
+   "page": 4,
+   "reason": "Murder is defensible, but the case involves rape and murder; category is ambiguous."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 366, 376 and 302 of the Indian Penal Code",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon mentioned."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "her dead body was recovered at the instance of the appellant",
+   "page": 10,
+   "reason": "Recovery evidence and complaint are mentioned."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The facts are such, which will shock the conscience of any Court",
+   "page": 10,
+   "reason": "Brutality and shocking facts noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he has completed B.A. degree course while in jail",
+   "page": 5,
+   "reason": "Matches counsel's points and the Trial Court's factors."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced the appellant to undergo rigorous imprisonment for the rest of his life",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dismissed both appeals",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we modify the order of sentence of the Trial Court",
+   "page": 11,
+   "reason": "Sentence modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted for the offences punishable under Sections 366, 376 and 302",
+   "page": 4,
+   "reason": "Convictions stand."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "life",
+   "quote": "we direct that the appellant shall undergo imprisonment for life",
+   "page": 11,
+   "reason": "Sentence is life imprisonment with a 30-year no-release term, so 'life' fits better than fixed_term."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "null (life imprisonment; release only after 30 years)",
+   "quote": "released only after he completes thirty years of actual sentence",
+   "page": 11,
+   "reason": "Sentence is life with a 30-year minimum, not a pure fixed term."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove the final sentence on the prosecution case and 'life cut short in a brutal manner' wording; avoid the 'accused committed' assertion.",
+   "quote": "The prosecution successfully established the charge of the offence of rape",
+   "page": 10,
+   "reason": "Mostly accurate, but the last sentence asserts guilt; the age detail and the 'brutal' characterisation are judge-style."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated precisely; judgment only says offence is punishable with death penalty, with life imprisonment as alternative",
+   "quote": "an offence which is punishable with death penalty",
+   "page": 8,
+   "reason": "Judgment does not set out the s.302 maximum and minimum explicitly."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "her dead body was recovered",
+   "page": 10,
+   "reason": "Completed offence."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "her dead body was recovered",
+   "page": 10,
+   "reason": "Death after rape; no injuries described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 366, 376 and 302",
+   "page": 4,
+   "reason": "3 charged, 3 upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No finding on premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive identified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "her dead body was recovered at the instance of the appellant",
+   "page": 10,
+   "reason": "Matches."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No assessment of witnesses."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only body recovery at his instance, which is not described as conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "has undergone sentence for approximately seventeen years and two months",
+   "page": 5,
+   "reason": "Matches counsel's submission."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Judgment and Order dated 31.05.2016",
+   "page": 3,
+   "reason": "Dates match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "K. Parameshwar, Shekhar G Devasa, Manish Tiwari",
+   "page": 4,
+   "reason": "Counsel listed correctly."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The maternal uncle of the deceased lodged a complaint",
+   "page": 10,
+   "reason": "Consistent with the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Trial Court could not have directed that the appellant shall not be released till the rest of his life",
+   "page": 10,
+   "reason": "Matches."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court, by the impugned judgment, dismissed both appeals.",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Constitutional Courts are not powerless to impose modified sentences",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Also argued mitigating facts: age 22 at offence, young wife, small child, aged parents, no antecedents, good jail conduct, B.A. completed, 17 years served.",
+   "quote": "he has completed B.A. degree course while in jail",
+   "page": 5,
+   "reason": "Omits the factual mitigation arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Constitutional Courts can always exercise the power of imposing a modified or fixed-term sentence",
+   "page": 9,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Union of India v. V. Sriharan alias Murugan & Ors. 2016 (7) SCC 1 – followed",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "showing undue leniency in such a brutal case will adversely affect the public confidence",
+   "page": 11,
+   "reason": "Matches."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the age of the appellant was 27 years and he had a wife and small child",
+   "page": 10,
+   "reason": "Trial Court factors noted by the Court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Brutal nature of the crime; safety and security of women working night shifts; public confidence; victim's rights",
+   "quote": "The issue is of safety and security of women working with such companies.",
+   "page": 10,
+   "reason": "Largely right, but 'avoid undue leniency' and 'victim's rights' are considerations, not aggravating facts."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "released only after he completes thirty years of actual sentence",
+   "page": 11,
+   "reason": "Matches."
+  }
+ }
+}

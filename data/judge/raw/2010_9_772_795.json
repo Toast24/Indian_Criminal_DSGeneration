@@ -1,0 +1,391 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Hakim Singh and his two sons Virendra Singh and Kamlesh Singh",
+   "page": 6,
+   "reason": "Three accused are named and convicted together."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are described as male (father, sons, brother); male is supported."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the appellant."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the house of the deceased Bhagirath",
+   "page": 6,
+   "reason": "Deceased Bhagirath is referred to as male (his son, his crop)."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the deceased anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Hakim Singh and his two sons ... went to the house of the deceased Bhagirath",
+   "page": 6,
+   "reason": "Judgment describes a crop-reaping dispute; no family relationship between accused and deceased is stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offence is murder under Section 302 read with Section 34."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under section 302 read with section 34 of the Indian Penal Code",
+   "page": 8,
+   "reason": "Matches the provisions applied by the courts."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Virendra Singh and Hakim Singh were armed with lathis and Kamlesh was armed with a rifle",
+   "page": 6,
+   "reason": "Lathis and firearm are both identified in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Baburam P.W. 6 is an injured eye witness",
+   "page": 7,
+   "reason": "Eyewitness testimony is central; common intention is inferred from circumstances."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all three accused in consonance with the prearranged plan had gone to the house of the deceased",
+   "page": 9,
+   "reason": "Pre-arranged plan, weapons and physical beating are all supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are identified; the court found no grave or sudden provocation."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The trial court, after scrutinizing the entire evidence on record, convicted Hakim Singh, Kamlesh and Virendra Singh",
+   "page": 7,
+   "reason": "Conviction under s.302 r.w. s.34 IPC is supported."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court upheld the order of conviction.",
+   "page": 2,
+   "reason": "High Court upheld conviction; supported."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appeal dismissed",
+   "page": 24,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant is clearly guilty under section 302/34 IPC",
+   "page": 24,
+   "reason": "Murder under s.302 r.w. s.34 is the established offence."
+  },
+  "imprisonment_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not mention any sentence or sentence type."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No term of imprisonment is stated in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned; null is appropriate."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The accused, along with his father and brother, went armed to the deceased's house over a crop-reaping dispute. A verbal altercation followed, the accused beat the deceased's son, and when the deceased intervened, the brother fired at him, causing death. Witness accounts were recorded and tested in cross-examination.",
+   "quote": "The trial court convicted all three accused under Section 302 read with Section 34 IPC, and the High Court upheld this conviction.",
+   "page": 9,
+   "reason": "Facts are accurate, but the sentence reveals the court outcome, which neutral facts must not do.",
+   "_note": "Judgment supports the facts; outcome sentences should be removed."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Sentencing range is not in the judgment; it comes from outside knowledge."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "which resulted in his death",
+   "page": 3,
+   "reason": "The offence was completed with the deceased's death."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "The deceased died of a gunshot wound. Baburam was beaten, Lakhan was assaulted, Ramshri (mother of Baburam) suffered a hand fracture, and Satyanarain and Rajkumari were hurt by pellets.",
+   "quote": "Ramshri, mother of Baburam, sister of Baburam",
+   "page": 6,
+   "reason": "Injuries are mostly right, but Ramshri is the mother of Baburam, not of the deceased.",
+   "_note": ""
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not describe counts charged; 'three counts' is not supported."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed; 'Not applicable' is an inference not stated in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in consonance with the prearranged plan had gone to the house of the deceased to teach him a lesson",
+   "page": 9,
+   "reason": "Court found a pre-arranged plan and prior meeting of minds."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "to teach him a lesson for disobeying their orders",
+   "page": 9,
+   "reason": "Motive was to punish the deceased for refusing to reap their crop."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Satyanarain P.W.7 had also given the detailed description of the entire incident",
+   "page": 7,
+   "reason": "Testimony of Baburam PW6 and Satyanarain PW7 relied on and found consistent."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "despite gruelling and long cross-examination, no dent could be made",
+   "page": 8,
+   "reason": "Court found witness version consistent and cross-examination did not damage it."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "After the offence the accused persons ran away towards the canal.",
+   "quote": "After commission of the offence the accused persons ran away towards the canal.",
+   "page": 7,
+   "reason": "The judgment does state post-offence flight, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "dates_of_offence": "Not stated",
+    "trial_judgment": "Not stated",
+    "high_court": "17.5.2002",
+    "supreme_court": "August 09, 2010"
+   },
+   "quote": "From the Judgment & Order dated 17.5.2002 of the High Court",
+   "page": 5,
+   "reason": "17.5.2002 is the High Court judgment date, not the trial judgment date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "D.B. Vohra, T. Hashmi, S.K. Sabharwal for the Appellant. Siddharth Dave, Vibha Datta Makhija for the Respondent.",
+   "page": 5,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Charge sheet filing is not mentioned; only trial and appeal history are given."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Hakim Singh died during the pendency of the appeal. In appeal by the remaining two accused",
+   "page": 8,
+   "reason": "Trial conviction, High Court upheld, and Supreme Court dismissal all match."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "According to the prosecution, the appellant Virendra Singh is clearly guilty of an offence under sections 302 read with 34 IPC.",
+   "page": 9,
+   "reason": "Summary matches the prosecution's stated position."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "The appellant contended that in the facts and circumstances of the case Section 34 IPC could not be invoked.",
+   "quote": "the appellant contended that in the facts and circumstances of the case Section 34 IPC could not be invoked",
+   "page": 2,
+   "reason": "Core argument is right, but the claim of 'no direct evidence' is not stated in the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "common intention in the sense of a pre-arranged plan ... anterior in point of time to the commission of the crime",
+   "page": 3,
+   "reason": "Vicarious liability under s.34 with prior common intention and participation is accurately summarised."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 3,
+   "reason": "Listed cases match those relied on or referred to in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no sentencing reasoning; it only addresses conviction and vicarious liability."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it cannot be concluded that death was caused on account of grave or sudden provocation",
+   "page": 8,
+   "reason": "No mitigating factors were identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Pre-arranged plan, arming with weapons, and going to teach the deceased a lesson were relied on by the court.",
+   "quote": "armed with lathis and a rifle, because the previous day the deceased declined",
+   "page": 9,
+   "reason": "The court did not label aggravating factors, but it relied on premeditation and weapons; 'None' is inaccurate."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is stated; the appeal was simply dismissed."
+  }
+ }
+}

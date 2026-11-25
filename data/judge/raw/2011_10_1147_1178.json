@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single accused, the appellant, is identified throughout."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is the husband and son; referred to as male throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment nowhere states the accused's age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "PW2 says he is a government servant; PW3 says he is a Watchman at PWD bungalow."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only salary is mentioned; no socioeconomic status is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim 'A' is the daughter, referred to as female."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment repeatedly describes the child as about 1½ years old."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Father (daughter)",
+   "quote": "his daughter of tender age",
+   "page": 6,
+   "reason": "Spouse is PW2, the wife. The victim 'A' was the accused's daughter."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder as charged; finally culpable homicide not amounting to murder (s.304 Part II)",
+   "quote": "committed culpable homicide without premeditation in a sudden fight",
+   "page": 13,
+   "reason": "Murder was the trial charge, but the final conviction was culpable homicide not amounting to murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302, s.304 Part II, s.307, s.342; s.84 and Evidence Act s.105 considered",
+   "quote": "convict the appellant under section 304 Part-II",
+   "page": 14,
+   "reason": "Omits s.304 Part II, the final conviction provision, and s.84/s.105 discussed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sharp edged cutting weapon (Aruval) used against wife and mother is supported."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness (PW2), medical, and circumstantial evidence are all relied upon."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is recorded as such by the court."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Assaults on wife and mother, weapon use, and confinement are all described."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no premeditation, heat of passion, and no intention to cause death."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life for murder, 10 years RI for s.307 counts, and 1 year for s.342 match the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "HC upheld s.302, s.307 (one count for PW2) and s.342; SC reduced s.307 sentence to 7 years",
+   "quote": "sentence awarded to him for offences punishable under Sections 302, 307 (one count- for attempted murder of PW2) and 342",
+   "page": 5,
+   "reason": "HC upheld only one s.307 count; the reduction to 7 years was by the Supreme Court."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeal partly allowed; convicted under s.304 Part II; s.302 conviction set aside",
+   "quote": "convict the appellant under section 304 Part-II",
+   "page": 14,
+   "reason": "'Convicted' omits that the murder conviction was altered to s.304 Part II."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final conviction is culpable homicide not amounting to murder under s.304 Part II."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rigorous imprisonment for a fixed term is ordered."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final sentence under s.304 Part II is ten years rigorous imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "1000 (trial court, Rs.1,000 per s.307 count)",
+   "quote": "together with a fine of Rs.1,000/- for each of the offences punishable under Section 307",
+   "page": 17,
+   "reason": "Trial court imposed Rs.1,000 fine per s.307 count; null omits this stated fine."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only, without stating the modified conviction or the court's outcome.",
+   "quote": "convict the appellant under section 304 Part-II",
+   "page": 14,
+   "reason": "Summary reveals the outcome by stating conviction was modified to culpable homicide."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Final: 10 years RI (s.304 Part II); 7 years RI (s.307); 1 year (s.342). Trial: life, 10 years, 1 year.",
+   "quote": "reduced sentence of seven years rigorous imprisonment",
+   "page": 14,
+   "reason": "Lists trial sentences only; omits the final sentences that replaced them."
+  },
+  "attempt_completion": {
+   "verdict": "partially_correct",
+   "correct_value": "Both: completed (death of daughter) and attempt (wife, s.307)",
+   "quote": "an attempt to commit the murder of his wife",
+   "page": 7,
+   "reason": "Child's death was completed; 'Attempt' covers only the wife's injury."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Daughter's death and injuries to wife and mother are supported."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges and upheld counts match the judgment."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss from the offence is stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no premeditation in the assault."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Dispute over sale of mother's property (uncle's objection); accused blamed wife for misfortune",
+   "quote": "The immediate provocation for making that accusation was his inability to sell the property",
+   "page": 15,
+   "reason": "Judgment identifies a property-sale dispute and blame of wife as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted PW2's testimony, corroboration, injury evidence and post-mortem findings."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "PW2 found reliable, PW1 and PW8 corroborative, PW3 hostile and discounted."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Refused to open door, threatened to kill anyone entering, said he wanted suicide and demanded poison; found armed with Aruval",
+   "quote": "threatened that he would murder anyone who ventured to enter the house",
+   "page": 16,
+   "reason": "Post-offence conduct is described in the judgment; 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial duration is not stated."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant: K.K. Mani, Abhishek Krishna, Mayur R. Shah. Respondent: R. Venkataramani, V.G. Pragasam, Aljo K. Joseph, S.J. Aristotle, Prabu Ramasubramanian",
+   "quote": "K.K. Mani, Abhishek Krishna, Mayur R. Shah for the Appellant",
+   "page": 14,
+   "reason": "Counsel names are stated in the judgment; 'not stated' is incorrect."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge-sheet filing under ss.342, 307 (2 counts) and 302 is stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court upheld, and Supreme Court modification are accurately sequenced."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary of prosecution case matches the judgment's account."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary of insanity arguments matches the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Burden under s.84 on accused and lower standard under s.105 are correctly stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dahyabhai, Ram Swarup and Bhikari are cited as stated."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court's reasoning on no premeditation, heat of passion and s.304 Part II is accurately summarised."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "No premeditation; sudden quarrel; heat of passion; did not act in cruel or unusual manner or take undue advantage",
+   "quote": "did not act in a cruel or unusual manner nor did he take an undue advantage",
+   "page": 32,
+   "reason": "Cited factors are from the insanity analysis, not sentencing mitigation the court relied on."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated as sentencing aggravation; court held assault on wife, mother and child not ipso facto suggestive of insanity",
+   "quote": "was not ipso facto suggestive of his being an insane person",
+   "page": 12,
+   "reason": "Court did not find lack of understanding as aggravating; it rejected insanity inferences from the assaults."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court affirmed default sentence for fine and granted s.428 CrPC benefit."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "KUNJUMON @ UNNI v. STATE OF KERALA",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant along with another accused 'JJ' was prosecuted",
+   "page": 2,
+   "reason": "Two accused: the appellant and Jose Joseph (JJ)."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant made an entry",
+   "page": 6,
+   "reason": "Appellant is referred to as male ('he', 'his client')."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the appellant."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "attempted to rob Lidiya's grandmother Annamma, aged about 90 years of her ornaments",
+   "page": 6,
+   "reason": "Victim Annamma is a woman, referred to as 'her'."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Annamma, aged about 90 years",
+   "page": 6,
+   "reason": "Victim's age stated as about 90."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Stranger to PW-2 Lidiya; accused's relationship to Annamma is not stated",
+   "quote": "since he was a total stranger to Lidiya",
+   "page": 9,
+   "reason": "Stranger status is stated only regarding Lidiya, not the victim Annamma."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302 (punishment for murder)",
+   "page": 6,
+   "reason": "Principal conviction is murder under s.302, alongside robbery."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.302, 397, 449 (charged); s.449 conviction set aside; s.34 not mentioned",
+   "quote": "charged with offences punishable under Section 449 of the IPC, Section 397 of the IPC and Section 302 of the IPC",
+   "page": 7,
+   "reason": "Omits that s.449 was set aside; s.34 is never cited in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "beat her on the head with a wall clock",
+   "page": 7,
+   "reason": "Weapon was a wall clock."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Trial Judge found from the medical evidence given by PW-10 Dr. V.P. Rajan",
+   "page": 8,
+   "reason": "Eyewitness, medical and recovery evidence all relied upon."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned; 'None' asserts an absence the judgment does not address."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "If a frail old woman aged about 90 years is dragged down from her cot and beaten on the head with a wall clock",
+   "page": 14,
+   "reason": "Court relied on the frail age, the wall clock and the resulting death."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Court rejected claim of no intent to kill; accused entered to rob, not to kill (para 32)",
+   "quote": "There is no merit in the submission of learned counsel for the appellant that his client did not intend the death of Annamma",
+   "page": 14,
+   "reason": "Value says appellant did not intend to kill, which the court expressly rejected."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Trial Court convicted the appellant and sentenced him to 10 years imprisonment",
+   "page": 9,
+   "reason": "Trial court convicted under ss.449, 397 and 302."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court rejected the appeal and upheld conviction and sentence under ss.449, 397 and 302",
+   "quote": "the High Court rejected the appeal and upheld the conviction of the appellant",
+   "page": 9,
+   "reason": "High Court did not acquit under s.449; it upheld the conviction entirely."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under ss.302 and 397; acquitted under s.449; appeal partly allowed",
+   "quote": "the appeal is allowed to the extent that no offence punishable under Section 449 of the IPC has been made out",
+   "page": 14,
+   "reason": "'Convicted' omits the partial acquittal under s.449 by the Supreme Court."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder (s.302) and robbery with attempt to cause death (s.397); s.449 not established",
+   "quote": "Section 397 (robbery or dacoity, with attempt to cause death or grievous hurt)",
+   "page": 6,
+   "reason": "Grievous hurt is not a finding; s.449 omitted from the established offences."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "and for life for an offence punishable under Section 302 of the IPC",
+   "page": 9,
+   "reason": "Life imprisonment imposed for s.302."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "and for life for an offence punishable under Section 302",
+   "page": 9,
+   "reason": "Life term carries no years figure, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced him to 10 years imprisonment and fine",
+   "page": 9,
+   "reason": "Fine is mentioned but no amount is stated, so null is correct."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Trial court convicted under ss.302, 397 and 449 IPC; High Court dismissed appeal; victim is PW-2's grandmother, not daughter",
+   "quote": "The High Court rejected the appeal and upheld the conviction of the appellant",
+   "page": 9,
+   "reason": "Wrongly says victim's daughter was the witness, trial convictions were misstated, and HC acquitted under s.449."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "s.302 life imprisonment; s.397 seven years imprisonment (trial court); no maximum stated",
+   "quote": "imprisonment for 7 years and fine for an offence punishable under Section 397",
+   "page": 9,
+   "reason": "Seven years for s.397 is stated; the life maximum for s.397 is not in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "robbed her of her gold chain weighing about 5.500 grams",
+   "page": 7,
+   "reason": "Robbery and killing were completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "causing injuries on head of a lady of 90 years, which resulted in her death",
+   "page": 1,
+   "reason": "Head injuries causing death of a 90-year-old are stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charged with offences punishable under Section 449 of the IPC, Section 397 of the IPC and Section 302",
+   "page": 7,
+   "reason": "Three charges; ss.302 and 397 upheld, s.449 not made out."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Gold chain (about 5.500 grams), two gold ear studs and two imitation bangles taken; gold ornaments recovered",
+   "quote": "weighing about 5.500 grams by breaking it from her neck",
+   "page": 7,
+   "reason": "Property was taken and partly recovered; 'Not applicable' is wrong."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Entry was for robbery with common intention; court found no intention to kill anybody",
+   "quote": "He did not go for the purpose of or with the intention to kill anybody",
+   "page": 14,
+   "reason": "Robbery planning is supported; 'premeditation for murder' is an inference the judgment does not state."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "with the common intention of committing robbery",
+   "page": 6,
+   "reason": "Motive was robbery."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the injuries could have been caused by a wall clock as alleged by the prosecution",
+   "page": 8,
+   "reason": "PW-2 evidence, medical evidence and recovery were relied upon."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "must be placed, in our opinion, on a somewhat higher pedestal, in terms of the credibility attached to it",
+   "page": 12,
+   "reason": "Matches the court's higher-credibility reasoning for victim PW-2."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Recovery of stolen gold ornaments at appellant's instance on 24 October 1997",
+   "quote": "the Investigating Officer PW-13 T.A. Salim recovered the stolen articles at the instance of the appellant",
+   "page": 7,
+   "reason": "Post-offence recovery at accused's instance is stated, so 'Not stated' is incomplete."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On 20th October 1997, the appellant and Jose Joseph came",
+   "page": 6,
+   "reason": "Offence date, HC and SC dates stated; trial judgment date not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Purnima Bhar for the Appellant. Liz Mathew, Sana Hasmi for the Respondent.",
+   "page": 6,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Complaint lodged; investigation concluded; challan filed; trial completed",
+   "quote": "On a complaint having been lodged of the robbery, the police investigated the case",
+   "page": 7,
+   "reason": "FIR registration is not stated; complaint, challan and trial are."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "No TIP conducted; trial judge's cursory treatment of identification; six-year delay in recording child witness",
+   "quote": "the unfortunately cursory manner in which the matter has been dealt with by the Trial Judge and the High Court",
+   "page": 12,
+   "reason": "Judgment notes cursory treatment, absence of TIP and six-year evidence delay."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal is allowed to the extent that no offence punishable under Section 449",
+   "page": 14,
+   "reason": "Trial conviction, HC upheld, SC partly allowed matches the record."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "this was also the case of the prosecution, that the appellant had gone to the house of Jose son of Anthony for the purpose of committing a robbery",
+   "page": 14,
+   "reason": "Prosecution case on robbery purpose and the assault is supported."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence also argued child witness evidence should be carefully scrutinized, besides TIP and no intent to murder",
+   "quote": "the evidence of the child witness should be carefully scrutinized",
+   "page": 10,
+   "reason": "Omits the child-witness scrutiny argument; 'victim unreliable' is loosely worded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The sum and substance of the various decisions referred to above",
+   "page": 12,
+   "reason": "Failure to hold TIP not fatal; circumspection on stranger identification; victimology stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sk. Hasib v. State of Bihar, AIR 1972 SC 283 cited para 15",
+   "page": 3,
+   "reason": "All listed precedents appear in the judgment's references."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Convictions under ss.302 and 397 upheld as correct; s.449 not made out as house trespass was for robbery, not murder",
+   "quote": "it would not be proper to convict the appellant for an offence punishable under Section 449 of the IPC",
+   "page": 14,
+   "reason": "Captures the s.449 reasoning but the judgment gives no sentencing rationale as such."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused went to house to rob, not to kill, leading to s.449 acquittal",
+   "quote": "He did not go for the purpose of or with the intention to kill anybody",
+   "page": 14,
+   "reason": "'None' ignores the court's no-intent-to-kill reasoning behind the s.449 acquittal."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Frail 90-year-old victim dragged from cot and beaten on head with wall clock",
+   "quote": "If a frail old woman aged about 90 years is dragged down from her cot and beaten on the head with a wall clock",
+   "page": 14,
+   "reason": "Court relied on the victim's frailty and the assault as grounds for murder."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Trial court directed that sentences run concurrently",
+   "quote": "It was directed that the sentences would run concurrently.",
+   "page": 9,
+   "reason": "Concurrent sentencing order is stated in the judgment."
+  }
+ }
+}

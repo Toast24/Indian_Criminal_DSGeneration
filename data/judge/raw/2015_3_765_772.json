@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "STATE OF MADHYA PRADESH v. RAKESH MISHRA",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "against three accused persons, namely, Rakesh Mishra, Gyanendra Singh Jadon and Sajid Dhanani",
+   "page": 3,
+   "reason": "Three accused are named in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": 4,
+   "reason": "Gender is not explicitly stated; only pronouns appear, with no explicit identification."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No age of any accused is mentioned."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rakesh Mishra was working as Sub-Engineer, Municipal Corporation, Indore",
+   "page": 3,
+   "reason": "Occupation is directly stated in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No individual victim is identified in the judgment."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No victim is identified, so no age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No victim caste is mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No victim religion is mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No accused-victim relationship is described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Prevention of Corruption Act, 1988- ss.13(2) and 13(1)(d)",
+   "page": 1,
+   "reason": "Corruption offences under the Prevention of Corruption Act are the charged category."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 13(2) and 13(1) (d) of Prevention of Corruption Act read with Section 120B of the Indian Penal Code, 1960",
+   "page": 4,
+   "reason": "Provisions match the charges stated in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "None mentioned",
+   "page": null,
+   "reason": "No weapon is mentioned anywhere in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "only charge-sheet along with the accompanying material is to be considered",
+   "page": 6,
+   "reason": "Judgment never characterises evidence as circumstantial; it only refers to charge-sheet material."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Not mentioned",
+   "page": null,
+   "reason": "Judgment is silent on confession; asserting 'None' goes beyond the text."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not applicable to sentencing; no aggravating factors discussed",
+   "page": null,
+   "reason": "No aggravating circumstances are identified in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not applicable to sentencing; no mitigating factors discussed",
+   "page": null,
+   "reason": "No mitigating circumstances are identified in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the First Additional Sessions Judge/ Special Judge, Indore, after perusing the charge-sheet ... ordered framing of charges against the three accused",
+   "page": 4,
+   "reason": "Trial court ordered framing of charges against the three accused."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court allowed the Revision Petitions and set aside the order of framing charges",
+   "page": 4,
+   "reason": "High Court set aside the framing of charges order."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Order framing charges restored; no conviction; case sent back for trial",
+   "quote": "these criminal appeals are allowed, the order passed by the High Court is set aside and the order of the Addi. Sessions Judge framing charges is restored",
+   "page": 8,
+   "reason": "No conviction occurred; the Supreme Court only restored framing of charges for trial."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (only a prima facie case found for framing charges)",
+   "quote": "we are of the view that there exists sufficient material to make out a prima facie case against the accused",
+   "page": 8,
+   "reason": "Only prima facie sufficiency at pre-trial stage; no offence was finally established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No sentence of imprisonment is imposed or discussed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "null",
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "null",
+   "page": null,
+   "reason": "No fine is stated; the Rs.5,49,000 figure relates to alleged tax evasion, not a fine."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The accused, including Rakesh Mishra, were alleged to have granted building and completion certificates to a hotel and club without required approvals. The original permission was granted to the applicant; a revised plan was later sanctioned with major changes in built-up area. The revision was granted without committee approval, and honorary membership of the club was accepted. The prosecution alleged illegal gratification and misuse of authority.",
+   "quote": "The High Court set aside the order of framing charges, but the Supreme Court restored the order, finding sufficient material",
+   "page": 8,
+   "reason": "Facts are largely accurate, but the final sentence reveals the Supreme Court outcome, which is prohibited."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Not stated",
+   "page": null,
+   "reason": "Judgment does not state any punishment range for the offences."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the completion certificate which was granted on 19.01.1995",
+   "page": 7,
+   "reason": "The alleged acts of granting revision and certificates were completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No physical harm is mentioned in the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Offences charged under s.13(2) and s.13(1)(d) PCA and s.120B IPC; no final adjudication of these",
+   "quote": "The offences charged against the accused are the offences under Section 13(2) and Section 13(1)(d) of the Prevention of Corruption Act and Section 120B",
+   "page": 7,
+   "reason": "Charged provisions are right, but 'all finally upheld' is wrong; only charge framing was upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged property tax evasion of Rs.5,49,000, later paid by the Hotel per High Court; alleged illegal gains to Sajid Dhanani",
+   "quote": "the alleged amount of Rs.5,49,000 was paid by Hotel Sayaji when it was demanded by the department",
+   "page": 6,
+   "reason": "Judgment discusses alleged property tax evasion of Rs.5,49,000, so 'Not applicable' is contradicted."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "these three accused hatched a criminal conspiracy",
+   "page": 3,
+   "reason": "Conspiracy is alleged, but no specific premeditation details are discussed; 'Not stated' is reasonable."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Illegal gratification: free lifetime honorary membership of the Sayaji Club for Jadon and family",
+   "quote": "as illegal gratification, Sayaji Hotel provided free lifetime honorary membership to G.S. Jadon and his family members",
+   "page": 3,
+   "reason": "The judgment identifies illegal gratification as the alleged motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "At the pre-trial stage, the revised plan's major changes, completion certificate granted 7 days after revision, and acceptance of honorary membership were held sufficient for a prima facie case",
+   "quote": "there exists sufficient material to make out a prima facie case against the accused",
+   "page": 8,
+   "reason": "Right facts, but they were treated as prima facie material, not accepted as proven evidence."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No witnesses are discussed or assessed in the judgment; the value invents an assessment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No post-offence conduct is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No custody details are mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "High Court ... dated 18.05.2007; Criminal Appeal ... MARCH 23, 2015",
+   "page": 1,
+   "reason": "HC and SC dates match; trial and offence dates are not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Arvind Varma, Deepika Shari, C. D. Singh for the Appellant ... Sumit kumar Sharma, Niraj Sharma, Brajesh Kumar for the Respondent",
+   "page": 2,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "incorrect",
+   "correct_value": "FIR lodged 18-01-1998; charge-sheet filed; trial not yet concluded (court directed trial court to conduct trial expeditiously)",
+   "quote": "the Trial Court to conduct the trial in the most expeditious manner",
+   "page": 8,
+   "reason": "Judgment shows trial has not concluded; 'trial completed' is contradicted."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused not only granted the revision without approval of any committee",
+   "page": 8,
+   "reason": "No procedural irregularity in court proceedings is noted; the committee lapse is substantive conduct."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "these criminal appeals are allowed, the order passed by the High Court is set aside",
+   "page": 8,
+   "reason": "Sequence of trial court, High Court and Supreme Court orders matches the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "The State argued the High Court traversed beyond the permissible limit in deciding legality of framing charges at the pre-trial stage",
+   "quote": "the High Court traversed beyond the permissible limit while deciding the legality of order framing charges, being a pre-trial stage",
+   "page": 6,
+   "reason": "Core argument is right, but the 'only charge-sheet' principle was the Court's statement, not the State's argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "G.S. Jadon was in the office of Building Officer from 31.10.1994 to 16.10.1996. He cannot be held liable for any act/omission done prior to or after this period",
+   "page": 6,
+   "reason": "Defence arguments on tenure and s.482 inherent jurisdiction are accurately stated."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "only charge-sheet along with the accompanying material is to be considered at the stage of framing of charges",
+   "page": 6,
+   "reason": "Principle of prima facie assessment at framing of charges is stated accurately."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Various authorities have been cited before us",
+   "page": 6,
+   "reason": "Authorities were referred to generally but none are named; 'Not stated' is accurate."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not applicable",
+   "page": null,
+   "reason": "No sentencing is imposed, so no sentencing rationale exists."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "None",
+   "page": null,
+   "reason": "No mitigating factors are considered by the Court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "None",
+   "page": null,
+   "reason": "No aggravating factors are considered by the Court."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Direction to the Trial Court to conduct the trial in the most expeditious manner",
+   "quote": "we request the Trial Court to conduct the trial in the most expeditious manner",
+   "page": 8,
+   "reason": "Value says 'None', but the Court directed expeditious trial."
+  }
+ }
+}

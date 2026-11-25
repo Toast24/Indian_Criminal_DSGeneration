@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two appellants are identified throughout the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are described as male gentlemen and appellants; male is supported."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for either accused appears anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "incorrect",
+   "correct_value": "Sikh (as described in the prosecution's account of the assailants)",
+   "quote": "two sikh gentlemen witn trimmed beard",
+   "page": 6,
+   "reason": "The judgment records the assailants as Sikh gentlemen in the prosecution case, so religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Varun Kumar is referred to with male pronouns and is male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Assailants were unknown to the complainant and others, so stranger is supported."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 with attempted murder and robbery-related counts is supported."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sections 302, 307, 397 IPC read with s.34 match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Firing with a pistol is recorded in the prosecution case."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "eyewitness, extra-judicial confession, medical, recovery (blood-stained earth, scooter)",
+   "quote": "Blood stained earth was lifted from the spot",
+   "page": 7,
+   "reason": "Omits the extra-judicial confession to PW-1, which is a central evidence type in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Extra-judicial confession to PW-1, corroborated by eyewitnesses, is accurately stated."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death, serious injury to PW-2 and traumatic experience are discussed as aggravating features."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under ss.302, 307, 397 read with s.34 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed the appeals, upholding the conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeals, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder and grievous injury convictions were upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Rigorous imprisonment: life (s.302); 10 years rigorous imprisonment (s.307 and s.397)",
+   "quote": "rigorous imprisonment of life",
+   "page": 5,
+   "reason": "Only life imprisonment is listed; the 10-year rigorous terms for ss.307 and 397 are omitted."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Main sentence is life imprisonment, so no fixed number of years applies."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.50,000/- each (s.302); Rs.25,000/- (s.307)",
+   "quote": "fine of Rs.50,000/- each",
+   "page": 5,
+   "reason": "The judgment states specific fines, so null contradicts the stated amounts."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same facts without the sentence stating courts accepted the eyewitness accounts as credible, which reveals the outcome.",
+   "quote": "The incident lasted for 1½ minutes",
+   "page": 12,
+   "reason": "Facts are accurate, but the closing sentence reveals the court's credibility finding and thus the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentences described match the judgment's sentencing paragraphs."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Shooting caused death and injury, so the offences were completed."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Victim Varun Kumar was shot dead and died of severe haemorrhage and shock; PW-2 had multiple lacerated wounds from firearm.",
+   "quote": "cause of the death in this case was severe haemorrhage and shock",
+   "page": 8,
+   "reason": "Severe haemorrhage and shock is the cause of the victim's death, not PW-2's injuries, so it is misattributed."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three counts under ss.302, 307 and 397 read with s.34 were upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Money bag from a Rs.4 lakh bank withdrawal (with a cheque book) was snatched; the exact amount taken is not stated.",
+   "quote": "withdrew a sum of Rs.4 lakhs from the Bank",
+   "page": 6,
+   "reason": "Judgment shows the withdrawn sum was Rs.4 lakh and the bag was taken, but not that exactly Rs.4 lakh was snatched."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not discussed."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Robbery: assailants snatched the money bag from the victim.",
+   "quote": "snatched the money bag from Varun Kumar",
+   "page": 6,
+   "reason": "The judgment indicates robbery as the purpose of the attack, so motive is not wholly unidentified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitnesses PW-2 and PW-3 and PW-1's extra-judicial confession evidence were accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Credibility reasoning on PW-2's traumatic experience, consistency and medical corroboration is supported."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants declined to take part in the Test Identification Parade.",
+   "quote": "The appellants declined to take part in Identification Parade.",
+   "page": 2,
+   "reason": "The judgment records refusal to join the TIP, which is post-offence conduct, so Not stated is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Length of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence, trial, HC and SC dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, challan filing and completed trial are supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is found; the police-showing argument was rejected as new."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: convicted; High Court: appeal dismissed; Supreme Court: appeals dismissed.",
+   "quote": "convicted the appellants under Section 302, 397 as well as Section 307 IPC",
+   "page": 5,
+   "reason": "The trial court convicted rather than upheld a conviction, since no earlier appeal is described."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness and PW-1 confession arguments, with PW-1 as a reliable independent witness, are supported."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued the faces were shown at the police station, the TIP refusal was justified, the incident was too brief to recall faces after 7 years, and the appellants were falsely framed.",
+   "quote": "PW-2 had already visited the Police Station on 06.08.2006 and the appellants faces were shown to him",
+   "page": 11,
+   "reason": "Omits the key argument that police showed the accused's faces to PW-2 and the false-framing claim."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Memory-is-not-a-video-recorder principle and circumstance-dependence are applied as described."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Balwinder Singh v. State of Punjab is cited and relied upon."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no reasoning for the sentences; it only records the sentences imposed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss mitigating factors, so 'None' is an unbacked claim."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Shooting of companion PW-2's companion, further firing at PW-2, and resulting traumatic 'horror scene' and serious injury.",
+   "quote": "For PW-2, it was clearly a horror scene resulting into traumatic experience.",
+   "page": 15,
+   "reason": "The judgment treats the assailants' conduct and PW-2's injury as aggravating, so 'None' is contradicted."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "All sentences ordered to run concurrently.",
+   "quote": "All these sentences were ordered to run concurrently.",
+   "page": 6,
+   "reason": "The judgment expressly states the sentences run concurrently, so 'None' is wrong."
+  }
+ }
+}

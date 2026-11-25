@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two accused, A1 and A2, are identified throughout."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 3,
+   "reason": "Accused are referred to with male pronouns and male names; gender is evident."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for either accused anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A1 is a civil contractor while A2, his brother-in-law, is an ex-serviceman.",
+   "page": 3,
+   "reason": "Occupations match the judgment's description of A1 and A2."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No explicit socioeconomic status is stated; only a passing remark about A1's lorries and finances."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Both male (son, deceased No.1) and female (wife, deceased No.2)",
+   "quote": "brutally killed his son, Vetcha Kiran Kumar (deceased No.1), and his wife, Vetcha Venkatagopala Lakshmi (deceased No.2)",
+   "page": 3,
+   "reason": "Two victims of different genders; the value mentions only male and omits the wife."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No ages of the victims are given in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Customers of PW-1 (the accused were customers who bought gold or borrowed money from him)",
+   "quote": "the accused were his customers and used to purchase gold or take money from him",
+   "page": 6,
+   "reason": "Judgment describes the accused as PW-1's customers, not relatives of the victims."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 2,
+   "reason": "Conviction for murder under s.302 is the main offence."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "guilty of offences punishable under Sections 302, 397 and 450 IPC",
+   "page": 2,
+   "reason": "Conviction provisions match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "concealing iron rods under their shirts",
+   "page": 3,
+   "reason": "Iron rods are the weapons identified in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial; eyewitness-type testimony of PWs 4, 6 and 10 (running away); medical; recovery; confession (s.27); fingerprint (rejected)",
+   "quote": "there were no eye-witnesses to the actual killings, there were three separate witnesses",
+   "page": 6,
+   "reason": "Omits the witness testimony of PWs 4, 6 and 10 and the confession, and rejected fingerprint evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "This part of his confession would, therefore, be admissible under Section 27",
+   "page": 12,
+   "reason": "Court relied on the part of A1's confession that led to recovery."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "brutally killed his son ... and his wife",
+   "page": 3,
+   "reason": "Brutal killing and robbery of property are highlighted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "held the accused therein ... guilty of offences punishable under Sections 302, 397 and 450 IPC and sentenced them accordingly",
+   "page": 2,
+   "reason": "Trial court convicted and sentenced both accused."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Criminal appeal dismissed; conviction and sentence confirmed",
+   "quote": "dismissed Criminal Appeal No. 915 of 2016",
+   "page": 2,
+   "reason": "High Court dismissed the appeal, so the value 'Not applicable' is contradicted."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Criminal Appeal is, therefore, found to be bereft of merit and it is dismissed accordingly.",
+   "page": 12,
+   "reason": "Accused remained convicted after the Supreme Court dismissed the appeal."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Offences punishable under Sections 302, 397 and 450 IPC",
+   "quote": "guilty of offences punishable under Sections 302, 397 and 450 IPC",
+   "page": 2,
+   "reason": "Judgment does not establish theft or 'causing death by act' as offences; the convictions are under ss.302, 397, 450."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo imprisonment for life under Section 302 IPC",
+   "page": 4,
+   "reason": "Life imprisonment under s.302 is stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 4,
+   "reason": "Life sentence has no fixed term; other terms (10 and 7 years) are sentences for other counts."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs 2,000 each for the s.302 and s.450 sentences",
+   "quote": "to pay fine of ¹ 2,000/- each",
+   "page": 4,
+   "reason": "Fines of Rs 2,000 each are stated; the value null contradicts the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Accused were customers of PW-1, not relatives; facts should omit the conviction and appeal outcomes",
+   "quote": "The trial court convicted the accused, and the High Court upheld the conviction.",
+   "page": 4,
+   "reason": "Describes accused as relatives, unsupported, and reveals the trial and High Court outcomes."
+  },
+  "offence_severity": {
+   "verdict": "incorrect",
+   "correct_value": "Sentences imposed: life imprisonment (s.302), 10 years (s.450), 7 years (s.397)",
+   "quote": "imprisonment for 7 years under Section 397 IPC",
+   "page": 4,
+   "reason": "Stated minimum of 10 years is contradicted by the 7-year sentence under s.397."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 6,
+   "reason": "Deaths occurred and property was taken, so the offences were completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "cause of his death was shock due to brain injury and hemorrhage following a head injury",
+   "page": 6,
+   "reason": "Deaths of the son and wife from head injuries are described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted on three counts (ss.302, 397, 450); charges also framed under ss.379, 394 r/w 397, 411",
+   "quote": "Charges were framed against them under Sections 302, 379, 394 r/w 397, 411 and 450 IPC.",
+   "page": 3,
+   "reason": "Charges were framed under more sections than three; only three counts resulted in conviction."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "robbed gold ornaments, weighing about 3.543 Kgs., and cash of ¹ 18,340/-",
+   "page": 3,
+   "reason": "Gold weight and cash amount match the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (High Court found intention to cause death, not premeditation or planning)",
+   "quote": "established that the accused intended to cause the death of the inmates of the house",
+   "page": 4,
+   "reason": "Judgment never finds premeditation or planning; it records only intention to cause death."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Robbery of gold ornaments and cash",
+   "quote": "trespassed into his house ... and robbed gold ornaments",
+   "page": 3,
+   "reason": "Judgment states robbery as the purpose; 'Not identified' overlooks this."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there were three separate witnesses PWs 4, 6, and 10, who were independent of each other",
+   "page": 1,
+   "reason": "Matches the court's reliance on PWs 4, 6 and 10."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PWs 4, 6, and 10, who were witnesses independent of each other and who had no animosity or enmity with the accused",
+   "page": 12,
+   "reason": "Court found these witnesses independent and without animosity."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused fled with bags from the scene; A2 ran when apprehended; A1 tried to escape when police came",
+   "quote": "upon seeing the police, one person (A1) tried to escape",
+   "page": 9,
+   "reason": "Judgment describes flight from the scene and attempts to escape; 'Not stated' is contradicted."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; only arrest times on 22.08.2008 are given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "By judgment dated 30.08.2016 passed in Sessions Case No. 81 of 2012",
+   "page": 2,
+   "reason": "Offence date, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "R. Basant, Sr. Adv., G. N. Reddy ... Advs. for the Appellants",
+   "page": 2,
+   "reason": "Counsel names and roles match the judgment's listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Crime No. 61 of 2008 was registered ... he filed a charge sheet against the accused",
+   "page": 3,
+   "reason": "Crime registration, charge sheet and completed trial are supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Failure in following due procedure rendered the findings of PW-24 wholly unreliable.",
+   "page": 10,
+   "reason": "Court held fingerprint procedure was not followed and PW-24's findings unreliable."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: convicted and sentenced; High Court: appeal dismissed, conviction confirmed; Supreme Court: appeal dismissed",
+   "quote": "Their conviction and sentence stood confirmed when the High Court ... dismissed Criminal Appeal No. 915 of 2016",
+   "page": 2,
+   "reason": "Confirmation of conviction was by the High Court, not the trial court."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the circumstantial evidence, in corroboration with the medical evidence, the weapons used and the manner in which the attack was made",
+   "page": 4,
+   "reason": "Summary of the prosecution case and the courts' reasoning is accurate."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence counsel Basant argued there was no street lighting, so witnesses could not have seen the accused running with bags",
+   "quote": "there is no evidence of any light being available outside the house of PW-1",
+   "page": 10,
+   "reason": "Main defence argument on lighting is omitted; discrepancies were noted by the court, not argued by defence."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the chain of evidence must be so complete as to not leave any reasonable grounds for a conclusion consistent with the innocence of the accused",
+   "page": 5,
+   "reason": "Circumstantial evidence principle and limited Article 136 review are both stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 2,
+   "reason": "The four cases listed match those relied on in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (judgment gives no sentencing reasoning beyond conviction under ss.302, 397 and 450)",
+   "quote": null,
+   "page": 4,
+   "reason": "Judgment does not discuss sentencing reasons; the stated rationale is only conviction-based."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed in the judgment."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Brutal manner of attack using iron rods, noted by the High Court",
+   "quote": "the weapons used and the manner in which the attack was made",
+   "page": 4,
+   "reason": "High Court relied on weapons and manner of attack; 'None' ignores this."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Further imprisonment in default of payment of fines",
+   "quote": "Further imprisonment was directed for default in payment of fines.",
+   "page": 4,
+   "reason": "Default imprisonment for fines is directed, so 'None' is contradicted."
+  }
+ }
+}

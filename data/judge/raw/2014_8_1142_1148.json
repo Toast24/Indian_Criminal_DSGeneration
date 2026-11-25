@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant was put on trial along with co-accused Sarbananda Das",
+   "page": 3,
+   "reason": "Two accused were tried together, as the value states."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Tanua Rabidas",
+   "page": 4,
+   "reason": "Accused is the husband; male gender is implied by the references to 'his wife'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant Tanua Rabidas was working as an Assistant in the Social Welfare Department",
+   "page": 4,
+   "reason": "Occupation matches paragraph 2 of the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "poured kerosene oil upon his wife and set her on fire",
+   "page": 4,
+   "reason": "Victim is the wife, so female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the victim."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he was married with Meera Saikia Rabidas",
+   "page": 4,
+   "reason": "Husband and wife, so spouse is correct."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "guilty of offence under section 302 IPC",
+   "page": 4,
+   "reason": "Offence under s.302 IPC is murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged under IPC ss.302, 326, 34; convicted under s.302 IPC",
+   "quote": "offence under section 302/ 326/34 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Section 326 is omitted and s.34 was charged but conviction was only under s.302."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "poured kerosene oil upon his wife and set her on fire",
+   "page": 4,
+   "reason": "Kerosene oil is the agent used, as the judgment describes."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the victim made a dying declaration before PW 6-doctor and PW 7-nurse",
+   "page": 2,
+   "reason": "Dying declaration, medical and eyewitness evidence all feature in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are stated."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced him to undergo rigorous imprisonment for life and pay fine of Rs.1,000/- with default clause",
+   "page": 4,
+   "reason": "Matches the trial court conviction and sentence described."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "affirmed tne conviction and sentence of the appellant and dismissed the said appeal",
+   "page": 4,
+   "reason": "High Court affirmed conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is no merit in this appeal which is dismissed accordingly",
+   "page": 7,
+   "reason": "Conviction stands after the appeal was dismissed."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the trial court rightly held the appellant guilty of the offence punishable under section 302 IPC",
+   "page": 7,
+   "reason": "Murder under s.302 IPC is the established offence."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for life",
+   "page": 4,
+   "reason": "Life imprisonment is the sentence imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment has no fixed years, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "1000",
+   "quote": "pay fine of Rs.1,000/- with default clause",
+   "page": 4,
+   "reason": "The judgment states a fine of Rs.1,000, not null."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurately summarised and do not reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for life",
+   "page": 4,
+   "reason": "Life imprisonment reflects the severity of the sentence imposed."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The victim succumbed to the burn injuries.",
+   "page": 4,
+   "reason": "Victim died, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "ante mortem flame burn injuries involving of 90% body surface",
+   "page": 5,
+   "reason": "Burn injuries resulting in death match the medical evidence."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged under ss.302, 326, 34 IPC; conviction under s.302 only",
+   "quote": "offence under section 302/ 326/34 of the Indian Penal Code",
+   "page": 3,
+   "reason": "These are sections charged, not three offences, and only one conviction resulted."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss property loss; 'Not applicable' implies a finding the judgment does not make."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the statement of PW-6 Dr. Langkumer and PW-7 Nabanita Baruah that the victim made a dying declaration ... has been fully corroborated by PW-1 and PW-8",
+   "page": 6,
+   "reason": "Matches the court's reliance on the dying declaration to PW-6 and PW-7."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-6 Dr. Langkumer and PW-7 Nabanita Barauh came in contact with the victim only when she was brought to the hospital for treatment",
+   "page": 7,
+   "reason": "Court found them unrelated and disinterested, consistent with the value."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence/hospital date 04.12.1999; Trial judgment: 30.03.2006; High Court decision: 20.03.2007; Supreme Court decision: 04.09.2014",
+   "quote": "on 04.12.1999, he had examined the victim who was brought to the hospital in burned condition",
+   "page": 5,
+   "reason": "Offence date is not stated, but 04.12.1999 is given as the hospital examination date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "P.K. Goswami, Parthiv K. Goswami, A. Henry, Rajiv Mehta for the Appellant. Avijit Roy (For Corporate Law Group) for the Respondent.",
+   "page": 3,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the police submitted the charge-sheet against both the accused",
+   "page": 4,
+   "reason": "FIR, charge sheet and completed trial are all reflected in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court notes no procedural irregularity; the PW-6 police-reporting point was rejected."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "affirmed the conviction and sentence of the appellant and dismissed the said appeal",
+   "page": 4,
+   "reason": "Matches the trial, High Court and Supreme Court sequence."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has proved the case beyond all reasonable doubt",
+   "page": 6,
+   "reason": "Captures the prosecution's reliance on the dying declarations and corroboration."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued the dying declaration was unreliable as an oral statement, the victim could not speak, there was no kerosene smell, and PW-6 did not inform police; cited Surinder Kumar.",
+   "quote": "PW-6 did not inform the police about the dying declaration",
+   "page": 7,
+   "reason": "Omits the argument that PW-6 failed to inform police and that the victim may not have been able to speak."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Dying declaration relied on where corroborated, no shown inducement, and witnesses independent; absence of kerosene smell does not render it doubtful.",
+   "quote": "there is no evidence to the contrary that any effort was made by anyone to induce the deceased to make the false statement",
+   "page": 7,
+   "reason": "Corroboration and non-inducement are supported, but the stated admissibility test is not expressly articulated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Surinder Kumar v State of Haryana (2011) 10 SCC 173 (distinguished); State of Rajasthan v. Kishore (1996) 8 SCC 217 (relied on)",
+   "quote": "State of Rajasthan vs. Kishore 1996 (2) SCR 1103:(1996) 8 sec 217-relied on",
+   "page": 3,
+   "reason": "Kishore is cited in the judgment as SCC (1996) 8 SCC 217, not SCR 8 217; Surinder Kumar was distinguished."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no reasoning for the life sentence beyond the conviction under s.302."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Fine of Rs.1,000 with default clause",
+   "quote": "pay fine of Rs.1,000/- with default clause",
+   "page": 4,
+   "reason": "A fine with a default clause was ordered, so 'None' omits part of the sentence order."
+  }
+ }
+}

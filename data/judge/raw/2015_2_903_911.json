@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "DHIRENDRA KUMAR @ DHIROO v. STATE OF UTIARAKHAND",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant caused the death of Surat Singh",
+   "page": 4,
+   "reason": "Single accused appellant throughout the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused was prevented from dragging the deceased out of the house",
+   "page": 4,
+   "reason": "Accused referred to as male ('he', 'his statement'); gender is implied, not explicitly stated."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the accused appears anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (accused was a member of Yuvak Gram Kalyan Samiti; occupation not given)",
+   "quote": "he was member of Yuvak Gram Kalyan Samiti",
+   "page": 5,
+   "reason": "Only membership in an organisation is stated; no occupation is given."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased had gone to the house of the accused",
+   "page": 4,
+   "reason": "Deceased is male (Surat Singh, son of Mani Ram, husband of PW 7)."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the deceased appears in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to each other; prior enmity arising from an earlier altercation (neighbours/acquaintances)",
+   "quote": "There was prior enmity",
+   "page": 9,
+   "reason": "Not strangers: the deceased visited accused's house, prior altercation and enmity existed."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Murder by hitting with stone on head",
+   "page": 1,
+   "reason": "Offence is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "upholding the conviction of the appellant under Section 302 of the Indian Penal Code",
+   "page": 4,
+   "reason": "Section 302 IPC is the provision relied on; Exception 4 to s.300 was argued by defence only."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "caused the death of Surat Singh deceased with a stone",
+   "page": 4,
+   "reason": "Weapon was a stone."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Evidence of eye witnesses supporting the prosecution case",
+   "page": 1,
+   "reason": "Eyewitness and medical evidence are both relied on; motive evidence also present."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment says nothing about a confession, so 'None' is an assertion not made."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused can be said to have caused the death by acting in a cruel manner",
+   "page": 7,
+   "reason": "Prior enmity, cruel manner and fatal injury on vital part are all identified by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the trial Court convicted and sentenced the appellant",
+   "page": 5,
+   "reason": "Conviction under s.302 and life imprisonment are supported by the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction under s.302 and life sentence affirmed (Criminal Appeal No. 158 of 2007, dated 17.11.2007)",
+   "quote": "upholding the conviction of the appellant under Section 302 of the Indian Penal Code and sentence to undergo life imprisonment",
+   "page": 4,
+   "reason": "High Court affirmed the conviction and sentence; 'Not applicable' contradicts this."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal is accordingly dismissed.",
+   "page": 9,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused has inflicted the fatal injury with a view to cause death",
+   "page": 8,
+   "reason": "Murder under Section 302 upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence to undergo life imprisonment",
+   "page": 4,
+   "reason": "Life imprisonment is the sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed term; life imprisonment, so no years stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts as stated, but the medical opinion did not say injuries were inflicted with full force; that was the court's inference from the injury nature.",
+   "quote": "The medical report suggested that the injuries were inflicted with full force",
+   "page": 8,
+   "reason": "Medical opinion only described the stone injury; 'full force' was the court's finding. Otherwise facts are accurate and neutral."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence to undergo life imprisonment",
+   "page": 4,
+   "reason": "Life imprisonment is the sentence imposed and upheld."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "caused the death of Surat Singh deceased",
+   "page": 4,
+   "reason": "Offence completed with death of the deceased."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There are multiple wounds and the face is disfigured. The bones are pulverized.",
+   "page": 7,
+   "reason": "Multiple wounds, disfigurement, pulverized bones and fatal injury are described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "One offence (murder under s.302); the judgment does not say the appellant was 'charged' with one offence",
+   "quote": "the conviction of the appellant under Section 302",
+   "page": 4,
+   "reason": "Single s.302 conviction is supported; the 'charged with one offence' wording is not stated."
+  },
+  "financial_property_loss": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not address property or financial loss."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Court found intention to cause death; premeditation or planning is not discussed",
+   "quote": "the accused has inflicted the fatal injury with a view to cause death",
+   "page": 8,
+   "reason": "Intention to cause death is found, but the judgment does not use or find premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There was prior enmity.",
+   "page": 8,
+   "reason": "Previous enmity arising from earlier altercation is the motive accepted."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Evidence of eye witnesses supporting the prosecution case and found reliable",
+   "page": 1,
+   "reason": "Accurately reflects the evidence the courts accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "both the courts below have found the evidence of PW 3 Bahadur Singh and PW 4 Lakhi Ram to be reliable",
+   "page": 6,
+   "reason": "Accurately reflects the courts' credibility findings on PW 2, 3, 4 and 7."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "dates_of_offence: 1 April 1983; trial_judgment: not stated; high_court_decision: 17.11.2007; supreme_court_decision: 26 February 2015",
+   "quote": "judgment and order dated 17th November, 2007 passed by the High Court",
+   "page": 4,
+   "reason": "17.11.2007 is the High Court judgment date, not the trial court judgment; trial date is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Hema Sahu, Rajendra Sahu, C. L. Sahu for the Appellant. Jatinder Kumar Bhatia for the Respondent.",
+   "page": 4,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "After completing the investigation, the accused was sent up for trial.",
+   "page": 5,
+   "reason": "FIR, post mortem, completed investigation and committal to trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is discussed; 'None noted' is consistent with the text."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "upholding the conviction of the appellant under Section 302",
+   "page": 4,
+   "reason": "Trial conviction, High Court affirmance and Supreme Court dismissal are all supported."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Judgment records no separate prosecution submissions; the reasoning reflects the courts' findings on eyewitnesses, motive and injuries",
+   "quote": "Evidence of PW 7 widow of the deceased was also believed",
+   "page": 8,
+   "reason": "Substance matches court findings, but attributing a prosecution argument is not supported by the text."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the case was covered by Exception 4 to Section 300 as it was a case of sudden fight",
+   "page": 5,
+   "reason": "Exception 4, free fight, and false implication arguments are all recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Question whether a case falls under Section 302 or 304 has to be decided from case to case",
+   "page": 8,
+   "reason": "Accurately summarises the factors test set out in para 15."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ankush Shivaji Gaikwad vs. State of Maharashtra",
+   "page": 5,
+   "reason": "Precedent matches; the judgment also gives 2013 (6) SCC 770 and the SCR cite."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "No sentencing reasoning is given; the court upheld the life sentence and found intention to cause death and prior enmity",
+   "quote": "sentence to undergo life imprisonment",
+   "page": 4,
+   "reason": "The judgment gives no sentencing rationale; the stated reasons are inferred from the conviction findings."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It was a case of previous enmity and the nature of injury suggests intention to cause death",
+   "page": 9,
+   "reason": "Prior enmity, intention to cause death and cruel manner are all identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence or order is mentioned beyond dismissal of the appeal."
+  }
+ }
+}

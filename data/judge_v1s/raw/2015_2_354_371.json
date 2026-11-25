@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states there are in all 516 accused."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male (referred to as 'his')",
+   "quote": "before his guilt is established by acceptable evidence",
+   "page": 9,
+   "reason": "Judgment refers to the appellant with the masculine pronoun 'his', so gender is indicated, not unstated."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the appellant is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is Managing Director of Shri Aurbindo Institute of Medical Sciences, Indore."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior conviction is stated; only another pending prosecution is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No individual victim is identified."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is given."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is given."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused-victim relationship is stated."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Cheating, forgery and conspiracy; corrupt exam malpractice for illegal admission",
+   "quote": "under Sections 420, 467, 468, 471, 120B of the Indian Penal Code",
+   "page": 4,
+   "reason": "Criminal breach of trust is not among the charged offences; charges are cheating, forgery, conspiracy and exam-related offences."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "IPC, MP Manyata Prapt Pariksha Adhiniyam and IT Act sections match paragraph 3."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Documentary (excel sheet, seized documents, candidate lists); seizure of cash; s.164 CrPC statement; co-accused memoranda",
+   "quote": "The seizure memo of the amount seized from Pradeep Raghuvanshi.",
+   "page": 7,
+   "reason": "Documents, recovery and statements are supported, but no medical evidence is mentioned in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the appellant is recorded; the s.164 statement is a witness statement."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "High magnitude offence; depravity of character; generation of black money; kingpin role; potential to influence witnesses",
+   "quote": "Apart from showing depravity of character and generation of black money",
+   "page": 17,
+   "reason": "The judgment and High Court identify several aggravating features, contrary to 'None noted'."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are recorded as found by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court (9th Additional Sessions Judge) dismissed the second bail application."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Division Bench of High Court dismissed the bail application."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "The appeal is accordingly disposed of with the above observations.",
+   "page": 18,
+   "reason": "No acquittal occurred; the appeal against bail refusal was disposed of and the trial is ongoing."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final finding of guilt; court only noted prima facie material."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence has been imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term was imposed."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine was imposed."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts on accused's role, custody (about one year), delay and bail reasoning are supported; remove claim of state financial loss and 'over a year'.",
+   "quote": "The offences alleged are economic offences which have resulted in loss to the State exchequer.",
+   "page": 16,
+   "reason": "State exchequer loss comes from the Sanjay Chandra quotation, not this case; custody was 'about one year'."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court stated that the offence is punishable with life sentence if proved."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Allegations state candidates were got passed, so the offence is alleged as completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is alleged."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as offence count; 516 accused in all, 329 arrested, 187 due to be arrested",
+   "quote": "there are in all 516 accused out of which 329 persons have been arrested and 187 are due to be arrested",
+   "page": 5,
+   "reason": "Figures describe accused and arrests, not the number of offences."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant allegedly received few crores of rupees; Rs 60 lakh cash seized from General Manager",
+   "quote": "The appellant received few crores of rupees in the process",
+   "page": 5,
+   "reason": "Judgment records allegedly large sums received and cash seized, so 'Not applicable' is wrong."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Prima facie allegation of a well-designed conspiracy from charge sheet material; no finding by this Court",
+   "quote": "in well designed conspiracy by hatching conspiracy",
+   "page": 7,
+   "reason": "This is an allegation from the charge sheet summary; the Supreme Court made no finding of premeditation."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Monetary gain from receiving money from candidates for arranging admission",
+   "quote": "for monetary consideration helped the undeserving students",
+   "page": 4,
+   "reason": "Judgment states the motive was monetary consideration and huge amounts received."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "No evidence formally accepted; court only noted prima facie material without merits findings",
+   "quote": "observations in our above judgment will not be treated as expression of any opinion on merits of the case",
+   "page": 18,
+   "reason": "Court expressly disclaimed any opinion on merits and made no acceptance of evidence."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated; court gave no assessment of witness credibility",
+   "quote": "observations in our above judgment will not be treated as expression of any opinion on merits of the case",
+   "page": 18,
+   "reason": "Court did not assess witnesses as credible and expressly gave no opinion on merits."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "going abroad soon after the registration of the Crime No.1212013 and returning back to India on 21.1.2014 only after grant of anticipatory bail",
+   "page": 8,
+   "reason": "High Court recorded going abroad after registration and returning after anticipatory bail."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the appellant has been in custody for about one year."
+  },
+  "bail_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Anticipatory bail granted in other FIR on 16.01.2014; regular bail applications dismissed (05.02.2014 and 09.05.2014)",
+   "quote": "in the other FIR he was granted anticipatory bail on 16th January, 2014",
+   "page": 6,
+   "reason": "Anticipatory bail was granted only in the other FIR; regular bail was repeatedly refused in this case."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial not yet commenced; appellant in custody about one year; HC decision 11.08.2014; SC decision 04.02.2015",
+   "quote": "there is no prospect of commencement of trial in the near future",
+   "page": 8,
+   "reason": "Dates are right, but the value omits that trial has not begun and custody duration is the key point."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Substantial investigation completed and charge sheets filed; certain aspects still under investigation; final charge sheet due by 15 March 2015",
+   "quote": "Substantial investigation has been completed and charge sheets filed but certain aspects are still being investigated",
+   "page": 5,
+   "reason": "Value contradicts itself by saying both 'investigation completed' and 'investigation pending'."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court and High Court refused bail; Supreme Court did not interfere, disposed of appeal with directions and liberty to reapply",
+   "quote": "we do not find any ground to interfere with the view taken by the trial Court and the High Court in declining bail",
+   "page": 17,
+   "reason": "Supreme Court disposed of the appeal with directions and liberty to seek bail afresh, not a plain dismissal."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued prima facie complicity, life-sentence offence, kingpin role, witness influence, investigation pending, and flight abroad; the economic-loss and long-trial points are not the State's",
+   "quote": "the trial Court and the High Court have dealt with the matter having regard to all the relevant considerations, including the nature of allegations",
+   "page": 9,
+   "reason": "Core State points are right, but 'loss to exchequer' is from Sanjay Chandra and 'long trial' was the defence argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence argued about one year custody, no prospect of trial, and indefinite detention, as stated in the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The object of keeping a person in custody is to ensure his availability to face the trial",
+   "page": 10,
+   "reason": "Matches the court's stated principles on custody, seriousness, and delay."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cases and citations match those listed in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred, so 'Not applicable' is appropriate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identified no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "High magnitude offence affecting society; depravity of character; black money; risk of influencing trial",
+   "quote": "the offence is of high magnitude indicating illegal admission to large number of undeserving candidates",
+   "page": 17,
+   "reason": "Court expressly relied on several aggravating features, contrary to 'None'."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches directions on charge sheet by 15 March 2015, monitoring, and fresh bail after one year."
+  }
+ }
+}

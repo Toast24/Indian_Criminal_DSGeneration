@@ -1,0 +1,48 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "offence: 15.04.1998; trial judgment: 31.01.2002; High Court: 02.03.2006; Supreme Court: 22.03.2013",
+   "quote": "MARCH 22, 2013. [P. SATHASIVAM AND JAGDISH SINGH KHEHAR, JJ.]",
+   "page": 1,
+   "reason": "The judgment gives the Supreme Court decision date as March 22, 2013, so \"not given\" is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same summary, but the father reported the boy missing the next day (16.04.1998), not the same day.",
+   "quote": "On 16.04.1998, Leeladhar (PW-1) lodged a report at Police Station, Barmer stating that on 15.04.1998 his son Kamlesh",
+   "page": 4,
+   "reason": "The report was lodged the day after the disappearance, so \"the same day\" is inaccurate."
+  },
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the case caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only A-2 and A-3 appealed, so the Court decided the liability of two accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The accused are named and described with male references."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his son Kamlesh aged about 7 years",
+   "page": 4,
+   "reason": "Age 7 is stated, though para 14 loosely says 14 years."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 1,
+   "reason": "Title matches the parties named in the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 2,
+   "reason": "Two accused, Dakkata Balaram Reddy (A1) and Chinapana Gopi (A2), are identified."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A2, his brother-in-law, is an ex-serviceman",
+   "page": 3,
+   "reason": "Male is supported by the masculine references to both accused."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of either accused is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A1 is a civil contractor while A2, his brother-in-law, is an ex-serviceman",
+   "page": 3,
+   "reason": "Occupations match the judgment's description."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he denied knowledge of A1 being a contractor",
+   "page": 6,
+   "reason": "Value correctly attributes the lorries statement to PW-6 and notes the court did not rule on wealth."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his son, Vetcha Kiran Kumar (deceased No.1), and his wife, Vetcha Venkatagopala Lakshmi (deceased No.2)",
+   "page": 3,
+   "reason": "Two victims, a son and a wife, make Mixed correct."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ages of the victims are not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victims is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victims is described."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Acquaintance/customers of PW-1 (customers of the victims' family); A2 is PW-1's brother-in-law (Relative); no direct relationship with the victims stated",
+   "quote": "A2, his brother-in-law, is an ex-serviceman",
+   "page": 3,
+   "reason": "Value omits that A2 is the brother-in-law of PW-1, the victims' husband/father."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "held the accused therein ... guilty of offences punishable under Sections 302, 397 and 450 IPC",
+   "page": 2,
+   "reason": "Murder under s.302 is the main offence, matching the judgment."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Charges were framed against them under Sections 302, 379, 394 r/w 397, 411 and 450 IPC",
+   "page": 3,
+   "reason": "Convicted and charged sections match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "concealing iron rods under their shirts",
+   "page": 3,
+   "reason": "Iron rods are the weapons identified in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there are no eye-witnesses to the actual commission of the offence and the case is built on circumstantial evidence",
+   "page": 5,
+   "reason": "Circumstantial primary evidence with sightings, medical, recovery and fingerprint evidence is accurately described."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "This part of his confession would, therefore, be admissible under Section 27",
+   "page": 12,
+   "reason": "A1's partial confession relied on under s.27; A2's confession not relied on, consistent with the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "brutally killed his son and wife",
+   "page": 1,
+   "reason": "Killings during a house robbery with iron rods are the aggravating facts noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They were sentenced to undergo imprisonment for life under Section 302 IPC and to pay fine of Rs 2,000/- each",
+   "page": 4,
+   "reason": "Sentences under ss.302, 450 and 397 match the trial court order."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dismissed Criminal Appeal No. 915 of 2016",
+   "page": 2,
+   "reason": "High Court dismissed the appeal, confirming conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appeal dismissed.",
+   "page": 12,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "guilty of offences punishable under Sections 302, 397 and 450 IPC",
+   "page": 2,
+   "reason": "Convictions under ss.302, 397 and 450 are upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo imprisonment for life under Section 302 IPC",
+   "page": 4,
+   "reason": "Life imprisonment is the principal sentence imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final sentence is life, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "to pay fine of Rs 2,000/- each",
+   "page": 4,
+   "reason": "Rs 2,000 fine per accused is stated for the main sentence."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 3,
+   "reason": "Summary covers incident, evidence and investigation without names, outcome or court references, and is within length."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the prescribed punishment range for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "brutally killed his son and wife",
+   "page": 3,
+   "reason": "Offence was completed with deaths."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "cause of his death was shock due to brain injury and hemorrhage following a head injury",
+   "page": 6,
+   "reason": "Death from head injury with brain injury and haemorrhage matches the medical evidence."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Charges were framed against them under Sections 302, 379, 394 r/w 397, 411 and 450 IPC",
+   "page": 3,
+   "reason": "Six sections counted including 397 and three convictions upheld is defensible."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "robbed gold ornaments, weighing about 3.543 Kgs., and cash of Rs 18,340/-",
+   "page": 3,
+   "reason": "Gold ornaments and cash loss match the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court did not expressly find premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "robbed gold ornaments",
+   "page": 3,
+   "reason": "Robbery is the alleged motive, correctly marked as alleged."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PWs 4, 6, and 10 ... spoke in unison about seeing them running away",
+   "page": 12,
+   "reason": "Accepted evidence list matches the Supreme Court's reasoning."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PWs 4, 6, and 10, who were witnesses independent of each other and who had no animosity",
+   "page": 12,
+   "reason": "Credibility assessment matches the judgment's reasoning."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A2 jumped from the upstairs of PW-1's house to the neighbouring house",
+   "page": 7,
+   "reason": "Flight with bags and possession of ornaments are accurately recorded."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he arrested A2 at 01.15 am on 22.08.2008",
+   "page": 3,
+   "reason": "Arrest times are stated; custody duration is not."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "By judgment dated 30.08.2016",
+   "page": 2,
+   "reason": "Dates for offence, trial judgment, High Court and Supreme Court match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "R. Basant, Sr. Adv., G. N. Reddy ... Advs. for the Appellants",
+   "page": 2,
+   "reason": "Counsel for accused and State are correctly listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Crime No. 61 of 2008 was registered",
+   "page": 3,
+   "reason": "FIR, investigation, charge sheet and trial completion are supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prescribed procedure was not followed in gathering this so-called evidence",
+   "page": 10,
+   "reason": "Fingerprint procedural lapse noted by the court is accurately described."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dismissed Criminal Appeal No. 915 of 2016",
+   "page": 2,
+   "reason": "Outcomes at trial, High Court and Supreme Court match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not record the State's arguments in the Supreme Court."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is no evidence of any light being available outside the house of PW-1",
+   "page": 10,
+   "reason": "Defence argument on lighting is accurately recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the chain of evidence must be so complete as to not leave any reasonable grounds for a conclusion consistent with the innocence of the accused",
+   "page": 5,
+   "reason": "Circumstantial test and Article 136 principles are accurately summarised."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Pappu Vs. The State of Uttar Pradesh [(2022) 10 SCC 321]",
+   "page": 4,
+   "reason": "Four precedents with citations match those relied on."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no sentencing rationale, so Not applicable is acceptable."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court did not weigh aggravating factors in sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No compensation or other directions are ordered."
+  }
+ }
+}

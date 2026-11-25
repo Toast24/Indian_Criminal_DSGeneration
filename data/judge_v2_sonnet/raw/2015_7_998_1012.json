@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "STATE OF M.P. v. MADAN LAL",
+   "page": 1,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The respondent as accused was sent up for trial",
+   "page": 5,
+   "reason": "A single accused, Madan Lal."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused, Madan Lal, met her",
+   "page": 5,
+   "reason": "Named male; judgment refers to the accused as 'he'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's age is not stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing on status."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the victim, aged about 7 years... her mother",
+   "page": 5,
+   "reason": "Victim is a girl."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the victim, aged about 7 years, PW1",
+   "page": 5,
+   "reason": "Age 7 stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Stranger/no prior relationship described; accused met the victim on the way and misled her about her mother's whereabouts",
+   "quote": "the accused, Madan Lal, met her and came to know that she was going in search of her mother",
+   "page": 5,
+   "reason": "No relationship described, but the encounter is described; 'Not stated' is acceptable but slightly incomplete."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offence punishable under Section 376(2)(f) IPC",
+   "page": 5,
+   "reason": "Charge is rape/attempted rape."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "framed the charge under Section 376(2)(f) read with Section 511 of IPC",
+   "page": 5,
+   "reason": "Charge and HC's s.354 conversion are correctly recorded."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon mentioned."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "examined the prosecutrix, PW1, Ramnali Bai, PW2, Dr. Smt. Sharda Bhola, PW3... also got marked nine documents",
+   "page": 5,
+   "reason": "Witnesses, medical, forensic and documents match."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The accused abjured his guilt and pleaded false implication.",
+   "page": 5,
+   "reason": "No confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the victim, aged about 7 years",
+   "page": 5,
+   "reason": "Victim's tender age noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Any kind of liberal approach or thought of mediation in this regard is thoroughly and completely sans legal permissibility.",
+   "page": 13,
+   "reason": "Compromise was rejected as a ground; no other mitigation."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment of five years by the learned Sessions Judge",
+   "page": 4,
+   "reason": "Conviction and sentence match."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted the respondent-accused herein under Section 354 of the IPC and restricted the sentence to the period already undergone",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "remit the matter to it for appropriate adjudication",
+   "page": 11,
+   "reason": "Matter remitted to the High Court."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the order of the High Court stands lancinated",
+   "page": 15,
+   "reason": "No conviction stands finally; remanded."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final sentence; remanded."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove 'He'/'his' gendered pronouns; also the accused's 'clothes' seizure is fine.",
+   "quote": "The accused told her that her mother had gone towards the river",
+   "page": 5,
+   "reason": "Facts accurate, but uses gendered pronouns ('He', 'his') prohibited by the instructions."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states no prescribed punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 376(2)(f) read with Section 511 of IPC",
+   "page": 5,
+   "reason": "Charge involves attempt under s.511."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No injuries described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "framed the charge under Section 376(2)(f) read with Section 511",
+   "page": 5,
+   "reason": "One charge; none upheld after remand."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No finding."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive identified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we have not referred to the evidence of any of the witnesses",
+   "page": 15,
+   "reason": "SC did not assess evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution had been able to bring home the charge on the base of credible evidence",
+   "page": 7,
+   "reason": "SC did not assess; trial court found credible."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "then accused took to his heels",
+   "page": 5,
+   "reason": "Fled when mother arrived."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appellant is in jail since last more than one year",
+   "page": 8,
+   "reason": "Matches HC note and SC statement."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on 27.12.2008... Judgment and Order dated 01.02.2010",
+   "page": 4,
+   "reason": "Dates match; trial judgment date not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "G.D. Singh,Apoorv Kurup, Shreya DubeyfortheAppellant. Asha Jain Madan (A.G.) for the Respondent.",
+   "page": 4,
+   "reason": "Counsel correctly listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "laid the chargesheet before the concerned court, which in turn, committed the matter to the Court of Session",
+   "page": 5,
+   "reason": "Accurate."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the learned Single Judge has not at all referred to the evidence",
+   "page": 11,
+   "reason": "Matches."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we are inclined to set aside the judgment of the High Court and remit the matter",
+   "page": 11,
+   "reason": "Accurate across levels."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court has not kept in mind the jurisdiction of the appellate court",
+   "page": 7,
+   "reason": "Matches."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the ingredients of the offence had not been established the conversion of the offence to one under Section 354 IPC",
+   "page": 7,
+   "reason": "Matches."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellate court has a duty to make a complete and comprehensive appreciation of all vital features of the case.",
+   "page": 10,
+   "reason": "Both principles captured."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Amar Singh v. Balwinder Singh and Others... Shimbhu and Another v. State of Haryana",
+   "page": 9,
+   "reason": "Cases listed correctly."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence imposed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he shall be taken into custody forthwith by the concerned Superintendent of Police",
+   "page": 15,
+   "reason": "Orders accurately captured."
+  }
+ }
+}

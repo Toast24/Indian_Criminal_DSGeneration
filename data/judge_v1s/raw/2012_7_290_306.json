@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states three accused were charged, convicted and sentenced by the trial court."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Male and female",
+   "quote": "her husband and parents-in-law were charged with offences under Sections 304-B and 498-A IPC",
+   "page": 2,
+   "reason": "Accused include a female mother-in-law (Pathan Nazeer Abi), so 'Male' alone is incomplete."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for any accused; the court mentions 'the age of the accused' only generally."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the accused's religion."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only the bride's father's lack of resources is mentioned; accused's status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased is a married woman, referred to as 'her' throughout."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the deceased appears in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Husband is spouse; mother-in-law and father-in-law are relatives by marriage."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is dowry death under s.304-B with s.498-A cruelty."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges and convictions were under IPC ss.304-B and 498-A."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Saree (used for hanging)",
+   "quote": "seized the saree that had been used for hanging",
+   "page": 6,
+   "reason": "Judgment identifies the saree used for hanging, contradicting 'None mentioned'."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Oral testimony of relatives and witnesses, post-mortem medical evidence, seizure of saree, photographs",
+   "quote": "LW-13, Dr. M. Madhusudana Reddy conducted autopsy over the body of the deceased",
+   "page": 6,
+   "reason": "Medical and circumstantial evidence fit, but no eyewitness saw the hanging; witnesses spoke to harassment."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not mention any confession; 'None' is asserted without textual support."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Persistent dowry demands, beating and abuse are stated in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court considered the accused's age and long period already in jail."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted all three and sentenced them to life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court acquitted father-in-law and confirmed the other two convictions."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants remained convicted; only the sentence was reduced."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions under s.304-B (dowry death) and s.498-A (cruelty) were upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ten years rigorous imprisonment is a fixed-term sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court awarded ten years rigorous imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "Rs. 1,000 each (Rs. 3,000 total) imposed by trial court under s.498-A; not addressed by Supreme Court",
+   "quote": "pay a fine of Rs. 1,000/- each (total fine amount Rs. 3,000/-)",
+   "page": 6,
+   "reason": "Trial court imposed a fine, so null omits it, though the Supreme Court did not address it."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Husband, father-in-law and mother-in-law were all charged; the facts otherwise match the judgment",
+   "quote": "her husband and parents-in-law were charged with offences under Sections 304-B and 498-A IPC",
+   "page": 2,
+   "reason": "Summary says only husband and mother-in-law were charged, omitting the father-in-law who was also charged."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states life imprisonment at trial and ten years RI on appeal."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased died by hanging, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ligature mark and chin abrasion were found; cause of death was asphyxia from hanging."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Two offences charged (ss.304-B and 498-A IPC); convictions upheld for two accused",
+   "quote": "charged with offences under Sections 304-B and 498-A IPC",
+   "page": 2,
+   "reason": "Only two offence sections were charged, not three offences; the three-accused count is misread as offences."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss from the offence is stated; dowry demands are the motive, not a loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is stated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Non-payment of balance dowry is the stated motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted evidence of dowry demands, harassment and cruelty leading to suicide."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on LW-1's statement, corroborated by LW-3 and LW-7, as reliable and cogent."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused sent LW-3 away on an errand and was absent when she returned; he gave no explanation for the death",
+   "quote": "the accused sent her out giving her money to bring the soaps",
+   "page": 5,
+   "reason": "Judgment states the accused's absence and his failure to explain the death, contradicting 'Not stated'."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Arrest date is stated; exact custody duration is not given, only 'a considerable period'."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All listed dates match: offence 15 Feb 2003, trial 4 Oct 2004, HC 26 Oct 2006, SC 16 Aug 2012."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR under ss.304-B and 498-A, investigation, post-mortem and arrest on 16 Feb 2003 are stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the prosecution case of harassment by husband and in-laws over balance dowry."
+  },
+  "defence_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Appellants argued for a lenient sentence given age, attendant circumstances and time already in jail",
+   "quote": "we do see some substance in the argument raised on behalf of the appellants that keeping in view the prosecution evidence, the attendant circumstances, the age of the accused",
+   "page": 17,
+   "reason": "Recorded defence argument concerns sentence, not presumption of guilt or causation; those claims lack support."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court applied the deeming fiction shifting onus and required a nexus between death and dowry cruelty."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Biswajit Halder and Ashok Kumar are the cases the court relied on."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Reduction based on evidence, attendant circumstances, age and time in jail matches the judgment."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court weighed attendant circumstances, age and prolonged jail term."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court did not identify separate aggravating factors for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Trial court imposed fine with 9 months SI default; remand set off under s.428 Cr.P.C.; MO to be destroyed after appeal time",
+   "quote": "The undergone remand period of A.1 to A.3 shall be set off u/s. 428 Cr.P.C.",
+   "page": 7,
+   "reason": "Trial court made set-off, fine default and property destruction orders, contradicting 'None'."
+  }
+ }
+}

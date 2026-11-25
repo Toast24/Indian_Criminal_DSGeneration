@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only one accused, Sanjeev, is named and tried."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as 'he' throughout, so male is supported."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Raj Pal is a male brother of PW-9."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "after both he and the deceased got drunk, they engaged into an altercation",
+   "page": 9,
+   "reason": "Judgment shows drinking companions and altercation, but never states a family or other relationship."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Culpable homicide not amounting to murder (s.304 Part I)",
+   "quote": "covered by Exception 4 to Section 300 IPC, i.e., culpable homicide not amounting to murder",
+   "page": 10,
+   "reason": "Section 302 murder conviction was set aside; finally established offence is culpable homicide not amounting to murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 (original conviction); s.300 Exception 4; s.304 Part I",
+   "quote": "punishable under Section 304 Part I, IPC",
+   "page": 10,
+   "reason": "Sections 302, 304 Part I and Exception 4 appear; s.34 is not mentioned anywhere in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "assaulted the deceased with the brick",
+   "page": 8,
+   "reason": "The judgment identifies a brick as the weapon used."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial; medical; recovery of blood-stained clothes; extra-judicial confession; forensic blood-group report",
+   "quote": "the prosecution's evidence ... extra judicial confession",
+   "page": 9,
+   "reason": "Circumstantial, medical, recovery and confession are supported, but no dying declaration appears in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Extra-judicial confession to PW-12, corroborated by PW-13's medical evidence, matches the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are identified in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Sudden fight in heat of passion upon sudden quarrel after mutual drinking; no undue advantage or cruel manner (Exception 4)",
+   "quote": "in a sudden fight in the heat of passion upon a sudden quarrel",
+   "page": 9,
+   "reason": "The judgment's Exception 4 reasoning rests on sudden quarrel and heat of passion, which are stated facts."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.302 and imposed life imprisonment with Rs 5000 fine."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction and sentence under s.302 affirmed",
+   "quote": "concurred with the view taken by the trial court and dismissed the appeal",
+   "page": 7,
+   "reason": "The High Court did not return 'Not applicable'; it dismissed the appeal and affirmed the conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant was convicted under s.304 Part I after the s.302 conviction was set aside."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final holding is culpable homicide not amounting to murder under Exception 4."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "A fixed term of ten years imprisonment was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ten years imprisonment is stated in the Supreme Court's order."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs 5000 is stated in the Supreme Court's order."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurately summarised and do not reveal the court's outcome."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Ten years imprisonment with fine of Rs. 5000 (sentence imposed under s.304 Part I)",
+   "quote": "sentenced to undergo imprisonment for a period of ten years and to pay fine of Rs.5000/-",
+   "page": 10,
+   "reason": "Sentence is correct, but the judgment states no minimum or maximum punishment range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The act caused the victim's death, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Forehead, nose, eyebrow, chest and multiple fracture injuries causing death are recorded in the post-mortem."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "One offence under s.304 Part I is finally upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation is found; the act falls under Exception 4, which requires absence of premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence argued no motive; the court held motive need not be proved and none is identified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Chain of circumstances, extra-judicial confession and corroborating doctor's evidence are accepted as key evidence."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Courts believed PW-12's extra-judicial confession evidence, corroborated by PW-13's medical evidence; no general credibility assessment of all witnesses",
+   "quote": "When the prosecution evidence relating to extra judicial confession made before PW-12 is believed by the courts below",
+   "page": 10,
+   "reason": "Belief in PW-12 and corroboration by PW-13 are supported, but the judgment does not assess witnesses generally as credible."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused seen fleeing with blood-stained clothes; blood-stained clothes concealed in wooden box and recovered on disclosure",
+   "quote": "noticed Sanjeev@ Gaja (appellant) with blood stained clothes fleeing",
+   "page": 3,
+   "reason": "Fleeing and concealment of blood-stained clothes are stated conduct, not 'Not stated'."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment says the appellant is in jail but gives no custody duration."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "{\"dates_of_offence\": \"11.1.2000\", \"trial_judgment\": \"3.10.2002\", \"high_court_decision\": \"24.5.2011\", \"supreme_court_decision\": \"19.02.2015\"}",
+   "quote": "FEBRUARY 19, 2015",
+   "page": 1,
+   "reason": "High Court decision is 24.5.2011 not 'Not stated'; 24.05.2011 is the HC date, not the Supreme Court decision date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondent match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge sheet was filed and trial was completed, per the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court affirmance and Supreme Court modification all match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution relied on the chain of circumstances, including the extra-judicial confession and the doctor's corroboration; the Exception 4 conclusion is the court's own",
+   "quote": "the prosecution has established following facts in this case against the accused",
+   "page": 7,
+   "reason": "The judgment records prosecution facts, not separate arguments; the Exception 4 conclusion is the court's finding."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive and incomplete chain of circumstances are the defence arguments recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive need not be proved and intention or knowledge is inferred from circumstances, as stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Reduction to s.304 Part I rests on Exception 4, as the judgment states."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Sudden fight in heat of passion upon sudden quarrel after mutual drinking; no undue advantage or cruel manner (Exception 4)",
+   "quote": "in a sudden fight in the heat of passion upon a sudden quarrel",
+   "page": 9,
+   "reason": "The Exception 4 features relied on by the court are stated, so 'None' is contradicted."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ten years, Rs 5000 fine and two months default imprisonment match the order."
+  }
+ }
+}

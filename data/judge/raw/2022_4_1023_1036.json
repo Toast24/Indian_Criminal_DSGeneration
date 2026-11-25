@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "All the four accused were sentenced to undergo five years of Rigorous Imprisonment",
+   "page": 6,
+   "reason": "Four accused are identified and sentenced by the trial court."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "accused Manoj Singh is in Government Service but he was present at the place of occurrence",
+   "page": 8,
+   "reason": "Accused are referred to with male pronouns and names."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of any accused is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Accused Manoj Singh was a junior engineer posted at Islampur Block (government service)",
+   "quote": "accused Manoj Singh was posted at Islampur Block as junior engineer",
+   "page": 11,
+   "reason": "Judgment states Manoj Singh's occupation as junior engineer in government service, not 'Not stated'."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Informant/victim is referred to with male pronouns and name Kumar Nandan Singh."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his neighbour, namely, accused–appellant, Manoj Singh came and objected to repairing of the wall",
+   "page": 5,
+   "reason": "Fardbeyan describes accused Manoj Singh as the informant's neighbour."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Voluntarily causing hurt by dangerous weapons or means (s. 324 IPC)",
+   "quote": "Voluntarily causing hurt by dangerous weapons or means",
+   "page": 1,
+   "reason": "Judgment concerns hurt by firearms under s.324 IPC, not culpable homicide; no homicide charge arises."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.307 r/w s.34 (trial), modified to s.324 IPC; Arms Act s.27",
+   "quote": "convicting the appellants under Section 307 read with Section 34 Indian Penal Code",
+   "page": 4,
+   "reason": "Omits s.307 original charge and wrongly presents s.34 as a final provision; s.324 and Arms Act s.27 are correct."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appellants armed with guns fired upon the informant",
+   "page": 1,
+   "reason": "Appellants used guns; other accused used spears and lathis, which the value omits but is acceptable."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "eyewitness, medical",
+   "quote": "no material available on record to indicate recovery of any gun or any seizure memo",
+   "page": 6,
+   "reason": "Recovery is only a defence submission; judgment does not find any recovery evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are stated."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted the accused appellants ... under Section 307 read with Section 34 IPC",
+   "page": 5,
+   "reason": "Trial court convicted under s.307/34 IPC and s.27 Arms Act."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court modified the conviction under Section 307 IPC read with Section 34 IPC to Section 324 IPC",
+   "page": 6,
+   "reason": "High Court modified conviction to s.324 and confirmed s.27 Arms Act conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dismissing the appeals, the Court",
+   "page": 1,
+   "reason": "Supreme Court dismissed appeals, upholding conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the charge of Section 324 IPC stands established against the two appellants",
+   "page": 14,
+   "reason": "Section 324 IPC and Arms Act s.27 conviction are finally upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "awarded two years rigorous imprisonment with a fine",
+   "page": 4,
+   "reason": "Rigorous imprisonment for a fixed term is awarded."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "2 years RI under s.324 IPC; 3 years RI under s.27 Arms Act (confirmed)",
+   "quote": "The sentence awarded to the appellant by the Trial Court of three years Rigorous Imprisonment under Section 27 of the Arms Act was confirmed",
+   "page": 4,
+   "reason": "Two years is correct for s.324 but omits the confirmed three-year Arms Act sentence."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "Rs.5,000 under s.324 IPC; Rs.2,000 under s.27 Arms Act at trial",
+   "quote": "awarded two years rigorous imprisonment with a fine of Rs.5,000/-",
+   "page": 4,
+   "reason": "Rs.5,000 is correct for s.324 but the Rs.2,000 Arms Act fine is omitted."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurately summarised and do not reveal the court outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both",
+   "page": 10,
+   "reason": "Matches the punishment prescribed under s.324 IPC as quoted."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Hurt was actually caused by firearm injuries, so offence is treated as completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Anuj Singh fired upon Kumar Nandan Singh which hit the arm",
+   "page": 8,
+   "reason": "Injuries to left foot and right arm from firearms are supported."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Two offences upheld against appellants (s.324 IPC and s.27 Arms Act); four accused charged under s.307/34",
+   "quote": "convicted the appellants under Section 324 IPC and Section 27 of the Arms Act",
+   "page": 12,
+   "reason": "Two upheld offences are right, but 'four offences charged' is not supported; charges were against accused generally."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed; 'Not applicable' is consistent with the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not expressly discussed beyond the altercation context."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there existed previous enmity between the parties due to a land dispute",
+   "page": 14,
+   "reason": "Land dispute is identified as the source of enmity and motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-8, Dr. Himkar who examined the informant PW-6 has clearly stated that all the injuries attributed on the informant were caused by firearms",
+   "page": 12,
+   "reason": "Medical evidence of PW-8 and tattooing point are accurately recorded."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the testimony of a witness in a criminal trial cannot be discarded merely because of minor contradictions or omission",
+   "page": 11,
+   "reason": "Accurately reflects the court's reasoning on minor contradictions."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused ran away to their houses when villagers approached",
+   "quote": "Seeing the people coming, all the four accused ran away to their houses.",
+   "page": 5,
+   "reason": "Fardbeyan records that the accused fled on seeing people coming, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Case No. 312 of 1999 dated 10.10.1999",
+   "page": 5,
+   "reason": "Offence, trial, High Court and Supreme Court dates all match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mrs. Anjana Prakash, Sr. Adv., Anuj Prakash, Ms. Jaikriti S. Jadeja",
+   "page": 4,
+   "reason": "Counsel names for appellants and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the police submitted a charge-sheet against the two appellants",
+   "page": 5,
+   "reason": "FIR, charge-sheet and completed trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "FIR forwarded to Chief Judicial Magistrate after two-day delay (12.10.1999)",
+   "quote": "it was not forwarded to the Court of Chief Judicial Magistrate on the same day but was sent after two days",
+   "page": 5,
+   "reason": "Judgment records a two-day delay in forwarding the FIR, contradicting 'None noted'."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Respondent State and intervenor submitted High Court rightly convicted after analysing witness statements",
+   "quote": "the High Court after analysing the statement of the witnesses has rightly convicted the appellants",
+   "page": 7,
+   "reason": "Judgment records only that the respondent argued the conviction was proper; the detailed argument attributed is not recorded."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Delayed FIR, witness contradictions and no recovery of gun or bullets",
+   "quote": "in the absence of any explanation for delayed submission of FIR, the whole prosecution story becomes doubtful",
+   "page": 6,
+   "reason": "Delay, contradictions and no recovery are correct, but alibi was not part of counsel's recorded submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "only contradictions in material particulars and not minor contradictions can be a ground to discredit the testimony",
+   "page": 11,
+   "reason": "Principles on minor contradictions, medical evidence and s.324/Arms Act are supported."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Narayan Chetanram Chaudhary & Anr. Vs. State of Maharashtra (2000) 8 SCC 457",
+   "page": 11,
+   "reason": "Precedent is expressly cited and relied upon."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they cannot escape the punishment for using arms prescribed by Section 27 of the Arms Act",
+   "page": 14,
+   "reason": "Rationale matches the court's stated reasoning."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are expressly identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are expressly identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Three months simple imprisonment in default of fine (High Court); three months default on Arms Act fine (trial)",
+   "quote": "with a fine of Rs.5,000/- and three months simple imprisonment in case of default",
+   "page": 4,
+   "reason": "Default imprisonment orders are stated in the judgment, so 'None' is incorrect."
+  }
+ }
+}

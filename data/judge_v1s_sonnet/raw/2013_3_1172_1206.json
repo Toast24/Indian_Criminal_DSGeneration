@@ -1,0 +1,370 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "R. SHAJI v. STATE OF KERALA",
+   "page": 1,
+   "reason": "Matches the case title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The trial however, could be conducted only against two persons, i.e. the appellant (A-1) and Vinu (A-2)",
+   "page": 15,
+   "reason": "Two accused were tried."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he would chop him up into pieces",
+   "page": 25,
+   "reason": "Accused is referred to as male."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the appellant is given in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant at the relevant time had been working as the Deputy Superintendent of Police at Malappuram",
+   "page": 12,
+   "reason": "Police officer (Dy.SP) is supported."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record mentioned for the appellant."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Praveen (deceased)... his son",
+   "page": 14,
+   "reason": "Victim is male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not given."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Related (relative); victim was driver of accused's wife and had an illicit relationship with her",
+   "quote": "using a vehicle which was driven by Praveen (deceased). He was also related to the appellant.",
+   "page": 12,
+   "reason": "Accused was not the victim's spouse; victim was a related driver of his wife."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Section 302 read with Section 120-B",
+   "page": 15,
+   "reason": "Murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302 read with Section 120-B... Section 201... Section 364 read with Section 120-B",
+   "page": 16,
+   "reason": "All sections listed are in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The chopper (M.0.4), alleged to have been used in the said crime",
+   "page": 15,
+   "reason": "Chopper is the weapon."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution case was based on circumstantial evidence.",
+   "page": 4,
+   "reason": "Circumstantial evidence."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "No confession; disclosure statements under s.27 Evidence Act led to recoveries",
+   "quote": "the appellant made a disclosure statement to the effect that Praveen's body was mutilated using the chopper",
+   "page": 20,
+   "reason": "No confession, but disclosure statements were made and relied upon."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Motive, use of van, dismemberment of body, conspiracy; the court did not formally list aggravating circumstances",
+   "quote": "The motive as explained hereinabove stood proved.",
+   "page": 31,
+   "reason": "Items are proof circumstances, not framed as aggravating by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under ss.302/120-B (life, fine Rs.1 lakh), 201/120-B (3 years) and 364/120-B (7 years RI)",
+   "quote": "awarded a sentence of life imprisonment and a fine of Rs. one lakh",
+   "page": 16,
+   "reason": "Omits other convictions and sentences and fine."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction affirmed",
+   "quote": "Criminal Appeal No. 86 of 2006, which was dismissed by the High Court",
+   "page": 16,
+   "reason": "High Court did decide, dismissing the appeal; not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we do not find any merit in the appeal and the same is dismissed",
+   "page": 35,
+   "reason": "Conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Murder with criminal conspiracy (s.302/120-B), concealment of evidence (s.201/120-B), kidnapping/abduction (s.364/120-B)",
+   "quote": "convicted under Section 201 read with Section 120-B IPC... Section 364 read with Section 120-B IPC",
+   "page": 16,
+   "reason": "Criminal trespass and disappearance of a person are not the offences; s.364 is kidnapping for murder."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "awarded a sentence of life imprisonment",
+   "page": 16,
+   "reason": "Life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life term, no years for main sentence; null acceptable."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs. 1,00,000 for s.302/120-B (plus Rs.2,000 and Rs.5,000 for other counts)",
+   "quote": "a fine of Rs. one lakh, in default of which, he would undergo SI for a period of one year",
+   "page": 16,
+   "reason": "A fine was imposed; null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts without outcome-revealing language; avoid 'was involved in the murder' and conspiracy as established",
+   "quote": "The motive as explained hereinabove stood proved.",
+   "page": 31,
+   "reason": "Largely accurate but asserts guilt (involved in murder, conspiracy), revealing outcome."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "s.302 IPC: death or life imprisonment (and fine)",
+   "quote": "sentence of life imprisonment",
+   "page": 16,
+   "reason": "Minimum for s.302 is life, not death; statutory range not discussed in judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Praveen died in the intervening night between 15/16.2.2005.",
+   "page": 31,
+   "reason": "Murder completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dismemberment of the parts of the body was possible by using a weapon like the chopper",
+   "page": 31,
+   "reason": "Death and dismemberment."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Convicted of three sets of offences: s.302/120-B, s.201/120-B, s.364/120-B",
+   "quote": "Both the accused were also convicted under Section 201 read with Section 120-B IPC... Section 364",
+   "page": 16,
+   "reason": "'Five offences charged, two upheld' is not supported; all three convictions were upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial loss involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "together they had hatched a conspiracy to eliminate Praveen (deceased)",
+   "page": 31,
+   "reason": "Conspiracy and motive found."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he may well have been unable to tolerate the intimacy that the deceased had developed with his wife",
+   "page": 25,
+   "reason": "Matches."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "recovery of the said chopper at the behest of the appellant cannot be doubted",
+   "page": 20,
+   "reason": "Accurately summarises accepted evidence."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court held evidence weighed not counted; PW.12 not disbelieved in toto; PW.8, PW.11 argument rejected; PW.11 turned hostile",
+   "quote": "we do not find any cogent reason to dis-believe the testimony of Shanavas (PW.12) in toto",
+   "page": 35,
+   "reason": "Broadly right but generalises; some witnesses hostile and not fully credited."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant posted a letter in the victim's name to mislead the family; led police to chopper, skull and van",
+   "quote": "This letter seems to have been written to misdirect/mislead the deceased's family.",
+   "page": 30,
+   "reason": "Misses real post-offence conduct and confuses conviction with conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Trial court 3.1.2006; HC 10.12.2009; SC judgment 4 February 2013",
+   "quote": "FEBRUARY 4, 2013",
+   "page": 1,
+   "reason": "SC decision date given as 24.2.2013 is wrong (24.2.2005 is arrest date)."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dr. S. Gopakumaran Nair, T.G. Naray~nan Nair, K.N. Madhusoodhanan for ttie Appellant.",
+   "page": 12,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a charge sheet was filed against five persons, including the appellant",
+   "page": 15,
+   "reason": "Accurate."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged non-exhibiting of s.164 statements and no TI parade; court found no vitiation",
+   "quote": "such documents, if the same were in fact, a part of the record, were not marked",
+   "page": 21,
+   "reason": "Court noted unmarked s.164 statements though it rejected the objection."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Criminal Appeal No. 86 of 2006, which was dismissed by the High Court",
+   "page": 16,
+   "reason": "Matches."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued circumstances pointed only to appellant's guilt, DNA identified body parts, witnesses trustworthy, TI parade a formality",
+   "quote": "the various circumstances that stood proved, pointed only towards the guilt of the appellant",
+   "page": 17,
+   "reason": "Broadly consistent but omits main submissions."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Also incomplete chain, fleeting identification by witnesses, identification of body, non-examination of Aji etc.",
+   "quote": "The chain of circumstances is not complete.",
+   "page": 16,
+   "reason": "Lists main grounds but omits others."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution must establish its case beyond reasonable doubt",
+   "page": 27,
+   "reason": "Matches principles on circumstantial evidence."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "List includes cases cited, but 'Makhhan' is misspelt (Malkhan Singh)",
+   "quote": "Ma/khan Singh & Ors. v. State of MP. AIR 2003 SC 2669",
+   "page": 34,
+   "reason": "Cases are cited in the judgment but the list is incomplete and has a name error."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court gave no sentencing rationale; it addressed guilt only."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Fine with default imprisonment; sentences for 201/120-B (3 yrs) and 364/120-B (7 yrs RI) to run concurrently",
+   "quote": "All the sentences were directed to run concurrently.",
+   "page": 16,
+   "reason": "Other sentences and concurrency order exist."
+  }
+ }
+}

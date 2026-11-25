@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Proceedings concern a single detenu, the appellant."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male (referred to as 'he')",
+   "quote": "before he filed his writ petition",
+   "page": 40,
+   "reason": "Judgment refers to the appellant with the pronoun 'he', so gender is implicitly stated."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age is not stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Director of City Hospital, Jabalpur",
+   "quote": "The appellant is a Director of City Hospital, Jabalpur.",
+   "page": 12,
+   "reason": "Judgment expressly states the appellant's occupation as Director of City Hospital."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "incorrect",
+   "correct_value": "Prior case: Crime No. 400 of 2004, PS Gorakhpur (IPC 395, 397, 120B; Arms Act); appellant acquitted",
+   "quote": "The appellant had criminal antecedents but had been acquitted in certain cases",
+   "page": 14,
+   "reason": "Judgment records prior criminal antecedents, including a 2004 case where the appellant was acquitted."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No specific victim's gender is stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused-victim relationship is specified."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Detention under NSA for drug-related conduct fits 'Other' as a category."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "National Security Act, 1980: s.3(2), s.3(4), s.3(5), s.8(1), s.10, s.11, s.12, s.14; Constitution Art.22(4), 22(5)",
+   "quote": "detention order passed against the appellant under Section 3(2) of National Security Act 1980",
+   "page": 12,
+   "reason": "Omits s.3(2), s.3(5), ss.10-12, s.14 and Article 22(4)-(5), which the judgment relies on."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is involved in the present detention; only a 2004 prior case mentions deadly weapons."
+  },
+  "evidence_type": {
+   "verdict": "incorrect",
+   "correct_value": "Documentary/official records (postal records, wireless message, affidavits, Section 161 CrPC statements cited in grounds)",
+   "quote": "the records of the Department of Post and Telegraph indicate that service was effected",
+   "page": 36,
+   "reason": "Judgment discusses documentary evidence such as postal records, wireless messages and affidavits, so 'None' is wrong."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court does not note any aggravating circumstances in its analysis."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court does not note mitigating circumstances in its analysis."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No trial occurred; the matter is a preventive detention challenge."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Writ petition dismissed; detention order upheld by Madhya Pradesh High Court on 24 August 2021",
+   "quote": "The writ petition of the appellant was dismissed by the High Court by the impugned judgment on 24 August 2021.",
+   "page": 16,
+   "reason": "High Court outcome is stated: writ petition dismissed on 24 August 2021."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal allowed; detention order and extensions quashed and set aside",
+   "quote": "the appeal is accordingly allowed",
+   "page": 43,
+   "reason": "Appellant was not acquitted; the Supreme Court allowed the appeal and quashed the detention order."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was established; no conviction exists."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment sentence is imposed; only preventive detention is at issue."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Detention order 11 May 2021 approved 13 May 2021; representation 18 May 2021 forwarded 20 May 2021; Central Govt received 1 June 2021 (per counter-affidavit); rejection dated 24 June 2021 and wireless message 28 June 2021; State rejection reportedly 15 July 2021; no proof of communication to detenu. Facts should not state the court's holding.",
+   "quote": "There is absolutely no material coming forthwith to indicate that the rejection of the representation by the Central Government was communicated to the detenu.",
+   "page": 39,
+   "reason": "Wrong dates for State receipt; wrongly says detenu was informed on 28 June; states the court's holding and outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Severity is not formally assessed by the court."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not applicable and not discussed."
+  },
+  "physical_harm": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged: several untimely deaths and casualties from administered spurious Remdesivir injections (grounds of detention; disputed by appellant)",
+   "quote": "Spurious Remdesivir injections had been administered to patients which resulted in several untimely deaths",
+   "page": 13,
+   "reason": "Judgment records alleged deaths and casualties in the grounds of detention, so 'Not stated' is inaccurate."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The number of offences is not stated as a count."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not applicable as a loss; grounds cite procurement of 500 injections worth Rs.15 lakhs (not adjudicated)",
+   "quote": "The appellant is alleged to have procured 500 injections worth Rs.15 lakhs.",
+   "page": 13,
+   "reason": "Judgment mentions a Rs.15 lakh transaction value in the grounds, though no loss is adjudicated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the court's analysis."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Illegal profits from procuring and selling fake Remdesivir injections",
+   "quote": "in order to make illegal profits thereby endangering the life of the general public",
+   "page": 12,
+   "reason": "Judgment states the alleged motive was to make illegal profits."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Court relied on the timeline of dates and the absence of any proof of communication of the rejection to the detenu",
+   "quote": "there is absolutely no material coming forthwith to indicate that the rejection of the representation by the Central Government was communicated to the detenu",
+   "page": 39,
+   "reason": "Court relied on the timeline and lack of proof of communication, not a formal acceptance of 'evidence' as worded."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No witness credibility assessment is made."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not discussed."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Detained from 12 May 2021; detention extended by three months to 12 February 2022 during the appeal",
+   "quote": "ending on 12 February 2022",
+   "page": 16,
+   "reason": "Judgment states detention start date and extension to 12 February 2022."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant has not applied for bail (per appellant's submission)",
+   "quote": "since the appellant has not applied for bail",
+   "page": 19,
+   "reason": "Judgment records that the appellant had not applied for bail."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Not applicable (no trial); detained 12 May 2021; High Court judgment 24 August 2021; Supreme Court judgment 29 October 2021",
+   "quote": "OCTOBER 29, 2021",
+   "page": 1,
+   "reason": "No trial exists; the appeal was decided on 29 October 2021, not 24 August 2021."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sidharth Luthra, Sr. Adv., Ashwani Kumar Dubey, Manish Kumar, Akshat Kumar, Lakshay Mehta, Ms. Ankita Tiwari, Mayank Nagar, Advs. for the Appellant.",
+   "page": 11,
+   "reason": "Counsel names match the judgment's appearance block."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Investigation complete; final report under s.173 CrPC submitted on 6 August 2021",
+   "quote": "a final report under Section 173 of the Code of Criminal Procedure 1973 was submitted on 6 August 2021",
+   "page": 12,
+   "reason": "Value instead gives detention and representation timeline; omits the s.173 final report of 6 August 2021."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The State Government did not furnish any valid reasons for either of the two courses of action.",
+   "page": 38,
+   "reason": "Accurately describes the delay in considering the representation and failure to communicate rejection."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Writ petition under Art. 226 filed 3 July 2021 and dismissed by High Court on 24 August 2021; appeal under Art. 136 allowed by Supreme Court on 29 October 2021",
+   "quote": "the appellant instituted a petition under Article 226 of the Constitution",
+   "page": 16,
+   "reason": "Describes the High Court challenge as an appeal; it was a writ petition and the Supreme Court appeal was under Article 136."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Respondents (AAG) argued representation was considered and decided in a timely fashion, and the detention was based on subjective satisfaction",
+   "quote": "The appellant's representation was considered and decided by the Central Government and State Government in a timely fashion.",
+   "page": 20,
+   "reason": "The value describes the appellant's position as the prosecution's argument; respondents argued timely consideration."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant argued the representation was not decided timely and the rejection was never communicated to him",
+   "quote": "the appellant has never received the rejection of his representation",
+   "page": 17,
+   "reason": "Value states the court's principle as the defence argument and invents an administrative-delay explanation not in the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The expression 'as soon as may be' imports a requirement of immediacy.",
+   "page": 24,
+   "reason": "Accurately states the Article 22(5) immediacy and representation principles applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Also relied on Jayanarayan Sukul, Haradhan Saha, Frances Coralie Mullin, K.M. Abdulla Kunhi, Harish Pahwa, Haji Mohd. Akhlaq (and others); Saleena held inapplicable",
+   "quote": "Jayanarayan Sukul v. State of West Bengal (1970) 1 SCC 219",
+   "page": 5,
+   "reason": "List is incomplete; omits several precedents the court followed or relied on, and Saleena is distinguished."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing applies; rationale is not applicable."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The order of detention dated 11 May 2021 and the extensions dated 15 July 2021 and 30 September 2021 shall accordingly stand quashed and set aside.",
+   "page": 43,
+   "reason": "Matches the court's order quashing the detention and extensions."
+  }
+ }
+}

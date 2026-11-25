@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "T. VASANTHAKUMAR v. VIJAYAKUMARI",
+   "page": 1,
+   "reason": "Matches the case title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the defendant is the distributor of films",
+   "page": 3,
+   "reason": "A single accused, Vijayakumari."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced her to pay Rs. 5, 55, 000/-",
+   "page": 3,
+   "reason": "The accused is referred to as 'her'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the defendant is the distributor of films",
+   "page": 3,
+   "reason": "The complainant's case describes her as a film distributor."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he is the owner of the Ullas Theatre",
+   "page": 3,
+   "reason": "The complainant is male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The two parties had a business relationship",
+   "page": 3,
+   "reason": "Business relationship between the film distributor and the theatre owner."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Cheque dishonour (Negotiable Instruments Act)",
+   "quote": "a complaint under Section 138 of the Negotiable Instruments Act, 1881 was filed",
+   "page": 3,
+   "reason": "The case concerns cheque dishonour, not narcotics."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Negotiable Instruments Act, 1881 - ss. 138 and 139",
+   "page": 1,
+   "reason": "Sections 138 and 139 are the provisions applied."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is involved."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Documentary (cheque, bank memo, notice) and oral testimony, with the statutory presumption under s.139",
+   "quote": "the cheque as well as the signature has been accepted by the accused",
+   "page": 7,
+   "reason": "Mainly documentary and presumption-based. The 'circumstantial' label is only loosely supported."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession; the accused admitted only the cheque and signature."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "found the defendant guilty and sentenced her to pay Rs. 5, 55, 000/-",
+   "page": 3,
+   "reason": "Matches the trial court's conviction and sentence."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "set aside the judgments of the two Courts below and acquitted the respondent",
+   "page": 3,
+   "reason": "The High Court acquitted."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "is hereby restored",
+   "page": 8,
+   "reason": "The Supreme Court restored the conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicting the respondent for an offence under Section 138",
+   "page": 8,
+   "reason": "Section 138 offence upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Fine only; simple imprisonment only in default of payment",
+   "quote": "sentencing her to pay a fine of Rs.5,55,000/-, in default to suffer Simple Imprisonment for five months",
+   "page": 8,
+   "reason": "The primary sentence is a fine; imprisonment arises only in default."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": "About 0.42 years (five months), only in default of fine",
+   "quote": "in default to suffer Simple Imprisonment for five months",
+   "page": 8,
+   "reason": "It is five months, not five years, and only in default."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fine of Rs.5,55,000/-",
+   "page": 8,
+   "reason": "Fine amount matches."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "As the complainant alleged, the accused borrowed Rs.5 lakh; she denied taking any loan and said the cheque dated from 1999.",
+   "quote": "She has disputed taking any loan from the complainant as claimed by him.",
+   "page": 4,
+   "reason": "The loan and non-repayment are stated as fact although the accused disputed them. Otherwise it is broadly accurate and does not reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Fine of Rs.5,55,000, with five months' simple imprisonment only in default",
+   "quote": "in default to suffer Simple Imprisonment for five months",
+   "page": 8,
+   "reason": "Imprisonment is not an alternative to the fine; it applies only on default."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offence was complete: the cheque was dishonoured and notice went unpaid."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is involved."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "A single s.138 offence."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.5,00,000 (cheque/loan amount)",
+   "quote": "The cheque was for Rs.5 lakhs only",
+   "page": 6,
+   "reason": "The loss is the Rs.5 lakh loan; Rs.5,55,000 is the fine."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is attributed to the accused."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "since the cheque as well as the signature has been accepted by the accused respondent",
+   "page": 7,
+   "reason": "Matches the court's reasoning, including the stop-payment inference."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the story brought out by the accused is unworthy of credit, apart from being unsupported by any evidence",
+   "page": 7,
+   "reason": "Accurately reflects the court's finding."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused stopped payment of the cheque and did not pay or respond to the legal notice",
+   "quote": "the defendant neither made the payment nor responded to the same",
+   "page": 4,
+   "reason": "The judgment does describe post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Loan 20-05-2006; cheque 16-01-2007; appellate (Fast Track Court) judgment 22-01-2011; High Court 22-07-2011; Supreme Court 28-04-2015",
+   "quote": "the judgment dated 22. 01.2011, delivered by the Presiding Officer, Fast Track Court-I",
+   "page": 8,
+   "reason": "22-01-2011 is the first appellate judgment, not the trial judgment. The trial judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rajesh Mahale, Krutin R. Joshi, for the Appellant",
+   "page": 2,
+   "reason": "Counsel listed correctly."
+  },
+  "investigation_status": {
+   "verdict": "incorrect",
+   "correct_value": "Private complaint under s.138 before the Magistrate; trial completed; no charge sheet mentioned",
+   "quote": "a complaint under Section 138 ... was filed by the complainant before the XII Magistrate",
+   "page": 3,
+   "reason": "This was a private complaint; no charge sheet is mentioned."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court in appeal reversed the concurrent finding",
+   "page": 5,
+   "reason": "The sequence is correct (the Fast Track Court dismissed the appeal in between)."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Loan of Rs.5 lakh advanced on 20-05-2006 was not repaid; the accused gave a cheque on 16-01-2007 in repayment, which was dishonoured (stop payment) and the notice went unanswered.",
+   "quote": "the defendant on 16-01-2007, gave a cheque for Rs.5 lakhs",
+   "page": 3,
+   "reason": "The cheque was given for repayment of the loan, not as security."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the alleged cheque was given to the complainant in the year 1999 as security against loan of Rs.5 lakhs",
+   "page": 4,
+   "reason": "Matches the defence case."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the presumption under Section 139 would operate",
+   "page": 7,
+   "reason": "Section 139 presumption and shifted burden."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rangappa v. Sri Mohan (2010) 11 SCC 441",
+   "page": 6,
+   "reason": "The only precedent relied on."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the burden of proof had shifted on the accused which the accused failed to discharge",
+   "page": 7,
+   "reason": "Conviction and sentence restored because the presumption was not rebutted."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentencing her to pay a fine of Rs.5,55,000/-, in default to suffer Simple Imprisonment for five months",
+   "page": 8,
+   "reason": "Matches the sentence."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (at least five accused named; two private respondents on bail)",
+   "quote": "Satish Kumar @ Satai ... and other accused persons started indiscriminate firing",
+   "page": 3,
+   "reason": "The value 2 counts only the bail respondents; the judgment describes more accused in the case."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the respondent (Rajesh Vikram Singh) and his brother had sent the accused persons",
+   "page": 3,
+   "reason": "Gender is never stated; 'Mixed' is unsupported, and the text refers to accused with male pronouns."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not described."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states both respondents have a chequered criminal record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Ashfaque Ahmad is the appellant's son, so male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased; the value 25 has no basis in the text."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No direct accused-victim relationship is stated; only the motive linked to the father-in-law."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder of Ashfaque Ahmad in a contract killing is the core offence."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sections match the case crime listing in the order."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Grenade; two country-made pistols; two magazines",
+   "quote": "Two country made pistols, two magazines and one mobile phone were recovered",
+   "page": 3,
+   "reason": "Mobile phone was recovered but is not a weapon."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical (injury/medico-legal reports) and recovery evidence are referenced."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "None stated as a confession; accused Amit Chaubey made an interrogation disclosure implicating the respondent",
+   "quote": "During the course of interrogation, accused – Amit Chaubey disclosed that the respondent (Rajesh Vikram Singh) and his brother had sent",
+   "page": 3,
+   "reason": "Interrogation disclosure implicating respondent is recorded; not called a confession, so 'None' omits it."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Contract killing, criminal record and motive are listed as aggravating points in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (trial court issued non-bailable warrants and recorded absence; no bail grant by trial court)",
+   "quote": "The order dated 15.03.2022 suggests that the respondent – Subhash Yadav was absent from trial and non-bailable warrants were issued against him.",
+   "page": 6,
+   "reason": "Bail was granted by the High Court; the trial court is not shown to have granted bail."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court granted bail to both respondents on 23.09.2021."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeals allowed; High Court bail orders set aside; respondents directed to surrender (no acquittal)",
+   "quote": "the impugned orders dated 23.09.2021 ... are hereby set aside and both the respondents are directed to surrender",
+   "page": 8,
+   "reason": "No acquittal occurred; the Supreme Court set aside bail orders."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence is finally established; the court expressed no views on merits."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed; not stated is appropriate."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only: appellant and son present at bank; grenade thrown; firing killed Ashfaque Ahmad, injured Razi Ahmad; two arrested; motive; bail granted by HC; no outcome stated",
+   "quote": "but the Supreme Court overturned this decision, finding that the High Court did not consider relevant material",
+   "page": 7,
+   "reason": "Reveals the outcome and wrongly calls the victim and the appellant 'accused'."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state minimum or maximum punishment for the offences."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder was completed as Ashfaque Ahmad died on the spot."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death of Ashfaque Ahmad and injuries to Razi Ahmad are stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Multiple charged offences are listed; no finally upheld count is stated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is described; cash recovered from accused is not a loss."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Apparent premeditation: conspiracy hatched to eliminate victim, described as apparently a contract killing (not a final finding)",
+   "quote": "It was apparently a case of contract killing.",
+   "page": 5,
+   "reason": "Court described a conspiracy and contract killing only prima facie, not as a finding."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive matches the judgment: father-in-law was a witness against Rajesh Vikram Singh."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Court noted, prima facie and without merit findings, that the occurrence was witnessed, two accused were nabbed, and material indicated motive",
+   "quote": "The occurrence has been witnessed by the appellant and two more eye witnesses.",
+   "page": 5,
+   "reason": "Court recorded these facts without formally accepting them; it expressed no views on merits."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court noted Razi Ahmad is yet to depose and stressed recording vital witnesses' statements."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment notes exemption-seeking, absence and stalled trial after bail."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court bail to both respondents and later setting aside is accurately stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence and trial dates are not stated; the decision dates are consistent with the text."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearance list."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR registered; investigation done; trial ongoing with only one witness examined",
+   "quote": "Learned Additional Advocate General informs that till date, only one witness has been examined.",
+   "page": 6,
+   "reason": "Charge sheet filing is not mentioned in the judgment; trial status is accurate."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court did not take relevant material into consideration while granting bail",
+   "quote": "the High Court did not take into consideration the relevant material while granting bail to the private respondents",
+   "page": 7,
+   "reason": "The court found the High Court failed to consider relevant material; 'None noted' is wrong."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court bail not stated, High Court granted bail, Supreme Court allowed appeals."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Judgment records the contract-killing allegations, motive and recovered weapons, but no detailed prosecution submissions",
+   "quote": "It was alleged to be a case of contract killing.",
+   "page": 3,
+   "reason": "Allegations are recorded, but the detailed argument is not stated in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Cancellation of bail requires supervening circumstances; no such circumstances existed",
+   "quote": "According to Mr. Basant, there are no supervening circumstances warranting cancellation of bail granted by the High Court.",
+   "page": 6,
+   "reason": "Attributes the court's finding to defence; the defence argued the supervening-circumstances point, not criminal record or HC consideration."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Bail order must show judicial application of mind on listed parameters; distinction between cancellation and challenge to grant (Ash Mohammad, Puran)",
+   "quote": "the order granting bail should reflect the judicial application of mind",
+   "page": 4,
+   "reason": "Omits the cancellation versus setting-aside distinction, a central principle, and criminal record is not a listed parameter."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The three cited cases match the judgment's references."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence imposed; not applicable is appropriate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Gravity of offence in broad daylight, contract killing, motive, respondents' criminal record and misuse of earlier bail, stalled trial",
+   "quote": "If that is true, it is a clear case of misuse of the concession of bail granted to them in the earlier case.",
+   "page": 5,
+   "reason": "Court did identify aggravating factors, so 'None' is contradicted by the text."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Surrender direction, bail orders set aside and one-year trial direction are all stated."
+  }
+ }
+}

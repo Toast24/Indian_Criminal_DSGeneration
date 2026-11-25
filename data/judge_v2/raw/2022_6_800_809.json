@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single accused-appellant, Major Singh."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as male throughout (\"his uncle\", \"he\")."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class statement about the accused appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is Makhan Singh, the accused's male uncle."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only \"old and feeble man\" is stated; no age in years."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nephew-uncle relationship and the previous day's quarrel are both described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final conviction is culpable homicide not amounting to murder under s.304 Part II."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge under s.302 IPC and final conviction under s.304 Part II IPC are both supported."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Wooden 'Bahi', the side of a cot frame, is the weapon described."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical and recovery evidence are all relied upon."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused's confession/disclosure of where the 'Bahi' was hidden, leading to its recovery; relied on by the Supreme Court",
+   "quote": "the recovery ... was recovered by police only after the appellant had confessed about the place of hiding",
+   "page": 6,
+   "reason": "Confession and reliance are supported, but the judgment never says the disclosure was police-recorded."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court noted great force, skull fracture, feeble victim and grudge; all supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Provocation, non-dangerous weapon, single blow and lack of intention or knowledge are all noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Acquittal on 13.07.2001 with the listed reasons is supported."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court set aside acquittal, convicted under s.302, life imprisonment and Rs.5,000 fine, 03.04.2014."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction altered to s.304 Part II, so conviction_modified is right."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final conviction is under s.304 Part II IPC."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "fixed_term (sentence reduced to period already undergone; no number of years stated)",
+   "quote": "His sentence shall be reduced from life imprisonment to period already undergone.",
+   "page": 10,
+   "reason": "Sentence is 'period already undergone', not a stated fixed term; the type label is debatable."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No number of years is stated, so null is consistent with the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rs.5,000 fine retained as imposed by the High Court."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same factual summary, using gender-neutral references (e.g. 'the accused' and 'the victim') instead of he/him/his",
+   "quote": "threatened to teach Makhan Singh a lesson",
+   "page": 2,
+   "reason": "Facts are accurate and stay within the incident, but gendered pronouns (he/him/his) breach the no-pronoun rule."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the statutory punishment prescribed for s.302 or s.304."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death resulted, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single head blow, skull fracture, eight injuries and death next day are all stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "One charge (s.302) and one final conviction (s.304 Part II)."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or money loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Not expressly addressed by the Supreme Court; no premeditation finding recorded",
+   "quote": "the occurrence had not taken place all of a sudden and without any predetermination",
+   "page": 6,
+   "reason": "The 'not sudden/no predetermination' point is the High Court's; the Supreme Court never addressed premeditation expressly."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted fury and provocation from the previous day's reprimand as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness accounts, post-mortem and recovery with chemical match were relied upon."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court found ocular version truthful; Supreme Court accepted occurrence proved beyond reasonable doubt."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fled with the weapon, concealed it at home, arrested 09.08.1998, and disclosure led to recovery."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Arrest, release after acquittal, surrender and over eight years' incarceration are all stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail grant or refusal is stated; release followed the acquittal."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Incident, trial order, High Court and Supreme Court dates all match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Gagan Gupta for appellant; R.K. Rathore and Ms. Jaspreet Gogia for respondents."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, site visit, inquest, arrest, recovery, committal, charge and trial are all described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court's FIR delay and late-arrest concerns are noted; no separate Supreme Court irregularity appears."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial acquittal, High Court conviction under s.302, and Supreme Court partial allowance are all accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prosecution arguments before the Supreme Court are recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Alternative plea of culpable homicide not amounting to murder under s.304 is recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Intention, knowledge and degree of act, with Pulicherla factors, are the principles applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Mohd. Rafiq with its quoted Rayavarapu Punnayya and Pulicherla Nagaraju passages is relied upon."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Lack of intention and knowledge, plus over eight years served, are the stated reasons."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No intention, provocation, non-dangerous weapon, single blow, no knowledge and time served are weighed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Supreme Court weighs no aggravating factors itself."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Release forthwith if not wanted elsewhere; fine remains at Rs.5,000."
+  }
+ }
+}

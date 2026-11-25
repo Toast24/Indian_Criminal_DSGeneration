@@ -1,0 +1,393 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers throughout to a single appellant-accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as male ('his' throughout)."
+  },
+  "accused_age": {
+   "verdict": "partially_correct",
+   "correct_value": "27 at conviction; 22 at time of offence (per appellant's counsel)",
+   "quote": "at the time of the commission of the offence, the appellant's age was 22 years",
+   "page": 5,
+   "reason": "27 is the trial court's age at conviction; the age at offence is 22, which the value omits."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is described as the driver."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment notes the accused has no antecedents and this was his first offence."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is a female ('deceased woman')."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the victim's life was cut short at age 28."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the appellant, who was the driver, that the vehicle operating on route no.131 was not available",
+   "page": 10,
+   "reason": "Judgment shows a driver-passenger encounter via employer transport; it never describes them as strangers."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Kidnapping, rape and murder",
+   "quote": "The prosecution successfully established the charge of the offence of rape, punishable under Section 376 of the IPC as well as the offence under Section 366 of IPC",
+   "page": 10,
+   "reason": "Value captures only rape; the case also involved kidnapping (s.366) and murder (s.302)."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.366, 376, 302",
+   "quote": "convicted for the offences punishable under Sections 366, 376 and 302 of the Indian Penal Code",
+   "page": 4,
+   "reason": "Value omits section 366, under which the appellant was also convicted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Recovery of body and clothing/footwear at appellant's instance; no medical evidence mentioned",
+   "quote": "Ultimately, her dead body was recovered at the instance of the appellant. The clothes on the person of the deceased, footwear, etc. were found near the dead body.",
+   "page": 10,
+   "reason": "Recovery is supported, but medical evidence is not mentioned anywhere in the judgment."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never mentions a confession; 'None' asserts an absence the text does not address."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Brutal nature of the crime; facts shock the conscience; undue leniency would undermine public confidence",
+   "quote": "showing undue leniency in such a brutal case will adversely affect the public confidence in the efficacy of the legal system",
+   "page": 11,
+   "reason": "Judgment expressly identifies brutality and public-confidence concerns as aggravating factors."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Age (27 at conviction), wife and small child, aged parents, first offence, no antecedents",
+   "quote": "he had a wife and small child as well as aged parents",
+   "page": 10,
+   "reason": "Trial court's mitigating factors (family, age, first offence) are stated in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states rigorous imprisonment for rest of life by the Sessions Judge."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Dismissed both the appellant's appeal and the State's enhancement appeal",
+   "quote": "The High Court, by the impugned judgment, dismissed both appeals.",
+   "page": 4,
+   "reason": "Judgment states the High Court dismissed both appeals, not 'not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted; sentence modified to life imprisonment with release only after 30 years of actual sentence",
+   "quote": "We direct that the appellant shall undergo imprisonment for life. We also direct that the appellant shall be released only after he completes thirty years of actual sentence.",
+   "page": 11,
+   "reason": "'Convicted' omits that the Supreme Court modified the sentence and partly allowed the appeal."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Kidnapping (s.366), rape (s.376) and murder (s.302)",
+   "quote": "The appellant–accused was also convicted for the offence under Section 302.",
+   "page": 10,
+   "reason": "Value lists only rape; judgment confirms conviction on ss.366, 376 and 302."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court imposed a fixed-term sentence of thirty years."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Thirty years is the fixed term directed."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "A driver for a Bengaluru company drove a female employee working late hours, who was reported missing and later found dead; the accused was convicted of kidnapping, rape and murder and sentenced to life imprisonment; the trial court's sentence was challenged in appeal.",
+   "quote": "The high court did not review the case, and the supreme court modified the sentence to a fixed term of thirty years.",
+   "page": 4,
+   "reason": "Says High Court did not review the case, but it dismissed both appeals; also reveals the Supreme Court's outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment notes the offence is punishable with death penalty or life imprisonment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder was completed; victim's life was cut short."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes rape followed by death in a brutal manner."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted of three offences (ss.366, 376, 302); 'charged' count not stated",
+   "quote": "The appellant has been convicted for the offences punishable under Sections 366, 376 and 302",
+   "page": 4,
+   "reason": "Three convictions are supported, but the judgment does not state three counts were charged."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Planning is not expressly stated in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive is not identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the judgment's statement on the convictions established by the prosecution."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment contains no assessment of witness credibility; the value invents a finding."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Body recovered at the appellant's instance; jail conduct reportedly satisfactory and B.A. completed in jail (per counsel)",
+   "quote": "her dead body was recovered at the instance of the appellant",
+   "page": 10,
+   "reason": "Recovery of body at appellant's instance is a post-offence fact the judgment states."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Approximately seventeen years and two months undergone (per appellant's counsel)",
+   "quote": "the appellant has undergone sentence for approximately seventeen years and two months",
+   "page": 5,
+   "reason": "Judgment states the custody duration, so 'Not stated' is wrong."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "dates_of_offence": "Not stated",
+    "trial_judgment": "Not stated",
+    "high_court_decision": "31.05.2016",
+    "supreme_court_decision": "March 28, 2023"
+   },
+   "quote": "From the Judgment and Order dated 31.05.2016 of the High Court of Karnataka at Bengaluru in CRLA No.245 of 2011.",
+   "page": 3,
+   "reason": "High Court decision date of 31.05.2016 is stated in the judgment header."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel lists match the judgment's appearance section."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Investigation status is not discussed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": {
+    "trial_court": "Not stated",
+    "high_court": "Dismissed both the accused's appeal against conviction and sentence and the State's enhancement appeal",
+    "supreme_court": "Partly allowed; sentence modified to life with release only after 30 years"
+   },
+   "quote": "The High Court, by the impugned judgment, dismissed both appeals.",
+   "page": 4,
+   "reason": "High Court entry omits that the State's enhancement appeal was also dismissed."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the State's submissions on modified sentences despite no death penalty."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the appellant's reliance on Sriharan and Shraddananda."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Constitutional Courts can impose a modified fixed-term sentence even where death penalty is not imposed, with a term not less than 14 years (s.433A Cr.P.C.)",
+   "quote": "even in a case where capital punishment is not imposed or is not proposed, the Constitutional Courts can always exercise the power of imposing a modified or fixed-term sentence",
+   "page": 9,
+   "reason": "Value states the Sriharan limitation, but the Court's applied principle expands the power beyond death-penalty cases."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sriharan followed; Shraddananda, Sahib Hussain and Gurvail Singh cited with matching citations."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the Court's reasoning on fixed term to exclude remission, given gravity and other factors."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial Court's age, family circumstances and first offence are stated."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Brutal nature, shock to conscience and public confidence are noted by the Court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the operative directions in paragraph 17."
+  }
+ }
+}

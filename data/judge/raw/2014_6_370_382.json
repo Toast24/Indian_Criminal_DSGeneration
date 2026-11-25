@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "3 charge-sheeted; 2 convicted (Mahavir Singh and Jagbir Singh)",
+   "quote": "chargesheet was filed under Sections 302/201/1208 IPC against the appellant, Jagbir Singh, co-accused and Sudesh Rani",
+   "page": 7,
+   "reason": "Two were convicted, but the chargesheet named three accused, including Sudesh Rani, who was acquitted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The appellant is referred to as male and the accused are male."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "incorrect",
+   "correct_value": "Earlier criminal cases between the parties exist; some cases are pending",
+   "quote": "some cases are pending also",
+   "page": 6,
+   "reason": "The judgment refers to earlier maar peet incidents and pending cases involving the appellant."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased Suraj Mal is referred to as male throughout."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to victim: family/village acquaintance with a grudge over the victim's marriage; co-accused had illicit relations with victim's wife",
+   "quote": "the appellant also had a grudge on account of marriage of Sudesh Rani with the deceased",
+   "page": 6,
+   "reason": "The judgment shows the accused knew the victim and had motives, not a stranger relationship."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offence is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment cites ss.302, 1208 (OCR form of 120B, shown as 120 B on page 2) and 201."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (murder weapon not identified); hexa blade and aari (saw) frame recovered with blood",
+   "quote": "the appellant and his younger brother have assaulted Suraj Mal, deceased with a lathi",
+   "page": 9,
+   "reason": "The lathi was used in an earlier assault, not identified as the murder weapon; blade and saw were recovered."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial; last-seen (oral) testimony; medical; recovery; FSL report",
+   "quote": "the deposition of Jai Singh (PW.6) that the appellant and Jagbir Singh, co-accused had been seen last alongwith deceased",
+   "page": 8,
+   "reason": "Omits the oral last-seen testimony and the FSL report, which the judgment relies on."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "No confession stated; disclosure statements of accused led to recoveries",
+   "quote": "At the disclosure statement of co-accused, Jagbir Singh and the appellant the recovered material",
+   "page": 9,
+   "reason": "Disclosure statements led to recoveries; the judgment does not describe a confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as aggravating factors; conspiracy, opportunity and grievous injuries are case facts",
+   "quote": "all of them had conspired to remove the deceased from the way",
+   "page": 6,
+   "reason": "The judgment lists these as facts and findings, not identified aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant convicted under ss.302, 1208 (120B) and 201 IPC by the Sessions Court."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court dismissed the appeal, affirming conviction and sentence",
+   "quote": "affirming the judgment and order of the learned Additional Sessions Judge, Panipat",
+   "page": 6,
+   "reason": "The High Court's decision is stated; it upheld the conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder is the offence for which conviction was upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentenced to imprisonment for life under Section 302."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "Life (s.302); 2 years RI (s.201)",
+   "quote": "sentenced to undergo two years RI and a fine of Rs.1,000/-",
+   "page": 5,
+   "reason": "Omits the two-year rigorous imprisonment imposed under Section 201."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.5,000 each (s.302/1208); Rs.1,000 each (s.201)",
+   "quote": "a fine of Rs.5,000/",
+   "page": 5,
+   "reason": "The judgment states fines of Rs.5,000 and Rs.1,000 each, not null."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only, omitting the conviction and the courts' findings (e.g., drop 'convicted' and 'courts below found' sentences)",
+   "quote": "The accused and co-accused were convicted of murder and other charges.",
+   "page": 5,
+   "reason": "Neutral facts reveal the court outcome by stating convictions and the courts' findings on evidence."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches sentences of life with fine under s.302 and 2 years RI under s.201."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment treats the murder as completed; body was found in the canal."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Medical report shows grievous neck and scalp injuries and multiple skull fractures."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charged and convicted under ss.302, 1208 and 201 IPC, matching the judgment."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution alleged conspiracy with victim's wife; court relied on opportunity, not an explicit premeditation finding",
+   "quote": "Thus, investigation revealed that the deceased was killed on intervening night",
+   "page": 6,
+   "reason": "The court did not expressly find premeditation or planning; conspiracy was the prosecution's allegation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Grudge over the victim's marriage to Sudesh Rani is stated as motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's finding on the complete chain and the last-seen theory."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment notes minor discrepancies in inquest and depositions, with no material contradictions."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused gave no explanation under s.313 CrPC of where they dropped the deceased; co-accused told mother deceased was taken by police",
+   "quote": "None of the accused could furnish any explanation in their statement under Section 313",
+   "page": 9,
+   "reason": "The judgment states the accused gave no explanation and the co-accused gave a false account."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "accused: Sanjay Sharawat, Balraj S. Malik; state: Nupur Choudhary, Samir Ali Khan, Sanjay Jain",
+   "quote": "Sanjay Sharawat, Balraj S. Malik for the Appellant.",
+   "page": 5,
+   "reason": "Omits co-counsel Balraj S. Malik for the appellant."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR lodged, chargesheet filed and trial completed, as stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence alleged irregularities (no independent witness, recovery not proved per law, inquest discrepancies); court rejected them",
+   "quote": "No independent witness had been examined.",
+   "page": 7,
+   "reason": "Defence alleged irregularities; 'None noted' ignores them, though the court rejected them."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court affirmance and Supreme Court dismissal match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the prosecution case of killing at the wife's instance and conspiracy."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches defence points on motive, last-seen theory, recovery and independent witnesses."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's statement of the last-seen theory and treatment of discrepancies."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All eleven cited authorities match the judgment's list."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; the court addressed guilt, not sentencing reasons",
+   "quote": "After appreciating the evidence on record held the appellant guilty of the offences.",
+   "page": 13,
+   "reason": "The judgment gives no sentencing rationale; it discusses guilt and the chain of evidence only."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as judicial findings; the judgment notes opportunity and conspiracy as facts",
+   "quote": "the accused persons had an opportunity to commit the murder of the deceased",
+   "page": 12,
+   "reason": "Judgment identifies no aggravating factors, which conflicts with the populated aggravating_circumstances column."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Default sentence: further RI of six months for non-payment of fine",
+   "quote": "In default of payment, further undergo RI of six months.",
+   "page": 5,
+   "reason": "A default sentence of six months RI is stated, so 'None' is incorrect."
+  }
+ }
+}

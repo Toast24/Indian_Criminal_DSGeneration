@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "Four co-accused arrested in the raid; the appellant and three others were arrested later, so at least eight accused in total",
+   "quote": "leading to arrest of four accused persons - Nitesh Ekka, Sanjay Chauhan, Sharif Khan, and Virender Shakiyar/Sakyabar @ Deepak",
+   "page": 7,
+   "reason": "Four is only the raid arrests; the judgment also names the appellant and three later-arrested co-accused."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "to take care of his ailing mother",
+   "page": 9,
+   "reason": "The judgment consistently refers to the appellant with male pronouns, so gender is implicitly stated."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the appellant was 23 years at the time of arrest."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment's economic-strata remarks are general, not about the appellant."
+  },
+  "previous_criminal_record": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecution has not shown the appellant's involvement in any other case",
+   "quote": "The prosecution has not shown involvement of the appellant, in any other case.",
+   "page": 14,
+   "reason": "The judgment does address prior involvement, stating none was shown, so 'Not stated' is wrong."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified in this NDPS bail matter."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified, so no caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified, so no religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim exists in the judgment, so no relationship is stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offences are under the Narcotic Drugs and Psychotropic Substances Act, 1985."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "NDPS Act ss.20, 25, 29, s.37; CrPC ss.436A, 439, 482 (also ss.436, 437); IPC s.120B",
+   "quote": "accused of committing offences punishable under Sections 20, 25 and 29 of the Narcotic Drugs and Psychotropic Substances Act, 1985",
+   "page": 7,
+   "reason": "Omits NDPS ss.20, 25, 29, CrPC ss.439, 482 and IPC s.120B cited in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Statement of co-accused Nitesh Ekka; appellant's confessional statement; bank statements of Virender Singh @ Beere; no eyewitness evidence mentioned",
+   "quote": "The prosecution has relied on that statement, as well as the confessional statement of the present appellant; in addition, it has relied on the bank statements",
+   "page": 14,
+   "reason": "Omits the co-accused's statement and wrongly lists eyewitness evidence, which the judgment does not mention."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment confirms the prosecution relied on the appellant's confessional statement."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court records no aggravating circumstances; prosecution's mastermind claim was not accepted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Age 23; no contraband recovered from appellant; no other-case involvement shown; two co-accused enlarged on bail; over 7 years in custody; slow trial",
+   "quote": "As against this, the prosecution has not recovered anything else from the appellant",
+   "page": 14,
+   "reason": "The judgment lists several mitigating points, so 'Not stated' is contradicted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the district court rejected the bail application."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Bail application rejected; trial to be expedited within six months",
+   "quote": "application for regular bail was refused, with a direction to the trial court to expedite the trial and conclude it within six months",
+   "page": 8,
+   "reason": "The High Court outcome is stated: regular bail was refused, not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal allowed; appellant directed to be enlarged on bail",
+   "quote": "The appeal is allowed, in the above terms.",
+   "page": 17,
+   "reason": "Judgment never acquits the appellant; it allows the appeal and grants bail pending trial."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No conviction or finding of guilt is made; the trial is ongoing."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed; the matter concerns bail."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is imposed in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurately summarised without revealing the bail outcome."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated explicitly; Section 37(1)(b) (punishable 5 years or more) is invoked",
+   "quote": "no person accused of an offence punishable for a term of imprisonment of five years or more under this Act",
+   "page": 9,
+   "reason": "Judgment quotes the 5-year threshold but never states the appellant's specific punishment term."
+  },
+  "attempt_completion": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "alleged to be in possession of 180 kilograms of ganja",
+   "page": 7,
+   "reason": "Judgment records only prosecution allegations and makes no finding on whether the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned in the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged under NDPS ss.20, 25, 29 and IPC s.120B; no finding that offences were completed",
+   "quote": "the chargesheet was filed under Sections 20/ 25/ 29 of the NDPS Act and Section 120B IPC",
+   "page": 7,
+   "reason": "Omits IPC s.120B; 'upheld as completed offences' is unsupported as the court made no such finding."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation finding is made; mastermind allegation was unsubstantiated."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Payment for ganja (money transferred to appellant as payment for ganja, per prosecution)",
+   "quote": "the accused (Virender Singh @ Beerey) who allegedly transferred money to the appellant's account as payment for the ganja",
+   "page": 14,
+   "reason": "Judgment identifies payment for ganja as the alleged motive, so 'Not identified' is inaccurate."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution relied on co-accused's statement, confessional statement and bank statements; court found this did not show extensive dealing or mastermind role",
+   "quote": "its allegation that he is a mastermind, is not backed by any evidence of extensive dealing with narcotics",
+   "page": 14,
+   "reason": "Describes prosecution reliance accurately but wrongly frames it as accepted evidence; the court was sceptical of it."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "No witness credibility assessment made by the Supreme Court; only the mastermind allegation was found unsupported",
+   "quote": "its allegation that he is a mastermind, is not backed by any evidence of extensive dealing with narcotics",
+   "page": 14,
+   "reason": "Claim that the court assessed witnesses' credibility is unsupported; only the mastermind point is correct."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (no post-offence conduct discussed); custody and slow trial are procedural points",
+   "quote": "The progress of the trial has been at a snail's pace",
+   "page": 14,
+   "reason": "Custody and trial-delay facts are accurate, but they are not post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the appellant has been in custody for over 7 years and 4 months."
+  },
+  "bail_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Interim bail granted earlier for weddings and ailing mother; regular bail rejected by trial court and High Court; Supreme Court enlarged appellant on bail",
+   "quote": "barring grant of interim bail from time to time, for wedding ceremonies and to take care of his ailing mother",
+   "page": 9,
+   "reason": "Omits earlier interim bail, and the trial court and High Court rejections of regular bail."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence/recovery: 28.09.2015; trial court bail order: 08.06.2022; High Court order: 08.09.2022; Supreme Court decision: 28.03.2023",
+   "quote": "Order dated 08.06.2022 in FIR No. 148/2015, passed by the ASJ & Special Judge (NDPS)",
+   "page": 7,
+   "reason": "08.09.2022 is the High Court order; the trial court order was dated 08.06.2022."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Chargesheet, charge framing and supplemental chargesheet dates match the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court and High Court rejected bail; Supreme Court allowed the appeal."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution (ASG) argued active involvement shown by call records and bank transactions, mastermind role, drug network, and public interest under s.37",
+   "quote": "It was urged that the appellant was actively involved in the commission of the offence – with call records and bank transactions",
+   "page": 8,
+   "reason": "Omits the ASG's call-record and public-interest arguments; the 'however' sentence is the court's finding, not the prosecution's argument."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued long incarceration, 34 witnesses pending with little progress, and parity since co-accused Virender Singh and Nepal Yadav were granted bail",
+   "quote": "Counsel urged bail on the ground of parity.",
+   "page": 8,
+   "reason": "Parity and delay are correct, but no argument that appellant is not guilty is recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Section 37 requires only a prima facie view that the accused is not guilty; delay bail not fettered by s.37 given s.436A",
+   "quote": "Grant of bail on ground of undue delay in trial, cannot be said to be fettered by Section 37 of the Act, given the imperative of Section 436A",
+   "page": 15,
+   "reason": "Captures the Article 21 framing but omits the prima facie 'not guilty' standard and s.436A reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Vijay Madanlal Chaudhary: 2022 SCC OnLine SC 929 / [2022] 6 SCR 382; list also includes Hussainara, Kadra Pahadiya, Antulay, Kajad, Vaman Narain Ghiya, Shaheen Welfare",
+   "quote": "Vijay Madanlal Chaudhary v. Union of India 2022 SCC Online SC 929:[2022] 6 SCR 382 – relied on.",
+   "page": 4,
+   "reason": "Vijay Madanlal citation is wrong (it is 2022 SCC OnLine SC 929); the list is incomplete and omits many cited cases."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed, so no sentencing rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Age 23; no recovery from appellant; co-accused enlarged on bail; over 7 years in custody; slow trial (30 of 64 witnesses examined)",
+   "quote": "The progress of the trial has been at a snail's pace: 30 witnesses have been examined, whereas 34 more have to be examined.",
+   "page": 14,
+   "reason": "Omits age, non-recovery and co-accused bail; 'not likely to commit any offence' is a standard, not an explicit finding."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no aggravating factors against the appellant."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment directs the appellant be enlarged on bail subject to trial court conditions."
+  }
+ }
+}

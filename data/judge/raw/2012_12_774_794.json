@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to the appeal by the sole accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as male ('he') throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant's argument that he was a small grocery shop owner is recorded."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant's counsel argued a previous criminal background; the court treated this as a desperate argument and did not accept it.",
+   "quote": "the appellant was a small grocery shop owner and there was previous criminal background",
+   "page": 20,
+   "reason": "Judgment records a previous criminal background argument, so 'Not stated' is inaccurate."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Yogender Nath Bhargava is referred to as male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the victim appears in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "they were total strangers",
+   "page": 11,
+   "reason": "'Strangers' refers to the eyewitnesses, not the accused-victim relationship, which is not stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence finally treated as murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302; s.326 IPC; Evidence Act s.32(1); CrPC ss.161, 162",
+   "quote": "under Section 302, Indian Penal Code (IPC)",
+   "page": 6,
+   "reason": "Section 34 IPC is not mentioned; Evidence Act and CrPC provisions are omitted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Weapon used was acid, as described throughout."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical, recovery and dying declaration evidence all appear."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are identified by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no mitigating circumstances; defence father-death argument rejected."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.302 and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction and life sentence affirmed",
+   "quote": "The conviction was affirmed by the High Court",
+   "page": 2,
+   "reason": "High Court affirmed the conviction and sentence, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, upholding conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 IPC was upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term of years is stated; life imprisonment is imposed."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Neutral facts should omit the trial court conviction, High Court affirmance and the court's reasoning that the accused was not affecting the case; the rest is accurate.",
+   "quote": "The trial Court convicted the appellant under Section 302, IPC",
+   "page": 2,
+   "reason": "Facts are accurate but reveal the conviction and affirmance and the court's conclusions, breaching the neutral requirement."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Life imprisonment was the sentence imposed; no statutory minimum or 10-year figure is stated.",
+   "quote": "sentenced him to life imprisonment",
+   "page": 2,
+   "reason": "The 10-year minimum is not stated anywhere in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died from the acid attack, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Extensive burn injuries leading to death are described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "One conviction under s.302 IPC upheld; the number of counts charged is not explicitly stated (FIR initially under s.326).",
+   "quote": "the offence under Section 302, Indian Penal Code (IPC)",
+   "page": 6,
+   "reason": "Single upheld offence is supported, but the count of charges is not explicitly stated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Premeditation not expressly stated; court notes appellant took every precaution (wearing gloves) while pouring acid.",
+   "quote": "the appellant had taken every precaution to ensure that while throwing acid on the deceased",
+   "page": 19,
+   "reason": "Precautions taken suggest planning, which the judgment notes, though it never expressly finds premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified; the court does not establish one."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness testimony, dying declaration, gloves recovery and acid chemical report are accurately summarised."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Stock witness allegation was raised but not substantiated; nothing was put in cross-examination to suggest it.",
+   "quote": "Nothing was put in cross examination to state that these witnesses had either tendered evidence",
+   "page": 11,
+   "reason": "The stock-witness challenge was raised, so saying credibility was not challenged is inaccurate."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant attempted to flee from the scene and was caught by witnesses and passersby.",
+   "quote": "the attempt of the appellant to flee from the scene of occurrence which was successfully thwarted",
+   "page": 11,
+   "reason": "Judgment records the appellant's attempt to flee, so 'Not stated' is inaccurate."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence date, trial, High Court and Supreme Court dates all match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for both sides match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, s.161 statement, death, alteration to s.302, charge-sheet and trial all match."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Irregularities were alleged (Police Regulation 115 non-compliance, suppressed arrest, clothes not sent for examination) but rejected by the court.",
+   "quote": "It was also contended that the arrest of the accused was suppressed.",
+   "page": 8,
+   "reason": "Several irregularities were argued; 'None noted' ignores them, though the court rejected them."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court affirmance and Supreme Court dismissal are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution case summary is accurate and does not reveal the outcome beyond the trial conviction."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence contentions on witnesses, dying declaration and acid marks are accurately summarised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's reasoning on s.32(1) and s.161 statements as dying declarations."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Ravikumar alias Kutti Ravi (relied on); Jai Prakash (cited by counsel); Babudas, Baldev Singh and Suresh Chaudhary (held inapplicable or distinguished).",
+   "quote": "Ravikumar alias Kutti Ravi v. State of T.N. -- 2006 (9) SCC 240 for the proposition",
+   "page": 20,
+   "reason": "Omits the distinguished cases and mislabels Jai Prakash as relied upon; only Ravikumar was relied on."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "The court did not separately discuss sentence; it upheld conviction because the prosecution case was established by abundant legal evidence.",
+   "quote": "the reliance placed upon the said statement as the dying declaration of the deceased was perfectly justified",
+   "page": 19,
+   "reason": "Conviction reasoning is reflected, but the judgment gives no separate sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is made beyond dismissal of the appeal."
+  }
+ }
+}

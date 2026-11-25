@@ -1,0 +1,388 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single accused; judgment consistently refers to 'the accused' and 'the appellant'."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is male, referred to as 'his wife' and 'he'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the accused appears anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the accused's wife, referred to as 'she' and 'the deceased'."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the deceased appears in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "killed his wife by setting her ablaze",
+   "page": 1,
+   "reason": "Judgment describes the victim as the accused's wife."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 IPC, with s.300 fourthly applied."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302, s.300 Fourthly, Exception 4 to s.300, s.304 Part II",
+   "quote": "s.300 Fourthly & Exception 4 to s.300 ; ss. 302 & 304 Part II",
+   "page": 1,
+   "reason": "Omits Exception 4 to s.300 and s.304 Part II, which were central to the alteration argument."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Kerosene poured and matchstick thrown, as stated in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Dying declaration",
+   "quote": "Even looking to the conversation which took place between the deceased and the accused, so stated in the dying declaration",
+   "page": 2,
+   "reason": "Dying declaration is supported; no medical evidence is discussed for this case."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused fully conscious of the dangerous nature of his act; act of pouring kerosene and igniting was deliberate and intimately connected",
+   "quote": "the accused was fully conscious of the fact that if kerosene is poured and match-stick is lit",
+   "page": 2,
+   "reason": "'Absence of provocation' is from Santosh, not this case; the judgment does not discuss provocation here."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence mitigation (intoxication, pouring water) was raised and rejected, so none was accepted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted the accused under s.302 IPC, as the judgment states."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction under s.302 IPC confirmed",
+   "quote": "has dismissed the said appeal preferred by the appellant herein-original accused and has confirmed the judgment and order of conviction",
+   "page": 3,
+   "reason": "The High Court dismissed the appeal and confirmed the conviction, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, upholding the conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held the death was culpable homicide amounting to murder under s.302 IPC."
+  },
+  "imprisonment_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss the sentence imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No term of imprisonment is mentioned in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned, so null is appropriate."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused poured kerosene on wife as she tried to escape, then threw a lit matchstick, setting her ablaze; she died. Accused poured water after she screamed. No finding of heavy inebriation; dying declaration and conversation relied on.",
+   "quote": "Nothing is on record that the accused was in a highly inebriated stage.",
+   "page": 2,
+   "reason": "Overstates that accused was 'not under the influence of alcohol' and adds 'severe burns' and 'medical evidence', which the judgment does not state."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the punishment range for s.302 IPC."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death of the deceased resulted, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Death caused by burns",
+   "quote": "a person might die due to burns",
+   "page": 2,
+   "reason": "Death from burns is supported; 'shock' is not mentioned for this case."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "One offence (murder under s.302) was convicted and upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes the act as on the spur of the moment, with no premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive for the killing is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's finding on the sequence of the act and the dying declaration."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court relied on the dying declaration's account of the conversation to find the accused was conscious; no express credibility assessment of witnesses",
+   "quote": "Even looking to the conversation which took place between the deceased and the accused, so stated in the dying declaration",
+   "page": 2,
+   "reason": "Judgment does not expressly call witnesses or the declaration 'credible'; it relies on the declaration's content."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused poured water on deceased only after she came out screaming; state argued this was an attempt to cloak guilt",
+   "quote": "the subsequent act of pouring the water by the accused on the deceased appears to be an attempt to cloak his guilt",
+   "page": 4,
+   "reason": "Post-offence conduct (pouring water) is described in the judgment, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No dates or durations are given in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Investigation status is not mentioned in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is raised or discussed in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": {
+    "trial_court": "Not stated",
+    "high_court": "Criminal Appeal No. 723 of 2013 dismissed on 09.10.2018",
+    "supreme_court": "Appeal dismissed"
+   },
+   "quote": "From the Judgment and Order dated 09.10.2018 of the High Court of Judicature at Bombay in Criminal Appeal No. 723 of 2013",
+   "page": 2,
+   "reason": "High Court appeal was dismissed (Criminal Appeal No. 723 of 2013), not 'Not stated'; Supreme Court entry is correct."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Act of pouring kerosene, though on the spur of the moment, was followed by lighting a matchstick; both acts intimately connected, falling under s.300 fourthly; later water-pouring was an attempt to cloak guilt",
+   "quote": "the act of pouring kerosene, though on spur of moment, was followed by lighting a match-stick",
+   "page": 4,
+   "reason": "Argument wrongly calls the act 'deliberate and premeditated'; state argued it was on the spur of the moment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches defence's Exception 4 argument, intoxication, lack of intention, and water-pouring."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Section 300 fourthly applies where act is so imminently dangerous that death is probable; knowledge of consequences suffices, and Exception 4 does not apply where accused is not highly inebriated",
+   "quote": "Therefore, the case would fall under Section 300 fourthly and Exception 4 to Section 300 IPC shall not be applicable.",
+   "page": 5,
+   "reason": "Omits the fourthly clause reasoning and that inebriation was decisive; overemphasises intention to kill."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Santosh v. State of Maharashtra (2015) 7 SCC 641 and Bhagwan Tukaram Dange v. State of Maharashtra (2014) 4 SCC 270 relied upon; Kalu Ram v. State of Rajasthan (2000) 10 SCC 324 distinguished",
+   "quote": "the decision of this Court in Kalu Ram (supra) shall not be applicable to the facts of the case on hand",
+   "page": 4,
+   "reason": "Kalu Ram was distinguished, not relied upon; the other two cases were relied upon."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment contains no sentencing discussion or weighing of aggravating and mitigating factors for sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no mitigating factors; intoxication and water-pouring were rejected."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Awareness of dangerous consequences; no evidence of highly inebriated state; act of pouring kerosene and igniting",
+   "quote": "Nothing is on record that the accused was in a highly inebriated stage.",
+   "page": 5,
+   "reason": "Court did not find the act premeditated; that element should be removed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is given; appeal was simply dismissed."
+  }
+ }
+}

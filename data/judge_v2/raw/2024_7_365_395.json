@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court decides liability of A1 and A2, both acquitted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "A1 is referred to as male (\"his conviction\"); A2 is male by implication."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 6,
+   "reason": "A1 was Police Inspector; A2 was Superintendent of Police, per the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth or class of the accused; only government service is noted."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Criminal antecedents discussed concern the victim and co-accused Anna Dorai, not the accused."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Jeeva is male, referred to as brother and \"his\"."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victim is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 17,
+   "reason": "Official custodial relation is supported; sisters denied any prior relationship and the defence alleged vengeance."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 4,
+   "reason": "Charged under s.302 IPC for death of victim in custody, so Murder is supported."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 5,
+   "reason": "Trial charge was s.302 read with s.114 IPC; High Court altered to s.304 Part I."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 6,
+   "reason": "Judgment states assault with fists and sticks."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 13,
+   "reason": "Eyewitness, medical/post-mortem, and documentary evidence are all discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Custodial assault by police officers causing multiple injuries; victim died in custody",
+   "quote": "assaulted Jeeva with fists and sticks in the confines of the police station at separate intervals causing multiple injuries all over his body",
+   "page": 6,
+   "reason": "Facts describe police custodial assault with multiple injuries, which are aggravating facts, not 'None noted'."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 5,
+   "reason": "Trial court convicted under s.302 r/w s.114, life imprisonment and Rs. 25,000 fine each."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 5,
+   "reason": "High Court altered conviction to s.304 Part I, eight years RI, Rs. 50,000 compensation."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 31,
+   "reason": "Supreme Court acquitted both accused and quashed the convictions."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 31,
+   "reason": "Both accused acquitted; no offence finally established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 31,
+   "reason": "No final sentence since acquittal, so 'none' is appropriate."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fixed-term sentence exists after acquittal."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine after acquittal."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 7,
+   "reason": "Summary covers incident, evidence and investigation without names or court outcomes, and fits the length."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory maximum or minimum punishment for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 6,
+   "reason": "Victim died after the assault, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 7,
+   "reason": "Death plus abrasions, bruises, rib and sternum fractures, and lung, liver and spleen ruptures are recorded."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "1 charged; 0 finally upheld",
+   "quote": "for the offence punishable under Section 302 read with Section 114 IPC",
+   "page": 5,
+   "reason": "s.114 is an abetment rule, not a separate offence; only one offence section (s.302) was charged."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court made no finding of premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 30,
+   "reason": "Court found the prosecution's motive theory 'not palpable', so 'Not identified' is supported."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 29,
+   "reason": "Court relied on Medical Jurist PW-9 evidence and post-mortem report; eyewitness account rejected."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 26,
+   "reason": "PW-1, PW-2 not of sterling worth; PW-3 has grave infirmities, consistent with the judgment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is recorded."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentence awarded to the accused appellant(A1) was suspended vide order dated 6th June, 2017 and he was directed to be released on bail",
+   "page": 5,
+   "reason": "Judgment confirms release on bail and sentence suspension by order of 6 June 2017."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 5,
+   "reason": "Offence date, trial judgment, HC and SC dates all match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 4,
+   "reason": "Counsel for appellants and State listed as stated in the appearances section."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 8,
+   "reason": "Inquest, complaint, cognizance, charges framed and ten witnesses examined are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 30,
+   "reason": "Non-examination of advocate and others, lack of prison inquiry, and unproved Exhibit-53 are all noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 5,
+   "reason": "Trial conviction, High Court alteration to s.304 Part I, and Supreme Court acquittal are accurately listed."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 11,
+   "reason": "Concurrent findings, no false implication, PW-3 evidence, fear of retribution and police influence are all argued."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 8,
+   "reason": "Delay, no motive, only victim injured, jail injuries, unnatural eyewitnesses and family vengeance are all argued."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 21,
+   "reason": "Unnatural conduct, medical demolition of ocular evidence, and mere marking of exhibit principles are all applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 3,
+   "reason": "All eight cases listed in the judgment's 'relied on' list are included with citations."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not applicable since accused acquitted."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 31,
+   "reason": "Quashing of lower judgments, benefit to co-accused A2 without appeal, and disposal of applications are all stated."
+  }
+ }
+}

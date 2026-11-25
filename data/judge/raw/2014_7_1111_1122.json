@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading and body."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "At least 2 (the appellant and co-accused Dul Bhuyan referred to)",
+   "quote": "threatened by the co-accused, namely, Dul Bhuyan",
+   "page": 7,
+   "reason": "Only one appellant is named, but the judgment refers to a co-accused, so the count of 1 is incomplete."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The accused-appellant is referred to as male ('he') throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused; the value 25 has no support."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased, Dr. Swapan Sathi Barman, is referred to as male ('he')."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the deceased's age; the value 45 is unsupported."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not describe the relationship; 'Stranger' is an inference not stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under IPC s.302, consistent with the judgment."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302/34, read with s.314 TADA; FIR under TADA ss.3/4",
+   "quote": "punishable u/s 302/34 IPC read with s.314 of TADA",
+   "page": 2,
+   "reason": "IPC s.302/34 is right, but Arms Act s.27 is not mentioned and TADA provisions are omitted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes the deceased being fired at point blank with bullet injuries, consistent with a gun."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness (PW-14); medical (post mortem report)",
+   "quote": "Dr. Prabhash Kr. Barman, PW-17, who had conducted the post mortem and Suren Hazarika, PW-14, who claims to be the eye witne~s",
+   "page": 6,
+   "reason": "Eyewitness and medical evidence are correct, but circumstantial evidence is not discussed in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned; accused pleaded not guilty under s.313 CrPC."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Designated Court acquitted under TADA and convicted under IPC s.302."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No High Court stage appears; the appeal under s.19 TADA went directly to the Supreme Court."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appeal allowed and conviction set aside, so accused is acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence is finally established; the conviction was set aside."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Rigorous imprisonment for life (trial sentence, later set aside)",
+   "quote": "sentenced him to undergo rigorous imprisonment for life",
+   "page": 5,
+   "reason": "The trial court did impose rigorous life imprisonment, so 'not_stated' omits it, though the sentence was set aside."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment is not a fixed term; null is consistent with the judgment."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "50000",
+   "quote": "rigorous imprisonment for life with fine of Rs.50,000/-",
+   "page": 5,
+   "reason": "Judgment states a fine of Rs.50,000 at trial, so null is contradicted."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts without outcome: trial court convicted under s.302 IPC and acquitted under TADA; no reference to appellate result or High Court.",
+   "quote": "but the High Court and Supreme Court found the evidence insufficient and set aside the conviction.",
+   "page": 5,
+   "reason": "Reveals the court outcome and wrongly mentions a High Court; the case went directly to the Supreme Court."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment was the sentence imposed under s.302 by the trial court."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased was shot and died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post mortem shows two bullet injuries causing death from shock and haemorrhage."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant prosecuted for 8 offences; none finally upheld, as the conviction was set aside.",
+   "quote": "The appellant was prosecuted for committing 8 offences punishable u/s 302/34 IPC",
+   "page": 2,
+   "reason": "Judgment shows no offence was upheld; the conviction under s.302 was set aside."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not expressly stated in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted the post mortem showing homicidal death from point blank firing."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held PW-14's testimony thoroughly and wholly unreliable, for the reasons given."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is described."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated; only arrest timing is given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (only dates: Designated Court judgment 02.03.2013; Supreme Court decision 27.08.2014)",
+   "quote": "Hon'ble Designated Court of Assam at Guwahati in TADA Sessions Case No. 47 of 2001",
+   "page": 5,
+   "reason": "Dates are supported, but no trial duration is given, and the value does not compute one."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "P.K. Goswami, A Henry, Vikas Singh for the appellant; Navnit Kumar, Corporate Law Group for the Respondent.",
+   "quote": "P.K. Goswami, .A Henry, Vikas Singh for the f:.ppellant.",
+   "page": 5,
+   "reason": "Counsel names are correct but A. Henry is omitted from the appellant's counsel list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR lodged 3.3.1991, charge sheet 29.07.2001, and conviction under s.302 are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Non-examination of wife and daughter, unexplained, is the procedural irregularity noted."
+  },
+  "appeal_history": {
+   "verdict": "incorrect",
+   "correct_value": "Designated Court: acquitted under TADA, convicted under IPC s.302 and sentenced to life. Supreme Court: appeal allowed, conviction set aside.",
+   "quote": "the Designated Court has acquitted the Appellant under TADA",
+   "page": 5,
+   "reason": "Describes a High Court stage that did not occur; the first-instance court was the Designated Court."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the judgment's account of prosecution reliance on PW-14 and post mortem findings."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence contentions on PW-14's delay and non-examination of wife and daughter are accurately reflected."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single-witness rule with corroboration where doubts exist and non-examination principles are accurately stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All listed authorities appear in the judgment with matching citations."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is discussed; the conviction was set aside."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no mitigating factors in the judgment."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no aggravating factors in the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Accused to be set at liberty forthwith if not required in any other case.",
+   "quote": "If the detention of the accused-appellant is not required in connection with any other case, he be set at liberty forthwith.",
+   "page": 12,
+   "reason": "Court ordered release if detention not needed elsewhere, so 'None' is contradicted."
+  }
+ }
+}

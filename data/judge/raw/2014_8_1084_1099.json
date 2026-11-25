@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "preferred by four accused",
+   "page": 6,
+   "reason": "Judgment states four accused appealed."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Shashi Tripathi ... Chandra Prakash ... Mahesh ... Raju",
+   "page": 11,
+   "reason": "Accused include a woman (accused no. 1) and male accused; mixed is supported."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupations are not stated; only the husband is described as a doctor."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Bhavna was married to her step son",
+   "page": 8,
+   "reason": "Deceased is a woman referred to as Bhavna, with female pronouns."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age is not stated anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Step mother-in-law (accused no. 1 to deceased)",
+   "quote": "accused Shashi Tripathi is the step mother-in-law of deceased Bhavna Tripathi",
+   "page": 8,
+   "reason": "Accused no. 1 is step mother-in-law, not spouse; spouse is a different person."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Murder with the aid of contract killers",
+   "page": 1,
+   "reason": "Offence is murder under s.302 as stated throughout."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 r/w s.34 and s.120B",
+   "quote": "Section 302 read with Sections 34 and 1208 of the Indian Penal Code",
+   "page": 6,
+   "reason": "Omits the conspiracy provision (s.120B, shown as 1208/120(B)) that the judgment cites."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "attacked her with knife 3 to 4 times",
+   "page": 10,
+   "reason": "Knife is the weapon described and recovered."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "corroborated by the recovery of knife from Chandra Prakash",
+   "page": 12,
+   "reason": "Eyewitness, medical (postmortem) and recovery evidence are all discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by any accused is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Murder by paid contract killers with a single mission to kill; no prior animosity with deceased",
+   "quote": "appeared to have acted as contract killers",
+   "page": 11,
+   "reason": "Judgment describes contract killing for money, which is an aggravating feature, not 'Not stated'."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances for the accused are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicting the appellants under Section 302 read with Sections 34 and 1208",
+   "page": 6,
+   "reason": "Trial court convicted all accused under s.302 r/w s.34 and s.120B (OCR 1208)."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "common Judgment of the High Court of Chhattisgarh at Bilaspur, confirming the Judgmen",
+   "page": 6,
+   "reason": "High Court confirmed the trial court's conviction."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted (accused 1, 2 and 4); acquitted (accused 3)",
+   "quote": "Criminal Appeal No. 867 of 2013 is allowed",
+   "page": 16,
+   "reason": "Accused 3 was acquitted, so 'convicted' alone omits the split outcome."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder (accused 1, 2 and 4 only); not established against accused 3",
+   "quote": "the prosecution has failed to prove the guilt of Mahesh beyond reasonable doubt",
+   "page": 16,
+   "reason": "Murder is established only for three accused; accused 3's guilt was not proved."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for life with a fine",
+   "page": 6,
+   "reason": "Sentence was life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life term has no stated number of years, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "1000",
+   "quote": "with a fine of Rs. 1,000/-",
+   "page": 6,
+   "reason": "Judgment states a fine of Rs. 1,000 with default imprisonment; null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts without the sentence stating that the High Court confirmed the conviction (court outcome should not be revealed).",
+   "quote": "The High Court confirmed the conviction.",
+   "page": 2,
+   "reason": "Facts are largely accurate, but the final sentence reveals the appellate outcome, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder under s.302 IPC; life imprisonment and Rs. 1,000 fine imposed",
+   "quote": "imprisonment for life with a fine of Rs. 1,000/-",
+   "page": 6,
+   "reason": "Generic description; the judgment's actual sentence (life imprisonment with fine) is not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "found his daughter-in-law dead",
+   "page": 2,
+   "reason": "Victim was killed, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "neurogenic and hemorrhagic shock",
+   "page": 8,
+   "reason": "Multiple incised wounds and internal injuries causing shock are described."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (charged under s.302 r/w s.34 and s.120B; no count of offences given)",
+   "quote": "the Trial Court framed charges under Section 302 read with Sections 34 and 1208 of the IPC",
+   "page": 8,
+   "reason": "Judgment does not state a count of four charges or of three upheld offences."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss figure is attributed to the offence; robbery was ruled out."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "engaged Chandra Prakash (accused No. 2) and Raju @ Devendra Choubey (accused No. 4) by paying them money",
+   "page": 11,
+   "reason": "Judgment finds accused no. 1 arranged the killing and paid contract killers."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Annoyance over domestic dispute with deceased; accused no. 1 wanted her daughter to marry the deceased's husband (PW-1 evidence)",
+   "quote": "Shashi Tripathi used to be annoyed with Bhavna Tripathi on account of some domestic dispute",
+   "page": 8,
+   "reason": "Judgment does state domestic-dispute motive and a marriage-related motive, though it says the prosecution struggled to pinpoint motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Deceased's hair (not accused no. 1's) was found in the deceased's grip during investigation, suggesting a scuffle with accused no. 1",
+   "quote": "her hair was found in the grip of the deceased during investigation",
+   "page": 11,
+   "reason": "Value says accused's hair was in her own grip; the judgment says it was in the deceased's grip."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we have not found any reason why he would have lied",
+   "page": 12,
+   "reason": "Court found the child witness credible, noting no motive to lie and corroboration by knife recovery."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused fled; accused 2 threatened the boy not to disclose; accused 1 told the boy to blame thieves and feigned shouting",
+   "quote": "Thereafter all the three accused fled from there",
+   "page": 11,
+   "reason": "Judgment describes flight, threats to witness, and attempt to mislead; not 'Not stated'."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": "arrested on 29.11.2003",
+   "page": 7,
+   "reason": "Arrest dates are given but no custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused 3's bail bonds cancelled and sureties discharged on acquittal",
+   "quote": "His bail bonds stand cancelled and sureties are discharged",
+   "page": 16,
+   "reason": "Judgment does mention bail consequences for accused 3, so 'Not stated' is incomplete."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "Judgment and Order dated 17.09.2010 of the High Court of Chhattisgarh",
+   "page": 6,
+   "reason": "17.09.2010 is the High Court judgment date, not trial judgment; trial duration is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "P.C. Agrawala, Dr. Rajesh Pandey ... Atul Jha, Sandeep Jha, Dharmendra Kumar Sinha",
+   "page": 6,
+   "reason": "Counsel names for appellants and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR lodged 25.11.2003; committal to Sessions; charges framed; prosecution examined 32 witnesses; trial concluded",
+   "quote": "lodged a First Information Report (F.I.R.) on 25.11.2003",
+   "page": 7,
+   "reason": "FIR date correct, but 'charge sheet filed' is not stated; committal and charge framing are."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is not possible for us to accept this contention",
+   "page": 14,
+   "reason": "Defence challenge on delayed identification was rejected; no irregularity found."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Criminal Appeal No. 867 of 2013 is allowed and Criminal Appeal Nos. 822 of 2012, 589 of 2014",
+   "page": 16,
+   "reason": "Matches trial conviction, HC confirmation, and SC disposal with accused 3 acquitted."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution case: accused 1 engaged accused 2 and 4 to kill deceased; PW-21 testimony; knife recovery; motive difficult to pinpoint",
+   "quote": "The prosecution has found it difficult to pinpoint the motive",
+   "page": 11,
+   "reason": "Case is accurate, but the judgment says the prosecution struggled with motive, not that it highlighted it."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued child witness was tutored by police and accused 3 merely stood outside, did not act as guard",
+   "quote": "the boy is a tutored witness, who has been influenced by the police",
+   "page": 11,
+   "reason": "Tutoring and accused 3's role arguments are supported; 'no weapon seized' was the court's finding, not defence argument."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "common intention and conspiracy are matters of inference and if while drawing an inference any benefit of doubt creeps in, it must go to the accused",
+   "page": 16,
+   "reason": "Matches the principle stated; corroboration of child/identification evidence is also discussed."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Baliya v. State of M.P. (2012) 9 SCC 696",
+   "page": 5,
+   "reason": "Cases listed are those cited; some were distinguished or referred rather than relied on, which the list does not separate."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; trial court imposed life imprisonment and Rs. 1,000 fine; SC reasoning concerns conviction, not sentence",
+   "quote": "sentencing each of them to undergo imprisonment for life with a fine of Rs. 1,000/-",
+   "page": 6,
+   "reason": "Conviction reasoning is accurate, but the judgment gives no separate sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "He was brought to the house by Shashi Tripathi (accused), who apparently took care of him",
+   "page": 12,
+   "reason": "Describes witness credibility reasoning, not mitigating factors for accused; none are discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "had a single mission, namely, to kill Bhavana",
+   "page": 11,
+   "reason": "Single mission, no animosity, and contract-killing are noted; 'premeditated' is a fair inference."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the conviction against him is set aside. His bail bonds stand cancelled",
+   "page": 16,
+   "reason": "Acquittal, bail bond cancellation, and corroboration/identification remarks are all in the judgment."
+  }
+ }
+}

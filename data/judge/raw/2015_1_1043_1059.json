@@ -1,0 +1,388 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption, allowing for the OCR misspelling of Uttarakhand."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "four accused persons",
+   "page": 7,
+   "reason": "The judgment refers to charge-sheet against all four accused persons."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Male and Female",
+   "quote": "Appellant No.4, namely Janki Devi is the wife of Aan Singh",
+   "page": 5,
+   "reason": "Accused include female Janki Devi, so 'Male' alone is incomplete."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for any accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Shim Singh was a vehicle driver; Aan Singh a PWD chowkidar; Nain Singh ran a shop",
+   "quote": "Shim Singh was a vehicle driver and his younger brother Nain Singh was running a shop",
+   "page": 12,
+   "reason": "Occupations are stated in the defence submission, so 'Not stated' is wrong."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is described in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Prema Devi is a woman."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the deceased appears in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Spouse and in-laws (husband Bhim Singh; brothers-in-law Aan and Nain Singh; sister-in-law Janki Devi)",
+   "quote": "Bhim Singh ... got married to Prema Devi",
+   "page": 5,
+   "reason": "Spouse and in-law relations are right; 'Acquaintance' is unsupported and the family ties are not named."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case is treated as a dowry death under s.304-B IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "IPC 304-B, 498-A and DPA ss.3 and 4 are all cited; Evidence Act ss.113-A/B are omitted but not wrong."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Poison (Organo Chloro Insecticide and Ethyl Alcohol found in viscera); burning by fire",
+   "quote": "pieces of stomach, intestine, liver, kidney and spleen contained Organo Chloro Insecticide and Ethile Alcohol poisons",
+   "page": 8,
+   "reason": "'None mentioned' ignores the poison and fire described as the means of death."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial, medical (post-mortem and autopsy), chemical examiner report, oral testimony",
+   "quote": "The circumstantial evidence leads to the guilt of the accused persons",
+   "page": 15,
+   "reason": "Circumstantial and medical evidence are right; no recovery evidence is mentioned, and oral and chemical evidence are omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cruelty and dowry harassment and death in the in-laws' house are supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under s.304-B IPC (life) for Shim and Aan Singh; s.498-A IPC for all; DPA ss.3 and 4 for all; fines of Rs.500",
+   "quote": "sentenced them to imprisonment for life, and further convicted all the appellants under Section 498-A IPC",
+   "page": 5,
+   "reason": "Omits the DPA convictions and that the life term applied only to two accused; fines also omitted."
+  },
+  "high_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Conviction and sentence of appellant Nos.1 and 2 upheld; two co-accused acquitted",
+   "quote": "the High Court while acquitting the two co-accused (appellant Nos.2 & 3 herein), upheld the conviction and sentence of appellant Nos.1 & 2",
+   "page": 5,
+   "reason": "Omits that the High Court acquitted the co-accused; upholding applied only to two appellants."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeal dismissed; conviction of Shim Singh and Aan Singh upheld; co-accused not convicted",
+   "quote": "The guilt of the accused persons i.e. the appellant Nos.1 & 2 herein, under Section 304-B IPC has been successfully established.",
+   "page": 17,
+   "reason": "'Convicted' omits that only two appellants remained convicted and the others were acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The guilt of the accused persons i.e. the appellant Nos.1 & 2 herein, under Section 304-B IPC has been successfully established.",
+   "page": 17,
+   "reason": "Court held s.304-B IPC dowry death established against Nos.1 and 2."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced them to imprisonment for life",
+   "page": 5,
+   "reason": "Life imprisonment was imposed under s.304-B."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term in years is given for the life sentence."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.500 fine for s.498-A each accused; Rs.500 fine with DPA sentence each",
+   "quote": "rigorous imprisonment for one year and a fine of Rs.500/- to each of them",
+   "page": 5,
+   "reason": "The judgment states fines of Rs.500, so null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts omitting the outcome: charges, death in in-laws' house, post-mortem findings, prosecution and defence evidence, and the suicide plea",
+   "quote": "Conviction by courts below",
+   "page": 1,
+   "reason": "Facts state the accused were convicted and the suicide plea rejected, revealing the outcome; also 'husband and brothers' omits the sister-in-law."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Death occurring otherwise than in normal circumstances",
+   "page": 13,
+   "reason": "Life imprisonment and unnatural death framing are both supported by the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "died unnatural death in her in-laws' house",
+   "page": 5,
+   "reason": "The death was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there were 90% burn injuries on the body of the deceased",
+   "page": 6,
+   "reason": "Matches the post-mortem finding of 90% burns."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under IPC s.304-B, s.498-A and DPA ss.3 and 4; two appellants' s.304-B conviction upheld",
+   "quote": "convicted appellant Nos.1 & 2 herein under Section 304-B of IPC ... all the appellants were also convicted under Sections 3 & 4 of the Dowry Prohibition Act",
+   "page": 5,
+   "reason": "'Four offences charged' is not stated; the judgment lists the provisions of conviction instead."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is claimed; 'Not applicable' is consistent with the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the accused had the opportunity to administer the poison",
+   "page": 15,
+   "reason": "Court found opportunity to administer poison, not premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "demand for dowry can be made at any time and not necessarily before marriage",
+   "page": 13,
+   "reason": "Dowry demand and taunting harassment are the motive relied on."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution has proved by producing cogent evidence that soon before her death the deceased was subjected to cruelty or harassment in connection with the demand for dowry.",
+   "page": 14,
+   "reason": "Quoted reasoning matches the judgment's evidentiary findings."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court relied on PW-1, PW-2 and PW-3 statements, corroborated by Trilok Singh; no general credibility finding",
+   "quote": "Their statements were corroborated by statement of Trilok Singh.",
+   "page": 8,
+   "reason": "Corroboration is by Trilok Singh, and 'credible' finding and father's corroboration are not clearly stated."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Aan Singh informed the Gram Pradhan of the death; accused said she had set herself on fire",
+   "quote": "the information of the death was given by Aan Singh himself to the Gram Pradhan of the Village",
+   "page": 11,
+   "reason": "Post-offence conduct is discussed in the judgment, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "died unnatural death in her in-laws' house on 26.9.1997",
+   "page": 5,
+   "reason": "Dates match the judgment's offence, trial, High Court and hearing dates."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Garvesh Kabra for the Appellants. Ashutosh Kr. Sharma, Abhishek Atrey for the Respondent.",
+   "page": 5,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charge-sheet against all the four accused persons was filed",
+   "page": 7,
+   "reason": "Charge-sheet filing is stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was no error in stating the offence nor in particulars stated in the charge",
+   "page": 9,
+   "reason": "Charge defect was argued but rejected, so none noted is acceptable."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": {
+    "trial_court": "Conviction and sentence",
+    "high_court": "Appeal dismissed as to Nos.1 and 2; co-accused acquitted",
+    "supreme_court": "Appeal dismissed"
+   },
+   "quote": "while acquitting the two co-accused (appellant Nos.2 & 3 herein), upheld the conviction and sentence of appellant Nos.1 & 2",
+   "page": 5,
+   "reason": "High Court outcome omits the acquittal of co-accused; other entries are supported."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused tried to kill Smt. Prema Devi by giving poisonous substance after torturing her for dowry",
+   "page": 11,
+   "reason": "Dowry-death and presumption arguments match the prosecution's submissions."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it appears that the deceased herself committed suicide",
+   "page": 11,
+   "reason": "Suicide, no pre-marriage demand, and informing the Gram Pradhan are all argued."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Thus, it becomes obligatory for the Court to raise a presumption that the death is a dowry death.",
+   "page": 14,
+   "reason": "Presumption and unbroken chain principles match the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Kaliyaperumal; Bansi Lal; State of Himachal Pradesh v. Nikku Ram; Mulakh Raj v. Staish Kumar; Gurpreet Singh; Sharad Birdhichand Sardar; Annappa Bandu Kavatage; Kusuma Ankama Rao; also Hemchand; Gurbachan Singh; Liyakat",
+   "quote": "Mulakh Raj v. Staish Kumar, (1992) 3 SCC 43",
+   "page": 15,
+   "reason": "Mulakh Raj case name is misspelled, and Hemchand, Gurbachan Singh and Liyakat are omitted."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Rationale given is for conviction under s.304-B; judgment gives no separate sentencing reasoning",
+   "quote": "the accused failed to rebut the presumption of dowry death under Section 1138",
+   "page": 14,
+   "reason": "Conviction reasoning is accurate, but the judgment gives no sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are expressly identified by the court as sentencing factors."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "All sentences directed to run concurrently",
+   "quote": "all these sentences were directed to run concurrently",
+   "page": 7,
+   "reason": "The judgment states sentences run concurrently, so 'None' is wrong."
+  }
+ }
+}

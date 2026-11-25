@@ -1,0 +1,391 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three accused (A1, A2, A3) are named and tried together."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Mixed: at least one female accused (A3, daughter-in-law); A1 and A2 male",
+   "quote": "accused, Nos. I and 3; being the own son and daughter-in-law of injured DW2",
+   "page": 248,
+   "reason": "Accused include a daughter-in-law (female), so 'Male' alone is incomplete."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No accused age appears anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Subramani is the husband of the complainant and referred to as male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not given in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Closely related family members (son, daughter-in-law, brother-in-law, sister) of the victim",
+   "quote": "the members of victim as well as accused groups are closely related to one another",
+   "page": 239,
+   "reason": "'Relative' is too vague; the judgment specifies family members including son and daughter-in-law."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction was under s.302 IPC for murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment cites ss.34, 302 and 506(11) IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Iron rod and cart twigs are the weapons seized and described."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical and recovery evidence are all discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "closely related persons and they were at loggerheads over a land dispute",
+   "page": 244,
+   "reason": "Facts exist, but the court never identifies aggravating circumstances; the values are not framed as such."
+  },
+  "accused_occupation_placeholder_check": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not a listed column; no value to judge."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the 1st accused was sentenced to undergo life imprisonment for the offence under Section 302 IPC",
+   "page": 241,
+   "reason": "Trial court convicted and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court acquitted all the three accused of all the charges framed against them",
+   "page": 241,
+   "reason": "High Court acquitted all three accused."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal is devoid of merits and accordingly stands dismissed",
+   "page": 250,
+   "reason": "Supreme Court dismissed the appeal, so the acquittal stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution failed to exonerate itself from the duty of proving the guilt",
+   "page": 249,
+   "reason": "No offence was finally established against the accused."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused were acquitted finally, so no imprisonment type applies."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment term applies after acquittal."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts without stating the Supreme Court's outcome",
+   "quote": "appeal is devoid of merits and accordingly stands dismissed",
+   "page": 250,
+   "reason": "Neutral facts reveal the Supreme Court outcome, which the field must not do."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo life imprisonment ... rigorous imprisonment for three years for the offence under Section 506(11)",
+   "page": 241,
+   "reason": "Matches the trial court's sentences for s.302 and s.506(11)."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased sustained six serious and bleeding injuries on the scalp of his head",
+   "page": 249,
+   "reason": "Deceased's six scalp injuries and DW2's fractures and wounds are described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Three counts (s.34 r/w s.302; s.302; s.506(11)) convicted by trial court; set aside by High Court",
+   "quote": "the trial Court for the offences under Sections 34, 302 and 506(11)",
+   "page": 240,
+   "reason": "Three counts are right, but 'finally upheld by the trial court' is wrong; the HC set them aside."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss from the offence is claimed; Rs.40,000 is a background transaction."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they were at loggerheads over a land dispute",
+   "page": 244,
+   "reason": "Land dispute is the motive described."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "No prosecution evidence accepted as reliable; the Court rejected the prosecution story as untrustworthy",
+   "quote": "the evidence adduced on record is full of contradictions",
+   "page": 249,
+   "reason": "Field wording says the court 'accepted' the story; the court rejected it."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "she is not a reliable witness basing on whose evidence, the accused can be convicted",
+   "page": 249,
+   "reason": "Court found PW1 unreliable and evidence contradictory."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused fled the scene leaving the injured DW2; A2 arrested at a bus-stand on 17 Sept 1994 with blood-stained clothes",
+   "quote": "The conduct of accused persons in fleeing away from the place of offence",
+   "page": 248,
+   "reason": "Judgment discusses flight from scene, arrest at bus-stand and blood-stained clothing, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated; only the arrest date is given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court conviction date not stated; accused arrested 17 Sept 1994; HC judgment 22 March 2005; SC judgment 6 July 2017",
+   "quote": "The accused were arrested on 17th September, 1994 from a bus-stand",
+   "page": 241,
+   "reason": "17 Sept 1994 is the arrest date, not the trial court conviction date; HC and SC dates are right."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Advs. for the Appellant ... Advs. for the Respondent",
+   "page": 239,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "finally the proceedings were dropped by PW 11 - Inspector of Police",
+   "page": 241,
+   "reason": "Matches the judgment's account of Crime No. 399/94 being dropped."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "The Supreme Court (not the High Court) noted the investigating agency's conduct in creating two occurrences",
+   "quote": "the investigating agency appears to have spent time and mind on creating two occurrences",
+   "page": 249,
+   "reason": "Content is right, but the finding is attributed to the High Court; it was the Supreme Court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court acquittal and Supreme Court dismissal are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The learned senior counsel argued that the place of occurrence, recovery of weapons used, the chemical analyst's report",
+   "page": 241,
+   "reason": "Eyewitness, recovery, chemical report, doctors' statements and forensic points match the arguments."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the two FIRs are created by PW9",
+   "page": 242,
+   "reason": "Two FIRs, tampering, deceased's violence and self-defence plea match the defence submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "applying our dispassionate judicial scrutiny to the facts and circumstances of the case",
+   "page": 249,
+   "reason": "Judicial scrutiny and the beyond-reasonable-doubt standard are applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 239,
+   "reason": "All six cases listed appear in the judgment's references."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given since acquittal stands."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court discusses no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Sentences directed to run concurrently",
+   "quote": "All the sentences were however directed to run concurrently.",
+   "page": 241,
+   "reason": "The trial court ordered concurrent sentences; 'None' is wrong."
+  }
+ }
+}

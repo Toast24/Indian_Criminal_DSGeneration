@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only one accused, the appellant Sham @ Kishor Bhaskarrao Matkari."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is male, referred to as 'he' and as the brother."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the accused was 28 at the time of the incident; counsel's 38 is a separate claim."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the accused was jobless at the time of the incident."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment says antecedents are unblemished and nothing shows prior criminal activity."
+  },
+  "victim_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Mixed: male and female victims (Manohar, Akhilesh, Vishwesh are male; Meena and Monika are female)",
+   "quote": "Manohar, his wife Meena, daughter Monika and son Vishwesh were lying in injured condition",
+   "page": 7,
+   "reason": "Victims include both male and female persons; 'Male' covers only part of them."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the accused was 28 years old",
+   "page": 17,
+   "reason": "Victim ages are not given; the value 28 appears to be the accused's age copied across."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is the real brother of the primary victim Manohar."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offences are murder under s.302 and attempted murder under s.307."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions were under ss.302 and 307 IPC; s.201 was charged but the accused was acquitted."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "No weapon used per the court; however a large stone and a gas cylinder with tube were found near the body",
+   "quote": "No weapon much less a dangerous weapon was used in commission of offence.",
+   "page": 17,
+   "reason": "Court says no weapon was used, yet a stone and gas cylinder were recovered near the body; 'None mentioned' omits this."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness (PW-7, PWs 1 and 3), medical, recovery of stone, confession before Executive Magistrate; statement is not a dying declaration",
+   "quote": "Though the said statement is not a dying declaration",
+   "page": 12,
+   "reason": "Judgment expressly says the accused's statement is not a dying declaration; eyewitness evidence is also omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The accused's statement to the Executive Magistrate is treated as a confession and relied on."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court's aggravating circumstances (defenceless victims, assault on children, brutality, false story, no third person, accused slept with victims); Supreme Court rejected the premeditation finding",
+   "quote": "This shows that the attack by the accused was predetermined, so also premeditated.",
+   "page": 16,
+   "reason": "Premeditation was a High Court finding that the Supreme Court rejected, so listing it as established is inaccurate."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No pre-plan, unblemished antecedents, no weapon and not rarest of rare are all raised as mitigating."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under ss.302 and 307 and imposed life and seven years RI."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court confirmed conviction and enhanced the sentence to death."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused stands convicted; conviction was upheld by the Supreme Court."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 IPC is held established beyond reasonable doubt."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final sentence is life imprisonment restored from the trial court."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment has no fixed years; the 7-year RI relates to s.307, not the final sentence."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.25,000 (s.302, default two years RI) and Rs.1,000 (s.307, default three months RI)",
+   "quote": "to pay a fine of Rs.25,000/-",
+   "page": 8,
+   "reason": "Judgment records fines of Rs.25,000 and Rs.1,000; the value null ignores them."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused was in the house sleeping with the victims that night and later attacked them; he gave a false story of thieves. The summary should not state the High Court outcome.",
+   "quote": "he was sleeping with the other victims in the same house",
+   "page": 17,
+   "reason": "Says accused returned to the house at night, contradicting judgment; also reveals High Court outcome and omits the thieves story."
+  },
+  "offence_severity": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment (s.302) and seven years RI (s.307)",
+   "quote": "sentenced him to imprisonment for life and 7 years RI under the two counts respectively",
+   "page": 8,
+   "reason": "Death sentence was set aside; s.307 carried seven years RI, not life imprisonment."
+  },
+  "attempt_completion": {
+   "verdict": "partially_correct",
+   "correct_value": "Murders completed; attempted murder under s.307 for the two children",
+   "quote": "attempting to murder his other nephew and the niece (PW 7)",
+   "page": 1,
+   "reason": "Murders were completed, but the s.307 offence was an attempt, so 'Completed' is incomplete."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three deaths, injuries to two children, and partial burns to the wife are all stated."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Convictions for three murders (s.302) and one attempted murder (s.307); s.201 charge resulted in acquittal",
+   "quote": "acquitted him for the offence punishable under Section 201 IPC",
+   "page": 8,
+   "reason": "Judgment does not mention five counts; s.307 was a single conviction, not two."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss from the offence is established; the claimed theft was part of the accused's false story."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no pre-plan or premeditation and that the quarrel arose from a land dispute."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive is the land or property dispute between the brothers."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relies on PW-7, PWs 1 and 3, the accused's statement, doctors' opinion and stone recovery."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court says there is no reason to disbelieve PW-7, PWs 1 and 3, and the confession."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused was seen coming out with blood-stained hands and clothes, demanded water, gave a false thieves story, and did not raise alarm",
+   "quote": "the accused demanded water for drinking",
+   "page": 7,
+   "reason": "Judgment states post-offence conduct including demanding water and giving a false story; 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives jail since 30.06.2001 and death cell since 03.05.2006."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not discussed in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Value describes sentencing and appeal outcomes, not trial duration; no trial length is given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge-sheet laid before the Judicial Magistrate and committed to Sessions, as stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the trial court, High Court, and Supreme Court sequence of outcomes."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued death of three persons and injuries to two in one family justified the death penalty",
+   "quote": "in view of death of three persons and causing injuries to two, all in one family, the High Court was justified in awarding capital punishment",
+   "page": 9,
+   "reason": "Recorded State argument concerned the death sentence; the guilt finding is the court's, not the prosecution's argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence argued no pre-plan, land dispute, sleeping with victims, unblemished antecedents, not rarest of rare."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court applied the rarest of rare principle weighing aggravating and mitigating circumstances."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Lists Bachan Singh, Machhi Singh, C. Muniappan, and Ajitsingh Gujral as cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court's death sentence lacked adequate reasons and the case was not rarest of rare."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on no pre-plan, unblemished antecedents, jobless status, long custody, and reformability."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "These were the High Court's aggravating circumstances, which the Supreme Court held did not justify death",
+   "quote": "The assault on victims by the respondent was aimed at midnight when the victims were fast asleep",
+   "page": 14,
+   "reason": "These were High Court findings the Supreme Court rejected as inadequate, not the Court's own aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is recorded beyond setting aside death and restoring life."
+  }
+ }
+}

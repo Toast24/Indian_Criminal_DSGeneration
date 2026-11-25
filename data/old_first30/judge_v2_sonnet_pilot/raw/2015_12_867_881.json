@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "NARENDER SINGH & ORS. v. STATE OF MADHYA PRADESH",
+   "page": 1,
+   "reason": "Matches the title."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "7 accused in total; 5 appellants (A2 to A6)",
+   "quote": "Out of 7 accused, A2 toA6 are the appellants before us",
+   "page": 4,
+   "reason": "Five are appellants, but the judgment says there were seven accused (one juvenile separated, A1 not appealing)."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A5 while abusing the deceased and making a pronouncement that he cannot escape",
+   "page": 4,
+   "reason": "Accused are referred to as male; reasonable inference."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ages are not given; only that one accused was a juvenile."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste not stated; only 'same community' is mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ram Bhuvan, son of Sunder Lal Sharma",
+   "page": 7,
+   "reason": "Victim is male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No relationship is stated beyond alleged enmity."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted the appellants accused for the offence under Section 302",
+   "page": 5,
+   "reason": "Murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offences under Sections 147, 148, 149, 302 and 294",
+   "page": 5,
+   "reason": "Charges and conviction sections match."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A5 was holding a sword, A6 was holding a Farsa, A2 was having an axe while A 1, A3 and A4 were having lathis",
+   "page": 4,
+   "reason": "All weapons listed."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches evidence discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 27 Statement under Exhibits P18 to P21",
+   "page": 8,
+   "reason": "Section 27 statements are only referred to."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "8 injuries were noted... injury Nos. 4,5, 6 and7 were noted as grievous",
+   "page": 5,
+   "reason": "Consistent with the facts."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted the appellants accused for the offence under Section 302 read with Sections 148 and 149 IPC",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Division Bench having confirmed the conviction and sentence",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the same are dismissed",
+   "page": 15,
+   "reason": "Appeals dismissed; convictions stand."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the involvement of the appellants was, therefore, fully established",
+   "page": 12,
+   "reason": "Murder under s.302 with ss.148/149 upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "punishment of life imprisonment",
+   "page": 6,
+   "reason": "Life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life term, no years."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Victim was sitting with P.W.3, P.W.6 and Rangnath Sharma (three men), not two.",
+   "quote": "P.W.3, 6 and the deceased were sitting and conversing with each other along with one Rangnath Sharma",
+   "page": 4,
+   "reason": "Says victim was with 'two men'; judgment names three companions. Rest accurate."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death occurred."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "as many as 8 injuries were noted on the body of the deceased",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 147, 148, 149, 302 and 294",
+   "page": 5,
+   "reason": "Five charged; conviction on s.302 with 148/149."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "due to old enmity, attacked with sharp weapon with intention to kill",
+   "page": 11,
+   "reason": "Recorded in Form No. 2."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fully supported by the version of P.W.6, and also fully corroborated by the evidence of P.Ws. 7 and 11",
+   "page": 10,
+   "reason": "Matches."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "evidence of P.W.3 as an eye witness was cogent in every respect",
+   "page": 10,
+   "reason": "Matches."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Division Bench of the High Court... dated 7th September, 2006",
+   "page": 4,
+   "reason": "Dates are accurate; trial date not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Tripurari Ray, Dhirendra Singh Parmar, Suresh Kumar Sharma",
+   "page": 4,
+   "reason": "Counsel listed correctly."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "arrest of the appellants effected on 28th June, 1997 and the subsequent seizure made on 29th June, 1997",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "even assuming the delay did really happen in forwarding the Express Report, we find that such a delay has not caused any serious prejudice",
+   "page": 13,
+   "reason": "Matches."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Division Bench having confirmed the conviction and sentence",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the arrest of the accused and the seizure made by the panch witnesses duly established that the appellants were involved",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the FIR was ante-dated and that the appellants were falsely implicated",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Every such delay is not fatal unless prejudice to the accused is shown",
+   "page": 13,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Pala Singh v. State of Punjab (1972) 2 SCC 640",
+   "page": 13,
+   "reason": "All three cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  }
+ }
+}

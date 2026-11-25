@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "JASDEEP SINGH @ JASSU v. STATE OF PUNJAB",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Four accused persons were charged, convicted, and sentenced",
+   "page": 7,
+   "reason": "Judgment states four accused were charged and convicted."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never explicitly states the accused's gender; no pronoun or description confirms it."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not stated in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "incorrect",
+   "correct_value": "Respondent's counsel alleged the accused are influential persons (argument only)",
+   "quote": "the accused are influential persons",
+   "page": 10,
+   "reason": "Judgment records counsel's submission that accused are influential, so 'Not stated' is inaccurate."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused did not shoot him thereafter",
+   "page": 9,
+   "reason": "Deceased is referred to with male pronouns, and he is the father's son."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to each other; accused described as friends of each other and deceased had a dispute with them",
+   "quote": "All the accused are friends of each other.",
+   "page": 8,
+   "reason": "Accused were known to the deceased, not strangers; the motive involved a dispute over a raid."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Culpable homicide not amounting to murder (s.304 Part I)",
+   "quote": "the case was brought under Exception 4 to Section 300 IPC",
+   "page": 9,
+   "reason": "Courts held no premeditation and convicted under s.304 Part I, not murder; murder was contested."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.304 Part I and s.34; also s.302 (sought by complainant), s.299, s.300 Exception 4 discussed",
+   "quote": "Section 302 IPC",
+   "page": 7,
+   "reason": "Omits s.302, s.299 and s.300 Exception 4, which the judgment discusses."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A1 took out a gun from his pocket and shot the deceased",
+   "page": 8,
+   "reason": "Gun is the weapon used; judgment also says A2 had a gun, which is consistent with 'Gun'."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness (PW6, PW10); medical evidence; recovery of weapons; complaint and statements",
+   "quote": "This was also supported by the medical evidence.",
+   "page": 25,
+   "reason": "Eyewitness and medical evidence are supported, but circumstantial evidence is not discussed; recoveries and statements are omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by any accused is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are recorded as found by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are recorded in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction has been rendered against all the accused for the offences punishable under Section 304 Part I IPC along with life sentence",
+   "page": 9,
+   "reason": "Matches the judgment's account of trial court conviction and life sentence."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court concurred with trial court and upheld conviction under s.304 Part I",
+   "quote": "The High Court concurred with the views of the trial court.",
+   "page": 9,
+   "reason": "High Court was not 'not applicable'; it upheld the trial court's conviction."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeals of A3 and A4 allowed (acquitted of s.34 liability); complainant's appeal dismissed; A1 and A2 convictions not challenged",
+   "quote": "Crl. A. No.1584 of 2021 and Crl. A. No.1585 of 2021 are allowed. The Crl. A. No.1586 of 2021 stands dismissed.",
+   "page": 26,
+   "reason": "Acquittal applies only to A3 and A4; the complainant's appeal was dismissed, which the value omits."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Culpable homicide not amounting to murder under s.304 Part I (against A1, not disturbed)",
+   "quote": "does not suffer from any perversity",
+   "page": 25,
+   "reason": "The s.304 Part I finding was upheld as not perverse, so 'None' is contradicted."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment imposed by trial court; set aside as against A3 and A4",
+   "quote": "along with life sentence",
+   "page": 9,
+   "reason": "Trial court imposed life sentence; 'none' ignores this, though it was set aside for A3 and A4."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed number of years is stated; sentence described as life."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without stating the outcome (remove 'leading to their acquittal' and the conclusion about HC/SC findings)",
+   "quote": "the High Court and Supreme Court found the evidence insufficient to establish common intention for A3 and A4, leading to their acquittal",
+   "page": 26,
+   "reason": "Facts reveal the court outcome (acquittal); also says accused were 'charged with' the lesser offence, which is loosely stated."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (judgment only records a life sentence imposed by trial court)",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state a minimum or maximum punishment range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased was shot dead by the accused persons",
+   "page": 1,
+   "reason": "The offence was completed; the deceased was shot and died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A1 took out a gun from his pocket and shot the deceased",
+   "page": 8,
+   "reason": "Death of the deceased from gunshot is consistent with the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (one offence, s.304 Part I read with s.34, against four accused)",
+   "quote": "Four accused persons were charged, convicted, and sentenced",
+   "page": 7,
+   "reason": "Judgment counts four accused, not four offences; 'three finally upheld' is not supported."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment records no property or financial loss; 'Not applicable' should be 'Not stated'."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "holding that there was no premeditation, and the occurrence took place in pursuance to a sudden fight",
+   "page": 9,
+   "reason": "Matches the trial court's finding accepted by the Supreme Court."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Deceased believed a raid on the family hotel was done at the accused's instance",
+   "quote": "the deceased felt that a raid conducted in the hotel belonging to him and his father (PW6) ... was done at the instance of the accused",
+   "page": 8,
+   "reason": "The judgment identifies a motive; 'Not identified' is contradicted."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court's no-premeditation finding not perverse; PW6's evidence not rejected but exaggerated; PW13 disbelieved; A3 and A4 convictions set aside",
+   "quote": "Though the evidence of PW6 was not rejected, both the courts did find a clear exaggeration on his part.",
+   "page": 24,
+   "reason": "Says conviction 'dismissed' (it was set aside) and calls PW6 unreliable, though the court said PW6 was not rejected."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Though he turned hostile despite being a friend of the deceased, the trial court did take into consideration his earlier statement",
+   "page": 24,
+   "reason": "Assessment of PW6, PW13 and PW10 matches the judgment's findings."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct by the accused is recorded in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; A1 has since been let out on pre-mature release",
+   "quote": "A1 has since been let out on pre-mature release by the State",
+   "page": 9,
+   "reason": "Duration not stated, but the judgment records A1's release on pre-mature release."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Duration not stated; occurrence on 21.04.2011 at about 12:45 a.m.",
+   "quote": "The occurrence took place at about 12:45 a.m. on 21.04.2011",
+   "page": 8,
+   "reason": "No trial duration is given; the listed events are accurate but do not answer the field."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Names of counsel listed for appearing parties (Shekhar Naphade, Siddharth Luthra, etc.); no party assignment; Rahul Rathi, LCRA assisted",
+   "quote": "Advs. for the appearing parties.",
+   "page": 6,
+   "reason": "Counsel names are correct but the judgment does not assign them to the accused or State; LCRA omitted."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW24 took up the investigation and completed the formalities. Recoveries have been made, including of the weapons.",
+   "page": 8,
+   "reason": "Matches the judgment's account of investigation and recoveries."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is recorded as a finding; the PW6 improvement is an evidentiary point."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted; HC concurred; A1 and A2 did not appeal; A3 and A4 appeals allowed; complainant's appeal (s.302 claim) dismissed",
+   "quote": "Thus, A1 and A2 have not filed their appeals.",
+   "page": 9,
+   "reason": "Omits that the complainant's appeal seeking s.302 was dismissed."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Complainant's counsel argued offence is under s.302, presence suffices under s.34, and accused are influential",
+   "quote": "It is not necessary that an accused will have to do a physical act in order to attract Section 34 IPC. Thus, a mere presence of the accused would suffice.",
+   "page": 10,
+   "reason": "Instigation was PW6's version; the recorded argument is s.302 and mere presence, which the value omits."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "A3 and A4 argued PW13 disbelieved so s.34 misapplied, PW6 improved and presence doubtful, mere statement insufficient, A2 would have been asked to shoot",
+   "quote": "A mere statement per se would not be sufficient to attract Section 34 IPC.",
+   "page": 10,
+   "reason": "Captures PW6 improvement and awareness of gun, but omits PW13 and the 'mere statement' and A2 arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 34 IPC creates a deeming fiction by infusing and importing a criminal act constituting an offence committed by one, into others",
+   "page": 11,
+   "reason": "Matches the judgment's statement of the s.34 principle and proof requirement."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Eleven cases relied on (as listed) plus Barendra Kumar Ghosh and Shah v. Emperor referred to",
+   "quote": "Barendra Kumar Ghosh v. King Emperor AIR 1925 PC 1; Shah v. Emperor AIR 1945 PC 148 – referred to.",
+   "page": 1,
+   "reason": "Relied-on cases are correctly listed, but the two cases only referred to are omitted."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no sentencing rationale; 'Not applicable' should be 'Not stated'."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment records no mitigating factors; 'None' asserts a finding the judgment does not make."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment records no aggravating factors; 'None' asserts a finding the judgment does not make."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is recorded in the judgment."
+  }
+ }
+}

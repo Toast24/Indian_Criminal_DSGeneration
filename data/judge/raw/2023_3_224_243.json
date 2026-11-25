@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge-sheet was filed against each of the 4 accused; Kalika later died."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Munna Lal, Sheo Lal, Babu Ram, and Kalika were accused",
+   "page": 6,
+   "reason": "Gender of accused is never explicitly stated; it is only implied by their names."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record of the accused is mentioned; only Narayan's prior cases are recorded."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Narayan is referred to as male (father of Ram Vilas)."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the victim Narayan."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to victim; long-standing enmity and property disputes with victim's family",
+   "quote": "previous history of enmity, spread over almost 10 (ten) years prior to the murder of Narayan",
+   "page": 14,
+   "reason": "Accused were not strangers; the judgment describes a decade-long enmity and property dispute."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge and conviction were under section 302 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "PW-2 describes gun, kanta, tamancha and lathi as the weapons."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness (PW-2, PW-3), medical (PW-1) and bullet recovery (PW-4) evidence are discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by any accused is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "there was a long standing quarrel during the last 10 (ten) years",
+   "page": 15,
+   "reason": "Enmity is recorded as a fact and motive, but the court never treats it as an aggravating circumstance."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Delay in recording PW-3's 161 statement; failure to seize weapons; doubtful bullet recovery evidence; non-examination of Investigating Officer",
+   "quote": "three other circumstances, which could be viewed as extenuating",
+   "page": 17,
+   "reason": "Omits the delayed statement, failure to seize weapons and doubtful bullet evidence the court calls extenuating."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted surviving accused and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction and life sentence upheld",
+   "quote": "the High Court concurred with the findings returned by the Sessions Judge",
+   "page": 11,
+   "reason": "High Court dismissed the appeal and upheld conviction; it was not 'not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed appeals and granted benefit of doubt, i.e., acquittal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held the murder charge was not proved beyond reasonable doubt."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment is imposed in the final outcome; appellants are to be set free."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment term is imposed; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts only: decade-long enmity; armed accused attacked victim; victim suffered gunshot and blow injuries and died; eyewitness and medical evidence relied on; weapons not seized; IO and other witnesses not examined",
+   "quote": "There is a fair degree of uncertainty in the prosecution story",
+   "page": 19,
+   "reason": "Facts are broadly accurate, but the final sentence states the court's assessment of doubt, hinting at the outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated; trial court imposed life imprisonment",
+   "quote": "sentencing the appellants to spend the rest of their lives in prison",
+   "page": 13,
+   "reason": "Statutory minimum and maximum punishment are not stated in the judgment; only the life sentence is."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder was completed; victim died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim received gunshot injuries and blows and died."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence charged (s.302 IPC) against four accused; conviction under s.302 for three accused",
+   "quote": "under section 302 I.P.C. and within the cognizance of this court",
+   "page": 7,
+   "reason": "Only a single s.302 IPC charge was framed; the '4 offences' count is unsupported."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss from the offence is recorded; property dispute is background only."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation is established; accused are said to have suddenly come out of a field."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Long-standing enmity and property dispute over residential land with victim's family",
+   "quote": "Sheo Lal wanted to take forcible possession of the residential land",
+   "page": 15,
+   "reason": "Judgment identifies motive as enmity and a s.145 property dispute, not 'not identified'."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted uncontroverted enmity evidence as establishing PW-2's ill-will towards the appellants."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found PW-3 not wholly reliable and PW-2 inimical, with evidence not of unimpeachable quality."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused fled towards the southern direction after inflicting blows (per PW-3)",
+   "quote": "After inflicting blows on Narayan, the accused persons fled towards the southern direction.",
+   "page": 10,
+   "reason": "PW-3's testimony records the accused fleeing after the attack, which is post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Served sentences in excess of 11 years and 11 months; taken into custody after HC dismissal",
+   "quote": "Both the appellants having served their respective sentences in excess of 11 years and 11 months",
+   "page": 11,
+   "reason": "Custody duration is stated in the judgment, not missing."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Munna Lal and Sheo Lal were on bail during HC appeal; later applied for bail after serving 11+ years",
+   "quote": "directed Munna Lal and Sheo Lal, who were on bail, to surrender",
+   "page": 11,
+   "reason": "Judgment records the appellants were on bail and later applied for bail."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Listed dates of offence, trial, HC and SC judgments match the judgment, though labelled as duration."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondent match the judgment's listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registered, charge-sheet filed, and trial conducted are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All listed irregularities (IO non-examination, delayed 161 statement, no seizure, no ballistic report) are discussed."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: convicted and sentenced to life imprisonment; High Court: appeal dismissed; Supreme Court: conviction and sentence set aside",
+   "quote": "dismissing Criminal Appeal No.539 of 1986",
+   "page": 6,
+   "reason": "Trial court entry wrongly says 'upheld'; trial court originally convicted, it was not an appeal outcome."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Versions of PW-2 and PW-3 were reliable; credible ocular evidence; omission to seize weapons or ballistic report not fatal",
+   "quote": "The versions of PW-2 and PW-3, the eye-witnesses, were found to be reliable and trustworthy",
+   "page": 13,
+   "reason": "Omits prosecution's stress on ocular evidence; FIR promptness was the trial court's view, not argued."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "False implication due to enmity; PW-3 a chance witness; delayed 161 statement; non-production of Dr. Hanif, Kedar, Chhange Lal and Khemkaran; licensed gun; no ballistic report; IO non-examination",
+   "quote": "PW-3 was only a chance witness",
+   "page": 12,
+   "reason": "Omits defence's false-implication, enmity and chance-witness arguments and the delayed statement point."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court applied beyond-reasonable-doubt standard and careful scrutiny of inconsistent, uncorroborated testimony and investigative lapses."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Jarnail Singh v. State of Punjab (2009) 9 SCC 719 is cited for chance-witness scrutiny."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given; appellants were acquitted on appeal."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Extenuating circumstances: delayed 161 statement of PW-3; failure to seize weapons; doubtful bullet recovery evidence",
+   "quote": "three other circumstances, which could be viewed as extenuating",
+   "page": 17,
+   "reason": "Court expressly identifies extenuating circumstances, so 'None' is contradicted."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no aggravating factors for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants to be set free immediately if not wanted in any other case; no order as to costs",
+   "quote": "shall be set free immediately, if not wanted in any other case",
+   "page": 20,
+   "reason": "Judgment orders release and no costs; 'None' contradicts this."
+  }
+ }
+}

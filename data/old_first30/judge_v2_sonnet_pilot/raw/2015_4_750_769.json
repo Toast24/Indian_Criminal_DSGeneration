@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the case heading."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "9 accused tried (A-6 deceased); 8 convicted at trial; 5 remained after High Court acquitted three",
+   "quote": "convicted A-1 to A-5 and A-7 to A-9",
+   "page": 8,
+   "reason": "Five is only the post-acquittal count; the judgment does not state it as the total accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to by male names and as 'his brother'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ages are not given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "accused Vutukuru Lakshmaiah, A-1, was the Councilor for Ward No. 16 of Nellore Municipality",
+   "page": 6,
+   "reason": "A-1's occupation is stated; others are not."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "incorrect",
+   "correct_value": "A-1 was allegedly an accused in the murder case of Velongini Raja",
+   "quote": "Patrangi Velongini Raja of Telugu Desam Party was allegedly murdered by accused, A-1, and his brother",
+   "page": 6,
+   "reason": "The judgment mentions A-1's earlier murder prosecution, so 'Not stated' is wrong."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Patrangi Ramanaiah is referred to as male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age is not given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not given."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not given."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Political rivals; victim was a witness in a murder case against A-1",
+   "quote": "the deceased was a supporter of the Telugu Desam Party, while accused Vutukuru Lakshmaiah, A-1, was the Councilor ... and belonged to the Congress Party",
+   "page": 6,
+   "reason": "The judgment describes a political rivalry and witness relationship rather than none."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A5 for the offences punishable under Sections 324 read with 149 IPC",
+   "page": 8,
+   "reason": "Sections 302, 148, 324 and 324/149 are all in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "stabbed the deceased multiple times with knives, while A-4 and A-6 beat him with iron rods",
+   "page": 6,
+   "reason": "Knives and iron rods are stated."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitnesses, dying declaration, post-mortem and recoveries are all mentioned."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "five stab injuries at different parts of the body",
+   "page": 20,
+   "reason": "Matches the injuries, animosity and witness-motive discussed."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None identified by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted A-2 to A-4 for the offence punishable under Section 324 IPC",
+   "page": 8,
+   "reason": "Accurately summarizes the trial convictions and sentences."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "partly allowed the appeal thereby acquitting A4, A8 and A9",
+   "page": 8,
+   "reason": "Matches the High Court's partial allowance."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the same stand dismissed",
+   "page": 20,
+   "reason": "Appeals dismissed; convictions stand."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "ss.302 and 148 IPC for appellants; s.324 / 324 r/w 149 only at trial, not clearly reaffirmed",
+   "quote": "found the appellants guilty of the offence under Sections 302 and 148",
+   "page": 6,
+   "reason": "s.324 was not clearly upheld on appeal; A-5's conviction was under 324 r/w 149."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for life",
+   "page": 6,
+   "reason": "Life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life term, no years stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurate to the judgment and does not reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No severity classification stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim died, so the murder was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A-3 stabbed PW-1 with a knife on his left arm",
+   "page": 6,
+   "reason": "Death from multiple stab injuries; PW-1 injured on arm."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Convictions under ss.302, 148, 324 and 324 r/w 149 at trial; FIR under ss.147, 148, 324, 307 r/w 149",
+   "quote": "Crime No. 57 of 1996 U/s. 147, 148, 324, 307 r/w 149 IPC",
+   "page": 7,
+   "reason": "The count of '3 charged/3 upheld' is not stated and is loosely derived."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased was assaulted as he was a witness in Velongini Raja's murder case",
+   "page": 20,
+   "reason": "Motive correctly captured."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Consistent with the court's reliance on eyewitnesses and dying declaration."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we are unable to put them in the category of so-called 'chance witnesses'",
+   "page": 15,
+   "reason": "Matches findings on witnesses and dying declaration."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused post-offence conduct is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 5,
+   "reason": "Counsel names match."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, chargesheet and trial are stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is difficult to hold that any prejudice has been caused",
+   "page": 14,
+   "reason": "No s.149 charge; no prejudice found."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately traces trial, High Court and Supreme Court."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 9,
+   "reason": "Matches the State's submissions."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 9,
+   "reason": "Matches the defence submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects the principles applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cited cases are accurately listed."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "considering the nature of injuries and the previous animosity",
+   "page": 20,
+   "reason": "Matches the refusal to convert to s.304 Part I."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None recognized."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 20,
+   "reason": "Injuries and animosity cited by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other orders."
+  }
+ }
+}

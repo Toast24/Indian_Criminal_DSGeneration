@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges were framed against fifteen persons, as stated in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants are named male individuals; gender is inferable from names, though not stated explicitly."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated for any accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not stated in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not stated in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants are identified as bus conductors."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The only 'victim' is the Depot/State; no individual victim gender is stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused-victim relationship is stated; the complainant was a driver."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Criminal breach of trust, cheating, forgery, falsification of accounts/records, and corruption under the PC Act",
+   "quote": "Penal Code, 1860: ss. 409/109, 420/109, 467/109, 471/109, 474/109, 477-A/109 and 120-B",
+   "page": 1,
+   "reason": "Breach of trust is only one category; cheating, forgery, and corruption charges are also involved."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All IPC and PC Act sections listed match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned; the case concerns tickets and cash."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Documentary and oral evidence (tickets, enquiry report, witness testimony)",
+   "quote": "The prosecution examined as many as twenty-three (23) witnesses and also filed documentary evidence.",
+   "page": 4,
+   "reason": "The judgment never characterises the evidence as circumstantial; it describes documentary and oral evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned; accused denied all allegations under s.313 CrPC."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Convicted (appellants convicted by the Special Judge, Faridkot, 28.01.2002)",
+   "quote": "Rest of the eleven(11) accused were convicted by the Trial Court.",
+   "page": 5,
+   "reason": "The trial court convicted the appellants; it did not acquit them."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction confirmed (High Court dismissed appeal against the three conductors)",
+   "quote": "The High Court thus confirmed the conviction of three conductors namely, Jarnail Singh, Salwant Singh and Balkar Singh",
+   "page": 5,
+   "reason": "The High Court did have a decision on these appellants; it confirmed their conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed the appeals and acquitted the appellants."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was finally established; convictions were set aside."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment survives; convictions and sentences were set aside."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Null is consistent with final outcome; the 3-year sentence was set aside."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Null is consistent with final outcome; the Rs.1000 fine was set aside."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts only, without the Supreme Court's holding: complaint by a driver, inspection of buses, seizure of tickets, enquiry report, FIR, trial and High Court outcomes.",
+   "quote": "However, the Supreme Court found that the recovery of tickets was not validly made, and the enquiry report was not properly proved, leading to the acquittal of the appellants.",
+   "page": 11,
+   "reason": "Summary reveals the Supreme Court's outcome and reasoning, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Sentence awarded: 3 years rigorous imprisonment and Rs.1000 fine (trial court, confirmed by High Court), later set aside",
+   "quote": "to undergo three years rigorous imprisonment with fine of Rs.1000/-",
+   "page": 3,
+   "reason": "Value gives the sentence, not severity, and omits that the sentence was set aside."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Allegations describe completed sale and use of tickets causing loss."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is stated."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charges framed against 15 persons; 11 convicted by trial court; 3 convictions confirmed by High Court; all set aside",
+   "quote": "Rest of the eleven(11) accused were convicted by the Trial Court.",
+   "page": 5,
+   "reason": "Figures count persons, not offences, and the High Court upheld three convictions, not eleven."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged loss to the Depot of 'crores of rupees' in the complaint; enquiry committee referred to loss of lakhs of rupees to the Government",
+   "quote": "has caused loss to the tune of crores of rupees to the Depot.",
+   "page": 3,
+   "reason": "Figure is an allegation in the complaint, not an established loss; committee's figure differs."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Planning is not discussed beyond alleged orders from higher authorities."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "No evidence accepted; the enquiry report and seized tickets were not relied upon",
+   "quote": "Thus, no reliance could be placed upon the enquiry report",
+   "page": 11,
+   "reason": "Value describes rejected evidence as accepted-evidence reasoning; the court accepted none of it."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "PW-8, PW-15 and inspection members' admissions on recovery, sealing, and identification are supported."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated; only bail status is mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states appellants are already on bail and bail-bonds discharged."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Inspection on 11.05.1996 (complaint 04.05.1996); trial judgment 28.01.2002; High Court 14.09.2009; Supreme Court 12.07.2022",
+   "quote": "checking of the conductors of the buses on the routes of Delhi-Muktsar and Sirsa-Muktsar on 11.05.1996",
+   "page": 4,
+   "reason": "Offence-related dates (inspection and complaint) are stated in the judgment, so 'Not stated' is incomplete."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registered, police report under s.173(2) CrPC filed, and trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Recovery not validly made, photocopy enquiry report, and no effort to prove originals are all stated."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment; minor omission of abatement for Jugraj Singh."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches state counsel's submissions on PW-8, PW-15, PW-20 to PW-22 and the enquiry report."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches appellants' submissions on photocopy enquiry report, unconnected tickets, and proof failures."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Recovery must be lawful and documents must be properly proved; charge not established on the evidence. 'Beyond reasonable doubt' was counsel's submission, not the court's stated principle.",
+   "quote": "The prosecution failed to prove his case not only beyond reasonable doubt",
+   "page": 6,
+   "reason": "Court did not emphasise beyond reasonable doubt; that phrase is from appellants' submission."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Court relied on no precedent; cited by counsel: Ashok Dhulichand, Jai Dev, Sharad Birdichand Sarda, Sujit Biswas, Samsul Haque, Sarwan Singh, Shivaji S. Bobade, Subhash Chand, Rajiv Singh, State of U.P. v. Wasif Haider",
+   "quote": "we need not burden this judgment by referring to the case laws relied upon by the appellants.",
+   "page": 11,
+   "reason": "Court did not rely on these cases, and the list omits Sharad Birdichand Sarda's inclusion in the judgment's citations."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is discussed; the appeals were allowed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order; convictions set aside and bail-bonds discharged."
+  }
+ }
+}

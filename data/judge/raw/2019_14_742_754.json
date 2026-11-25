@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "DARSHAN SINGH v. STATE OF PUNJAB",
+   "quote": "DARSHAN SINGH v. STATE OF PUNJAB",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "4",
+   "quote": "accused Avtar Singh, Jagmohan Singh, Swaran Kaur and Darshan Singh were made to stand trial",
+   "page": 5,
+   "reason": "Four accused were tried, as stated in paragraph 5."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Mixed",
+   "quote": "Swaran Kaur is wife and Jagmohan Singh is son of Avtar Singh",
+   "page": 5,
+   "reason": "The accused include both male and female persons."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is given in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "Servant (Darshan Singh only); others not stated",
+   "quote": "The accused Darshan Singh was a servant at Avtar Singh's house.",
+   "page": 5,
+   "reason": "Servant applies only to Darshan Singh; the field should not generalise it to all accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Female",
+   "quote": "The deceased, Surjit Kaur, was mother of accused Avtar Singh.",
+   "page": 5,
+   "reason": "Victim Surjit Kaur is a woman, referred to as mother and old woman."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not given, only described as an old woman."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Family members (son, daughter-in-law, grandson) and a servant",
+   "quote": "The accused Darshan Singh was a servant at Avtar Singh's house.",
+   "page": 5,
+   "reason": "Relative is incomplete; Darshan Singh was a servant, not a relative."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "Penal Code, 1860: s.302 – Murder",
+   "page": 1,
+   "reason": "Offence is murder under section 302."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC s.302",
+   "quote": "Penal Code, 1860: s.302 – Murder",
+   "page": 1,
+   "reason": "Headnote identifies section 302 of the Penal Code."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "Acid, folding iron chair (also dupatta used for strangulation)",
+   "quote": "Darshan Singh gave a Kursi (chair) blow on the flank of Surjit Kaur",
+   "page": 7,
+   "reason": "Acid and folding iron chair are the weapons identified; dupatta is also relevant."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial, medical, recovery, extra-judicial confession",
+   "quote": "Extra-judicial confession relied on",
+   "page": 1,
+   "reason": "No dying declaration is mentioned; the confession was extra-judicial, not dying declaration."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "Extra-judicial confession relied on",
+   "quote": "Bhupinder Singh (PW-16) as the witness of extra-judicial confession",
+   "page": 7,
+   "reason": "Extra-judicial confession before PW-16 was relied on for conviction."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Not being available in village post-death; acid disfigurement of face; not attending cremation or prayer ceremony",
+   "quote": "The conduct of the appellants of not being available in the village is a strong circumstance",
+   "page": 12,
+   "reason": "Listed conduct and disfigurement match the court's reasoning."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted three accused, acquitted one",
+   "quote": "acquitted Avatar Singh but convicted Jagmohan Singh, Swaran Kaur and Darshan Singh",
+   "page": 5,
+   "reason": "Trial court acquitted one and convicted three, as stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Upheld conviction",
+   "quote": "The High Court dismissed the appeals filed by the appellants",
+   "page": 8,
+   "reason": "High Court dismissed appeals, upholding conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted (Supreme Court dismissed appeals)",
+   "quote": "Accordingly, both the appeals are dismissed.",
+   "page": 13,
+   "reason": "Supreme Court dismissed appeals, leaving convictions in place."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "The prosecution has proved the chain of circumstances to hold the appellants guilty of the offences charged.",
+   "page": 13,
+   "reason": "Murder conviction was upheld by the Supreme Court."
+  },
+  "imprisonment_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Darshan Singh and Jagmohan Singh shall now surrender to undergo the remaining sentence.",
+   "page": 13,
+   "reason": "Judgment does not specify the sentence type, only surrender for remaining sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "shall now surrender to undergo the remaining sentence",
+   "page": 13,
+   "reason": "No term of years is stated anywhere in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts without stating the conviction outcome, e.g. deceased found dead in jute bag, body decomposed, identified by clothing, accused not happy with inheritance, lease money unpaid, acid disfigurement.",
+   "quote": "The accused were convicted based on an extra-judicial confession and medical evidence",
+   "page": 1,
+   "reason": "Neutral facts reveal the conviction outcome, which is prohibited; otherwise facts are largely accurate."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No minimum or maximum punishment range is stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": "as a result thereof, Surjit Kaur died",
+   "page": 7,
+   "reason": "The victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "incorrect",
+   "correct_value": "Death caused by chair blow, strangulation with dupatta per confession; acid poured on face after death to avoid identification",
+   "quote": "Such disfigurement was caused by pouring of acid with intention to avoid identification of the dead body.",
+   "page": 12,
+   "reason": "Acid was poured to disfigure the face, not as cause of death; PM cited aluminium phosphide poisoning, disputed."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "guilty of the offences charged",
+   "page": 13,
+   "reason": "Judgment does not specify number of counts charged or upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Unpaid lease money; only Rs.1,000 paid of lease amount",
+   "quote": "only a sum of Rs.1,000/- had been paid with a promise to pay another sum of Rs.1,000/- later",
+   "page": 12,
+   "reason": "Judgment shows unpaid lease money as a financial issue, so 'Not applicable' is inaccurate."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Court does not expressly find premeditation or planning; it only notes concealment and motive."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": "Dispute over lease money and inheritance of land",
+   "quote": "Accused were not happy with this inheritance",
+   "page": 5,
+   "reason": "Motive concerns inherited land and unpaid lease money, as stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "Extra-judicial confession to PW-16 by accused DS; postmortem report findings; disclosure by accused SK leading to acid bottle recovery",
+   "quote": "the postmortem report showed fracture of Hyoid bone, an irregular wound over the left breast and fracture of ribs",
+   "page": 8,
+   "reason": "Listed evidence matches the court's reliance on confession, medical report and recovery."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court relied on PW-13 and PW-16 without expressly assessing credibility; PW-14 evidence held relevant despite non-identification",
+   "quote": "even though the witness could not identify the appellants in court",
+   "page": 13,
+   "reason": "Court did not explicitly assess credibility of PW-13 and PW-16; PW-14 point is correct."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Appellants not found in village soon after occurrence (per PW-13 and PW-15); did not attend cremation or prayer ceremony",
+   "quote": "the appellants were not found in the village soon after the occurrence",
+   "page": 12,
+   "reason": "Post-offence conduct matches paragraph 22 accurately."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Swaran Kaur released on bail by Supreme Court on 4 October 2010",
+   "quote": "after she was released on bail by this Court on 4th October 2010",
+   "page": 4,
+   "reason": "Judgment states bail history for Swaran Kaur, so 'Not stated' is wrong."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": "Offence March 2005; trial judgment May 2007; High Court February 2009; Supreme Court December 2019",
+   "quote": "judgment and order dated 23rd May, 2007/26th May, 2007",
+   "page": 5,
+   "reason": "Dates match the judgment, with offence in March 2005 supported by the FIR timeline."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Counsel for appellants: D. P. Singh, Ms. Sonam Gupta, Ms. Ishita Jain, Sanjay Jain; for State: Ms. Jaspreet Gogia, Ms. Mandakini Singh, Ms. Ashima Mandla, Ms. Anupriya",
+   "quote": "D. P. Singh, Ms. Sonam Gupta, Ms. Ishita Jain, Sanjay Jain, Advs. for the Appellant.",
+   "page": 4,
+   "reason": "Counsel names match the appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": "FIR lodged 28 March 2005; investigation completed; accused sent for trial",
+   "quote": "An FIR was lodged by Jarnail Singh (PW-7) on 28th March, 2005",
+   "page": 4,
+   "reason": "FIR date and completed investigation with trial are supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is raised or discussed in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial court acquitted Avtar Singh and convicted others; High Court upheld conviction; Supreme Court dismissed appeals",
+   "quote": "Accordingly, both the appeals are dismissed.",
+   "page": 13,
+   "reason": "Appeal history matches the judgment's account of each stage."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": "Inheritance and lease dispute as motive; chain of circumstances proved via confession, medical evidence, witness statements and recoveries",
+   "quote": "Learned counsel for the State argued that though the evidence of last seen has not been accepted",
+   "page": 9,
+   "reason": "Summary of State's arguments on motive, chain and recoveries is accurate."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "Chain incomplete; no last seen evidence; extra-judicial confession weak; cited Ajay Singh and S. Arul Raja",
+   "quote": "It is argued that extra judicial confession is a weak evidence",
+   "page": 9,
+   "reason": "Defence arguments and cited cases match paragraphs 15 and 16."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Voluntary extra-judicial confession can ground conviction but should be corroborated where possible; circumstantial chain and post-death conduct",
+   "quote": "conviction can be based on a voluntarily confession but the rule of prudence requires that wherever possible it should be corroborated",
+   "page": 11,
+   "reason": "Principle matches the Ram Lal quotation and the court's conduct reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "Ajay Singh (2007) 12 SCC 341; S. Arul Raja (2010) 8 SCC 233; Sharad Birdhichand Sarda (1984) 4 SCC 116; Devi Lal 2019 SCC OnLine 39; Ram Lal 2018 SCC OnLine SC 1730",
+   "quote": "Ajay Singh v. State of Maharashtra (2007) 12 SCC 341",
+   "page": 1,
+   "reason": "All cited precedents and citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (court gave conviction rationale only, no sentencing reasoning)",
+   "quote": "do not find any merit in the present appeals",
+   "page": 13,
+   "reason": "Judgment gives no sentencing rationale; the value describes conviction reasoning instead."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment is silent on mitigating factors; 'None' asserts an absence not stated."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": "Conduct of not being available in village; not attending cremation or prayer ceremony; facial disfigurement to avoid identification",
+   "quote": "The conduct of the appellants of not being available in the village is a strong circumstance",
+   "page": 12,
+   "reason": "Aggravating factors match the court's stated reasoning."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Darshan Singh and Jagmohan Singh to surrender to undergo the remaining sentence; Swaran Kaur's appeal abated on death",
+   "quote": "Darshan Singh and Jagmohan Singh shall now surrender to undergo the remaining sentence.",
+   "page": 13,
+   "reason": "Judgment contains a surrender order, so 'None' is incorrect."
+  }
+ }
+}

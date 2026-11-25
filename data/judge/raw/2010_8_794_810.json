@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states all nine accused were chargesheeted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the appellant or any accused appears in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Shiv Ram is male, referred to with 'his' pronouns."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age is not stated anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Brother (co-accused Khem Chand); appellant's relationship not stated",
+   "quote": "he had a dispute with his brother Khem Chand over a residential house",
+   "page": 7,
+   "reason": "Only the co-accused brother is a relative; appellant's relationship to deceased is not stated."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Culpable homicide not amounting to murder (s.304 Part II IPC)",
+   "quote": "the offence of the appellant could be altered from Section 302 to Section 304 Part II of the IPC",
+   "page": 17,
+   "reason": "Final offence was altered from murder to s.304 Part II, not murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.148, 149, 323, 506, 452 and 302 (charged/convicted at trial), with 302 altered to 304 Part II",
+   "quote": "the offence of the appellant could be altered from Section 302 to Section 304 Part II of the IPC",
+   "page": 17,
+   "reason": "Omits s.302 which was the original conviction and misses the 148/149/323/506/452 framework."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant struck the fatal blow with an iron rod; lathis were used by others."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dying declaration, medical evidence and family eyewitness testimony (hostile) are all discussed."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "No confession to the offence; accused made disclosure statements (Ex.PM to Ex.PU) leading to recoveries of lathis and dandas",
+   "quote": "The disclosure statements Ex.PM to Ex.PU were also made by accused persons, which led to the recoveries of 7 lathis and 2 dandas",
+   "page": 9,
+   "reason": "Disclosure statements leading to recoveries exist, so 'None' is incomplete."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not expressly label aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not expressly label mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under ss.148, 149, 323, 506, 452 and 302 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court refused to interfere with trial court order, confirming conviction and sentence",
+   "quote": "The High Court refused to interfere with the order of trial Court.",
+   "page": 3,
+   "reason": "High Court did decide the appeal, dismissing it; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant remains convicted, with conviction altered to s.304 Part II."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court altered conviction to Section 304 Part II IPC."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is rigorous imprisonment for a fixed term of 10 years."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rigorous imprisonment for 10 years is awarded."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs. 20,000 is imposed."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurate and do not reveal the Supreme Court's outcome."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "10 years rigorous imprisonment and fine of Rs. 20,000/-",
+   "quote": "rigorous imprisonment for a period of 10 years and fine of Rs. 20,000/-",
+   "page": 17,
+   "reason": "The word 'Minimum' is not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased died from the head injury, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Head injury from iron rod, lathi injuries, and injuries to wife and daughter are all stated."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Multiple offences charged; conviction altered from s.302 to s.304 Part II IPC (not merely upheld)",
+   "quote": "the offence of the appellant could be altered from Section 302 to Section 304 Part II of the IPC",
+   "page": 17,
+   "reason": "Conviction under s.304 Part II was altered, not upheld as the value suggests."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is stated; the dispute concerned a residential house."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Premeditation not expressly addressed; court found no evidence of intention to kill",
+   "quote": "there was no intention to kill the deceased",
+   "page": 16,
+   "reason": "Judgment addresses intention to kill, not premeditation or planning expressly."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The motive was a family dispute over property."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dying declaration corroborated by medical evidence, competent recording and doctor's fitness endorsement are accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Hostile wife and daughter noted; prosecution case still proved beyond reasonable doubt."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused ran away from the spot after the attack; appellant was declared proclaimed offender and taken into custody on 18.12.1997",
+   "quote": "the accused persons ran away from the spot",
+   "page": 8,
+   "reason": "Judgment states flight and proclaimed offender status; 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; only arrest date (18.12.1997) is given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates of offence, trial, High Court and Supreme Court judgments match the text."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, conversion to s.302, chargesheet and completed trial are accurately described."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "FIR under ss.148/452/323/506 r/w 149 could not be investigated by a Head Constable (undisputed); statement recorded by Head Constable, not Magistrate",
+   "quote": "which could not be investigr•ed by a Police Officer of the rank of Head Constable. This fact is not in dispute before us.",
+   "page": 11,
+   "reason": "Judgment notes investigation by a Head Constable was improper, so 'None noted' is wrong."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court dismissal and partial allowance by Supreme Court are accurately recorded."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution case and reliance on dying declaration and medical evidence are accurately summarised."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence contentions on Magistrate recording, non-examination of witnesses and s.304 are accurately recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Section 32 admissibility and intention-to-kill analysis are the principles applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All cited precedents appear in the judgment with correct citations."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rationale matches the court's finding of no intention to kill or knowledge of likely death."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "No intention to kill; family property dispute; single blow; no premeditation shown",
+   "quote": "the appellant had no intention to kill the deceased and did not give him a blow with the intention to kill",
+   "page": 17,
+   "reason": "Court relied on lack of intention and family dispute, which are mitigating; 'None' is wrong."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court did not expressly list aggravating factors in its sentencing reasoning."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ten years RI, Rs. 20,000 fine and six months default term match the order."
+  }
+ }
+}

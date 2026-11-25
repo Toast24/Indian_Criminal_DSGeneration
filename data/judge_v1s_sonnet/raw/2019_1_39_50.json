@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "MAHADEVAPPA v. STATE OF KARNATAKA REP . BY PUBLIC PROSECUTOR",
+   "page": 1,
+   "reason": "Matches the case title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant (accused) was married to Rukmini Bai",
+   "page": 4,
+   "reason": "Single accused, the husband."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant (accused) was married to Rukmini Bai (deceased)",
+   "page": 4,
+   "reason": "Accused is a husband, so male."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is given anywhere."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant, who was serving as a Constable in the Police Station, Kaladagi",
+   "page": 4,
+   "reason": "Police constable, accurately captured."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rukmini Bai (deceased)",
+   "page": 4,
+   "reason": "Victim is the wife, female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant (accused) was married to Rukmini Bai (deceased)",
+   "page": 4,
+   "reason": "Husband and wife."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder and cruelty by husband (s.498A and s.302)",
+   "quote": "convicted the appellant for commission of offences punishable under Sections 498-A and 302 IPC",
+   "page": 5,
+   "reason": "Headnote says dowry death, but conviction was under 498A and 302, not s.304B."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "twin offences punishable under Sections 498-A and 302 IPC",
+   "page": 7,
+   "reason": "Matches the provisions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "poured kerosene oil on his wife- Rukmini Bai ... and set her on fire",
+   "page": 10,
+   "reason": "Kerosene and fire used."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Witness testimony of relatives, dying declaration to father, medical/FSL, circumstantial",
+   "quote": "the evidence of I.O., Post-Mortem Report, FSL report and the evidence of doctor (PW-6)",
+   "page": 11,
+   "reason": "No eyewitness to the incident; witnesses were relatives, plus a statement to father."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "kerosene oil was found on the body of deceased and ... one bottle of kerosene oil was also lying in the room",
+   "page": 11,
+   "reason": "Listed circumstances are supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Sessions Judge by judgment/order dated 31.05.2000 acquitted the appellant of all the charges.",
+   "page": 5,
+   "reason": "Acquittal."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "reversed the order of the acquittal ... and convicted the appellant",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal fails and is accordingly dismissed",
+   "page": 12,
+   "reason": "Conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Cruelty under s.498A and murder under s.302",
+   "quote": "convicted ... under Sections 498-A and 302 IPC",
+   "page": 5,
+   "reason": "No dowry death offence (s.304B) was established; cruelty and murder."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced the appellant to undergo life imprisonment",
+   "page": 5,
+   "reason": "Life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced the appellant to undergo life imprisonment",
+   "page": 5,
+   "reason": "No fixed years stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Husband allegedly poured kerosene on wife and set her on fire; she told her father he did it; she died; FIR filed; trial court acquitted, HC convicted.",
+   "quote": "her husband (appellant) had poured kerosene oil on her body and set her on fire",
+   "page": 5,
+   "reason": "Mostly consistent but 'newlywed' is loose (17 months) and it states court-found facts as established."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no min/max punishment ranges; s.302 'Maximum 10 years' is also wrong."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rukmini Bai succumbed to her injuries while in the hospital",
+   "page": 5,
+   "reason": "Death occurred; completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the death occurred due to severe burn injuries suffered by her",
+   "page": 7,
+   "reason": "Burn injuries causing death."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "twin offences punishable under Sections 498-A and 302 IPC",
+   "page": 7,
+   "reason": "Two offences upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No property loss stated; 'Not applicable' is a loose rendering though money demands exist."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Court made no finding of premeditation or planning."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Demands for money and ill-treatment",
+   "quote": "he used to demand money from the deceased and her parents quite often",
+   "page": 9,
+   "reason": "Money demands, not clearly dowry; court did not name a motive for the killing."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The evidence of four prosecution witnesses ... fully proves the case of the prosecution",
+   "page": 12,
+   "reason": "Accurate summary."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no reason to discard the evidence of the father and mother of the deceased",
+   "page": 9,
+   "reason": "Accurately reflects the credibility findings."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Sessions Judge by judgment/order dated 31.05.2000",
+   "page": 5,
+   "reason": "Dates are correct and supported by the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mallikarjun S. Mylar, Manjunath, Ms.Umme Salma, Ms. E. R. Sumathy Advs. for the Appellant.",
+   "page": 4,
+   "reason": "Counsel names match."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "filed the charge-sheet against the appellant",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal fails and is accordingly dismissed",
+   "page": 12,
+   "reason": "Matches."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it was the appellant, who poured kerosene oil on his wife",
+   "page": 10,
+   "reason": "Consistent with the prosecution case."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "her nylon sari accidentally came in contact with the fire",
+   "page": 10,
+   "reason": "Accurate summary."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "squarely fell within the meaning of Section 498-A Explanations (a) and (b) of IPC",
+   "page": 10,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "sentenced the appellant to undergo life imprisonment",
+   "page": 5,
+   "reason": "The judgment gives conviction reasons, not a sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing aggravating factors discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  }
+ }
+}

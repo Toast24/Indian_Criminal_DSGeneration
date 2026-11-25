@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "SUDHAKARAN v. STATE OF KERALA",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant herein was convicted and sentenced to rigorous imprisonment for life",
+   "page": 5,
+   "reason": "A single appellant is convicted; one accused is consistent with the text."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant herein was convicted",
+   "page": 5,
+   "reason": "Accused is male (referred to as 'his wife', 'he' throughout)."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never states the accused's age; 35 is not supported."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Irregular casual labourer, taking casual jobs for sustenance",
+   "quote": "although the appellant was irregular, he used to take on casual jobs for his sustenance",
+   "page": 10,
+   "reason": "The judgment does state his occupation as casual jobs."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No explicit socioeconomic status is stated; only casual jobs and a crowded locality are mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "murdering his wife on 3.11.2000",
+   "page": 5,
+   "reason": "Victim is the appellant's wife, hence female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "murdering his wife on 3.11.2000",
+   "page": 5,
+   "reason": "Accused is the victim's husband, i.e. spouse."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Section 302 IPC",
+   "page": 5,
+   "reason": "Offence is murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302 IPC",
+   "page": 5,
+   "reason": "Core provisions s.302 and s.84 IPC are covered; Evidence Act and s.299 references are minor omissions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "assaulting her with a chopper on her neck",
+   "page": 5,
+   "reason": "Weapon used was a chopper (M.O.1)."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The ocular evidence was corroborated by medical evidence",
+   "page": 2,
+   "reason": "Ocular, medical and recovery evidence are all relied upon."
+  },
+  "confession": {
+   "verdict": "incorrect",
+   "correct_value": "Extra-judicial oral confession to neighbours",
+   "quote": "According to PW5, the appellant had confessed to the crime.",
+   "page": 6,
+   "reason": "The judgment records that the appellant confessed to neighbours and PW5."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Whilst he had brutally and callously committed the murder of his wife",
+   "page": 22,
+   "reason": "Brutal, callous murder and blood-stained chopper possession are supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "he did not cause any hurt or discomfort to the child",
+   "page": 22,
+   "reason": "Facts are stated, but the court used them to negate insanity, not as mitigation."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted and sentenced to rigorous imprisonment for life under Section 302 IPC",
+   "page": 5,
+   "reason": "Matches the trial court conviction and life sentence."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dismissed the criminal appeal filed by the appellant and thereby affirmed his conviction under Section 302 IPC",
+   "page": 5,
+   "reason": "High Court dismissed the appeal and affirmed conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal is dismissed.",
+   "page": 22,
+   "reason": "Supreme Court dismissed the appeal; conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant has committed the murder of his wife",
+   "page": 11,
+   "reason": "Murder under s.302 IPC was established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for life",
+   "page": 5,
+   "reason": "Sentence was rigorous imprisonment for life."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment has no fixed term; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts without the court's conclusions, e.g. the accused claimed insanity; the courts rejected it",
+   "quote": "but the courts found no evidence he was mentally ill at the time of the crime",
+   "page": 4,
+   "reason": "Facts are accurate, but statements like 'courts found' and 'suggested he understood' reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to rigorous imprisonment for life",
+   "page": 5,
+   "reason": "Severity reflects life imprisonment for murder."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "resulting in her death",
+   "page": 5,
+   "reason": "Offence was completed; the wife died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the injuries could have been caused with a weapon which was seized from the appellant",
+   "page": 11,
+   "reason": "Fatal neck injuries from chopper are supported by post-mortem evidence."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Section 302 IPC",
+   "page": 5,
+   "reason": "Only one offence (murder) was charged and upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is discussed; 'Not applicable' is a reasonable classification."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss premeditation or planning, nor 'without hesitation'."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant's suspicion that wife had been cheating on him",
+   "quote": "till 8 today she had been cheating upon me",
+   "page": 7,
+   "reason": "The appellant's statement at the scene gives a stated motive of suspected infidelity."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The ocular evidence has been corroborated by medical evidence.",
+   "page": 11,
+   "reason": "Accurately summarises the accepted ocular, medical and weapon evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the evidence given by PW1 to PW5 is unimpeachable",
+   "page": 10,
+   "reason": "Matches the High Court's view of PW1 to PW5 and DW1 evidence."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he made up his mind to insure that the child be put into proper care and custody after the murder",
+   "page": 22,
+   "reason": "Post-offence conduct and its use against insanity are supported."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "OCTOBER 26, 2010",
+   "page": 1,
+   "reason": "Offence, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "T.V. George, Manjula Gupta for the Appellant",
+   "page": 4,
+   "reason": "Counsel names for both sides match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR registered on PW1's statement (Exb.P1); charge sheet not mentioned; trial completed",
+   "quote": "The FIR was registered on the basis of the statement Exb.P1 made by PW1",
+   "page": 6,
+   "reason": "FIR and trial are supported, but charge sheet filing is not mentioned."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Insanity plea reportedly not taken at trial, though the trial court considered Section 84 defence",
+   "quote": "no such plea was taken at the time of the trial",
+   "page": 5,
+   "reason": "The judgment notes the insanity plea was not raised at trial, so 'None noted' overlooks it."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court of Kerala at Ernakulum dismissed the criminal appeal",
+   "page": 5,
+   "reason": "Trial conviction, High Court affirmance and SC dismissal are all supported."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant had confessed to all of them that he had killed his wife",
+   "page": 6,
+   "reason": "Summary of prosecution case and conduct-based inference is consistent with the judgment."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued the entire story was unbelievable, the defence was wrongly discarded, and paranoid schizophrenia impaired the accused's mind at the time.",
+   "quote": "the entire story is unbelievable",
+   "page": 10,
+   "reason": "Insanity argument is covered, but the counsel's contention that the story was unbelievable is omitted."
+  },
+  "legal_principle_applied": {
+   "verdict": "incorrect",
+   "correct_value": "Accused must prove insanity on a preponderance standard, no higher than civil proceedings; a rebuttable presumption of sanity applies.",
+   "quote": "the burden of proof upon him is no higher than that rests upon a party to civil proceedings",
+   "page": 21,
+   "reason": "The standard is not 'beyond reasonable doubt' for the accused; it is civil-level proof."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "R. Vs. Daniel Me Naughten",
+   "page": 14,
+   "reason": "Listed precedents match those relied on in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "the appellant was capable of knowing the nature of the act and the consequences thereof",
+   "page": 22,
+   "reason": "The judgment reasons about conviction and mens rea, not about sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are recognised by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Brutal and callous murder of the wife, per the court's observation",
+   "quote": "Whilst he had brutally and callously committed the murder of his wife",
+   "page": 22,
+   "reason": "The court expressly characterised the murder as brutal and callous, an aggravating observation."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is mentioned."
+  }
+ }
+}

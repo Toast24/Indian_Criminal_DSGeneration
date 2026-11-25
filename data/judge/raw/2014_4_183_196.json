@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "against him and the main accused, namely, the appellant",
+   "page": 1,
+   "reason": "Appellant and second respondent (Ravi Bhatt) are the two accused named."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the main accused, namely, the appellant",
+   "page": 1,
+   "reason": "Male gender is implied by the judgment's pronouns for the accused."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "P.C. Mishra, the then Assistant Commissioner of Sales Tax (Appeals)",
+   "page": 4,
+   "reason": "Occupation is stated directly in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complainant's gender is not stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complainant's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Relationship between accused and complainant is only a bribe-giver/demander link; not otherwise stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bribery under the PC Act is corruption."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "PC Act s.7, s.13(1)(d) r/w s.13(2), s.5(2); Cr.P.C. s.306, s.307, s.460(g), s.164, s.234",
+   "quote": "Section 5(2) of the PC Act deals with all matters pertaining to offences",
+   "page": 7,
+   "reason": "Main provisions listed, but s.5(2) PC Act, s.164, s.234 and s.307 Cr.P.C. are omitted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial evidence; confessional statement under s.164 Cr.P.C.; trap evidence",
+   "quote": "to prove the various missing links in the chain of circumstantial evidence",
+   "page": 5,
+   "reason": "Circumstantial and confession evidence are supported; medical evidence is not mentioned."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the statement of second Respondent under Section 164 Cr.P.C. was recorded on 7.8.1996",
+   "page": 5,
+   "reason": "Section 164 statement is recorded and the second respondent's evidence is relied upon."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he had been convicted by the Special Judge vide his judgment dated 24.5.2010",
+   "page": 9,
+   "reason": "Trial court convicted the appellant on 24.5.2010."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Revision petition dismissed by High Court on 6.11.2008",
+   "quote": "which was dismissed by the High Court vide its order dated 6.11.2008",
+   "page": 7,
+   "reason": "High Court dismissed the appellant's revision; 'Not applicable' contradicts this."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed by Supreme Court; pardon order upheld",
+   "quote": "Appeal lacks merit and the same is dismissed.",
+   "page": 14,
+   "reason": "The appellant was not acquitted; the Supreme Court dismissed his appeal."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "PC Act offences under s.7 and s.13(1)(d) r/w s.13(2) (conviction by Special Judge, 24.5.2010)",
+   "quote": "he had been convicted by the Special Judge vide his judgment dated 24.5.2010",
+   "page": 9,
+   "reason": "The judgment records a conviction by the Special Judge, so 'None' is contradicted."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is stated in the judgment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts should omit the court's holdings and outcome; second respondent was examined as witness (PW9), not the accused, and High Court dismissed the revision.",
+   "quote": "the Supreme Court held that the Metropolitan Magistrate had the power to grant pardon during the investigation, and the order was not a curable irregularity",
+   "page": 14,
+   "reason": "Reveals the holding, wrongly says it was not curable (judgment says curable), and misstates that the accused was examined as witness."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence severity is not stated."
+  },
+  "attempt_completion": {
+   "verdict": "incorrect",
+   "correct_value": "Completed; bribe was accepted (through co-accused Ravi Bhatt on appellant's behalf)",
+   "quote": "were caught red-handed while demanding and accepting the bribe from the complainant",
+   "page": 5,
+   "reason": "Judgment states the bribe was accepted, so the offence was completed, not 'Not stated'."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charges were framed under Sections 7 and 13(1)(d) read with Section 13(2) of the PC Act",
+   "page": 6,
+   "reason": "Charges and sections are described; count is not stated, which matches the value."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Bribe of Rs.4,000 demanded/accepted",
+   "quote": "for demanding Rs.4,000/- as bribe for settling the appeal",
+   "page": 4,
+   "reason": "A Rs.4,000 bribe is stated, so 'Not applicable' is contradicted."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation by the accused is not discussed; the CBI laid a trap, which is not accused planning."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Bribe demanded to settle the appeal against the Sales Tax Officer's order",
+   "quote": "for demanding Rs.4,000/- as bribe for settling the appeal filed against the order of Sales Tax Officer",
+   "page": 4,
+   "reason": "The judgment states the motive: bribe for settling the appeal."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "The Magistrate found the second respondent privy to the offence and considered his evidence necessary to prove missing links; the Supreme Court did not independently assess it.",
+   "quote": "Accused Sh. Ravi Bhatt is a privy to the offence.",
+   "page": 5,
+   "reason": "The privy finding and missing-links rationale are from the Magistrate's order; Supreme Court 'accepted' overstates its role."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment contains no assessment of witness credibility."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; only the arrest date is given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Charges framed 8.2.2000; conviction 24.5.2010; 24.7.2008 was the date of the appellant's application, not evidence conclusion.",
+   "quote": "the latter moved an application under the proviso to s. 234 Cr.P.C. before the Special Judge on 24.7.2008",
+   "page": 6,
+   "reason": "24.7.2008 is the date of the application, not when evidence concluded; evidence closing date is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appellant-in-person. Rajiv Nanda, C.K. Sharma, B.V. Balaram Das, V. Mohana for the Respondents.",
+   "page": 4,
+   "reason": "Matches the judgment's appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "CBI registered R.C. on 29.2.1996; investigation was ongoing; s.164 statement recorded 7.8.1996; pardon application 24.10.1996; pardon order 2.11.1996.",
+   "quote": "during the course of investigation, the witnesses had been examined and records scrutinized",
+   "page": 5,
+   "reason": "Dates are correct, but the investigation is described as ongoing, not culminated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the same is only a curable irregularity, in terms of s. 460 (g) Cr.P.C., which will not vitiate the proceedings, provided the order is passed in good faith",
+   "page": 14,
+   "reason": "Matches the court's treatment of the irregularity under s.460(g)."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court dismissed the appellant's revision petition.",
+   "page": 2,
+   "reason": "Application rejected by Special Judge, revision dismissed by High Court, and appeal dismissed by Supreme Court."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "even if there was some irregularity in the order passed by the Metropolitan Magistrate, that irregularity was a curable irregularity in view of Section 460(g)",
+   "page": 8,
+   "reason": "Matches the CBI's submissions on curable irregularity and Magistrate's power."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no power is conferred on him to grant pardon to second Respondent as the matter is already seized before the Special Judge",
+   "page": 7,
+   "reason": "Matches the appellant's submission that the Magistrate lacked jurisdiction."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "both the Special Judge as well as the Magistrate acting under Section 306 Cr.P.C. have concurrent jurisdiction to entertain application of pardon",
+   "page": 13,
+   "reason": "Matches the court's stated principle on concurrent jurisdiction and good-faith curability."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All listed precedents appear in the judgment as relied on, referred, or cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing is discussed; 'Not applicable' fits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are considered by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are considered by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is made."
+  }
+ }
+}

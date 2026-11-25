@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to four accused throughout, including 'all the four accused'."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "A-1 is referred to with male pronouns ('he told her')."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the motor cyclist was a man aged 50 years",
+   "page": 13,
+   "reason": "Age 50 is an eyewitness estimate of the motorcyclist; no accused age is given. Age 28 has no support."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (A-1 falsely posed as a teacher; PW11 said no such teacher existed in the school)",
+   "quote": "posing himself to be a teacher in a school",
+   "page": 12,
+   "reason": "Judgment shows he posed as a teacher and PW11 denied any teacher named Kiriti Pal existed."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Anjali Goswami is a woman."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": 8,
+   "reason": "Judgment gives no age for the deceased; the value 35 has no support."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Intimate acquaintance/lover (not spouse)",
+   "quote": "developed friendship and intimacy with Anjali",
+   "page": 12,
+   "reason": "Deceased was a widow; A-1 was an intimate friend, not her spouse."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302, s.120B (charged also s.34, s.376(2)(g); Arms Act ss.25, 27, 35 charged; s.25(1)(a)(b) convicted)",
+   "quote": "Section 302/120B/34/376(2)(g) IPC and Sections 25, 27, 35 of the Arms Act",
+   "page": 9,
+   "reason": "Value omits s.376(2)(g), Arms Act provisions and s.34; '1208' appears to mean s.120B."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Improvised country-made single shatter pipe gun and wooden gun butts",
+   "quote": "one improvised country made single shatter pipe gun",
+   "page": 17,
+   "reason": "Judgment identifies a crime weapon recovered at A-1's instance, so 'None mentioned' is wrong."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case is based on circumstantial evidence, as the judgment states."
+  },
+  "confession": {
+   "verdict": "incorrect",
+   "correct_value": "A-1's confessional statement led to recoveries; A-4 gave a s.164 Cr.P.C. statement, held not inculpatory",
+   "quote": "based on his confessional statement, he seized Hero Honda motor cycle",
+   "page": 9,
+   "reason": "Judgment refers to confessional statements by A-1 and A-4, so 'None' is contradicted."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Listed incriminating circumstances match the court's reasoning on last seen, failure to explain, threats and recovery."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are identified by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court sentenced A-1 to death and convicted under s.302."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court upheld s.302 conviction and modified death to life imprisonment."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "A-1's appeal dismissed and conviction confirmed; A-2 to A-4 acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder under s.302 IPC and criminal conspiracy under s.120B IPC (plus Arms Act s.25(1)(a)(b) for A-1)",
+   "quote": "conviction and sentence under Section 302 IPC and 1208 IPC and under Section 25(i)(a)(b) of the Arms Act",
+   "page": 24,
+   "reason": "Value omits the s.120B conspiracy conviction and Arms Act conviction confirmed for A-1."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court modified death sentence to life imprisonment, which the Supreme Court confirmed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment has no fixed term, so null is consistent."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "Rs.5,000 fine imposed by trial court (with default clause)",
+   "quote": "fine of Rs.5,000/-each with default clause",
+   "page": 10,
+   "reason": "Judgment records a Rs.5,000 fine at trial; null omits this stated amount."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "A-1 had intimacy with deceased, was last seen with her, body found next day; prosecution relied on circumstantial evidence; A-1 threatened others and a weapon was recovered at his instance",
+   "quote": "no other evidence was adduced by the prosecution to bring home the guilt of fourth accused",
+   "page": 23,
+   "reason": "Facts are mostly accurate but state that other accused lacked evidence, revealing the acquittal outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the statutory minimum or maximum punishment; the range relies on outside knowledge."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased was murdered and found dead, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment records lacerated wounds on parietal and left frontal areas and other fatal injuries."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "A-1 charged with s.302, s.120B/34, s.376(2)(g) IPC and Arms Act counts; finally upheld for A-1: s.302, s.120B and Arms Act s.25",
+   "quote": "charge sheet was filed against three accused, A 1 to A3 under Section 302/ 120B/34/376(2)(g) IPC",
+   "page": 9,
+   "reason": "Count of 3 is inaccurate; A-1 faced multiple charges and s.120B and Arms Act convictions were also upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss financial or property loss; 'Not applicable' asserts more than the text states."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Conspiracy inferred for A-1 (s.120B upheld); premeditation not expressly found",
+   "quote": "no other evidence was adduced by the prosecution to establish the conspiracy",
+   "page": 21,
+   "reason": "Court did not expressly find premeditation; conspiracy was only confirmed for A-1 and rejected for others."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states prosecution did not adduce evidence of motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's reasoning on last seen, failure to explain, threats and weapon recovery."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on PWs 6, 7, 10 and found PW17's evidence far from convincing."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held A-1's threats to A-4 and PW7 indicated nexus with the offence."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence date, trial judgment dates, High Court date and SC date all match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and State match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR of 12.11.2008, charge sheet against A-1 to A-3 and completed investigation are stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment notes no procedural irregularity."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted A-1 to A-3 under s.302/120B/34/376(2)(g) IPC and Arms Act ss.25(1)(a)(b); A-4 under s.120B IPC",
+   "quote": "For conviction under Section 1208-criminal conspiracy to commit the murder, all the appellants-accused were sentenced",
+   "page": 10,
+   "reason": "Trial court convicted A-4 under s.120B, not s.302; Arms Act sections are overstated."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution's last-seen, recovery, threat and call-record arguments are reflected in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "A-1's counsel contended no motive was attributed and friendship with the deceased alone could not sustain conviction",
+   "quote": "no motive is attributed to the accused",
+   "page": 18,
+   "reason": "Recorded defence argument concerns A-1 and motive; the stated defence about A-2 to A-4 is not in the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Circumstantial evidence principles and mere suspicion point match the judgment's reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cited cases match those referred to in the judgment, including Vivek Kalra."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Conviction upheld as complete chain of circumstances; no separate sentencing reasoning given beyond confirming life sentence",
+   "quote": "We find no substantial ground to interfere with the conviction of the first appellant",
+   "page": 20,
+   "reason": "Reasoning concerns conviction rather than sentencing; it is not framed as sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "that does not mean in all cases of circumstantial evidence if prosecution is unable to prove the motive satisfactorily, the prosecution must fail",
+   "page": 18,
+   "reason": "Court did not treat lack of motive as mitigating; it held absence of motive does not defeat the prosecution."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Incriminating circumstances: temporal proximity, failure to explain, threats, weapon recovery (not expressly framed as sentencing aggravators)",
+   "quote": "The time when Anjali left with first appellant-Kiriti Pal and the time she was found dead is so proximate",
+   "page": 14,
+   "reason": "Circumstances are correctly listed but the court framed them as incriminating evidence, not aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment acquits A-2 to A-4 and directs their release if not required elsewhere."
+  }
+ }
+}

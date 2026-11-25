@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "STATE OF MADHYA PRADESH v. SURENDRA KORI",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "Multiple: respondent plus vendees, vendors, witnesses and deed writer named in the charge-sheet",
+   "quote": "against the respondent and also against persons who got the sale deeds executed",
+   "page": 8,
+   "reason": "Only the respondent is the appellant's target, but the charge-sheet names several other accused persons."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he has misused his position",
+   "page": 9,
+   "reason": "Accused is referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment nowhere states the respondent's age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "Amar Singh s/o Chandar Singh Caste- Rajput, r/o Bamhnala",
+   "page": 5,
+   "reason": "Rajput is the caste of the vendor Amar Singh, not the respondent accused."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the respondent herein, who was functioning as the Deputy Registrar, Khargone",
+   "page": 3,
+   "reason": "Judgment states respondent was Deputy Registrar."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No individual victim is identified; victims are the State and oustees."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused-victim relationship is described."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Cheating, forgery and criminal conspiracy (IPC ss.420, 467, 468, 471, 120-B; Registration Act)",
+   "quote": "offences punishable under Sections 420, 467, 468, 471 read with Sections 34 and 1208 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Criminal breach of trust is never mentioned; charges are cheating, forgery, use of forged documents and conspiracy."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "Registration Act ss.34, 81; IPC ss.420, 467, 468, 469, 471, 34, 120-B",
+   "quote": "420, 467, 468, 469, 471 read with Sections 34 and 120-B of the IPC",
+   "page": 8,
+   "reason": "Value omits IPC s.469, which appears in the charge-sheet; other listed sections are supported."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Documentary evidence (sale deeds, enquiry and inspection reports); handwriting and thumb-impression comparison pending",
+   "quote": "the certified hand writing examination report and the necessary documents and the statement of the district registrar are to be taken",
+   "page": 9,
+   "reason": "No medical evidence or recovery is mentioned; judgment describes documentary and pending forensic evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Magnitude of crime; more than 102 fraudulent sale deeds; loss to State exchequer",
+   "quote": "in view of the magnitude of the crime, the number of documents alleged to have been executed fraudulently",
+   "page": 16,
+   "reason": "Judgment expressly identifies magnitude of crime and number of fraudulent deeds as relevant factors."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states no mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a final report (charge-sheet No. 546 of 2007) was submitted under Section 173(8) Cr.P.C. before the Court",
+   "page": 8,
+   "reason": "Charge-sheet filed; no trial outcome has been reached."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court quashed FIRs, charge-sheets and criminal cases under s.482 CrPC",
+   "quote": "in exercise of its powers under Section 482 CrPC quashed the First Information Reports and the charge-sheets",
+   "page": 3,
+   "reason": "High Court did act; it quashed the FIRs and charge-sheets, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Supreme Court allowed the State's appeals and set aside the High Court judgments; no conviction",
+   "quote": "The criminal appeals are accordingly allowed and the judgments of the High Court are set aside.",
+   "page": 16,
+   "reason": "Respondent was never convicted; the matter goes back to trial with prima facie observations only."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "None established; only prima facie allegations for trial",
+   "quote": "We make it clear that whatever we have stated above are only prima facie observations",
+   "page": 16,
+   "reason": "No offence was finally established; the court expressly limited its observations to prima facie views."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Not applicable (no sentence imposed)",
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed; the judgment only quashes or restores proceedings."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": null,
+   "quote": "shall be punishable with imprisonment for a term which may extend to seven years",
+   "page": 16,
+   "reason": "Seven years is the maximum punishment under s.81, not a sentence imposed on the respondent."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine was imposed, so null is consistent with the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral summary of facts without outcome; the accused was charged with cheating, forgery and conspiracy, not breach of trust",
+   "quote": "the Supreme Court overturned this decision, stating that the High Court should not have quashed the proceedings",
+   "page": 16,
+   "reason": "Summary reveals the court outcome and wrongly states breach of trust was charged."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shall be punishable with imprisonment for a term which may extend to seven years, or with fine, or with both",
+   "page": 16,
+   "reason": "Matches the penalty stated for s.81 of the Registration Act."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "more than 102 sale deeds relating to the same transaction were executed",
+   "page": 13,
+   "reason": "Judgment states the sale deeds were executed and registered."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "more than 102 sale deeds relating to the same transaction were executed",
+   "page": 13,
+   "reason": "Supported by the judgment's statement on the number of deeds."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "putting the government in financial loss of Rs.339857/-",
+   "page": 9,
+   "reason": "Loss figure of Rs.3,39,857 is stated in the FIR and charge-sheet."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the respondent has also conspired and abetted the crime",
+   "page": 14,
+   "reason": "Judgment records the allegation of conspiracy and abetment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the forged sale deeds were executed for unlawful gain",
+   "page": 14,
+   "reason": "Unlawful gain is the stated motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Prima facie allegations only; the court did not accept the evidence and left involvement to be decided at trial",
+   "quote": "the question of involvement of respondent has to be finally decided depending upon the evidence in the case",
+   "page": 14,
+   "reason": "Court only noted prima facie allegations and did not accept evidence as proving involvement."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "The allegations raised in the charge-sheets are prima facie allegations and the question of involvement of respondent has to be finally decided depending upon the evidence",
+   "page": 14,
+   "reason": "The judgment assesses no witness credibility; that is left to the trial."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The respondent was suspended from the service",
+   "page": 14,
+   "reason": "Suspension is administrative action, not stated as post-offence conduct; no conduct is otherwise described."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "{\"dates_of_offence\": \"1.4.2005 to 31.3.2007\", \"trial_judgment\": \"Not stated\", \"high_court_decision\": \"22.01.2009\", \"supreme_court_decision\": \"26 September 2012\"}",
+   "quote": "during the period from 1.4.2005 to 31.3.2007",
+   "page": 13,
+   "reason": "Offence period, High Court judgment date and Supreme Court date are stated, not 'Not stated'."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "{\"accused\": \"Ardhendumauli Kumar Prasad\", \"state\": \"Sidharth Dave, Abhimanyu Singh, C.D. Singh\"}",
+   "quote": "Sidharth Dave, Abhimanyu Singh, C.D. Singh for the Appellant. Ardhendumauli Kumar Prasad for the Respondent.",
+   "page": 3,
+   "reason": "Counsel assignments are swapped: Dave and others appeared for the State."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "investigation is still going on, after finishing which the full charge sheet will be submitted separately",
+   "page": 9,
+   "reason": "Charge-sheet filed and investigation continuing is stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the provisions of Section 64 of the Registration Act was not followed",
+   "page": 14,
+   "reason": "Identity verification, s.64 non-compliance and missing PAN numbers are all supported."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "{\"trial_court\": \"Not stated\", \"high_court\": \"High Court quashed FIRs and charge-sheets under s.482 CrPC\", \"supreme_court\": \"Supreme Court allowed appeals and set aside High Court judgments\"}",
+   "quote": "the judgments of the High Court are set aside",
+   "page": 16,
+   "reason": "High Court entry wrongly says it set aside judgments; it was the Supreme Court that did so."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Registrar is also instrumental in aiding the execution of several sale deeds by fictitious persons",
+   "page": 10,
+   "reason": "Summary matches State's arguments on instrumentality, loss and need for evidence."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the respondent, in the capacity of the Sub-Registrar ... was bound to register the documents",
+   "page": 10,
+   "reason": "Defence argument on registration duty and lack of knowledge is accurately summarised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "inherent jurisdiction under the section though wide has to be exercised sparingly, carefully and with caution",
+   "page": 12,
+   "reason": "Principle of sparing use of s.482 is stated in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "M.M.T.C. Ltd.; State of Orissa v. Saroj Kumar Sahoo; Eicher Tractors v. Harihar Singh (relied on); Jambu Prasad (referred to only)",
+   "quote": "Jambu Prasad v. Mohammad Nawab Aftab Ali Khan AIR 1941 PC 16 referred to",
+   "page": 2,
+   "reason": "Jambu Prasad was only referred to, not relied upon, and the value lists it as relied upon."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so 'Not applicable' is consistent."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Magnitude of crime; number of fraudulently executed documents; respondent's involvement",
+   "quote": "in view of the magnitude of the crime, the number of documents alleged to have been executed fraudulently, the reports referred to in the charge-sheets and the involvement of the respondent",
+   "page": 16,
+   "reason": "Court expressly lists magnitude, number of documents and involvement as reasons for proceeding."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is made; appeals allowed and HC judgments set aside."
+  }
+ }
+}

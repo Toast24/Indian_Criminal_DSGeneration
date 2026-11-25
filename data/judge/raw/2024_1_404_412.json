@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states four accused persons were sent for trial."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are male; A4 is described as 'his son' of A3 and referred to with male pronouns."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused religion is not stated; names alone do not state it."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused caste is not stated in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused occupation is stated in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status of the accused is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record of the accused is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Akbar is male, referred to as the informant's brother and 'his house'."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to victim; prior fight and previous enmity between the parties, with the victim's side related to a complainant witness",
+   "quote": "to teach a lesson in connection with a fight broke between them a day before",
+   "page": 4,
+   "reason": "Judgment shows a prior fight and previous enmity, so the parties were not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under Section 302 IPC, with death of Akbar."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sections 302/34 and 323/34 are the provisions in the convictions discussed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment identifies pharsa, kulhari and lathi as the weapons used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Medical evidence, eyewitness testimony and weapon recoveries are all discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by any accused is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment records previous enmity between the parties as material on record."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted A1-A3 under Sections 302 and 323 read with 34 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court acquitted A1 of s.302/34 but convicted him under s.323/34; dismissed A2's appeal, upholding conviction under s.302 and 323 r/w 34",
+   "quote": "the appeal preferred by Mohd. Yunus was allowed in part acquitting him of the charges under Section 302 read with Section 34 of the IPC",
+   "page": 3,
+   "reason": "High Court did decide the appeals; the value wrongly says not applicable."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "A2 convicted only under s.323 r/w 34 (s.302/34 set aside); A1 convicted under s.323 and acquitted of s.302/34; A4 acquitted",
+   "quote": "Criminal Appeal No. 1308 of 2012 partly allowed and Criminal Appeal No. 1307 of 2012 dismissed.",
+   "page": 9,
+   "reason": "'Convicted' is incomplete; outcomes differ per accused and the s.302 conviction was set aside."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Section 323 r/w 34 IPC is the only conviction maintained at the end."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "A2 sentenced to rigorous imprisonment for a fixed six months."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Six months imprisonment equals 0.5 years."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Accused and victim were known to each other with prior fight and enmity; summary should not state court's findings on recovery and credibility",
+   "quote": "to teach a lesson in connection with a fight broke between them a day before",
+   "page": 4,
+   "reason": "Says parties were strangers, contrary to the prior-fight facts; also states court findings on recovery and credibility."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the punishment range for Section 302; value is outside knowledge."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Injuries caused death, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment records death of Akbar and injuries to Deenu, Ahmad and Harun (son of PW1)."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Two convictions remained: A2 under s.323 r/w 34 and A1 under s.323; s.302/34 conviction of A2 was set aside",
+   "quote": "Accordingly, we set aside the impugned judgment of the High Court and the Trial Court convicting the appellant-Mohd. Jamil (A2) for offence under Section 302 read with Section 34 IPC.",
+   "page": 9,
+   "reason": "Value wrongly says A2's s.302 conviction was finally upheld; the Supreme Court set it aside."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is stated in the judgment."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Previous fight a day before and previous enmity between the parties",
+   "quote": "to teach a lesson in connection with a fight broke between them a day before",
+   "page": 4,
+   "reason": "Judgment identifies motive as a prior fight and enmity, not unidentified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found weapon recoveries unproved and eyewitness statements unreliable for s.302 conviction."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court disbelieved Deenu (PW-7) and Ahmad (PW-8) for contradictions, twisting and improvements."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "A2 has already undergone more than six months' sentence as per custody certificate",
+   "quote": "As per the custody certificate, he has already undergone sentence for more than six months.",
+   "page": 9,
+   "reason": "Judgment does state custody duration; value says not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states A2 was on bail during the appeal and bail bonds were discharged."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence date, trial judgment, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the Appearances for Parties list in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR No. 10 dated 09.01.1999; charge sheet against A4 filed 01.04.2003; trial concluded",
+   "quote": "charge sheet was submitted on 01.04.2003",
+   "page": 3,
+   "reason": "FIR date correct, but the 2003 charge sheet relates to A4's separate trial and is not stated as general."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court rejected the ante-timed FIR argument; no irregularity is found by the court."
+  },
+  "appeal_history": {
+   "verdict": "incorrect",
+   "correct_value": "Trial court convicted A1 under ss.302 and 323 r/w 34; High Court reduced A1's conviction to s.323 and acquitted him of s.302/34; SC set aside A2's s.302/34 conviction",
+   "quote": "Upon their conviction by the Trial Court, Mohd. Yunus (A1), Mohd. Jamil (A2) and Ghasita (A3) preferred appeal",
+   "page": 6,
+   "reason": "Trial court convicted A1 under s.302 and 323 r/w 34, not s.323 alone."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the State's submissions on unimpeachable evidence and on A1's acquittal under s.302/34."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the defence points on ante-timed FIR, interested witnesses and doubtful informant presence."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's stated principle on untrustworthy eyewitnesses and need for corroboration."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "s.302 conviction set aside as evidence unsafe; s.323 conviction maintained in view of evidence on record; sentence of six months RI kept",
+   "quote": "However, in view of the evidence on record conviction of appellant-Mohd. Jamil for the offence under Section 323 read with Section 34 IPC is not required to be interfered.",
+   "page": 9,
+   "reason": "Broadly right, but omits the evidence-on-record basis and overstates the sentencing link."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are expressly identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are expressly identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Bail bonds of A2 discharged",
+   "quote": "his bail bonds are discharged",
+   "page": 9,
+   "reason": "Judgment does state a further order discharging A2's bail bonds."
+  }
+ }
+}

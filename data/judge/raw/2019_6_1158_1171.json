@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant accused is the subject of the appeal."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as 'he' and 'his' throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused appears anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states appellant worked as Manager in Bank of Baroda, Faridabad Branch."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's gender is not stated; allottee is named but not characterised as victim."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No relationship between accused and victim is described."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Forgery and cheating-related offences (criminal breach of trust, conspiracy, forgery)",
+   "quote": "forged the account opening form",
+   "page": 5,
+   "reason": "Forgery is central, but charges also include cheating, criminal breach of trust and conspiracy."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss. 201, 409, 419, 420, 467, 468, 471, 120-B (FIR); charge framed under IPC ss. 465, 120-B; CrPC s. 197",
+   "quote": "Section 465/120-B I.P.C.",
+   "page": 4,
+   "reason": "Lists only the charged sections; omits the FIR sections and CrPC s. 197 central to the appeal."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Forensic science laboratory handwriting report; handwriting expert opinion",
+   "quote": "Investigation agency also obtained report dated 30.12.2002 from Forensic Science Laboratory regarding handwriting",
+   "page": 4,
+   "reason": "FSL handwriting report is correct, but no medical evidence is mentioned."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment is silent on any confession; 'None' asserts an absence it does not state."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge framed under IPC s. 465 and s. 120-B on 13.12.2014 is stated."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Section 482 application dismissed; CMM orders upheld",
+   "quote": "The High Court vide the impugned judgment dismissed the application filed under Section 482 Cr.P.C.",
+   "page": 6,
+   "reason": "High Court did have an outcome: it dismissed the s. 482 petition, not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal partly allowed: s. 197 rejection upheld, forgery observations deleted; no conviction",
+   "quote": "The appeal is partly allowed to the extent indicated above.",
+   "page": 14,
+   "reason": "No conviction is recorded; the trial is pending and only observations were deleted."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "the observations made by CMM in its order, as noted above, are deleted",
+   "page": 14,
+   "reason": "No offence was established; the forgery finding was deleted as premature."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment is mentioned."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is mentioned."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only: appellant, a bank manager, is charged over a fictitious account opened in Gautam Dhar's name; the court's rejection of his s. 197 plea is omitted",
+   "quote": "The Supreme Court affirmed this, noting that the accused was not a public servant removable from his office",
+   "page": 14,
+   "reason": "Reveals the Supreme Court's outcome, which neutral facts must not do; also states forgery as proven."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence severity is not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Attempt versus completion is not discussed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Multiple charges framed; none finally established",
+   "quote": "charge was framed against the appellant under Section 465/120-B I.P.C.",
+   "page": 4,
+   "reason": "Nothing was upheld; the Supreme Court only upheld rejection of the s. 197 plea."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Refund cheque of Rs.2,22,263/- withdrawn via the fictitious account is stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation finding is made; conspiracy is only alleged in the charge."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "No evidence accepted; FSL report's evidentiary value left to be assessed at trial",
+   "quote": "Its evidentiary value was still to be gone into at the time of trial",
+   "page": 11,
+   "reason": "Quote is accurate but the court accepted no evidence; it reserved evidentiary value for trial."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "Court made no credibility finding; it noted expert handwriting opinion is not conclusive, and appellant argued it was weak",
+   "quote": "opinion of a handwriting expert is only an opinion evidence, which is a weak nature of evidence",
+   "page": 7,
+   "reason": "The 'weak evidence' characterisation was the appellant's submission, not the court's assessment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct of the accused is not discussed; the introducer's absconding is not attributed to him."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "FIR 15.11.2000 (complaint 14.11.2000); charge framed 13.12.2014; HC order 06.08.2018; SC decision 30.04.2019; trial not concluded",
+   "quote": "Trial judgment: 13.12.2014",
+   "page": 4,
+   "reason": "13.12.2014 was the charge framing, not a trial judgment; 14.11.2000 is the complaint date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for appellant and respondent are listed as in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "incorrect",
+   "correct_value": "FIR registered; charge sheet and supplementary charge sheet filed; charges framed, trial pending",
+   "quote": "Case was fixed for framing of charge on 13.12.2014",
+   "page": 4,
+   "reason": "Trial has not been completed; charges were only framed and the matter is pending."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "CMM recorded a conclusive finding of forgery before trial, which the Supreme Court deleted",
+   "quote": "The observation made by CMM by giving opinion using the expression that appellant has committed forgery ought to have been avoided.",
+   "page": 12,
+   "reason": "The court identified the CMM's premature forgery observation as an irregularity."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial-level application rejected, High Court s. 482 dismissed, Supreme Court partly allowed, all consistent with the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued s. 197 CrPC did not apply because forgery is not an act in official duty (Parkash Singh Badal); CMM rejection was right",
+   "quote": "the allegations against him are allegations of forgery, which allegations cannot be held to be performed in exercise of official duty",
+   "page": 7,
+   "reason": "Second half is right, but the public-servant sanction argument was the appellant's, not the prosecution's."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant argued he was a public servant needing s. 197 sanction; forgery finding was premature; handwriting opinion weak",
+   "quote": "It is submitted that appellant has been held guilty before even trial has proceeded.",
+   "page": 7,
+   "reason": "Premature-forgery and weak-expert points are right, but the 'not a public servant' argument was the court's holding, not the defence's."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Section 197 applicability and the Magistrate's duty to avoid conclusive pre-trial opinions match the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All listed precedents are cited in the judgment as relied upon or referred to."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred, so 'Not applicable' is appropriate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence order exists; only CMM observations were deleted."
+  }
+ }
+}

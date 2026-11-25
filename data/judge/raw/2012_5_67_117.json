@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "3 charged; only 2 faced trial (third absconding)",
+   "quote": "Only two accused faced the trial as the third accused was absconding.",
+   "page": 4,
+   "reason": "Three were charged, but the value omits that only two were tried."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Govindaraju @ Govinda... he would indulge in committing such a heinous crime.",
+   "page": 41,
+   "reason": "Accused is referred to in male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is mentioned for the accused."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is mentioned for the accused."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the victim was not able to talk",
+   "page": 13,
+   "reason": "Victim is referred to as male (e.g., 'his' identity card, 'him' to hospital)."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The '30' in the judgment refers to yards, not the victim's age."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is mentioned for the victim."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is mentioned for the victim."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to each other; prior fight and mutual police complaint between accused 'GR' and deceased",
+   "quote": "a man named 'GR' and the deceased had lodged Police complaint that there was a fight between them",
+   "page": 10,
+   "reason": "Judgment shows a prior dispute and complaints between accused and deceased, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Penal Code, 1860 - s. 302 r/w s. 34 ... Appellant ... charged with offence u/s. 302",
+   "page": 1,
+   "reason": "Offence is murder under s.302 IPC read with s.34."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302 r/w. s. 34 IPC",
+   "page": 4,
+   "reason": "Sections 302 and 34 IPC are the charged provisions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "recovered the knives with which the deceased was assaulted",
+   "page": 20,
+   "reason": "Knife (chaku) is the weapon used."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness (sole police eye-witness), medical (post-mortem), recovery/seizure, forensic (FSL) evidence",
+   "quote": "The post mortem report clearly establishes injuries by knife.",
+   "page": 13,
+   "reason": "Eyewitness, medical and recovery evidence are present, but circumstantial evidence is not framed as such and FSL evidence is omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is recorded; only disclosure-led recoveries are described."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No formal aggravating circumstances are recorded by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are recorded."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The trial court acquitted both the appellant-'GV' and 'GR'",
+   "page": 4,
+   "reason": "Trial court acquitted the accused under s.302 r/w s.34."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced him to civil imprisonment for life and fine of Rs.10,000/-",
+   "page": 21,
+   "reason": "High Court convicted and sentenced life imprisonment and Rs.10,000 fine."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we allow the present appeal acquitting the appellant of the offence under Section 302 IPC",
+   "page": 51,
+   "reason": "Supreme Court acquitted the appellant."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was finally established against the appellant."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment was imposed following acquittal."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment term applies after acquittal."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine applies after acquittal; the Rs.10,000 fine was set aside."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without the court's outcome, e.g. the Supreme Court reviewed the High Court's conviction of one accused on appeal",
+   "quote": "The Supreme Court ultimately acquitted the accused, finding the prosecution's case to be improbable and lacking in credibility.",
+   "page": 51,
+   "reason": "Summary reveals the court's outcome and reasoning, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the minimum or maximum punishment range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the victim was declared dead",
+   "page": 20,
+   "reason": "Murder was completed with the victim's death."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there were as many as 10 injuries on the person of the deceased",
+   "page": 45,
+   "reason": "Multiple stab injuries caused the death."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Number of offences/counts charged: 1; Number finally upheld: 0",
+   "quote": "we allow the present appeal acquitting the appellant of the offence under Section 302 IPC",
+   "page": 51,
+   "reason": "The single s.302 count was not upheld; the appellant was acquitted."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not address property loss; 'Not applicable' asserts more than the text says."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified; only a prior fight is mentioned."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the statement of the sole witness, the Police Officer, PW1, is not reliable and worthy of credence",
+   "page": 51,
+   "reason": "Accurately reflects the court's assessment of the key evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the statement of the sole witness, the Police Officer, PW1, is not reliable and worthy of credence",
+   "page": 51,
+   "reason": "Accurately reflects the court's credibility assessment of PW1 and other witnesses."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused fled from the scene after being warned of police approach and escaped into the conservancy",
+   "quote": "they ran away from the spot",
+   "page": 3,
+   "reason": "Judgment records the accused running away and escaping, which is post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Bail and surety bonds were furnished; to be discharged on acquittal (no detailed history)",
+   "quote": "his bail and surety bonds shall stand discharged",
+   "page": 51,
+   "reason": "Judgment shows bail and surety bonds existed, though details of bail history are absent."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The value gives procedural history, not trial duration, which the judgment does not state."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant: Rajesh Mahale, Krutin R. Joshi; Respondents: Anitha Shenoy, Hetu Arora",
+   "quote": "Rajesh Mahale, Krutin R. Joshi of the Appellant. Anitha Shenoy, Hetu Arora for the Respondents.",
+   "page": 19,
+   "reason": "Counsel names are stated in the judgment, not absent."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW11 filed the charge-sheet against the accused",
+   "page": 4,
+   "reason": "FIR, charge-sheet and completed trial are all described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The memos did not bear the signatures of the accused upon their disclosure statements.",
+   "page": 12,
+   "reason": "Lists the non-examination, medical, recovery defects and hostile witnesses noted by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court declined the leave to appeal against the judgment of acquittal in favour of 'GV' and granted the leave to appeal against 'GR'.",
+   "page": 4,
+   "reason": "Trial acquittal, HC conviction of one accused, and SC acquittal are accurately recorded."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued it was not a false implication case, the timeline proved truthfulness, panchas admitted signatures, and collective evidence proved guilt beyond reasonable doubt",
+   "quote": "it is not a case of false implication",
+   "page": 23,
+   "reason": "Omits the State's actual arguments; the 'reasonable doubt' point is the court's conclusion, not the prosecution's argument."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued false implication, police officer as interested sole witness, hostile witnesses, defective s.27 recovery, no medical or scientific support, and co-accused's acquittal favouring appellant",
+   "quote": "the appellant Govindaraju @ Govinda has been falsely implicated in the case",
+   "page": 21,
+   "reason": "Captures main points but omits false implication and the co-accused acquittal argument."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "interference by the Court is justifiable only when a clear distinction is kept between perversity in appreciation of evidence and merely the possibility of another view",
+   "page": 5,
+   "reason": "Accurately states the appellate standard for interfering with acquittal."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Girja Prasad (2007) 7 SCC 625; State of Rajasthan v. Shera Ram (2012) 1 SCC 602; C. Antony (2003) 1 SCC 1; Bhim Singh Rup Singh (1974) 3 SCC 762; Takhaji Hiraji (2001) 6 SCC 145; Yakub Ismailbhai Patel (2004) 12 SCC 229; State of NCT Delhi v. Sunil (2001) 1 SCC 652",
+   "quote": "Girja Prasad (Dead) By LRs. v. State of M.P. [(2007) 7 SCC 625]",
+   "page": 5,
+   "reason": "Lists some relied-upon cases but omits Antony, Bhim Singh, Sunil; also has a citation typo."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "No sentence finally imposed; HC convicted and sentenced 'GR' to life and fine, but SC acquitted as prosecution failed to prove case beyond reasonable doubt",
+   "quote": "The prosecution must prove its case beyond any reasonable doubt.",
+   "page": 51,
+   "reason": "Wrongly treats a final sentence as imposed; mixes the High Court's rationale with the Supreme Court's acquittal reasoning."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss mitigating factors; 'None' asserts a finding not made."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The court calls the crime 'heinous' but records no aggravating factors; 'None' asserts more than the text says."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He be set at liberty forthwith and his bail and surety bonds shall stand discharged.",
+   "page": 51,
+   "reason": "Accurately reflects release and discharge of bail bonds."
+  }
+ }
+}

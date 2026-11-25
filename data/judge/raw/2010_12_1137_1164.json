@@ -1,0 +1,385 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two accused: husband and mother-in-law of the deceased."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Mixed (one male husband, one female mother-in-law)",
+   "quote": "the husband and mother-in-law of the deceased have been accused of the offences",
+   "page": 5,
+   "reason": "Accused include a female mother-in-law, so 'Male' alone is incomplete."
+  },
+  "accused_age": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "The deceased was aged about 24 years",
+   "page": 12,
+   "reason": "The age of 24 belongs to the deceased, not the accused; the accused's ages are not stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's religion is not stated in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's caste is not stated in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not stated; only the father-in-law's employment is mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim is a bride, i.e., female."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased was aged about 24 years."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Spouse (husband) and mother-in-law",
+   "quote": "the husband and mother-in-law of the deceased have been accused",
+   "page": 5,
+   "reason": "Only the husband is a spouse; the mother-in-law's relationship is omitted."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is dowry death under s.304-B IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sections 304-B and 498-A IPC and s.4 Dowry Prohibition Act are the provisions applied."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Ligature (half-burnt cloth with knot) used for strangulation; kerosene used for burning",
+   "quote": "the constricting material used by the accused for compressing the neck of the deceased",
+   "page": 21,
+   "reason": "Judgment identifies a cloth ligature and kerosene as the means used, not 'none mentioned'."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case is based on circumstantial, medical and recovery evidence, plus oral testimony."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry demand, persistent cruelty, strangulation and burning are all supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state any mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court acquitted the accused."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court convicted the accused under the relevant provisions."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so the accused stand convicted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry death under s.304-B IPC is held established, with s.498-A and s.4 also upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court awarded life imprisonment under s.304-B, upheld by the Supreme Court."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "Life (s.304-B); 3 years rigorous (s.498-A); 6 months rigorous (s.4 DP Act), concurrent",
+   "quote": "awarded life sentence under Section 304B IPC, 3 years rigorous imprisonment under Section 498A, and six months rigorous imprisonment under Section 4",
+   "page": 10,
+   "reason": "Null omits the stated 3-year and 6-month terms for the other offences."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Neutral facts only: accused husband and mother-in-law; bride died by strangulation and burns in matrimonial home; Maruti car dowry demand; procedural history without the final findings.",
+   "quote": "The accused were found to have committed the crime, with the mother-in-law falsely reporting the death as a suicide.",
+   "page": 10,
+   "reason": "Facts are largely accurate but reveal the court's findings and outcome, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentences described (life, 3 years, 6 months) are supported by the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The bride died; the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death by strangulation and burn injuries is supported."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Three: ss.304-B and 498-A IPC, and s.4 Dowry Prohibition Act, upheld",
+   "quote": "The accused are established to have committed the offences under Sections 498-A and 304 B IPC and under Section 4 of Dowry Prohibition Act",
+   "page": 28,
+   "reason": "Three provisions were upheld, not two."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is claimed; the issue is dowry demand."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found the crime committed with preplanning and a false report to mislead the police."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive is the persistent demand for a Maruti car as dowry."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted the circumstantial evidence and testimony on dowry demand, cruelty, strangulation and burning."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "PW 1 (father) and PW 2 (Jaideo Awasthi, a close relative of PW 1, son-in-law of PW 1's aunt), found credible",
+   "quote": "Jaideo Awasthi PW 2 (son-in law of Bua of Surya Kant)",
+   "page": 14,
+   "reason": "PW 2 is a close relative of PW 1, not the deceased's son-in-law."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused absconded and surrendered on 7.11.2000 and 13.11.2000; court found this not normal conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Supreme Court granted bail to the appellants on 27.10.2005; bail bonds were later cancelled and they were ordered into custody",
+   "quote": "On 27.10.2005 this Court had granted bail to the appellants. Their bail bonds are cancelled.",
+   "page": 28,
+   "reason": "The judgment does state bail history, so 'Not stated' is wrong."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates of FIR, High Court judgment and Supreme Court judgment match the text."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for appellants and respondent match the judgment's listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR lodged, charge sheet filed, and trial completed are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "No s.302 charge framed despite a s.302-type case; trial judge treated non-production of the knot as against prosecution",
+   "quote": "since no charge under Section 302 IPC was levelled, we cannot do so",
+   "page": 11,
+   "reason": "Judgment notes irregularities: no s.302 charge framed and the trial judge's erroneous knot finding."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial acquittal, High Court conviction, and Supreme Court dismissal are all supported."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Judgment does not record prosecution submissions; the points reflect the court's own findings on strangulation, burning, dowry demand, and recoveries.",
+   "quote": "The theory of suicide put forth by the defence completely falls through",
+   "page": 22,
+   "reason": "Presented as counsel's argument, but the judgment records these as the court's findings, not prosecution submissions."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence put forward suicide and an alibi; the 'superfluous approach' and knot points were the court's own findings against the trial court.",
+   "quote": "The theory of suicide put forth by the defence completely falls through",
+   "page": 22,
+   "reason": "Suicide theory is supported, but the trial court criticism and knot point are the Supreme Court's own findings."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Kunhiabdulla ingredients of s.304-B and 'soon before' proximity test are applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Kunhiabdulla v. State of Kerala, 2004 (4) SCC 13 (2004 (2) SCR 853); Bachan Singh v. State of Punjab, AIR 1980 SC 898; Balwant (distinguished)",
+   "quote": "As held by the Apex Court in the case of Kunhiabdulla Versus State of Kerala, 2004 (4) SCC 13",
+   "page": 13,
+   "reason": "Bachan Singh and Balwant are omitted."
+  },
+  "sentencing_rationale": {
+   "verdict": "incorrect",
+   "correct_value": "Death sentence not imposed because no s.302 charge was framed; sentence upheld, though such cases are rarest of rare",
+   "quote": "it was really a case under Section 302 IPC and death sentence should have been imposed in such a case, but since no charge under Section 302 IPC was levelled, we cannot do so",
+   "page": 11,
+   "reason": "Court did not impose death; it upheld the High Court sentence because no s.302 charge was framed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "death sentence should have been imposed in such a case",
+   "page": 11,
+   "reason": "Judgment discusses no mitigating factors; 'None' is an inference, not a stated finding."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Brutal and barbaric nature, persistent dowry demand, premeditation, and multiple perpetrators are supported."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail bonds cancelled, custody ordered, and impleadment application allowed."
+  },
+  "legal_principle_applied_dummy": null
+ }
+}

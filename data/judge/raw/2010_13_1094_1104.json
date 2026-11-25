@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading and caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant's conviction under Section 493 IPC",
+   "page": 4,
+   "reason": "Judgment refers to a single appellant and single accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant assured her that he would marry her",
+   "page": 5,
+   "reason": "Accused is referred to as male throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is mentioned."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not stated; Oraon community reference concerns local custom only."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "B.D.O. (accused's posting)",
+   "quote": "as B.D.O., particularly at Churchur Block",
+   "page": 8,
+   "reason": "Accused is B.D.O.; the Sub Divisional Agriculture office was the complainant's employment, not the accused's."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "any woman who is not lawfully married to him",
+   "page": 4,
+   "reason": "Victim is female, as the section and facts describe a woman complainant."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Cohabiting partners; not lawfully married",
+   "quote": "although they had not been married according to the rituals",
+   "page": 8,
+   "reason": "Judgment finds they were not lawfully married; 'Spouse' contradicts this, though the victim was treated as wife."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Cohabitation caused by deceitful inducement of belief of lawful marriage (s. 493 IPC)",
+   "quote": "Cohabitation caused by a man deceitfully inducing a belief of lawful marriage",
+   "page": 4,
+   "reason": "Offence is under s. 493 IPC, not culpable homicide; no homicide is involved."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 493 of the Indian Penal Code states as under",
+   "page": 4,
+   "reason": "Section 493 IPC is the offence provision under consideration."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in view of the oral and documentary evidence on record",
+   "page": 9,
+   "reason": "Judgment relies on oral testimony of witnesses and documentary exhibits."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession of guilt is recorded; only admissions of cohabitation and documents."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are formally identified."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are formally identified."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant's conviction under Section 493 IPC by the trial Court has been upheld",
+   "page": 4,
+   "reason": "Trial court convicted the accused under s. 493 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction upheld in criminal revision",
+   "quote": "Judgment & Order dated 08.09.2005 of the High Court of Jharkhand at Ranchi in Cr. Rev. No. 788 of 2005",
+   "page": 3,
+   "reason": "High Court outcome is stated: it upheld the conviction, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Split verdict; referred to Chief Justice of India for another Bench",
+   "quote": "let the papers of this case be placed before Hon'ble the Chief Justice of India for sending the matter before another Bench",
+   "page": 6,
+   "reason": "Katju J. favoured acquittal, Misra J. favoured conviction; no final acquittal was entered."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Not finally determined; Misra J. held s. 493 established, Katju J. held not established",
+   "quote": "the ingredients under Section 493 IPC is well established and the offence under the said Section is clearly made out",
+   "page": 9,
+   "reason": "One judge found the offence established; the bench split, so 'None' is incomplete."
+  },
+  "imprisonment_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state any sentence imposed; 'none' is not supported."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term of imprisonment imposed is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount is stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Parties cohabited nine years and had two children; accused executed marriage agreement and filed SMA application; accused disputed the agreement.",
+   "quote": "had two children - a son and a daughter",
+   "page": 4,
+   "reason": "Says 'had a child' though there were two children; 'claimed the victim was not his wife' is not stated."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine",
+   "page": 4,
+   "reason": "Statutory punishment under s. 493 is accurately reflected."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they cohabited together and had two children",
+   "page": 4,
+   "reason": "Cohabitation occurred, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "One offence (s. 493 IPC)",
+   "quote": "guilty of an offence u/s 493",
+   "page": 2,
+   "reason": "Gives a charging description rather than a count; 'charged' is not stated in the judgment."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not stated as a finding."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No specific motive of the accused is identified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there were sufficient documentary evidence to induce a belief to the complainant lady that she had been lawfully married",
+   "page": 8,
+   "reason": "Matches the reasoning of Misra J. on documentary evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "wherein he accepted her as his wife in writing in presence of the witnesses",
+   "page": 8,
+   "reason": "Matches the description of witnesses supporting the relationship."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused later refused to accept complainant as wife and drove her out",
+   "quote": "the appellant later refused to accept her as his wife and drove her out",
+   "page": 9,
+   "reason": "Judgment reports the accused driving her out; 'Not stated' overlooks this conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "NOVEMBER 24, 2010",
+   "page": 1,
+   "reason": "Dates match: High Court order 08.09.2005 and Supreme Court judgment 24.11.2010; offence and trial dates not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Deba Prasad Mukherjee for the Appellant. Ratan Kumar Chaudhari for the Respondent",
+   "page": 3,
+   "reason": "Counsel names match the judgment, allowing for OCR spelling."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial completed; charge sheet not mentioned",
+   "quote": "the trial Court has been upheld",
+   "page": 4,
+   "reason": "Trial completion is supported; the charge sheet filing is not mentioned in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted; first appellate court upheld; High Court upheld in revision; SC split and referred to CJI",
+   "quote": "the judgments and orders of the trial court, first appellate court and the High Court",
+   "page": 2,
+   "reason": "Omits the first appellate court's affirmance, which the judgment expressly records."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in support of the prosecution case that the accused/appellant deceitfully induced a belief of lawful marriage",
+   "page": 9,
+   "reason": "Matches the prosecution case as recorded by Misra J."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused disputed the agreement; judgment does not record a registration-based defence argument",
+   "quote": "The appellant has disputed this agreement.",
+   "page": 4,
+   "reason": "Dispute over the agreement is stated; the registration and ceremony arguments are not recorded as defence submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A criminal statute has to be construed strictly. Unless all its ingredients are satisfied the person cannot be punished",
+   "page": 6,
+   "reason": "Matches Katju J.'s stated principle on strict construction."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "supported by the decisions in Moideenkutty Haji and others Vs. Kunhikoya and others, AIR 1987 Kerala 184 and Dr. A.N. Mukerji Vs. State, AIR 1969 Allahabad 489",
+   "page": 6,
+   "reason": "Both precedents are cited as supporting the view taken."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given since no sentence is discussed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing order is made; only referral to the Chief Justice."
+  }
+ }
+}

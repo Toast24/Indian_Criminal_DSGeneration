@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two accused, the appellant and her husband, are named and convicted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "One accused is a woman and one is a man, so mixed is supported."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated for either accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Head Constable in the Punjab Police (husband, Ginder Singh)",
+   "quote": "Ginder Singh who was a Head Constable in the Punjab Police",
+   "page": 2,
+   "reason": "The judgment states the husband's occupation, so 'Not stated' is wrong."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Informant Angrej Singh is referred to with male pronoun 'him'."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Informant's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "the informant paid Rs.50,000/- to Ginder Singh at his quarter in the presence of his wife",
+   "page": 3,
+   "reason": "'Spouse' describes the accused's relation to each other; no relationship to the informant is stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is cheating under s.420 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction is under Section 420 of the Penal Code."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is involved in the cheating offence."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "From the prosecution case and the evidence of witnesses",
+   "page": 4,
+   "reason": "Judgment refers to witness evidence and prosecution case, never calling it circumstantial."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment is silent on any confession; 'None' is asserted without support."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment notes no aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant is a woman and had only a subsidiary role in the offence",
+   "quote": "It also needs to be kept in mind that she is a woman.",
+   "page": 4,
+   "reason": "Judgment expressly treats her gender and subsidiary role as mitigating, so 'None noted' is wrong."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted both and sentenced each to two years and Rs.2,000 fine."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Criminal revision rejected without modification of conviction or sentence (judgment dated November 28, 2011)",
+   "quote": "revision [(Criminal Revision No.2576 of 2011) (O&M)] was similarly rejected by the High Court without any modification in the conviction or sentence",
+   "page": 3,
+   "reason": "High Court did decide the revision and dismissed it; 'Not applicable' is contradicted."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under s.420 IPC; Supreme Court reduced sentence to one year imprisonment, fine undisturbed",
+   "quote": "We, accordingly, modify and reduce her sentence of imprisonment from two years to one year leaving the fine undisturbed.",
+   "page": 4,
+   "reason": "Conviction is right, but the omission of the Supreme Court's sentence reduction makes the outcome incomplete."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cheating under s.420 is the offence of conviction."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is a fixed term of imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence reduced to one year imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs.2,000 is stated and left undisturbed."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts match the judgment and do not reveal the Supreme Court's sentence reduction."
+  },
+  "offence_severity": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "We, accordingly, modify and reduce her sentence of imprisonment from two years to one year",
+   "page": 4,
+   "reason": "Column is a severity rating; the value is a superseded trial sentence, not a severity classification."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Money was extracted and no employment provided, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence (cheating under s.420 IPC) committed by two accused",
+   "quote": "both appellant and her husband were convicted for the same offence",
+   "page": 4,
+   "reason": "Judgment refers to one offence of cheating, not two offences or counts."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rs.70,000 extracted from informant is stated in the prosecution case."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Financial gain by extracting money through a false promise of a police job",
+   "quote": "extracted Rs.70,000/-from the informantAngrej Singh by making the false promise",
+   "page": 2,
+   "reason": "Motive is evident from the money-for-job scheme, though not explicitly stated, so 'Not identified' is incomplete."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the prosecution case and the court's finding on relative roles."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "From the prosecution case and the evidence of witnesses it is evident",
+   "page": 4,
+   "reason": "Judgment does not assess witness credibility; it only relies on witness evidence."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates of payment, trial judgment, High Court and Supreme Court decisions match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR No.22 registered June 2, 2004; trial completed",
+   "quote": "arising out of FIR No.22 dated June 2, 2004",
+   "page": 3,
+   "reason": "FIR date is correct, but a charge sheet filing is not stated in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: conviction and sentence; Additional Sessions Judge: appeal dismissed (Sept 30, 2011); High Court: revision rejected without modification; Supreme Court: appeal partly allowed",
+   "quote": "Their appeal (Criminal Appeal No.75 of 14.10.2005) was dismissed by the judgment and order dated September 30, 2011 by the Additional Sessions Judge",
+   "page": 3,
+   "reason": "Omits the Additional Sessions Judge's dismissal of the appeal."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary accurately reflects the prosecution case on payments and the unfulfilled job promise."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence arguments are not recorded in the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Same offence does not mean same punishment; relative roles must be considered."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Hiralal Mallick v. State of Bihar, (1977) 4 SCC 44 is cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Subsidiary role, gender and one-year sentence match the court's reasoning."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Gender and subsidiary role are the mitigating factors the court relied on."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No separate sentencing order beyond the reduction and undisturbed fine."
+  }
+ }
+}

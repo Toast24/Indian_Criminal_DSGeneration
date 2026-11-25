@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Pradeep Kumar v. State of Haryana",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "Two tried; four named in total (A-1, A-2, Anil, Jaswinder), with two juveniles separated",
+   "quote": "Thus, only the Appellant and Sumit Gupta (A-2) stood trial.",
+   "page": 5,
+   "reason": "Two were tried, but four persons surrendered and were named; the count omits this."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Appellant is acquitted of all charges, and his bail bonds, if any, stand discharged.",
+   "page": 13,
+   "reason": "The appellant is referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the accused; the only ages mentioned are of unnamed boys seen by PW-12."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not mentioned; only the complainant's real estate business is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased-Shamsher Singh is related to him, being son of his paternal aunt",
+   "page": 3,
+   "reason": "The deceased is male, as shown by the references to his wife and son."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased Shamsher Singh."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Acquaintance; accused A-2 borrowed money from the deceased (creditor-debtor)",
+   "quote": "he borrowed money from the deceased",
+   "page": 6,
+   "reason": "The judgment shows a debtor-creditor relationship, not that the accused were strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the murder of one Samsher Singh",
+   "page": 2,
+   "reason": "The offence charged is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Section 302 read with Section 34 of the Indian Penal Code, 1860",
+   "page": 2,
+   "reason": "Matches the sections of the Penal Code cited in the judgment."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Dandas (sticks); incise wound attributed to a sharp-edged weapon that was never recovered",
+   "quote": "the weapons recovered by the IO and the ones seen by the witnesses are only sticks",
+   "page": 10,
+   "reason": "Sticks (dandas) are mentioned as weapons, so 'None mentioned' is contradicted."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Admittedly, there are no eyewitnesses, and the entire case of the prosecution depends upon circumstantial evidence.",
+   "page": 10,
+   "reason": "The case rests entirely on circumstantial evidence, as the judgment states."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged extra-judicial confession to PW-10 on 17.04.2004, which the Court rejected as unreliable",
+   "quote": "to whom the accused made an extra-judicial confession",
+   "page": 4,
+   "reason": "An alleged extra-judicial confession exists in the record, though the Court disbelieved it."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not identify any aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not identify any mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Section 302 read with Section 34 IPC for murder and sentenced to rigorous imprisonment for life",
+   "page": 2,
+   "reason": "Matches the trial court's conviction under s.302 r/w s.34 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction and sentence confirmed",
+   "quote": "the High Court of Punjab & Haryana by the judgment impugned herein dismissed the appeal and confirmed the conviction and sentence",
+   "page": 3,
+   "reason": "The High Court dismissed the appeal and confirmed conviction, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Appellant is entitled to be acquitted.",
+   "page": 12,
+   "reason": "The Supreme Court allowed the appeal and acquitted the appellant."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has not established its case beyond reasonable doubt",
+   "page": 12,
+   "reason": "No offence was finally established against the appellant."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Rigorous imprisonment for life (trial court sentence, set aside)",
+   "quote": "sentenced to rigorous imprisonment for life by the Trial Court",
+   "page": 2,
+   "reason": "The judgment states the sentence type as rigorous imprisonment for life, not 'not_stated'."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is life imprisonment, with no fixed number of years stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Neutral summary: deceased found dead; four persons surrendered and two were tried; witnesses PW-10, 11, 12 gave evidence; FSL report and recoveries relied on.",
+   "quote": "However, the evidence was found to be inconsistent and improbable",
+   "page": 12,
+   "reason": "Mostly accurate, but says 'arrest' where the judgment says surrender, and states the court's finding, hinting at outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to rigorous imprisonment for life",
+   "page": 2,
+   "reason": "Severity reflects the life imprisonment sentence imposed at trial."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased had suffered an incise wound",
+   "page": 10,
+   "reason": "The deceased died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Throat knotted with cloth; right eye badly injured; head injuries; incise wound from a sharp-edged weapon",
+   "quote": "the deceased has suffered an incise wound which according to the doctor, PW-14 ... is caused by a sharp-edged weapon",
+   "page": 10,
+   "reason": "Incise wound is correct but omits throat ligature, right eye injury and head injuries."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence: s.302 r/w s.34 IPC; conviction set aside",
+   "quote": "convicted under Section 302 read with Section 34 of the Indian Penal Code, 1860",
+   "page": 13,
+   "reason": "Only one offence was charged and convicted; the value wrongly says both counts were upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is attributed to the offence; the loan is only a motive."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Planning alleged via PW-10's account; Supreme Court rejected PW-10 as untrustworthy",
+   "quote": "he was apprehensive of being insulted and therefore planned to kill the deceased",
+   "page": 6,
+   "reason": "Planning was alleged, but the Supreme Court rejected the evidence; no finding based on motive is stated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sumit Gupta has taken a loan of Rs. 29,000/- and failed to return back that money in time",
+   "page": 5,
+   "reason": "Motive of loan repayment pressure matches the trial court reasoning and PW-10 account."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "No evidence accepted; PW-10, PW-11, PW-12 and recoveries/FSL found unreliable or insufficient",
+   "quote": "The circumstances do not establish the guilt of the Appellant at all.",
+   "page": 12,
+   "reason": "Describes the outcome, not evidence accepted; it misses that the recoveries and FSL evidence were also rejected."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "this witness is not trustworthy",
+   "page": 7,
+   "reason": "Court found PW-10, PW-11 and PW-12 unreliable, with contradictions and improbabilities."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Surrender before the IO on 17.04.2004 through PW-10; disclosure statements and recoveries followed",
+   "quote": "the Appellant (A-1), Sumit Gupta (A-2), Anil & Jaswinder surrendered before the investigating officer",
+   "page": 4,
+   "reason": "Surrender and subsequent recoveries are described in the judgment, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; arrest date is disputed but no duration is given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his bail bonds, if any, stand discharged",
+   "page": 13,
+   "reason": "No bail history is described; only a generic discharge of bail bonds is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Trial Court dated 31.08.2007; High Court dated 05.09.2009; Judgment dated 05.01.2024",
+   "page": 2,
+   "reason": "Offence date, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Pranab Kumar Mullick, Mrs. Soma Mullick ... Advs. for the Appellant.",
+   "page": 2,
+   "reason": "Counsel names match the appearances listed in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Upon completion of investigation, charge sheet was filed.",
+   "page": 5,
+   "reason": "The judgment states a charge sheet was filed after investigation."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Recoveries made without independent witness; IO did not join private persons; FSL pant description mismatch",
+   "quote": "nothing of these recoveries took place in the presence of an independent witness",
+   "page": 11,
+   "reason": "The judgment identifies several procedural irregularities, so 'None noted' is contradicted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "set aside the judgment of the High Court",
+   "page": 12,
+   "reason": "Trial conviction, High Court confirmation and Supreme Court setting aside all match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution case ... through scientific investigation also",
+   "page": 6,
+   "reason": "Last-seen evidence, confession, motive and scientific evidence reflect the prosecution case as recorded."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Witness contradictions and improbabilities; weapons only sticks; FSL pant mismatch; recoveries without independent witness",
+   "quote": "the weapons recovered by the IO and the ones seen by the witnesses are only sticks",
+   "page": 10,
+   "reason": "Captures witness contradictions but omits the weapon, FSL and recovery arguments raised by counsel."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the facts must be consistent with the hypothesis of the guilt of the accused",
+   "page": 11,
+   "reason": "The judgment applies the circumstantial evidence principles from Sharad Birdhichand Sarda as summarised."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Pritinder Singh v. State of Punjab, (2023) 7 SCC 727 ... Sharad Birdhichand Sarda v. State of Maharashtra",
+   "page": 11,
+   "reason": "Both cases are cited and relied upon in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given because the appellant was acquitted."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records no judicial mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records no judicial aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Bail bonds discharged; parties to bear their own costs",
+   "quote": "The parties shall bear their own costs.",
+   "page": 13,
+   "reason": "Other orders exist: bail bonds discharged and costs borne by parties, so 'None' is incomplete."
+  }
+ }
+}

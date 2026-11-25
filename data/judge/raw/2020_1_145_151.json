@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the case title in the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "incorrect",
+   "correct_value": "2",
+   "quote": "a case was registered against the appellant and another",
+   "page": 5,
+   "reason": "Case was registered against the appellant and another person (Wasim Ali Khan), so two accused, not one."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant and his brother",
+   "page": 2,
+   "reason": "Appellant is referred to with male pronouns and as having a brother and father."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant who is stated to be about 87 years",
+   "page": 6,
+   "reason": "Judgment states the appellant is about 87 years old."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim gender is stated; the complainant is only described as the 2nd respondent."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Relationship between appellant and complainant is not stated beyond the sale transaction with the complainant's father."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Cheating, impersonation and forgery",
+   "quote": "alleging forgery and impersonation",
+   "page": 6,
+   "reason": "Offences cited are ss.418-420, 467-471 IPC (cheating, impersonation, forgery); no breach of trust is mentioned."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 418, 419, 420, 467, 468 and 471 IPC",
+   "page": 3,
+   "reason": "All six IPC sections listed match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "by sale deed dated 29th December,1993 which was registered on 5th January, 1994",
+   "page": 2,
+   "reason": "The judgment never characterises evidence as circumstantial; it relies on the registered sale deed and pleadings."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned, so no confession is consistent with the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances against the accused are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant's advanced age (about 87 years)",
+   "quote": "Allowing the proceedings to go on against the appellant who is stated to be about 87 years",
+   "page": 6,
+   "reason": "The court treated the appellant's advanced age as a reason against allowing proceedings to continue."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Magistrate rejected appellant's discharge application",
+   "quote": "Initially, the appellant filed an application for discharge which was rejected.",
+   "page": 5,
+   "reason": "Judgment records discharge application was rejected at the trial stage, so 'Not applicable' is inaccurate."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Section 482 Cr.P.C. application rejected (order dated 12.03.2018)",
+   "quote": "the impugned order is passed by High Court rejecting the same",
+   "page": 5,
+   "reason": "High Court rejected the appellant's s.482 Cr.P.C. application, so the outcome is not inapplicable."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Criminal proceedings quashed; appeal allowed",
+   "quote": "the criminal proceedings are fit to be quashed by allowing this appeal",
+   "page": 6,
+   "reason": "No acquittal occurred; the Supreme Court allowed the appeal and quashed the criminal proceedings."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was established; the proceedings were quashed."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Accused purchased a plot by sale deed dated 29 December 1993, registered 5 January 1994. Father of second respondent died December 1997. Second respondent filed civil suit in 2008 seeking cancellation; criminal complaint alleging forgery and impersonation was filed in 2012.",
+   "quote": "criminal proceedings are fit to be quashed by allowing this appeal",
+   "page": 6,
+   "reason": "Facts are accurate but the summary states the court's holding and quashing, revealing the outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Punishment range is not stated anywhere in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Attempt or completion status is not stated in the judgment."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned in the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Six IPC provisions alleged (ss.418, 419, 420, 467, 468, 471); no offence upheld, proceedings quashed",
+   "quote": "Sections 418, 419, 420, 467, 468 and 471 IPC",
+   "page": 3,
+   "reason": "Six provisions are correct, but 'upheld' is wrong since the proceedings were quashed."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Dispute over ownership of plot No.102; no monetary loss amount stated",
+   "quote": "The dispute relates to plot No.102",
+   "page": 3,
+   "reason": "Property dispute exists over a plot, so 'Not applicable' is inaccurate though no loss amount is stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not stated in the judgment."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged to obtain the sale deed of the plot by fraud, using acquaintance with father",
+   "quote": "by making use of the acquaintance with his father, in a false and fraudulent manner",
+   "page": 2,
+   "reason": "The judgment states the alleged fraudulent purpose of obtaining the sale deed, so 'Not identified' is incomplete."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "No evidence accepted; validity of the sale deed left for the civil court to decide",
+   "quote": "it is for the civil court to decide whether any fraud is played or not",
+   "page": 2,
+   "reason": "The court did not accept the sale deed as valid; it left validity and fraud to the civil court."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "It is the case of the appellant that even the 2nd respondent is a signatory to the sale deed as a witness.",
+   "page": 2,
+   "reason": "Court did not assess credibility; it only recorded the appellant's contention about the signatory witness."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused post-offence conduct is described in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Criminal Miscellaneous Application No. 5684 of 2016 ... dated 12.03.2018",
+   "page": 3,
+   "reason": "Dates of High Court decision and Supreme Court judgment match; offence and trial dates are not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Prashant Bhushan, Omanakuttan K.K., Cheryl D'Souza, Advs. for the Appellant.",
+   "page": 3,
+   "reason": "Counsel names for appellant and respondents match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the application filed by the appellant herein under Section 482 Cr.P.C. is dismissed by the High Court",
+   "page": 3,
+   "reason": "Complaint, s.482 rejection and quashing by Supreme Court are consistent with the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Magistrate rejected discharge application; High Court dismissed s.482 application on 12.03.2018; Supreme Court allowed appeal and quashed proceedings",
+   "quote": "Initially, the appellant filed an application for discharge which was rejected.",
+   "page": 5,
+   "reason": "High Court and Supreme Court entries are right, but the trial court entry wrongly repeats the High Court order."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Complainant contended the complaint was not barred by limitation; complaint alleged forgery and impersonation",
+   "quote": "it is contended by the learned counsel for the 2nd respondent that complaint filed is not barred by limitation",
+   "page": 6,
+   "reason": "Captures the complaint but omits the complainant's actual stated argument that it was not time-barred."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant's case is that complainant is a signatory witness to the sale deed; pursuing complaint is abuse of process",
+   "quote": "It is the case of the appellant that even the 2nd respondent is a signatory to the sale deed as a witness.",
+   "page": 2,
+   "reason": "The limitation argument was made by the complainant, not the appellant; the appellant's point was the signatory-witness contention."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court applied the principle that civil-pending issues cannot be pursued criminally, as abuse of process."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred, so no sentencing rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant's advanced age (about 87 years)",
+   "quote": "Allowing the proceedings to go on against the appellant who is stated to be about 87 years",
+   "page": 6,
+   "reason": "The court relied on the appellant's age of about 87 as a factor favouring quashing."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors were identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Complaint Case No.708 of 2012 quashed; consequential Magistrate orders also quashed",
+   "quote": "consequential orders passed by the Magistrate also stand quashed",
+   "page": 6,
+   "reason": "The judgment quashed the complaint and consequential Magistrate orders, not 'None'."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 1,
+   "reason": "Case title matches the judgment heading exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "six persons (A-1, A-2, A-3, A-4, A-5 and A-6)",
+   "page": 1,
+   "reason": "Six accused are named and charged in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Laxman Singh (A-4), son of Lakhan Singh",
+   "page": 6,
+   "reason": "Accused are named male individuals; the judgment implies male gender throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupations are not stated in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sarman Singh (deceased) ... he",
+   "page": 5,
+   "reason": "Victim Sarman Singh is referred to as male throughout."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the victim's age."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to victim; rival groups with enmity over plot cultivation and village election",
+   "quote": "Lakhan Singh belonged to a different group in the elections for the post of Village Pradhan",
+   "page": 5,
+   "reason": "Parties were known rivals with disputes, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "killed the deceased in broad day light",
+   "page": 16,
+   "reason": "Offence is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.147, 148, 149, 302, 452, 449",
+   "quote": "under Sections 147, 148, 302/149 of the IPC",
+   "page": 7,
+   "reason": "Omits s.148, which is central to the convictions and charges."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "armed with lathi ... armed with guns ... armed with axes ... pitchfork",
+   "page": 6,
+   "reason": "Firearms, axes, pitchfork and lathi are described; firearms and sharp weapons are fairly summarised."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness (ocular), medical, documentary (written complaint/FIR)",
+   "quote": "the written complaint was recorded immediately after the occurrence",
+   "page": 15,
+   "reason": "Circumstantial evidence is not relied on; documentary complaint/FIR evidence is omitted."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not mention any confession either way."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Killing in broad daylight by six heavily armed persons; accused threatened bystanders",
+   "quote": "six persons who were heavily armed, two of them with guns, killed the deceased in broad day light",
+   "page": 16,
+   "reason": "Judgment notes these facts that aggravate the offence, so 'Not stated' is wrong."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Trial Court acquitted all the accused",
+   "page": 7,
+   "reason": "Trial court acquitted all accused, as the judgment states."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court set aside acquittal; A-2, A-4 and A-5 convicted under ss.147, 148, 302/149; appeal abated for A-1, A-3, A-6",
+   "quote": "The High Court set aside the judgment of the Trial Court",
+   "page": 7,
+   "reason": "High Court outcome was stated, and it reversed the acquittal."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted: A-2, A-4 and A-5 (appeal dismissed); A-1, A-3, A-6 died and appeal abated",
+   "quote": "Ramji Singh (A-2), Laxman Singh (A-4) and Lala Ram (A-5) were found guilty",
+   "page": 7,
+   "reason": "Conviction applies only to three accused; others' appeals abated on death."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offences punishable under Sections 147, 148, 302/149 of the IPC",
+   "page": 7,
+   "reason": "Murder under s.302 read with s.149 is the established offence."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to rigorous imprisonment for life",
+   "page": 8,
+   "reason": "Sentence is rigorous imprisonment for life."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed term of years is stated; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a fine of Rs.10,000/- each",
+   "page": 8,
+   "reason": "Fine of Rs.10,000 each is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Six armed accused allegedly killed the victim in daylight; eyewitnesses and medical evidence were examined; trial and appellate proceedings followed (no outcome stated)",
+   "quote": "the High Court set aside the judgment of the Trial Court",
+   "page": 7,
+   "reason": "Summary reveals trial, High Court and Supreme Court outcomes, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to rigorous imprisonment for life and a fine of Rs.10,000/- each",
+   "page": 8,
+   "reason": "Sentence imposed on convicted accused is accurately described."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "killed the deceased in broad day light",
+   "page": 16,
+   "reason": "Offence was completed with the victim's death."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Firearm entry wound ... Incised wound ... bone deep",
+   "page": 11,
+   "reason": "Firearm wounds and axe/pitchfork injuries are documented in the medical report."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (charges under ss.147, 148, 149, 302, 449, 452 against accused; no count of offences given)",
+   "quote": "The Sessions Judge charged Lakhan Singh under Sections 147, 449, 302/149",
+   "page": 7,
+   "reason": "Six accused were charged, not six offences; the count is not stated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is discussed; not applicable is consistent."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No planning or premeditation is expressly discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sarman Singh had fought the election against Lakhan Singh",
+   "page": 5,
+   "reason": "Enmity over plot cultivation and election rivalry is the stated background."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the statements of these witnesses ... are almost identical and there are no major contradictions between them",
+   "page": 8,
+   "reason": "Matches the Court's acceptance of eyewitness and medical evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "merely because these witnesses are interested witnesses their testimony cannot be discarded",
+   "page": 16,
+   "reason": "Matches the Court's credibility assessment of PW-1 and PW-2."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused threatened persons present and ran away from the spot",
+   "quote": "the accused threatened all the persons present there ... thereafter the accused ran away from the spot",
+   "page": 6,
+   "reason": "Judgment states the accused fled after threatening bystanders."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Value describes appeal history, not trial duration, which the judgment does not state."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rajiv Dutta, Sidharth Luthra, Sr. Advs.",
+   "page": 1,
+   "reason": "Counsel for appellants and respondent are accurately listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charge sheet under Section 173(2) of the Code of Criminal Procedure ... was filed",
+   "page": 6,
+   "reason": "FIR registered, charge sheet filed, and trial completed are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Delayed compliance with s.157 Cr.PC; ballistic report not proved; RTI report not proved",
+   "quote": "the ballistic report was not proved by the prosecution",
+   "page": 6,
+   "reason": "Judgment discusses several procedural irregularities, so 'None noted' is wrong."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal abated qua them",
+   "page": 7,
+   "reason": "Trial acquittal, High Court reversal and Supreme Court dismissal are accurately listed."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ms. Sansriti Pathak ... the view of the Trial Court was perverse",
+   "page": 7,
+   "reason": "Prosecution's corroboration and perversity arguments are accurately summarised."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the FIR is ante timed and ante dated",
+   "page": 8,
+   "reason": "Defence challenges to witness credibility, FIR timing and medical evidence are accurately summarised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "enmity is a double-edged sword",
+   "page": 16,
+   "reason": "Reliance on corroborated eyewitness testimony is a fair summary of the Court's approach."
+  },
+  "precedent_relied_upon": {
+   "verdict": "incorrect",
+   "correct_value": "Meharaj Singh (L/NK) vs. State of U.P. (1994) 5 SCC 188 (distinguished as inapplicable)",
+   "quote": "the judgment cited by the appellants Meharaj Singh (L/NK) vs. State of U.P.",
+   "page": 11,
+   "reason": "Judgment expressly discusses and distinguishes a cited precedent."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; no separate sentencing reasoning is given, only conviction findings upheld",
+   "quote": "Ankit Gyan Appeal dismissed.",
+   "page": 17,
+   "reason": "Conviction reasoning is present, but no sentencing rationale is given in the judgment."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state that no mitigating factors exist; it is silent."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Broad daylight killing by heavily armed group; threats to bystanders deterring witnesses",
+   "quote": "This itself shows that these accused persons were not scared of the villagers",
+   "page": 16,
+   "reason": "Judgment identifies aggravating features such as intimidation and armed daylight attack."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for the offence under Section 302 read with 149, IPC",
+   "page": 8,
+   "reason": "Sentence for s.302 read with s.149 is accurately described."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "MUKESH & ANR. v. STATE FOR NCT OF DELHI & ORS.",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his friend ... was surrounded and attacked by at least six accused persons",
+   "page": 105,
+   "reason": "Judgment repeatedly refers to a gang of six accused in the bus."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All accused are described as male persons throughout the judgment."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the adult accused is given; only a juvenile and FIR description of 25-30 years appear."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Bus driver (A-1 Ram Singh) and bus helper/cleaner (A-3 Akshay)",
+   "quote": "A-1, Ram Singh, ... was the driver of the bus and A-3, Akshay, was working as a helper in the bus",
+   "page": 124,
+   "reason": "Judgment states occupations of the bus driver and helper, contrary to 'Not stated'."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "incorrect",
+   "correct_value": "Accused claim ordinary/poor background, not much educated",
+   "quote": "they hail from an ordinary/ poor background and are not much educated",
+   "page": 302,
+   "reason": "Judgment records the accused's claimed poor background in their affidavits."
+  },
+  "previous_criminal_record": {
+   "verdict": "incorrect",
+   "correct_value": "Accused stated they have no criminal antecedents (their claim in affidavits; not verified in judgment)",
+   "quote": "Accused also stated that they have no criminal antecedents",
+   "page": 53,
+   "reason": "Judgment records the accused's statement about absence of criminal antecedents."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the twenty-three year old lady",
+   "page": 69,
+   "reason": "Victim is a female prosecutrix."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the twenty-three year old lady, a para-medical student",
+   "page": 69,
+   "reason": "Judgment states the victim was twenty-three."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not describe the accused as strangers; it only says they boarded and attacked the victims."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Forcible sexual intercourse with the prosecutrix, one after the other by six persons",
+   "page": 1,
+   "reason": "Primary offence is gang rape of the prosecutrix."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.120B, 365/366, 307, 376(2)(g), 377, 302, 395, 397, 201, 412 (and 396 as charged)",
+   "quote": "Penal Code, 1860: ss.120B, 365/366, 307, 376(2)(g), 377, 302/120B, 395",
+   "page": 1,
+   "reason": "Section 34 is not in the case charges; many other charged sections such as 307, 365/366, 397, 201 and 412 are omitted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "insertion of iron rod in her private parts",
+   "page": 1,
+   "reason": "Iron rods were the weapon used and recovered, as the judgment states."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The chain of events described by the prosecutrix in her dying declarations coupled with the testimonies of the other witnesses",
+   "page": 1,
+   "reason": "Judgment relies on dying declarations, eyewitness testimony, medical, DNA, odontology and recovery evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mr. Luthra, learned senior counsel for the State, has not placed reliance on any kind of confessional statement made by the accused persons.",
+   "page": 135,
+   "reason": "Prosecution relied on disclosure-based recoveries and not confessions."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The brutal, barbaric and diabolic nature of the crime",
+   "page": 3,
+   "reason": "Listed aggravating factors match the judgment's reasoning."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the aged parents, marital status and the young children",
+   "page": 2,
+   "reason": "Mitigating factors listed match those the appellants raised and the court considered."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted all the accused persons ... sentenced to death for offence punishable under Section 302",
+   "page": 83,
+   "reason": "Trial court convicted and imposed death sentence under s.302."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court affirmed conviction and confirmed the death penalty on 13.03.2014",
+   "quote": "The High Court, vide judgment dated 13.03.2014, affirmed the conviction and confirmed the death penalty",
+   "page": 85,
+   "reason": "Judgment states the High Court affirmed conviction and confirmed death sentence, not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dismissing the appeals, the Court",
+   "page": 10,
+   "reason": "Supreme Court dismissed appeals; convictions and death sentence stand."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has proved the charges leveled against the appellants beyond reasonable doubt",
+   "page": 210,
+   "reason": "Rape, conspiracy and murder findings are affirmed."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the death penalty confirmed",
+   "page": 246,
+   "reason": "Death sentence was confirmed for the appellants."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term of years applies to the death sentence."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death sentence case; no fine amount is stated for the death-sentence convicts."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "A neutral summary of the incident without stating the court's conviction outcome or the court's finding of agreement",
+   "quote": "The accused were found guilty of rape, criminal conspiracy, and murder.",
+   "page": 1,
+   "reason": "Neutral facts reveal the court outcome and state court findings as facts, which is prohibited."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Gang rape with iron rod insertion and death; death penalty upheld as rarest of rare case",
+   "quote": "The instant case clearly comes within the category of 'rarest of rare case'",
+   "page": 4,
+   "reason": "Captures sentencing issue but does not describe offence severity itself; mixes sentencing with severity."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the life-spark that moves the bodily frame got extinguished",
+   "page": 69,
+   "reason": "Offences were completed and the victim died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "insertion of rod in her private parts that, inter alia, caused perforation of her intestine which caused sepsis and, ultimately, led to her death",
+   "page": 31,
+   "reason": "Matches the judgment's description of physical harm."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Four appellants' convictions upheld; accused Ram Singh's proceedings abated on his death; juvenile not before this court",
+   "quote": "the proceedings qua him stood abated",
+   "page": 83,
+   "reason": "Six persons were involved, but only four appellants were upheld; Ram Singh's case abated."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Robbery of mobiles, debit and credit cards, cash, rings, watch and shoes from victims",
+   "quote": "The accused persons robbed her of her belongings",
+   "page": 73,
+   "reason": "Judgment records robbery of the victims' property, so 'Not applicable' is wrong."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Court found prior concert/agreement formed as soon as victims boarded the bus; not premeditation as such",
+   "quote": "as soon as the informant and the prosecutrix boarded the bus, the accused persons formed an agreement",
+   "page": 210,
+   "reason": "Court found prior agreement/conspiracy, but did not expressly find premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the gross sadistic and beastly instinctual pleasures came to the forefront",
+   "page": 3,
+   "reason": "Judgment attributes motive to lust and sadistic gratification."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The chain of events described by the prosecutrix in her dying declarations coupled with the testimonies of the other witnesses",
+   "page": 210,
+   "reason": "Matches the judgment's key evidence reasoning on conspiracy."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The evidence of PW-1 is unimpeachable in character and the roving cross-examination has not eroded his credibility",
+   "page": 98,
+   "reason": "Accurately reflects the court's finding on PW-1's credibility."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Attempted to run the bus over victims, washed the bus, burnt clothes, destroyed evidence, divided loot",
+   "quote": "They made all possible efforts in destroying the evidence",
+   "page": 247,
+   "reason": "Judgment records post-offence conduct including destruction of evidence and dividing loot."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Accused in custody for almost four years at time of sentencing hearing",
+   "quote": "since they are in custody for almost four years",
+   "page": 221,
+   "reason": "Judgment states the accused had been in custody for almost four years."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not discussed in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial duration is not stated in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Sidharth Luthra (Sr. Adv.) for the State; M.L. Sharma and A.P. Singh for appellants; Raju Ramachandran and Sanjay Hegde as amici",
+   "quote": "Mr. Siddharth Luthra, learned senior counsel for the respondent-State",
+   "page": 70,
+   "reason": "Judgment names counsel for the State, appellants and amici curiae."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the chargesheet came to be filed on 03.01.2013",
+   "page": 82,
+   "reason": "Investigation completed with charge sheet filed and trial conducted."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged non-compliance with s.235(2) CrPC on sentence hearing, remedied by Court giving opportunity; other alleged irregularities in FIR, recoveries and dying declarations argued",
+   "quote": "In the present case, the latter course is adopted.",
+   "page": 53,
+   "reason": "Judgment discusses procedural irregularity claims and a remedial sentencing hearing, not 'None noted'."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "affirmed the conviction and confirmed the death penalty",
+   "page": 85,
+   "reason": "Trial conviction, High Court affirmation and Supreme Court dismissal are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused persons formed an agreement to commit heinous offences against the victim",
+   "page": 210,
+   "reason": "Summary of the prosecution's conspiracy and joint-liability case is supported."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence challenged FIR delay, omissions in PW-1's statements, iron rod use, DNA and recoveries, plus alibi; on sentence argued mitigating background, youth and custody conduct",
+   "quote": "the aged parents, marital status and the young children",
+   "page": 2,
+   "reason": "Covers sentencing mitigation but omits the main challenges to evidence, FIR delay and alibi."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 376(2)(g) read with Explanation I thus embodies a principle of joint liability",
+   "page": 252,
+   "reason": "Joint liability principle under s.376(2)(g) with Explanation I is correctly stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Machhi Singh v. State of Punjab",
+   "page": 306,
+   "reason": "Listed precedents are cited by the court, though the list is not exhaustive."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the instant case clearly comes within the category of 'rarest of rare case' where the question of any other punishment is 'unquestionably foreclosed'",
+   "page": 59,
+   "reason": "Accurately states the rarest of rare rationale for death sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused also stated that they have no criminal antecedents",
+   "page": 53,
+   "reason": "Court considered the mitigating factors, though found them insufficient."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the aggravating circumstances outweigh the mitigating circumstances now brought on record",
+   "page": 247,
+   "reason": "Accurately reflects the court's weighing of aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order such as remission or term imposed is stated beyond death sentence affirmation."
+  }
+ }
+}

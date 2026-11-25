@@ -1,0 +1,389 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant accused is clearly the only accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "The appellant was enrolled in the Indian Army in the year of 1978",
+   "page": 2,
+   "reason": "The judgment gives no age for the accused; enrolment year does not establish age 22."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused was an Indian Army personnel, as stated in the facts."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Naik Jityu Yadav is referred to as a male colleague; gender is implied by name and context."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "killing Naik Jityu Yadav at the spot",
+   "page": 3,
+   "reason": "No age is given for the victim anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes the victim as one of the appellant's colleagues in the Army."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder, as held by the Court Martial."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302; Army Act 1950 (no section number stated)",
+   "quote": "the appellant was accordingly guilty under Section 302 of the IPC",
+   "page": 3,
+   "reason": "Section 302 IPC is correct, but no Army Act section number is stated in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A 7.62 mm Self Loading Rifle bearing butt number 259 had also been issued to him",
+   "page": 2,
+   "reason": "Weapon matches the 7.62 mm Self Loading Rifle issued to the accused."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness testimony of Army personnel, medical (post-mortem), recovery of cartridge cases, accused's remark",
+   "quote": "this incident had been witnessed by several Army personnel",
+   "page": 4,
+   "reason": "Label omits eyewitness evidence and calls it circumstantial, though witnesses saw the shooting directly."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Oral remark on apprehension: 'MAINE JO KARNA THA KAR DIYA' (not labelled a confession)",
+   "quote": "when questioned as to what he had done, he replied 'MAINE JO KARNA THA KAR DIYA'",
+   "page": 3,
+   "reason": "The judgment records an incriminating remark by the accused, though it is not called a confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss aggravating circumstances; 'None noted' is consistent with it."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating circumstances; defence only argued accident."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to imprisonment for life, besides other penalties",
+   "page": 1,
+   "reason": "Court Martial convicted under s.302 and sentenced the accused to life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Writ petition dismissed; Court Martial findings confirmed; recall application also dismissed",
+   "quote": "dismissed the writ petition and confirmed the findings of the Court Martial",
+   "page": 3,
+   "reason": "High Court did act and its outcome is stated; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction was upheld and the Supreme Court dismissed the appeal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 IPC was upheld on the findings of fact."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence was life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term of years is stated; life imprisonment is given."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The accused was warned by Naik Sajimon not to fire at the QRT member he was chasing",
+   "quote": "who warned him that the person towards whom he, (the accused) was running was one of the members of the Quick Reaction Team and not to fire on him",
+   "page": 2,
+   "reason": "Summary says the victim was warned; the warning was given to the accused. Otherwise facts are accurate and neutral."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Life imprisonment was the sentence imposed under s.302",
+   "quote": "sentenced to imprisonment for life",
+   "page": 1,
+   "reason": "Judgment does not state death as minimum punishment; that is outside knowledge, not the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The shooting completed the offence by killing the victim."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "killing Naik Jityu Yadav at the spot",
+   "page": 3,
+   "reason": "Death of Naik Jityu Yadav is stated in the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only the s.302 murder offence is charged and upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "incorrect",
+   "correct_value": "Deliberate attack: accused fired three shots despite being warned",
+   "quote": "the shooting was a deliberate attack of murder",
+   "page": 3,
+   "reason": "Judgment describes the shooting as a deliberate attack, so 'Not stated' is wrong."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive for the accused is identified; defence only suggested a terrorist-threat suspicion."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The fact that the shots had been fired from 8 to 10 ft. has also been borne out by the observations of Dr. S. Sharma",
+   "page": 4,
+   "reason": "Eyewitnesses, post-mortem observations and matching cartridge cases are accurately reported as accepted."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (Court accepted findings of fact; no express credibility assessment)",
+   "quote": "no error can be found with the findings of fact recorded by the Court Martial",
+   "page": 4,
+   "reason": "Judgment makes no express credibility assessment of witnesses; it only upholds factual findings."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Quickly apprehended by PW.14 and Security JCO PW.6; remarked 'MAINE JO KARNA THA KAR DIYA'",
+   "quote": "He was quickly apprehended by PW.14 and the Security JCO PW.6",
+   "page": 3,
+   "reason": "Judgment describes apprehension and the incriminating remark, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": {
+    "dates_of_offence": "6th January, 2000",
+    "trial_judgment": "Not stated (Court Martial date not given)",
+    "high_court": "23.12.2005",
+    "supreme_court": "OCTOBER 19, 2010"
+   },
+   "quote": "From the Judgment & Order dated 23.12.2005 of the High Court",
+   "page": 2,
+   "reason": "Offence, High Court and Supreme Court dates are correct; 23.12.2005 is the High Court date, not the trial judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "D.K. Thakur, D. Jha, Debasis Misra for the Appellant.",
+   "page": 2,
+   "reason": "Counsel names for appellant and respondents match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "unsupported",
+   "correct_value": "Court Martial trial completed; no charge sheet mentioned",
+   "quote": "the appellant was tried",
+   "page": 3,
+   "reason": "Judgment mentions no charge sheet; it refers only to Court Martial proceedings."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is raised or found in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court vide its judgment dated 23/12/2005 repelled all the arguments and dismissed the writ petition",
+   "page": 3,
+   "reason": "Court Martial conviction, High Court confirmation and dismissal of the Supreme Court appeal are accurately stated."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Findings of fact were categoric and based on correct appreciation of evidence; interference should be minimal",
+   "quote": "the findings of fact recorded by the Court Martial were very categoric and based on a correct appreciation of the evidence",
+   "page": 3,
+   "reason": "Argument is right in substance but omits the minimal-interference point and the warning framing."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the killing was an accident and arose from a suspicion of a terrorist attack",
+   "page": 3,
+   "reason": "Defence argued accident from suspected terrorist attack and that s.302 was not made out."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Court would not interfere with Court Martial findings of fact upheld by High Court; interference minimal",
+   "quote": "This Court would not, in these circumstances, interfere in the assessment.",
+   "page": 4,
+   "reason": "Non-interference principle is stated, but 'clear error' and 'evidence as a whole' are not stated in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Judgment does not address sentencing; Court upheld the murder findings and did not interfere",
+   "quote": "This Court would not, in these circumstances, interfere in the assessment.",
+   "page": 4,
+   "reason": "Court upheld the conviction findings; it did not discuss sentencing as the rationale states."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Supreme Court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Supreme Court identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Several other penalties imposed under the Army Act 1950 (not specified)",
+   "quote": "besides other penalties imposed upon him under Army Act",
+   "page": 1,
+   "reason": "Judgment states other penalties were imposed under the Army Act, so 'None' is wrong."
+  }
+ }
+}

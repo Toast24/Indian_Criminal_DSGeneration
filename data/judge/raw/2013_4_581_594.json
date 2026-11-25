@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two appellants are identified in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to with male pronouns and names, supporting Male."
+  },
+  "accused_age": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant No.2 about 16 per High Court finding (birth certificate DOB 28.05.1983 suggests under 18 at offence); appellant No.1 age not stated",
+   "quote": "satisfactorily shown to be 16 years of age at the time of the alleged occurrence",
+   "page": 9,
+   "reason": "16 is the High Court's finding for appellant No.2 only; appellant No.1's age is not given and the Supreme Court found No.2 under 18."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "PW-13, who was working as a daily labourer under the deceased",
+   "page": 12,
+   "reason": "Labourer status belongs to witness PW-13, not the accused; accused occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Ashutosh is referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never states the deceased's age; the value 30 has no support."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not describe the accused's relationship to the deceased; 'Stranger' is unsupported."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Section 302 read with Section 34 IPC is the charge and conviction provision."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Axe, lathi and gun are all described as weapons used in the assault."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "eyewitness, circumstantial, recovery (inquest report and PW-19 evidence)",
+   "quote": "the evidence of PW-13 is corroborated by material particulars by reliable testimony, direct and circumstantial",
+   "page": 13,
+   "reason": "No medical report is relied on; the inquest report and PW-19 evidence are the supporting material."
+  },
+  "confession": {
+   "verdict": "incorrect",
+   "correct_value": "Disclosure statements by the appellants leading to recovery of weapons (as argued by the State)",
+   "quote": "pursuant to the disclosure made by the appellants, one blood stained wooden stick",
+   "page": 8,
+   "reason": "The State relied on disclosures by the appellants leading to recoveries, so 'None' is not accurate."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed beyond juvenility, which is treated as a legal status."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted both appellants under s.302/34 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction and sentence maintained; appeal dismissed",
+   "quote": "the High Court maintained the conviction and sentence and dismissed the appeal",
+   "page": 6,
+   "reason": "The High Court did decide the appeal and upheld conviction, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant No.1's appeal dismissed (conviction upheld); appellant No.2's appeal allowed and remitted to Juvenile Justice Board",
+   "quote": "We, however, allow the appeal of the appellant no.2 ... dismiss the appeal of the appellant no.1",
+   "page": 14,
+   "reason": "Appellant No.1 was not acquitted; his appeal was dismissed and conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Murder under s.302 IPC by appellant No.1",
+   "quote": "we hold that the appellant no.1 was guilty of the offence under Section 302 of the IPC",
+   "page": 14,
+   "reason": "The Supreme Court held the s.302 offence established against appellant No.1."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment (trial court sentence upheld for appellant No.1)",
+   "quote": "sentenced them to imprisonment for life and a fine of Rs.5000/- each",
+   "page": 6,
+   "reason": "Life imprisonment was imposed and upheld for appellant No.1; 'none' is wrong."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is life imprisonment, with no fixed number of years stated."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "5000",
+   "quote": "a fine of Rs.5000/- each and in default, to undergo further imprisonment for a period of one year",
+   "page": 6,
+   "reason": "The judgment states a fine of Rs.5000 each, so null is incorrect."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts without outcome: appellant No.1 convicted and upheld; appellant No.2 remitted to Juvenile Justice Board",
+   "quote": "acquitted Subodh Nath based on the corroborated evidence",
+   "page": 14,
+   "reason": "Wrongly states Subodh Nath was acquitted and reveals the court's outcome, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death by axe and gun under s.302 IPC is supported by the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim was killed, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Injuries from axe and gun on the body are described in the inquest and PW-19 evidence."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single charge under s.302/34 IPC, upheld for appellant No.1."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court states the prosecution could not establish the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "PW-6, PW-19, inquest report and axe handle recovery are the accepted corroborating evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found PW-13 reliable despite discrepancies, which are not material."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "PW-13's flight is explained by fear of the appellants, not treated as unreliability."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence 09.10.1998; High Court judgment 08.06.2005; Supreme Court judgment 19.03.2013; trial court judgment date not stated",
+   "quote": "judgment dated 08.06.2005 of the Gauhati High Court",
+   "page": 5,
+   "reason": "08.06.2005 is the High Court judgment date, not the trial court's; the trial date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for appellants and the State are listed as in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registered, charge-sheet filed and trial conducted are described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified by the court."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: convicted under s.302/34 IPC; High Court: conviction and sentence maintained; Supreme Court: appellant No.1 dismissed, appellant No.2 allowed",
+   "quote": "The trial court convicted the appellants under Section 302 read with Section 34",
+   "page": 6,
+   "reason": "Trial court is described as 'conviction upheld', but it was the original conviction; the rest is correct."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued appellants guilty under s.302/34 IPC, relying on PW-13, PW-6, inquest report and recovery of weapons, and relied on Suresh Chandra Bahri",
+   "quote": "Mr. Biswas submitted that it is not correct ... that the weapons ... have not been recovered",
+   "page": 8,
+   "reason": "Motive-not-established and direct evidence point is the court's reasoning, not the State's argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Covers juvenility of appellant No.2, unreliable PW-13, discrepancies, no weapon recovery and no motive."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Covers the 2000 Act applicability via ss.7A and 20 and the material discrepancies principle."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Lists the cases relied on or referred to in the judgment, with citations matching the text."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Reflects upholding the conviction of appellant No.1 and remitting appellant No.2 to the Board."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are weighed by the court in sentencing."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are weighed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Remission of appellant No.2 to the North Tripura Juvenile Justice Board under the 2000 Act is stated."
+  }
+ }
+}

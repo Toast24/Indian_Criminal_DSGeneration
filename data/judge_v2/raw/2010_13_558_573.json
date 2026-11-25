@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "Om Pal Singh v. State of U.P.",
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "1",
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant, Om Pal Singh, whose conviction is considered."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "the appellant parked his motorcycle at a distance of about 40 steps",
+   "page": 5,
+   "reason": "Accused is referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused appears in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No wealth, poverty or class statement about the accused appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (no conviction); a criminal case was pending against the appellant at Bareilly",
+   "quote": "on the basis of which a criminal case was pending against the appellant in the local Court at Bareilly",
+   "page": 5,
+   "reason": "Judgment notes a pending criminal case and a theft complaint against the accused, which 'Not stated' omits."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "the deceased Rishipal",
+   "page": 4,
+   "reason": "Victim Rishipal is male, referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victim is described."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": "Prior enmity/dispute (rivals for liquor shop licence, earlier assaults and attempted killing)",
+   "quote": "there was enmity between the deceased Rishipal and Om Pal Singh, the appellant herein for a number of years",
+   "page": 4,
+   "reason": "Prior enmity and the related hostile incidents are accurately described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "Penal Code, 1860: s. 302 - Murder",
+   "page": 1,
+   "reason": "Conviction is for murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC s.302 (FIR initially under s.307, altered to s.302)",
+   "quote": "the FIR was initially registered under Section 307 IPC ... the case was altered to 302 IPC",
+   "page": 7,
+   "reason": "Both the initial s.307 registration and later s.302 alteration are stated."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "Double-barrelled gun",
+   "quote": "He was armed with a double-barrelled gun.",
+   "page": 5,
+   "reason": "Weapon used is the double-barrelled gun."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": "Eyewitness (PW-2, PW-3), medical evidence, dying declaration, recovery of motorcycle and articles from the spot",
+   "quote": "Yezdi motor cycle at the spot ... basket in his motor cycle containing bags",
+   "page": 6,
+   "reason": "Main evidence types, including recovery of motorcycle and articles, are supported."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Earlier attempt to kill the deceased a couple of months before; shooting as deceased moved away",
+   "quote": "only a couple of months before the present incident, he and his friends had encircled Rishipal with the intention of killing him",
+   "page": 9,
+   "reason": "Earlier attempt and shooting of the fleeing deceased are both described."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted under s.302 IPC; rigorous imprisonment for life",
+   "quote": "the Trial Court convicted the appellant under Section 302 IPC, and sentenced him to rigorous imprisonment for life",
+   "page": 7,
+   "reason": "Trial court conviction and life sentence are accurately stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Appeal (Criminal Appeal No. 604 of 1980) dismissed; conviction and life sentence confirmed on 26.8.2002",
+   "quote": "The High Court vide order dated 26.8.2002 confirmed the conviction and sentence of the appellant under Section 302 IPC",
+   "page": 7,
+   "reason": "High Court confirmed conviction and sentence; 'dismissed' is a fair reading."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "convicted",
+   "quote": "The appeal is dismissed.",
+   "page": 16,
+   "reason": "Supreme Court dismissed the appeal, upholding conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "Murder under IPC s.302",
+   "quote": "The appeal is dismissed.",
+   "page": 16,
+   "reason": "Conviction under s.302 IPC stands."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "life",
+   "quote": "sentenced him to rigorous imprisonment for life",
+   "page": 7,
+   "reason": "Sentence is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentence is not a fixed term, so null is right."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary is accurate to the evidence, uses neutral references, and does not mention court proceedings or outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the statutory punishment range for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": "Rishipal Singh died on 11.6.1978 at 9.40 p.m.",
+   "page": 6,
+   "reason": "Victim was shot and died, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Death from multiple gunshot wounds to chest, abdomen, arms, hand, thigh and neck, a few hours after the shooting",
+   "quote": "After few hours, the deceased died.",
+   "page": 2,
+   "reason": "Death and multiple gunshot injuries are accurately described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": "1 charged; 1 finally upheld",
+   "quote": "The trial court convicted the appellant under Section 302, IPC.",
+   "page": 2,
+   "reason": "Only s.302 conviction is discussed as charged and upheld; charge sheet sections are not separately stated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is described."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not expressly found as premeditation; earlier attempt to kill noted",
+   "quote": "the appellant had tried to kill the deceased but he had managed to escape",
+   "page": 5,
+   "reason": "Court did not expressly find premeditation; the earlier attempt is noted accurately."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": "Accepted: prior enmity from competition for liquor shop licence and hostile incidents, including earlier attempt to kill",
+   "quote": "the motive was not introduced only at the time of the trial, in Court",
+   "page": 10,
+   "reason": "Court accepted the prior enmity and history of animosity as motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "Eyewitness testimony of PW-2 and PW-3; FIR narrating animosity; medical evidence; dying declaration",
+   "quote": "The direct testimony of these two witnesses have been corroborated by the medical evidence and the dying declaration.",
+   "page": 15,
+   "reason": "All listed evidence was relied on by the Supreme Court."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "Both eyewitnesses found consistent and clear; account corroborated by medical evidence and dying declaration",
+   "quote": "PW2 and PW3 have given clear and consistent eye-witness account.",
+   "page": 15,
+   "reason": "Court found the eyewitnesses consistent and corroborated."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Fled the scene leaving the motorcycle behind",
+   "quote": "The appellant thereafter escaped, leaving behind his motorcycle.",
+   "page": 5,
+   "reason": "Flight and abandonment of the motorcycle are accurately recorded."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not mention time in custody."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not mention bail."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": "offence: 11.6.1978; trial judgment: 21.3.1980; High Court: 26.8.2002; Supreme Court: 09.11.2010",
+   "quote": "By order dated 21.3.1980, the Trial Court convicted",
+   "page": 7,
+   "reason": "All dates match the judgment; Supreme Court date is the judgment date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Appellant: Nagendra Rai (Senior Advocate) with others; State: S.R. Singh with others",
+   "quote": "Nagendra Rai, Anurag Dubey, D.P. Pandey, Meenesh Dubey, S.R. Setia for Appellant.",
+   "page": 4,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": "FIR registered; investigation completed; charge sheet filed 18.7.1978; trial completed",
+   "quote": "He submitted charge sheet (Ext. Ka 15) against the appellant on 18.7.1978.",
+   "page": 7,
+   "reason": "FIR, investigation, charge sheet and trial are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "Dying declaration recorded with no doctor present or fitness certificate, not in Q&A form, victim in serious condition; held not to render it unreliable",
+   "quote": "The absence of a certificate of fitness by the Doctor would not be sufficient to discard the dying declaration.",
+   "page": 15,
+   "reason": "Court addressed these points and found them not fatal to reliability."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial court: convicted under s.302, life imprisonment (21.3.1980); High Court: dismissed, conviction confirmed (26.8.2002); Supreme Court: dismissed",
+   "quote": "The High Court vide order dated 26.8.2002 confirmed the conviction and sentence",
+   "page": 7,
+   "reason": "Outcomes at each level match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": "Rivalry proved; motive unnecessary given eyewitnesses; PW-2 and PW-3 from same village; dying declaration clear and properly recorded",
+   "quote": "motive even though proved in this case, was not necessary to be proved",
+   "page": 9,
+   "reason": "All listed prosecution arguments appear in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "Fabricated incident; multiple wounds inconsistent with single shot; motive made up; hearsay witnesses; unexplained cartridges; dying declaration unreliable",
+   "quote": "Both the eye-witnesses PW-2 and PW-3 have stated that the appellant had fired only once",
+   "page": 8,
+   "reason": "Defence contentions are accurately summarised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Dying declaration acceptable if magistrate satisfied declarant fit and statement voluntary and truthful; doctor's certificate a rule of caution; eyewitness consistency with medical evidence",
+   "quote": "A certification by the doctor is essentially a rule of caution",
+   "page": 15,
+   "reason": "Principles match the Laxman guidance applied by the court."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "Laxman v. State of Maharashtra (2002) 6 SCC 710 (relied on); Kanti Lal v. State of Rajasthan (2009) 12 SCC 498 (referred to); Modi's Medical Jurisprudence and Toxicology (19th Ed.) (referred to)",
+   "quote": "Laxman v. State of Maharashtra (2002) 6 SCC 710 - relied on.",
+   "page": 3,
+   "reason": "Authorities and their treatment match the headnote and judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no sentencing reasoning; the appeal was decided on conviction."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "Court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "Court did not weigh aggravating factors for sentence."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No compensation, directions or other orders are given."
+  }
+ }
+}

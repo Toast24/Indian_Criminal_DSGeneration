@@ -1,0 +1,385 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only Respondent No. 2 is the accused; the judgment names no other accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as 'his' and 'he' throughout, indicating male."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for Respondent No. 2."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the appellant, a woman referred to as 'her' and 'prosecutrix'."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the appellant/victim."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Former/existing relationship; both were in a relationship known to their families",
+   "quote": "the appellant herein and Respondent No. 2 were in a relationship",
+   "page": 8,
+   "reason": "Value 'Relationship' is vague; judgment says they were in a relationship known to families."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Kidnapping/abduction of a woman (IPC s.366)",
+   "quote": "Whoever kidnaps or abducts any woman with intent that she may be compelled",
+   "page": 7,
+   "reason": "Offence is abduction under s.366, not culpable homicide; no homicide is involved."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.366 (charge under review); also ss.363 and 506(ii) (discharged); charges framed under ss.342, 324, 323, 354",
+   "quote": "discharged the Respondent No. 2 not only in respect of offence under Section 366 of the IPC but also under Sections 363 and 506 (ii)",
+   "page": 4,
+   "reason": "Section 366 is correct but omits ss.363, 506(ii), 342, 324, 323 and 354 mentioned in the judgment."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Waist belt (and hands used for beating)",
+   "quote": "started beating her with waist belt and using his hands",
+   "page": 3,
+   "reason": "Judgment states the accused beat her with a waist belt, so 'None mentioned' is contradicted."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness (watchman) for car incident; complainant's FIR and supplementary statement; no medical evidence mentioned",
+   "quote": "The act of pulling out the appellant herein from the car of Respondent No. 2 was witnessed by the watchman.",
+   "page": 8,
+   "reason": "Watchman eyewitness is omitted and 'medical' and 'circumstantial' are not supported by the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not identify aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are formally identified; the court only offers a possible explanation for the act."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Sessions Court (revision) discharged accused under ss.366, 363 and 506(ii); ACMM had earlier rejected discharge on 03.10.2006",
+   "quote": "learned Judge, Sessions Court, vide order dated 04.07.2007 had discharged the Respondent No. 2 not only in respect of offence under Section 366",
+   "page": 4,
+   "reason": "Discharge under s.366 is right but omits ss.363 and 506(ii) and mislabels the revision court as trial court."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court dismissed the appellant's writ petition on 06.05.2013, upholding the discharge",
+   "quote": "the High Court dismissed the petition filed by Kavita Chandrakant Lakhani",
+   "page": 4,
+   "reason": "The High Court outcome is stated: it dismissed the appellant's writ petition, not 'Not applicable'."
+  },
+  "victim_religion_placeholder": null,
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; s.366 charge held not maintainable against Respondent No. 2; trial to conclude within 6 months",
+   "quote": "the charge under Section 366 of the IPC is not maintainable and the High Court was right in upholding so",
+   "page": 9,
+   "reason": "Accused was not acquitted; the appeal was dismissed and the trial was directed to continue."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was finally established; the s.366 charge was held not maintainable."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so no imprisonment type is stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term was imposed."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine was imposed."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR (12.09.2003) described the beating and forcible taking; molestation was added in a later statement, after the FIR",
+   "quote": "one week thereafter, i.e. on 19.09.2003, a further statement was given by the appellant",
+   "page": 8,
+   "reason": "Says the victim did not mention the incident in her FIR, but the FIR did describe the beating and forcible taking; only molestation was omitted."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shall be punished with imprisonment of either description for a term which may extent do ten years, and shall also be liable to fine",
+   "page": 7,
+   "reason": "Matches the punishment prescribed in s.366 as quoted in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not characterise the offence as completed or attempted."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "she sustained injuries on her person",
+   "page": 8,
+   "reason": "Judgment states she sustained injuries from the beating."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges framed under ss.342, 324, 323 and 354 and discharge under s.366 match the judgment."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is involved in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is mentioned in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No clear motive is identified; the court only speculates on emotions or insecurity."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Court did not accept the allegations as proved; it said 'even if it is proved' the accused forcibly took her, and noted beating and watchman's witnessing",
+   "quote": "Even if it is proved that Respondent No. 2 forcibly took her to his house",
+   "page": 9,
+   "reason": "Court did not formally accept the forcible taking or beating as proved; it noted the watchman evidence only."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "does not inspire confidence as the FIR was lodged, five days after the incident",
+   "page": 8,
+   "reason": "Court expressed doubt about the later molestation account and the delay explanation."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is described."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Incident 06/07.09.2003; Sessions Court revision order 04.07.2007; High Court 06.05.2013; Supreme Court 24.04.2018; trial still at charge-framing stage",
+   "quote": "is still at the stage of charge framing",
+   "page": 9,
+   "reason": "Labels the 2007 revision order as a trial judgment; the trial had not concluded and was at charge stage."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant (victim): Siddharth Luthra, Robin Jaisinghani, Vikas Mehta, Vijay Gandhi, Samir Chaudhary, Ms. Purnima Raj, Ms. Anushree Menon. Respondent No. 2 (accused): Mahesh Jethmalani, Nishant R. Katneshwarkar, Anand, Rahul M, Ms. R. N. Reddy, Dr. Sushil Balwada (State counsel also appears)",
+   "quote": "Siddharth Luthra, Sr. Adv., Robin Jaisinghani, Vikas Mehta, Vijay Gandhi, Samir Chaudhary, Ms. Purnima Raj, Ms. Anushree Menon, Advs. for the Appellant.",
+   "page": 3,
+   "reason": "Siddharth Luthra and others appeared for the appellant, not the accused; attribution is reversed."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR registered 12.09.2003; charge sheet filed 30.03.2004; trial still at charge-framing stage",
+   "quote": "is still at the stage of charge framing",
+   "page": 9,
+   "reason": "FIR and charge sheet dates are right, but the trial was not completed; it was still at charge stage."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified; the court only notes delay since 2003."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "ACMM rejected discharge 03.10.2006; Sessions Court (revision) discharged 04.07.2007; High Court dismissed writ 06.05.2013; Supreme Court dismissed appeal 24.04.2018",
+   "quote": "Learned ACMM, vide order dated 03.10.2006, rejected the discharge application",
+   "page": 5,
+   "reason": "Omits the 03.10.2006 ACMM order and mislabels the 2007 Sessions Court revision order as a trial court discharge."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant's counsel argued the complaint and supplementary statement, read truly, made out a case and discharge should be set aside (relying on Cref Finance)",
+   "quote": "if the complaint and the supplementary statement is taken in its true perspective, no case has been made out for the discharge",
+   "page": 6,
+   "reason": "Core argument is right, but the molestation-based sufficiency point is not what the judgment records as argued."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Respondent No. 2 argued the complaint had no reference to ss.366/363/506(ii) and the later statement was an afterthought; relied on Dharam Pal",
+   "quote": "the supplementary statement given by the appellant after about 5 (five) months is only an afterthought",
+   "page": 6,
+   "reason": "Afterthought and precedent points are right, but 'five days with due deliberation' is the court's reasoning, not defence argument."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it must further be proved that the accused abducted the woman with the intent that she may be compelled",
+   "page": 8,
+   "reason": "Matches the court's principle on the intent required under s.366."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Both cases are cited as relied upon by the parties and listed as held inapplicable."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so no sentencing rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no mitigating factors for sentencing."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no aggravating factors for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Direction to trial court to conclude trial within 6 months from the judgment date",
+   "quote": "direct the trial Court to conclude the trial within 6 (months) from the date of passing of this judgment",
+   "page": 9,
+   "reason": "'None' misses the court's direction to conclude the trial within six months."
+  }
+ }
+}

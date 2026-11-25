@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states 17 persons, including the appellants, were named and charged."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "17 persons including the two appellants unlawfully assembled",
+   "page": 7,
+   "reason": "Judgment never explicitly states the gender of the accused; 'Male' is inferred, not stated."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the accused appears anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned, so 'Not stated' is accurate."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the deceased male, Ramasamy, referred to as 'his' father and husband of PW-1."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the deceased is stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment repeatedly states the parties were closely related."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction was under Section 302 IPC, the provision the value records."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Weapon is an Aruval, as stated throughout."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Medical evidence, eyewitness testimony and recoveries on disclosure statements are all referred to."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "There had been recovery on the disclosure statement of the accused.",
+   "page": 8,
+   "reason": "Judgment mentions disclosure-based recoveries but never states whether any confession exists."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Indiscriminate cuts with aruval causing death is the factual basis of the offence."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "First trial: acquitted all accused. Fresh trial (18.11.2008): acquitted all except A-5 and A-7, convicted under s.302.",
+   "quote": "The Trial Court vide judgment and order dated 27.11.2001 acquitted all the accused.",
+   "page": 8,
+   "reason": "Omits that the retrial court convicted two accused after the first acquittal of all."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed the appeal, upholding the conviction order."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants were convicted under Section 302 and the Supreme Court dismissed the appeal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under Section 302 IPC was the finally established offence."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants were awarded life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term of years is stated; life imprisonment is the sentence."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs.2,000 each is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts of the incident, FIR, trial history, and evidence without stating the conviction, sentence, or High Court outcome.",
+   "quote": "sentenced them to life imprisonment and a fine of Rs. 2000 each. The High Court upheld the order.",
+   "page": 6,
+   "reason": "Neutral facts reveal the conviction, sentence and appellate outcome, which they must not do."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states no minimum or maximum punishment for Section 302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The attack caused instantaneous death, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased's fatal injuries and sons' injuries are described in the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (17 persons named and charged; 2 convicted under s.302)",
+   "quote": "17 persons including the two appellants unlawfully assembled",
+   "page": 7,
+   "reason": "Two convictions are supported, but no count of 17 offences is stated."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not mention property loss; 'Not applicable' is an inference, not a stated fact."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "17 persons including the two appellants unlawfully assembled together with a common object to murder Ramasamy",
+   "page": 7,
+   "reason": "Judgment records the common-object allegation but no court finding of premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Enmity arising from Arumugam's desertion and prior killings is described as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Medical evidence, PW-1 corroboration, prompt FIR and hostile-witness principle are all accepted in the judgment."
+  },
+  "witness_credibility": {
+   "verdict": "incorrect",
+   "correct_value": "PW-2's evidence accepted as to appellants; PW-3's untrustworthiness submission rejected because he saw accused leaving; PW-1 identification accepted.",
+   "quote": "Had he not been a truthful witness he could have definitely improved his version",
+   "page": 12,
+   "reason": "Court rejected the submission against PW-3; saying his deposition 'has no force' inverts the court's finding."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused ran away after committing the offence.",
+   "quote": "After committing the offence, accused persons ran away.",
+   "page": 7,
+   "reason": "Judgment states the accused fled after the offence, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment only says accused were taken into custody on different dates; no duration is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "The Trial Court vide judgment and order dated 27.11.2001 acquitted all the accused.",
+   "page": 8,
+   "reason": "Gives outcomes rather than any trial duration; no time period is stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Shirin Khajuria and M. Yogesh Kanna are named as counsel."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registered, chargesheet filed and trial conducted are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is recorded as a finding by the court."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial acquittal; complainant's revision allowed, retrial ordered; retrial conviction; High Court appeal dismissed; Supreme Court appeal dismissed.",
+   "quote": "challenged the said order of acquittal by filing Criminal Revision No.274 of 2004",
+   "page": 8,
+   "reason": "Omits the complainant's successful revision that ordered the retrial."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution relied on PW-1's identification, medical evidence and PW-2's partial support, as recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence raised acquittal of 15 others, darkness identification and inconsistent injury evidence."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Grain-from-chaff, falsus in uno and hostile-witness principles match the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Listed authorities match those cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (judgment gives no sentencing reasoning; appeal dismissed)",
+   "quote": "the appellants had been convicted under Section 302 IPC and awarded life imprisonment",
+   "page": 7,
+   "reason": "Judgment gives no sentencing rationale and does not expressly call the sentence lawful."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating factors; 'None' is an assertion not stated."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not identify aggravating factors; 'None' is an unsupported assertion."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Fine of Rs.2,000 each, in default to undergo further RI for six months.",
+   "quote": "in default to undergo further RI for six months",
+   "page": 7,
+   "reason": "Judgment states a default sentence of six months' RI, so 'None' is wrong."
+  }
+ }
+}

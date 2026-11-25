@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "lodged the FIR against the accused and his brother",
+   "page": 4,
+   "reason": "FIR named the appellant and his brother as the two accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant and his brother",
+   "page": 5,
+   "reason": "Appellant is male, as shown by pronouns used in the judgment."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused appears in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "respondent no.6 (Rajkumari Maravi)",
+   "page": 3,
+   "reason": "Respondent no.6 is referred to with female pronouns and is the complainant."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the complainant is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "unethical transactions between private parties",
+   "page": 7,
+   "reason": "Judgment describes private parties in a job-for-money deal; no familial relationship between accused and complainant is stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it was a clear case of cheating",
+   "page": 6,
+   "reason": "Category 'Other' is consistent with the cheating-type allegation; no statutory category is fixed by the court."
+  },
+  "statutory_provisions": {
+   "verdict": "unsupported",
+   "correct_value": "Code of Criminal Procedure, 1973 s.173(2) (referenced in State's submission; no penal section stated)",
+   "quote": "under section 173(2) Criminal Procedure Code, 1973",
+   "page": 5,
+   "reason": "No IPC or section 420 is mentioned; only CrPC s.173(2) and Article 226 appear."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the enquiry it was also found that when no job was provided",
+   "page": 4,
+   "reason": "Judgment does not characterise evidence as circumstantial; it relies on enquiry statements and documents."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are identified by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are identified."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No trial court proceedings are described; the matter is at FIR/quashing stage."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Writ petition WPCR No.703 of 2022 dismissed on 11.07.2023",
+   "quote": "dismissing the writ petition of the appellant for quashing the criminal proceedings",
+   "page": 3,
+   "reason": "High Court outcome is stated: the writ petition was dismissed on 11.07.2023."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal allowed; impugned High Court order set aside and proceedings arising out of FIR 248 of 2022 quashed",
+   "quote": "quash the entire proceedings arising out of FIR 248 of 2022",
+   "page": 7,
+   "reason": "No acquittal occurred; the Supreme Court quashed the proceedings and allowed the appeal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was finally established; the court quashed proceedings."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is mentioned."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurately summarised and do not reveal the Supreme Court outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Severity is not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Attempt or completion status is not stated as a category."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The number of offences is not stated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the respondent no.6 had stated that she had paid Rs.4 lacs",
+   "page": 6,
+   "reason": "Rs.4 lacs is the alleged amount paid, as stated in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for recovery of money under coercion and pressure",
+   "page": 7,
+   "reason": "Court found the FIR was lodged to recover money under coercion and pressure."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "respondent no.6 was well aware of the complaint made by the appellant",
+   "page": 6,
+   "reason": "Court accepted respondent's awareness of the complaint and the unexplained three-year delay."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "The court did not assess witnesses as unreliable; it noted both parties' conduct cast suspicion on the veracity of their claims, after failing to produce documents and call records in the enquiry.",
+   "quote": "casting a shadow over the veracity of their claims",
+   "page": 7,
+   "reason": "Document-production failure is accurate, but 'main witnesses assessed as unreliable' is not stated by the court."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No distinct post-offence conduct is identified by the court."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates of offence, High Court and Supreme Court decisions are supported; trial judgment is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sameer Shrivastava, Dr. Sangeeta Verma, Shivendra Dixit, Advs. for the Appellants",
+   "page": 2,
+   "reason": "Counsel names match the Appearances section."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR lodged 27.07.2022 after SDO-directed enquiry; State sought continuation, but proceedings were quashed",
+   "quote": "quash the entire proceedings arising out of FIR 248 of 2022",
+   "page": 7,
+   "reason": "Investigation continuation was only the State's argument; the court quashed the proceedings, so it did not continue."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No specific procedural irregularity is identified by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dismissing the writ petition of the appellant",
+   "page": 3,
+   "reason": "High Court dismissed the writ petition and the Supreme Court allowed the appeal; trial court not stated."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a cognizable offence was disclosed in the FIR and as such the High Court has rightly dismissed the petition",
+   "page": 5,
+   "reason": "Accurately summarises the State and respondents' submissions."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "an abuse of the process of law and mala fide",
+   "page": 5,
+   "reason": "Accurately reflects the appellant's submissions on delay, counterblast and abuse of process."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the police should exercise heightened caution when drawn into dispute pertaining to such unethical transactions",
+   "page": 7,
+   "reason": "Matches the court's stated principle on heightened police caution and examining the FIR's object."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred; not applicable."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence order beyond quashing; 'None' is consistent."
+  }
+ }
+}

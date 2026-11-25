@@ -1,0 +1,27 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "Yaqoob and Manabbar and Qasim sons of Khuda Bux, Qasim son of Sanabbar and Zuber son of Manabbar",
+   "page": 4,
+   "reason": "The accused are described as sons of named fathers, so the judgment indicates they are male."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a charge-sheet was filed with respect to Manabbar, Qasim and Zuber as Yaqoob had, in the meanwhile, absconded",
+   "page": 5,
+   "reason": "Three accused were charge-sheeted and tried; the fourth absconded."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment states no statutory punishment range; the null value amounts to 'Not stated'."
+  }
+ }
+}

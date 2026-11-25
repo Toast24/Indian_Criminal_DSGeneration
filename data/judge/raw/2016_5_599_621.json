@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment heading 'Jamnadas v. State of M.P.'"
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "Four charged (three convicted, one acquitted)",
+   "quote": "charge-sheet was filed against four accused namely - Manoj ... Vishal",
+   "page": 6,
+   "reason": "Four accused were charged; three convicted. The value 3 omits the four charged and the acquittal."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused include male (Jamnadas, Manoj, Vishal) and female (Dhanwantari) persons."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No ages of accused are stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "Businessman (Jamnadas only, who ran a shop)",
+   "quote": "appellant Jamnadas is a businessman having his shop at 5/2, Murai Mohalla",
+   "page": 21,
+   "reason": "Only Jamnadas is described as a businessman; the value applies it to all accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is a young bride, referred to as female throughout."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated; only described as a young bride."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are husband and in-laws (father-in-law, mother-in-law) of the deceased."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder of the deceased bride."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges were under ss.302/34, 201, 304-B and 498-A IPC as listed."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Knives and scissors (examined by forensic lab); hard and sharp object per autopsy",
+   "quote": "reports ... regarding examination made on 25-09-2006 of weapons (knives and scissors)",
+   "page": 14,
+   "reason": "The judgment refers to knives and scissors as weapons and a hard and sharp object."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial, medical (autopsy), recovery (blood stains, Activa seized), eyewitness (PW 1-5), forensic (blood on nails)",
+   "quote": "PW I to PW 5 who was seen doing so",
+   "page": 22,
+   "reason": "No dying declaration appears in the judgment; eyewitness and forensic nail evidence are omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by accused is mentioned; they gave false s.313 explanations."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Body cut into pieces, blood stains, false explanation and multiple perpetrators are all noted by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss any mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted three accused and acquitted brother-in-law Vishal."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed the appeals, affirming convictions."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeals, so convictions stand."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held common intention murder under s.302 read with s.34 IPC established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court sentenced each convict to life imprisonment under s.302/34."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is life imprisonment, with no fixed number of years stated."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "5000",
+   "quote": "pay fine of Rs.5000/- ... in default of payment ... one year",
+   "page": 7,
+   "reason": "Judgment states a fine of Rs.5000 was imposed on each convict under s.302/34."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without stating the court's conclusion that the chain was complete or the defence was false",
+   "quote": "The prosecution established a complete chain of circumstances linking the accused to the crime.",
+   "page": 23,
+   "reason": "Facts reveal the court's outcome, stating the chain was complete and the defence was proven false."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Life imprisonment under s.302/34 IPC as sentenced",
+   "quote": "sentenced each of the convicts under Section 302/34 IPC imprisonment for life",
+   "page": 7,
+   "reason": "The judgment states no statutory minimum or 'death' range; the minimum is not supported."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder was completed; the deceased was killed and body disposed of."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Autopsy records multiple ante-mortem and post-mortem injuries and death from multiple injuries."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Two offences of conviction: s.302/34 IPC (all three) and s.201 IPC (Dhanwantari only); ss.304-B and 498-A acquitted",
+   "quote": "On other heads, the accused stood acquitted from the charge.",
+   "page": 8,
+   "reason": "Value conflates accused with offences; convictions were under s.302/34 and s.201 only."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss property or financial loss; 'Not applicable' is an inference, not stated."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "had common intention with the co-accused (mother-in-law) in the commission of brutal murder",
+   "page": 1,
+   "reason": "Court found common intention only; premeditation or planning is never stated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive for the murder is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on the chain including blood stains, body disposal, and false s.313 explanation."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court accepted PW 1-5 sighting and medical evidence; no explicit credibility assessment; PW 32 declared hostile",
+   "quote": "PW I to PW 5 ... were seen doing so",
+   "page": 22,
+   "reason": "Judgment does not expressly assess credibility; it omits that PW 32 was declared hostile."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "No police report lodged about the homicidal death; false explanation given under s.313 Cr.P.C.",
+   "quote": "There is no report lodged to police by the appellants regarding homicidal death",
+   "page": 23,
+   "reason": "Judgment records the absence of any police report and false s.313 explanation as post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Arrest dates are given but no custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence 16.09.2006; trial sentence order 24.8.2009; High Court 23.08.2012; Supreme Court 29.06.2016",
+   "quote": "vide his order dated 24.8.2009",
+   "page": 7,
+   "reason": "24.8.2009 is the sentencing order date, not the trial judgment date; conviction date not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for appellants and State are listed as in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge-sheet was filed against four accused and trial was completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence alleged police illegally detained accused for 3 days without formal arrest; court did not address it",
+   "quote": "the police illegally detained them for 3 days without formally arresting them",
+   "page": 21,
+   "reason": "Defence raised an alleged illegal detention; 'None noted' omits this claim."
+  },
+  "appeal_history": {
+   "verdict": "incorrect",
+   "correct_value": "trial_court: Convicted under s.302/34 IPC (and s.201 for Dhanwantari); high_court: Conviction affirmed; supreme_court: Appeals dismissed",
+   "quote": "the trial court found rest of the three accused ... guilty",
+   "page": 7,
+   "reason": "Trial court entry wrongly says conviction was affirmed; the trial court convicted."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State relied on Suresh for s.106 burden and on the chain of circumstances",
+   "quote": "learned counsel for the State of Madhya Pradesh has referred to the case of Suresh",
+   "page": 20,
+   "reason": "Summary largely restates court findings; State's actual argument (reliance on Suresh for s.106) is not captured."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence said deceased went missing after visiting relative, appellants were in shop, and no adverse inference from silence (Selvi)",
+   "quote": "reliance is placed on paragraph 141 of Selvi",
+   "page": 17,
+   "reason": "Final sentence reverses the defence claim; it was that the deceased was missing. Silence argument omitted."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Five Sharad Sarda circumstantial-evidence principles are accurately summarised."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Relied on: Sharad Sarda (1984), Trimukh Maroti Kirkan (2006), Suresh (2015), Kuldeep Singh (2000), Rumi Bora Dutta (2013); referred to: Mir Mohammad Omar (2000), Nafendra Singh (2004)",
+   "quote": "Kuldeep Singh and others v. State of Rajasthan ... relied on",
+   "page": 20,
+   "reason": "Omits Kuldeep Singh and Rumi Bora Dutta, which the court relied on; Mir Mohammad Omar and Nafendra Singh were only referred to."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives conviction reasoning but no sentencing rationale for the life sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the court found no mitigating factors; 'None' is an unsupported assertion."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Brutal murder of a bride within six months of marriage; body cut into pieces",
+   "quote": "a young bride was brutally murdered within six months of her marriage, her body chopped off in two pieces",
+   "page": 5,
+   "reason": "Court describes the murder as brutal and the body as cut in two, which are aggravating characterisations."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Dhanwantari: 3 years rigorous imprisonment and Rs.5,000 fine under s.201 IPC (default 3 months RI)",
+   "quote": "Convict Dhanvantari was further sentenced to undergo rigorous imprisonment for a period of three years",
+   "page": 8,
+   "reason": "Judgment records a separate s.201 sentence for Dhanwantari, not 'None'."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two accused, Krishan and his mother Shardi, were prosecuted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused Krishan is the husband and referred to as 'he' throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "From this wedlock, two sons were born aged 9 years and 7 years respectively.",
+   "page": 5,
+   "reason": "The judgment gives no age for the accused; only the children's ages are stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Rani wife of Krishan Balmiki by Caste, resident of Sudkan Kalan",
+   "page": 6,
+   "reason": "The 'Balmiki' caste descriptor is attached to Rani in the post-mortem statement; Krishan's caste is not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim Rani is referred to as a woman and wife."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "she was married to Krishan approximately 18-19 years ago",
+   "page": 5,
+   "reason": "No age for the deceased is given anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-mortem statement describes Rani as Balmiki by caste."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Krishan is the husband of the deceased, so spouse is correct."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence was converted to s.302 IPC, murder, after death."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.302, 498A, 109 r/w s.34 (originally FIR under ss.307, 498A, 109 and 34)",
+   "quote": "Sections 307, 498A, 109 read with Section 34 of the Indian Penal Code",
+   "page": 5,
+   "reason": "Omits s.34 IPC and the original s.307 under which the FIR was first registered."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dying declaration states the husband poured kerosene oil on her body and set her on fire."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Dying declaration; medical evidence (PW14 post-mortem, PW11 doctor); evidence of SDJM and police witnesses; hostile witnesses PW1, PW3, PW4",
+   "quote": "PW9, PW11, PW14, SDJM, the other police witnesses and to some extent PW1 have also supported the case",
+   "page": 18,
+   "reason": "Omits magistrate and police and hostile-witness evidence; 'recovery' is not discussed in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not identify aggravating circumstances as such."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not identify mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court acquitted both accused."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court convicted Krishan and maintained acquittal of Shardi."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, upholding conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 is the offence upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "judgment of conviction and order of sentence dated 17th July, 2007",
+   "page": 5,
+   "reason": "The judgment does not state the sentence imposed, so a fixed term cannot be confirmed."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "judgment of conviction and order of sentence dated 17th July, 2007",
+   "page": 5,
+   "reason": "No term of imprisonment is mentioned anywhere in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned, so null is consistent with the text."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurate and do not reveal the Supreme Court's outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Punishment range for s.302 is not stated in the judgment; it comes from outside knowledge."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased died after burns, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Burn injuries led to death, with about 75% burns noted."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Sections 307, 498A, 109 read with Section 34 of the Indian Penal Code",
+   "page": 5,
+   "reason": "The judgment lists sections charged but does not count 'counts' or state which were upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Property loss is not discussed; 'Not applicable' is an inference rather than a stated fact."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Demands for money to buy a car from the deceased's father, and cruelty under liquor influence",
+   "quote": "Krishan also used to make demands for a car, and used to ask Rani to bring money to purchase the car from her father.",
+   "page": 5,
+   "reason": "The judgment identifies a motive of car-related money demands and harassment, not 'not identified'."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted the dying declaration as truthful and recorded per established procedure."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held hostile witnesses supported the prosecution to a limited extent and hostility was not determinative."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All listed dates match the judgment's stated dates."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearance listing for appellant and respondent."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR registered and amended; investigation completed; accused directed to face trial",
+   "quote": "The accused were directed to face trial before the Court of Sessions.",
+   "page": 8,
+   "reason": "A charge sheet filing is not mentioned; FIR amendment to s.302 is omitted."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Acquittal at trial, conviction on appeal to High Court, and dismissed Supreme Court appeal match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State relied on Ram Sagar Yadav: court must find whether the dying declaration is true; corroboration is needed only if circumstances are unclear",
+   "quote": "primary effort of the Court has to be to find out whether the dying declaration is true and if it is so, no question of corroboration arises.",
+   "page": 12,
+   "reason": "Captures the principle, but the 'recorded properly' point is the court's finding, not the State's stated argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence argued hostility of relatives undermined proof beyond reasonable doubt and dying declaration reliability."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's stated principle that a dying declaration can be sole basis if true and reliable."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Khushal Rao v. State of Bombay AIR 1958 SC 22; State of UP v. Ram Sagar Yadav (1985) 1 SCC 552; Munnu Raja v. State of MP (1976) 3 SCC 104; Ramilaben Hasmukhbhai Khristi v. State of Gujarat (2002) 7 SCC 56; Bhajju @ Karan Singh (2012) 4 SCC 327; Mrinal Das v. State of Tripura (2011) 9 SCC 479",
+   "quote": "In the case of Ramilaben Hasmukhbhai Khristi v. State of Gujarat (2002) 7 SCC 56, this Court held as under",
+   "page": 14,
+   "reason": "Omits Ramilaben Hasmukhbhai Khristi, which the court expressly relied on."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "judgment of conviction and order of sentence dated 17th July, 2007",
+   "page": 5,
+   "reason": "Judgment does not discuss sentencing; 'Not applicable' is an inference, not a stated fact."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating factors, so 'None' is not supported."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss aggravating factors, so 'None' is not supported."
+  },
+  "other_sentence_order": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "judgment of conviction and order of sentence dated 17th July, 2007",
+   "page": 5,
+   "reason": "Sentence order details are not stated, so 'None' is unsupported."
+  }
+ }
+}

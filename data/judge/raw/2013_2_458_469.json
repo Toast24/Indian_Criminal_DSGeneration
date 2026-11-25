@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three accused (A-1, A-2, A-3) are identified throughout."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are named males and referred to with male pronouns."
+  },
+  "accused_age": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "the dead body of 14 year old boy",
+   "page": 12,
+   "reason": "The 14-year-old reference concerns the victim's body, not the accused's age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is given only for the complainant PW-1, not the accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record of the accused is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the minor son, so male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment repeatedly describes the victim as a 7-year-old child."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (hostile neighbours; no family relationship stated)",
+   "quote": "the relations betweens the family of Leeladhar and the appellants-accused were hostile",
+   "page": 11,
+   "reason": "No family relation is stated; the accused were hostile neighbours, not relatives."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder is the core offence; kidnapping is also charged but the category is reasonable."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sections 302, 364 and 120-B IPC are the charged provisions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution case rests solely on circumstantial evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is recorded; only recoveries pursuant to information given."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Enmity and threat to finish the family are the relied-on aggravating motive facts."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are identified by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted all accused and sentenced them to life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed the appeal and confirmed conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed appeals, upholding the conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held appellants kidnapped and murdered the deceased."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment has no stated fixed term; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "5000 (Rs.5000 each for s.302, with further default RI)",
+   "quote": "to pay a fine of Rs.5000/-each",
+   "page": 4,
+   "reason": "The judgment states a fine of Rs.5000 each, so null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Remove outcome sentence; body was found on 19.4.1998, several days after the boy went missing.",
+   "quote": "On 19.4.1998 his dead-body was found on a hillock.",
+   "page": 1,
+   "reason": "States the court outcome and wrongly says the body was found hours later."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced each of them... to imprisonment for life",
+   "page": 4,
+   "reason": "Life sentence and Rs.5000 fine with default RI match the trial court order."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder was completed; the body was found."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the right hand of the dead body was cut and the same was missing. The head of the dead body was also missing.",
+   "page": 8,
+   "reason": "Supported by PW-1's testimony on mutilation, missing hand and head."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convicted under sections 302, 364 and 120-B, all upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Court does not find premeditation or planning; it only finds motive proved."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has proved motive on the part of the appellants for committing the murder",
+   "page": 11,
+   "reason": "Enmity and threat to finish the family are the motive found proved."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Cogent and acceptable evidence adduced by prosecution has established the deceased last seen with accused",
+   "page": 1,
+   "reason": "Matches the court's held summary of accepted evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution very much relied on PWs 3, 4 and 10 to prove the last seen theory and the courts below rightly accepted their version.",
+   "page": 11,
+   "reason": "Accurately reflects the court's acceptance of PWs 3, 4 and 10."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct beyond recoveries is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence, trial, HC and SC dates are consistent with the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Report lodged, charge sheet filed and trial completed are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified; only witness inconsistencies are noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately summarises the prosecution's circumstantial case as set out in para 6."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in the absence of direct evidence, the slightest of a discrepancy, depicting the possibility of two views would exculpate the accused",
+   "page": 5,
+   "reason": "Matches the amicus's contention recorded in para 4."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the following conditions must be fulfilled before a case against an accused can be said to be fully established",
+   "page": 6,
+   "reason": "Accurately summarises the five golden principles from Sharad Birdhichand Sarda."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sharad Birdhichand Sarda vs. State of Maharashtra, 1985 (1) SCR 88 = (1984) 4 SCC 116",
+   "page": 2,
+   "reason": "Citation matches the judgment's case law reference."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "awarded life sentence which was rightly affirmed by the High Court",
+   "page": 12,
+   "reason": "Matches the court's stated reasoning on sentence in para 16."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court does not identify aggravating factors for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Sentences under s.364 (RI 7 years, fine Rs.2000 each) and s.120-B (RI 7 years, fine Rs.2000 each), with default RI",
+   "quote": "under Section 364, RI for 7 years with a fine of Rs.2000 each",
+   "page": 5,
+   "reason": "Trial court imposed sentences under s.364 and s.120-B, so 'None' is wrong."
+  }
+ }
+}

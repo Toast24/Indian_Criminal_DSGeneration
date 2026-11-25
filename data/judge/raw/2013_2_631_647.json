@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants along with one Papisetti Praveen who was arrayed as accused no.4",
+   "page": 6,
+   "reason": "Three appellants plus accused No. 4 totals four accused."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never identifies the accused's gender; 'Male' is not backed by the text."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No accused age appears anywhere in the judgment; the value 35 is unsupported."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned, so 'Not stated' is accurate."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "resulting in grievous injuries to him that culminated in his death",
+   "page": 17,
+   "reason": "Victim is referred to with male pronouns and died."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (prior altercation and threat between the parties)",
+   "quote": "An altercation between the accused persons on the one hand and the deceased and PW-1 on the other had according to the prosecution taken place on the previous day",
+   "page": 6,
+   "reason": "Parties were not strangers; they had a prior altercation and a threat was made."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted the appellants for offences punishable under Section 302 read with Section 34 of the IPC",
+   "page": 6,
+   "reason": "Murder under s.302 is the main offence category."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302, s.34; s.324, s.34; s.341 (headnote); s.307 and s.302 charged",
+   "quote": "convicted them u/s. 302/34 and 324/341IPC",
+   "page": 2,
+   "reason": "Omits s.341 and the charged s.307, and the s.34 links to s.324."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "armed with stout casuarina sticks",
+   "page": 7,
+   "reason": "Accused were armed with casuarina sticks, as stated."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the police filed a charge sheet... post mortem of the dead body of the deceased",
+   "page": 7,
+   "reason": "Eyewitness testimony and post-mortem medical evidence are both referenced."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not mention any confession either way."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the incident was premeditated as a sequel to the confrontation",
+   "page": 16,
+   "reason": "Premeditation, threat, weapons and fatal vital-part injuries are all noted by the Court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Trial court acquitted all the accused.",
+   "page": 2,
+   "reason": "Trial court acquitted all accused, as stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "reversed the acquittal order as regards appellants-accused and convicted them u/s. 302/34 and 324/341PC",
+   "page": 2,
+   "reason": "High Court reversed acquittal and convicted under 302/34 and 324/34."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "In the result this appeal fails and is hereby dismissed.",
+   "page": 17,
+   "reason": "Appellants remain convicted after the Supreme Court dismissed their appeal."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder under s.302 r/w s.34 IPC and hurt under s.324 r/w s.34 IPC",
+   "quote": "convicted the appellants for offences punishable under Section 302 read with Section 34 of the IPC",
+   "page": 6,
+   "reason": "Section 34 is omitted and s.324 is not described as grievous hurt."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced them to undergo imprisonment for life",
+   "page": 6,
+   "reason": "Life imprisonment for the s.302 conviction is stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment carries no stated number of years; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "besides levying a fine of Rs.1,000/- each",
+   "page": 6,
+   "reason": "Fine of Rs.1,000 per appellant is stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused and another confronted the deceased and injured witness; trial court acquitted; High Court reversed and convicted; fact summary without outcome revelation",
+   "quote": "the High Court reversed the acquittal and convicted the accused for murder and causing grievous hurt",
+   "page": 6,
+   "reason": "Calls s.324 'grievous hurt' and states the conviction outcome, which neutral facts should avoid."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Death (s.302) and hurt by dangerous weapon (s.324); no punishment range stated",
+   "quote": "sentenced them to undergo imprisonment for life",
+   "page": 6,
+   "reason": "Labels s.324 as grievous hurt and adds punishment ranges not in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased succumbed to his injuries",
+   "page": 7,
+   "reason": "Deceased died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "which caused bleeding injuries to both the injured",
+   "page": 7,
+   "reason": "Deceased's death and PW-1's bleeding injuries are described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charge sheet under ss.302 and 307 IPC (s.307 with s.34 for A-4); High Court convicted under ss.302/34 and 324/34",
+   "quote": "the police filed a charge sheet against the appellants for offences punishable under Sections 302 and 307 IPC",
+   "page": 7,
+   "reason": "Charges were under ss.302 and 307, not 302 and 324."
+  },
+  "financial_property_loss": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss property or financial loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants were lying in wait near the Reading Room for the deceased",
+   "page": 16,
+   "reason": "Lying in wait and prior confrontation supporting premeditation are both noted."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Previous day's altercation and threat of dire consequences by appellant no.1",
+   "quote": "appellant no.1-Chinnam Kameswara Rao had threatened the deceased with dire consequences",
+   "page": 6,
+   "reason": "Threat is correct, but 'premeditated plan' is a finding, not a motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The depositions of PW-1 Alapati Seshadri, PW-2 ... PW-6 ... all supported the prosecution version",
+   "page": 17,
+   "reason": "Accepted depositions of PW-1, PW-2, PW-3, PW-4 and PW-6 match the judgment."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rejecting the testimony of these witnesses on minor contradictions which was not sufficient to shatter their credibility",
+   "page": 17,
+   "reason": "Matches the Court's finding on witness credibility and minor contradictions."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants fled the scene towards appellant no.1's house, leaving only after believing the deceased was dead",
+   "quote": "The appellants fled from the place of occurrence only when they felt that the deceased was dead.",
+   "page": 17,
+   "reason": "Judgment does describe post-offence flight, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence: 27 April 2003; High Court judgment: 8 Feb 2011; Supreme Court judgment: 10 January 2013; trial court date not stated",
+   "quote": "passed by the High Court of Andhra Pradesh at Hyderabad, dated 8th February, 2011",
+   "page": 6,
+   "reason": "The 8 Feb 2011 date is the High Court judgment, not the trial judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "M.S. Ganesh, T. Anamika for the Appellant.",
+   "page": 5,
+   "reason": "Counsel names for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the police filed a charge sheet",
+   "page": 7,
+   "reason": "Case registered, charge sheet filed and trial concluded are all reflected."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Omission of s.34 from the charge, argued as prejudicial; Court held no prejudice shown",
+   "quote": "The absence of charge under Section 34 of the IPC did not, therefore, affect the legality",
+   "page": 16,
+   "reason": "The s.34 charge omission was argued and addressed, so 'None noted' is incomplete."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court has partly allowed the acquittal appeal filed by the State",
+   "page": 6,
+   "reason": "Trial acquittal, High Court reversal and Supreme Court dismissal are correctly sequenced."
+  },
+  "prosecution_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (judgment records no separate prosecution submissions)",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records only defence submissions; prosecution arguments are not separately recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court was in error in embarking upon a fresh appraisal of the evidence",
+   "page": 8,
+   "reason": "Three defence submissions on reappraisal, s.34 charge and common intention are accurately captured."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Appellate Court has the power to reverse the findings... if two reasonable conclusions are possible",
+   "page": 9,
+   "reason": "Appellate power over acquittals and the s.34 prejudice principle are accurately stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Krishna Govind Patil v. State of Maharashtra AIR 1963 SC 1413",
+   "page": 12,
+   "reason": "All listed precedents are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo simple imprisonment for three months each with the direction that the sentences shall run concurrently",
+   "page": 6,
+   "reason": "Sentence terms and concurrency are accurately described, though the judgment gives no explicit rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not identify any mitigating factors, so 'None' is not backed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Injuries to vital part of body (skull fracture); continued assault after deceased fell; premeditation",
+   "quote": "the nature of the injuries inflicted upon the deceased on the vital part of the body resulting in fracture of the skull",
+   "page": 17,
+   "reason": "The Court expressly identified aggravating factors, so 'None' is contradicted."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Sentences to run concurrently; default simple imprisonment of one month for fine",
+   "quote": "with the direction that the sentences shall run concurrently",
+   "page": 6,
+   "reason": "The concurrency direction and default sentence were ordered, so 'None' is incomplete."
+  }
+ }
+}

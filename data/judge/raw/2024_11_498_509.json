@@ -1,0 +1,393 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Karakkattu Muhammed Basheer v. The State of Kerala",
+   "page": 1,
+   "reason": "Case title matches the judgment caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused No. 01 and Accused No. 02",
+   "page": 3,
+   "reason": "Two accused are identified and tried in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "carried the dead body ... on his shoulder",
+   "page": 11,
+   "reason": "The appellant is referred to as male throughout ('his shoulder', 'he')."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment nowhere states the accused's age; the value 28 has no basis in the text."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the accused is mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the accused is mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The appellant's occupation is not stated; the taxi driver mentioned is a witness, not the accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not discussed in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record of the accused is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the body of a woman was discovered in a paddy field",
+   "page": 3,
+   "reason": "The victim Gouri is described as a woman and referred to as 'she'."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not given anywhere in the judgment; 28 is unsupported."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Married on paper (registered marriage 17.05.1989, dissolved 31.07.1989); victim was related to Accused No. 02",
+   "quote": "the Appellant ... entered into a registered marriage with Gouri on 17.05.1989",
+   "page": 3,
+   "reason": "The appellant was in a registered marriage with the victim, not a stranger, though the marriage was dissolved in July 1989.",
+   "page_note": null
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for the murder of one Gouri during the night of 16th-17th August 1989",
+   "page": 2,
+   "reason": "The offence charged and discussed is murder under section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.302, 201 (charged with ss.302, 201 read with s.34; s.34 charge not established)",
+   "quote": "charged under Section 302, 201 read with Section 34 of IPC, but they were acquitted of the charge of Section 34",
+   "page": 7,
+   "reason": "Section 34 was charged but the accused was acquitted of it; convictions were under ss.302 and 201 only."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "grabbed a coconut scrapper from the kitchen and hit Gouri on the head multiple times",
+   "page": 4,
+   "reason": "The coconut scrapper is identified as the weapon used for the killing."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the case of the prosecution is solely based upon circumstantial evidence",
+   "page": 5,
+   "reason": "Case is circumstantial; postmortem medical evidence and recoveries are also relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is no eyewitness of the incident in question, and therefore, the case of the prosecution is solely based upon circumstantial evidence",
+   "page": 5,
+   "reason": "No confession is mentioned; the case rests solely on circumstantial evidence."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss any aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss any mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "upholding the order of conviction and sentence passed by the Sessions Court",
+   "page": 2,
+   "reason": "Sessions Court convicted the appellant under ss.302 and 201 and sentenced him."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction and sentence upheld",
+   "quote": "These appeals came to be dismissed by the impugned judgment, upholding the conviction and sentence",
+   "page": 3,
+   "reason": "The High Court did not return 'not applicable'; it dismissed the appeals and upheld conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Appellant is acquitted of all the charges.",
+   "page": 12,
+   "reason": "The Supreme Court allowed the appeal and acquitted the appellant."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The case having not been proved what to say of beyond reasonable doubt against the Appellant",
+   "page": 12,
+   "reason": "No offence was finally established against the appellant after acquittal."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Appellant be set free forthwith.",
+   "page": 12,
+   "reason": "Final outcome is acquittal, so no imprisonment type applies."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Appellant be set free forthwith.",
+   "page": 12,
+   "reason": "No imprisonment remains after acquittal, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The prosecution alleged that the accused, with another accused, murdered a woman at the latter's house at night. Her body was found in a paddy field. The prosecution alleged an illicit relationship motive, a coconut scrapper attack, dragging of the body, and recovery of blood-stained items and the weapon.",
+   "quote": "However, the evidence was criticized for gaps and inconsistencies",
+   "page": 12,
+   "reason": "The 'criticized for gaps' sentence signals the court's assessment and hints at the acquittal outcome; neutral facts should omit it.",
+   "page_note": null
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment under s.302 (as sentenced by lower courts); no minimum term stated",
+   "quote": "The sentence included life imprisonment under Section 302",
+   "page": 2,
+   "reason": "Life imprisonment is supported, but a 10-year minimum is not stated anywhere in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for the murder of one Gouri",
+   "page": 2,
+   "reason": "The murder was completed, the victim having died from head injuries."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "six antemortem injuries on the left side of the head fractured into multiple fragments, as well as abraded contusions on the right wrist and left knee",
+   "page": 3,
+   "reason": "Injuries and their sufficiency to cause death are accurately described."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charged with ss.302 and 201 (r/w s.34); no charge upheld, appellant acquitted of all charges",
+   "quote": "The Appellant is acquitted of all the charges.",
+   "page": 12,
+   "reason": "Nothing was finally upheld against the appellant; he was acquitted of all charges, so 'one upheld' is wrong.",
+   "page_note": null
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "An altercation occurred between the Appellant and the deceased",
+   "page": 4,
+   "reason": "No premeditation or planning is stated; the prosecution case describes an altercation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was illicit relationship between the Appellant and Accused No. 02",
+   "page": 3,
+   "reason": "The prosecution's asserted motive was the illicit relationship between the two accused."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "None accepted; the Court found the presence, bag recovery, and blood-stain/weapon recoveries unreliable and not relied upon",
+   "quote": "the prosecution has failed in its endeavour of bringing home the guilt against the Appellant",
+   "page": 12,
+   "reason": "The Court did not accept the prosecution's circumstantial case; it rejected the evidence and acquitted.",
+   "page_note": null
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "this witness acknowledges that he assumed that the person he had seen on the date of incident entering the house of Accused No. 02 was the Appellant",
+   "page": 10,
+   "reason": "Court doubted PW14 (back view, assumed identity) and PW20 (distant sighting), and PW18's recovery account."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecution alleged appellant disposed of body, returned to Accused No. 02's house, and left town next morning (PW20); court did not accept this",
+   "quote": "He then came back to the house of Accused No. 2 and left for his destination the following morning.",
+   "page": 4,
+   "reason": "Alleged post-offence conduct is described in the judgment, so 'Not stated' is wrong.",
+   "page_note": null
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "In case the Appellant has been released on bail, the bail bonds and the sureties, if any, are hereby discharged.",
+   "page": 12,
+   "reason": "Bail history is only mentioned conditionally, with no actual bail details stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence 16-17 Aug 1989; High Court judgment 18.10.1996; Supreme Court decision 05.11.2024; Sessions Court judgment date not stated",
+   "quote": "Judgment and Order dated 18.10.1996 of the High Court of Kerala",
+   "page": 2,
+   "reason": "18.10.1996 is the High Court judgment date; the trial court's judgment date is not stated.",
+   "page_note": null
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Thomas P. Joseph, Sr. Adv., Dr. Linto K.B., Tom Joseph, Dinny Thomas, Advs. for the Appellant.",
+   "page": 2,
+   "reason": "Appearances for appellant and respondent are accurately listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "registered a case of unnatural death at the Parappanangadi Police Station",
+   "page": 3,
+   "reason": "A case was registered, a final report was filed, and trial was completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Recoveries not made in presence of independent witnesses; PW18 account of bag handover discrepant; planting not ruled out",
+   "quote": "those being made not in the presence of independent witnesses",
+   "page": 10,
+   "reason": "The Court flagged recovery irregularities, lack of independent witnesses and possible planting, so 'None noted' is wrong.",
+   "page_note": null
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Sessions Court: convicted and sentenced; High Court: appeals dismissed, conviction upheld; Supreme Court: appeal allowed, acquitted",
+   "quote": "upholding the order of conviction and sentence passed by the Sessions Court",
+   "page": 2,
+   "reason": "Sessions Court convicted; it did not uphold a conviction. The High Court and Supreme Court entries are correct.",
+   "page_note": null
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution sought to establish motive for the murder by asserting that there was illicit relationship",
+   "page": 3,
+   "reason": "Summarizes the prosecution's motive, presence, and recovery-based case accurately."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the case is solely based upon circumstantial evidence, with no eyewitness to the occurrence",
+   "page": 4,
+   "reason": "Accurately reflects the defence submissions on circumstantial evidence and gaps."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution must establish all the pieces of incriminating circumstances by reliable and clinching evidence",
+   "page": 5,
+   "reason": "Panchsheel principles and the beyond-reasonable-doubt standard are correctly described."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ramreddy Rajesh Khanna Reddy and Another v. State of A.P. [2006] 3 SCR 348 : (2006) 10 SCC 172",
+   "page": 5,
+   "reason": "The precedent cited is the case relied on for the panchsheel principles."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given because the appellant was acquitted."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment discusses no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment discusses no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant's bail bonds and sureties discharged and appellant set free; co-accused (Accused No. 02) sentenced to four years under s.201",
+   "quote": "The Appellant be set free forthwith.",
+   "page": 12,
+   "reason": "Omits the release and bail-discharge order for the appellant and the co-accused's four-year sentence.",
+   "page_note": null
+  }
+ }
+}

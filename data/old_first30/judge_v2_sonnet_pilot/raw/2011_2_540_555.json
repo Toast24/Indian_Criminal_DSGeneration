@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "KILAKKATHA PARAMBATH SASI & ORS. v. STATE OF KERALA",
+   "page": 1,
+   "reason": "Matches the title."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "7 tried; 4 convicted appellants",
+   "quote": "The Trial Court acquitted all the seven accused.",
+   "page": 2,
+   "reason": "Seven were charged and tried; four are appellants. The value 4 reflects only the appellants."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Gender is not explicitly stated, though names imply male; 'Not stated' is acceptable."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No ages given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation not stated; political party membership only."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No record mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-1 Shaji, who is the brother of the deceased, Sathyan",
+   "page": 6,
+   "reason": "Deceased is a brother; both victims are male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age not stated (Sathyan referred to as 'another youth' in the trial quote only)."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "No familial relationship; political rivals (BJP accused vs Congress workers); otherwise strangers/acquaintances not specified",
+   "quote": "the accused belonged to the Bhartiya Janta Party whereas PW-1 and his brother were workers of the Congress Party",
+   "page": 1,
+   "reason": "Judgment states a political rivalry relationship, so 'Not stated' is inaccurate."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Section 302 r/w Section 34 IPC",
+   "page": 1,
+   "reason": "Murder conviction."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 147, 148, 307, 324 and 302 read with Section 149",
+   "page": 2,
+   "reason": "Accurate charge and conviction provisions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "assaulted PW-1 and his brother with sword, axe and knife",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-7, the doctor, found 58 injuries",
+   "page": 2,
+   "reason": "Eyewitness, medical, and investigative evidence are all present."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "58 injuries thereon, most of them incised and cutting wounds, some of them of huge dimensions",
+   "page": 2,
+   "reason": "Supported by the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Trial Court acquitted all the seven accused.",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "reversed the acquittal of four accused (the appellants)... acquittal of other three accused was maintained",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal is accordingly dismissed.",
+   "page": 16,
+   "reason": "Appeal dismissed, conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to life imprisonment under Section 302 r/w Section 34",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to life imprisonment",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment; no years specified."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same summary, but the victim's brother died after being referred to Kozhikode Medical College (not clearly said 'died there'); the facts also state he died at about 4 p.m.",
+   "quote": "Sathyan was referred to Kozhikode Medical College where he soon died",
+   "page": 7,
+   "reason": "Mostly accurate and does not reveal the outcome; small inconsistency over where the brother died (judgment is itself inconsistent)."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No severity classification stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-1 was grievously injured while his brother died at the hospital.",
+   "page": 2,
+   "reason": "Murder completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "three incised wounds were found on him as well",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "5 sections charged; conviction under s.302 r/w s.34 only",
+   "quote": "charged for offences punishable under Sections 147, 148, 307, 324 and 302 read with Section 149",
+   "page": 2,
+   "reason": "Roughly right, but this is a count of sections, not offences; the conviction was under s.34, not s.149."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution alleged accused waited at Babu's shop for the deceased; the SC made no finding",
+   "quote": "waited at the shop of the 4th accused Babu for the deceased to reach the place in the bus",
+   "page": 9,
+   "reason": "The prosecution did allege waiting; the court made no express finding, but the value omits that allegation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on account of political animosity",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "PW-1 injured witness, PWs 2-4, spontaneity of FIR; medical evidence was not specifically relied on",
+   "quote": "The prosecution story is also fully supported by the evidence of PWs 2,3 and 4.",
+   "page": 15,
+   "reason": "Medical evidence was not specifically accepted as key by the Court."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-4 who is a truly independent witness",
+   "page": 15,
+   "reason": "Accurate."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "At about 1:45 p.m. on the 24th March; 1994",
+   "page": 6,
+   "reason": "Dates correct."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "U.R. Lalit, E.M.S. Anam, Fazlin Anam for the Appellants",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On the completion of the investigation, the accused were charged",
+   "page": 7,
+   "reason": "Consistent."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their non-examination case would not mean that the entire prosecution story would fall through",
+   "page": 16,
+   "reason": "Accurate."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal is accordingly dismissed.",
+   "page": 16,
+   "reason": "Matches."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "merely because PW-1 did not name all the seven accused at the first instance, was of no consequence",
+   "page": 12,
+   "reason": "Matches."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the facts did not justify interference in an appeal against acquittal",
+   "page": 11,
+   "reason": "Matches."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court can re-appraise the evidence",
+   "page": 12,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Arulve/u and Anr. Vs. State represented by the Public Prosecutor and Anr.",
+   "page": 12,
+   "reason": "Matches."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing reasoning is given."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None discussed in sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  }
+ }
+}

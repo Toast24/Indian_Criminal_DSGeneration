@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment states there are eleven appellants."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "name his brother as one of the assailants",
+   "page": 9,
+   "reason": "The judgment refers to the accused brother with 'his', and the accused are named as men, so 'Not stated' is wrong."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is given; the 14-year jail period is not an age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated or described for the accused."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants and the prosecution witnesses belong to Santhal Community of village Mobarakpur.",
+   "page": 6,
+   "reason": "The judgment names the accused's community as Santhal and describes them as tribals."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment describes the accused as very poor and economically weak, which the value reflects."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim is male, referred to with 'he' and as the husband of two wives."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (Santhal is stated for the accused and material witnesses; the deceased's community is not expressly stated)",
+   "quote": "The appellants as well as the material witnesses belong to Santhal community.",
+   "page": 12,
+   "reason": "Santhal is stated for accused and witnesses, not expressly for the deceased, though the family link suggests it."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated or described for the victim."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "inimical relation between the deceased and accused family due to stealing of hen of one appellant",
+   "page": 2,
+   "reason": "The judgment describes the prior hen-theft dispute and inimical relation between the families."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Culpable homicide (charged as murder; finally convicted of culpable homicide not amounting to murder)",
+   "quote": "convicting the appellants for culpable homicide not amounting to murder",
+   "page": 13,
+   "reason": "Charged as murder, but the final conviction is culpable homicide, which the category should reflect."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sections charged and the altered s.304 Part II conviction match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Lathis were used and tangies were carried but not used, as the judgment states."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, post-mortem medical evidence and the first wife's police statement are all described."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fourteen injuries, rib fractures, scalp haematoma, tying up and death are all stated facts."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trivial dispute, unused tangies, poverty, tribal status and jail time are all noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo imprisonment for life",
+   "page": 6,
+   "reason": "The trial court convicted under s.148 and s.302 r/w s.149 and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants' appeal was dismissed by the High Court.",
+   "page": 6,
+   "reason": "The High Court dismissed the appeal, affirming conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction was altered to a lesser offence, which matches conviction_modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final conviction is culpable homicide not amounting to murder under s.304 Part II."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The sentence is time already undergone with no term in years stated, so not_stated is defensible."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed term in years is given, so null is right."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The same summary, but without gendered pronouns (e.g. 'the witness named the witness's brother among the assailants')",
+   "quote": "named his brother among the assailants",
+   "page": 9,
+   "reason": "Summary is accurate and avoids outcome, but uses a gendered pronoun, which the instructions forbid."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory punishment range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim was beaten to death, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death, fourteen injuries, rib fractures and scalp haematoma are accurately described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two sections were charged; the s.304 Part II substitution is noted, and s.148 is not expressly addressed."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No loss from this offence is stated; the hen and liquor were an earlier penalty."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "In a frenzy, lathi blows were dealt with force.",
+   "page": 4,
+   "reason": "The court found no common object to kill and attributed the beating to a frenzy."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their anger and reaction to the theft of hen must be viewed",
+   "page": 5,
+   "reason": "The court framed the motive as anger over the hen theft and related penalty."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The evidence of PW-1 Nilmoni, PW-3 Rabi Soren, PW-6 Sumi Soren and PW-7 Kanka is truthful",
+   "page": 9,
+   "reason": "The court accepted these eyewitnesses and the doctor's view that a lathi could cause the injuries."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Their evidence has a ring of truth.",
+   "page": 9,
+   "reason": "Witnesses were found truthful despite relation to the victim, and PW-7 named his brother."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment notes no post-offence conduct by the accused; the fleeing was PW-7's."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants are in jail for almost 14 years",
+   "page": 13,
+   "reason": "The judgment states almost 14 years in jail."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail grant or refusal is described."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates match: quarrel 14/4/1989, High Court 20.01.2003, Supreme Court 5 February 2014."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for appellants and State match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Statement to Memari Police Station, investigation completed and charges framed are described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural lapse is noted by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately summarized."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "even if the common object was to inflict injuries, the appellants ... knew that the murder was likely to be committed",
+   "page": 6,
+   "reason": "Accurately reflects the State's s.149 argument and reliance on ocular evidence."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants are poor tribals; they are in jail for a considerably long time",
+   "page": 7,
+   "reason": "Accurately reflects the defence's acquittal and alternative s.304 Part II submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "In the peculiar facts of this case, therefore, it cannot be held that the appellants shared common object to murder",
+   "page": 10,
+   "reason": "Accurately states the common object and s.304 Part II reasoning applied by the court."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The listed precedents and citations match those in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "justice must be tempered with mercy",
+   "page": 13,
+   "reason": "Rationale matches the court's reasons: trivial cause, economic status, and time served."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All listed factors are weighed by the court in its reasoning."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no aggravating factors, though it noted there was no justification for the acts."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They are directed to be released forthwith unless they are otherwise required in any other case.",
+   "page": 13,
+   "reason": "The release direction is stated in the judgment."
+  }
+ }
+}

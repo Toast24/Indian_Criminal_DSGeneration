@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "State of Punjab v. Jagga Singh etc.",
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "7",
+   "quote": null,
+   "page": null,
+   "reason": "Seven accused are referenced (2 appellants plus 5 respondents) and charged in the sessions case."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to with male pronouns and male names throughout."
+  },
+  "accused_age": {
+   "verdict": "partially_correct",
+   "correct_value": "Two visitors aged about 30 and 40; individual accused ages not stated",
+   "quote": "Two persons aged about 30 and 40 respectively wrapping themselves in Chaddars",
+   "page": 4,
+   "reason": "Age 30 is only one of two visitors' approximate ages; it is not tied to a specific accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Driver (accused Charanjit Singh, working with accused Jugraj Singh)",
+   "quote": "accused Charanjit Singh was working as driver with accused Jugraj Singh",
+   "page": 8,
+   "reason": "Occupation is stated for Charanjit Singh as a driver, so 'Not stated' is contradicted."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status of the accused is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": null,
+   "page": null,
+   "reason": "Victim Satnam Singh is referred to with male pronouns and as the mother's son."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the victim; the 30 appears to come from the assailants' ages."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Accused Charanjit Singh was known to the victim's family and worked under the victim's cousin Jugraj Singh's business; other relationships not stated",
+   "quote": "accused Charanjit Singh was working as driver with accused Jugraj Singh and he was known to PW1 Balwinder Kaur",
+   "page": 8,
+   "reason": "Calling them strangers contradicts the judgment's account of a known driver tied to the victim's business partners."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 read with s.120-B; IPC s.302 (for two accused); Arms Act s.25",
+   "quote": "Section 302 IPC read with Section 120-B IPC",
+   "page": 3,
+   "reason": "Omits Section 120-B IPC, the conspiracy provision under which five accused were convicted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "Pistols (firearms; two .303 country made pistols recovered)",
+   "quote": "Besides two .303 country made pistals with two live cartridges were also recovered",
+   "page": 5,
+   "reason": "Pistols are the weapons used and recovered."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness, medical, fingerprint expert evidence, recovery (pistols, cartridges, scooter); no circumstantial category stated",
+   "quote": "The evidence of presence of fingerpr[nts] on the glass tu_mblers corroborates the testimonies of the eye-witnesses",
+   "page": 2,
+   "reason": "Fingerprint expert evidence is key but omitted; 'circumstantial' is not labelled in the judgment."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged extra-judicial confession by accused Ranjit Singh to PW9, disbelieved as uncorroborated",
+   "quote": "accused Ranjit Singh is alleged to have made extra judicial confession",
+   "page": 11,
+   "reason": "An extra-judicial confession was alleged and rejected; 'None' omits this."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss aggravating circumstances; 'None noted' is consistent."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted (all seven accused)",
+   "quote": "The Trial Court found all the accused guilty of the charges and convicted and sentenced them",
+   "page": 7,
+   "reason": "Trial court convicted all accused."
+  },
+  "high_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Acquitted five accused; confirmed conviction of two",
+   "quote": "the High Court acquitted five of them by allowing their appeals and at the same time confirmed conviction and sentence imposed on accused Charanjit Singh and Surjeet Singh",
+   "page": 7,
+   "reason": "'Acquitted' applies only to five; the other two had convictions confirmed."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convictions of two accused affirmed; acquittal of five upheld",
+   "quote": "conviction order against two accused is affirmed",
+   "page": 1,
+   "reason": "Single 'convicted' label omits that five accused were acquitted and their acquittals upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "the conviction order against two accused is affirmed",
+   "page": 1,
+   "reason": "Murder conviction affirmed against two accused."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "Life",
+   "quote": "sentenced to undergo imprisonment for life each",
+   "page": 3,
+   "reason": "Life imprisonment imposed for murder on the two convicted accused."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment (s.302); two years rigorous imprisonment (Arms Act s.25)",
+   "quote": "rigorous imprisonment for two years each",
+   "page": 3,
+   "reason": "Null omits the two-year rigorous imprisonment stated for the Arms Act offence."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.2000 each (s.302, with default sentence); Rs.1000 each (Arms Act)",
+   "quote": "to pay a fine of Rs.2000/- each with default sentence for the offence of murder",
+   "page": 3,
+   "reason": "Fines are explicitly stated in the judgment, so null is contradicted."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Victim was known to the accused driver and business associates; the facts should not state the High Court's split outcome",
+   "quote": "The accused and the victim were strangers.",
+   "page": 8,
+   "reason": "Calls them strangers, contradicting the stated connection; also reveals the High Court acquittal outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Life imprisonment and Rs.2000 fine (s.302 IPC); two years RI and Rs.1000 fine (Arms Act s.25)",
+   "quote": "to pay a fine of Rs.2000/- each with default sentence",
+   "page": 3,
+   "reason": "Sentences and fines described match the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": "resulting in his death",
+   "page": 6,
+   "reason": "Death of the victim occurred from the shooting; offence completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Lacerated gunshot wound on left chest piercing left lung and damaging major blood vessel; death from shock and haemorrhage",
+   "quote": "piercing the left lung and damaging major blood vessel",
+   "page": 7,
+   "reason": "Injury and cause of death match the medical evidence."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Seven accused charged under s.302/120-B IPC; two convicted under s.302 and Arms Act s.25; five acquittals upheld",
+   "quote": "five were finally upheld, two were confirmed as convictions",
+   "page": 3,
+   "reason": "Counts accused rather than offences, and 'upheld' is ambiguous about acquittals being affirmed."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation finding; the court noted no proof of conspiracy."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Not expressly stated; background of earlier business misunderstanding between victim and cousin Jugraj Singh is mentioned",
+   "quote": "due to misunderstanding separated from him",
+   "page": 8,
+   "reason": "Business dispute background is mentioned, though not expressly identified as motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "Fingerprints on glass tumblers corroborating eyewitnesses; fingerprint expert's handling accepted",
+   "quote": "The evidence of presence of fingerpr[nts] on the glass tu_mblers corroborates the testimonies of the eye-witnesses.",
+   "page": 2,
+   "reason": "Accurately reflects the evidence the court accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "PWs 1 and 2 found cogent, natural and trustworthy",
+   "quote": "Their testimonies are cogent, natural and trustworthy.",
+   "page": 11,
+   "reason": "Matches the court's credibility assessment."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Assailants fled the scene in a vehicle (jeep) after the shooting",
+   "quote": "they heard the noise of the starting of a jeep from the other side of the road and the assailants fled away",
+   "page": 10,
+   "reason": "Flight from the scene is described; 'Not stated' overlooks it."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Bail granted to Surjit Singh in Criminal Appeal No. 2328 of 2009 to be cancelled",
+   "quote": "The bail granted to the appellant/accused Surjit Singh in Criminal Appeal no. 2328 of 2009 shall be cancelled",
+   "page": 12,
+   "reason": "Matches the court's directions on bail."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence: 10.11.2002; High Court judgment: 17.09.2007; Supreme Court judgment: 17.12.2014; trial court judgment date not stated",
+   "quote": "All these criminal appeals have arisen out of the common judgment dated 17.09.2007",
+   "page": 3,
+   "reason": "The 17.09.2007 date is the High Court judgment; the trial court judgment date is not stated."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Counsel: V. Madhukar AAG (State), Anvita Kowshish, Mohit Nain and others; judgment delivered by C. Nagappan, J.",
+   "quote": "V. Madhukar, AAG, Anvita Kowshish, Mohit Nain, Dhruv A Mohan",
+   "page": 3,
+   "reason": "Lists judge C. Nagappan as counsel, and the counsel roles are not clearly assigned."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": "FIR registered (Exh. PN2); charge sheet filed; trial completed",
+   "quote": "prepared Exh. PN2 FIR at 7.45 A.M.",
+   "page": 4,
+   "reason": "FIR, charge sheet and completed trial are all described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "None found; defence alleged non-compliance with s.5 Identification of Prisoners Act, rejected",
+   "quote": "In the facts of the case in which the decision cited supra arose",
+   "page": 10,
+   "reason": "No irregularity was accepted; the defence objection was rejected."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial court convicted all seven; High Court acquitted five and confirmed two; Supreme Court affirmed two convictions and five acquittals",
+   "quote": "dismissed the appeal preferred by two of the accused",
+   "page": 3,
+   "reason": "Appeal chain matches the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": "Eyewitness testimony corroborated by fingerprint evidence; courts below rightly relied on the witnesses",
+   "quote": "The prosecution case against them is supported by evidence of eye-witnesses",
+   "page": 1,
+   "reason": "Summarises the prosecution case as the court accepted it."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "Non-naming in complaint, no identification parade, specimen prints not taken before Magistrate, and PWs 1 and 2 absent at Landey",
+   "quote": "PW1 Balwinder Kaur had not named the accused persons in her complaint",
+   "page": 8,
+   "reason": "Accurately summarises the defence contentions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Family-member eyewitnesses' testimony accepted as natural and trustworthy; no material discrepancy",
+   "quote": "The presence of PWs 1 and 2 being the family members in the house is natural",
+   "page": 11,
+   "reason": "Matches the court's stated reasoning on witnesses."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Mohd. Aman and Anr. vs. State of Rajasthan (1997) 10 SCC 44 — distinguished, not relied upon",
+   "quote": "Mohd. Aman and Anr. vs. State of Rajasthan (1997) 10 sec 44 - distinguished.",
+   "page": 2,
+   "reason": "The case was distinguished, not relied upon as authority."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "No separate sentencing reasoning; the court held the sentence did not call for interference",
+   "quote": "the conviction and sentence imposed on the convicted appellants does not call for any interference",
+   "page": 11,
+   "reason": "Judgment gives no separate sentencing rationale; the summary mostly restates evidentiary reasoning."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": "Bail of Surjit Singh cancelled; surrender to Additional Sessions Judge, Ludhiana to serve remaining sentence",
+   "quote": "he is directed to surrender before the Additional Sessions Judge, Ludhiana",
+   "page": 12,
+   "reason": "Matches the court's directions."
+  }
+ }
+}

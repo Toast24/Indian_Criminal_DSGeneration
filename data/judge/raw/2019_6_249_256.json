@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment concerns two appellants; the trial involved 7-9 persons, but the accused before the Court are two."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants are referred to as male ('him' for appellant no.2; husband of Vajibai)."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for either appellant anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Deceased are named but no pronoun or gender term is used for them in the judgment."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for either deceased person in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the deceased is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the deceased is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Parties in a land/right-of-way dispute (civil suit between the parties)",
+   "quote": "The cause of occurrence is that the appellants were not giving right of way to the deceased.",
+   "page": 251,
+   "reason": "Judgment shows a prior dispute and civil litigation between the parties, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under s.302 IPC for death of two persons is murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.302 r/w 34 and 324 (conviction); s.304 Part II argued in the alternative",
+   "quote": "maintaining conviction for offences under Sections 302 and 324 of IPC",
+   "page": 251,
+   "reason": "Omits s.324 and the s.304 alternative discussed; s.34 is cited only in the argument."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Spears, axe and sticks are all identified as weapons in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Medical, eyewitness (injured witnesses PW-3, PW-4), post-mortem; no recovery evidence discussed",
+   "quote": "PW-2, the doctor has been examined to prove the injuries on prosecution witnesses.",
+   "page": 254,
+   "reason": "Medical and eyewitness evidence are correct, but recovery evidence is never mentioned."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Multiple chest injuries on vital parts and use of spears and axe are noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no mitigating circumstances; defence's custody-period plea was rejected."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted appellants under s.302 IPC and granted benefit of doubt to Hansraj."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction under ss.302 and 324 IPC maintained",
+   "quote": "maintaining conviction for offences under Sections 302 and 324 of IPC",
+   "page": 251,
+   "reason": "High Court maintained the conviction, so the outcome is not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, upholding the conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 IPC was upheld as the final offence."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the appellants were convicted for life under s.302."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term in years is stated; sentence is life imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral version: two accused allegedly armed with spears, axe and sticks attacked two deceased and two injured witnesses at night over a right-of-way dispute; accused claimed private defence and cross-FIR was lodged; the Court's reasoning and outcome are omitted.",
+   "quote": "The learned Trial Court granted benefit of doubt to Hansraj whereas convicted the appellants for offence under Section 302 IPC.",
+   "page": 255,
+   "reason": "Facts state the court's rejection of self-defence and the trial conviction, revealing the outcome; deceased being unarmed is a disputed finding."
+  },
+  "offence_severity": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment under s.302 IPC; 10-year maximum only for the alternative s.304 Part II argument",
+   "quote": "the maximum sentence is 10 years for an offence under Section 304(Part II)",
+   "page": 251,
+   "reason": "No 6-year minimum appears; the 10-year figure relates to the rejected s.304 alternative, not the conviction."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Both deceased died on the spot, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment records death of two persons and injuries to two others."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions under ss.302 and 324 IPC were maintained by the High Court and the appeal dismissed."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss amount is stated; the dispute concerns possession of land."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "No express premeditation finding; the court rejected the sudden-quarrel plea given multiple vital-part wounds",
+   "quote": "it cannot be said that the appellants have acted at the spur of the moment without pre-meditation",
+   "page": 256,
+   "reason": "Court rejected the spur-of-the-moment plea but did not expressly find premeditation or planning."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Dispute over right of way; complainant party had obtained an injunction in a civil suit",
+   "quote": "The cause of occurrence is that the appellants were not giving right of way to the deceased. The complainant party had filed the civil suit in which injunction was granted in their favour.",
+   "page": 251,
+   "reason": "Motive is clearly stated as a right-of-way dispute and civil suit, not 'Not identified'."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Injured witness testimony and post-mortem corroboration, with weapons on appellants' side, match the judgment."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Presence of PW-3 and PW-4 not seriously disputed; PW-3's statement led to FIR; post-mortem corroborates their oral testimony",
+   "quote": "the presence of the two witnesses at the time of occurrence is not seriously disputed",
+   "page": 254,
+   "reason": "Judgment does not expressly call witnesses credible; it notes undisputed presence and post-mortem corroboration."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court does not discuss post-offence conduct as a factor."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Arrested 17 July 1987; appellants said to have undergone more than 11 years actual imprisonment",
+   "quote": "The appellants have undergone more than 11 years of actual imprisonment",
+   "page": 251,
+   "reason": "Judgment states custody duration and arrest date, so 'Not stated' is wrong."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence 1 July 1987; High Court order 24.10.2008; Supreme Court judgment 23 April 2019; trial court judgment date not stated",
+   "quote": "From the Judgment and Order dated 24.10.2008 of the High Court of Gujarat",
+   "page": 249,
+   "reason": "Offence date and High Court date are right, but 24.10.2008 is not the trial judgment date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearance listing in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR lodged 2 July 1987 at 7 AM; cross-FIR case (Sessions Case No. 97 of 1987) separate trial in progress",
+   "quote": "Separate trial is in progress in respect of First Information Report lodged by the appellants.",
+   "page": 256,
+   "reason": "Cross-case trial is described as in progress, not completed; FIR timing is correct."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is discussed in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court maintenance and Supreme Court dismissal are consistent with the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the prosecution reliance on PW-3, PW-4, PW-2 and the spear/axe/sticks attack."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cross-FIR, 9 aggressors, injuries, private defence and spur-of-moment pleas are all recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Private defence limits and unavailability against unarmed assailants are stated in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Jangir Singh 2018 (15) SCALE 88 is relied on and distinguished."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's reasoning on multiple chest wounds and the s.302 conviction."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no judicial mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Multiple stab wounds on chest (vital parts); acted with no sudden-fight justification",
+   "quote": "the appellants have given multiple injuries on the vital parts of the deceased",
+   "page": 256,
+   "reason": "Court expressly relied on multiple wounds on vital parts as aggravating, so 'None' is wrong."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "No separate punishment imposed for the s.324 IPC conviction",
+   "quote": "no separate punishment was inflicted for the offence under Section 324 IPC",
+   "page": 251,
+   "reason": "Judgment records that no separate sentence was imposed under s.324, which is a sentence-related order."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "NANDA GOPALAN v. STATE OF KERALA",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant stands convicted under Sections 324 and 326",
+   "page": 3,
+   "reason": "Single appellant whose conviction is decided."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is son of cousin of injured Sukumaran (PW1)",
+   "page": 3,
+   "reason": "Described as 'son', which indicates male; no contrary statement."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth or class of the accused."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW 1 became unconscious. He was admitted to",
+   "page": 3,
+   "reason": "Victim PW 1 referred to as 'he'; male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste or community is not named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is son of cousin of injured Sukumaran (PW1)",
+   "page": 3,
+   "reason": "Judgment describes the accused as son of the victim's cousin, a relative."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Penal Code, 1860: ss.324 and 326",
+   "page": 1,
+   "reason": "Sections 324 and 326 concern hurt and grievous hurt."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Sections 324 and 326 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Sections 324 and 326 IPC are the charged provisions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "attacked PW 1 by using a bat made of coconut leaf stem",
+   "page": 3,
+   "reason": "Both the bat and the stone are identified in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW 1 ... PWs 2 and 3, his sons and PW 8 his wife, apart from independent witnesses PWs 4, 5 and 6. In addition, medical evidence and relevant documents",
+   "page": 4,
+   "reason": "Eyewitness, independent, medical and documentary evidence are all described."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating facts are noted by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "particularly when they are close relatives, reduction in sentence can be ordered",
+   "page": 6,
+   "reason": "Compromise between close relatives is the mitigating factor noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo rigorous imprisonment for two years and three years respectively and to pay fine of Rs.30,000/- to the injured as compensation",
+   "page": 3,
+   "reason": "Matches the trial court's sentences and the Rs.30,000 payment."
+  },
+  "high_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Conviction affirmed by the High Court with reduction in sentence; application to compound s.324 and quash s.326 dismissed",
+   "quote": "affirmed by the High Court with reduction in sentence",
+   "page": 1,
+   "reason": "Judgment never says the appeal was 'dismissed'; it says conviction affirmed with sentence reduced."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "reduce the sentence of imprisonment of the appellant to the period already undergone",
+   "page": 13,
+   "reason": "Convictions stand but sentence is modified, matching conviction_modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the finding of the courts below on the nature of charge is not interfered with",
+   "page": 2,
+   "reason": "Convictions under ss.324 and 326 were upheld by the Supreme Court."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "reduce the sentence of imprisonment of the appellant to the period already undergone",
+   "page": 13,
+   "reason": "Final sentence is a term of imprisonment, not life or death."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "reduce the sentence of imprisonment of the appellant to the period already undergone",
+   "page": 13,
+   "reason": "Final term is not given as a number of years; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "increasing the amount of compensation to Rs.2 lakhs to be paid to the victim",
+   "page": 13,
+   "reason": "Rs.2 lakhs is compensation, not a fine; no fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary covers incident and evidence neutrally, uses no names or pronouns, and omits court proceedings and outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the statutory punishment range for ss.324 or 326."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "caused injuries with a stone. PW 1 became unconscious",
+   "page": 3,
+   "reason": "Hurt was actually caused, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The second, third and fourth teeth on the upper gum missing",
+   "page": 4,
+   "reason": "Facial and head injuries, missing teeth, unconsciousness and 32 days hospitalisation are all stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Sections 324 and 326 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Two sections charged and both convictions upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or money loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No finding on premeditation or planning is made."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is alleged or accepted in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Concurrent findings of the courts below that the prosecution case was proved, including on the nature of the weapon/charge; medical evidence recited but not separately assessed by the Supreme Court",
+   "quote": "the finding of the courts below on the nature of charge is not interfered with",
+   "page": 2,
+   "reason": "Court relied on concurrent findings; it did not expressly accept the PW 10 medical evidence itself."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we do not find any ground to interfere with the conviction of the appellant",
+   "page": 6,
+   "reason": "Court did not assess witnesses in detail and simply declined to disturb the trial findings."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is mentioned."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Time in custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on 141h May, 1999 at 7.30 a.m.",
+   "page": 3,
+   "reason": "Offence date, High Court and Supreme Court dates match; trial judgment date not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Shri Ram Jethmalani, learned senior counsel who has appeared as amicus curiae; Shri Jogy Scaria, learned counsel for the State of Kerala",
+   "page": 5,
+   "reason": "Counsel names match the judgment's appearance lists and paragraph 6."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW 2 recorded the First Information Report and conducted investigation and sent up the appellant for trial",
+   "page": 4,
+   "reason": "FIR, investigation and sending up for trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural lapse is noted by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "affirmed by the High Court with reduction in sentence",
+   "page": 1,
+   "reason": "Trial conviction, High Court affirmation with reduced sentence and Supreme Court modification are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the conviction under Sections 324 and 326 has been rightly recorded and no interference is called for",
+   "page": 5,
+   "reason": "State counsel's opposition to the defence submissions is accurately stated."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the compromise could be taken into account for reducing the sentence",
+   "page": 5,
+   "reason": "Compromise and the alteration to ss.323/325 arguments are both accurately stated."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the plea that the weapon was not dangerous ... cannot be permitted to be raised in this Court",
+   "page": 7,
+   "reason": "Principles on late dangerous-weapon plea, proportionality and s.320 CrPC compounding are all drawn from the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dasan vs. State of Kerala and Anr. 2014 (12) SCC 666; Mathai ... Anwarul Haq ... Ghanshyam Singh ... Bankat",
+   "page": 2,
+   "reason": "Five cases listed as relied on match the headnote; Regina v Bibi was only referred to."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "just and appropriate sentence has to be imposed keeping in mind the proportion between crime and punishment",
+   "page": 9,
+   "reason": "Rationale of proportionality and the compromise between close relatives is accurately stated."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "particularly when they are close relatives, reduction in sentence can be ordered",
+   "page": 6,
+   "reason": "Court weighed the compromise between close relatives as the mitigating factor."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "increasing the amount of compensation to Rs.2 lakhs to be paid to the victim within three months, failing which the sentence awarded by the High Court will stand affirmed",
+   "page": 13,
+   "reason": "Compensation increase, three-month deadline and default consequence are all accurate."
+  }
+ }
+}

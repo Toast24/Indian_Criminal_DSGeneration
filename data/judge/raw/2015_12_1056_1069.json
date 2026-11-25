@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the case caption in the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complaint was filed against five persons; process was issued against four of them."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the accused's gender."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of any accused is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not stated; only that they released a film."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record of the accused is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified; the complainant's gender is not stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim or complainant age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No relationship between accused and complainant is described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Copyright infringement and cheating/criminal breach of trust do not fit a listed category; 'Other' is reasonable."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "Copyright Act s.63 (with s.13); IPC s.406, s.420 read with s.34; CrPC s.482",
+   "quote": "under Section 63 of the Copyright Act ... read with Sections 406 and 420 of the Indian Penal Code",
+   "page": 4,
+   "reason": "Omits s.34 IPC, which the judgment says was added, and CrPC s.482 and Copyright Act s.13 discussed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is involved in this copyright dispute."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment discusses no evidence type; it decides a legal question on the complaint's basis."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned anywhere in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Metropolitan Magistrate took cognizance and issued process."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Single Judge dismissed the s.482 applications, refusing to quash the complaint and process",
+   "quote": "The learned Single Judge ... dismissed the applications.",
+   "page": 6,
+   "reason": "The High Court outcome is stated: the quashing applications were dismissed, not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeals allowed; Criminal Case No. SW/332 of 2011 quashed",
+   "quote": "both the Criminal Appeals are allowed. The Criminal Case No. SW/332 of 2011 ... is hereby quashed.",
+   "page": 14,
+   "reason": "No acquittal occurred; the Supreme Court quashed the criminal case against the accused."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was established; the complaint was held untenable."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment is imposed or mentioned."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is mentioned; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned; null is appropriate."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only: complaint under s.63 Copyright Act with ss.406/420 IPC; title 'Desi Boys' claimed as copyright; film 'Desi Boyz' released 25.11.2011; accused sought quashing, dismissed by High Court.",
+   "quote": "which were dismissed by the trial court ... The Supreme Court ultimately held that no copyright subsisted",
+   "page": 6,
+   "reason": "Wrongly says trial court dismissed quashing applications (High Court did) and reveals the Supreme Court outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Severity is not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not describe an attempt or completion of an offence in those terms."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is alleged or mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The number of offences is not counted in the judgment; 'Not stated' is consistent."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is claimed or mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is stated in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (no evidence discussed; the Court's holding is a legal finding that the title is not a literary work)",
+   "quote": "The title in question cannot therefore be considered to be a 'literary work'",
+   "page": 8,
+   "reason": "Legal holding is accurate, but the judgment discusses no evidence; the field is mislabelled."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No witnesses or credibility findings appear; the Court decided a legal question."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is mentioned."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody period is mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "No trial duration stated; High Court judgment dated 22.03.2012; Supreme Court decided 15 October 2015",
+   "quote": "From the Judgment and Order dated 22.03.2012 of the Single Judge of High Court of Bombay",
+   "page": 3,
+   "reason": "The 22.03.2012 order is the High Court's, not the trial court's; the High Court decision is in fact stated."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Raju Ramachandran, Sr. Adv., with Chirag M. Shroff, Bhaskar A. Das, Nitin Mishra, Mrs. Mitali Gupta, Vikram Aditya Narayan for Appellants; Ramsuresh Vishwakarma and others for Respondents; Respondent-in-person",
+   "quote": "Respondent-in-person.",
+   "page": 4,
+   "reason": "Omits the respondent-in-person and the Senior Advocate designation; otherwise names match."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Process issued under Section 63 of the Copyright Act, 1957 read with Sections 406 and 420",
+   "page": 4,
+   "reason": "Process issued on complaint under the stated provisions; no investigation discussed, but status is accurate."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court refusal to quash, and Supreme Court allowance of appeals are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects the complainant's claim of copyright in the title and infringement by 'Desi Boyz'."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects the appellants' submission that no copyright exists in a title and the complaint is untenable."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the Court's holding that a title alone is not copyrightable and copyright requires an original literary work under s.13."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Lists the cases the judgment relies on or refers to, consistent with the text."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred, so 'Not applicable' is appropriate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court discusses no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court discusses no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed; the quashing order is captured in final_outcome."
+  }
+ }
+}

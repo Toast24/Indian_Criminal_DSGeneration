@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment heading exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two appellants, Raja Gounder and another, are named in the case title."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants are brothers of the deceased, implying male accused; no contrary indication."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age of accused is not mentioned in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the deceased brother, referred to as husband of PW.1; male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Brothers",
+   "quote": "the deceased and the appellants were brothers",
+   "page": 2,
+   "reason": "'Relative' is too vague; the judgment specifies the appellants were the deceased's brothers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case concerns murder (fratricide) under s.302, as the heading indicates."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Heading identifies Penal Code 1860 s.302."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is identified in the judgment; only blows are mentioned."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment discusses ocular (PW.1) and medical evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not identify aggravating circumstances as such; no sentencing aggravation discussed."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment says two courts found against appellants, i.e. conviction below."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction affirmed (Crl. A. No. 573 of 2001, judgment dated 09.07.2004)",
+   "quote": "From the Judgment & Order dated 09.07.2004 of the High Court of Judicature at Madras in Crl. A. No. 573 of 2001",
+   "page": 1,
+   "reason": "A High Court appeal decision existed and was under challenge, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction upheld",
+   "quote": "Dismissed.",
+   "page": 3,
+   "reason": "Supreme Court dismissed the appeal, so the appellants were not acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Murder under IPC s.302 (conviction upheld)",
+   "quote": "Two courts have found against the appellants",
+   "page": 2,
+   "reason": "Conviction for murder was upheld; 'None' contradicts the judgment."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "the other faces the prospect of serving a long sentence",
+   "page": 3,
+   "reason": "Type of sentence is not stated; 'none' is contradicted by the conviction and reference to a long sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No specific imprisonment term is stated in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurate and do not reveal the final outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Severity classification is not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death was caused, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death caused by multiple injuries is supported by the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state multiple charges; only a s.302 murder conviction is discussed."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed beyond the land dispute motive."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "relations between the parties were strained on account of a land dispute and this was the motive for the murder",
+   "page": 2,
+   "reason": "Judgment identifies the land dispute as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted delay explanation, PW.1's conduct, and absence of independent witness, as described."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we thus have absolutely no reason to doubt the evidence of PW.1",
+   "page": 3,
+   "reason": "Court found PW.1 credible and discussed the parents' resiling as common in fratricides."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's post-offence conduct is not discussed; PW.1's conduct is not accused conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "High Court judgment dated 09.07.2004; Supreme Court decision 28.09.2010; offence and trial dates not stated",
+   "quote": "Judgment & Order dated 09.07.2004 of the High Court",
+   "page": 1,
+   "reason": "High Court and Supreme Court decision dates are stated in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "K. Sarada Devi for the Appellants. S. Thananjayan for the Respondent.",
+   "page": 1,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR delay explained as incident at 10 p.m. and PW.1 distressed; post-mortem showed eight injuries versus two in FIR; investigation completion not stated",
+   "quote": "in the FIR, PW.1 had referred to two injuries caused to the deceased but eight injuries had been detected during the post-mortem",
+   "page": 2,
+   "reason": "Delay and injury points are supported, but 'investigation completed' is not stated in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Alleged non-production of witnesses was rejected; no irregularity was found by the courts."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Two courts have found against the appellants",
+   "page": 2,
+   "reason": "Conviction below and Supreme Court dismissal are supported by the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Defence (appellants' counsel) argued unexplained 13-hour FIR delay, non-production of PW.2 and cited witnesses, and eight injuries versus two in FIR",
+   "quote": "it has been contended by Mrs. K. Sarada Devi, the learned counsel for the appellants",
+   "page": 2,
+   "reason": "These suspicious-circumstance arguments were made by the appellants, not the prosecution."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants argued the 13-hour FIR delay was unexplained and used to evolve a false story, and PW.2 and cited witnesses were not produced",
+   "quote": "there was no explanation forthcoming to explain the delay and this delay has been utilized by the prosecution to evolve a false story",
+   "page": 2,
+   "reason": "Value reverses the argument; the defence attacked the delay and did not offer an explanation for it."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Court not inclined to interfere with concurrent findings of courts below on appreciation of evidence",
+   "quote": "We are thus not inclined to interfere in this appeal.",
+   "page": 3,
+   "reason": "Non-interference is supported, but the 'clear miscarriage of justice' and discretion language does not appear in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentencing is not discussed; appeal was dismissed on merits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentencing order is mentioned; appeal simply dismissed."
+  }
+ }
+}

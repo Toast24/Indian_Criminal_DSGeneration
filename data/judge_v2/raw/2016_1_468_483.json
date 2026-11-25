@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Six appellants; the Court decides liability of all six, quashing for 4-6 and retaining 1-3."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused include male parents-in-law and husband and female mother-in-law and sisters-in-law."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "husband ... working in high ranking as Director",
+   "page": 5,
+   "reason": "Occupation appears in the quoted second closure report, and the value attributes it correctly."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "her husband Sh. Mukul Gupta is a son of an !AS officer",
+   "page": 5,
+   "reason": "Stated in the second closure report and correctly flagged as not a Court finding."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The complainant, respondent no.2, is female."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mukul Gupta- appellant no.3 was married to Sonia Gupta",
+   "page": 3,
+   "reason": "Spousal and in-law relationships and divorce petition are described in the judgment."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Sections 498A and 506 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Charges under s.498A IPC (cruelty) with dowry provisions fit Cruelty."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 498A and 506 of the Indian Penal Code, as also, under Sections 3/4 of the Dowry Prohibition Act",
+   "page": 3,
+   "reason": "Sections listed match the charge sheet as described."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment discusses only closure reports and statements; no trial evidence is assessed."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "None relied on by the Court; third closure report records complainant's email admission, which the Court did not discuss",
+   "quote": "she has also confessed that on 9.2.2002 she had sent an e-mail to Mukul",
+   "page": 6,
+   "reason": "Nothing relied on is correct, but the Court never addressed or expressly rejected the alleged admission."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "cognizance was taken on 12.5.2008, and the appellants were summoned to face trial",
+   "page": 8,
+   "reason": "Accurately reflects cognizance and summoning; trial remains pending."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The impugned order came to be passed by the High Court on 1.12.2008, when the challenge ... was rejected.",
+   "page": 9,
+   "reason": "High Court s.482 petition rejected on 1.12.2008, as stated."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The instant appeal is disposed of in the above terms.",
+   "page": 16,
+   "reason": "Neither conviction nor acquittal; proceedings continue, so 'other' fits."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No conviction stands, so None is correct."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed; 'none' is correct."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed-term sentence exists; null is correct."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed; null is correct."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Summary should refer to accused only as 'the accused' without pronouns such as 'his', and should omit the court-ordered further investigation reference.",
+   "quote": "the appellants were harassing her",
+   "page": 4,
+   "reason": "Facts largely track the judgment but use 'his' for the accused and reference a court order, breaching the neutral-facts rules."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the punishment prescribed."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not describe whether the offence was attempted or completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No injuries or death are described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 498A and 506 IPC r/w ss. 3/4 of the Dowry Prohibition Act",
+   "page": 3,
+   "reason": "Four sections charged and no conviction stands, so count is accurate."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is found; alleged dowry demand is noted as allegation only."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation finding is made by the Court."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "respondent no.2 ... registered a first information report ... as a retaliatory act",
+   "page": 4,
+   "reason": "Dowry demand is the alleged motive and the Court did not decide it."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Chief Judicial Magistrate, Lucknow, had duly taken into consideration the second Closure Report",
+   "page": 13,
+   "reason": "Court accepted second closure report consideration and treated third closure report as a nullity."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No witness credibility was assessed on the merits."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is described by the Court."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody period is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Apprehending arrest ... filing Writ Petition (MB) No. 2600 of 2002. It is not a matter of dispute, that the High Court stayed the arrest",
+   "page": 4,
+   "reason": "High Court stayed arrest; no bail order is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Supreme Court: 05.02.2016",
+   "page": 1,
+   "reason": "Dates match the FIR, cognizance order, High Court order and judgment date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Pawan Shree Aggarwal, Pragati Neekhra for the Respondent. Sonia Gupta, -In-Person",
+   "page": 2,
+   "reason": "Counsel for appellants and respondents listed correctly; State counsel name not given."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charge sheet dated 7.5.2008",
+   "page": 8,
+   "reason": "FIR, three closure reports, fourth investigation charge sheet and cognizance dates all match."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the same is a nullity in law, and cannot be accepted",
+   "page": 14,
+   "reason": "Third closure report held a nullity for violating a stayed order; further investigation without fresh direction noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Sessions Judge dismissed the revision petition filed by the appellants on 1.7.2008.",
+   "page": 9,
+   "reason": "Trial, revision, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Second closure report was deemed considered by the CJM; third closure report was said to rest on the 6.9.2006 order, which was stayed and the Court found a nullity",
+   "quote": "the Third Closure Report was based on the order of the Chief Judicial Magistrate, Lucknow dated 6.9.2006",
+   "page": 14,
+   "reason": "Second report point is correct, but calling the third report based on a valid order misstates the argument, which the Court rejected."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no clear allegations have been levelled by respondent no.2 against any of the appellant nos. 4, 5 and 6",
+   "page": 15,
+   "reason": "Defence arguments on cryptic orders, ignored reports and lack of allegations against 4-6 are supported."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "exercised sparingly, in exceptional cases and to achieve the ends of justice",
+   "page": 10,
+   "reason": "Principles on sparing further-investigation power, nullity of violating investigation and quashing relatives are supported."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Vinay Tyagi vs. Irshad Ali alias Deepak and others (2013) 5 SCC 762",
+   "page": 10,
+   "reason": "The only precedent cited is correctly identified with its citation."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so Not applicable is correct."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "to take up and dispose of the proceedings ... against appellant nos. 1 to 3 only, as expeditiously as possible",
+   "page": 15,
+   "reason": "Trial court direction and quashing for appellants 4-6 are accurately described."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only the appellant was prosecuted and convicted; the accomplice is not tried as an accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is referred to in male terms throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court noted the accused is a young man of 33 years."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not stated; only that he employed PW-1 as a labourer."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the deceased daughter, referred to as female."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is described as aged about 22 years."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never describes any relationship; 'Stranger' is not stated and is not established."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Rape and murder",
+   "quote": "committing rape and murder of the victim",
+   "page": 1,
+   "reason": "Murder is right, but the offence also includes rape, which the category omits."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges and convictions were under IPC ss.302 and 376."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Dao seized from farm house; khukri referred to by PW-1; sharp cutting weapon caused injuries 1 and 2",
+   "quote": "seized one bed sheet, a sporting and a 'dao' from the farm house",
+   "page": 5,
+   "reason": "Judgment mentions a dao, a khukri and a sharp cutting weapon, so 'None mentioned' is wrong."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness (PW-1); corroborative witnesses (PW-2, PW-3, PW-4, PWs 7 and 8); medical evidence (PW-9)",
+   "quote": "evidence of PWs 1, 2 and 9 as well as the statement of co-villagers",
+   "page": 10,
+   "reason": "Eyewitness and medical evidence are correct, but circumstantial evidence is not stated, and corroborative witness testimony is omitted."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not mention any confession either way; 'None' is asserted without support."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Heinous nature of rape and murder; dead body thrown in place surrounded by bushes and shrubs",
+   "quote": "considering the heinous crime of committing rape and murder and throwing the dead body in a place surrounded by bushes and shrubs",
+   "page": 10,
+   "reason": "Courts expressly treated the heinous crime and disposal of body in bushes as aggravating, so 'None noted' is wrong."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Accused's young age of 33 years; case not in 'rarest of rare' category",
+   "quote": "the accused is a young man of 33 years of age",
+   "page": 11,
+   "reason": "High Court treated the accused's age and non-rarest-of-rare status as mitigating, so 'None noted' is wrong."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death for s.302 and life imprisonment (RI) for s.376 matches the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court confirmed conviction, reduced death to life and s.376 sentence to 7 years."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so the accused remains convicted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rape and murder were both upheld as established."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment for s.302; rigorous imprisonment for 7 years for s.376",
+   "quote": "the High Court sentenced him to imprisonment for 7 years",
+   "page": 6,
+   "reason": "'Life' omits the 7-year imprisonment for s.376 imposed by the High Court."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": "7 years (s.376, as altered by High Court); life for s.302",
+   "quote": "the High Court sentenced him to imprisonment for 7 years",
+   "page": 6,
+   "reason": "Judgment states a 7-year term, so null is incorrect."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.1,000 (s.302, High Court); Rs.10,000 (s.376, trial court)",
+   "quote": "along with a fine of Rs.1,000/-",
+   "page": 6,
+   "reason": "Judgment states fines of Rs.1,000 and Rs.10,000, so null is incorrect."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove claim that the accused possessed items later linked to the crime; the judgment only says underwear was seized and sent for examination",
+   "quote": "seized the blue underwear of the appellant-accused suspected to have been stained with semen",
+   "page": 5,
+   "reason": "Facts are largely accurate, but the claim that seized items were linked to the crime is not stated."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court imposed death for murder and life imprisonment for rape, consistent with the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died after rape and throttling, so the offences were completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cut chin injury, neck and back bruises, fractured trachea and asphyxia from throttling are all listed by PW-9."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two offences were charged and both convictions were upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's finding that PW-1's version is reliable and corroborated by PW-2 and medical evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the courts' finding of no reason to disbelieve PW-1 and PW-2."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused came out of farm house, went to the scene, and enquired about the body; he was apprehended and interrogated",
+   "quote": "The appellant-accused also came and enquired.",
+   "page": 5,
+   "reason": "Judgment describes the accused's conduct after the crime, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates match the judgment: offence 29.03.2000, trial 18.03.2006, High Court 26.09.2006, hearing 03.05.2013."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case registered via GD entry, charge-sheet filed, and trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is raised or found in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the State's submissions on PW-1's reliability and corroboration."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the three contentions recorded for the appellant."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's principles on life imprisonment and cautious remission."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Listed authorities match those relied on in paragraphs 15 and 17."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court reduced death sentence because case was not 'rarest of rare', considering the accused's age of 33, despite the heinous nature of the crime",
+   "quote": "declined to confirm the sentence of death and altered the same to the imprisonment for life",
+   "page": 11,
+   "reason": "Rationale attributes the reduction to the crime's heinousness, but the High Court relied on the rarest-of-rare test and age."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age of 33 and not rarest-of-rare category match the judgment."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Heinous nature and disposal of body in bushes match the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is made; the appeal was simply dismissed."
+  }
+ }
+}

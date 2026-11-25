@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused numbered up to 9 appear in the judgment, consistent with nine accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to as male throughout, including Accused No. 1 as a male proprietor."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused No. 1 is the proprietor of a chain of hotels",
+   "page": 11,
+   "reason": "Accused No. 1's occupation as hotel chain proprietor is stated; others not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "gave her costly gifts such as jewellery and silk sarees",
+   "page": 11,
+   "reason": "Judgment describes Accused No. 1's financial help and costly gifts, supporting the wealth-related statement."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim (husband of PW1) is male."
+  },
+  "victim_age": {
+   "verdict": "incorrect",
+   "correct_value": "30 (approximate, per PW29's observation of the body)",
+   "quote": "saw the dead body of a male aged about 30 years",
+   "page": 27,
+   "reason": "Judgment states an approximate age of about 30 from the body's observed appearance, so 'Not stated' is wrong."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victim is described."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused No.1 wanted to take PW1 as his third wife... though she was already married to Santhakumar",
+   "page": 11,
+   "reason": "Prior connection and motive-based enmity between accused and victim are described and supported."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction for murder under s.302 is the main offence."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Charges were framed under various provisions of the Indian Penal Code... including Sections 302, 364 and 201",
+   "page": 15,
+   "reason": "Sections 302, 364 and 201 match the charges; trial and HC modifications are also correctly noted."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Lungi (cloth) used for strangulation; lungi M.O.15 recovered from the Tata Sumo",
+   "quote": "by using materials like a lungi",
+   "page": 29,
+   "reason": "Lungi as strangulation material is supported, but judgment records a lungi recovered, so 'no weapon recovered' is inaccurate."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Circumstantial, ocular, medical, recovery, expert and documentary evidence all appear in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a portion of the confession leads to the recovery of any incriminating material, such portion alone is admissible under Section 27",
+   "page": 27,
+   "reason": "Accused No. 2's partial confession under s.27 and Accused No. 6's confession are both described as relied upon."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "ordered them to \"finish him off\"",
+   "page": 13,
+   "reason": "Planned elimination, 'finish him off' instruction and body dumping are described facts."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted the accused appellants for the offences punishable under Sections 364, 304 Part I and 201",
+   "page": 15,
+   "reason": "Trial court convictions match; sentence is not stated in the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "modified the conviction for the offence punishable under Section 304 Part I to Section 302 of the IPC",
+   "page": 15,
+   "reason": "High Court confirmed guilt and altered s.304 Part I to s.302, as described."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the judgment of the Trial Court as modified by the High Court need not be interfered with",
+   "page": 34,
+   "reason": "Supreme Court dismissed appeals, upholding conviction as modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the judgment of the Trial Court as modified by the High Court need not be interfered with",
+   "page": 34,
+   "reason": "Murder under s.302 as modified is upheld; other convictions left undisturbed by dismissal."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the sentence imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed-term sentence is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary covers facts and evidence without names, court outcomes or sentencing; accurately reflects the judgment."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the punishment prescribed for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder was completed; body recovered after strangulation."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "cause of death was found to be asphyxia due to throttling",
+   "page": 15,
+   "reason": "Asphyxia from throttling and ante-mortem broken hyoid bone are recorded."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 302, 364 and 201",
+   "page": 15,
+   "reason": "Three sections charged; three convictions stand, as the appeals were dismissed."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No monetary loss is claimed; only recovered personal items are mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "with a view to permanently get rid of him",
+   "page": 17,
+   "reason": "Court found distinct intention to murder for permanent removal, following earlier attempts to sever the marriage."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused No.1 wanted to take PW1 as his third wife",
+   "page": 14,
+   "reason": "Motive accepted by the courts below and the Supreme Court is correctly stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The overwhelming, consistent, cogent and reliable testimonies of PWs 1 and 2",
+   "page": 34,
+   "reason": "Listed evidence matches what the Supreme Court relied upon."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their evidence remains natural, consistent, cogent and probable",
+   "page": 26,
+   "reason": "Assessment of PW1, PW2 and other witnesses matches the judgment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused had surrendered and confessed to the commission of Santhakumar's murder",
+   "page": 14,
+   "reason": "Surrender, confession and leading police to recovery sites are noted."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "19.03.2009",
+   "page": 10,
+   "reason": "Offence, High Court and Supreme Court dates match; trial judgment date not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sushil Kumar, Sr. Adv... Balaji Srinivasan, AAG",
+   "page": 11,
+   "reason": "Counsel for appellants and State are listed correctly."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the first information (Ext. P1) registered on 20.11.2001",
+   "page": 16,
+   "reason": "FIR date and crime number are supported; chargesheet status correctly marked as not expressly stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no irregularity; defence objections were rejected as noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court while confirming the finding of guilt of the accused, modified the conviction",
+   "page": 15,
+   "reason": "Outcomes at trial court, High Court and Supreme Court match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "argued in support of the judgments of the Courts below",
+   "page": 16,
+   "reason": "State's support for lower court findings and evidence is accurately summarised."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court and the Trial Court have merely proceeded on assumptions and conjectures",
+   "page": 16,
+   "reason": "Defence arguments on second FIR, motive, recovery, s.313 and DNA are accurately reflected."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Court need not look any further before affirming the guilt of the accused",
+   "page": 22,
+   "reason": "Circumstantial evidence principles, separate FIR analysis and opinion evidence principles match the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 10,
+   "reason": "Listed precedents and citations match the judgment's case law references."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed by the Supreme Court; 'Not applicable' is appropriate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court did not separately weigh aggravating factors for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No compensation, directions or other orders are given."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant along with three others were tried",
+   "page": 3,
+   "reason": "Appellant plus three others makes four accused, as stated."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He told him that he was senior in age",
+   "page": 7,
+   "reason": "Appellant is referred to as male throughout, so 'Male' is supported."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the appellant; the value 24 has no basis in the text."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not stated; only the victim's computer course is mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his younger son Hitesh Thakur, 22 years of age",
+   "page": 4,
+   "reason": "Victim Hitesh is referred to as male throughout."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his younger son Hitesh Thakur, 22 years of age",
+   "page": 4,
+   "reason": "Victim's age of 22 is directly stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Friends",
+   "quote": "the appellant and others including deceased Hitesh Thakur had gathered at the spot for a drink party",
+   "page": 7,
+   "reason": "Judgment repeatedly describes them as friends who gathered together, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It is a case of culpable homicide not amounting to murder",
+   "page": 2,
+   "reason": "Judgment holds the offence is culpable homicide not amounting to murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302, s.201 r/w s.34 (charged); s.300 Exception 4; s.304 Part II",
+   "quote": "tried for offence punishable under Sections 302, 201 read with Section 34 of IPC",
+   "page": 3,
+   "reason": "Omits the charged s.201 r/w s.34 and the Exception 4 to s.300 relied on for the decision."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "gave six knife blows to the deceased on different parts of his body",
+   "page": 2,
+   "reason": "Knife is the weapon used, as stated repeatedly in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the evidence of PW-11 and PW-12, who were eye-witnesses",
+   "page": 7,
+   "reason": "Eyewitness evidence is central; medical evidence (MLC by Dr. Sandeep Kaushik) is also referenced."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned, so 'None' is consistent with the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court relied on use of knife and repeated blows, but the Supreme Court held these not decisive",
+   "quote": "The fact that the appellant used weapon such as knife, is also not a decisive factor to attract Section 302 of IPC.",
+   "page": 8,
+   "reason": "Use of weapon and multiple injuries were High Court grounds, which the Supreme Court rejected as decisive; labelling them aggravating is misleading."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in heat of passion, gave six knife blows",
+   "page": 7,
+   "reason": "Sudden fight, heat of passion and lack of premeditation are the mitigating features relied on."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced him to rigorous imprisonment for five years and to pay fine of Rs.10,000/-",
+   "page": 4,
+   "reason": "Trial court conviction under s.304 Part II with five years and Rs.10,000 fine is stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant was guilty of offence punishable under Section 302 of IPC",
+   "page": 4,
+   "reason": "High Court convicted the appellant under s.302 IPC."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is held guilty for an offence punishable under Section 304 Part-II of IPC",
+   "page": 10,
+   "reason": "Supreme Court finally convicted under s.304 Part II after partly allowing the appeal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It is a case of culpable homicide not amounting to murder",
+   "page": 8,
+   "reason": "Final established offence is culpable homicide not amounting to murder."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo rigorous imprisonment for a period of 10 (Ten) years",
+   "page": 10,
+   "reason": "Sentence is rigorous imprisonment for a fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for a period of 10 (Ten) years",
+   "page": 10,
+   "reason": "Supreme Court sentence is 10 years rigorous imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "with fine of Rs.10,000/- (Rupees Ten Thousand)",
+   "page": 10,
+   "reason": "Fine of Rs.10,000 is stated."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurately paraphrased and do not reveal the court's final outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced him to rigorous imprisonment for five years",
+   "page": 4,
+   "reason": "Range reflects trial sentence of five years and Supreme Court's ten years, both stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Hitesh Thakur succumbed to the injuries caused by the appellant",
+   "page": 6,
+   "reason": "Offence was completed as the victim died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "gave six knife blows to Hitesh Thakur on different parts of his body",
+   "page": 7,
+   "reason": "Six knife injuries leading to death are stated."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged under s.302 and s.201 r/w s.34 IPC; outcome on s.201 not stated",
+   "quote": "tried for offence punishable under Sections 302, 201 read with Section 34 of IPC",
+   "page": 3,
+   "reason": "Charges are stated, but the judgment does not say a count was upheld; 'one upheld' is unsupported."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant assaulted Hitesh Thakur without any premeditation",
+   "page": 7,
+   "reason": "Court expressly finds no premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Hitesh Thakur, while smoking, blew smoke on the face of the appellant. Resultantly, the appellant got enraged",
+   "page": 7,
+   "reason": "Trivial motive of smoke blown on face is stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The evidence clearly establishes that the appellant assaulted the deceased without any premeditation.",
+   "page": 7,
+   "reason": "Value accurately reproduces the court's accepted evidence passage."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The evidence of PW-11 and PW-12 (eye-witnesses) would establish",
+   "page": 7,
+   "reason": "Accurately reflects the court's reliance on eyewitness PW-11 and PW-12."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he immediately offered water to Hitesh Thakur and also took him to hospital",
+   "page": 7,
+   "reason": "Post-offence conduct and father's corroboration are stated in paragraph 11."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant had undergone 7 years 3 months 24 days of sentence as on 24 Nov 2017, including remission of 1 year 2 months 6 days",
+   "quote": "the appellant has already undergone sentence for a period of 7 years 3 months 24 days as on 24th November, 2017",
+   "page": 5,
+   "reason": "Judgment states the custody period undergone, so 'Not stated' is wrong."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the night of 27.07.2011 ... Sessions Trial No.39-S/7 of 2012",
+   "page": 4,
+   "reason": "Dates of offence, trial, High Court and Supreme Court decisions are supported by the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Aditya Dhawan, Ms. Kiran Dhawan, Chander Shekhar Ashri, Advs. for the Appellant",
+   "page": 1,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Statement recorded under s.154 CrPC; investigation proceeded; four accused sent for trial; trial completed",
+   "quote": "She then recorded the statement of Rajinder Singh under Section 154 of the Code of Criminal Procedure.",
+   "page": 4,
+   "reason": "Judgment does not expressly mention an FIR or charge sheet; it refers to a s.154 statement and sending accused for trial."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment notes no procedural irregularity."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "restore the order of the Trial Court in that behalf",
+   "page": 10,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately sequenced."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant caused six injuries to deceased by attacking him with a knife",
+   "page": 1,
+   "reason": "Prosecution case is accurately summarised from the headnote."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant's counsel argued contradictions in eyewitness evidence, doubtful genesis, offence not proved beyond reasonable doubt, and at best culpable homicide under Exception to s.300",
+   "quote": "there is an obvious contradiction between the evidence of the eye-witnesses which should enure to the benefit of the appellant",
+   "page": 5,
+   "reason": "Value attributes the court's factual findings to defence arguments; counsel actually challenged evidence contradictions and genesis."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the facts of the present case warrant invocation of Exception 4 to Section 300 of IPC",
+   "page": 7,
+   "reason": "Exception 4 principle applied to heat of passion without undue advantage or cruelty is stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Surain Singh Vs. State of Punjab (2017) 5 SCC 796",
+   "page": 8,
+   "reason": "Precedent is relied on as stated in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentence period should not be less than 10 years imprisonment with fine",
+   "page": 10,
+   "reason": "Rationale of nature of offence, trivial reason and ends of justice is stated."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant offered him water and took him to the hospital along with his other friends",
+   "page": 7,
+   "reason": "Heat of passion, no premeditation and post-offence conduct are weighed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Nature of offence, trivial reason for rage, use of knife and multiple blows do not warrant light punishment",
+   "quote": "Considering the nature of offence and the trivial reason for which the appellant got enraged and assaulted Hitesh Thakur, that too by a knife and also gave multiple blows, does not warrant a light punishment.",
+   "page": 10,
+   "reason": "Court did cite aggravating features in enhancing sentence, so 'None' is contradicted."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant shall be entitled to set off under Section 428 of the Code of Criminal Procedure",
+   "page": 10,
+   "reason": "Sentence, fine, default term and set-off direction are accurately stated."
+  }
+ }
+}

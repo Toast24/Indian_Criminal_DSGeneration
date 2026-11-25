@@ -1,0 +1,393 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Headnote states 'Of 6 accused'; the body notes seven originally, with one juvenile separated."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to by male pronouns ('he') throughout; male is reasonably supported."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not stated; judgment only says accused belong to the same community."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased is referred to as male ('his hand', 'he'); male is supported."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the deceased appears in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to victim (old enmity)",
+   "quote": "due to old enmity, attacked with sharp weapon with intention to kill",
+   "page": 11,
+   "reason": "Judgment shows the accused had old enmity with the deceased, so 'Stranger' is contradicted."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under s.302 read with ss.148 and 149 IPC matches the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sword, farsa, axe and lathis are all identified as weapons used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, circumstantial, medical and recovery evidence are all relied on."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Section 27 disclosure statements recorded (Exhibits P18 to P21); not described as confessions",
+   "quote": "Section 27 Statement under Exhibits P18 to P21",
+   "page": 8,
+   "reason": "Section 27 statements exist; 'None' omits them, though they are not called confessions."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss aggravating circumstances; 'None noted' is acceptable."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.302 r/w 148, 149 and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction and sentence confirmed",
+   "quote": "The Division Bench having confirmed the conviction and sentence imposed on the appellants",
+   "page": 5,
+   "reason": "High Court confirmed conviction and sentence; 'Not applicable' contradicts this."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeals, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 IPC was held established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment is stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term in years is stated; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only, omitting the courts' outcomes: the prosecution case of a 27 June 1997 attack on the Sarpanch by armed accused, medical and post-mortem records, arrest, charge and trial.",
+   "quote": "The Supreme Court confirmed the conviction and sentence, finding the prosecution's case supported by eyewitness accounts, medical evidence, and other material evidence.",
+   "page": 5,
+   "reason": "Neutral facts reveal the court outcome and reasoning, which the rule prohibits. Also the 'Sarpanch' detail is not wrong but the outcome statements must be removed."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment under s.302 is the sentence stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence was completed; the deceased died from the attack."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eight injuries with four grievous, and P.W.3's injuries noted in medical records, match the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charged offences and the conviction under s.302 r/w 148, 149 are accurately listed."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "making a pronouncement that he cannot escape that day",
+   "page": 4,
+   "reason": "The pronouncement is part of the prosecution's narrative; the court made no premeditation finding."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Column 5 of the Crime Details Form records motive as old enmity."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness evidence of P.W.3 and P.W.6, corroborated by others, was accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment calls P.W.3's evidence cogent and supported by P.W.6, P.Ws.7 and 11."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "dates_of_offence": "27th June, 1997",
+    "trial_judgment": "Not stated",
+    "high_court": "07.09.2006",
+    "supreme_court": "29.09.2015"
+   },
+   "quote": "common judgment and order dated 7th September, 2006 of the Division Bench of the High Court",
+   "page": 4,
+   "reason": "07.09.2006 is the High Court judgment date; the trial court judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for appellants and State match the judgment's listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registration, charge sheet and completed trial are all reflected in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Delay in forwarding the Express Report to the Illaka Magistrate (received 1:20 p.m., 30 June 1997)",
+   "quote": "even though the delay was quite apparent by virtue of Exhibit 08",
+   "page": 12,
+   "reason": "Judgment acknowledges an apparent delay in forwarding the Express Report, so 'None noted' is contradicted."
+  },
+  "appeal_history": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "trial_court": "Convicted and sentenced to life imprisonment",
+    "high_court": "Conviction and sentence confirmed",
+    "supreme_court": "Appeals dismissed"
+   },
+   "quote": "convicted the appellants accused for the offence under Section 302 read with Sections 148 and 149 IPC",
+   "page": 5,
+   "reason": "Trial court convicted and sentenced; it did not confirm a conviction on appeal."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR at 10:45 p.m. and corroborated eyewitness evidence match the State's submissions."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ante-dating, fake injuries, non-mention in Form and unexplained delay were all argued by the defence."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Delay not fatal absent prejudice and special status of injured witness are both applied in paras 18 and 18 quoted."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Pala Singh, Main Patel and Bhajan Singh are cited as relied upon."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment's reasoning concerns proof of the offence; it gives no rationale for the sentence imposed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not consider mitigating factors; 'None' implies a judicial finding that is not made."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not consider aggravating factors; 'None' implies a judicial finding that is not made."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is mentioned."
+  }
+ }
+}

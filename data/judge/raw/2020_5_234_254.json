@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "STATE OF RAJASTHAN v. MEHRAM & ORS.",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "All the five accused preferred appeal before the High Court",
+   "page": 9,
+   "reason": "Five accused are named in the FIR and all five appealed."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Mehram S/o Chhagna Ram",
+   "page": 6,
+   "reason": "Judgment never states a gender category; accused are named male persons, so 'Mixed' has no support."
+  },
+  "accused_age": {
+   "verdict": "partially_correct",
+   "correct_value": "About 70-75 years (counsel's submission)",
+   "quote": "aged about 70-75 years",
+   "page": 10,
+   "reason": "Age 70 is the lower bound; the judgment gives an approximate range of 70-75 years."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not stated in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Bhura Ram (deceased)",
+   "page": 12,
+   "reason": "Victim Bhura Ram is referred to with male name and pronouns; male is supported."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the deceased anywhere in the judgment; 30 is unsupported."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Neighbours/co-villagers in a dispute over a field passage",
+   "quote": "There was a dispute between the parties for using the fields as a passage",
+   "page": 1,
+   "reason": "Parties were rival villagers in a land-passage dispute, not strangers."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Culpable homicide not amounting to murder (s.304 Part I); trial court had convicted for murder (s.302)",
+   "quote": "the case would be covered by Section 304 Part I, IPC",
+   "page": 19,
+   "reason": "Murder was the trial court's charge, but the Supreme Court held the offence fell under s.304 Part I."
+  },
+  "statutory_provisions": {
+   "verdict": "incorrect",
+   "correct_value": "IPC ss.147, 148, 149, 302, 323, 324, 326, 304 Part I; CrPC s.377(3), s.428",
+   "quote": "Sections 147, 148, 149, 323, 307 and 302, IPC",
+   "page": 7,
+   "reason": "Judgment cites s.149 not s.34, and no Arms Act provision is mentioned."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "armed with 'Kassies' and lathies",
+   "page": 7,
+   "reason": "Kassies and lathies are the weapons described in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "eyewitness accounts and medical evidence",
+   "page": 17,
+   "reason": "Eyewitness and medical evidence are the main evidence relied on; recovery and spot memo also cited."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not mention any confession, so 'None' is an unsupported inference."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused armed with lethal weapons, lay in wait, and struck a fatal blow with intention to kill",
+   "quote": "The accused party armed with lethal weapons assaulted the complainant party",
+   "page": 1,
+   "reason": "Weapons and intent are supported; provocation was treated as mitigating, not aggravating."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Grave and sudden provocation from repeated unauthorised entry on accused's fields; superficial injuries to accused",
+   "quote": "deprived of the power of self-control by grave and sudden provocation",
+   "page": 19,
+   "reason": "Judgment expressly identifies grave and sudden provocation as a mitigating factor."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "accused Mehram son of Chhagna is hereby held guilty of committing offence under Section 148, 302, 324/149 Indian Penal Code",
+   "page": 7,
+   "reason": "Trial court convicted under ss.148, 302, 324/149 and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his conviction under Section 302 IPC is converted into one under Section 326 IPC",
+   "page": 16,
+   "reason": "High Court converted s.302 to s.326 and sentenced to period undergone."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicting the accused No. 5 ... for offence punishable under Section 304 Part I and Section 148, IPC",
+   "page": 20,
+   "reason": "Supreme Court convicted accused No. 5 under s.304 Part I and s.148."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicting the accused No. 5 ... for offence punishable under Section 304 Part I and Section 148, IPC",
+   "page": 20,
+   "reason": "s.304-I is the same as s.304 Part I; s.148 also upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo simple imprisonment for ten (10) years",
+   "page": 20,
+   "reason": "A fixed-term simple imprisonment of ten years was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of ten (10) years of simple imprisonment",
+   "page": 20,
+   "reason": "Ten years is the sentence imposed for s.304 Part I."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "and fine of Rs.100/- on each count",
+   "page": 20,
+   "reason": "Fine of Rs.100 on each count is stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts as stated, but intent to kill and aggressor status are contested findings, not established facts; no outcome should be implied",
+   "quote": "The victim sustained fatal injuries from a single blow to the head, which was intentional.",
+   "page": 19,
+   "reason": "Presents contested intent and aggressor findings as settled facts, edging toward the court's conclusion."
+  },
+  "offence_severity": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated for s.304 Part I; s.326 punishable with life or up to ten years",
+   "quote": "punishable with imprisonment for life or with imprisonment of either description which may extend to ten years",
+   "page": 20,
+   "reason": "No minimum of 10 years is stated; ten years is a maximum for s.326 in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the death of the victim was caused by the one fatal blow",
+   "page": 1,
+   "reason": "Offence resulted in death, so completed offence is supported."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "brain injury and due to the injury No. 1",
+   "page": 17,
+   "reason": "Doctor's opinion attributes death to brain injury from the head blow."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Accused No. 5 convicted of two offences: s.304 Part I and s.148 IPC",
+   "quote": "convicting the accused No. 5 ... for offence punishable under Section 304 Part I and Section 148, IPC",
+   "page": 20,
+   "reason": "No upheld-count of 'one'; two convictions were recorded for accused No. 5."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is at issue; compensation is not property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "incorrect",
+   "correct_value": "Accused assembled with lethal weapons and waited in hiding for the complainant party to arrive",
+   "quote": "all the accused were waiting for the complainant party to arrive at the spot",
+   "page": 16,
+   "reason": "Judgment describes assembly with weapons and waiting in hiding, indicating planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused persons intended to take revenge",
+   "page": 11,
+   "reason": "Trial court found revenge motive tied to the way dispute and field entry."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rightly accepted as truthful by the trial Court",
+   "page": 17,
+   "reason": "Supreme Court accepted trial court's findings on aggressors and fatal blow with intent."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "which has been elaborately analysed and rightly accepted as truthful by the trial Court",
+   "page": 17,
+   "reason": "Matches the judgment's assessment of prosecution witnesses."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused ran away after the incident once other villagers intervened",
+   "quote": "Accused persons having assumed Bhura died ran away.",
+   "page": 7,
+   "reason": "Judgment states the accused ran away after the incident."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "About five months already undergone before the High Court's sentence",
+   "quote": "the period already undergone (about five months)",
+   "page": 6,
+   "reason": "Judgment states the accused had undergone about five months of custody."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Bail bonds cancelled; accused directed to surrender to undergo remaining sentence",
+   "quote": "The bail bonds stand cancelled",
+   "page": 20,
+   "reason": "Judgment expressly states bail bonds were cancelled and surrender ordered."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "FIR registered on 14.8.1981 at P.S. Nagaur",
+   "page": 6,
+   "reason": "FIR date and committal in February 1982 are both stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused challenged conviction without own appeal (s.377(3) CrPC); HC judgment called cryptic",
+   "quote": "the said accused had not preferred a formal appeal against the impugned judgment",
+   "page": 9,
+   "reason": "Judgment discusses a procedural point on challenging conviction without appeal and a cryptic HC judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court converted the conviction under Section 302, IPC into one under Section 326, IPC",
+   "page": 9,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "State sought restoration of s.302 conviction and life imprisonment; argued accused were aggressors",
+   "quote": "the State was pursuing this appeal only against the accused No. 5 ... for restoration of his conviction under Section 302, IPC and to award him sentence of life imprisonment",
+   "page": 6,
+   "reason": "State sought s.302 murder conviction, not s.304-I; the value misstates the prosecution's position."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Private defence; provocation; single blow without intention to cause death; accused aged 70-75; challenge to conviction without appeal",
+   "quote": "the incident had occurred on the spur of the moment due to provocation",
+   "page": 10,
+   "reason": "Core private defence and provocation points are right; omits age and procedural arguments, and 'free fight' is the court's finding."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Private defence unavailable where accused are aggressors; s.304 Part I applies where grave and sudden provocation and intention to cause death or bodily injury likely to cause death",
+   "quote": "the case would be covered by Section 304 Part I, IPC",
+   "page": 19,
+   "reason": "Core principle is right, but 'intention to kill' misstates the s.304 Part I test and omits the provocation basis."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Chandrakant Patil v. State through CBI (1998) 3 SCC 38",
+   "page": 5,
+   "reason": "Seven precedents listed match those cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Nature and gravity of offence and background of provocation by complainant's unauthorised entry; fatal blow on vital part",
+   "quote": "considering the nature and gravity of the offence and the background in which it is committed",
+   "page": 19,
+   "reason": "Omits the provocation background, and aggressor finding was about private defence rather than sentencing."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Grave and sudden provocation by complainant's repeated unauthorised entry on fields",
+   "quote": "deprived of the power of self-control by grave and sudden provocation",
+   "page": 19,
+   "reason": "Judgment identifies grave and sudden provocation as mitigating; 'None' is wrong."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the solitary fatal blow on the vital part of the head by accused No. 5",
+   "page": 19,
+   "reason": "Fatal blow on vital part and gravity of offence are weighed as aggravating."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "directed to pay compensation to the tune of Rs.50,000/- to the next of kin",
+   "page": 20,
+   "reason": "Compensation order and adjustment under s.428 CrPC are both stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "MAY 06, 2020",
+   "page": 1,
+   "reason": "Offence date, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "accused/respondent: Sushil Kumar Jain, Sr. Adv., H.D. Thanvi, Rishi Matoliya; state/appellant: Dr. Manish Singhvi, Sr. Adv., D.K. Devesh, Milind Kumar",
+   "quote": "Dr. Manish Singhvi, Sr. Adv., D.K. Devesh, Milind Kumar, Advs. for the Appellant.",
+   "page": 5,
+   "reason": "Counsel assignments are reversed; Singhvi appeared for the State appellant."
+  }
+ }
+}

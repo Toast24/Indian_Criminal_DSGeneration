@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ansar Ahmad v. State of Uttar Pradesh and Anr.",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Bail Application No. 624 of 2019, filed by the respondent – Subhash Yadav, and Bail Application No. 4309 of 2019, filed by the respondent – Rajesh Vikram Singh",
+   "page": 2,
+   "reason": "Court decided bail for two respondents, the two accused whose liability is in issue here."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he was involved in at least 14 criminal cases",
+   "page": 4,
+   "reason": "Accused are referred to with male pronouns and roles throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cash recovery is not a statement of the accused's wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Both the respondents have chequered criminal record",
+   "page": 5,
+   "reason": "Judgment states both respondents have criminal records, earlier convicted under s.302 IPC."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the son of the complainant",
+   "page": 2,
+   "reason": "Victim Ashfaque Ahmad is described as the complainant's son, a male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Prior enmity/dispute: the victim's father-in-law was a witness in an earlier s.302 IPC case against respondent Rajesh Vikram Singh",
+   "quote": "his father-in-law was a witness in another criminal case registered against Rajesh Vikram Singh under Section 302 IPC",
+   "page": 3,
+   "reason": "Connection is indirect via father-in-law; value's framing as 'not stated' is muddled, though the prior-enmity content is supported."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It was alleged to be a case of contract killing.",
+   "page": 3,
+   "reason": "Principal offence is murder (s.302 IPC) arising from a contract killing."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "147, 148, 149, 307, 302, 120-B/34 IPC and Sections 3/4 of the Explosive Substances Act",
+   "page": 2,
+   "reason": "All listed IPC and Explosive Substances Act sections match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Two country made pistols, two magazines and one mobile phone were recovered",
+   "page": 3,
+   "reason": "Grenade thrown and country-made pistols used, as described in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The occurrence has been witnessed by the appellant and two more eye witnesses.",
+   "page": 5,
+   "reason": "Eyewitness, recovery, interrogation disclosure and motive material are all referred to."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "None (no confession). Disclosure by arrested accused Amit Chaubey implicated the respondent; the Court did not expressly say it disregarded this.",
+   "quote": "accused – Amit Chaubey disclosed that the respondent (Rajesh Vikram Singh) and his brother had sent the accused persons",
+   "page": 3,
+   "reason": "Disclosure exists, but the claim that the Court did not rely on it is not stated in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The murder of Ashfaque Ahmad took place in broad day light.",
+   "page": 5,
+   "reason": "Daylight murder, contract killing, motive, criminal records and offence on bail are all noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Learned Additional Advocate General informs that till date, only one witness has been examined.",
+   "page": 6,
+   "reason": "No trial court verdict is stated; trial was ongoing with one witness examined."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the applicant is entitled to be released on bail",
+   "page": 4,
+   "reason": "High Court granted regular bail to both respondents by orders dated 23.09.2021."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeals are allowed, the impugned orders dated 23.09.2021... are hereby set aside",
+   "page": 8,
+   "reason": "No conviction or acquittal; bail orders set aside, so 'other' fits."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence has been finally established against the accused."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "none",
+   "quote": "the impugned orders ... granting regular bail to the private respondents, are hereby set aside",
+   "page": 8,
+   "reason": "No sentence was imposed; 'none' is closer than 'not_stated' under this enum."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed-term sentence exists, so null is right."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same content, but remove gendered pronouns (e.g. 'gave his name' should be 'gave a name' or 'gave the name').",
+   "quote": "One gave his name and the other did not.",
+   "page": 3,
+   "reason": "Facts are accurate and outcome-neutral, but 'his' breaks the no-gender-pronoun rule."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the prescribed punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ashfaque Ahmad died on the spot",
+   "page": 3,
+   "reason": "Main offence completed with the victim's death."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Razi Ahmad @ Manu received injurie s.",
+   "page": 3,
+   "reason": "Death of victim and injuries to Razi Ahmad are both stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "147, 148, 149, 307, 302, 120-B/34 IPC and Sections 3/4 of the Explosive Substances Act",
+   "page": 2,
+   "reason": "Nine sections charged and no convictions finally upheld by the Supreme Court."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No loss of money or property by the victim is described; cash was recovered."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It was apparently a case of contract killing.",
+   "page": 5,
+   "reason": "Court noted prima facie contract killing and conspiracy, without final determination."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There is material to indicate the motive behind the commission of gruesome murder",
+   "page": 5,
+   "reason": "Motive is marked as alleged and matches the judgment's account."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The occurrence has been witnessed by the appellant and two more eye witnesses.",
+   "page": 5,
+   "reason": "Prima facie reliance on eyewitnesses, arrests and motive material is accurately stated."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "without expressing any views on the merits of the ongoing trial",
+   "page": 7,
+   "reason": "Court expressly did not assess witness credibility."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "both the respondents have been seeking exemption from personal appearance",
+   "page": 6,
+   "reason": "Accurately reflects trial-stage conduct; offence-related conduct is not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Bail granted to both respondents by the High Court on 23.09.2021 (set aside by Supreme Court). Court found both, while on bail in an earlier case, prima facie involved in the present offence; co-accused Satish Kumar @ Satai's bail was rejected on 03.09.2021.",
+   "quote": "while on bail, they have been prima facie found involved in the instant case",
+   "page": 5,
+   "reason": "Judgment says both respondents were on bail earlier, not only one."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dated 23.09.2021 (High Court order); April 18, 2023 (Supreme Court)",
+   "page": 1,
+   "reason": "Dates given match the judgment; missing dates correctly marked not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Siddharth Dave, Sr. Adv., Talha Abdul Rahman ... for the Appellant. Sharan Thakur, A.A.G., Basant R, Sr. Adv.",
+   "page": 2,
+   "reason": "Counsel for appellant, respondents and State are accurately identified."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in Case Crime No. 17 of 2018 under Sections 147, 148, 149",
+   "page": 2,
+   "reason": "FIR and case number match; trial pending with one witness examined."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court did not take into consideration the relevant material while granting bail",
+   "page": 7,
+   "reason": "Court noted the High Court's failure to consider relevant material and unconvincing reasoning."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appeals are allowed, the impugned orders dated 23.09.2021",
+   "page": 8,
+   "reason": "Trial court outcome not stated; High Court bail granted; Supreme Court allowed appeals."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant's submissions are not recorded; the value says so accurately."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "very cogent and overwhelming circumstances are necessary for cancellation of bail",
+   "page": 6,
+   "reason": "Accurately captures the respondent counsel's submission on cancellation of bail."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the order granting bail should reflect the judicial application of mind",
+   "page": 4,
+   "reason": "Matches the bail parameters and the distinction between grant challenge and cancellation."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ash Mohammad v. Shivraj Singh @ Lalla Babu and Another (2012) 9 SCC 446",
+   "page": 1,
+   "reason": "All three cited precedents with citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so 'Not applicable' is right."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The murder of Ashfaque Ahmad took place in broad day light.",
+   "page": 5,
+   "reason": "Listed factors are those the Court weighed in its reasoning."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the respondents shall be at liberty to apply for bail after examination of all the eye witnesses",
+   "page": 8,
+   "reason": "Surrender direction, bail liberty and expedited trial direction are all in the judgment."
+  }
+ }
+}

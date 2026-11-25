@@ -1,0 +1,27 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "6 appellants (two in each of the three appeals), although 8 accused were charged and tried",
+   "quote": "All the appellants are acquitted.",
+   "page": 33,
+   "reason": "Eight were charged, but the appeals concern only the appellants (Alamelu & Anr; Sekar & Kandasamy; two in No. 1062), so the Court decides six."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Stranger/local boy: not related, not on visiting terms, no previous relationship or familiarity with the victim; defence alleged enmity over land",
+   "quote": "PW1 admits that Sekar was not on visiting terms with the family of the girl. There is no previous history of any relationship between Sekar and the girl.",
+   "page": 21,
+   "reason": "The court found no prior acquaintance, so 'Acquaintance/neighbour' is inaccurate; he was only a local boy."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary is accurate but uses the pronoun 'he' for the accused ('said he loved her'), breaching the no-gender-pronouns rule."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title and 'now Chhattisgarh' designation match the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers throughout to a single accused-appellant."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as male ('his own ill intentions', 'he')."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused; the value 25 has no textual basis."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not explicitly stated; only that land is his source of livelihood."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "incorrect",
+   "correct_value": "Accused inherited about 2 acres of ancestral land (his livelihood), lives in a pucca house; wife is a blue card holder.",
+   "quote": "He has inherited about 2 acres of land being ancestral property which is also the source of his livelihood.",
+   "page": 6,
+   "reason": "The judgment does describe the accused's financial status, which the value wrongly marks as not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the prosecutrix, a girl/woman, consistent with the judgment."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "X-ray evidence confirmed the prosecutrix's age as approximately 18 years at the time of the offence."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Acquaintance: friend of victim's brother who visited her house",
+   "quote": "Because of the friendship, the accused used to visit the house of the prosecutrix",
+   "page": 4,
+   "reason": "The judgment describes a friendship and visits, not a family relationship."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is rape under Section 376 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction and charge are under Section 376 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecutrix testimony, medical examination reports, radiologist X-ray report, Panchayat witness evidence",
+   "quote": "the accused admitted the fact that he had committed sexual intercourse with the prosecutrix",
+   "page": 4,
+   "reason": "'Eyewitness' is unsupported; evidence was prosecutrix testimony, medical/X-ray reports and Panchayat witnesses."
+  },
+  "confession": {
+   "verdict": "incorrect",
+   "correct_value": "Extra-judicial admission before the Panchayat that he had sexual intercourse with the prosecutrix",
+   "quote": "the accused admitted the fact that he had committed sexual intercourse with the prosecutrix but refused to marry her",
+   "page": 4,
+   "reason": "The judgment records the accused's admission before the Panchayat, so 'None' is contradicted."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Victim physically disadvantaged and socially vulnerable; exploited maliciously through fraud of promised marriage",
+   "quote": "victim being physically disadvantaged, she was already in a socially disadvantaged position which was exploited maliciously by the accused",
+   "page": 11,
+   "reason": "The judgment highlights exploitation of a disabled, vulnerable victim, which is an aggravating feature."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.376 IPC and sentenced to 7 years RI."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; High Court affirmed the conviction and sentence",
+   "quote": "affirmed the judgment of conviction passed by the trial couit",
+   "page": 5,
+   "reason": "The High Court affirmed the conviction, so 'Not applicable' is contradicted by the judgment."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so the accused stands convicted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held guilt of rape proved beyond reasonable doubt."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is rigorous imprisonment, a fixed term of 7 years."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence of 7 years rigorous imprisonment is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without the trial and High Court outcomes (remove the conviction and affirmance sentences)",
+   "quote": "The trial court convicted the accused under Section 376 of the IPC and sentenced him to 7 years rigorous imprisonment.",
+   "page": 5,
+   "reason": "Neutral facts reveal the trial and High Court outcomes, which the rules prohibit."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Rape of a blind, illiterate, physically disadvantaged girl; sentence 7 years RI (severity not characterised by court)",
+   "quote": "sentenced to 7 years rigorous imprisonment",
+   "page": 5,
+   "reason": "Gives the sentence rather than severity; the judgment does not characterise severity."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sexual intercourse was completed, leading to pregnancy."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment notes trauma and grief suffered; pregnancy also followed the offence."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Single charge under s.376 IPC; prosecution alleges repeated sexual intercourse on multiple occasions",
+   "quote": "whenever the prosecutrix remained alone in the house, the accused used to come and commit sexual intercourse",
+   "page": 4,
+   "reason": "Omits that multiple repeated occasions are alleged; 'conviction upheld' is outcome, not a count."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the accused used promised marriage to commit fraud and rape."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment cites the accused's ill intentions and fraud via promised marriage."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecutrix's testimony (recognition by voice and touch); medical reports; radiologist X-ray confirming age ~18; Panchayat evidence",
+   "quote": "confirming the age of the prosecutrix as approximately 18 years",
+   "page": 5,
+   "reason": "Medical reports are cited for age only; no finding that they confirmed the nature of the offence."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court appreciated the evidence of the prosecutrix, doctor, Panchayat persons and medical reports; no explicit credibility analysis",
+   "quote": "after appreciating the entire evidence including the evidence of the Doctor and the persons who attended the Panchayat",
+   "page": 5,
+   "reason": "Judgment gives no explicit credibility assessment; it omits Panchayat witnesses and presents inference as finding."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused stopped visiting after pregnancy; at the Panchayat admitted intercourse but refused to marry and left",
+   "quote": "the accused stopped visiting the house of the prosecutrix",
+   "page": 4,
+   "reason": "The judgment describes the accused's conduct after the offence, so 'Not stated' is contradicted."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody period is not mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court dates match the judgment; offence date not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge-sheet, medical examination and prosecutrix as PW-I are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court affirmance and Supreme Court dismissal match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary of prosecution case on promised marriage and proof beyond reasonable doubt is supported."
+  },
+  "defence_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "We have heard learned counsel for the appellant and the respondent State",
+   "page": 5,
+   "reason": "Judgment records that counsel was heard but gives no defence arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Beyond reasonable doubt standard and need for uniform compensation scheme are both stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Delhi Domestic Working Women's Forum case is cited regarding the NCW scheme."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (judgment gives no sentencing reasoning; it only upholds the conviction)",
+   "quote": "the judgment of conviction must sustain in law",
+   "page": 6,
+   "reason": "Judgment gives no reasoning for the 7-year sentence; the stated rationale is an inference."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Exploitation of physically and socially disadvantaged victim through fraud of promised marriage",
+   "quote": "which has put the victim in a doubly disadvantaged situation",
+   "page": 11,
+   "reason": "Judgment expressly identifies the victim's disadvantage and malicious exploitation as aggravating."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rs.8,000 monthly compensation for life and directions to all States match the judgment."
+  }
+ }
+}

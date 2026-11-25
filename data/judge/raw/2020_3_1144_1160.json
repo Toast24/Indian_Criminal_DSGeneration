@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the case caption on page 1."
+  },
+  "number_of_accused": {
+   "verdict": "incorrect",
+   "correct_value": "3",
+   "quote": "Accused Lekh Ram is the father of accused Rajeev Kumar.",
+   "page": 8,
+   "reason": "Three accused appealed (Satish Kumar, Rajeev Kumar, Lekh Ram), not two."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All accused are referred to by male names and male pronouns in the judgment."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the accused is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the accused is mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused occupation is stated; the deceased's forest duty is not an accused occupation."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status of the accused is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record of any accused is mentioned; the earlier criminal cases involved Kanshi Ram and a witness."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Ratti Ram is referred to as father and male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "many registered hunters used to come to this forest... The said motive has no foundation",
+   "page": 13,
+   "reason": "Judgment shows accused-S lived near the victim's house and had a land dispute; 'Stranger' is contradicted."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charged under s.302 IPC (murder) r/w s.34."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to s.302 r/w s.34 IPC and ss.25 and 27 Arms Act."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single barrel gun is the weapon recovered and forensically linked."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case is expressly based on circumstantial evidence."
+  },
+  "confession": {
+   "verdict": "incorrect",
+   "correct_value": "Disclosure statements of accused-S and accused-R (called confessional statements); not held to be a confession of guilt",
+   "quote": "prior to recording of confessional statements of the accused vide Ex. PW2/A and Ex. PW15/C",
+   "page": 12,
+   "reason": "Judgment refers to confessional/disclosure statements of the accused, so 'None' is contradicted."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are stated."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court acquitted all accused for failure to prove guilt beyond reasonable doubt."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Acquittal reversed; accused convicted under s.302 r/w s.34 IPC and ss.25, 27 Arms Act",
+   "quote": "the appeal filed by the complainant was allowed and the order of acquittal passed by the learned trial court ... was set aside",
+   "page": 7,
+   "reason": "High Court allowed the State appeal and convicted; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed appeals and restored the trial court's acquittal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was finally established; convictions were set aside."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment was finally imposed; the accused were set at liberty."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term of imprisonment is stated in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Three men were accused; the victim left home on 21 December 2009 and did not return. A phone call from accused Satish Kumar led police to the body. Trial court acquitted; High Court convicted; Supreme Court's outcome must not be stated.",
+   "quote": "an information (Ex PW 15-A) was received by Ram Singh (PW-15)... on phone said to be by Satish Kumar",
+   "page": 7,
+   "reason": "Summary says two accused, wrongly says daughter called police, and reveals the Supreme Court outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment cites s.302 but states no sentencing range of 7 to 10 years."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died from gunshot; offence completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Postmortem found gunshot injuries causing death."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Number of offences/counts charged: 3 (s.302 r/w s.34 IPC; s.25 Arms Act; s.27 Arms Act); Number of offences finally upheld: 0",
+   "quote": "convicted for the offences punishable under Section 302 read with Section 34 of the Indian Penal Code, 1860 as well as under Sections 25 and 27 of the Arms Act",
+   "page": 7,
+   "reason": "Three distinct offences were charged/convicted, not two; upheld count of 0 is correct."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is stated."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged land dispute with accused Satish Kumar; motive held not proved",
+   "quote": "the motive was land dispute with Satish Kumar. If such was a motive, then there is no reason",
+   "page": 15,
+   "reason": "Land dispute was the alleged motive but the court found it had no foundation; value omits this."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "No evidence was accepted as proving who fired; phone call lacked verification and the gun recovery could not establish which accused fired",
+   "quote": "no call details have been produced to verify the correctness of the telephone call",
+   "page": 14,
+   "reason": "Lists evidence found doubtful or insufficient under an 'accepted' label, which misstates the court's findings."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Witnesses were found untrustworthy; PW-2 and PW-3 turned hostile and denied statements."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed beyond the disclosure statements."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only the arrest date and time are given; custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Accused were on bail; bail bonds discharged by the Supreme Court order",
+   "quote": "The bail bonds shall stand discharged.",
+   "page": 17,
+   "reason": "Judgment references bail bonds being discharged, so 'Not stated' is contradicted."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence date not explicitly stated; victim left home 21 Dec 2009 and body was found 22 Dec 2009; other dates correct",
+   "quote": "left home at about 8 am on 21st December, 2009",
+   "page": 7,
+   "reason": "Offence date is inferred; judgment gives departure date and recovery date, not death date. Other dates match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for accused and State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR No. 218 registered; disclosure statements and recoveries made; charge sheet filing not stated",
+   "quote": "FIR No. 218 was registered on 22nd December, 2009",
+   "page": 7,
+   "reason": "FIR and trial are supported; charge sheet filing is not mentioned in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "IO gave contradictory statements, denied contacting PW-2, and did not verify the phone call",
+   "quote": "The IO has given contradictory statement as that of statement of PW-1",
+   "page": 14,
+   "reason": "Court identified investigative irregularities, so 'None noted' is contradicted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial acquittal, High Court conviction, Supreme Court set aside conviction matches the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (High Court held recovery and forensic reports established gun use)",
+   "quote": "The High Court held that the postmortem report and the report of the Forensic Science Laboratory emphatically lead to the use of gun",
+   "page": 10,
+   "reason": "Judgment records High Court findings, not prosecution arguments, so this attribution is unsupported."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Counsel argued circumstantial case not proved, contradictory witness statements, and doubtful truthfulness; phone call verification issue was not argued as such",
+   "quote": "The prosecution witnesses have given contradictory statements which does not complete the chain of circumstances",
+   "page": 10,
+   "reason": "Core arguments match, but the phone-call verification point is the court's analysis, not counsel's argument."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court applied Sharad Sarda circumstantial evidence principles and the perversity test for interfering with acquittal."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment relies on Sharad Birdhichand Sarda, Brajendrasingh and Chandrappa with matching citations."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given since convictions were set aside."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Acquittal restored; bail bonds discharged; all accused set at liberty if not wanted elsewhere",
+   "quote": "All the accused be set at liberty, if not wanted in any other case.",
+   "page": 17,
+   "reason": "The judgment orders liberty and discharge of bail bonds, so 'None' is contradicted."
+  }
+ }
+}

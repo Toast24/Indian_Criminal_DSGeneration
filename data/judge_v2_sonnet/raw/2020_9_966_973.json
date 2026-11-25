@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "SANJAI TIWARI v. THE STATE OF UTTAR PRADESH & ANR.",
+   "page": 1,
+   "reason": "Matches the case title."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "1 appellant (accused); no liability decided",
+   "quote": "The appellant is an accused in FIR No.02/2006",
+   "page": 3,
+   "reason": "One appellant, though FIR names five others; the Court decides no criminal liability."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "The appellant is an accused in FIR No.02/2006",
+   "page": 3,
+   "reason": "The judgment never states the accused's gender; 'Male' is inferred from the name."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation not stated; only the employer is mentioned in passing."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record mentioned."
+  },
+  "victim_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "The Vigilance Department of State of Uttar Pradesh commenced an inquiry on a complaint filed by one R.K. Choudhary.",
+   "page": 3,
+   "reason": "The judgment does not say the case is victimless; it simply states no victim details."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No relationship described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prevention of Corruption Act offences are the main offences charged."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 420, 467, 468, 471, 477A & 120B IPC and Section 13(1) C/D read with 13(2) of Prevention of Corruption Act, 1988",
+   "page": 3,
+   "reason": "Matches the charged sections."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon involved."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No evidence discussed; only a charge-sheet was filed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "not even charges have been framed by the trial court as on date.",
+   "page": 5,
+   "reason": "Trial is pending with no verdict."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the application stands disposed of directing the Court concerned to expedite the proceedings",
+   "page": 4,
+   "reason": "Accurately describes the High Court order."
+  },
+  "final_outcome": {
+   "verdict": "other",
+   "correct_value": "other",
+   "quote": "the appeal is allowed, judgment of the High Court dated 09.09.2020 is set aside.",
+   "page": 8,
+   "reason": "Procedural disposal, not conviction or acquittal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No conviction."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove mention of the accused being 'one of six' with a delay attributed by a third party if unneeded; avoid 'Male'-type details; also states facts beyond judgment",
+   "quote": "The Vigilance Department completed the investigation after about 14 years",
+   "page": 4,
+   "reason": "Mostly accurate, but 'private individual' and 'Secretary' details are fine; includes delay allegations and mentions no court proceedings, yet lacks ~150 words substance."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Punishment not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None stated."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "7 charged; 0 finally upheld",
+   "quote": "Sections 420, 467, 468, 471, 477A & 120B IPC and Section 13(1) C/D read with 13(2)",
+   "page": 3,
+   "reason": "Count of 7 is arguable (13(1)(c) and (d) separate, plus 13(2) = more); charges not framed, so 'charged' is loose."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No loss amount stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive identified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No evidence assessed."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No witnesses assessed."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "offence: not given; trial judgment: not given; High Court: 09.09.2020; Supreme Court: 16.12.2020 (FIR 09.01.2006; charge-sheet 23.05.2020)",
+   "quote": "although FIR was lodged on 09.01.2006",
+   "page": 4,
+   "reason": "Matches given dates, though the FIR date could be noted."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Sharan Thakur, AAG for State; Ajit Sharma, Rohit K. Singh, Ajay Kumar Prajapati, Sneha Ravi Iyer, Advs.; respondent No.2 counsel withdrew",
+   "quote": "Sharan Thakur, AAG , Ajit Sharma, Rohit K. Singh, Ajay Kumar Prajapati, Ms. Sneha Ravi Iyer, Advs. for the appearing parties.",
+   "page": 3,
+   "reason": "Roles not split in the judgment; the value is acceptable but incomplete."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charge-sheet dated 23.05.2020 was filed by the Vigilance Department",
+   "page": 3,
+   "reason": "Consistent with the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court noted none; the no-notice point is the appellant's argument."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal is allowed, judgment of the High Court dated 09.09.2020 is set aside.",
+   "page": 8,
+   "reason": "Accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all criminal trials where offences involved are under the Prevention of Corruption Act have to be held on day to day basis",
+   "page": 5,
+   "reason": "Accurate."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "High Court committed error in entertaining the application under Section 482 Cr.P.C. at the instance of respondent No.2 who had no locus standi",
+   "page": 4,
+   "reason": "Matches the appellant's arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately states the locus principle."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Janata Dal vs. H.S. Chowdhary and others, (1993) 1 SCC 756",
+   "page": 6,
+   "reason": "Correct precedent."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "none of the observations made by us in this order shall affect the criminal trial.",
+   "page": 8,
+   "reason": "Accurate."
+  }
+ }
+}

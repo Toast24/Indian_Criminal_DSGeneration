@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "incorrect",
+   "correct_value": "6",
+   "quote": "therefore, six accused persons faced the trial.",
+   "page": 9,
+   "reason": "Babulal died before chargesheet; six accused were tried, not seven."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "the appellant's presence but also his active participation",
+   "page": 26,
+   "reason": "All accused are referred to with male pronouns and names; 'Mixed' has no textual basis."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no accused ages."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only 'cases pending in the Court' is noted, not a criminal record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Siria/Shriram is referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Enmity between accused and informant's party; not strangers",
+   "quote": "the accused persons and the informant were in inimical terms due to non-voting",
+   "page": 18,
+   "reason": "Judgment describes enmity and prior disputes, not a stranger relationship."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 IPC matches the judgment."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.302, 323, 324, 148 r/w s.149; Explosive Substances Act ss.3 and 4",
+   "quote": "Sections 302, 323, 324 read with Sections 149 of the Indian Penal Code (IPC) and 148 IPC",
+   "page": 7,
+   "reason": "Omits s.148 IPC and the Explosive Substances Act ss.3 and 4."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "seized the weapons, namely, lathi, farsa and handmade bombs",
+   "page": 8,
+   "reason": "Lathis, farsa and handmade bombs are all stated."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical and recovery evidence are all discussed."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment is silent on any confession; 'None' is an assertion without basis."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "with pre-determined mind threw the bomb on the chest of the deceased",
+   "page": 26,
+   "reason": "Explosives, multiple aggressors and pre-determined attack are all relied on."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court acquitted all accused."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court reversed acquittal and convicted."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appeal dismissed.",
+   "page": 29,
+   "reason": "Supreme Court dismissed appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "deserved to be convicted under Section 302 in aid of Section 149 of the IPC",
+   "page": 26,
+   "reason": "Matches the judgment's conclusion."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imposed rigorous imprisonment for life",
+   "page": 7,
+   "reason": "Life imprisonment is stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term in years is stated; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts of the prosecution case without the High Court's reversal reasoning or credibility findings",
+   "quote": "the High Court reversed this decision, finding the prosecution's version credible and the accused as aggressors",
+   "page": 26,
+   "reason": "Reveals the High Court's reversal and findings and presents prosecution allegations as established fact."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Death caused by explosive substance; rigorous imprisonment for life imposed",
+   "quote": "imposed rigorous imprisonment for life",
+   "page": 7,
+   "reason": "'Maximum punishment' is outside the judgment; the judgment only states life imprisonment was imposed."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death occurred, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased died due to extensive haemorrhage, shock and lung compression",
+   "page": 15,
+   "reason": "Death and injuries to other witnesses are described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court reversed acquittal and convicted accused under s.302 r/w s.149, with separate sentences for other offences",
+   "quote": "proceeded to sentence each of the accused under Section 302 read with Section 149 of IPC",
+   "page": 7,
+   "reason": "High Court convicted rather than 'upheld' convictions; only the appellant appealed."
+  },
+  "financial_property_loss": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss financial or property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "with pre-determined mind threw the bomb on the chest of the deceased",
+   "page": 26,
+   "reason": "Pre-determined mind attributed to Mangal Singh is stated."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Objection to abuses hurled, amid prior enmity over non-voting in favour of the accused",
+   "quote": "the accused persons and the informant were in inimical terms due to non-voting by the informant's party",
+   "page": 18,
+   "reason": "Omits the enmity over non-voting that the judgment identifies."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their evidence also find support from the medical evidence and the initial allegations made in the FIR",
+   "page": 18,
+   "reason": "Presence, participation, homicidal death and supporting evidence are all stated."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "comes with a built-in guarantee of his presence at the scene of the crime",
+   "page": 22,
+   "reason": "Injured witnesses' reliability and consistency are accurately described."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "{\"dates_of_offence\": \"7.1.1984\", \"trial_judgment\": \"Not stated\", \"high_court_decision\": \"12.12.2005\", \"supreme_court_decision\": \"April 08, 2015\"}",
+   "quote": "Judgment and Order dated 12.12.2005 of the High Court of Judicature at Madhya Pradesh",
+   "page": 7,
+   "reason": "12.12.2005 is the High Court judgment date, not the trial judgment date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Varinder Kumar Sharma, Vipin Kumar, K. K. Shrivastava (for Deepak Goel) for the Appellant. C. D. Singh for the Respondent.",
+   "page": 7,
+   "reason": "Counsel for appellant and State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "eventually placed the chargesheet in the court of Chief Judicial Magistrate",
+   "page": 8,
+   "reason": "FIR, chargesheet and completed trial are stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dismissing the appeal",
+   "page": 2,
+   "reason": "Acquittal at trial, conviction at High Court and dismissal of appeal are stated."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused persons were the aggressors",
+   "page": 26,
+   "reason": "Summary of prosecution case on unlawful assembly and aggression is accurate."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it should not have convicted under Section 302 IPC, for he would be liable for his overt act only",
+   "page": 10,
+   "reason": "Defence points on plausible acquittal, non-examination and overt act are accurate."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Mere presence alone is insufficient; s.149 liability needs understanding of unlawful assembly and common object, no individual overt act required",
+   "quote": "mere presence in an assembly does not make such a person member of an unlawful assembly",
+   "page": 23,
+   "reason": "Summary wrongly says mere presence can suffice; the judgment says mere presence alone is not enough."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Also omits Dalip Singh, Rameshwar, Hari Obula Reddy, Masalti, Bhargavan, Ramachandran, Abdul Sayeed and others; 'Kamai Singh' is Karnail Singh",
+   "quote": "State of Punjab v. Karnail Singh",
+   "page": 13,
+   "reason": "Lists only the early authorities; many relied-upon cases are omitted."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is a case where the appellant deserved to be convicted under Section 302 in aid of Section 149",
+   "page": 26,
+   "reason": "Rationale based on aggressors, common object and injured witnesses matches the judgment."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not explicitly listed; court relied on lethal weapons and pre-determined mind",
+   "quote": "the accused persons armed with lethal weapons had gone to the house of deceased",
+   "page": 26,
+   "reason": "'None' ignores the lethal weapons and pre-determined mind the court relied on."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Separate sentences imposed for other offences, all concurrent",
+   "quote": "along with separate sentences for other offences with the stipulation that all the sentences would be concurrent",
+   "page": 7,
+   "reason": "Judgment states separate concurrent sentences for other offences, not 'None'."
+  }
+ }
+}

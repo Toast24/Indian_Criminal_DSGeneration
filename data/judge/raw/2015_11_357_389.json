@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "thirty four persons were charged for having committed the offences",
+   "page": 13,
+   "reason": "Judgment states thirty-four persons were charged."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never states the gender of the accused; 'Mixed' is not backed by the text."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused occupation is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status of accused is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "deceased Tanaji Pandurang Rathod",
+   "page": 9,
+   "reason": "Victim Tanaji is male; PW12 is his wife."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated explicitly."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "There was a dispute in the village over this agricultural land.",
+   "page": 9,
+   "reason": "'Stranger' is not supported; the judgment describes village members in a land dispute, with shared Rathod surnames."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "causing death of one person",
+   "page": 1,
+   "reason": "Offence centres on murder under s.302 read with s.149."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.147, 148, 302, 307, 324, 326, 427, 435, 436, 452 r/w s.149 (s.395 charged but not in convicted sections)",
+   "quote": "Section 395 charged; convicted under 147, 148, 302, 307, 326, 324, 427, 435, 436, 452 read with Section 149 IPC",
+   "page": 9,
+   "reason": "Section 395 was charged but was not among the convicted provisions listed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "assaulted with axe, sword, Sattur",
+   "page": 17,
+   "reason": "Swords, axes, sticks and satturs are all mentioned as weapons."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 25,
+   "reason": "Eyewitness testimony, medical evidence and recoveries are all relied upon."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Disclosure statements of A-1, A-2, A-3, A-29 and A-30 led to weapon recoveries",
+   "quote": "pursuant to disclosure statements made by A-1, A-2, A-3, A-29 and A-30",
+   "page": 13,
+   "reason": "Disclosure statements led to recoveries; 'None' overlooks them, though they are not called confessions."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Mob violence; multiple injuries; death caused. Judgment does not list aggravating circumstances.",
+   "quote": "assault is opened by a mob of fairly large number of people",
+   "page": 6,
+   "reason": "Mob violence and injuries are present, but 'common object' is a liability doctrine, not an aggravating factor."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Trial Court held the respondents ... guilty",
+   "page": 17,
+   "reason": "Trial court convicted eight accused and acquitted the rest."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court acquitted all eight respondents, disbelieving PW12 and applying Masalti",
+   "quote": "The High Court by its Judgment under appeal, acquitted the respondents of all the charges against them.",
+   "page": 18,
+   "reason": "High Court did have an outcome: it acquitted the respondents."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeal partly allowed: conviction of A-1, A-2, A-3, A-12, A-29, A-30 restored; A-7 and A-10 acquittal upheld",
+   "quote": "this appeal is partly allowed as against Accused Nos.A-1, A-2, A-3, A-12, A-29 and A-30",
+   "page": 33,
+   "reason": "Only six convictions were restored; the value omits the partial nature and the two acquittals."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the case of the prosecution as against them stands completely proved",
+   "page": 24,
+   "reason": "Murder and assault against six accused were held proved."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "life imprisonment",
+   "quote": "sentenced the respondents to various terms including life imprisonment under Section 302 read with Section 149 IPC",
+   "page": 17,
+   "reason": "Judgment states life imprisonment, not a fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "including life imprisonment under Section 302 read with Section 149 IPC",
+   "page": 17,
+   "reason": "No 7-year term appears; the sentence is life imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted eight; High Court acquitted those eight respondents. Weapons were recovered on accused's disclosure, not from the scene.",
+   "quote": "while the High Court acquitted others",
+   "page": 18,
+   "reason": "High Court acquitted the eight convicted respondents, not 'others'; weapons were recovered on disclosure, not from the scene."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state punishment ranges for s.302 or s.307."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Tanaji ... was found to be dead",
+   "page": 10,
+   "reason": "Offence was completed with the death of the victim."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Hemorrhage and shock due to multiple chop wounds with head injury",
+   "page": 12,
+   "reason": "Post-mortem injuries and cause of death are accurately summarised."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Thirty-four persons charged; eight convicted by trial court, six convictions confirmed, two acquitted",
+   "quote": "thirty four persons were charged",
+   "page": 13,
+   "reason": "Refers to 'counts' though the judgment counts persons charged, not offence counts."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Gold ornaments and cash taken; house documents burnt",
+   "quote": "Valuables like gold ornaments and cash were also taken away.",
+   "page": 9,
+   "reason": "Judgment describes loss of valuables, cash and burnt documents, not 'Not applicable'."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Dispute over agricultural land held by Sahakari Krushi Society; temple trustees involved",
+   "quote": "There was a dispute in the village over this agricultural land.",
+   "page": 9,
+   "reason": "The judgment identifies a land dispute as background, so motive is not 'Not identified'."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The testimony of PW-12 was natural and devoid of any exaggeration",
+   "page": 1,
+   "reason": "Accurately reflects the court's acceptance of PW12 corroborated by recoveries and medical evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deposition of PW12 is devoid of any exaggeration, completely trustworthy and reliable",
+   "page": 25,
+   "reason": "Accurately reflects the court's credibility finding on PW12."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is described."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Value lists outcomes, not a duration; no trial length is stated."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Counsel for State (appellant): Shankar Chillarge, Sonia Shankar Chillarge, Aniruddha P. Mayee; Counsel for respondents-accused: Meenakshi Arora, Mahima, Anjani Kumar Jha, Vinay Naware, Dr. R.R. Deshpande, Yuvraj Gaikwad",
+   "quote": "Shankar Chillarge, Sonia Shankar Chillarge, Aniruddha P. Mayee for the Appellant. ... Meenakshi Arora ... for the Respondents.",
+   "page": 8,
+   "reason": "Labels are swapped: Chillarge's side appeared for the appellant State, not the accused."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On completion of investigation charge-sheet was filed",
+   "page": 13,
+   "reason": "FIR, charge sheet and completed trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is recorded by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Criminal Appeal No. 885 of 2001 in the High Court of Bombay",
+   "page": 18,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "testimony of even a single witness can be relied upon if it is found to be trustworthy",
+   "page": 19,
+   "reason": "Matches the State's submissions on PW12 and corroboration."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "PW12 unreliable: statement recorded late, no injuries, presence doubtful, tutored; Masalti requires corroboration by another eye-witness",
+   "quote": "unless her evidence is corroborated by at least one eye-witness, it would be hazardous to rely on her testimony",
+   "page": 20,
+   "reason": "Omits the main defence points; the common-object argument is not what the defence raised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a conviction can well be founded upon the testimony of a sole witness",
+   "page": 21,
+   "reason": "Accurately reflects sole-witness and common-object principles applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mohd Aslam ... Anter Singh ... Kishan Pal ... Amerika Rai",
+   "page": 27,
+   "reason": "Cited precedents match those relied upon in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the judgment of conviction and order of sentence as recorded by the Trial Court ... stands restored",
+   "page": 33,
+   "reason": "Judgment restores the trial court sentence without giving a sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "A-1, A-2, A-3, A-12, A-29, A-30 to be taken in custody forthwith; appeal against A-7 and A-10 dismissed",
+   "quote": "Accused Nos.A-1, A-2, A-3, A-12, A-29 and A-30 be taken in custody forthwith to undergo the sentences awarded to them.",
+   "page": 33,
+   "reason": "Judgment contains a custody direction and a dismissal of the appeal against A-7 and A-10."
+  }
+ }
+}

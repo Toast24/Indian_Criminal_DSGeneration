@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Babu Sahebagouda Rudragoudar and Others v. State of Karnataka",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A-1 ... A-6 were subjected to trial in Sessions Case No. 28 of 2002",
+   "page": 5,
+   "reason": "Six accused were tried, matching the count of six."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never states the accused's gender; it is only inferable from their names."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused religion is stated in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused caste is stated in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused occupation is stated; only witnesses' occupations appear."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused socioeconomic status is stated in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record of the accused is mentioned; only the earlier Sangound murder is discussed."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased Malagounda, son of complainant",
+   "page": 6,
+   "reason": "Victim is referred to as son of the complainant and uses male references."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (rival families with prior enmity over the Sangound murder)",
+   "quote": "the accused party was carrying a grudge that deceased Malagounda had murdered the boy",
+   "page": 23,
+   "reason": "Judgment shows a prior enmity between the families, so 'Stranger' contradicts the record."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Penal Code, 1860 – s. 302 r/w. s. 34 – ... charge u/s. 302 r/w. s.34 IPC",
+   "page": 1,
+   "reason": "Charge is murder under Section 302 IPC read with Section 34."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 r/w s.34 (HC conviction); trial charges also under ss.143, 147, 148, 506(2) and 302 r/w s.149",
+   "quote": "Sections 143, 147, 148, 506(2) and Section 302 read with Section 149 of the Indian Penal Code",
+   "page": 5,
+   "reason": "Omits the other charged sections and the s.149 charge framed at trial."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "seized two axes and one koyta ... one jambiya ... two sickles",
+   "page": 28,
+   "reason": "Axes, sickles, jambiya and koyta all appear as recovered or used weapons."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness, medical, recovery (disclosure/seizure)",
+   "quote": "the Medical Jurist(PW-17) who stated in his cross-examination that the dead body ... was in a stage of decomposition",
+   "page": 23,
+   "reason": "Eyewitness, medical and recovery evidence are present, but circumstantial evidence is not identified as such."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "None admissible; disclosure/voluntary statements recorded but held not proved",
+   "quote": "The statement of an accused recorded by a police officer under Section 27 ... is basically a memorandum of confession",
+   "page": 25,
+   "reason": "No admissible confession, but disclosure and voluntary statements were recorded and discussed."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are stated."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The learned trial Court proceeded to discard the prosecution story and acquitted the accused appellants",
+   "page": 6,
+   "reason": "Trial court acquitted the accused."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Acquittal reversed; A-1, A-2, A-3 convicted under s.302 r/w s.34 IPC and sentenced to life imprisonment",
+   "quote": "reversed the acquittal of A-1, A-2 and A-3 and convicted these accused for the offence punishable under Section 302 read with Section 34 IPC",
+   "page": 6,
+   "reason": "High Court reversed the acquittal and convicted; 'Not applicable' contradicts this."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The accused appellants are acquitted of all the charges.",
+   "page": 29,
+   "reason": "Supreme Court acquitted the appellants of all charges."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The accused appellants are acquitted of all the charges.",
+   "page": 29,
+   "reason": "No offence was finally established given the acquittal."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The impugned judgment dated 14th September, 2009 ... is hereby reversed.",
+   "page": 29,
+   "reason": "No final imprisonment, as the High Court conviction was reversed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "is hereby reversed. The accused appellants are acquitted",
+   "page": 29,
+   "reason": "No final imprisonment term, consistent with acquittal."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The impugned judgment ... is hereby reversed.",
+   "page": 29,
+   "reason": "No final fine, since the High Court sentence was reversed."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution alleged complainant was an eyewitness; the court later found this claim contradicted",
+   "quote": "claiming to be an eye witness of the incident deposed that he lodged a complaint",
+   "page": 20,
+   "reason": "States the complainant 'was present at the scene' as fact, though the court rejected that claim."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment and Rs. 50,000 fine each (High Court sentence, later set aside)",
+   "quote": "sentenced them to undergo imprisonment for life and to pay a fine of Rs. 50,000/- each",
+   "page": 6,
+   "reason": "Matches the High Court sentence but omits that it was set aside by the Supreme Court."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "belaboured Malagounda, as a result of which he fell down",
+   "page": 7,
+   "reason": "The offence was completed, with the victim dying from the assault."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "belaboured Malagounda, as a result of which he fell down",
+   "page": 7,
+   "reason": "Death resulting from being belaboured by the accused is described in the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted these accused for the offence punishable under Section 302 read with Section 34 IPC",
+   "page": 6,
+   "reason": "Multiple charges were framed, but only s.302 r/w s.34 was the High Court conviction."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is stated; only a threatened revenge is mentioned."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Revenge for the murder of Sangound, son of A-4, allegedly committed by the deceased's family",
+   "quote": "the accused party was carrying a grudge that deceased Malagounda had murdered the boy",
+   "page": 23,
+   "reason": "The judgment identifies revenge for Sangound's murder as motive, so 'Not identified' is wrong."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the FIR(Exhibit P-10) is a post investigation document and does not inspire confidence",
+   "page": 21,
+   "reason": "Court endorsed trial court's view on infirmities, FIR and unproved disclosure evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his testimony suffers from patent infirmities, contradictions and inherent loopholes which brings him within the category of wholly unreliable witness",
+   "page": 21,
+   "reason": "Matches the court's unreliability findings and motive-to-implicate reasoning."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused post-offence conduct is stated; the conduct discussed concerns family and villagers."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Accused on bail; bail bonds discharged on acquittal",
+   "quote": "They are on bail and need not surrender. Their bail bonds are discharged.",
+   "page": 29,
+   "reason": "Judgment explicitly states the accused are on bail, so 'Not stated' is wrong."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dated 23 rd July, 2005; 14 th September, 2009; 19 th September, 2001; 19 April 2024",
+   "page": 6,
+   "reason": "Offence, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Basavaprabhu S. Patil, Sr. Adv., Geet Ahuja, Anirudh Sanganeria, Samarth Kashyap, Aman Banka, Advs. for the Appellants.",
+   "page": 5,
+   "reason": "Counsel names for both sides match the appearances section."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "After conclusion of investigation, a charge sheet came to be filed",
+   "page": 7,
+   "reason": "Charge-sheet was filed after investigation."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Delay in FIR; Daily Diary not produced; disclosure memos not proved; complaint hit by s.162 CrPC",
+   "quote": "the Daily Diary or the Roznamcha entry of the police station ... was not brought on record which creates a grave doubt",
+   "page": 21,
+   "reason": "Judgment notes several procedural irregularities, so 'None noted' is incorrect."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The impugned judgment dated 14 th September, 2009 ... is hereby reversed.",
+   "page": 29,
+   "reason": "Trial acquittal, High Court reversal and Supreme Court acquittal are all correctly captured."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution case: A-1 to A-4 armed attacked victim's son; PW-1 hid, returned, filed written complaint; charge-sheet filed",
+   "quote": "A-1 holding a jambai, A-2 holding an axe, A-3 holding a sickle and A-4 holding an axe, belaboured Malagounda",
+   "page": 6,
+   "reason": "Prosecution narrative is accurate, but the High Court outcome is wrongly included as argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court was not justified in reversing the well-reasoned judgment of acquittal",
+   "page": 12,
+   "reason": "Defence arguments on inconsistencies, trial court acquittal and improper first-court appreciation are accurately summarised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "(a) That the judgment of acquittal suffers from patent perversity; (b) misreading/omission ...; (c) no two reasonable views",
+   "page": 19,
+   "reason": "Matches the court's stated principles for interfering with acquittal."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rajesh Prasad v. State of Bihar and Another [2022] 3 SCR 1046 ... Ramanand @ Nandlal Bharti v. State of Uttar Pradesh",
+   "page": 4,
+   "reason": "All six cited precedents and citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given since the Supreme Court acquitted the accused."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "High Court ordered Rs. 10,000 to State and Rs. 1,40,000 to complainant PW-1 from the fine",
+   "quote": "a sum of Rs. 10,000/- was ordered to be paid to the State Government and the balance amount of Rs. 1,40,000/- was ordered to be paid to the complainant(PW-1)",
+   "page": 6,
+   "reason": "High Court made a fine-distribution order, so 'None' is incorrect."
+  }
+ }
+}

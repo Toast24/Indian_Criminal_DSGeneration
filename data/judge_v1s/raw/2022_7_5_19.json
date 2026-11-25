@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only the appellant is the accused; the judgment refers to one accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The appellant is male, referred to as the brother and by 'he' throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the appellant."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The appellant's occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated for the appellant."
+  },
+  "previous_criminal_record": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged under s.309 IPC for attempted suicide; sentenced to 10 days simple imprisonment (Ex. P-33); timing relative to offence unclear",
+   "quote": "sentenced to undergo simple imprisonment for 10 days vide Ex. P-33",
+   "page": 8,
+   "reason": "Attempted suicide and s.309 sentence are supported, but the judgment does not call it a previous criminal record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased is referred to as the appellant's brother, a male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment repeatedly describes the deceased as the appellant's brother."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offence is murder under s.302 IPC at trial."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "s.302, s.304 Part I and Exception 1 to s.300 are the core provisions applied."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "A pick-axe was seized on the appellant's disclosure and found blood-stained."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Medical, circumstantial (s.106 Evidence Act), and disclosure/recovery evidence; no eyewitness to the killing",
+   "quote": "did not profess to having made any such statement, or that she had seen the appellant committing the offence",
+   "page": 8,
+   "reason": "No eyewitness saw the offence; the judgment relies on medical, circumstantial and recovery evidence."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Confession inadmissible under s.25; statement admissible only to identify the accused as maker and s.27 discovery portion relating to the pick-axe/body",
+   "quote": "the confession is inadmissible as proof of confession is prohibited under Section 25",
+   "page": 7,
+   "reason": "The confession is inadmissible as such; only identification and s.27 discovery parts are admissible."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "The deceased had consumed alcohol and had told the appellant to leave the house and if not, he would kill the appellant",
+   "page": 14,
+   "reason": "These are provocation facts the court relied on for mitigation, not aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Loss of self-control from grave and sudden provocation and absence of premeditation are the court's stated basis."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The appellant was convicted under s.302 IPC by the trial court."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court affirmed the s.302 conviction (judgment dated 25.02.2019, Criminal Appeal No. 400 of 2013)",
+   "quote": "we are in agreement with the High Court and the trial court",
+   "page": 6,
+   "reason": "The High Court's decision is stated and it agreed with the trial court, not 'not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeal partly allowed; conviction converted from s.302 to s.304 Part I IPC",
+   "quote": "Applying the provocation exception, we would convert the conviction of the appellant from Section 302 to Part I of Section 304",
+   "page": 14,
+   "reason": "'Convicted' omits that the s.302 conviction was converted to s.304 Part I."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The conviction was converted to s.304 Part I, culpable homicide not amounting to murder."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Sentence modified to the period already undergone (time served)",
+   "quote": "we are inclined to modify the sentence of imprisonment to the period already undergone",
+   "page": 14,
+   "reason": "The sentence was reduced to time already served, not a new fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "Over 10 years (period already undergone)",
+   "quote": "the appellant has already suffered incarceration for over 10 years",
+   "page": 14,
+   "reason": "The judgment says 'over 10 years', not exactly 10."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment imposes a fine of Rs. 1,000/-."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "The accused, the deceased's brother, was involved in an incident where the deceased died from head injuries. The deceased was an alcohol addict who abused and threatened the accused. On the night of the incident, the deceased had been drinking and told the accused to leave or he would be killed. The accused was charged under s.302 IPC.",
+   "quote": "Therefore, we hold that the acts of provocation on the basis of which the appellant caused the death of his brother, Dashrath Nirmalkar, were both sudden and grave",
+   "page": 14,
+   "reason": "Summary states the court's holding on provocation and fine/sentence details, revealing outcome, and contains garbled fragments."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment is the maximum under s.302; minimum for s.304 Part I is not stated; 6 months is only the default term for non-payment of fine",
+   "quote": "pay fine of Rs.1,000/-, and in default, to undergo simple imprisonment for a period of six months",
+   "page": 6,
+   "reason": "Life maximum is supported, but 6 months is the fine default term, not a minimum sentence."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased died from the injuries, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment describes coma from shock and multiple skull fractures causing death."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged under s.302 IPC; conviction converted to s.304 Part I IPC; separate s.309 attempted suicide charge and sentence also noted",
+   "quote": "conviction of the appellant is converted from Section 302 to Part I of Section 304",
+   "page": 14,
+   "reason": "The s.304 Part I conviction was converted, not upheld, and the s.309 matter is omitted."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is mentioned in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court found sudden provocation and loss of self-control, with no reflection or planning shown."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The prosecution relied on the deceased's alcohol addiction and abusive conduct to show motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment finds the appellant and deceased were together that night and the chain of circumstances bars any other perpetrator."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Public witnesses were declared hostile but deposed in unison that the two stayed in separate rooms; only PW-9 and PW-10 were present at the time of the incident",
+   "quote": "Testimonies of Kumari Shanti Nirmalkar (PW-9) and Kumari Madhu Nirmalkar (PW-10) are important as they were present in the house at the time of the incident",
+   "page": 8,
+   "reason": "Presence at the incident applies only to PW-9 and PW-10, not all witnesses."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant went to the police station on 26 Sept 2011 and confessed; burn injuries to hands; attempted suicide by holding live electrical wires; s.309 sentence of 10 days",
+   "quote": "On 26th September, 2011, the appellant himself went to the police station and confessed the crime",
+   "page": 7,
+   "reason": "Omits the voluntary confession to police, which the judgment treats as relevant conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The appellant has been in custody since 27 September 2011, over 10 years."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "High Court judgment dated 25.02.2019; Supreme Court decision dated 02.08.2022; offence date not stated (confession 26.09.2011)",
+   "quote": "From the Judgment and Order dated 25.02.2019 of the High Court of Chhattisgarh",
+   "page": 6,
+   "reason": "High Court and Supreme Court decision dates are stated in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for the appellant and respondent are named as stated."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial completed and appellant charged under s.302; FIR registration and charge sheet filing are not stated",
+   "quote": "Therefore, defence of the appellant in his statement under Section 313",
+   "page": 8,
+   "reason": "Trial completion is supported, but FIR registration and charge sheet are not mentioned."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment notes no procedural irregularity."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court affirmance and Supreme Court conversion to s.304 Part I are all stated."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecution relied on the deceased's alcohol addiction and abuse to show motive",
+   "quote": "has relied upon these facts to show motive",
+   "page": 9,
+   "reason": "Judgment says the prosecution relied on these facts for motive, not argued grave and sudden provocation."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Defence statement under s.313 CrPC claimed a third person killed the deceased; this was rejected",
+   "quote": "defence of the appellant in his statement under Section 313 of the Code of Criminal Procedure, 1973 that some third person had killed his brother",
+   "page": 8,
+   "reason": "The judgment records the defence as third-party killing, not provocation."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Exception 1 to s.300 IPC, on grave and sudden provocation, is the principle applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "K.M. Nanavati, Budhi Singh and Aghnoo Nagesia are the cases the judgment relies on."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence was modified to time served given over 10 years in custody, with fine and default term."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody period and grave, sudden provocation with temporary loss of self-control are the stated factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs. 1,000/- with default imprisonment and release on payment match the order."
+  }
+ }
+}

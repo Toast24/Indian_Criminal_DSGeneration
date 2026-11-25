@@ -1,0 +1,385 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two appellants, Sadakat Kotwar and Refaz Kotwar, are named as accused."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Appellant No.2 - Refaz Kotwar stabbed PW8",
+   "page": 334,
+   "reason": "Judgment never states the accused's gender; it is only inferable from names."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Female (PW7); Male (PW8)",
+   "quote": "PW7 was also stabbed by Appellant No.1 ... with a dagger in her ribs",
+   "page": 334,
+   "reason": "Two victims: PW7 is female, but PW8 (Jamil Kotwar) is male; value omits this."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the accused persons pushed and took the husband of PW7 out of the house",
+   "page": 335,
+   "reason": "Judgment does not describe the relationship; 'Stranger' is unsupported and sits oddly with the household setting."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Attempt to murder (s.307 IPC)",
+   "quote": "convicted for the offences under Section 307 read with Section 34 of the IPC",
+   "page": 334,
+   "reason": "Offence is attempt to murder under s.307, not culpable homicide category."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states s.307 read with s.34 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "A dagger was used, as stated throughout the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Injured eye-witness testimony and medical injury findings are both relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deadly weapon use and grievous vital-part injuries are the court's stated aggravating features."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.307 r/w s.34 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court upheld the conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, leaving conviction intact."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Attempt to murder under s.307 r/w s.34 IPC",
+   "quote": "it is rightly held that the appellants have committed the offence under Section 307 IPC",
+   "page": 336,
+   "reason": "Section 307 is right, but 'culpable homicide' mislabels the offence established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence type is not stated in the judgment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused pushed PW7's husband out of the house and then injured PW7 and PW8; lower courts convicted (outcome should not be stated).",
+   "quote": "The accused pushed the victims out of a house and then inflicted the injuries",
+   "page": 335,
+   "reason": "Misstates that the victims were pushed out; it was PW7's husband. Also states lower-court guilt findings, revealing outcome.",
+   "page_note": null
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Punishment range under s.307 is not stated anywhere in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "incorrect",
+   "correct_value": "Attempted (s.307 IPC; injuries caused, victims survived)",
+   "quote": "Section 307 IPC",
+   "page": 336,
+   "reason": "Section 307 concerns an attempt; 'Completed' contradicts the conviction's nature."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Grievous incised wounds near chest and stomach are documented."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not count offences; it treats the s.307 r/w s.34 conviction without stating two separate charges."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Court found the blow was not struck in the heat of the moment; premeditation is not discussed.",
+   "quote": "It also does not appear that the blow was stuck in the heat of the moment",
+   "page": 335,
+   "reason": "Heat-of-moment point is right, but the court never found premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Testimony of injured eye-witnesses PW7 and PW8 and injury nature are accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found PW7 and PW8 reliable as injured eye-witnesses with great evidentiary value."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence dates not stated; High Court judgment 01.07.2019; Supreme Court decision 12 November 2021; trial court judgment date not stated",
+   "quote": "impugned judgment and order dated 01.07.2019 passed by the High Court",
+   "page": 332,
+   "reason": "01.07.2019 is the High Court judgment date; the trial court judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial was completed with ten prosecution witnesses examined."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is raised or discussed."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: Convicted under s.307 r/w s.34; High Court: Conviction upheld; Supreme Court: Appeal dismissed",
+   "quote": "the High Court has upheld the conviction of the appellants",
+   "page": 332,
+   "reason": "Trial court originally convicted; 'conviction upheld' applies to the High Court, not the trial court."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution case of dagger stabbings on vital parts under s.307 r/w s.34 is reflected."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence argued single blow and that the case may fall under s.323 IPC."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Intention inferred from weapon, body part chosen and injury nature, as the court held."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Relied on: State of M.P. v. Mansingh; referred to: Mahesh Balmiki; held inapplicable: Jai Narain Mishra",
+   "quote": "Jai Narain Mishra and Ors. v. State of Bihar (1971) 3 SCC 762 – held inapplicable",
+   "page": 332,
+   "reason": "Lists all three as relied upon, but Jai Narain Mishra was held inapplicable and Balmiki only referred to."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing discussion appears, so 'Not applicable' fits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Use of deadly weapon (dagger); grievous injuries on vital parts of the body",
+   "quote": "As the deadly weapon has been used causing the injury near the chest and stomach which can be said to be on vital part of the body",
+   "page": 335,
+   "reason": "Court expressly relied on deadly weapon use and vital-part injuries as aggravating; 'None' contradicts this."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is mentioned."
+  }
+ }
+}

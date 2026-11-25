@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the case caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only the appellant is tried."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The accused is referred to as 'his brother' and 'he'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class statement."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim is the accused's brother, Dashrath."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for the murder of his brother, Dashrath Nirmalkar",
+   "page": 6,
+   "reason": "They are brothers, and the judgment describes the victim's abuse and alcohol addiction."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The accused was charged with and tried for murder under s.302."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Section 302 of the Indian Penal Code",
+   "page": 6,
+   "reason": "s.302 and the final s.304 Part I are accurate; s.106 is flagged as referred to."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a pick-axe was seized from a wooden box",
+   "page": 7,
+   "reason": "A blood-stained pick-axe was recovered on the accused's disclosure."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Circumstantial, medical and recovery evidence match the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the confession is inadmissible as proof of confession is prohibited under Section 25",
+   "page": 7,
+   "reason": "Confession to police held inadmissible; only the s.27 part was used. 'Extra-judicial' is a loose label."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment notes no aggravating factors."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased was addicted to alcohol and used to constantly torment, abuse and threaten the appellant",
+   "page": 14,
+   "reason": "Matches the provocation findings."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo imprisonment for life, pay fine of Rs.1,000/-",
+   "page": 6,
+   "reason": "The s.302 conviction and sentence are stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we are in agreement with the High Court and the trial court",
+   "page": 6,
+   "reason": "The High Court appeal number and date are given and the s.302 conviction is implied as upheld."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal is partly allowed modifying the conviction and sentence",
+   "page": 15,
+   "reason": "Conviction was converted to s.304 Part I and the sentence reduced."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convert the conviction of the appellant from Section 302 to Part I of Section 304",
+   "page": 14,
+   "reason": "Matches the final conviction."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "fixed_term",
+   "quote": "we are inclined to modify the sentence of imprisonment to the period already undergone",
+   "page": 15,
+   "reason": "The final sentence is a definite term (period undergone, over 10 years), not 'not_stated'."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "modify the sentence of imprisonment to the period already undergone",
+   "page": 15,
+   "reason": "No exact number of years is given, so null is acceptable."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "pay a fine of Rs. 1,000/-",
+   "page": 15,
+   "reason": "Fine of Rs.1,000 retained."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same summary, but replace 'himself' with a neutral phrase such as 'the accused tried to end the accused's own life'.",
+   "quote": "had tried to kill himself by holding live electrical wires",
+   "page": 14,
+   "reason": "Facts are accurate and reveal no outcome, but the summary uses the gendered pronoun 'himself' for the accused."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the s.302 punishment range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "multiple fractures on the skull bone",
+   "page": 6,
+   "reason": "Matches the post-mortem findings."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "One charge (s.302) converted to s.304 Part I."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There was sudden loss of self-control",
+   "page": 14,
+   "reason": "The Court found sudden loss of control, not planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution does not dispute this position and in fact, has relied upon these facts to show motive.",
+   "page": 9,
+   "reason": "The prosecution relied on the victim's abuse to show motive, and the Court treated it as provocation."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Consistent with the Court's reasoning."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "though declared hostile, have more or less in unison deposed",
+   "page": 7,
+   "reason": "Accurately reflects how the hostile witnesses were treated."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant himself went to the police station and confessed the crime",
+   "page": 7,
+   "reason": "Matches the surrender, disclosure and recovery."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in custody since 27th September, 2011",
+   "page": 14,
+   "reason": "Over 10 years in custody."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Judgment and Order dated 25.02.2019",
+   "page": 6,
+   "reason": "The offence and trial dates are not given; the HC and SC dates are right."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Harinder Mohan Singh, Adv. for the Appellant. Sumeer Sodhi, Dhruv Wadhwa, Advs. for the Respondent.",
+   "page": 6,
+   "reason": "Counsel names match."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Consistent with the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No lapse is noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurate at each level."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records no separate State submissions."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No SC submissions recorded; the s.313 third-party claim is noted."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the Exception 1 analysis."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cases and citations are accurate."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant has already suffered incarceration for over 10 years",
+   "page": 14,
+   "reason": "Accurate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 14,
+   "reason": "Matches the Court's provocation findings."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant is directed to be released forthwith",
+   "page": 15,
+   "reason": "Matches the fine and release direction."
+  }
+ }
+}

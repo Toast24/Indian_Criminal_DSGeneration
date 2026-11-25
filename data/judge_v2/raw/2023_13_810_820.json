@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's case heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three appellants (A-3, A-6, A-9) are the accused whose liability the Court decides."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "DW-1 states that A-9 is his uncle",
+   "page": 9,
+   "reason": "Accused are referred to with male pronouns and male kin terms, supporting Male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated for any accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is expressly stated for the accused; farm and shop ownership is not labelled as occupation."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "partially_correct",
+   "correct_value": "A-9 owned farms in Sundri (ownership of farms noted)",
+   "quote": "He owned farms in Sundri.",
+   "page": 9,
+   "reason": "The judgment notes A-9 owned farms, a wealth-related statement, so 'Not stated' is incomplete."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Criminal record discussed concerns the deceased, not the accused; no accused record is stated."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Both victims, Chetram and Kapildeo, are male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the victims is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victims is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victims is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No relationship between accused and victim is described; only witness-victim links are given."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under s.302 IPC for murder fits the Murder category."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 148, 302 read with 149, 307 read with 149, Indian Penal Code, 1860 and Sections 4/5 of the Explosive Substance Act, 1908",
+   "page": 3,
+   "reason": "All charged sections and the Explosive Substance Act provisions are listed correctly."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "country made bombs used in the commission of offence; Lathis and tabbal",
+   "page": 4,
+   "reason": "Bombs, lathis and tabbal (shovels) are all identified as weapons."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "medical opinion of Dr. Ghanshyam (PW-20)",
+   "page": 6,
+   "reason": "Eyewitness, post-mortem and medical evidence are the main evidence types relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Deceased Chetram having sustained multiple injuries upon vital parts of the body as a result of the bombs being thrown at him",
+   "page": 6,
+   "reason": "Group attack with bombs and multiple injuries to vital parts is supported by the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted 9 of the 11 accused persons",
+   "page": 4,
+   "reason": "Conviction of 9 of 11 accused, sentences from 3 years to life, and trial judgment date are accurate."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Judgment and Order dated 19.10.2010 of the High Court of Chhattisgarh",
+   "page": 3,
+   "reason": "High Court affirmed conviction and sentence, dated 19.10.2010."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal, therefore, fails and is accordingly dismissed.",
+   "page": 10,
+   "reason": "Supreme Court upheld conviction and dismissed the appeal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the charges levied against the accused ... do not warrant interference",
+   "page": 11,
+   "reason": "All charged offences were upheld without interference."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence awarded varies from rigorous imprisonment for 3 years to life imprisonment",
+   "page": 3,
+   "reason": "Individual final sentences for the appellants are not specified, so not_stated is appropriate."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No single fixed-term sentence for the appellants is stated; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The victim's son was being taken to hospital by the victim (his father), with a companion riding pillion; the son was taken to a government hospital, then to D.K. Hospital, Raipur, with the hospital type not stated.",
+   "quote": "Chetram was taking his son Kapildeo @ Guddu to the hospital ... shifted to D.K. Hospital, Raipur",
+   "page": 4,
+   "reason": "Roles are inverted (the victim's son was the patient) and 'private hospital' is not stated. Otherwise neutral and accurate."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory punishment prescribed for the offence."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Deceased Chetram having sustained multiple injuries",
+   "page": 6,
+   "reason": "Murder was completed; the s.307 attempt on PW-3 is noted, which the value reflects."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Chetram received multiple injuries and eventually succumbed; Kapildeo ... also died",
+   "page": 4,
+   "reason": "Deaths of both victims and PW-3's injuries, including eye damage, are accurately described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 148, 302 read with 149, 307 read with 149, Indian Penal Code ... and Sections 4/5 of the Explosive Substance Act",
+   "page": 3,
+   "reason": "Five distinct sections were charged and all five convictions were upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Present is not a case of prior consultation; discussion; deliberation or improvements",
+   "page": 1,
+   "reason": "Supreme Court did not find premeditation; the planning finding is only the High Court's quoted view."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive for the accused is accepted; the defence only suggested other persons might want the deceased eliminated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "All 3 primary witnesses of the prosecution i.e., PW-3, PW-16, and PW-17 have categorically deposed the presence of the convict-appellants",
+   "page": 9,
+   "reason": "Eyewitness testimony, medical evidence and the explained FIR delay are accurately listed."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-3, is not a relative at all, and Khorbahrin Bai (PW-16) although is a relative of the deceased but is not a close relative",
+   "page": 5,
+   "reason": "Concurrent findings of truthfulness and the relationship details are accurately reflected."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is recorded; PW-3's hiding is not accused conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No period of custody is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The bail granted by this Court vide order dated 1st October 2012, stands cancelled.",
+   "page": 11,
+   "reason": "Bail granted on 1 October 2012 and later cancelled, with surrender ordered."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sessions Trial No.198 of 1988 vide a judgment dated 11.05.1992",
+   "page": 3,
+   "reason": "All listed dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Abhishek Vikas, Anshuman Shrivastava, Abhijeet Shrivastava, Abhishek Sharma, S. K. Verma, Advs. for the Appellants. Sumeer Sodhi, Yash Gupta, Advs. for the Respondent.",
+   "page": 3,
+   "reason": "Counsel for appellants and the State are correctly listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The investigation having been conducted by SI Sahid Ali (PW-19) ... challan was presented",
+   "page": 4,
+   "reason": "FIR, investigation, challan and completed trial are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural lapse is noted by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the guilt of the accused and the sentence ... stands confirmed",
+   "page": 3,
+   "reason": "Trial conviction, High Court affirmance and Supreme Court dismissal are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The State's Supreme Court arguments are not recorded in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "(a) Inordinate delay in filing of the First Information Report ... (d) that the accused persons were, in fact, not at the scene",
+   "page": 5,
+   "reason": "All four defence contentions are accurately summarised."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Delay in FIR judged on plausibility of explanation; alibi is a rule of evidence under s.11 Evidence Act requiring cogent evidence and strict scrutiny; alleged contradictions in eyewitness testimony found not inherent; unsubstantiated claims of other enemies rejected",
+   "quote": "we find no force in the contention that the testimonies relied on by the prosecution are inherently contradictory",
+   "page": 10,
+   "reason": "Court did not describe the contradictions as minor; it found them not inherent. Other principles are accurate."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Apren Joseph v. State of Kerala (1973) 3 SCC 114; Binay Kumar Singh v. State of Bihar (1997) 1 SCC 283; Ram Jag v. State of U.P (1974) 4 SCC 201 - referred to",
+   "page": 2,
+   "reason": "Citations match the judgment, including Ram Jag as referred rather than relied on."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentences awarded are in no manner excessive or disproportionate to the crimes",
+   "page": 11,
+   "reason": "Court found sentences not excessive or disproportionate, matching the value."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no mitigating factors itself."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court did not expressly weigh aggravating factors for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The bail granted by this Court ... stands cancelled. The appellants are directed to surrender forthwith. The concerned trial court to take consequential steps.",
+   "page": 11,
+   "reason": "Bail cancellation, surrender direction and consequential steps are accurately recorded."
+  }
+ }
+}

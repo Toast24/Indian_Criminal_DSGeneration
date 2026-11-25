@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states originally there were 13 accused."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Originally there were 13 accused.",
+   "page": 4,
+   "reason": "Judgment never states the genders of the accused; 'Mixed' is not supported."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused ages are stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated for the accused."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated for the accused."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is stated for the accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "incorrect",
+   "correct_value": "Earlier police cases between the parties (altercation of 20.05.1995, both sides booked); Sections 107/151 Cr.P.C. proceedings against appellants and deceased",
+   "quote": "Earlier an altercation had taken place between the parties on 20.05.1995 leading to a police case being lodged against both sides.",
+   "page": 4,
+   "reason": "Judgment states earlier police cases and Section 107/151 Cr.P.C. proceedings involving the appellants, not 'Not stated'."
+  },
+  "victim_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "PW-1 was the sister of the deceased",
+   "page": 5,
+   "reason": "Judgment never explicitly states the deceased's gender; 'Male' is an unstated inference."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Parties resided in the same locality and were known to each other, i.e., neighbours."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under IPC s.302 for murder, as the victim died from the assault."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions were under Sections 302, 149 and 148 IPC, as stated."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment lists lathis, gandasi and guns as weapons alleged."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness testimony and injury/medical findings are discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Previous animosity, mob assault by 13 at night and multiple injuries are all discussed."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial Court convicted three persons."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court acquitted one accused and upheld conviction of two appellants."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed the appeal and acquitted the appellants."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was finally established against the appellants."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment is imposed; appellants acquitted."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without stating the court's conclusion, e.g., the victim was attacked at night by 13 persons; PW-1 was the sole eyewitness; the defence disputed identification and credibility.",
+   "quote": "the court found the evidence insufficient to convict the accused due to the presence of multiple assailants and the questionable reliability of the sole witness.",
+   "page": 7,
+   "reason": "Summary reveals the court's outcome (insufficient evidence to convict), violating the neutral-facts requirement; facts are otherwise broadly accurate."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "The two appellants have been convicted under Sections 302, 149 and 148 of the Indian Penal Code",
+   "page": 4,
+   "reason": "Judgment states no sentence or punishment range; the 7-to-10-year figures are unsupported."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died from the assault, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eleven injuries, brain damage, fractures and incised wounds are all described."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated as a count of offences; 13 accused originally; trial court convicted 3; High Court acquitted 1 (Ishwar) and upheld 2",
+   "quote": "One of them, Ishwar has been acquitted by the High Court.",
+   "page": 4,
+   "reason": "Judgment does not count 13 offences charged; High Court acquitted only one accused, not two."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is stated; 'Not applicable' is equivalent."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is stated."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Previous animosity: son of second appellant wrote love letters to PW-1's daughter; earlier altercations and police cases",
+   "quote": "Animosity existed between them because the son of the second appellant had written love letters to the daughter of PW-1.",
+   "page": 4,
+   "reason": "Judgment identifies a clear motive of prior animosity, not 'Not identified'."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "Court did not accept PW-1's sole testimony as gospel truth; found it unsafe to uphold conviction; PW-8's presence was disbelieved by trial court",
+   "quote": "we do not consider it safe to accept her statement as a gospel truth",
+   "page": 6,
+   "reason": "Court rejected reliance on PW-1's testimony, contrary to the claim that it was accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Captures the doubts on PW-1 (FIR vs court statement, not whole truth) and PW-8's presence being disbelieved."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history of the appellants is stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Dates of offence: 16.06.1995; Trial court judgment: Not stated; High Court judgment: 18.07.2008; Supreme Court decision: August 06, 2009",
+   "quote": "From the Judgment and Order dated 18.07.2008 of the High Court",
+   "page": 4,
+   "reason": "18.07.2008 is the High Court judgment date, not the trial judgment; trial judgment date is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR lodged, six accused charge-sheeted, and trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court committed an error of record by treating PW-8 as an eye-witness; defence alleged s.34 conviction without charge",
+   "quote": "The High Court has committed an error of record by considering PW-8 to be an eye witness",
+   "page": 7,
+   "reason": "'None noted' omits the High Court's record error and the defence's s.34 without-charge argument."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the State's submissions on eyewitnesses, lathi assault, street light and PW-1's credibility."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Two appellants cannot be convicted with aid of s.149 after co-accused acquitted; no common intention; s.34 used without charge; alternatively s.304 Part II; PW-1 and PW-8 not eyewitnesses",
+   "quote": "The High Court erred in convicting with the aid of Section 34 in absence of a charge framed under that Section.",
+   "page": 4,
+   "reason": "Omits the s.34 without-charge argument and the alternative plea for conviction under s.304 Part II."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Solitary eyewitness conviction needs reliable, cogent evidence and heightened scrutiny, as stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Relied upon: State of Rajasthan v. Bhola Singh; Lallu Manjhi. Referred to: Dalip Singh; Sakharam Nangare; Khem Karan",
+   "quote": "State of Rajasthan v. Bhola Singh and Anr., AIR 1994 SC 542 ; Lallu Manjhi and another v. State of Jharkhand, (2003) 2 SCC 401 : [2003] 1 SCR 1 – relied on.",
+   "page": 3,
+   "reason": "Lists cases correctly but treats Dalip Singh, Sakharam Nangare and Khem Karan as relied upon when only referred to."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing is imposed or discussed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no aggravating factors for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Acquittal, release and bail-bond discharge directions match the judgment."
+  }
+ }
+}

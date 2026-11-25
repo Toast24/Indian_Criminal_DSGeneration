@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment says all five accused committed the dacoity."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is referred to with male pronouns throughout, e.g. 'his statement'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "No age of the appellant appears in the judgment.",
+   "page": 16,
+   "reason": "No age is given for the accused anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states he was a regular taxi driver."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Jagdish Prasad is referred to in the male form."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "No age of the deceased appears in the judgment.",
+   "page": 20,
+   "reason": "The judgment gives no age for the deceased."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the deceased had occupied a taxi, in which some persons were already sitting",
+   "page": 20,
+   "reason": "Relationship is not described; 'Stranger' is not supported by the judgment."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is dacoity with murder and murder under s.302, so murder fits."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ss.396, 201 charged and 302, 201 convicted match the judgment, though 392/391 are also discussed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Injuries were caused by a sharp-edged weapon."
+  },
+  "evidence_type": {
+   "verdict": "incorrect",
+   "correct_value": "Circumstantial evidence; recovery of body; witness testimony (PW2, PW4, PW3, IO); accused's statement under s.313",
+   "quote": "This is admittedly a case of circumstantial evidence",
+   "page": 16,
+   "reason": "No dying declaration is mentioned; the evidence was circumstantial, recovery, and witness testimony."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Pre-trial confession led to recovery of body; the s.313 statement was a complete denial, considered as a relevant consideration",
+   "quote": "had taken up a stand of complete denial in his statement recorded under Section 313",
+   "page": 16,
+   "reason": "The s.313 statement was a denial; the confession was a police confession leading to recovery."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sharp weapon, body concealment and knowledge of likely death are all noted by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted appellant under ss.302 and 201 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court maintained appellant's conviction and acquitted Ahsan of s.411."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, upholding conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under s.302 IPC was upheld as the offence established."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment (rigorous)",
+   "quote": "rigorous imprisonment for life to Rafiq Ahmad under Section 302 IPC",
+   "page": 25,
+   "reason": "Sentence under s.302 was life imprisonment, not a fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": "Life (s.302); seven years RI (s.201), concurrent",
+   "quote": "rigorous imprisonment for life to Rafiq Ahmad under Section 302 IPC and seven years rigorous imprisonment under Section 201 IPC",
+   "page": 25,
+   "reason": "Ten years is not the sentence; s.302 was life imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount for the appellant is stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts without stating the trial or HC conviction outcomes",
+   "quote": "The trial court convicted the accused for murder, and the High Court upheld the conviction",
+   "page": 24,
+   "reason": "Facts are broadly accurate, but the summary reveals the trial and High Court outcomes, which it must not."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "s.302: death or life imprisonment; s.396: death, life, or RI up to ten years with fine",
+   "quote": "every one of those persons shall be punished with death or imprisonment for life",
+   "page": 16,
+   "reason": "Omits death penalty under s.302 and the s.396 range; life minimum for s.302 is right."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder was completed; the body was found and death caused."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three incised wounds, three abrasions and severing of trachea are stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charged under ss.396 and 201; convicted under ss.302 and 201, as stated."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Cash and valuables looted from the deceased (per High Court finding)",
+   "quote": "looted the cash and other valuables from the person of the deceased",
+   "page": 55,
+   "reason": "The High Court found cash and valuables were looted, so loss is not 'not applicable'."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Court found accused knew injuries were likely to cause death; premeditation not discussed",
+   "quote": "indicate that the accused knew that the injury inflicted would be sufficient in the ordinary course of nature to cause death",
+   "page": 57,
+   "reason": "Knowledge finding is stated, but no premeditation or planning is addressed."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Robbery/dacoity: looting cash and valuables from the deceased",
+   "quote": "committed dacoity in Ambassador Car No.UPS 7293",
+   "page": 19,
+   "reason": "The judgment identifies dacoity and looting of cash as the motive, not 'not identified'."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Last-seen witnesses, IO, PW3 and recovery memo evidence are accepted as the chain of events."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court treated last-seen and recovery witnesses' statements as material; no detailed credibility assessment",
+   "quote": "PW2 and PW4 were the witnesses who had last seen the deceased with the appellant",
+   "page": 16,
+   "reason": "Court did not explicitly assess credibility; it relied on statements as material evidence."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Concealed body in sugarcane field; complete denial under s.313; did not explain whereabouts",
+   "quote": "opted not to explain his whereabouts at the relevant time",
+   "page": 16,
+   "reason": "Concealment of the body and refusal to explain whereabouts are stated as post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (no trial duration given; only procedural history)",
+   "quote": "The trial court convicted the appellant under Sections 302 and 201 IPC.",
+   "page": 25,
+   "reason": "Describes procedural outcomes rather than any duration; the duration itself is not given."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant: R. Anand Padmanabhan, Prithvi Raj B.N., G. Ramakrishna Prasad; Respondent: T.N. Singh, Rajeev Dubey, Kamlendra Mishra, Jatinder Kumar Bhatia",
+   "quote": "R. Anand Padmanabhan, Prit~vi Raj B.N., G. Ramakrishna Prasad for the Appellant.",
+   "page": 19,
+   "reason": "Counsel names are stated in the judgment, so 'Not stated' is wrong."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case registered, charge-sheet filed under s.173, and trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Argued charge under s.396 but convicted under s.302 without alteration; court found no prejudice",
+   "quote": "without reformulation/alteration of the charge, he was convicted for offence u/s.302",
+   "page": 1,
+   "reason": "Alleged irregularity (no alteration of charge) was argued; court held it caused no prejudice."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "HC upheld trial court's s.396 acquittal of four accused, acquitted Ahsan of s.411, and upheld appellant's conviction; SC dismissed",
+   "quote": "The judgment of the trial court was upheld by the High Court in so far as the acquittal of the four accused for the offences under Section 396 was concerned",
+   "page": 54,
+   "reason": "Attributes the s.396 acquittals to the High Court's own action, though they were trial court acquittals upheld."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "State contended appellant suffered no prejudice and that prosecution proved its case beyond reasonable doubt despite circumstantial evidence",
+   "quote": "The appellant has suffered no prejudice, whatsoever, because of his conviction under Section 302 of the IPC.",
+   "page": 26,
+   "reason": "Value gives the defence's argument as the prosecution's; the State argued no prejudice."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects the appellant's argument on charge alteration and prejudice."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cognate offences principle with independent satisfaction of lesser offence ingredients is stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Willie Slaney, Iman Ali and Shyam Behari are relied upon as stated (list not exhaustive)."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (no sentencing reasoning; court addressed conviction under s.302)",
+   "quote": "The prosecution was able to establish its case beyond reasonable doubt on the basis of the circumstantial evidence.",
+   "page": 57,
+   "reason": "Describes conviction reasoning, not any sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Nature of injuries (three incised wounds, trachea severed) showing knowledge of likely death; no sentencing aggravators stated",
+   "quote": "indicate that the accused knew that the injury inflicted would be sufficient in the ordinary course of nature to cause death",
+   "page": 57,
+   "reason": "Court noted injuries indicating knowledge of death, which is inconsistent with 'None'."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Seven years RI under s.201, sentences ordered to run concurrently",
+   "quote": "seven years rigorous imprisonment under Section 201 IPC. Both the sentences were ordered to run concurrently.",
+   "page": 25,
+   "reason": "Trial court imposed seven years under s.201 running concurrently; 'None' is wrong."
+  }
+ }
+}

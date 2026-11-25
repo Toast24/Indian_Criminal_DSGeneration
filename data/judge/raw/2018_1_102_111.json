@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "chargesheet was filed against accused Raj Kumar, Ramesh Kumar, Om Prakash and Barfi Devi",
+   "page": 5,
+   "reason": "Four accused named in the chargesheet, matching the value."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "accused Raj Kumar (brother-in-law)",
+   "page": 4,
+   "reason": "Accused is a male brother-in-law."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not stated; only that he is a chronic drunkard."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only a prior beating and compromise are mentioned, not a criminal record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Meena Devi",
+   "page": 4,
+   "reason": "Victim is female (Meena Devi, mother of PW-1)."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the deceased's age."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "accused Raj Kumar (brother-in-law)",
+   "page": 4,
+   "reason": "Judgment describes the accused as brother-in-law of the deceased."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 302 IPC",
+   "page": 1,
+   "reason": "Offence is murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 (conviction affirmed); s.201 r/w s.34 charged",
+   "quote": "Section 201 read with Section 34 IPC",
+   "page": 5,
+   "reason": "Charges included s.201 r/w s.34, but only the s.302 conviction was affirmed."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Plastic rope (ligature tied around the neck)",
+   "quote": "hanging from the branch of a pine tree with a plastic rope, tied around her neck",
+   "page": 5,
+   "reason": "The judgment identifies a plastic rope used for hanging, not 'none mentioned'."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Prosecution case is based on circumstantial evidence.",
+   "page": 6,
+   "reason": "Judgment expressly states the case rests on circumstantial evidence."
+  },
+  "confession": {
+   "verdict": "incorrect",
+   "correct_value": "Confession statement of accused recorded 27.08.2007, leading to recovery of a lady shirt",
+   "quote": "Confession statement of accused was recorded on 27.08.2007 which led to the recovery of a lady shirt",
+   "page": 5,
+   "reason": "The judgment records a confession statement and resulting recovery, contrary to 'None'."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are separately listed in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the trial court convicted the respondent-accused under Section 302 IPC",
+   "page": 6,
+   "reason": "Trial court convicted the accused."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Acquitted (conviction and life sentence set aside)",
+   "quote": "the High Court allowed the criminal appeal filed by the respondent-accused thereby setting aside the conviction",
+   "page": 6,
+   "reason": "High Court acquitted the accused; 'Not applicable' contradicts the judgment."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The conviction of the respondent under Section 302 IPC ... are affirmed.",
+   "page": 11,
+   "reason": "Supreme Court affirmed the conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the murder was committed by the accused and none-else",
+   "page": 11,
+   "reason": "Murder is the offence held established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of life imprisonment",
+   "page": 11,
+   "reason": "Life imprisonment is the sentence affirmed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term in years is stated, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurate and do not reveal the outcome, though 'altercation' softens the beating described."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The 10-year minimum for s.302 is not in the judgment; only life imprisonment is stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "death was because of haemorrhagic shock",
+   "page": 5,
+   "reason": "The victim died, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Death due to haemorrhagic shock from rupture of spleen; anti-mortem injuries suggesting gagging; hanging was post-mortem",
+   "quote": "death was because of haemorrhagic shock due to rupture of spleen and anti-mortem injuries suggesting gagging. Hanging was post-mortem",
+   "page": 5,
+   "reason": "Omits spleen rupture as cause of death and wrongly ties homicidal death to hanging, which was post-mortem."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "chargesheet was filed ... under Section 302 IPC and Section 201 read with Section 34 IPC",
+   "page": 5,
+   "reason": "Multiple charges were framed, and only the s.302 conviction was upheld for Raj Kumar."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial loss is claimed; the fixed deposit is only a motive."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not stated in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "greed for the fixed deposit of Rs.1,20,000/-",
+   "page": 8,
+   "reason": "Judgment records frequent quarrels, assault, and greed for the fixed deposit."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial chain including PW-1's testimony, autopsy showing haemorrhagic shock with post-mortem hanging, and accused's failure to report the deceased missing",
+   "quote": "Hanging was post-mortem",
+   "page": 5,
+   "reason": "Wrongly says autopsy showed death due to hanging; the judgment says hanging was post-mortem."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Evidence of PW-1 is cogent and natural and is consistent with the prosecution case.",
+   "page": 9,
+   "reason": "Matches the court's assessment of PW-1 and rejection of the High Court's doubts."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the natural conduct of the accused was to inform the police and also Anant Ram (PW-3). But that was not done.",
+   "page": 7,
+   "reason": "Accurately reflects the failure to report and the militating circumstance."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused Raj Kumar was taken to custody on 25.08.2007",
+   "page": 5,
+   "reason": "Custody start is given, but no duration is stated; 'Not stated' is accurate."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "dates_of_offence 23.08.2007; trial_judgment not stated; high_court_decision 19.08.2014; supreme_court_decision 08.01.2018",
+   "quote": "From the Judgment and Order dated 19.08.2014 of the High Court",
+   "page": 4,
+   "reason": "Trial judgment date 25.08.2007 is not in the judgment; 25.08.2007 is the body discovery date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Jose Abraham, Ruchir Batra, Advs. for the Respondent. D. K. Thakur, AAG, Shariq Ahmed, Varinder Kumar Sharma, Advs. for the Appellant.",
+   "page": 4,
+   "reason": "Counsel names match the appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "case in FIR No.250 of 2007 was registered ... chargesheet was filed",
+   "page": 5,
+   "reason": "FIR registered, chargesheet filed, and trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court allowed the criminal appeal ... State is before us",
+   "page": 6,
+   "reason": "Trial conviction, High Court acquittal, and Supreme Court affirmance match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as prosecution submissions; the court's reasoning states the circumstantial evidence standard and the accused's failure to explain",
+   "quote": "Prosecution case is based on circumstantial evidence.",
+   "page": 6,
+   "reason": "Judgment records no prosecution submissions; the content is the court's own reasoning."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence suggested the deceased consumed poison and committed suicide; the infirmities and PW-1 improvements were High Court findings",
+   "quote": "A feeble attempt was made by the defence to suggest that the deceased consumed poison and committed suicide.",
+   "page": 10,
+   "reason": "Poison/suicide plea is correct, but the PW-1 improvements point was the High Court's, not the defence's."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "In view of Section 106 of the Evidence Act, burden is cast upon the accused",
+   "page": 7,
+   "reason": "Matches the circumstantial evidence standard and s.106 burden reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Trimukh Maroti Kirkan v. State of Maharashtra (2006) 10 SCC 681 ... State of Rajasthan v. Kashi Ram (2006) 12 SCC 254",
+   "page": 6,
+   "reason": "All five cited authorities appear in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "No separate sentencing reasoning; life sentence imposed by trial court is affirmed",
+   "quote": "The conviction of the respondent under Section 302 IPC and the sentence of life imprisonment imposed on him by the trial court are affirmed.",
+   "page": 11,
+   "reason": "Judgment gives conviction-based reasoning but no sentencing rationale; it simply affirms the sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "This is a strong militating circumstance against the respondent",
+   "page": 7,
+   "reason": "Accused's failure to explain and not reporting are described as strong militating circumstances."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Respondent directed to be taken into custody to serve the remaining sentence",
+   "quote": "The respondent shall be taken into custody to serve the remaining sentence.",
+   "page": 11,
+   "reason": "The judgment contains a custody direction, contrary to 'None'."
+  }
+ }
+}

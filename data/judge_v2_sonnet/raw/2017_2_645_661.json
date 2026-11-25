@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "SURESH SINGHAL v. STATE (DELHI ADMINISTRATION)",
+   "page": 1,
+   "reason": "Matches the case caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "1 (father's liability not decided; he died during pendency)",
+   "quote": "Pritpal Singhal who died on 28.03 .2007, during the pendency of the suit was also convicted",
+   "page": 7,
+   "reason": "Only the appellant's liability is decided; the answer is acceptable but father's conviction was mentioned."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant took out his revolver",
+   "page": 7,
+   "reason": "Appellant referred to as male ('his', 'son')."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on status."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The deceased-Shyam Sunder and Kishan Lal, both brothers, were killed",
+   "page": 6,
+   "reason": "Victims are male brothers."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No ages given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant had apparently agreed to sell a property through a property dealer, namely the deceased-Shyam Sunder.",
+   "page": 6,
+   "reason": "Property sale dispute with the deceased dealer is described."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Culpable homicide",
+   "quote": "his conviction under section 304 IPC is maintained",
+   "page": 17,
+   "reason": "Final conviction is s.304 culpable homicide; murder conviction was set aside."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 (Shyam Sunder), s.304 r/w s.34 (Kishan Lal), s.307 r/w s.34 (father, for Hans Raj)",
+   "quote": "convicted the appellant for the murder of Shyam Sunder under Sections 302 and 304 read with Section 34",
+   "page": 7,
+   "reason": "s.302 and s.304/34 attach to different deaths; s.307/34 also appears; the combined phrasing is imprecise."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Revolver (calibre of the appellant's weapon not determined; .32 bullets recovered from the bodies)",
+   "quote": "It is thus not possible to determine the weapon that was used by the appellant",
+   "page": 11,
+   "reason": "Revolver correct, but .32 Smith & Wesson attribution to the appellant's shot is not established."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical, ballistic and recovery evidence discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the exercise of the right was in good faith, in his own defence and without premeditation",
+   "page": 14,
+   "reason": "Matches the court's findings."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted appellant under s.302 for Shyam Sunder's murder and s.304 r/w s.34 for Kishan Lal; father convicted under s.307/34; Roshan Lal acquitted; sentence not stated",
+   "quote": "The Sessions Court convicted the appellant for the murder of Shyam Sunder under Sections 302 and 304 read with Section 34",
+   "page": 7,
+   "reason": "Allocation of sections to deaths is wrong; the judgment elsewhere says s.302 for Kishan Lal too, but the extracted value merges them."
+  },
+  "high_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court dismissed the appellant's appeal (conviction upheld), and dismissed the State's appeal for death penalty and against Roshan Lal's acquittal",
+   "quote": "The appeal filed by the State seeking death penalty for the appellant and against the acquittal of Roshal Lal was dismissed",
+   "page": 6,
+   "reason": "Outcome of the appellant's own appeal is not stated; the Supreme Court's modification of the conviction is implied but not stated explicitly."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we allow this appeal partly and modify the impugned judgment",
+   "page": 17,
+   "reason": "Conviction reduced to s.304."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.304 for the deaths of Shyam Sunder and Kishan Lal",
+   "quote": "conviction under section 304 IPC is maintained",
+   "page": 17,
+   "reason": "Section 304 conviction is maintained also in respect of Kishan Lal, not only Shyam Sunder."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we sentence him under section 304 IPC to the period already undergone",
+   "page": 17,
+   "reason": "Fixed term of the period undergone."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "already undergone a sentence of 13 Y:z years",
+   "page": 17,
+   "reason": "13.5 years undergone."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove 'afternoon'-type unsupported details and outcome-leaning findings; stick to evidence",
+   "quote": "The incident occurred ... at about 5.15 pm",
+   "page": 6,
+   "reason": "Mostly accurate, but says doctor/third brother injured and witnesses framed; includes 'a witness' present. Minor invented details like 'one of the victims' and gender pronouns ('his')."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Punishment prescribed not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death occurred."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Three .32 bullets were recovered from the body of deceased Kishan Lal.",
+   "page": 11,
+   "reason": "Matches the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "3 charged (ss.302, 304 r/w 34, 307 r/w 34 for co-accused); 1 finally upheld (s.304)",
+   "quote": "also convicted under Section 307 read with Section 34 of IPC",
+   "page": 7,
+   "reason": "s.307 was also part of the case against the father; count is uncertain."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the homicide was not the result of premeditation",
+   "page": 14,
+   "reason": "Matches."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "settling a dispute that had arisen between the appellant and the deceased",
+   "page": 6,
+   "reason": "Alleged dispute marked as alleged."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Testimony of PW-23 and PW-27 on the scuffle; medical evidence of distant-range shot; trajectory. Ballistic report only showed inability to identify the weapon",
+   "quote": "It is thus not possible to determine the weapon that was used by the appellant",
+   "page": 11,
+   "reason": "Ballistic report was inconclusive rather than relied on affirmatively."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "PW-3 and PW-30 not accepted on front-shot version; PW-27 unshaken; PW-23 supports scuffle; PW-3 did not specify who shot",
+   "quote": "we are not inclined to accept the narration of PW-30 and PW-3",
+   "page": 8,
+   "reason": "Mostly right; PW-30 as 'Tarsem Kumar' discussed; fine overall."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fled the place in the car of another visitor",
+   "page": 7,
+   "reason": "Flight noted as prosecution account."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "already undergone a sentence of 13 Y, years",
+   "page": 16,
+   "reason": "Matches."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "04.03.1991",
+   "page": 6,
+   "reason": "Dates consistent."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sushil Kumar, S. K. Aggarwal, Sr. Advs.",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial: convicted (ss.302/304 r/w 34); High Court: convictions upheld and State's appeal dismissed; SC: partly allowed, 302 set aside, s.304 maintained",
+   "quote": "The appeal filed by the State seeking death penalty ... was dismissed",
+   "page": 6,
+   "reason": "Outcome of appellant's HC appeal not clearly recorded."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased and his brothers were unarmed and there was no need for the appellant to have used the gun",
+   "page": 13,
+   "reason": "Matches."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the fatal shot could have only been fired by Pritpal Singhal",
+   "page": 15,
+   "reason": "Both arguments recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Exception 2 to Section 300",
+   "page": 14,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Darshan Singh vs. State of Punjab and Another",
+   "page": 12,
+   "reason": "Matches."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant had already undergone 13½ years, so sentenced to period undergone",
+   "quote": "We thus sentence him to the period already undergone.",
+   "page": 16,
+   "reason": "Rationale was time already served; extracted value stresses Exception 4 instead."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is not possible to attribute undue advantage",
+   "page": 15,
+   "reason": "Matches."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He be released forthwith from the custody, if not required in any other case.",
+   "page": 17,
+   "reason": "Matches."
+  }
+ }
+}

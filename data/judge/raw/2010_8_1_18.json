@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "NORTHERN MINERAL LTD. v. UNION OF INDIA AND ANR.",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "incorrect",
+   "correct_value": "2",
+   "quote": "The appellant company and Respondent No.2 herein i.e. M/s. Jindal Traders were arrayed as accused",
+   "page": 8,
+   "reason": "The company and its dealer were both arrayed as accused, not one."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The accused is a company; no gender is stated."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated for the accused company."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "engaged in the manufacturing of insecticides including Monocrotophos 36 SL",
+   "page": 7,
+   "reason": "Judgment states the company is engaged in manufacturing insecticides."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified in this regulatory offence."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim, so no relationship is stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "alleging commission of offence under Section 29 of the Insecticides Act",
+   "page": 8,
+   "reason": "Offence is a regulatory Insecticides Act offence; 'Other' is a reasonable category."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "Insecticides Act, 1968 ss.24(3), 24(4) and 29; Code of Criminal Procedure, 1973 s.245",
+   "quote": "alleging commission of offence under Section 29 of the Insecticides Act",
+   "page": 8,
+   "reason": "Omits Section 29 of the Insecticides Act, the offence provision under which the complaint was filed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is involved."
+  },
+  "evidence_type": {
+   "verdict": "incorrect",
+   "correct_value": "Laboratory analyst report (Insecticide Analyst/Regional Pesticides Testing Laboratory report)",
+   "quote": "sent for analysis to the Regional Pesticides Testing Laboratory, Chandigarh who submitted its report dated 13th October, 1993",
+   "page": 7,
+   "reason": "Evidence is a laboratory analysis report; no medical or circumstantial evidence is discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appellant filed application for discharge under Section 245 of the Criminal Procedure Code. But the learned Magistrate by Order dated 13th November, 1999 dismissed the same",
+   "page": 8,
+   "reason": "Discharge application was dismissed by the Chief Judicial Magistrate."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Criminal Revision No. 170 of 2000 dismissed; refusal to discharge upheld",
+   "quote": "Criminal Revision No. 170 of 2000 is dismissed.",
+   "page": 9,
+   "reason": "The High Court did decide the revision and dismissed it, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeal allowed; appellant discharged of its criminal liability",
+   "quote": "the appeal is allowed, the impugned judgments of the High Court as also that of the Chief Judicial Magistrate refusing to discharge the appellant are set aside and the appellant is discharged of its criminal liability",
+   "page": 18,
+   "reason": "Court discharged the appellant of criminal liability; it did not acquit, so 'acquitted' is slightly off."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was established; the appellant was discharged."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment is imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "A neutral summary of facts without the Supreme Court's outcome (remove the 'acquitted' and 'finding' outcome statements)",
+   "quote": "the appellant is discharged of its criminal liability",
+   "page": 18,
+   "reason": "Facts reveal the Supreme Court's outcome, which neutral_facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Severity is not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated; offence is a regulatory violation."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No count of offences is stated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shelf life of the insecticides had expired even prior to the filing of the complaint",
+   "page": 17,
+   "reason": "Court accepted that shelf life expired before the complaint, making further analysis impossible."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "the intention was necessarily required to be conveyed to the Insecticide Inspector",
+   "page": 17,
+   "reason": "Content is legal reasoning on notification, not witness credibility; no witnesses are assessed."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody period is mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "dates_of_offence: sample drawn 10 September 1993; trial_judgment: CJM order 13 November 1999; high_court: order 5 November 2001; supreme_court: judgment 7 July 2010",
+   "quote": "On 10th September, 1993, the Insecticide Inspector drew sample of Monocrotophos 36 SL",
+   "page": 7,
+   "reason": "Several dates are stated in the judgment, so 'Not stated' for all fields is wrong."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Arun Nehra, Shobha, Mohinder Thakur for the Appellant.",
+   "page": 7,
+   "reason": "Counsel names match the judgment's appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A complaint was subsequently filed against the appellant and its dealer under Section 29 of the Insecticides Act. However, meanwhile the shelf-life of the insecticide in question had expired.",
+   "page": 2,
+   "reason": "Accurately reflects complaint, expiry before filing, discharge dismissal and High Court upholding."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Casual handling: delay in granting consent and filing complaint beyond the 30-day schedule; Insecticide Inspector's inaction",
+   "quote": "We are distressed to note the casual manner in which the whole exercise has been done.",
+   "page": 17,
+   "reason": "Court expressly found procedural irregularity and delay in consent and complaint filing."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal is allowed, the impugned judgments of the High Court as also that of the Chief Judicial Magistrate refusing to discharge the appellant are set aside",
+   "page": 18,
+   "reason": "Trial, High Court and Supreme Court steps match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Respondents contended that no specific request for Central Laboratory analysis was made, so the right was not defeated; shelf-life futility was the appellant's argument",
+   "quote": "specific request was not made to send the sample for test and analysis by the Central Insecticides Laboratory and, hence, failure to send the sample ... in no way defeats the right of the accused",
+   "page": 13,
+   "reason": "Shelf-life futility argument was made by the appellant, not the prosecution."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it would imply demand for sending the sample to Central Insecticides Laboratory for test and analysis",
+   "page": 11,
+   "reason": "Appellant argued notification sufficed and shelf life expired, making analysis impossible."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "mere notifying intention to adduce evidence in controversion of the report of the Insecticide Analyst confers on the accused the right",
+   "page": 16,
+   "reason": "Accurately states the principle from paragraph 12."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "State of Haryana v. Unique Farmaid (P) Ltd. & Ors. (1999) 8 SCC 190; State of Punjab v. National Organic Chemical Industries Ltd. (1997) SCC (Crl.) 312",
+   "page": 6,
+   "reason": "Listed precedents match those relied on in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so no rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are noted."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are noted."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant is discharged of its criminal liability.",
+   "page": 18,
+   "reason": "Matches the court's discharge order."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "5 accused initially charged; 4 convicted by trial court",
+   "quote": "Initially, there were five accused",
+   "page": 18,
+   "reason": "Judgment says five accused were initially tried; the value of 4 counts only those convicted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are male; judgment refers to them as brothers and uses male pronouns."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the accused's age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "Mohan Mehtar belonging to Scheduled Caste",
+   "page": 6,
+   "reason": "Scheduled Caste status is attributed to the victim Mohan Mehtar, not to the accused."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Railway worker (accused Harnam Singh)",
+   "quote": "Deceased Mohan and accused Harnam Singh were working in the railways",
+   "page": 18,
+   "reason": "Judgment states accused Harnam Singh was working in the railways."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record of the accused is mentioned; only PW-3's record is discussed."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Mohan Mehtar is male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mohan Mehtar belonging to Scheduled Caste",
+   "page": 6,
+   "reason": "Judgment states the victim belonged to Scheduled Caste."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Acquaintances/co-workers with enmity over money transactions",
+   "quote": "regarding the money transactions, there was enmity",
+   "page": 18,
+   "reason": "Judgment shows prior dealings, enmity and a recent quarrel, so not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 IPC for accused No.1."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.341, 302 r/w 34; Arms Act s.25(1A) r/w s.27",
+   "quote": "Sections 341, 302 and 302 read with 34 IPC",
+   "page": 6,
+   "reason": "Omits IPC s.341, which the judgment lists among convictions."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Country made pistol (0.315 bore) for firing; lathi used by accused Bharat",
+   "quote": "accused Harnam Singh fired with the country made pistol",
+   "page": 6,
+   "reason": "Omits the lathi used in the beating by accused Bharat."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical, recovery and FSL evidence are all relied upon."
+  },
+  "confession": {
+   "verdict": "incorrect",
+   "correct_value": "Disclosure/confessional statement of accused Harnam Singh led to pistol recovery",
+   "quote": "Based on the confessional statement of appellant-Harman Singh",
+   "page": 15,
+   "reason": "Judgment refers to a disclosure and confessional statement, so 'None' is contradicted."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not list aggravating circumstances explicitly."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted u/s 341, 302/34 IPC (all four); accused 1 also u/s 25(1A)/27 Arms Act",
+   "quote": "Trial Court convicted accused (No.1 to 4) u/s. 341, 302 r/w. 34 IPC",
+   "page": 1,
+   "reason": "Omits that all four accused were convicted under s.341 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; convictions and sentences affirmed",
+   "quote": "the High Court affirmed the conviction of the appellants",
+   "page": 6,
+   "reason": "Judgment states the High Court affirmed the convictions, not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused 1 convicted; accused 2 and 3 acquitted of s.302/34 and s.341; accused Bharat did not appeal",
+   "quote": "Conviction of accused No.2-Balvir Singh and accused No.3-Bhav Singh ... is set aside",
+   "page": 19,
+   "reason": "Simplified 'convicted' omits the acquittal of accused 2 and 3 on appeal."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder under s.302 IPC for accused No.1 (Harnam Singh) only; s.341 IPC and Arms Act s.25(1A)/27 also upheld",
+   "quote": "conviction of appellant/accused No.1 Harnam Singh under Sections 302 IPC, 341 IPC and Section 25(1A) read with Section 27 of the Arms Act",
+   "page": 19,
+   "reason": "Omits that the finding applies only to accused 1 and the other convictions upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence of life imprisonment imposed upon him is affirmed",
+   "page": 19,
+   "reason": "Life imprisonment is upheld for accused No.1."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentence has no fixed years stated, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "1000",
+   "quote": "Life imprisonment with fine of Rs.1,000/-",
+   "page": 8,
+   "reason": "Judgment's sentence table records a fine of Rs.1,000 for accused Harnam Singh."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only: victim stopped on motorcycle, attacked, shot at close range, eyewitnesses, medical and forensic evidence, without the appellate outcome.",
+   "quote": "Conviction of accused Nos. 2 and 3 under Section 302 read with Section 34 IPC is, therefore, liable to be set aside.",
+   "page": 4,
+   "reason": "Summary reveals the appellate outcome that accused 2 and 3's conviction was overturned."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Life imprisonment with fine of Rs.1,000/-",
+   "page": 8,
+   "reason": "Matches the sentence recorded for accused No.1 in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mohan died instantaneously on the spot",
+   "page": 6,
+   "reason": "Offence completed as victim died on the spot."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there were nine other injuries found on the body of deceased Mohan",
+   "page": 14,
+   "reason": "Matches death from gunshot to brain/left eye and nine other injuries."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Three convictions upheld against accused 1 (s.302 IPC, s.341 IPC, s.25(1A)/27 Arms Act)",
+   "quote": "conviction of appellant/accused No.1 Harnam Singh under Sections 302 IPC, 341 IPC and Section 25(1A) read with Section 27 of the Arms Act",
+   "page": 19,
+   "reason": "No count of four charged offences is stated; a broader list of charges was framed."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss from the offence is stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation finding is made; prior meeting of minds was not proved for accused 2 and 3."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Enmity over money transactions; quarrel 2-3 days before the incident",
+   "quote": "regarding the money transactions, there was enmity between them",
+   "page": 18,
+   "reason": "Judgment identifies a money-related enmity and a recent quarrel as motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PWs 2, 3 and 13 had given a consistent and clear account of the incident",
+   "page": 9,
+   "reason": "Eyewitness accounts accepted as consistent, clear and credible; medical and FSL evidence also relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the trial court found that the evidence of the eye witnesses is credible and trustworthy",
+   "page": 10,
+   "reason": "Court treats the witnesses as credible; minor discrepancies are due to normal observation errors."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct of accused is not discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Bail bonds of the accused Balvir Singh and Bhav Singh shall stand discharged.",
+   "page": 19,
+   "reason": "Matches the judgment's direction on bail bonds."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence: 11.03.1998; High Court judgment: 26.08.2008; Supreme Court judgment: 19.02.2019 (trial judgment date not stated)",
+   "quote": "judgment dated 26.08.2008 passed by the High Court",
+   "page": 6,
+   "reason": "26.08.2008 is the High Court judgment date; the trial judgment date is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Raj Kishor Choudhary , Abdul Karim Ansari ... Advs. for the Appellant.",
+   "page": 6,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charge sheet was filed against the accused for the offences punishable under Sections 147, 148, 149, 341, 294, 323, 506B, 302 IPC",
+   "page": 7,
+   "reason": "Charge sheet and charged sections match the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ante-dated FIR and inquest contentions were rejected; no irregularity is found."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted; High Court affirmed; Supreme Court set aside conviction of accused 2 and 3 under s.302/34 IPC and s.341 IPC, affirmed accused 1's conviction",
+   "quote": "Conviction of accused No.2-Balvir Singh and accused No.3-Bhav Singh ... is set aside",
+   "page": 19,
+   "reason": "Trial court 'affirmed' is wrong; it convicted. Also omits acquittal under s.341 for accused 2 and 3."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Consistent eyewitness accounts, medical and FSL support match the prosecution's position."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the occurrence was a blind murder and testimony of the eye witnesses PWs 2, 3 and 13 are not reliable",
+   "page": 10,
+   "reason": "Blind murder, contradictions, medical conflict and common intention arguments are all recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Minor discrepancies do not affect eyewitness trustworthiness; oral evidence has primacy over opinionative medical evidence; s.34 requires common intention shown by overt acts",
+   "quote": "So long as the evidence of eye witnesses is found credible and trustworthy, their evidence cannot be doubted on the ground of minor contradictions.",
+   "page": 10,
+   "reason": "Adds 'corroborated by other evidence' condition not stated; omits primacy of oral evidence over medical evidence."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Appabhai (1988); Annareddy Sambasiva Reddy (2009); Rammi alias Rameshwar (1999); Ramanand Yadav (2003); Ramesh Singh alias Phooti (2004); Dhanna (1996) and others",
+   "quote": "Rammi alias Rameshwar v. State of M.P. (1999) 8 SCC 649",
+   "page": 11,
+   "reason": "Omits Rammi alias Rameshwar and Krishna Gopal, which the judgment relies on or refers to."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no sentencing rationale; it only affirms life imprisonment for accused 1."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating factors, so 'None' is an unsupported assertion."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss aggravating factors or premeditation for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused Harnam Singh shall surrender himself within four weeks from the date of this judgment",
+   "page": 19,
+   "reason": "Surrender direction and acquittal with bail discharge match the judgment."
+  }
+ }
+}

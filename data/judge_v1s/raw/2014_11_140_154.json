@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's caption, though the State is also styled '& Ors.'"
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to the appellant and accused 2 to 4, i.e. four accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is the husband, so male."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "Painter at Delhi at the time of marriage; later employed in Gulf countries",
+   "quote": "At the time of marriage, the appellant was employed as a Painter at Delhi",
+   "page": 14,
+   "reason": "Painter is supported, but the value omits the later Gulf employment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Lillikutty is female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the victim."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Husband and wife, so spouse."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Cruelty by husband (s.498A IPC) and abetment of suicide (s.306 IPC)",
+   "quote": "convicted u/ss.498 and 306 !PC",
+   "page": 1,
+   "reason": "No culpable homicide charge; the offences are cruelty and abetment of suicide."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sections 498A and 306 IPC are the provisions applied."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is identified; the death was by hanging and kerosene was used by the victim."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Post-mortem report (PW-4); seizure of documents and material objects; witness testimony; documentary evidence of leave and mediation",
+   "quote": "PW-4 conducted autopsy and submitted the post-mortem report",
+   "page": 4,
+   "reason": "Post-mortem and seizure are mentioned, but 'circumstantial' is not characterised by the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned; the accused denied the incriminating evidence."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not expressly identify aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant visited India only four times in 1988-1996; he made mediation efforts; wife suicided on the mediation day",
+   "quote": "The appellant also appears to have taken efforts for mediation",
+   "page": 14,
+   "reason": "The judgment expressly states mitigating circumstances, which the value wrongly marks as not stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under s.498A (two years RI, fine Rs.5,000, default one year) and s.306 (seven years RI, fine Rs.50,000, default three years); sentences ran consecutively",
+   "quote": "For the offence punishable under Section 306 IPC, the trial court sentenced him to undergo rigorous imprisonment for seven years",
+   "page": 4,
+   "reason": "Covers only the s.306 sentence; omits the s.498A sentence and the consecutive direction."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court confirmed conviction and sentence of all accused, as stated in the judgment."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted; Supreme Court partly allowed the appeal and directed the sentences to run concurrently",
+   "quote": "Partly allowing the appeal, the Court",
+   "page": 1,
+   "reason": "Conviction is correct but omits that the appeal was partly allowed and sentences made concurrent."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Cruelty by husband (s.498A IPC) and abetment of suicide (s.306 IPC)",
+   "quote": "confirmed the conviction of the appellant/ 1st accused under Sections 498A and 306 IPC",
+   "page": 3,
+   "reason": "Culpable homicide was not an offence in this case; the established offences are ss.498A and 306 IPC."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Both sentences are fixed-term rigorous imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "7 years (s.306); 2 years (s.498A); ordered to run concurrently",
+   "quote": "rigorous imprisonment for seven years",
+   "page": 4,
+   "reason": "7 years is the s.306 term, but the 2-year s.498A term is not reflected."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "Rs.50,000 (s.306); Rs.5,000 (s.498A)",
+   "quote": "to pay a fine of Rs.50,000/-",
+   "page": 4,
+   "reason": "Rs.50,000 is the s.306 fine; the Rs.5,000 fine for s.498A is omitted."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts track the judgment, framed as allegations, and do not reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Describes the sentences imposed under ss.498A and 306 IPC accurately."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's suicide was completed by hanging."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Lillikutty died by suicide by hanging; the torture and harassment are the prosecution's allegation",
+   "quote": "The allegation levelled is that in the matrimonial house, the appellant/1st accused and other accused ill-treated and tortured Lillikutty",
+   "page": 3,
+   "reason": "Presents prosecution allegations of torture as established fact."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two offences under ss.498A and 306 IPC, with convictions confirmed."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment is silent on property loss; 'Not applicable' asserts a conclusion it does not state."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged matrimonial cruelty and harassment; differences between husband and wife settled through mediation",
+   "quote": "The allegation levelled is that in the matrimonial house, the appellant/1st accused and other accused ill-treated and tortured Lillikutty",
+   "page": 3,
+   "reason": "The judgment identifies the alleged motive as matrimonial ill-treatment and differences; 'Not identified' is wrong."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on evidence of four visits to India and mediation scheduled on the day of suicide."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not assess witness credibility; it addresses sentencing discretion only."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence period 1988-1996 (suicide 23.02.1996); High Court judgment 27.11.2013; Supreme Court decision 11.11.2014; trial court date not stated",
+   "quote": "From the Judgment & Order dated 27.11.2013 of the High Court of Kerala",
+   "page": 3,
+   "reason": "27.11.2013 is the High Court judgment date, not the trial judgment; trial date is not given."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant: Jayanth Muth Raj, Nishe Rajen Shanker; Respondents: Bina Madhavan, Ramesh Babu M.R.",
+   "quote": "Jayanth Muth Raj, Nishe Rajen Shanker for the Appellant.",
+   "page": 3,
+   "reason": "Omits co-counsel Nishe Rajen Shanker for the appellant."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the judgment: s.174 Cr.P.C. entry, later alteration, charge sheet by PW-14, trial completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted and sentenced consecutively; High Court confirmed; Supreme Court partly allowed the appeal and ordered concurrent sentences",
+   "quote": "Upon consideration of evidence, the trial court convicted the appellant/1st accused",
+   "page": 4,
+   "reason": "Trial court is wrongly described as confirming conviction; it was the court of first instance."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Respondent-State supported the courts below and relied on Duryodhan Rout v. State of Orissa; the prosecution case is ill-treatment leading to suicide",
+   "quote": "who also supported the view taken by the courts below",
+   "page": 7,
+   "reason": "Describes the prosecution case, but omits the State's stated argument supporting the courts below."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the appellant's contention that Section 31 discretion was not properly exercised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the holding that Section 31 Cr.P.C. gives full discretion for concurrent sentences."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All five cases listed are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's reliance on totality of facts, limited visits, mediation and suicide."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the factors the court relied on for concurrent sentences."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified in the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the operative direction that ss.498A and 306 sentences run concurrently."
+  }
+ }
+}

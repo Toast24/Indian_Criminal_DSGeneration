@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "RAKESH AND ANOTHER v. STATE OF HARYANA",
+   "page": 1,
+   "reason": "Matches the case title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rakesh (A-1) and Smt. Ram Piari (A-2) preferred this appeal",
+   "page": 5,
+   "reason": "Two appellants/accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "husband and mother-in-law of the deceased respectively",
+   "page": 1,
+   "reason": "One male, one female accused, so Mixed."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of accused stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased - Kailash was married to Rakesh",
+   "page": 3,
+   "reason": "Victim is a woman."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A-1 and A-2, husband and mother-in-law of the deceased respectively",
+   "page": 1,
+   "reason": "Accurate; harassment for dowry described."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder",
+   "quote": "ss.498A and 302 r/w s.34 - Dowry death",
+   "page": 1,
+   "reason": "Headnote says dowry death but the charge is s.302 murder, not s.304B; Murder fits better."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 498-A and 302 read with Section 34",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "set me on fire with match stick after sprinkling kerosene oil",
+   "page": 7,
+   "reason": "Kerosene and match stick."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On his disclosure, a stove containing the kerosene was recovered.",
+   "page": 4,
+   "reason": "All listed evidence types appear in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Victim beaten mercilessly, leg put on neck before being set ablaze; dowry harassment; accused did not inform victim's parents or seek her transfer to Delhi",
+   "quote": "the accused did not inform the parents of the deceased about the incident",
+   "page": 10,
+   "reason": "Largely accurate, but 'better hospital' is slightly embellished; the transfer was to Safdarjung Hospital."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "RI for life for the offence punishable under Section 302 read with 34 IPC and a fine of Rs.2000/- each",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "dismissed the appeal preferred by the appellants herein and confirmed the judgment on conviction and sentence",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal fails and the same is dismissed",
+   "page": 12,
+   "reason": "Conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "holding the appellants guilty for the offence punishable under Sections 498-A and 302 read with Section 34",
+   "page": 3,
+   "reason": "Convictions upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "RI for life for the offence punishable under Section 302 read with 34 IPC",
+   "page": 3,
+   "reason": "Life imprisonment is the principal sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life term, so null."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "2000 (Rs.2000 each under s.302/34; Rs.500 each under s.498A)",
+   "quote": "a fine of Rs.2000/- each, in default, to undergo RI for one year",
+   "page": 3,
+   "reason": "Fines were imposed and upheld; null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Remove the reference to the death on 4 June 1998 and the 'defence witness' framing, and avoid gendered or revealing detail",
+   "quote": "Kailash succumbed to her injuries in Safdarjung Hospital at New Delhi.",
+   "page": 5,
+   "reason": "Uses 'husband', 'mother-in-law' and 'victim's father' roles (permitted), but 'defence witness' and the arrest details drift into proceedings and a named hospital reference; mostly accurate."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state statutory maximum."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Kailash succumbed to her injuries",
+   "page": 5,
+   "reason": "Death occurred."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "superficial to deep burns involving almost all the body except the legs below the knees. There was approx. 85% burns",
+   "page": 9,
+   "reason": "Matches."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charges for the offence punishable under Sections 498-A and 302 read with Section 34 IPC were framed",
+   "page": 5,
+   "reason": "2 charged, 2 upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial loss involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No finding on premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he used to demand money from her father",
+   "page": 7,
+   "reason": "Dowry motive accepted."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it amply prove their case",
+   "page": 11,
+   "reason": "Matches the evidence relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in view of the assertion of the Magistrate (PW-10) ... mere presence of some of the close relatives would not affect the contents",
+   "page": 9,
+   "reason": "Accurate."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Husband took the deceased to hospital with others but sought no treatment for his burns until arrest on 21.05.1998; did not inform her parents; stove recovered on his disclosure",
+   "quote": "though the accused-husband took her to the hospital admittedly, he did not tried to get any treatment",
+   "page": 11,
+   "reason": "Omits taking victim to hospital and the disclosure."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Second appellant released after 14 years on orders of the appropriate Government",
+   "quote": "Ram Piari had been released after 14 years on the orders of the appropriate Government",
+   "page": 12,
+   "reason": "Judgment gives some custody information."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "incident occurred at 11.00 p.m. on 14.05.1998",
+   "page": 6,
+   "reason": "Dates match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "R.N. Kush, S.K. Sabharwal for the Appellants. Kamal Mohari Gupta, Mohd. Zahid Hussain for the Respondent.",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "An FIR was registered",
+   "page": 4,
+   "reason": "Accurate."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "mere presence of some of the close relatives would not affect the contents",
+   "page": 9,
+   "reason": "Accurate."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal fails and the same is dismissed",
+   "page": 12,
+   "reason": "Accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "nothing prevented him from taking treatment on the date of the incident",
+   "page": 6,
+   "reason": "Accurate."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "prayed for altering the conviction from Section 302 to Section 304 Part I",
+   "page": 12,
+   "reason": "Accurate."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has established its case beyond reasonable doubt",
+   "page": 12,
+   "reason": "Fair summary."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the decisions of various Courts relied on by the counsel for the appellants ... theire is no need to refer the same",
+   "page": 11,
+   "reason": "No precedents cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There is no valid ground to· alter the conviction",
+   "page": 12,
+   "reason": "Accurate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Death at matrimonial home from burns at accused's instance despite four children; dowry harassment and brutal beating",
+   "quote": "even after having four children, she died at the matrimonial home due to burn injuries",
+   "page": 12,
+   "reason": "Broadly fine, though it is not framed as aggravation."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ram Piari had been released after 14 years",
+   "page": 12,
+   "reason": "Accurate."
+  }
+ }
+}

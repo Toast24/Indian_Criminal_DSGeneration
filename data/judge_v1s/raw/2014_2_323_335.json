@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states there are eleven appellants."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never states the accused's gender; 'Mixed' is not supported."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not stated."
+  },
+  "accused_caste": {
+   "verdict": "incorrect",
+   "correct_value": "Tribal (Santhal community)",
+   "quote": "belong to Santhal community. They are tribals.",
+   "page": 12,
+   "reason": "Judgment describes the accused as Santhal tribals, not Scheduled Caste."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not stated; only poverty and economic weakness are described."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They come from a very poor strata of the society",
+   "page": 12,
+   "reason": "Judgment describes the accused as poor tribals."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Jhore Soren is referred to as male (he, his)."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Same village/community; inimical relation over hen theft",
+   "quote": "inimical relation between the deceased and accused family",
+   "page": 2,
+   "reason": "Judgment never describes them as neighbours; it notes a community and family enmity."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Culpable homicide not amounting to murder (charged as murder under s.302 r/w s.149)",
+   "quote": "convicted for culpable homicide not amounting to murder",
+   "page": 13,
+   "reason": "Murder was the charge, but final conviction is culpable homicide not amounting to murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.148; s.302 r/w s.149 (trial); s.304 Part II (final)",
+   "quote": "Section 304 Part II of the IPC",
+   "page": 13,
+   "reason": "Omits s.148 and the final conviction under s.304 Part II."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Lathis and tangies are both mentioned; tangies were not used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness testimony and medical (post-mortem) evidence are relied upon."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Victim tied and beaten by a group; fourteen injuries including rib fractures",
+   "quote": "the appellants tied them with a rope against the bamboo pole and tree",
+   "page": 2,
+   "reason": "Judgment describes tying, group assault and multiple injuries, so 'None noted' is inaccurate."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Poor tribal status; trivial trigger; about 14 years in jail",
+   "quote": "this, in our view, is a case where justice must be tempered with mercy",
+   "page": 13,
+   "reason": "Court expressly weighs socio-economic status, trivial cause and long custody as mitigating."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.148 and s.302 r/w s.149 as stated."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Affirmed the trial court's conviction and sentence",
+   "quote": "The High Court affirmed the same.",
+   "page": 2,
+   "reason": "Judgment states the High Court affirmed the conviction and dismissed the appeal."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants were convicted, though the offence was modified to s.304 Part II."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court convicted for culpable homicide not amounting to murder."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Period already undergone (time served)",
+   "quote": "sentencing them for the period already undergone by them",
+   "page": 13,
+   "reason": "Sentence is time already served, not a stated fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "Time already served of almost 14 years; no fixed term imposed",
+   "quote": "the appellants are in jail for almost 14 years",
+   "page": 13,
+   "reason": "14 years is custody already served, not a sentence imposed."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurate and do not reveal the modified conviction outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Punishment range for s.302 is not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death was caused, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "doctor noticed fourteen injuries on the deceased. Most of them were bruises and abrasions",
+   "page": 10,
+   "reason": "Fourteen injuries, bruises, abrasions, rib fractures and scalp haematoma are all stated."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Eleven accused; charged under s.148 and s.302 r/w s.149; final conviction s.304 Part II",
+   "quote": "There are eleven appellants.",
+   "page": 6,
+   "reason": "Eleven refers to accused, not offences; the s.304 Part II conviction is new, not upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "A hen stolen from Bhagbat; penalty of one hen and two handies of liquor",
+   "quote": "Appellant-Bhagbat's hen was stolen by deceased-Jhore Soren",
+   "page": 9,
+   "reason": "Judgment mentions a stolen hen and penalty, so 'Not applicable' omits this property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no common object to murder and sharp weapons were not used."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their anger and reaction to the theft of hen",
+   "page": 13,
+   "reason": "Motive was anger over the hen theft and the panchayat penalty."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "PW-1, PW-3, PW-6, PW-7 testimony and PW-9 doctor's evidence are accurately summarised."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found related witnesses truthful with a ring of truth."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's post-offence conduct is not stated; PW-7's fleeing is a witness matter."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants are in jail for almost 14 years",
+   "page": 13,
+   "reason": "Judgment states almost 14 years in jail."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence: 15/4/1989 (next day after 14/4/1989 incident); trial judgment date not stated; High Court judgment 20.01.2003; SC decision 5 February 2014",
+   "quote": "On the next day, in the morning, deceased-Jhore Soren and PW-7 Kanka were called",
+   "page": 6,
+   "reason": "Offence date is the day after 14/4/1989; 20.01.2003 is the High Court judgment, not trial."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Amicus and State counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Investigation completed; appellants charged; charge sheet not expressly mentioned",
+   "quote": "upon completion of the investigation, the appellants came to be charged",
+   "page": 7,
+   "reason": "Charge sheet filing is not expressly stated, though investigation and charging are."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court affirmance and SC modification to s.304 Part II match."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "State argued ocular evidence proved assault and common object to murder."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution not proved beyond reasonable doubt; no intention to kill; injuries superficial and not vital; poor tribals long jailed",
+   "quote": "the injuries are not on the vital part of the deceased's body. They are superficial in nature",
+   "page": 7,
+   "reason": "Amicus did not argue lack of individual role or trivial incident; focused on intention and injuries."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on lack of common object, individual role and socio-economic context."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All listed precedents are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "justice must be tempered with mercy",
+   "page": 13,
+   "reason": "Rationale matches: ends of justice, background, trivial incident, time served."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socio-economic status, tribal background, trivial incident and 14 years custody are all noted."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no aggravating factors and stresses mitigation."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they are directed to be released forthwith unless they are otherwise required in any other case",
+   "page": 13,
+   "reason": "Sentence treated as undergone and release order match the judgment."
+  }
+ }
+}

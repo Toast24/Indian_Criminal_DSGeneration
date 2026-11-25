@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "STATE OF N.C.T. OF DELHI v. AJAY KUMAR TYAGI",
+   "page": 1,
+   "reason": "Title matches the judgment."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ajay Kumar Tyagi, at the relevant time, was working as a Junior Engineer",
+   "page": 5,
+   "reason": "Single accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ajay Kumar Tyagi",
+   "page": 5,
+   "reason": "The judgment never says 'he', but the name and 'Mr.' context suggest male; reasonable."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age not stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "working as a Junior Engineer with the Delhi Jal Board",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "None (victimless)",
+   "quote": "Constable Surinder Singh lodged a report with the Anti Corruption Branch",
+   "page": 6,
+   "reason": "Bribery offence is victimless; complainant is male constable, but 'Not stated' is questionable."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Public servant and applicant (constable) seeking water connection; official-citizen connection",
+   "quote": "applied to the Delhi Jal Board... for water connection in the name of his wife... file was sent to said Ajay Kumar Tyagi",
+   "page": 5,
+   "reason": "The judgment describes the accused handling the complainant's application file; not 'Not stated'."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Prevention of Corruption Act",
+   "page": 6,
+   "reason": "Corruption."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "registration of the first information report under Section 7/13 of the Prevention of Corruption Act",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a trap was laid",
+   "page": 6,
+   "reason": "Trap and complaint; no merits assessment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Charges were framed by the Special Judge.",
+   "page": 6,
+   "reason": "No verdict given."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accordingly, it quashed the criminal proceedings",
+   "page": 7,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "other",
+   "correct_value": "other",
+   "quote": "the appeal is allowed, the order of the High Court is set aside with the direction aforesaid.",
+   "page": 17,
+   "reason": "Quashing set aside and trial restored; not a remand for fresh trial per se, and not acquittal/conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No conviction; trial pending."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove departmental inquiry outcome content and the 'police constable' complainant... or keep; main issue is the inquiry finding that is post-proceedings content.",
+   "quote": "The inquiry officer observed that \"the evidence on record does not substantiate the charge of demand and acceptance of bribe\"",
+   "page": 6,
+   "reason": "Facts accurate, but includes inquiry exoneration finding, which hints at outcome and goes beyond incident/evidence."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Punishment not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused demanded and accepted the bribe of Rs. 1000/-",
+   "page": 6,
+   "reason": "Alleged completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Section 7/13",
+   "page": 6,
+   "reason": "Two sections; none finally upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "accepted the bribe of Rs. 1000/-",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "demanded bribe of Rs. 2000/- for clearing the file",
+   "page": 6,
+   "reason": "Alleged gratification."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No evidence assessed."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not assessed."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Judgment & Order dated 25.8.2008 ... AUGUST 31, 2012",
+   "page": 1,
+   "reason": "Dates match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "J.S. Attry, Anjani Aiyagari, Gargi Khanna, B.V. Bairam Das for the Appellant.",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charge-sheet was submitted on 19th of September, 2002",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court quashed proceedings on erroneous premise of exoneration before disciplinary authority decided",
+   "quote": "the High Court fell into error in quashing the said proceedings on the premise that the accused has been exonerated",
+   "page": 10,
+   "reason": "Court noted an error in the High Court's order."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal is allowed, the order of the High Court is set aside",
+   "page": 17,
+   "reason": "Matches."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the report of the inquiry officer was yet to be considered",
+   "page": 9,
+   "reason": "Accurate."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the disciplinary authority is precluded from passing any order",
+   "page": 9,
+   "reason": "Accurate; Rajya reliance noted at trial and at p.11."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "exoneration in the departmental proceeding ipso facto would not result into the quashing of the criminal prosecution",
+   "page": 17,
+   "reason": "Accurate."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "State v. M. Krishna Mohan (2007) 14 SCC 667",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused shall appear before the trial court within four weeks from to-day.",
+   "page": 17,
+   "reason": "Matches."
+  }
+ }
+}

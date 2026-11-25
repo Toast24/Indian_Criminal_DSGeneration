@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there were eleven accused who were tried together",
+   "page": 8,
+   "reason": "Judgment states eleven accused were tried together."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Kasireddy Ramakrishna Reddy, S/o Venkata Reddy",
+   "page": 12,
+   "reason": "Judgment gives no gender for accused; 'Mixed' implies female accused, which nothing supports."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused occupation is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "immediately hacked him with hunting sickles",
+   "page": 4,
+   "reason": "Deceased Rajasekhar Reddy is referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Political rivals (rival faction); accused and deceased had political rivalry and past enmity",
+   "quote": "The accused, being the members of the rival faction",
+   "page": 10,
+   "reason": "Judgment describes accused as rival faction with political rivalry and past enmity, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under s.302 IPC for killing supports murder category."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections147, 148, 324, 326, 307, 427 and 302 read with 149 IPC",
+   "page": 4,
+   "reason": "Matches the charged provisions stated in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "armed with hunting sickles",
+   "page": 4,
+   "reason": "Hunting sickles are the weapon stated throughout."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness, Injured eye-witness, Medical",
+   "quote": "including medical evidence",
+   "page": 4,
+   "reason": "Medical evidence and eyewitnesses are supported; no recovery evidence is mentioned."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned anywhere in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are expressly stated."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the learned trial Court held Accused Nos. 1 to 3 guilty of the offences punishable under Sections 148 & 302 IPC",
+   "page": 5,
+   "reason": "Matches trial court conviction of 1-3 and acquittal of 4-11."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Allowed appeal of accused 1-3, reversing conviction and acquitting them; dismissed complainant's appeal, confirming acquittal of accused 4-11",
+   "quote": "the High Court has allowed Criminal Appeal No. 611/2011 preferred by original accused Nos. 1 to 3",
+   "page": 3,
+   "reason": "High Court did decide the appeals; 'Not applicable' contradicts the judgment's description of its outcome."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused 1-3 convicted (conviction restored); accused 4-11 acquitted (acquittal upheld)",
+   "quote": "the judgment and order passed by the learned trial Court convicting Accused Nos. 1 to 3 ... is to be restored",
+   "page": 12,
+   "reason": "Only accused 1-3 were convicted; accused 4-11 remained acquitted, which the single label omits."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Offences under ss.148 and 302 IPC for accused 1-3 (rioting armed with deadly weapon; murder)",
+   "quote": "for the offences under Sections 148 & 302 IPC",
+   "page": 12,
+   "reason": "Section 302 is right, but s.148 is rioting with deadly weapon, not causing death."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentencing them to life imprisonment",
+   "page": 12,
+   "reason": "Life imprisonment is the sentence restored."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentencing them to life imprisonment",
+   "page": 12,
+   "reason": "No fixed term is stated for the life sentence, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurately summarised and do not reveal the court's outcome."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment (Section 302 IPC)",
+   "quote": "sentencing them to life imprisonment",
+   "page": 12,
+   "reason": "Judgment restores life imprisonment; no death sentence is mentioned."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "died on the spot",
+   "page": 4,
+   "reason": "Deceased died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Deceased died on the spot; PW6 sustained bleeding injuries; PW7 was injured (bleeding not specified)",
+   "quote": "he sustained bleeding injuries on his right shoulder, hand and side ribs",
+   "page": 4,
+   "reason": "Bleeding injuries are attributed to PW6 only; PW7's injury type is not stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted three and acquitted eight accused, as stated."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Damage to sumo vehicle's glass windows (s.427 IPC charged)",
+   "quote": "hit the glass windows of the sumo vehicle with hunting sickles and broke the glasses",
+   "page": 4,
+   "reason": "Vehicle glass was broken and s.427 was charged, so 'Not applicable' is contradicted."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is expressly stated."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Political rivalry and past enmity (defence case)",
+   "quote": "falsely implicated in the case because of their political rivalry and past enmity",
+   "page": 5,
+   "reason": "The judgment records political rivalry and past enmity as the stated background."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there are no major/material contradictions in the deposition of the eye-witnesses and injured eye-witnesses",
+   "page": 10,
+   "reason": "Matches the Court's acceptance of the eyewitness and injured witness testimony."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their evidence cannot be discarded solely on the aforesaid ground",
+   "page": 10,
+   "reason": "Matches the reasoning on relatives' evidence and PW6's reliability."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence 18.01.2007; High Court judgment 21.02.2018; Supreme Court decision 07.03.2022 (trial judgment date not stated)",
+   "quote": "impugned common judgment and order dated 21.02.2018 passed by the High Court",
+   "page": 3,
+   "reason": "21.02.2018 is the High Court judgment date; the trial judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant (complainant/State): A. Sirajudeen, Sanjeev Kumar, Mahfooz Ahsan Nazki, et al.; Respondents (accused): Guntur Prabhakar, D. Ramakrishna Reddy, et al.",
+   "quote": "for the Appellant ... for the Respondents",
+   "page": 3,
+   "reason": "Counsel roles are reversed; the first list appeared for the appellant, the second for respondents."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "filed a chargesheet against all the eleven accused",
+   "page": 4,
+   "reason": "FIR, chargesheet and completed trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged interpolation of FIR time (0.30 a.m. to 9:30 p.m.) and seven-hour delay in sending FIR to Magistrate",
+   "quote": "The interpolation of the time of the incident, 0.30 a.m. to 9:30 p.m., could not be explained",
+   "page": 11,
+   "reason": "Judgment discusses an alleged FIR interpolation and delay, so 'None noted' is contradicted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Criminal Appeal No. 72/2022 ... and Criminal Appeal No. 74/2022 ... are allowed",
+   "page": 12,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court unnecessarily given weightage to the alleged interpolation in the FIR",
+   "page": 6,
+   "reason": "Accurately reflects the prosecution's submissions on consistency, FIR timing and minor contradictions."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "having found the interpolation/correction in the FIR",
+   "page": 8,
+   "reason": "Accurately reflects defence submissions on FIR interpolation and false implication."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "merely because the witnesses were the relatives of the deceased, their evidence cannot be discarded",
+   "page": 10,
+   "reason": "Principles on relatives' testimony and minor contradictions are stated in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Unnamed 'catena of decisions' on injured eye-witness reliability; no precedent on FIR admissibility cited",
+   "quote": "as per the settled proposition of law laid down by this Court in catena of decisions",
+   "page": 11,
+   "reason": "Reliance on injured eye-witness decisions is stated, but no FIR-admissibility precedent is cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court has committed a grave error in reversing the judgment",
+   "page": 12,
+   "reason": "Rationale that the acquittal was erroneous and conviction restored is supported."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the Court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are expressly identified by the Court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "directed to surrender to undergo the remaining sentence, within a period of four weeks",
+   "page": 12,
+   "reason": "Surrender order within four weeks matches the judgment."
+  }
+ }
+}

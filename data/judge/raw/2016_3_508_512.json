@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the case caption, Anil @ Bawa v. State of Haryana."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted all six accused persons, as stated in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never states the accused's gender; 'Mixed' has no textual basis."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Partap is the son of the complainant, so male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no age for the deceased Partap."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (accused had a dispute with the victim over an alleged evil eye on their women; villagers)",
+   "quote": "Partap be taught a lesson for having an evil eye on the lady members of the family of the accused",
+   "page": 2,
+   "reason": "Labelling them strangers ignores the alleged prior conflict and village connection described in the judgment."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under section 302 read with 149."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 r/w s.149; s.148 r/w s.302 (conviction under s.148 also recorded)",
+   "quote": "under section 148 read with section 302 to undergo RI for one year",
+   "page": 2,
+   "reason": "Omits section 148, under which a separate conviction and sentence were also recorded."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Lathis and sword are the weapons described."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness testimony of PW5 and medical evidence of PW7 are relied on."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not mention any confession either way, so 'None' is asserted without support."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss aggravating circumstances as such."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted accused under s.302 r/w s.149, as stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court acquitted Sandeep and convicted the remaining five."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed appeals, so the conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 r/w s.149 was upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed term is stated for life imprisonment, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine of Rs.5,000 each is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts should omit the court outcomes and present the defence claim that accused were absent as a contention, not fact.",
+   "quote": "The trial court convicted the accused, and the High Court upheld the conviction for five of them",
+   "page": 3,
+   "reason": "Summary reveals conviction outcomes and states the defence contention that accused were absent as fact."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment, Rs.5,000 fine and default term are stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died on the spot, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 4,
+   "reason": "Sharp-edged weapon and lathi injuries causing death are described by the doctor."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (six accused convicted at trial; offences charged are not enumerated)",
+   "quote": "The trial court convicted all the 6 accused persons",
+   "page": 3,
+   "reason": "Judgment does not state six offences were charged; it refers to six accused."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is treated as part of this offence; the house fire is a separate incident."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not expressly stated in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 2,
+   "reason": "Alleged evil eye on accused's women-folk is the stated motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 4,
+   "reason": "Ocular version corroborated by medical evidence is accurately summarised."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 4,
+   "reason": "PW5's reliability, no enmity, and last-person-to-spare reasoning match the judgment."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused fled the scene after beating Partap",
+   "quote": "After beating Partap accused fled away.",
+   "page": 2,
+   "reason": "The judgment records that accused fled after the assault, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence date 4.7.2003; High Court judgment 06.08.2009; trial court judgment date not stated; Supreme Court decision 25.02.2016",
+   "quote": "The Judgment and Order dated 06.08.2009 of the High Court",
+   "page": 2,
+   "reason": "06.08.2009 is the High Court date, not the trial judgment date, which is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 2,
+   "reason": "Counsel names for appellants and State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR lodged 5.7.2003 at 4.30 a.m.; trial completed; charge sheet filing not mentioned",
+   "quote": "Anand Singh lodged the First Information Report at 4.30 a.m. on 5.7.2003.",
+   "page": 2,
+   "reason": "FIR date is correct, but charge sheet filing is not stated in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence alleged delayed FIR and non-examination of Ramesh and Lakhmi Chand; court rejected these as not fatal",
+   "quote": "The witnesses Lakhmi Chand and Ramesh have not been examined",
+   "page": 3,
+   "reason": "Alleged irregularities were raised and rejected; 'None noted' omits them."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 3,
+   "reason": "Trial conviction, High Court partial acquittal, and Supreme Court affirmance are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 3,
+   "reason": "Prosecution argument on beating, reliable eyewitness, medical support and FIR delay is accurate."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 3,
+   "reason": "Defence on false implication, modesty incident, FIR delay and non-examined witnesses is accurate."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 4,
+   "reason": "Court treated father-eyewitness version as reliable with no motive and medical corroboration."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 4,
+   "reason": "Jaggo (AIR 1971 SC 1586) and Bahal Singh (AIR 1976 SC 2032) are both cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Judgment gives reasons for conviction (reliable eyewitness, medical corroboration); no separate sentencing rationale is stated",
+   "quote": "conviction has rightly been recorded by the courts below",
+   "page": 5,
+   "reason": "Summary describes conviction reasoning as sentencing rationale; no sentencing reasoning is given."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No judicial mitigating factors are discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No judicial aggravating factors are discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment and Rs.5,000 fine each with 3 months default; s.148 r/w s.302 RI for one year; Sandeep acquitted",
+   "quote": "under section 148 read with section 302 to undergo RI for one year",
+   "page": 2,
+   "reason": "Omits the one-year RI sentence under section 148 read with 302."
+  }
+ }
+}

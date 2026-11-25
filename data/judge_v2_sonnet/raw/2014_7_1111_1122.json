@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "DENY BORA V. STATE OF ASSAM",
+   "page": 1,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "assailing the judgment passed by the Designated Court... acquitted the Appellant",
+   "page": 5,
+   "reason": "Only one appellant's liability is decided."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he was arrested",
+   "page": 6,
+   "reason": "Accused referred to as 'he'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dr. Swapan Sathi Barman... he breathed his last",
+   "page": 5,
+   "reason": "Victim is male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Apparently stranger/no prior relationship; PW-14 had a fortnight-old acquaintance with accused; accused enquired about the deceased",
+   "quote": "the accused-appellant had enquired about the deceased",
+   "page": 12,
+   "reason": "Judgment describes some connection, though not between accused and victim directly; 'Not stated' is not entirely accurate."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "s. 302 - Conviction on testimony of sole eye-witness",
+   "page": 1,
+   "reason": "Murder charge."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302/34 read with TADA ss.3/4 (FIR); headnote says s.314 of TADA",
+   "quote": "Station Case No. 20/91 u/s 302/34 IPC read with Sections 3/4 of TADA",
+   "page": 6,
+   "reason": "Judgment text gives TADA ss.3/4; 's.314' is a headnote garble, so the value is dubious."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shot by two unidentified youths from the point blank range",
+   "page": 5,
+   "reason": "Firearm/bullets."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-14, who claims to be the eye witness",
+   "page": 6,
+   "reason": "Eyewitness and post-mortem medical evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for life with fine of Rs.50,000/-, in default, to suffer further rigorous imprisonment for five years",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "preferred under Section 19 of the Terrorist and Disruptive Activities (Prevention) Act",
+   "page": 5,
+   "reason": "TADA appeal lies directly to the Supreme Court from the Designated Court."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we allow the appeal and set aside the judgment of conviction",
+   "page": 12,
+   "reason": "Acquitted effectively."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "set aside the judgment of conviction",
+   "page": 12,
+   "reason": "No conviction stands."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "set aside the judgment of conviction",
+   "page": 12,
+   "reason": "No sentence remains."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine stands."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Should state that the eyewitness PW-14 is not the daughter; the daughter was a separate eyewitness who was not examined, and should avoid 'He' for the witness's confusion.",
+   "quote": "the daughter was the eye witness and the wife was slightly away",
+   "page": 10,
+   "reason": "Text says the victim's daughter 'was an eyewitness' and then describes 'He' (PW-14) as eyewitness; it also includes the non-examination of witnesses, which is borderline court reasoning. The garbled description is misleading."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states no punishment prescribed."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "breathed his last",
+   "page": 5,
+   "reason": "Death occurred."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "one wound on the right side of the face near the outer angle of the right eye... left side of the neck just below the ear",
+   "page": 8,
+   "reason": "Matches post-mortem."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged under s.302/34 IPC and TADA provisions (ss.3/4); 0 finally upheld",
+   "quote": "u/s 302/34 IPC read with Sections 3/4 of TADA",
+   "page": 6,
+   "reason": "Count and sections are uncertain; 0 upheld is right."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No finding."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive identified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the death is homicidal is beyond doubt",
+   "page": 8,
+   "reason": "Only post-mortem accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his testimony is thoroughly and wholly unreliable",
+   "page": 12,
+   "reason": "Accurate."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Judgment and Order dated 02.03.2013",
+   "page": 5,
+   "reason": "Dates match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "P.K. Goswami, .A Henry, Vikas Singh for the f:.ppellant. Navnit Kumar",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charge sheet was filed before the Trial Court on 29.07.2001",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "neither the wife nor the daughter of the deceased has been examined",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we allow the appeal and set aside the judgment of conviction",
+   "page": 12,
+   "reason": "Matches."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "witnesses in certain circumstances do behave in a peculiar manner",
+   "page": 7,
+   "reason": "Accurate."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "reference to the post mortem report... impermissible",
+   "page": 7,
+   "reason": "Accurate."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "if there are doubts about the testimony the courts will insist on corroboration",
+   "page": 11,
+   "reason": "Accurate."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Gian Chand... Sunil Kumar... Namdeo",
+   "page": 11,
+   "reason": "Cases and citations match."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he be set at liberty forthwith",
+   "page": 12,
+   "reason": "Matches."
+  }
+ }
+}

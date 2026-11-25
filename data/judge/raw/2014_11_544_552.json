@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "partially_correct",
+   "correct_value": "Om Prakash v. State of Haryana",
+   "quote": "A OM PRAKASH v. STATE OF HARYANA",
+   "page": 1,
+   "reason": "Case name is right, but the leading 'A' is a margin marker, not part of the title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three accused (Om Prakash, Kartar Singh, Chhoti) are named and tried."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Male (Om Prakash, Kartar Singh); Female (Chhoti)",
+   "quote": "Accused Chhoti (wife of accused Kartar Singh)",
+   "page": 4,
+   "reason": "Value says all accused are male, but accused Chhoti is female."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No accused age appears in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "prosecutrix aged about 15 years",
+   "page": 3,
+   "reason": "Victim is a female prosecutrix."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "prosecutrix aged about 15 years",
+   "page": 3,
+   "reason": "Victim's age is about 15, consistent with the school certificate date of birth."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "accused/appellant Chhoti came there and asked the prosecutrix to bring 'lassi'",
+   "page": 3,
+   "reason": "Judgment does not describe any family or kinship relationship between accused and victim."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 376(2)(g) IPC",
+   "page": 3,
+   "reason": "Offence is rape under Section 376(2)(g) IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.376(2)(g), s.109, s.107; charge-sheet also cited s.342, s.506 r/w s.34",
+   "quote": "Section 376, 342,506 r/w Section 34 IPC",
+   "page": 4,
+   "reason": "Omits s.107, discussed as the abetment definition, and the charge-sheet sections 342, 506 and 34."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Victim testimony (PW5), mother's corroboration (PW6), radiological and medical reports, school certificate",
+   "quote": "Dr. Sunita Bishnoi (PW9)",
+   "page": 3,
+   "reason": "Medical and eyewitness evidence fit, but 'circumstantial' is unsupported; school and radiological age evidence is omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by any accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court does not identify aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not identify mitigating circumstances, only a plea for reduced sentence."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The trial court ... sentenced each one of the accused",
+   "page": 5,
+   "reason": "Trial court convicted and sentenced all accused."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction and sentence affirmed",
+   "quote": "was dismissed vide impugned judgment and order dated 30.7.2008",
+   "page": 5,
+   "reason": "High Court dismissed the appeal, so the outcome was not 'Not applicable'."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all the three appeals are dismissed",
+   "page": 9,
+   "reason": "Supreme Court dismissed the appeals, so convictions stand."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 109 IPC for abetment as she aided the commission of rape",
+   "page": 8,
+   "reason": "Rape by two accused and abetment by Chhoti were upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "to undergo rigorous imprisonment for a period of 10 years",
+   "page": 5,
+   "reason": "Sentences were rigorous imprisonment for fixed terms."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "10 years (Om Prakash, Kartar Singh); 3 years (Chhoti)",
+   "quote": "Accused Chhoti was sentenced to undergo rigorous imprisonment for a period of three years",
+   "page": 5,
+   "reason": "10 years applies only to two accused; Chhoti received three years."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "pay fine of Rs. 10,000/- each",
+   "page": 5,
+   "reason": "Fine of Rs. 10,000 is imposed on each accused."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts without the outcome sentence; the lure was by accused Chhoti, and she was not the rapist.",
+   "quote": "the court found the evidence credible and the accused guilty",
+   "page": 9,
+   "reason": "Reveals the court outcome, which is prohibited; also attributes the lure to 'the accused' generally rather than Chhoti."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "rigorous imprisonment for a period of 10 years",
+   "page": 5,
+   "reason": "Statutory minimum and maximum are not stated; only the sentences imposed are given."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the victim was subjected to rape",
+   "page": 8,
+   "reason": "Rape was completed, per the court's account of the incident."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Healed ruptured hymen admitting one finger; no external injuries or marks on perineum or thighs; secondary sexual characters well developed",
+   "quote": "secondary sexual characters of prosecutrix were found well developed",
+   "page": 3,
+   "reason": "Wrongly says development resulted from rape; the medical findings are the hymen rupture and no external injuries."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charges under s.376 (two accused) and s.109 (one accused); three convictions upheld",
+   "quote": "charge was framed for the offence punishable under Section 376 IPC",
+   "page": 4,
+   "reason": "Three convictions were upheld, but the charges were two provisions, not three offences."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not characterised by the court."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution motive not stated; defence alleged enmity, with Kartar Singh suspected of spreading news of the victim's abortion",
+   "quote": "suspected that it was he (Kartar Singh) who spread the news",
+   "page": 4,
+   "reason": "'Not identified' ignores the defence's stated enmity and abortion-news motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the evidence adduced by the victim is natural and trustworthy",
+   "page": 5,
+   "reason": "Victim's evidence and Chhoti's aiding role were accepted, as stated."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "nothing has come out to create reasonable doubt in their testimony",
+   "page": 6,
+   "reason": "Both PW5 and PW6 survived lengthy cross-examination without reasonable doubt."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Victim delayed about 20 days before reporting; delay held sufficiently explained",
+   "quote": "sufficient explanation on record for the same",
+   "page": 5,
+   "reason": "Delay in reporting is discussed and explained, so 'Not stated' misses it."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody before the appeal is not stated."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Chhoti 18.5.2009; Kartar Singh 20.7.2009; Om Prakash 16.4.2010",
+   "quote": "Accused Chhoti, Kartar Singh and Om Prakash were granted bail by this Court vide orders dated 18.5.2009",
+   "page": 9,
+   "reason": "Bail dates are mismatched to the accused in the value."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "order dated 16.12.1996 passed by the learned Additional Sessions Judge",
+   "page": 5,
+   "reason": "Trial, High Court and Supreme Court dates match; offence date is not precisely stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rishi Malhotra, Prem Malhotra for the Appellant",
+   "page": 2,
+   "reason": "Counsel names for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On 13.6.1995, first information report was registered",
+   "page": 3,
+   "reason": "FIR registration, investigation and charge-sheet are described; trial commenced."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is raised or noted."
+  },
+  "appeal_history": {
+   "verdict": "incorrect",
+   "correct_value": "Trial court: convicted and sentenced; High Court: appeal dismissed, conviction affirmed; Supreme Court: appeals dismissed",
+   "quote": "the trial court sentenced each one of the accused",
+   "page": 5,
+   "reason": "Trial court convicted and sentenced; it did not affirm anything on appeal."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution case in brief is that",
+   "page": 3,
+   "reason": "Lure to Chhoti's house, rape, and evidence relied on are supported."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "All accused alleged enmity; Kartar Singh alleged false implication over abortion news; Chhoti challenged s.109 conviction, arguing failure to prevent is not abetment",
+   "quote": "Accused Kartar Singh took a specific defence plea that he was falsely implicated",
+   "page": 4,
+   "reason": "Invents Chhoti's absence claim and omits Kartar's abortion-based defence; the abetment argument is correct."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Intentional aiding of the offence is covered by the third clause mentioned in Section 107 IPC.",
+   "page": 8,
+   "reason": "Ss.107 and 109 principles, and mere failure to prevent not being abetment, are discussed."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Kulwant Singh @ Kulbansh Singh vs. State of Bihar (2007) 15 SCC 670",
+   "page": 6,
+   "reason": "Both precedents and their citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentence awarded by the trial court as upheld by the High Court, is just and proper",
+   "page": 9,
+   "reason": "Court upheld sentences as just and proper given the facts."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the sentence awarded by the trial court as upheld by the High Court, is just and proper",
+   "page": 9,
+   "reason": "Judgment does not state that no mitigating factors existed; it only rejects reduction."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "considering the facts and circumstances of the case",
+   "page": 9,
+   "reason": "Court does not state that no aggravating factors existed."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Accused directed to be taken into custody forthwith to serve out the remaining sentence",
+   "quote": "shall be taken into custody forthwith to serve out the remaining of their sentence",
+   "page": 9,
+   "reason": "The judgment contains a custody direction, so 'None' is wrong."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "11 accused were challaned; 3 appellants before the Supreme Court; 9 convicted at trial",
+   "quote": "complicity of all 11 accused persons",
+   "page": 4,
+   "reason": "3 is the number of appellants before this Court, not the total accused, which was 11."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are male; the judgment refers to A-9 as the 'uncle' of DW-1 and a family man."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "A-9 ran a shop at Bhalesur and owned farms in Sundri",
+   "quote": "went to the shop run by him at Bhalesur",
+   "page": 9,
+   "reason": "The judgment states A-9's shop at Bhalesur and his farms in Sundri, so 'Not stated' is wrong."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not explicitly stated, so 'Not stated' holds."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no criminal record for the accused; the history-sheeter claim concerns the deceased."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Chetram and his son Kapildeo are male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Upon reaching the house of accused Darasram",
+   "page": 4,
+   "reason": "Nothing in the judgment describes the accused's relationship to the victims; 'Stranger' is not supported."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder (s.302 IPC) is the central offence and is supported."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the sections listed in paragraphs 3 and 25."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Country-made bombs, lathis, tabbal and shovels",
+   "quote": "with shovels and lathis",
+   "page": 10,
+   "reason": "Shovels are omitted; the judgment mentions them as weapons used by the accused."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness testimony and medical/post-mortem evidence",
+   "quote": "medical and scientific evidence including the post-mortem reports",
+   "page": 6,
+   "reason": "Medical evidence is supported, but no recovery evidence is mentioned in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Use of explosives (bombs); multiple injuries to the deceased",
+   "quote": "had made preparation by forming an unlawful assembly",
+   "page": 5,
+   "reason": "Explosives and injuries are supported; 'premeditation' is only the High Court's quoted observation, not an identified aggravating factor."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted 9 of 11 accused and imposed sentences."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Conviction and sentence affirmed in Criminal Appeal No. 596 of 1992",
+   "quote": "stands affirmed",
+   "page": 4,
+   "reason": "The High Court's outcome is stated: it affirmed the conviction and sentence, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Supreme Court dismissed the appeal, so the convictions stand."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Rioting (s.148), murder (s.302 r/w 149), attempt to murder (s.307 r/w 149) IPC; Explosive Substances Act ss.4/5",
+   "quote": "Sections 148, 302 read with 149, 307 read with 149, Indian Penal Code, 1860",
+   "page": 3,
+   "reason": "Culpable homicide and criminal breach of trust are never mentioned; the judgment lists rioting, murder, attempt to murder and explosives offences."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Rigorous imprisonment, ranging from 3 years to life imprisonment, concurrent",
+   "quote": "rigorous imprisonment for 3 years to life imprisonment",
+   "page": 3,
+   "reason": "The sentence includes life imprisonment and is rigorous, not a single fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "3 years minimum to life imprisonment",
+   "quote": "rigorous imprisonment for 3 years to life imprisonment",
+   "page": 3,
+   "reason": "3 years is only the lowest sentence; the judgment also imposes life imprisonment, which is not captured."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts should omit the outcome, e.g. the facts of the attack, the witnesses, the alibi defence and the trial court's conviction of 9 accused",
+   "quote": "The Supreme Court upheld the conviction, finding the prosecution's evidence reliable and the accused's alibi unproven.",
+   "page": 11,
+   "reason": "The summary states the Supreme Court's outcome, which neutral_facts must not reveal."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the sentence range stated in paragraph 3."
+  },
+  "attempt_completion": {
+   "verdict": "partially_correct",
+   "correct_value": "Completed as to murder of Chetram and Kapildeo; attempted as to PW-3 (s.307)",
+   "quote": "PW-3 had sustained lacerated wounds",
+   "page": 6,
+   "reason": "Murder was completed, but the s.307 charge concerns an attempt on PW-3, so 'Completed' alone is incomplete."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Chetram sustained multiple injuries to vital body parts from bombs; Kapildeo died during treatment; PW-3 sustained lacerated wounds",
+   "quote": "in the course of treatment, he also died",
+   "page": 4,
+   "reason": "Kapildeo's injuries from the attack are not stated; PW-3's lacerated wounds are omitted."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charges under ss.148, 302 r/w 149, 307 r/w 149 IPC and ss.4/5 Explosive Substances Act",
+   "quote": "Sections 148, 302 read with 149, 307 read with 149, Indian Penal Code, 1860",
+   "page": 3,
+   "reason": "The value describes the sentence outcome rather than the number or nature of offences charged."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is mentioned, so 'Not applicable' is an acceptable equivalent."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court observed preparation and an unlawful assembly; Supreme Court found it was not a case of prior consultation or deliberation",
+   "quote": "Present is not a case of prior consultation; discussion; deliberation or improvements",
+   "page": 7,
+   "reason": "The unlawful assembly finding is the High Court's quoted view; the Supreme Court found no prior deliberation, which the value omits."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive for the accused is identified; the alleged deceased-enemies theory is unsubstantiated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects the headnote's accepted evidence: undisputed deaths, injuries, and coherent eyewitness testimony."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches paragraphs 10, 16, and 21 on the credibility of PW-3, PW-16 and PW-17."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The bail granted by this Court vide order dated 1st October 2012, stands cancelled.",
+   "page": 11,
+   "reason": "Matches paragraph 27 on cancellation of bail and surrender."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence date 17.04.1988, trial judgment 11.05.1992, HC 19.10.2010 and SC 10.10.2023 all match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearances section on page 3."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registered, challan presented, and trial completed are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The FIR delay was argued but held not fatal; no irregularity is found."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted and sentenced (Sessions Trial No. 198 of 1988); High Court affirmed; Supreme Court dismissed the appeal",
+   "quote": "the guilt of the accused and the sentence of imprisonment imposed in Sessions Trial No.198 of 1988",
+   "page": 3,
+   "reason": "The trial court convicted the accused; it did not affirm a conviction on appeal, so that entry is wrong."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately reflects the prosecution's reliance on PW-3, PW-16 and PW-17 and their consistent testimony."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence also argued the witnesses were close relatives or interested, so their testimony could not be relied upon",
+   "quote": "since most of the witnesses were close relatives or interested witness",
+   "page": 5,
+   "reason": "The defence's argument that witnesses were relatives or interested is omitted, though the other points are accurate."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Strict scrutiny, preponderance of probability and the prosecution's burden are all supported by paragraphs 19 and 21."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cases match the citations list; Ram Jag is referred to rather than relied on, which is a minor point."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentences awarded are in no manner excessive or disproportionate",
+   "page": 11,
+   "reason": "Matches paragraph 25 on proportionality and no interference with sentences."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not formally list aggravating factors, so 'None' is acceptable."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants are directed to surrender forthwith.",
+   "page": 11,
+   "reason": "Matches paragraphs 27 and 28 on bail cancellation, surrender and consequential steps."
+  }
+ }
+}

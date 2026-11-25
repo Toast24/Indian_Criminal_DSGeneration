@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Bhaikon @ Bakul Borah v. State of Assam",
+   "page": 1,
+   "reason": "Title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant-accused was prosecuted for committing rape and murder of the victim.",
+   "page": 1,
+   "reason": "Single appellant-accused whose liability is decided; count of 1 is supported."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant came out of the farm house... his master",
+   "page": 8,
+   "reason": "Accused is referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused is a young man of 33 years of age",
+   "page": 11,
+   "reason": "Age of 33 is explicitly stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No religious identity of the accused is described in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused engaged him as a labourer in his farm house",
+   "page": 8,
+   "reason": "Judgment describes a farm house and employing a labourer but never states the accused's occupation."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No statement on the accused's wealth, poverty or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "Judgment says nothing about prior convictions."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "one Rupamoni Dutta (the deceased), aged about 22 years",
+   "page": 4,
+   "reason": "Victim is a female, referred to as daughter and female in post-mortem notes."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "one Rupamoni Dutta (the deceased), aged about 22 years",
+   "page": 4,
+   "reason": "Age of about 22 is stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No caste or community of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No religious identity of the victim is described."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "Only the accused's employment of the eyewitness is described; no accused-victim connection is stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "committing rape and murder of the victim",
+   "page": 1,
+   "reason": "Murder is a defensible primary category for a rape-murder case."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 302 and 376 of the Indian Penal Code, 1860",
+   "page": 4,
+   "reason": "Both charged sections are correctly listed."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Dao (seized from farm house) and khukri carried by the accused and companion; death by throttling; sharp cutting weapon caused chin injuries",
+   "quote": "Injury Nos. 1 and 2 were caused by sharp cutting weapon.",
+   "page": 10,
+   "reason": "Judgment mentions a dao seized and khukris carried, so 'None mentioned' contradicts the text."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the evidence of PW-1, who witnessed the occurrence... corroborated by PW-2... and the doctor (PW-9)",
+   "page": 7,
+   "reason": "Eyewitness, corroborative, medical and recovery evidence are all present in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No confession or admission by the accused is described."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "considering the heinous crime of committing rape and murder and throwing the dead body in a place surrounded by bushes and shrubs",
+   "page": 11,
+   "reason": "Matches the aggravating facts the court noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused is a young man of 33 years of age and also finding that the case does not come under the purview of the \"rarest of rare\" category",
+   "page": 11,
+   "reason": "Youth and the not rarest-of-rare finding are noted as mitigating."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced him to death for the offence punishable under Section 302 of IPC and rigorous imprisonment (RI) for life for the offence punishable under Section 376 of IPC along with a fine of Rs. 10,000/-",
+   "page": 6,
+   "reason": "Convictions, death sentence, life RI and fine are accurately summarised."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "disposed of the appeal ... by confirming his conviction and altering the sentence of death to imprisonment for life... for 7 years",
+   "page": 6,
+   "reason": "Conviction confirmed, death altered to life and s.376 sentence reduced to 7 years, as stated."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dismissing the appeal, the Court",
+   "page": 2,
+   "reason": "Supreme Court dismissed the appeal, upholding the conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant along with another person committed rape and, thereafter murdered the deceased",
+   "page": 7,
+   "reason": "Murder under s.302 and rape under s.376 stand upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "altering the sentence of death to imprisonment for life",
+   "page": 6,
+   "reason": "Principal final sentence is life imprisonment under s.302."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "7",
+   "quote": "the High Court sentenced him to imprisonment for 7 years",
+   "page": 6,
+   "reason": "Judgment states a 7-year term for s.376; null omits this fixed-term sentence."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for life along with a fine of Rs.1,000/-",
+   "page": 6,
+   "reason": "High Court fine of Rs.1,000 is stated for the s.302 sentence."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "A neutral summary of 150-300 words; the incident time was 'around 12 noon', not afternoon, and the text runs about 330 words.",
+   "quote": "on the afternoon of 29 March 2000",
+   "page": 4,
+   "reason": "Summary is about 330 words, over the limit, and 'afternoon' misstates the 'around 12 noon' timing. No outcome is revealed."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "Judgment does not state the statutory punishment range for s.302 or s.376."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the girl died on the spot",
+   "page": 8,
+   "reason": "Offence was completed with death of the victim."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the victim died of asphyxia as a result of throttling... Trachea fractured",
+   "page": 6,
+   "reason": "Death by throttling, cut chin injury, neck bruises and fractured trachea are all noted."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant was charged for the offence punishable under Sections 376 and 302 of the IPC",
+   "page": 7,
+   "reason": "Two sections charged and both convictions upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not applicable",
+   "page": null,
+   "reason": "No money or property loss is described."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "Court made no finding on premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not identified",
+   "page": null,
+   "reason": "No motive is alleged or accepted in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the evidence of PWs 1, 2 and 9 as well as the statement of co-villagers, we agree",
+   "page": 11,
+   "reason": "Eyewitness, father, medical and co-villager evidence were accepted as stated."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There is no reason to disbelieve the version of PW-1, who is an independent eye-witness",
+   "page": 8,
+   "reason": "Court's assessment of PW-1, PW-2 and PW-9 is accurately reflected."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant-accused also came there and saw the dead body of the girl",
+   "page": 8,
+   "reason": "Accused's attendance at the scene and enquiries are noted; no other conduct is mentioned."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No period of pre-sentence custody is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No bail information appears in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on 29.03.2000... by order dated 18.03.2006... dated 26.09.2006... MAY 3, 2013",
+   "page": 4,
+   "reason": "All listed dates match those in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Pandit Parmanand Katara, Abhishek Sharma, C.K. Sucharita, Kusum Lata Sharma for the Appellant. Navnit Kumar, Avijit Roy, Corporate Law Group for the Respondent.",
+   "page": 4,
+   "reason": "Counsel for both sides are accurately listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A case was registered vide G.D. Entry No. 389... charge-sheet... under Sections 376 and 302",
+   "page": 5,
+   "reason": "Registration, charge-sheet and completed trial are supported by the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "None noted",
+   "page": null,
+   "reason": "No procedural lapse is noted by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court disposed of the appeal... confirming his conviction",
+   "page": 6,
+   "reason": "Outcomes at trial, High Court and Supreme Court are accurately stated."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentence of death was commuted to imprisonment for life, there cannot be automatic release after the expiry of the period of 14 years",
+   "page": 7,
+   "reason": "Prosecution's reliance on PW-1 and corroboration and its release argument are accurately summarised."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the conviction under Section 376 of IPC is unsustainable... after expiry of the period of 14 years, the authorities ought to have released the appellant",
+   "page": 7,
+   "reason": "All three defence contentions are accurately summarised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "life imprisonment means imprisonment for whole of life subject to the remission power granted under Articles 72 and 161",
+   "page": 11,
+   "reason": "Remission principle and reliability assessment are accurately described."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Life Convict @ Khoka Prasanta Sen vs. B.K. Srivastava and Ors. (2013) 3 SCC 425; ... Swami Shraddananda (2) ... (2008) 13 SCC 767; Sahib Hussain ... 2013 (6) Scale 219",
+   "page": 3,
+   "reason": "All listed precedents with citations appear in the judgment (Mulla appears as 'Mui/a' by OCR)."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court, taking note of the fact that the accused is a young man of 33 years of age... declined to confirm the sentence of death",
+   "page": 11,
+   "reason": "Rationale for commutation and rejection of release claim is accurately summarised."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused is a young man of 33 years of age",
+   "page": 11,
+   "reason": "Youth is weighed as a mitigating factor, noted by the High Court and reflected in the judgment."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "considering the heinous crime of committing rape and murder and throwing the dead body in a place surrounded by bushes and shrubs",
+   "page": 11,
+   "reason": "Heinous nature and body disposal are the aggravating factors weighed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Not stated",
+   "page": null,
+   "reason": "No compensation, directions or guidelines are ordered."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "4",
+   "quote": "implicating the Appellants and one Mr. Aksar Ahmed Sheriff, who is a travel agent",
+   "page": 7,
+   "reason": "Two appellants, but the chargesheet also named a travel agent, and the Passport Officer was Accused No. 4."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants are a wife (female) and her father (male), so mixed is supported."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the appellants is not stated; only the co-accused travel agent is described."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The minor child is male, and the complainant husband is male, so Male is supported."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated; only the child's birth date is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the victim is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the victim is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Spouse (wife of respondent No. 2); Appellant No. 2 is the wife's father",
+   "quote": "Appellant No. 2, being the father of the Appellant – wife",
+   "page": 12,
+   "reason": "Spouse is right for the wife, but the other appellant is her father, not a spouse."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Cheating and forgery (IPC property and documents offences); Passports Act s.12(b)",
+   "quote": "Chapter XVII, 'Of Offences Against Property', and Chapter XVIII, 'Of Offences Relating to Documents'",
+   "page": 15,
+   "reason": "Forgery is only part; cheating and Passports Act offences are also charged."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.420, 468, 471, 120-B, 201 r/w s.34; Passports Act s.12(b)",
+   "quote": "adding offences under Sections 468, 471, 420, 120-B and 201 read with Section 34 IPC",
+   "page": 7,
+   "reason": "Omits sections 120-B and 201 from the supplementary chargesheet."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Handwriting expert reports (State FSL and private Truth Lab); documentary passport and sponsorship letter; no medical or recovery evidence",
+   "quote": "report provided by the State Forensic Laboratory, Madiwala, Bengaluru, dated 27.02.2016",
+   "page": 8,
+   "reason": "Expert reports are supported, but medical and recovery evidence are not mentioned."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned anywhere in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances against the accused are identified."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Motivations not rooted in deceit; no benefit to appellant wife; no loss to respondent No. 2; passport for child's benefit",
+   "quote": "The motivations prompting either of the Appellants to procure a passport for the minor child were not rooted in deceit",
+   "page": 12,
+   "reason": "The judgment's reasoning expressly identifies mitigating points favouring the appellants."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial Magistrate declined discharge on 15.03.2018 and framed the case for trial",
+   "quote": "the Trial Magistrate repelled this contention by order dated 15.03.2018 and declined to discharge them",
+   "page": 8,
+   "reason": "Proceeding to trial is supported, but the discharge refusal and its date are omitted."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Criminal Revision Petition No. 692/2018 dismissed on 18.02.2021",
+   "quote": "the High Court dismissed the same via the impugned order dated 18.02.2021",
+   "page": 8,
+   "reason": "The High Court did decide the matter, dismissing the revision petition."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal allowed; High Court and Trial Magistrate orders set aside; FIR and proceedings quashed",
+   "quote": "the appeal is allowed; the impugned judgment of the High Court dated 18.02.2021 ... are hereby set aside",
+   "page": 19,
+   "reason": "No acquittal was recorded; the appeal was allowed and the FIR quashed."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court found the elementary ingredients of cheating and forgery missing, so none is established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment was imposed; the proceedings were quashed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term was imposed."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine was imposed on the accused; the Rs 1,00,000 is costs payable by respondent No. 2."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "A married couple faced allegations of forging the husband's signature on a minor child's passport application; the husband, abroad, allegedly abandoned the wife in London; the husband later filed a forgery complaint after the wife's cruelty complaint",
+   "quote": "The Court quashed the FIR and all related proceedings ... abuse of the process of law",
+   "page": 17,
+   "reason": "Wrongly says husband abandoned wife in India, and reveals the court outcome (quashing, abuse of process)."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Severity is not classified in the judgment; only maximum punishments are described."
+  },
+  "attempt_completion": {
+   "verdict": "incorrect",
+   "correct_value": "Completed: the minor child's passport was issued",
+   "quote": "Shortly thereafter, the minor child's passport was issued",
+   "page": 6,
+   "reason": "The judgment states the passport was in fact issued, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm from the alleged forgery to the victim is described; torture allegations concern the wife separately."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged under IPC ss.420, 468, 471, 120-B, 201 r/w s.34 and Passports Act s.12(b); orders set aside",
+   "quote": "adding offences under Sections 468, 471, 420, 120-B and 201 read with Section 34 IPC and Section 12(b) of the Passports Act",
+   "page": 7,
+   "reason": "Omits charges under sections 120-B and 201 IPC."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "No property loss; grant of passport caused no loss, damage or injury to respondent No. 2",
+   "quote": "the grant of passport to the minor child did not confer any benefit upon the Appellant-wife, nor did it result in any loss or damage to Respondent No. 2",
+   "page": 12,
+   "reason": "Judgment expressly finds no loss or damage; 'Not applicable' understates this finding."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss premeditation or planning."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Respondent No. 2 lodged the complaint as a counterblast to the wife's cruelty complaint; appellants sought passport for the child to live with father",
+   "quote": "Respondent No. 2 chose to lodge the Concerned FIR as a counterblast to the complaint filed by the Appellant – wife",
+   "page": 18,
+   "reason": "The judgment identifies motives, including the counterblast complaint and the reasons for the passport."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does state that the State FSL report found the forgery allegation inconclusive."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Paid private Truth Lab report found frail, unreliable and untrustworthy without corroboration; respondent No. 2 produced no other proof",
+   "quote": "a paid report obtained from a private laboratory seems to be a frail, unreliable, unsafe, untrustworthy",
+   "page": 16,
+   "reason": "Misses the court's key reliability finding on the Truth Lab report; the motive points are not credibility assessments."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is discussed; respondent No. 2's conduct is separate."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody period is mentioned in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial duration not stated; key dates: passport sought January 2009, complaint lodged 13.05.2010, trial magistrate order 15.03.2018, High Court 18.02.2021, Supreme Court 22.01.2024",
+   "quote": "In January, 2009, the Appellant – wife sought to obtain a passport for the minor child",
+   "page": 6,
+   "reason": "Lists the child's birth date as an offence date and gives no trial duration."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellants: Ranbir Singh Yadav and others. Respondents (respondent No. 2, not the State): Narendra Hodda, Sr. Adv., and others",
+   "quote": "Narendra Hodda, Sr. Adv., Sanchit Garga, R. D. Singh ... Advs. for the Respondents",
+   "page": 5,
+   "reason": "Hodda and others appeared for the respondents, not the State."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supplementary chargesheet filed 25.07.2017; court found it lacked investigative rigour under s.173(8)."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supplementary chargesheet relied on the pre-existing Truth Lab report and failed s.173(8) requisites."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court refused discharge on 15.03.2018, High Court dismissed revision, and Supreme Court allowed appeal, all matching the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Respondent No. 2 (complainant) argued the Truth Lab report should not be discarded at discharge stage and that the passport officer was an accomplice; the State's arguments are not recorded",
+   "quote": "Mr. Hooda objected to discarding the Truth Lab report at the stage of deciding the discharge application",
+   "page": 9,
+   "reason": "Describes charges rather than the arguments actually recorded; s.173(8) plea was by respondent No. 2."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Respondent No. 2 expressly consented to the passport and sponsored travel; complaint was a counterblast; State FSL was inconclusive; no new material; no prima facie case",
+   "quote": "Respondent No. 2 had expressly consented to obtaining the minor child's passport",
+   "page": 8,
+   "reason": "Captures the inconclusive FSL and lack of new material, but omits the consent and counterblast arguments; deceit reasoning is the court's."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fraudulent/dishonest intent for cheating and forgery and the fresh-evidence requirement under s.173(8) are both applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The five cases listed with matching citations are all referred to in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed, so no sentencing rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's findings that the motives were not deceitful and caused no loss or damage."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors against the accused are identified."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Respondent No. 2 is ordered to pay Rs 1,00,000 costs to Appellant No. 1, as stated."
+  }
+ }
+}

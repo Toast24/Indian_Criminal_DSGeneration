@@ -1,0 +1,385 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to two accused, A-1 and A-2."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to with male pronouns and as 'A2 ... his right hand'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased is referred to with male pronouns and as the husband of P.W. 5."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the accused duly armed had entered the house of the deceased",
+   "page": 4,
+   "reason": "Judgment describes intruders but never says they were strangers; the relationship is not expressly stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Core charge is murder under Section 302 read with Section 34."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment cites Sections 302/34, 460 and 324 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused used knives, as stated in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness, medical",
+   "quote": "as supported by the medical evidence",
+   "page": 3,
+   "reason": "Eyewitness and medical evidence are referenced; circumstantial evidence is not identified as an evidence type."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Midnight armed entry, repeated knife use, injuries to witnesses and threats are all in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court treated A-2's blow as struck while extricating himself from the deceased's grip",
+   "quote": "he dealt a knife blow in the process of extricating himself from the clutches of the deceased",
+   "page": 4,
+   "reason": "The High Court relied on this extrication reasoning, which functions as a mitigating point, so 'None noted' is incomplete."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under 302/34, 460 and 324 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court modified conviction to Section 304 Part I and acquitted under Section 302."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court restored the trial court's conviction, so the accused stand convicted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court restored the trial court's Section 302 finding."
+  },
+  "imprisonment_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "convicted and sentenced the accused under Sections 302/34, 460 and 324",
+   "page": 3,
+   "reason": "The judgment gives no sentence type or term; 'fixed_term' has no support."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "convicted and sentenced the accused under Sections 302/34, 460 and 324",
+   "page": 3,
+   "reason": "No number of years of imprisonment appears anywhere in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine amount is stated, so null is appropriate."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused were tied up with rope and police were informed; the judgment does not say they were handed over to police.",
+   "quote": "information was also sent to the police",
+   "page": 3,
+   "reason": "Facts are largely accurate and do not reveal the outcome, but 'handed over to the police' is not stated."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Penal Code, 1860: s. 302134, 460 and 324",
+   "page": 1,
+   "reason": "Minimum and maximum punishment ranges are not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim succumbed to injuries, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment records the deceased's death and injuries to P.Ws. 1, 2 and 3."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three charged offences; Supreme Court restored the trial court's convictions on all of them."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment states no property loss, so the value is consistent with what is stated."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused entered at midnight armed with intent to commit robbery; no explicit finding of premeditation is made.",
+   "quote": "had entered the premises at mid night duly armed with the intention of committing robbery",
+   "page": 4,
+   "reason": "Court found armed entry with robbery intent, but never expressly found premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The initial purpose of the intrusion was to commit robbery."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted armed midnight entry for robbery and A-2's stomach injury causing death."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court relied on in-court evidence of the deceased pinning A-2 and injuries to neighbours; no explicit credibility assessment is made.",
+   "quote": "It is also in evidence that the deceased had managed to pin A2 down to the ground",
+   "page": 4,
+   "reason": "Court relied on the evidence but did not expressly assess witness credibility."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "P.Ws. 1 and 2 overpowered A-2 and pushed him from the balcony; neighbours seized A-1; both were tied with rope and police informed.",
+   "quote": "P.Ws.1 and 2 over powered A-2 and pushed him from balcony",
+   "page": 3,
+   "reason": "Broadly accurate, but A-2 was overpowered by P.Ws. 1 and 2 rather than neighbours generally."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence: night of 20th/21st November 1991; High Court judgment: 11.12.2003; Supreme Court decision: December 14, 2010. Trial court date not stated.",
+   "quote": "Judgment & Order dated 11.12.2003 of the High Court of Andhra Pradesh",
+   "page": 2,
+   "reason": "11.12.2003 is the High Court judgment date, not the trial judgment; the High Court date is wrongly marked not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearance list in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Police informed; trial completed. FIR and charge sheet are not mentioned.",
+   "quote": "information was also sent to the police",
+   "page": 3,
+   "reason": "Trial completion is supported, but FIR registration and charge sheet filing are not stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "It is this part of the judgment which has been challenged by the State of Andhra Pradesh",
+   "page": 3,
+   "reason": "Judgment records no prosecution arguments; the listed content mirrors the court's own reasoning."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Judgment records no defence arguments. High Court held no common intention to murder and blow was struck while extricating.",
+   "quote": "The High Court has been influenced by the fact that there was no common intention",
+   "page": 5,
+   "reason": "No defence argument or 'unfortunate accident' claim is recorded; only the High Court's finding is stated."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's holding that common intention can be inferred from circumstances arising during the incident."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Court held the High Court's s.304 Part I view was erroneous and restored the trial court judgment; no sentence is stated.",
+   "quote": "We, therefore, feel that the High Court's observation that the matter fell under Section 304 Part I and not under Section 302 of the IPC is erroneous",
+   "page": 5,
+   "reason": "Reasoning is correct, but no final sentence was imposed or stated in the judgment."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identified no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Armed midnight entry with robbery intent; repeated effective knife use; injuries to neighbours and threats of dire consequences.",
+   "quote": "the two accused had entered the premises at mid night duly armed with the intention of committing robbery",
+   "page": 4,
+   "reason": "The court's reasoning relies on several aggravating features, so 'None' contradicts the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Set aside the High Court's Section 304 Part I part of the judgment and restored the trial court's judgment.",
+   "quote": "We, accordingly, set aside this part of the High Court judgment and restore that of the trial court.",
+   "page": 5,
+   "reason": "The Supreme Court did set aside part of the High Court judgment and restored the trial court's order, so 'None' is wrong."
+  },
+  "offence_finally_established_placeholder": null
+ }
+}

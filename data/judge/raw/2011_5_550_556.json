@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "GURMAIL SINGH v. STATE OF PUNJAB",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused, eight in number were broguht to trial",
+   "page": 4,
+   "reason": "Judgment states eight accused were brought to trial."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The injury attributed to him on the person of Baljinder Singh",
+   "page": 6,
+   "reason": "Accused are referred to with male pronouns and male names throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated for any accused; the '18 years' reference concerns Randhir Singh's case."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Baljinder Singh succumbed to his injuries",
+   "page": 3,
+   "reason": "Victim Baljinder Singh is male, referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the accused were all of one family and they were annoyed with the members of the victim family",
+   "page": 6,
+   "reason": "Judgment describes rival families in the same locality, not any familial relationship between accused and victim."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a case of common intention is made out",
+   "page": 6,
+   "reason": "Offence is murder under s.302 with common intention."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.302/149, 302, 324/149 and 323/149; no Arms Act provision is stated",
+   "quote": "Sections 302/149, 302, 324/149 and .323/149 of the IPC",
+   "page": 4,
+   "reason": "Value omits ss.149, 324 and 323 and cites an Arms Act section the judgment never mentions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Gurnam Singh and Gurmail Singh were both armed with small knives (kirch)",
+   "page": 3,
+   "reason": "Lathis and kirch knives are both stated as weapons."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness, medical",
+   "quote": "primary reliance on the evidence of Sohan Singh PW 5, Rajwinder Singh PW6, the injured eye witnesses",
+   "page": 4,
+   "reason": "Eyewitness and medical evidence are supported; no recovery evidence is mentioned."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused were all of one family and they were annoyed",
+   "page": 6,
+   "reason": "Common intention, enmity, weapons and fatal vital-part injury are all supported."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted for the convicted accused."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Gurnam Singh, Gurmail Singh, Gurcharan Singh and Sher Singh were convicted",
+   "page": 4,
+   "reason": "Convictions and acquittals match the judgment's account of the trial court."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Affirmed the trial court's judgment (Crl. Appeal No. 609-DB of 1997)",
+   "quote": "This judgment has been affirmed by the High Court",
+   "page": 4,
+   "reason": "The High Court affirmed the trial court's judgment; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Sher Singh acquitted; appeals of the other accused dismissed, convictions upheld",
+   "quote": "We, accordingly, allow the appeal of Sher Singh. The appeals of the other accused are dismissed.",
+   "page": 7,
+   "reason": "'Convicted' ignores that Sher Singh's appeal was allowed and he was acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A case of common intention is, thus, spelt out.",
+   "page": 6,
+   "reason": "Murder with common intention was upheld as the established offence."
+  },
+  "imprisonment_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state any sentence or imprisonment type."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No term of imprisonment is mentioned anywhere in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned, so null is appropriate."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Dispute arose because the complainant party allegedly teased Nindo, daughter of Sher Singh; Baljinder Singh, not a brother, died.",
+   "quote": "teach the complainant party a lesson for having teased Nindo",
+   "page": 3,
+   "reason": "Summary wrongly says victim's son teased, calls the deceased the victim's brother, and says the victim's brother died."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Punishment range is not discussed in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "which had led to the death of the deceased",
+   "page": 6,
+   "reason": "The offence was completed with death of Baljinder Singh."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Injuries inflicted on 'RS' and 'BS'",
+   "page": 1,
+   "reason": "Headnote confirms injuries to both, with BS succumbing."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Eight accused charged; three convictions finally upheld (Sher Singh acquitted)",
+   "quote": "The appeals of the other accused are dismissed.",
+   "page": 7,
+   "reason": "Only three accused's convictions stand after Sher Singh was acquitted, not four."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Court did not expressly find premeditation; it noted accused drank together, then came out armed and raised a lalkara",
+   "quote": "the accused had been drinking together in the house of Parshottarn Singh and had thereafter come out",
+   "page": 5,
+   "reason": "Court noted armed lalkara but did not expressly find premeditation; the planning finding came from Arun Nivalaji More."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "teach the complainant party a lesson for having teased Nindo",
+   "page": 3,
+   "reason": "Enmity over teasing of Nindo is the stated motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the injury in the present case had been caused directly and deep into the stomach of the deceased, a very vital part",
+   "page": 6,
+   "reason": "Court accepted the stomach injury as vital and fatal within a short time."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Credibility not separately discussed by the Supreme Court; trial court relied on Sohan Singh, Rajwinder Singh and medical evidence",
+   "quote": "The prosecution placed primary reliance on the evidence of Sohan Singh PW 5, Rajwinder Singh PW6",
+   "page": 4,
+   "reason": "Value attributes credibility reasoning to the Supreme Court, which does not discuss witness credibility."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused ran away from the spot after the women's counter-attack with brickbats",
+   "quote": "As a consequence of this counter attack the accused ran away from the spot.",
+   "page": 3,
+   "reason": "Judgment states the accused fled the scene, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence: 25 March 1996; High Court judgment: 19.01.2007; trial court date not stated; Supreme Court: 20 April 2011",
+   "quote": "From the Judgment & Order dated 19.01.2007 of the High Court",
+   "page": 2,
+   "reason": "19.01.2007 is the High Court judgment date, not the trial judgment; the High Court date is wrongly marked not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "P.N. Puri, Manu Sharma, Sanjay Jain, D.P. Singh, Avneet Toor, Kuldip Singh",
+   "page": 2,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Investigation completed; accused brought to trial",
+   "quote": "After investigation, the accused, eight in number were broguht to trial",
+   "page": 4,
+   "reason": "Trial completion is supported, but a charge sheet filing is not explicitly stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "We, accordingly, allow the appeal of Sher Singh. The appeals of the other accused are dismissed.",
+   "page": 7,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "unsupported",
+   "correct_value": "The State supported the trial court's judgment; no specific prosecution argument on the stomach injury is recorded",
+   "quote": "The learned counsel for the State has, however, supported the judgment of the trial court.",
+   "page": 4,
+   "reason": "The stomach-injury reasoning is the Court's own; the judgment records no such prosecution argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the injury attributed to him could have caused as a result of a scuffle during the incident and was not possible with a lathi",
+   "page": 4,
+   "reason": "Culpable homicide, s.34 and scuffle arguments are all recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the question as to whether the injury had been caused with the intention to cause death would be a matter of objective satisfaction of the Court",
+   "page": 5,
+   "reason": "Objective satisfaction principle is correctly stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Virsa Singh v. State of Punjab AIR 1958 465",
+   "page": 5,
+   "reason": "All listed precedents appear in the judgment's reference list."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no sentencing rationale."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Injury to a vital part (stomach) causing death within a short time; lalkara threatening retribution",
+   "quote": "a very vital part, which had led to death within a short time",
+   "page": 6,
+   "reason": "Court relied on aggravating features such as the vital-part injury and lalkara, so 'None' is wrong."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence order beyond the appeal disposal is stated."
+  }
+ }
+}

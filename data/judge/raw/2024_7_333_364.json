@@ -1,0 +1,386 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The learned trial Court framed charges against the accused Gaurav Maini(A1), Gaurav Bhalla(A2), Munish Bhalla(A3) and Sanjay @ Sanju(A4)",
+   "page": 11,
+   "reason": "Four accused were tried, convicted and appealed; seven were charge-sheeted in total."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Gaurav Maini(A1), Gaurav Bhalla(A2), Munish Bhalla(A3) and Sanjay @ Sanju(A4)",
+   "page": 11,
+   "reason": "Accused are male, referred to by male names and pronouns."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupations are not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the kidnapped boy, i.e., Sachin Garg(PW-2)",
+   "page": 12,
+   "reason": "Victim is a boy, so male is supported."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim is called a minor boy but no age is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Acquaintance for A2 (known to victim from before); others not known to victim",
+   "quote": "the kidnapped boy-Sachin Garg(PW-2) knew accused Gaurav Bhalla(A2) from before",
+   "page": 30,
+   "reason": "Judgment says A2 was known to the victim and the other accused were not; 'Stranger' is wrong for A2."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Kidnapping for ransom; Robbery",
+   "page": 1,
+   "reason": "Kidnapping for ransom with robbery fits the offences charged."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offences punishable under Sections 364A, 392 and 120B of the Indian Penal Code",
+   "page": 5,
+   "reason": "Matches the convicted provisions stated in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Three persons came out of the car from which one was carrying a pistol... second assailant armed with a knife",
+   "page": 8,
+   "reason": "Pistol and knife are both stated as weapons used."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Direct testimony of victim and father, circumstantial evidence, disclosure statements (not proved), call detail records (inadmissible), identification",
+   "quote": "the prosecution case is founded on unimpeachable testimony of the minor boy Sachin Garg",
+   "page": 15,
+   "reason": "Omits the victim and father testimony and identification; call records were held inadmissible, not relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "disclosure statement under Section 27 of the Indian Evidence Act",
+   "page": 9,
+   "reason": "No confession is recorded; section 27 disclosures were made but found not proved."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not analyse aggravating circumstances for sentencing."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the learned trial Court held the appellants guilty for the above mentioned offences and sentenced them",
+   "page": 5,
+   "reason": "Trial court convicted and sentenced the appellants."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court dismissed the appeals and upheld the conviction and sentences",
+   "quote": "The Division Bench of the Punjab and Haryana High Court dismissed the appeals",
+   "page": 5,
+   "reason": "High Court dismissed appeals and upheld conviction; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellants are acquitted of the charges.",
+   "page": 32,
+   "reason": "Supreme Court acquitted all appellants."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "entire story of the prosecution is nothing but a piece of fabrication",
+   "page": 31,
+   "reason": "No offence was finally established; all convictions were set aside."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They are on bail and need not surrender.",
+   "page": 32,
+   "reason": "No imprisonment imposed after acquittal."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment remains after acquittal, so null fits."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine remains after acquittal, so null fits."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts omitting the outcome: a minor boy was allegedly kidnapped for ransom; the grandfather disclosed the incident to the IO; prosecution relied on witnesses, recoveries and call records; trial and High Court convicted.",
+   "quote": "the Supreme Court found the prosecution's case to be fabricated and the conviction to be unsustainable",
+   "page": 32,
+   "reason": "Facts reveal the court's outcome. Also says grandfather reported to police, which is only to the IO."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as a severity grading; trial court sentences were life imprisonment under s.364A and s.120B and five years RI under s.392",
+   "quote": "Life imprisonment and a fine of Rs. 10,000/- ... Rigorous imprisonment for five years",
+   "page": 5,
+   "reason": "Sentences are accurately quoted but the column asks for severity, not sentences; sentences were later set aside."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rs. 1 crore for his release",
+   "page": 7,
+   "reason": "Ransom was paid and the boy was released, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "No injuries or death stated; boy was robbed, blindfolded, confined and threatened",
+   "quote": "His wrist watch, ATM card, school card, gold chain and some money lying in his pocket were robbed at pistol and knife point",
+   "page": 8,
+   "reason": "Heading says injuries or death, but the judgment states no injuries; robbery and confinement are described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charge sheet against seven; charges framed against four under ss.364A, 392, 120B; three discharged; four convicted then acquitted",
+   "quote": "a charge sheet came to be filed against seven accused persons",
+   "page": 11,
+   "reason": "Not a count of offences; says 'upheld' though acquitted, and omits the three discharged persons."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Ransom of Rs. 1 crore paid; victim's gold chain, wrist watch and cash snatched; various sums recovered (incl. Rs. 3,72,500, Rs. 5,80,000, Rs. 4,55,500 omitted)",
+   "quote": "Currency notes to the tune of Rs. 17,00,000/-",
+   "page": 9,
+   "reason": "Lists recovered amounts but omits the Rs. 1 crore ransom paid and some recovered sums."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss premeditation or planning by the accused."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused were framed in the case for ulterior motive",
+   "page": 32,
+   "reason": "Ransom is the alleged motive and court found ulterior motive for framing."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Court accepted no prosecution evidence; it found the story concocted and the star witnesses' versions inherently improbable",
+   "quote": "there exist inherent improbabilities in the versions of these two star prosecution witnesses",
+   "page": 18,
+   "reason": "Court accepted no evidence; the value describes its finding loosely as acceptance."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution failed to examine the most relevant witness, namely, Shamlal Garg",
+   "page": 31,
+   "reason": "Supported by the court's findings on the witnesses and the non-examination of the grandfather."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No accused post-offence conduct is described."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "A1: 10 years 11 months (approx.); A2: 9 years (approx.); A3: 7 years 2 months; A4: 10 years 10 months (approx.)",
+   "quote": "were in custody for 10 years 11 months(approx.); 9 years(approx.); 7 years 2 months; 10 years 10 months(approx.)",
+   "page": 14,
+   "reason": "Judgment states custody durations for each accused; 'Not stated' is wrong."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants are on bail; need not surrender; bail bonds discharged",
+   "quote": "They are on bail and need not surrender. Their bail bonds are discharged.",
+   "page": 32,
+   "reason": "Judgment states the appellants are on bail, so 'Not stated' is wrong."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "dates_of_offence": "2 April 2003 (kidnapping and ransom); trial_judgment: 26 September 2005; high_court_decision: 19 January 2009; supreme_court_decision: 09 July 2024"
+   },
+   "quote": "On 2nd April, 2003. Even though the kidnapped boy... had been released on 3rd April, 2003",
+   "page": 14,
+   "reason": "Offence date of 2 April 2003 is stated, so 'Not stated' is wrong; other dates are correct."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ms. Kiran Suri, Neeraj Kumar Jain, Sr. Advs.",
+   "page": 5,
+   "reason": "Counsel for appellants and State match the appearances section."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a formal FIR No. 283 of 2003 dated 15th April, 2003",
+   "page": 6,
+   "reason": "FIR date, charge sheet and completed trial are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Investigation Officer had no authority to release the currency notes without an order of the Court",
+   "page": 23,
+   "reason": "All listed irregularities are supported by the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the judgment dated 26th September, 2005 ... and the judgment dated 19th January, 2009 ... are hereby quashed and set aside",
+   "page": 32,
+   "reason": "Trial conviction, High Court affirmance and Supreme Court acquittal are correctly stated."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued unimpeachable testimony of victim, corroboration by father, grandfather's statement and recoveries; s.106/114 presumption; concurrent findings",
+   "quote": "the prosecution case is founded on unimpeachable testimony of the minor boy Sachin Garg",
+   "page": 15,
+   "reason": "Captures the kidnapping and ransom facts but omits the State's actual arguments on corroboration and presumptions."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued fabrication, delay in reporting, dock identification, disclosure and recovery defects, currency handling, alibi, and defence witnesses' evidence ignored",
+   "quote": "the entire case setup by the prosecution is false and fabricated",
+   "page": 12,
+   "reason": "Fabrication and mobile-number points are supported; 'inherent improbabilities' was the court's reasoning, not the defence's argument."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the trial Court is under an obligation not to act as a mere spectator",
+   "page": 27,
+   "reason": "Supported by the court's discussion of ss.311 CrPC and 165 Evidence Act."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Pooja Pal v. Union of India and Others [2016] 11 SCR 560 : (2016) 3 SCC 135",
+   "page": 27,
+   "reason": "Both cases cited in the judgment are listed correctly."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale applies since the appellants were acquitted."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They are on bail and need not surrender. Their bail bonds are discharged.",
+   "page": 32,
+   "reason": "Only acquittal, bail bond discharge and pending applications disposal were ordered."
+  }
+ }
+}

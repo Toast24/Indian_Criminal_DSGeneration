@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to sixteen accused persons in the prosecution story."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never states the accused's genders; 'Mixed' is an inference not backed by the text."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused ages are stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged non-SC/ST; prosecution failed to prove",
+   "quote": "the accused party belongs to non-SC/ST community whereas the victim was belonging to SC community",
+   "page": 24,
+   "reason": "Judgment states the prosecution alleged accused were non-SC/ST, though this was not proved."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupations are not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Shamrao is referred to as male ('his husband', 'his hand')."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged SC; prosecution failed to prove",
+   "quote": "the victim was belonging to SC community",
+   "page": 24,
+   "reason": "Judgment records the SC allegation; trial court held it was not proved, not 'Not stated'."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Neighbours/known to the deceased; relationship with accused no. 4 described as cordial",
+   "quote": "the relationship between them were cordial",
+   "page": 16,
+   "reason": "Accused were neighbours and known to the victim, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case concerns murder under s.302 read with s.149 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.147, 148, 452 r/w s.149, s.302/149 and s.506; charge under SC/ST (Prevention of Atrocities) Act ss.3(i)(x) and 2(v) also pursued",
+   "quote": "the charge under Section 3(i)(x) and 2(v) of the Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act",
+   "page": 24,
+   "reason": "Omits the SC/ST (Prevention of Atrocities) Act charges mentioned in the judgment."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Sticks, axe, sword and iron pipe (alleged); recovered weapons had no bloodstains",
+   "quote": "accused no. 11 was armed with an axe, accused no. 13 was armed with a sword and accused no. 16 was holding an iron pipe",
+   "page": 16,
+   "reason": "Judgment clearly identifies sticks, axe, sword and iron pipe as weapons used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the prosecution relies on circumstantial evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by accused is mentioned; only disclosure statements and recoveries."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court does not identify aggravating circumstances; 'brutal manner' appears only in State's argument."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; court noted accused had already undergone about three years' imprisonment before bail",
+   "quote": "the accused have already undergone about three years' of imprisonment before they were enlarged on bail",
+   "page": 28,
+   "reason": "Court noted prior custody of about three years, which is not reflected as 'none noted'."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court acquitted all accused."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court reversed acquittal and convicted accused (except A-6) under ss.147, 148, 452, 302/149 and 506 IPC",
+   "quote": "convicted all the accused before it except accused no. 6",
+   "page": 11,
+   "reason": "High Court reversed the acquittal and convicted, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed appeals and restored trial court acquittal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was finally established; Supreme Court held guilt not proved beyond reasonable doubt."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final sentence imposed; High Court's life sentence was set aside."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment term; High Court sentences were set aside."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine; High Court fine was set aside."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts only: sixteen accused, dispute over Rs.50, deceased dragged and assaulted, hand found amputated, circumstantial evidence and witnesses, without stating court outcomes",
+   "quote": "we allow these appeals, set aside the impugned order passed by the High Court",
+   "page": 28,
+   "reason": "Facts reveal trial acquittal, High Court reversal and Supreme Court outcome, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court sentences: 2 years (ss.147, 148, 452); life and Rs.5,000 fine (s.302/149); 6 months and Rs.500 fine (s.506); sentences set aside",
+   "quote": "imprisonment for life and to pay a fine of Rs.5,000/- each",
+   "page": 11,
+   "reason": "Describes High Court sentences, not severity; omits s.506 sentence and fine details."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death of the deceased is alleged and recorded, so completed offence."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Death due to heavy blood loss from hand amputation (per PW7); court found amputation by accused not proved",
+   "quote": "the cause of the death was due to heavy loss of blood owing to the amputation of his hand",
+   "page": 25,
+   "reason": "Doctor's opinion is stated, but judgment doubts that accused caused the amputation."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charges framed against 15 accused at joint trial; 16th accused tried separately and acquitted; SC acquitted all",
+   "quote": "charges were framed against accused nos. 1 to 15",
+   "page": 11,
+   "reason": "Only 15 were charged jointly; the 16th was separately tried. Not all 15 were upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Planning or premeditation is not discussed beyond common object of unlawful assembly."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Quarrel over Rs.50 in which deceased slapped accused no. 4; alleged SC/ST caste motive (not proved)",
+   "quote": "the motive behind the accused assaulting the deceased was said to be the quarrel during which the deceased had slapped Accused No. 4",
+   "page": 23,
+   "reason": "Judgment identifies the alleged motive; the court found it unproven."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "No prosecution evidence held reliable; court found witness testimony contradictory and key witnesses/panch evidence unreliable",
+   "quote": "In view of the shortcomings and discrepancies in the prosecution case",
+   "page": 28,
+   "reason": "Describes reasons for rejection rather than identifying any accepted evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment discusses interested related witnesses and their contradictory, improved statements."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's post-offence conduct is not stated; only PW1's conduct is discussed."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "About three years' imprisonment before enlargement on bail",
+   "quote": "the accused have already undergone about three years' of imprisonment before they were enlarged on bail",
+   "page": 28,
+   "reason": "Judgment states the accused underwent about three years' imprisonment."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Accused were enlarged on bail after about three years' imprisonment; bail bonds discharged",
+   "quote": "Resultantly, their bail bonds stand discharged",
+   "page": 28,
+   "reason": "Judgment states accused were enlarged on bail and bail bonds discharged."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (21.12.2013 is the High Court judgment date; trial court judgment date not given)",
+   "quote": "common judgment and order, dated 21st December, 2013, passed by the High Court",
+   "page": 9,
+   "reason": "21.12.2013 is the High Court date; trial judgment date is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's list of advocates."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Investigation completed; accused arrested, panchanamas and recoveries done; charges framed; trial completed",
+   "quote": "After completion of investigation, charges were framed against accused nos. 1 to 15",
+   "page": 11,
+   "reason": "Charge sheet filing is not explicitly stated in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Test identification parade not conducted; panch witnesses' signatures obtained at police instance; PW6 could not identify his signatures",
+   "quote": "PW6 who proved the recovery of weapons at the instance of accused—appellants, could not point out his signature",
+   "page": 25,
+   "reason": "Judgment notes multiple procedural irregularities, including no TIP and doubtful seizure panchnamas."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial acquittal, High Court reversal with conviction, and Supreme Court restoration are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution (State) argued minor discrepancies were given undue importance; accused acted in common object, attacking deceased indiscriminately; PW1 tried to save him",
+   "quote": "The minor discrepancies in the depositions have been given undue importance",
+   "page": 12,
+   "reason": "Omits State's main arguments on minor discrepancies and common object; medical and weapon points not stated as State's argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence arguments on contradictions, related witnesses, no TIP, FIR omissions and medical evidence match judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment applies beyond-reasonable-doubt standard and caution in interfering with acquittal."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All listed authorities appear in the judgment as relied on or referred to."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale applies since acquittal was restored."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no mitigating factors for sentencing purposes."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no aggravating factors for sentencing purposes."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only order is setting aside High Court order and restoring acquittal; no other sentence order."
+  }
+ }
+}

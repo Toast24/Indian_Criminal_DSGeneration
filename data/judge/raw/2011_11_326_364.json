@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's parties (Union of India & Ors. v. Bodupalli Gopalaswami)."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "One accused, the Commandant (respondent no. 1), is tried and dismissed."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to the accused as 'he' and 'the Commandant' throughout; male is supported."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the first respondent reached the age of superannuation long ago",
+   "page": 38,
+   "reason": "No age is stated; judgment only says he reached superannuation and the matter is over 20 years old."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned anywhere in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states he was Commandant of 227 Company ASC (Supply)."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified; offences are military-discipline and fraud-on-government charges."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim exists, so no relationship is stated."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Military offences under Army Act: fraud-type (s. 52(f)) and prejudice to good order and military discipline (s. 63)",
+   "quote": "the first charge was an offence falling under section 52(f) of the Act",
+   "page": 28,
+   "reason": "No homicide is involved; charges concern fraud and military discipline under the Army Act."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Army Act, 1950 - s. 71",
+   "page": 1,
+   "reason": "Army Act ss. 52(f), 63 and Pension Regulation 16(a) are all referenced in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Witness testimony (13 prosecution witnesses), documentary exhibits, and material objects; inspection findings",
+   "quote": "As many as 13 witnesses were examined. A large number of documents ... apart from three material objects",
+   "page": 26,
+   "reason": "Omits witness testimony and inspection evidence; 'circumstantial' is not described in the judgment."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not mention any confession; 'None' is an inference not stated."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are expressly stated."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Matter over 20 years old; respondent reached superannuation; charges technical; limited role as overall controlling officer",
+   "quote": "having regard to the fact that the matter is more than 20 years old and the first respondent reached the age of superannuation long ago",
+   "page": 38,
+   "reason": "Judgment does state mitigating points, as the judicial mitigating factors field itself reflects."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "General Court Martial imposed dismissal from service; President later forfeited pension by order dated 22.12.1995",
+   "quote": "the GCM imposed the sentence of dismissal from service on first respondent on 30.7.1993",
+   "page": 16,
+   "reason": "GCM imposed only dismissal; pension forfeiture was a separate Presidential order, not the trial outcome."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court ... quashed the order dated 22.12.1995 forfeiting the pension",
+   "page": 16,
+   "reason": "High Court quashed the pension forfeiture order while upholding dismissal and findings."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the findings of guilt regarding charges (1), (4) and 5(c) ... there is no reason to interfere",
+   "page": 26,
+   "reason": "Guilt on charges 1, 4 and 5(c) upheld; punishment reduced, so 'convicted' is supported."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Offences under s. 52(f) and s. 63 of the Army Act (charges 1, 4 and 5(c))",
+   "quote": "The other two charges which are held to be proved relate to acts or omissions ... punishable under section 63",
+   "page": 28,
+   "reason": "Culpable homicide is not an established offence; proved offences are Army Act fraud and discipline offences."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (no imprisonment imposed; punishment was forfeiture of 8 years' service for pension and severe reprimand)",
+   "quote": "forfeiture of eight years of service for the purpose of pension; and (b) Severe reprimand",
+   "page": 38,
+   "reason": "No imprisonment was imposed; the substituted punishment was forfeiture of service and reprimand."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "forfeiture of eight years of service for the purpose of pension",
+   "page": 38,
+   "reason": "Eight years refers to forfeiture of service for pension purposes, not imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts should omit the Supreme Court's outcome (setting aside dismissal and substituting lesser punishment)",
+   "quote": "the Supreme Court set aside the dismissal and substituted it with a lesser punishment",
+   "page": 39,
+   "reason": "Facts reveal the court outcome, which neutral_facts must not do; other facts are broadly accurate."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for a term which may extend to ten years ... imprisonment for a term which may extend to seven years",
+   "page": 28,
+   "reason": "Maximum terms under s. 52(f) (ten years) and s. 63 (seven years) match the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charged conduct is treated as completed acts or omissions; 'Completed' is consistent with the judgment."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No injury or death is mentioned; the charges concern meat quality and procedure."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "5 charges framed; 3 charges (1, 4, 5(c)) found proved and upheld",
+   "quote": "The first respondent ... was also issued a charge-sheet ... containing the following charges",
+   "page": 13,
+   "reason": "Five charges were framed, not three; the GCM found three proved, which the Supreme Court upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (no loss amount); charge alleged intent to defraud government",
+   "quote": "to defraud the government",
+   "page": 9,
+   "reason": "Fraud-on-government allegation exists, so 'Not applicable' is inaccurate; no quantified loss is stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is established; the charge alleged intent to defraud without identifying motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "heart was an edible offal and could be issued on demand of units and also reiterated the said observation in his confidential report",
+   "page": 34,
+   "reason": "Accurately reflects the accepted observation evidence and the absence of instruction evidence."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not assess witness credibility; the inference from subordinates being punished is not a credibility finding."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Respondent reiterated his observation in confidential report dated 15.2.1990",
+   "quote": "reiterated the said observation in his confidential report dated 15.2.1990",
+   "page": 9,
+   "reason": "Judgment records a post-inspection act (confidential report reiterating the observation), not 'Not stated'."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "GCM trial commenced 22.1.1993 and concluded 30.7.1993",
+   "quote": "The trial commenced on 22.1.1993 and concluded on 30.7.1993.",
+   "page": 16,
+   "reason": "Listed dates are for the High Court and Supreme Court decisions, not the trial duration."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "P.P. Malhotra, ASG, Rajiv Nanda, Rahul Kaushik, B.K. Prasad (for B.V. Balaram Das) for the Appellants",
+   "page": 11,
+   "reason": "Counsel names match the appellant and respondent listings in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a direction for trial of the first respondent by General Court Martial",
+   "page": 16,
+   "reason": "Charge sheet issued and GCM trial completed; consistent with the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Plea of Presiding Officer's disqualification was raised but rejected; no procedural irregularity found",
+   "quote": "the act of summarily trying others for other offences relating to the same incident is not a ground of disqualification",
+   "page": 24,
+   "reason": "A procedural irregularity was alleged and rejected; 'None noted' omits the raised plea."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "HC partly allowed writ and quashed pension forfeiture; Union appealed (Crl. A. 876/2003), respondent appealed (Crl. A. 877/2003); SC allowed both",
+   "quote": "The High Court by judgment dated 25.8.2000 allowed the writ petition in part",
+   "page": 16,
+   "reason": "Trial_court entry misdescribes the High Court writ; high_court entry mixes in Supreme Court outcome."
+  },
+  "prosecution_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (judgment does not record the appellants' arguments)",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not record counsel's arguments; the stated position is inferred rather than recorded."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Respondent contended procedural irregularity, perverse findings, and shockingly disproportionate punishment",
+   "quote": "that in spite of his challenge, it was not set right and therefore, the entire Court Martial proceedings ... were vitiated",
+   "page": 22,
+   "reason": "Respondent argued findings were perverse, not 'not perverse'; he challenged procedure and proportionality."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the power to deny pension as a consequence of an officer being cashiered or dismissed or removed from service, vests only with the President of India under Regulation 16(a)",
+   "page": 20,
+   "reason": "Matches the Court's stated principle on Regulation 16(a) and independence from court-martial punishment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "P.D. Yadav (relied); Major A. Hussain (relied); Ranjit Thakur (relied); R.K. Sharma (referred); Brig. A.K. Malhotra was reversed, not relied upon",
+   "quote": "Brig. A. K. Malhotra v. Union of India (1997) (4) SLR 51 - stood reversed in P. D. Yadav",
+   "page": 5,
+   "reason": "Brig. A.K. Malhotra is listed as relied upon but the Court held it reversed; R.K. Sharma was only referred to."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the punishment of dismissal from service is shockingly disproportionate to the gravity of the offences held to be proved",
+   "page": 38,
+   "reason": "Accurately reflects the reasoning for substituting a lesser punishment."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the charges in so far as the first respondent were technical in nature",
+   "page": 37,
+   "reason": "Court considered technical nature of charges, limited role and subordinates' omissions."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not expressly state that no aggravating factors exist; 'None' is an inference."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The respondents are directed to process and settle his pension claim within six months",
+   "page": 39,
+   "reason": "Pension settlement direction and denial of back-wages both match the judgment."
+  }
+ }
+}

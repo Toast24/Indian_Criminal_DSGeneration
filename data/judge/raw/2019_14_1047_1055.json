@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Hetam Singh, Raghubir Singh, Nirbhaya Singh and Ratan Singh",
+   "page": 4,
+   "reason": "Five accused are named in the judgment, consistent with the value of 5."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Imrat Singh, Hetam Singh, Raghubir Singh, Nirbhaya Singh and Ratan Singh",
+   "page": 4,
+   "reason": "The accused are named male individuals; gender is only implicit, but the value is reasonable."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of any accused is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Criminal antecedents are attributed to the witnesses, not the accused; no accused record is stated."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He had a lot of enemies.",
+   "page": 9,
+   "reason": "The deceased Gajraj Singh is referred to with male pronouns and as father-in-law."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to accused; enmity between the two sides",
+   "quote": "It may be true that there was enmity between the two sides.",
+   "page": 9,
+   "reason": "Accused lured the deceased, and the judgment notes enmity; the relationship is not stranger."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicting the appellants of having committing offences punishable under Sections 148 and 302 read with 149",
+   "page": 3,
+   "reason": "Offence is murder under s.302 IPC with s.148 and s.149 liability."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 148 and 302 read with 149 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Provisions match the judgment's statement of the convicting sections."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "beating Gajraj Singh with lathis",
+   "page": 3,
+   "reason": "Lathis are the only weapon mentioned."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW10 and PW11 ... eye-witnesses; last seen theory for Somati (PW-6) and Raghubir (PW-7)",
+   "page": 3,
+   "reason": "Eyewitness testimony plus last-seen (circumstantial) evidence are both discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned, so the absence is consistent with the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the sentencing sense."
+  },
+  "trial_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Convicted under ss.148 and 302 r/w s.149 IPC; life imprisonment for murder",
+   "quote": "convicting the appellants of having committing offences punishable under Sections 148 and 302 read with 149",
+   "page": 3,
+   "reason": "Trial court convicted under ss.148 and 302 r/w 149; culpable homicide is not mentioned."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Upheld the trial court's conviction (judgment dated 24.10.2008)",
+   "quote": "the High Court upheld the judgment of the Sessions Judge",
+   "page": 3,
+   "reason": "The High Court did decide the appeal and upheld the conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we allow the appeal, set aside the conviction of both the Courts below. Accused are acquitted accordingly.",
+   "page": 9,
+   "reason": "Supreme Court acquitted the accused."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused are acquitted accordingly.",
+   "page": 9,
+   "reason": "No offence was finally established since the accused were acquitted."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment (murder) and two years rigorous imprisonment (s.148) at trial; set aside on appeal",
+   "quote": "sentenced to undergo life imprisonment for the offence of murder and two years rigorous imprisonment",
+   "page": 3,
+   "reason": "Value says none, but trial imposed life and rigorous imprisonment, later set aside."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment (murder); two years rigorous imprisonment (s.148) at trial, set aside",
+   "quote": "two years rigorous imprisonment for the offence punishable under Section 148 IPC",
+   "page": 3,
+   "reason": "Null omits the two-year rigorous sentence for s.148 imposed at trial."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "25000",
+   "quote": "They were also directed to pay fine of Rs.25,000/-",
+   "page": 3,
+   "reason": "Judgment records a fine of Rs.25,000 imposed at trial, not null."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Summary of facts and proceedings without stating the Supreme Court's final conclusion or the acquittal.",
+   "quote": "the benefit of the doubt should be given to the accused",
+   "page": 9,
+   "reason": "Summary reveals the court outcome by stating benefit of doubt and insufficiency of the prosecution case."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo life imprisonment for the offence of murder and two years rigorous imprisonment for the offence punishable under Section 148 IPC",
+   "page": 3,
+   "reason": "Matches the trial sentences as stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Gajraj Singh was not a very popular man... beaten to death",
+   "page": 8,
+   "reason": "Death of the victim is alleged, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Gajraj Singh was beaten to death by the five accused with lathis",
+   "page": 8,
+   "reason": "Judgment states prosecution's case that the deceased was beaten to death with lathis."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charged under ss.148 and 302 r/w 149 IPC; convictions set aside on appeal",
+   "quote": "we allow the appeal, set aside the conviction of both the Courts below",
+   "page": 9,
+   "reason": "Convictions were not finally upheld; the Supreme Court set them aside and acquitted."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not addressed in the judgment."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Enmity between the two sides, noted as a possible motive but not established",
+   "quote": "Enmity, as is often said is a double edged sword. It can be the motive",
+   "page": 9,
+   "reason": "Judgment discusses enmity as possible motive, so 'Not identified' is incomplete."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is difficult to rely upon the statements of Lakhan Singh (PW-10) and Ram Singh (PW-11)",
+   "page": 9,
+   "reason": "Court did not accept PW10 and PW11 testimony and questioned investigation fairness."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "these witnesses have been improving their statements with the passage of time",
+   "page": 6,
+   "reason": "Matches the court's assessment of PW10 and PW11 as unreliable."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is described; witness conduct is not accused conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused are on bail.",
+   "page": 9,
+   "reason": "Custody duration is not stated; judgment only says accused are on bail."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Accused are on bail. Their bail bonds are discharged.",
+   "page": 9,
+   "reason": "Matches the judgment's bail statement."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "judgment dated 24.10.2008 ... Sessions Judge, Datia dated 30.03.1995",
+   "page": 3,
+   "reason": "Dates of offence, trial judgment, High Court and Supreme Court decisions match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Shikhil Suri, Adv. (A.C.), Ms. June Chaudhary, Sr. Adv.",
+   "page": 2,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The FIR has been recorded admittedly after visiting the spot by the police",
+   "page": 8,
+   "reason": "Matches the judgment's account of FIR timing and site plan."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the manner in which the site plan was prepared clearly indicates that the investigation was not a fair investigation",
+   "page": 7,
+   "reason": "Matches the court's finding on site plan preparation and fairness."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: convicted; High Court: upheld conviction; Supreme Court: appeal allowed, convictions set aside, accused acquitted",
+   "quote": "the High Court upheld the judgment of the Sessions Judge",
+   "page": 3,
+   "reason": "Trial court convicted; 'conviction upheld' misdescribes the trial court stage."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution relied on PW10 and PW11 as eyewitnesses; last-seen evidence from PW6 and PW7",
+   "quote": "treating these two witnesses as eye-witnesses have convicted all the accused",
+   "page": 3,
+   "reason": "Reliance on eyewitnesses is supported; the FIR-after-spot point is the court's observation, not a prosecution argument."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Testimonies of PW10 and PW11 untrustworthy; PW6 and PW7 contradictory; conviction should be set aside",
+   "quote": "the testimonies of Lakhan Singh (PW-10) and Ram Singh (PW-11) are totally untrustworthy and cannot be relied upon",
+   "page": 3,
+   "reason": "Core untrustworthiness argument is supported; investigation, witness absence and enmity points are not recorded as defence submissions."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Contradictions cast doubt; benefit of doubt given to accused",
+   "quote": "a doubt has been cast and the benefit of doubt has to be given to the accused",
+   "page": 9,
+   "reason": "Judgment applies benefit of doubt; 'beyond reasonable doubt' phrasing is not stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given; appeal was allowed on merits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Contradictions, possible concocted story, enmity and witnesses' criminal antecedents cast doubt on prosecution case",
+   "quote": "almost all the witnesses have some criminal antecedents",
+   "page": 9,
+   "reason": "Factors are cited, but they are grounds for doubt on evidence, not mitigating circumstances."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Their bail bonds are discharged.",
+   "page": 9,
+   "reason": "No other sentence order beyond acquittal and bail bond discharge is recorded."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "N PARAMESWARAN UNNI v. G KANNAN AND ANOTHER",
+   "page": 1,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "first respondent/accused borrowed Rs. 64,000/-",
+   "page": 4,
+   "reason": "Only the first respondent is the accused."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Male",
+   "quote": "borrowed Rs. 64,000/- oil 13-10-1990 from the appellant/complainant. ... his bank",
+   "page": 4,
+   "reason": "The judgment uses 'his' for the first respondent, so gender is indicated as male; 'Not stated' is slightly off."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on status."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cheque dishonour is a victimless offence; no victim is identified."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "first respondent/accused borrowed Rs. 64,000/- oil 13-10-1990 from the appellant/complainant",
+   "page": 4,
+   "reason": "Debtor-creditor relationship is described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cheque dishonour is not among the listed categories, so 'Other' fits."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 138 r/w 142 of N.I. Act is attracted",
+   "page": 8,
+   "reason": "Matches the provisions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon involved."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "documentary evidence adduced on behalf of the parties",
+   "page": 4,
+   "reason": "Documentary evidence: cheques, memo, notices."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted and sentenced the first respondent to undergo simple imprisonment of three months",
+   "page": 5,
+   "reason": "Accurate."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "allowed the revision by reversing the concurrent findings of the two Courts below",
+   "page": 5,
+   "reason": "Accurate."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "convicted",
+   "quote": "we set aside the impugned judgment of the High Court.",
+   "page": 8,
+   "reason": "Conviction restored; the in-lieu payment is arguably a modification, but 'convicted' fits better because conviction is upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 138 r/w 142 of N.I. Act is attracted",
+   "page": 8,
+   "reason": "Section 138 offence stands."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "fixed_term",
+   "quote": "conviction and sentence of three months awarded by the Ld. Trial Court ... shall stand restored",
+   "page": 8,
+   "reason": "Sentence is replaced by deposit, but three months imprisonment is restored on default; 'none' is debatable."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "0.25 (contingent on default)",
+   "quote": "conviction and sentence of three months ... shall stand restored",
+   "page": 8,
+   "reason": "Three months sentence stands on default of deposit, so null is incomplete."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "deposit the said amount of Rs. 2,00,000/-",
+   "page": 8,
+   "reason": "Deposit is compensation in lieu of imprisonment, not a fine."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Remove the court-related content; the summary should avoid unsupported details.",
+   "quote": "Appellant got issued a legal notice on 12-04-199 l to the first respondent, which was returned with postal endorsement",
+   "page": 4,
+   "reason": "It says the notice was received back on 25 April by the advocate, which is supported. But the dishonour for 'insufficiency of funds' is only alleged, and it describes the accused's cheque origin loosely; also it omits the complaint. Mostly fine but includes the 'alleged' claim as fact."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "imprisonment for a term which may extend to two years, or with fine which may extend to twice the amount of the cheque, or with both",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence complete."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single s.138 offence."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "borrowed Rs. 64,000/-",
+   "page": 4,
+   "reason": "Loan amount is stated."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "first respondent failed to return the borrowed amount Rs. 64,000/-",
+   "page": 4,
+   "reason": "Alleged non-repayment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the first notice sent by appellant on 12-04-1991 was effective and notice was deemed to have been served",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not discussed."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "bail granted to the first respondent shall stand cancelled",
+   "page": 8,
+   "reason": "Accurately reflects the reference to bail."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "judgment dated 29-07-1993",
+   "page": 5,
+   "reason": "Dates match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "C. K. Sasi, Manu Krishnan G., Abraham Mathews (for P. V. Dinesh), Advs. for the Respondents.",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "On 23.05.1991 appellant lodged a private complaint",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Second notice issued beyond 15 days was treated by the High Court as a lapse, which the SC held irrelevant",
+   "quote": "the second notice has no relevance at all",
+   "page": 8,
+   "reason": "The alleged notice-limitation lapse was considered, though rejected."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we set aside the impugned judgment of the High Court.",
+   "page": 8,
+   "reason": "Accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Arguments not separately recorded; inferred position reasonable."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "notice was beyond 15 days",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "once notice is sent by registered post by correctly addressing to the drawer of the cheque, the service of notice is deemed to have been effected",
+   "page": 7,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Jagdish Singh v. Natthu Singh, ( 1992) I SCC 647",
+   "page": 7,
+   "reason": "Cases match."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "In view of the undertaking given by the learned counsel",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rs.1,30,000/-( one lakh thirty thousand) shall be paid to the appellant as compensation",
+   "page": 8,
+   "reason": "Matches."
+  }
+ }
+}

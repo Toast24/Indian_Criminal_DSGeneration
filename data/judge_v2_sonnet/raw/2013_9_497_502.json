@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "RANJEET GOSWAMI v. STATE OF JHARKHAND & ANR.",
+   "page": 1,
+   "reason": "Matches the title."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "1 (appellant), though charge-sheeted with three others",
+   "quote": "charge-sheeted for the offences under Sections 376, 302 and 201 of the Indian Penal Code, along with three others",
+   "page": 3,
+   "reason": "Only the appellant's status is decided; four were charge-sheeted, so 1 is defensible but incomplete."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he was a juvenile since his date of birth was 10.05.1991",
+   "page": 3,
+   "reason": "The judgment uses 'he' for the appellant."
+  },
+  "accused_age": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as a fixed age; DOB 10.05.1991 per certificate, medical board said about 20",
+   "quote": "his date of birth was 10.05.1991",
+   "page": 3,
+   "reason": "The judgment gives a date of birth and a medical estimate, though no definitive age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing on status."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim gender not stated, though s.376 is charged."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No relationship described."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder (also Rape charged)",
+   "quote": "offences under Sections 376, 302 and 201 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Murder is a reasonable main category, but rape is also charged."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 376, 302 and 201 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon mentioned."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The school leaving certificate was proved by examining the head mistress of the school.",
+   "page": 5,
+   "reason": "Accurately describes the age evidence, including the medical board opinion."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "since the appellant was a juvenile on the date of occurrence",
+   "page": 6,
+   "reason": "Juvenility is the key finding."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rejecting the application holding that the appellant was not a juvenile on the date of occurrence",
+   "page": 4,
+   "reason": "No trial verdict; the JJ Board order is accurately described."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Criminal Revision was allowed and the order passed by the JJ Board was restored",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "other",
+   "correct_value": "other",
+   "quote": "the order passed by the High Court is set aside and that of the Sessions Judge, Dumka is restored",
+   "page": 6,
+   "reason": "Not a conviction case; the case goes to the JJ Board. 'remanded' is arguably acceptable but 'other' fits better."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No conviction."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "not_stated",
+   "quote": "he can be tried only by the JJ Board",
+   "page": 6,
+   "reason": "No sentence was decided; 'none' implies a sentence determination, while 'not_stated' fits."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Should omit the medical-board and juvenility proceedings and avoid revealing procedural outcomes",
+   "quote": "The JJ Board then sought the opinion of the Medical Board",
+   "page": 4,
+   "reason": "Accurate but includes JJ Board/medical proceedings and phrases like 'later surrendered'; stays largely factual, no outcome revealed."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No punishments stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 376, 302 and 201",
+   "page": 3,
+   "reason": "3 charged, none upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None described."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "She has recognized the signatures of the principal who issued the school leaving certificate.",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The evidence adduced by the head mistress was not challenged.",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "surrendered before the court on 13.06.2008",
+   "page": 3,
+   "reason": "Matches."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Judgment & Order dated 29.10.2010",
+   "page": 2,
+   "reason": "Dates match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Shankar Narayanan (for Gaurav Agrawal) for the Appellant.",
+   "page": 2,
+   "reason": "Matches counsel listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charge-sheeted",
+   "page": 3,
+   "reason": "Consistent."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no cogent reasons have been stated by the High court to discard the school leaving certificate",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal is allowed",
+   "page": 6,
+   "reason": "Accurate chain."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court has rightly accepted the report of the medical board",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "question of accepting the report of the medical board arises only if the school leaving certificate is discarded",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is no question of subjecting the accused to a medical examination by a medical board",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ashwani Kumar Saxena v. State of M.P. 2012 (10) SCR 540 = 2012 (9) SCC 750",
+   "page": 2,
+   "reason": "Matches."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None weighed for sentence."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he can be tried only by the JJ Board",
+   "page": 6,
+   "reason": "Matches."
+  }
+ }
+}

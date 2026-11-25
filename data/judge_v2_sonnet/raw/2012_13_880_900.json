@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "KRISHAN v. STATE OF HARYANA",
+   "page": 2,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court reversed the judgment of acquittal passed by the Trial Court against the accused Krishan",
+   "page": 5,
+   "reason": "Only Krishan's liability is before the Supreme Court; the other accused's acquittal was maintained."
+  },
+  "accused_gender": {
+   "verdict": "male",
+   "correct_value": null,
+   "quote": "wife of Krishan",
+   "page": 5,
+   "reason": "Accused is the victim's husband."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "incorrect",
+   "correct_value": "Balmiki",
+   "quote": "Rani wife of Krishan Balmiki by Caste",
+   "page": 7,
+   "reason": "The post-mortem testimony describes Krishan as Balmiki by caste, so caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Smt. Rani, wife of Krishan",
+   "page": 5,
+   "reason": "The victim is female."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not given."
+  },
+  "victim_caste": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Rani wife of Krishan Balmiki by Caste",
+   "page": 7,
+   "reason": "Balmiki is given only for the accused; the victim's own caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Smt. Rani, wife of Krishan",
+   "page": 5,
+   "reason": "They were husband and wife."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the offence was converted to Section 302 IPC",
+   "page": 6,
+   "reason": "Death of the wife by burning, charged under s.302."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "ss. 302, 498A and 109",
+   "page": 1,
+   "reason": "The headnote gives these sections; the FIR was initially under s.307 and later converted to s.302."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "her husband poured the kerosene oil on her body and set her on fire",
+   "page": 6,
+   "reason": "Kerosene and fire were used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "relying upon the dying declaration, the statement of SDJM PW10 and the statement of Dr. B.R. Kayat PW11",
+   "page": 10,
+   "reason": "Dying declaration, medical and official witnesses, with partial support from hostile witnesses."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "used to give her beatings whenever he was under the influence of liquor",
+   "page": 5,
+   "reason": "Allegations are noted but not weighed as aggravating by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "giving the benefit of doubt, acquitted both the accused",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court convicted the accused Krishan while maintaining the acquittal of Shardi",
+   "page": 11,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we see no merit in the present appeal and the same is dismissed",
+   "page": 21,
+   "reason": "Appeal dismissed; conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "judgment of conviction and order of sentence dated 17th July, 2007",
+   "page": 5,
+   "reason": "Conviction for causing the wife's death is upheld; the judgment does not separate the sections of conviction."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is described in the judgment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Krishan had come with his friend Bedu",
+   "page": 6,
+   "reason": "Accurate summary, no outcome leak or names."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the punishment prescribed."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rani died and the offence was converted to Section 302 IPC",
+   "page": 6,
+   "reason": "The victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Bones were superficial to deep and approximately 75%",
+   "page": 7,
+   "reason": "Death from burns is supported."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "ss. 302, 498A and 109",
+   "page": 1,
+   "reason": "Three sections charged; the judgment does not itemise those finally upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No finding on premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Krishan also used to make demands for a car",
+   "page": 5,
+   "reason": "Motive is alleged in the dying declaration and not separately decided."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The dying declaration has been proved in accordance with law, is a truthful version",
+   "page": 21,
+   "reason": "Accurate."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The hostility of these witnesses would, in no way, render the dying declaration doubtful",
+   "page": 18,
+   "reason": "Accurate."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused helped extinguish the fire, suffered burns and was admitted to hospital (as noted by the courts).",
+   "quote": "seeing them even her husband helped in putting off the fire",
+   "page": 6,
+   "reason": "The judgment does note the accused's conduct after the incident."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "trial Court vide its detailed judgment dated 15th November, 1999",
+   "page": 8,
+   "reason": "Dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ram Naresh Yadav, Dr. Kailash Chand for the Appellant.",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Investigating Officer prepared the site plan, recorded statement of PWs and prepared the Inquest Report",
+   "page": 6,
+   "reason": "Accurate."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the dying declaration had been recorded in accordance with the established practice and procedures",
+   "page": 15,
+   "reason": "No lapse noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appeal dismissed.",
+   "page": 21,
+   "reason": "Accurate at each level."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "if it is so, no question of corroboration arises",
+   "page": 12,
+   "reason": "Accurate."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "both hands of Rani were burnt, including fingers and thumb",
+   "page": 16,
+   "reason": "Accurate."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "not an absolute principle of law that a dying declaration cannot form the sole basis of conviction",
+   "page": 15,
+   "reason": "Accurate."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Khushal Rao v. State of Bombay [AIR 1958 SC 22]",
+   "page": 11,
+   "reason": "Cases and citations match."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing discussion."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other orders."
+  }
+ }
+}

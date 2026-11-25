@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "GO PAL v. STATE OF MADHYA PRADESH",
+   "page": 1,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Five accused were charged and prosecuted",
+   "page": 2,
+   "reason": "Five accused are named and the Court decides on all of them."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Male (inferred from names only; not expressly stated)",
+   "quote": "accused Gopal ... Shankarlal, Nandlal and Chhotelal",
+   "page": 2,
+   "reason": "Gender is not expressly stated; Male is only inferred from names."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_caste": {
+   "verdict": "incorrect",
+   "correct_value": "Patidar community",
+   "quote": "a meeting of a Patidar Community was convened",
+   "page": 3,
+   "reason": "Judgment mentions the Patidar Community, which seems to be the community of the parties."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing on wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mitthulal had died instantaneously",
+   "page": 5,
+   "reason": "Victim Mitthulal is referred to as male; the injured are also male by name."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "victim_caste": {
+   "verdict": "incorrect",
+   "correct_value": "Patidar community",
+   "quote": "a meeting of a Patidar Community was convened",
+   "page": 3,
+   "reason": "Community of the parties is described as Patidar."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Members of same Patidar community; panchayat dispute context; accused claim complainant party came to their house and abused them",
+   "quote": "Ramchandra, Tulsiram, Mitthulal, Kaluram and Shantilal had come to their house and abused them",
+   "page": 4,
+   "reason": "Prior connection is roughly right but 'Acquaintance' is vague and the panchayat dispute context is omitted."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 304 Part-I IPC",
+   "page": 6,
+   "reason": "Final conviction is culpable homicide not amounting to murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offences punishable under Section 147, 148, 302/149, 323/149 IPC",
+   "page": 2,
+   "reason": "Charged sections and the 304 Part I and 324 convictions are accurately captured."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "inflicted knife blow on the chest of Mitthulal ... sword blow ... cycle-chain",
+   "page": 3,
+   "reason": "Knife, swords and cycle chain all noted."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Medical (post-mortem, injury evidence); recovery of weapons; ocular evidence not discussed",
+   "quote": "weapons of offence were recovered",
+   "page": 4,
+   "reason": "Eyewitness evidence is not discussed by the Court, though 13 witnesses were examined."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances noted besides ends of justice."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Gopal convicted under ss.148, 302, 323/149; Shanker Lal and Nand Lal under ss.148, 302/149, 323; Chhotelal and Dinesh under ss.148, 302/149, 323/149; sentences not detailed",
+   "quote": "holding the accused Gopal guilty for commission of offences under Sections 148, 302,323/149 IPC",
+   "page": 2,
+   "reason": "Mostly accurate, but the value garbles section groupings slightly (302/149 for Chhotelal etc.). Substantially fine; minor discrepancies."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "found guilty for commission of offence under Section 304 Part-I IPC and awarded rigorous imprisonment for 10 years",
+   "page": 2,
+   "reason": "Accurately reflects the High Court outcome."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction under Section 304 Part-I IPC is upheld but sentence is reduced",
+   "page": 6,
+   "reason": "Sentence reduced; conviction modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction under Section 304 Part-I IPC is upheld",
+   "page": 6,
+   "reason": "Accurate."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence is reduced to the period already undergone",
+   "page": 6,
+   "reason": "Fixed-term sentence (period undergone)."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "More than 6 (period undergone)",
+   "quote": "the period already undergone by him, which is more than six years",
+   "page": 6,
+   "reason": "Exact number not given, but the judgment says more than six years; null is defensible but incomplete."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine imposed on Gopal by the Supreme Court."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove 'allegedly' ambiguity and mention disputed defence version; note the stab wound was on the chest per prosecution and abdomen per post-mortem",
+   "quote": "accused Gopal abused them and inflicted knife blow on the chest of Mitthulal",
+   "page": 3,
+   "reason": "Largely accurate and neutral, but omits the defence version and the prior panchayat dispute; no outcome revealed."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Punishment not stated in judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mitthulal had met with homicidal death",
+   "page": 4,
+   "reason": "Death occurred."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "stab wound measuring 2\" x ¾ \" on the abdomen",
+   "page": 4,
+   "reason": "Matches post-mortem and simple injuries."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "5 charged (ss.147, 148, 302/149, 323/149 IPC); 1 upheld for Gopal (s.304 Part I)",
+   "quote": "offences punishable under Section 147, 148, 302/149, 323/149 IPC",
+   "page": 2,
+   "reason": "Charged sections roughly four to five; count is arguable, and 149 is not a separate offence."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not discussed."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "alleged: dispute arising from failed panchayat meeting convened by Ramchandra",
+   "quote": "a panchayat, meeting was also convened by Ramchandra wherein Shankarlal was present but, due to some reason, the meeting could not be held",
+   "page": 3,
+   "reason": "Judgment alleges a panchayat context but no clear motive accepted; 'Not identified' is arguable but incomplete."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "injuries sustained by injured persons were simple in nature",
+   "page": 6,
+   "reason": "Matches the evidence relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not discussed."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "which is more than six years",
+   "page": 6,
+   "reason": "Accurate for Gopal."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "offence: 1.7.1992; trial judgment: 31.3.1995; High Court: 19.10.2005; Supreme Court: 19.5.2011",
+   "quote": "on 1. 7 .1992 ... Trial Court pronounced the judgment on 31.3.1995",
+   "page": 2,
+   "reason": "Dates right; the incident date is 1.7.1992, which matches."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant: S.K. Dubey, Subhash Kaushik, Malini Poduval and others listed; Subhash Kaushik argued for Gopal; S.K. Dubey argued for the State",
+   "quote": "Mr. Subhash Kaushik, learned counsel appearing for the appellant Gopal",
+   "page": 5,
+   "reason": "Broadly right; the list on page 2 mixes names, but the roles are as described."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "After completion of the investigation, all the accused were charge-sheeted.",
+   "page": 4,
+   "reason": "Accurate."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Criminal Appeal No. 1711 of 2007 filed by the State is hereby dismissed.",
+   "page": 6,
+   "reason": "Accurate at each level."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "accused Gopal deserves to be convicted under Section 302 IPC",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Since, injuries were sustained by Shankarlal and Gopal. They, therefore, had acted in self defence",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there cannot be any scope for considering the conviction of accused Gopal from Section 304 Part-I to 302 IPC",
+   "page": 6,
+   "reason": "Accurate."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "This, according to us, would meet the end of justice.",
+   "page": 6,
+   "reason": "Accurate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "period already undergone by him, which is more than six years",
+   "page": 6,
+   "reason": "No specific factor beyond time served."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He be released from the jail immediately if not required in any other case.",
+   "page": 6,
+   "reason": "Accurate."
+  }
+ }
+}

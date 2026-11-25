@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "4",
+   "quote": "Insofar as the appeal filed by the P.W.1-Ali Sher Khan with regard to acquittal of accused No.2-Nazra is concerned, it is sans any merit.",
+   "page": 41,
+   "reason": "The Court also decided accused No.2's liability by dismissing PW-1's appeal against her acquittal, so four accused, not three."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Mixed",
+   "quote": "Momin Khan (A-1) with his wife Nazra (A-2) along with Jaikam Khan (A-3) and Sajid (A-4)",
+   "page": 11,
+   "reason": "Accused included a woman (Nazra, A-2), so gender is mixed, not male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated for any accused; only victims' ages are given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated; names alone cannot be used."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "Ran a brick-kiln business (Momin Khan); no formal occupation stated",
+   "quote": "In the beginning, appellant-Momin Khan (A-1) used to run the brick-kiln",
+   "page": 10,
+   "reason": "Judgment describes accused No.1 running the brick-kiln, so 'Not stated' omits relevant occupational information."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class of the accused is described; the wealth references concern the deceased's business."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victims include male and female persons, so 'Mixed' is supported."
+  },
+  "victim_age": {
+   "verdict": "incorrect",
+   "correct_value": "Multiple victims; stated ages: Mausam Khan about 85, Asgari about 80, Shanno about 30, Samad about 8, Muskan about 15",
+   "quote": "deceased Shanno (aged about 30 years) ... deceased Samad (aged about 8 years) ... Muskan (aged about 15 years)",
+   "page": 10,
+   "reason": "Ages of several victims are explicitly stated, so 'Not stated' is wrong."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victims is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not stated; the Namaz reference describes a practice, not a stated religious identity."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Family relations and the brick-kiln dispute are accurately described from the judgment."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges are under s.302 IPC for murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges under IPC s.302/34 and Arms Act s.25/4 match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Knives, chhuriyan and daav are all described as weapons in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, recovery, arrest, site plan and forensic evidence are all discussed in the judgment."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged statements recorded in arrest-cum-recovery memo (Ex Ka-49); confessional content inadmissible; recoveries held unreliable and no reliance placed",
+   "quote": "no reliance could be placed on such recoveries",
+   "page": 31,
+   "reason": "The Court placed no reliance on the s.27 recoveries at all, not merely excluded confessional content."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Six killings, including a woman, an 8-year-old and elderly parents, are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under s.302/34 with death sentence, and Arms Act conviction with three years RI and Rs 5,000 fine, match the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed appeals of accused 1, 3 and 4, confirmed death sentence and acquitted accused 2."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed appeals of accused 1, 3 and 4 and upheld the acquittal of accused 2."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence stands after the Supreme Court's decision."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence stands; the accused are directed to be released."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed-term sentence stands, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is finally imposed; null is appropriate."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary covers incident, investigation and evidence without names, religion, or court outcomes."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory punishment for s.302 IPC."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is a completed murder with six deaths."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Six persons killed by knife assaults; injury details are not elaborated in the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two charges (s.302/34 IPC and s.25/4 Arms Act) and none finally upheld are correct."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court held the trial court's pre-planning finding to be conjecture, not proven."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Alleged brick-kiln dispute is marked as alleged, with no motive proved against accused 3 and 4 and no strong motive against accused 1."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found eyewitnesses could at most have seen some assaults and rejected the clothes and s.27 recoveries."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found PW-1 and PW-2 neither wholly reliable nor wholly unreliable, and noted IO's admission about hideouts."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Alleged flight, return and clothes change were held a mystery; no reliance placed on it."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not discussed in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All four dates (offence, trial judgment, High Court, Supreme Court) match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for accused, PW-1 and the State match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, investigation, charge-sheet and trial completion are all described."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "No independent villager witnesses examined; fingerprint and dog squad reports not on record; trial court reasoning conjectural; High Court wrongly shifted burden to accused",
+   "quote": "attempts to put a burden on the accused, which does not shift unless prosecution has proved the case beyond reasonable doubt",
+   "page": 39,
+   "reason": "Omits the Court's criticism of the High Court shifting the burden to the accused."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Outcomes at trial, High Court and Supreme Court match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Concurrent findings, site plan omissions, FIR corroboration and s.313 silence are all accurately listed."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Interested witnesses, missing independent witnesses, farcical recoveries and lack of reasons for death sentence are accurately listed."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Interested witnesses scrutinised with care; corroboration needed where neither wholly reliable nor unreliable; non-examination of independent witnesses makes prosecution version doubtful; s.27 limits; motive relevance; beyond reasonable doubt",
+   "quote": "non-examination of independent witnesses, though available, would make the prosecution version doubtful",
+   "page": 35,
+   "reason": "Court said non-examination makes the version doubtful, not that it leads to an adverse inference."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Relied and referred precedents with citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed by the Supreme Court, so 'Not applicable' fits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no aggravating factors in its own reasoning."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Release of accused 1, 3, 4, dismissal of PW-1's appeal and deprecation of the lower courts' handling are accurately listed."
+  }
+ }
+}

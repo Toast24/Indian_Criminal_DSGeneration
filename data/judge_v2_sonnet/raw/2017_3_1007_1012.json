@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the case heading."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "11 accused named in the final report; respondents 2-4 challenged the charge",
+   "quote": "the said attack by the 11 accused persons named in the Final Report",
+   "page": 2,
+   "reason": "The judgment names 11 accused; 3 is only the number of respondents who challenged the charge."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "Gocha Pehalwan gave blow of his daatar",
+   "page": 4,
+   "reason": "Accused are referred to as 'his', 'Mr. Rataul' etc., so gender is stated, male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated for most accused; one alleged instigator, Anil Joshi, is a Cabinet Minister, and another is a Councilor",
+   "quote": "Anil Joshi, Cabinet Minister in Punjab Government",
+   "page": 2,
+   "reason": "Occupations of some alleged persons are given (minister, councillor), though not for respondents 2-4."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class statement."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All three victims are male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the alleged motive regarding cases against Anil Joshi, properly marked as allegation."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Section 307 is the main issue."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.307, 326, 325, 324, 323, 341, 427, 148, 149 charged; FIR under 307, 326, 324, 323, 427, 148, 149, 120-B, 341",
+   "quote": "Sessions Judge framed charge under Sections 307, 326, 325, 324, 323, 341, 427; 148 and 149 IPC",
+   "page": 3,
+   "reason": "Charged sections are correct, and the FIR and charge-sheet extras are noted, but the list is somewhat muddled."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Swords, daatars, gandassa, baseball bat",
+   "quote": "Gandassa, daatars, baseball bat, etc.",
+   "page": 2,
+   "reason": "'Iron rod-type weapons' comes from the quoted precedent, not this case's facts."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the statements, medical report, recoveries, CDR and CCTV described."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Consistent with the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only charges were framed."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches para 3."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge restored and trial to proceed, which fits remanded."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No conviction."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Summary should avoid gender pronouns, and the complainant's account differs in detail (e.g., the narrating victim is the brother of Vineet)",
+   "quote": "gave blow of daatar on me, while I was sitting inside the car",
+   "page": 4,
+   "reason": "It uses 'his brother', 'men' and 'The brother drove', which are gendered. It also confuses which victim was struck where."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Punishment not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Attempt."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches para 5."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nine sections charged, none finally upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Car glass smashed; value not stated."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged: attack at instance of Anil Joshi in execution of a common object; no finding by court",
+   "quote": "in execution of the common object of the assailants to punish the appellant",
+   "page": 2,
+   "reason": "Prosecution alleges a common object and planning; 'Not stated' omits this."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Properly marked as alleged."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches paras 7 and 9."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No credibility finding."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the complainant's statement."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates handled with the discrepancy noted."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant: Manu Sharma and others; Respondents: Jitendra Mohan Sharma, Sr. Adv. and others; State counsel not separately identified",
+   "quote": "Jitendra Mohan Sharma, Sr. Adv., Ajit Sharma, Sandeep Singh",
+   "page": 2,
+   "reason": "The respondents' counsel are listed, but assigning them to accused 2-4 is an inference."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Consistent."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Consistent."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Consistent."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant argued the Sessions Judge rightly framed the s.307 charge",
+   "quote": "the Sessions Judge has rightly framed the charge under Section 307 IPC as well",
+   "page": 2,
+   "reason": "The extra detail about intent and evidence is elaboration beyond the stated argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches para 6."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches paras 9-10."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "None (no sentencing); the court noted attack on heads of victims with deadly weapons by several persons for prima facie intention",
+   "quote": "assailants had attacked on the head of the victims",
+   "page": 4,
+   "reason": "This was not a sentencing aggravating factor, though it informs the prima facie intent analysis."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches para 11."
+  }
+ }
+}

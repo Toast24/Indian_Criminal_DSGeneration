@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "State of N.C.T. of Delhi v. Ajay Kumar Tyagi",
+   "quote": "STATE OF N.C.T. OF DELHI v. AJAY KUMAR TYAGI",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "1",
+   "quote": "the respondent-accused",
+   "page": 2,
+   "reason": "Single accused is referenced throughout."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "prayed for quashing of the first information report lodged against him",
+   "page": 7,
+   "reason": "Accused is referred to with male pronouns."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never states the accused's age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Junior Engineer with the Delhi Jal Board",
+   "quote": "working as a Junior Engineer with the Delhi Jal Board",
+   "page": 5,
+   "reason": "Occupation matches paragraph 1."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "Constable Surinder Singh ... water connection in the name of his wife",
+   "page": 5,
+   "reason": "Complainant Constable Surinder Singh is male per the text."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the complainant or victim."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Constable Surinder Singh lodged a report with the Anti Corruption Branch",
+   "page": 6,
+   "reason": "Judgment gives no 'stranger' relationship; complainant was an applicant before the accused's office."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Corruption (demand and acceptance of illegal gratification under Prevention of Corruption Act)",
+   "quote": "the accused demanded bribe of Rs. 2000/- for clearing the file",
+   "page": 6,
+   "reason": "Offence is bribery under the Prevention of Corruption Act, not criminal breach of trust."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "Prevention of Corruption Act, 1988 ss. 7 and 13",
+   "quote": "This led to registration of the first information report under Section 7/13 of the Prevention of Corruption Act.",
+   "page": 6,
+   "reason": "Sections 7/13 are right but the Act is wrongly identified as IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "None mentioned",
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the accused demanded and accepted the bribe of Rs. 1000/-",
+   "page": 6,
+   "reason": "Judgment does not classify the evidence as circumstantial; it describes a trap and complaint."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment mentions no confession, so 'None' is not affirmatively supported."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "charge-sheet was submitted on 19th of September, 2002 and the accused was put on trial. Charges were framed by the Special Judge.",
+   "page": 6,
+   "reason": "Judgment shows only that the accused was put on trial; no conviction is recorded."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court quashed the criminal proceedings under s. 482 Cr.P.C.",
+   "quote": "High Court quashed the criminal proceedings.",
+   "page": 7,
+   "reason": "High Court quashed the criminal proceedings; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal allowed; High Court order quashing criminal proceedings set aside; trial to continue",
+   "quote": "the appeal is allowed, the order of the High Court is set aside with the direction aforesaid.",
+   "page": 17,
+   "reason": "No conviction; Supreme Court allowed the State's appeal and set aside the High Court order."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "the accused put on trial",
+   "page": 6,
+   "reason": "No offence was finally established; the criminal case remained pending."
+  },
+  "imprisonment_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed or discussed in the judgment."
+  },
+  "imprisonment_years": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No term of imprisonment is mentioned anywhere."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned, so null is appropriate."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts stated without the final sentences revealing the Supreme Court's outcome (overturning the High Court and directing the accused to appear before the trial court).",
+   "quote": "The Supreme Court overturned the High Court's decision... The accused was ordered to appear before the trial court",
+   "page": 17,
+   "reason": "Background facts are accurate, but the last two sentences reveal the court outcome, which is prohibited."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Severity is not characterised in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment reports the alleged acceptance but does not expressly classify completion."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (charges framed under ss. 7 and 13 of the PC Act; no finding on counts)",
+   "quote": "criminal prosecution u/s 7/13 of Prevention of Corruption Act",
+   "page": 1,
+   "reason": "Judgment does not state that both counts were finally upheld; no final finding exists."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged illegal gratification of Rs. 1000/- (bribe)",
+   "quote": "the accused demanded and accepted the bribe of Rs. 1000/-",
+   "page": 6,
+   "reason": "'Not applicable' ignores the alleged Rs. 1000 bribe, which is the financial element."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation is discussed beyond the trap laid by the Anti Corruption Branch."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Illegal gratification (bribe) for clearing the water connection file",
+   "quote": "demanded bribe of Rs. 2000/- for clearing the file",
+   "page": 6,
+   "reason": "Judgment states the bribe demand was for clearing the file, so motive is identified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (only the enquiry officer's departmental finding is recorded; no criminal evidence is accepted)",
+   "quote": "the evidence on record does not substantiate the charge of demand and acceptance of bribe",
+   "page": 6,
+   "reason": "Quote is accurate but is a departmental finding, not evidence accepted in the criminal case."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Witness credibility is not assessed."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Custody is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (25.8.2008 is the date of the High Court order, not a trial judgment)",
+   "quote": "From the Judgment & Order dated 25.8.2008 of the High Court of Delhi",
+   "page": 5,
+   "reason": "25.8.2008 is the High Court order date, not a trial judgment; no trial duration is given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "For the appellant: J.S. Attry, Anjani Aiyagari, Gargi Khanna, B.V. Bairam Das. For the respondent: Chelan Sharma, Bake Bihari Sharma (for Asha Gopalan Nair).",
+   "quote": "J.S. Attry, Anjani Aiyagari, Gargi Khanna, B.V. Bairam Das for the Appellant. Chelan Sharma, Bake Bihari Sharma (for Asha Gopalan Nair) for the Respodent.",
+   "page": 5,
+   "reason": "Counsel names match the appearance block."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Charge-sheet filed 19 September 2002; trial pending; departmental proceedings kept in abeyance pending criminal case",
+   "quote": "charge-sheet was submitted on 19th of September, 2002 and the accused was put on trial",
+   "page": 6,
+   "reason": "Charge-sheet date is right but 'trial completed' is contradicted; the criminal case is pending."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified; only a conflict in precedents led to a reference."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Writ petition by accused dismissed by High Court; High Court quashed criminal proceedings under s. 482; State appealed and Supreme Court allowed the appeal and set aside the High Court order.",
+   "quote": "High Court quashed the criminal proceedings... State filed appeal to this Court.",
+   "page": 7,
+   "reason": "The writ petition was not a trial-court step; the 'Trial court' label is wrong, though the rest is accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "The State argued the High Court's assumption of exoneration was unfounded because the enquiry officer's report was not final and the disciplinary authority could still disagree.",
+   "quote": "the report of the enquiry officer was not the final verdict and the same was yet to be considered by the disciplinary authority",
+   "page": 9,
+   "reason": "Core argument is correct, but the conditional-exoneration point was the Court's observation, not the State's argument."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "Accused had been exonerated in departmental proceedings and criminal proceedings should be quashed on that ground, relying on P.S. Rajya.",
+   "quote": "since the accused has been exonerated in the disciplinary proceeding by a detailed speaking order, the first information report deserves to be quashed on that ground alone. Reliance was placed on ... P.S. Rajya",
+   "page": 7,
+   "reason": "Defence argument and reliance on P.S. Rajya match the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Exoneration in departmental proceedings does not ipso facto lead to quashing or acquittal; standard of proof in departmental proceedings is lower.",
+   "quote": "exoneration in departmental proceeding ipso facto would not lead to exoneration or acquittal in a criminal case",
+   "page": 17,
+   "reason": "Principle stated matches paragraphs 26 and 27."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "State v. M. Krishna Mohan (2007) 14 SCC 667; Supdt. of Police (C.B.I.) v. Deepak Chowdhary (1995) 6 SCC 225; CBI v. V.K. Bhutiani (2009) 10 SCC 674; P.S. Rajya v. State of Bihar (1996) 9 SCC 1 (distinguished); State of Haryana v. Bhajan Lal (referred to)",
+   "quote": "State v. M. Krishna Mohan (2007) 14 SCC 667",
+   "page": 4,
+   "reason": "Lists P.S. Rajya as relied upon though it was distinguished; omits Bhajan Lal, which was referred to."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing is addressed in the judgment."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss mitigating factors, so 'None' is not supported."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss aggravating factors, so 'None' is not supported."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Accused directed to appear before the trial court within four weeks; trial to be expedited and unnecessary adjournments avoided.",
+   "quote": "Accused shall appear before the trial court within four weeks from to-day.",
+   "page": 17,
+   "reason": "The Court issued a direction to appear and expedite trial, so 'None' is wrong."
+  }
+ }
+}

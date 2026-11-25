@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Header matches the case title as printed in the judgment."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "1",
+   "quote": "Criminal Appeal No. 1301 of 2021 ... Sarabjeet Singh Mokha v. The District Magistrate",
+   "page": 1,
+   "reason": "One appellant, but the Court decides no criminal liability; value is also stored as a float."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to the appellant as 'he' (e.g., 'he was never served')."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the appellant is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the appellant is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the appellant is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is a Director of City Hospital, Jabalpur.",
+   "page": 12,
+   "reason": "Occupation is directly stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Detention grounds allege acquittals were due to his 'money power'; judgment describes him as owner of a specialty hospital (allegation/description, not a court finding)",
+   "quote": "acquitted in certain cases due to his 'money power'",
+   "page": 14,
+   "reason": "Judgment does record wealth-related statements, which the value omits."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Crime No. 400 of 2004 ... The appellant was acquitted in this case",
+   "page": 14,
+   "reason": "Prior 2004 case is recorded in the grounds, with acquittal noted."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No individual victim is identified; patients are described only generally."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste or community is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No described relationship between the appellant and the patients or victims."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matter is preventive detention; no criminal offence category is tried, so 'Other' is apt."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 3(2) of National Security Act 1980; Sections 274, 275, 308, 420 and 120B of the India Penal Code; Section 53 of the Disaster Management Act 2005; Section 3 of the Epidemic Diseases Act 1897",
+   "page": 12,
+   "reason": "All listed provisions match the judgment's statement of the detention and FIR."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "None mentioned for the present allegations; the 2004 Gorakhpur antecedent involved deadly weapons",
+   "quote": "in which the appellant was accused of attacking a person with deadly weapons",
+   "page": 14,
+   "reason": "Antecedent case in the grounds involves deadly weapons, which the value omits."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately describes section 161 CrPC statements and newspaper reports relied on in the grounds."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Co-accused and other statements are section 161 statements, not confessions."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged deaths and casualties among patients; public outcry and apprehended law-and-order disturbance (as stated in detention grounds)",
+   "quote": "The spurious injections had caused casualties which had been reported in the newspapers",
+   "page": 13,
+   "reason": "Grounds record aggravating facts, so 'None noted' is incomplete."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted by the Court; Covid/heart-attack points were only counsel submissions."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal trial; District Magistrate passed a three-month detention order on 11 May 2021."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a Division Bench ... rejected a petition under Article 226",
+   "page": 12,
+   "reason": "High Court dismissed the writ petition on 24 August 2021."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appeal allowed and detention quashed; 'other' fits as no criminal conviction or acquittal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence is finally established; this is a preventive detention matter."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed-term sentence exists."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Uses only roles, no names or religion, presents allegations as allegations, and does not reveal outcomes or court proceedings."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the punishment prescribed for the underlying offences."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the fake Remdesivir injections were administered to 50 patients at the City Hospital on 30 April 2021",
+   "page": 13,
+   "reason": "Alleged administration implies completion, labelled as allegation."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Spurious Remdesivir injections had been administered to patients which resulted in several untimely deaths",
+   "page": 13,
+   "reason": "Harm is correctly framed as an allegation in the grounds."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal charge was tried; preventive detention under NSA s.3(2)."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "500 fake Remdesivir injections worth Rs.15 lakhs",
+   "page": 14,
+   "reason": "Loss is stated as an allegation within the detention grounds."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court makes no finding on premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in order to make illegal profits",
+   "page": 12,
+   "reason": "Alleged motive is correctly marked as alleged; the Court made no finding."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court decided on procedural grounds and did not rely on or accept the evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court did not assess witness credibility."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is found or noted by the Court."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant was detained on 12 May 2021",
+   "page": 12,
+   "reason": "Detention start and extension to 12 February 2022 are stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is stated in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "High Court dismissed ... 24 August 2021; Supreme Court ... 29 October 2021",
+   "page": 11,
+   "reason": "Dates for offence, High Court and Supreme Court match the judgment; no trial exists."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sidharth Luthra, Sr. Adv. ... for the Appellant. Saurabh Mishra, AAG ... for the Respondents.",
+   "page": 11,
+   "reason": "Counsel for appellant and respondents match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a final report under Section 173 of the Code of Criminal Procedure ... was submitted on 6 August 2021",
+   "page": 12,
+   "reason": "FIR, arrest and final report dates match the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "nor an explanation for the almost 60 day delay in considering the appellant's representation",
+   "page": 6,
+   "reason": "Delay and non-communication of rejection are the procedural lapses the Court noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial level not applicable; High Court dismissed; Supreme Court allowed and quashed detention."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately summarises the State's delay, communication, justiciability and severability arguments."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurately summarises the appellant's delay, non-communication and stale-antecedent arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the Court's Article 22(4)-(5) and s.8(1) reasoning on expedition and communication."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Followed, relied-on and distinguished cases match the judgment's headnote and body."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed, so 'Not applicable' is correct."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no mitigating factors itself."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no aggravating factors itself."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The order of detention dated 11 May 2021 and the extensions dated 15 July 2021 and 30 September 2021 shall accordingly stand quashed and set aside.",
+   "page": 43,
+   "reason": "Quashing of detention and extensions and setting aside of the High Court judgment match the judgment."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three accused (Amar Singh, Shiv Charan, Inderjeet Singh) were tried; the count matches."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to as male appellants throughout; gender is reasonably inferable."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No accused age appears anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record of the accused is stated; the victim's pending murder case is not the accused's record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Devinder Singh @ Ladi is male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not given anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (accused not related to victim; victim was facing trial for murder of Inderjeet Singh's father)",
+   "quote": "father of the appellant Inderjeet Singh was murdered and deceased Devinder Singh was facing trial for the murder",
+   "page": 7,
+   "reason": "The accused were not the victim's brothers; the brothers were witnesses. No family relationship is stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 r/w s.34; s.506 IPC (charged); Arms Act s.25 and s.27 (Inderjeet Singh)",
+   "quote": "challan under Section 302/506/34 IPC was filed",
+   "page": 6,
+   "reason": "Omits the charged s.506 IPC and the Arms Act provisions against Inderjeet Singh."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Assailants were armed only with hockey sticks and a knife."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness and medical evidence are the main evidence types discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is recorded; disclosure statements led only to recoveries."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are stated in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.302 r/w s.34 and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction upheld",
+   "quote": "the High Court ... dismissed the appeal",
+   "page": 8,
+   "reason": "High Court dismissed the appeal, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed the appeals and gave benefit of doubt, so acquittal is correct."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution was held to have failed to prove the offence; none established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment was imposed; the appellants were ordered released."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment term applies."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine applies; the trial court's Rs.5000 fine was set aside with the conviction."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts of the attack, weapons, injuries and prosecution case, without the court's evaluation of doubts",
+   "quote": "The eyewitness's conduct and the lack of corroboration raised doubts about the credibility of the prosecution's case.",
+   "page": 13,
+   "reason": "Includes the court's reasoning and doubts, which hints at the acquittal outcome."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment (trial court sentence; no final sentence)",
+   "quote": "sentenced to undergo imprisonment for life",
+   "page": 4,
+   "reason": "'Death' is the victim's fate, not a sentence; final outcome imposed no sentence."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence was completed; the victim was killed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-mortem records 15 antemortem injuries; cause of death was shock from them."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charged under s.302/506/34 IPC and Arms Act ss.25/27; trial court convicted under s.302 r/w s.34 and s.27 Arms Act; conviction set aside",
+   "quote": "challan under Section 302/506/34 IPC was filed",
+   "page": 6,
+   "reason": "No conviction was upheld finally; the appeals were allowed and convictions set aside."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not stated."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "No prosecution motive stated; defence suggested brothers' motive to falsely implicate after victim was accused of killing Inderjeet's father",
+   "quote": "the victim was accused of murdering the father of the appellant, the brothers of the deceased victim had clear motive to falsely implicate",
+   "page": 7,
+   "reason": "Motive 'Not identified' ignores the defence's alleged motive tied to the father's murder."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "Court did not accept PW-1's sole testimony as safe; found it unreliable and uncorroborated",
+   "quote": "we do not think it would be safe to convict the appellants upon the incorroborated testimony of the sole eye witness",
+   "page": 17,
+   "reason": "Value wrongly says the court accepted PW-1's testimony; the court held it unsafe."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found PW-1's conduct unnatural and PW-11 and PW-5 turned hostile."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused fled the scene after the attack",
+   "quote": "the accused persons fled from the place",
+   "page": 10,
+   "reason": "The judgment states the accused fled, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's bail history is not stated; the interim bail mentioned concerns the victim."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence 03.08.1990; trial court date not stated; High Court judgment 09.05.2014; Supreme Court judgment 12.10.2020",
+   "quote": "From the Judgment and Order dated 09.05.2014 of the High Court",
+   "page": 4,
+   "reason": "09.05.2014 is the High Court judgment date, not the trial judgment; High Court date is wrongly listed as not stated."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused: Dushyant Dave, Sr.Adv. and others; State: Ms. Aishwarya Bhati, ASG, with B.V. Balaram Das and others",
+   "quote": "Ms. Aishwarya Bhati, ASG",
+   "page": 4,
+   "reason": "Aishwarya Bhati appeared for the State, not the accused; counsel attribution is wrong."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Investigation, charge sheet and completed trial are all described."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Knife tip was broken and doctor was not shown the weapon."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court dismissal and Supreme Court acquittal are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued concurrent findings rested on reliable eyewitness testimony corroborated by medical evidence; hostile witness parts usable; investigation lapses not fatal",
+   "quote": "evidence of a hostile witness is not to be discarded as a whole",
+   "page": 8,
+   "reason": "Describes the case facts rather than the State's actual arguments on eyewitness reliability and corroboration."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Captures uncorroborated solitary eyewitness, unnatural conduct, medical inconsistencies and doubt about presence."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single-witness rule, need for corroboration on doubt, and medical weapon-opinion principle are all stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Kartarey, Ishwar Singh and Selvaraj are cited; Sunil Kumar is omitted but not essential."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court set aside conviction for unreliable sole eyewitness and ordered release, consistent with the judgment."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellants directed to be released forthwith unless required in any other case",
+   "quote": "The appellants are directed to be released forthwith unless required in any other case.",
+   "page": 17,
+   "reason": "A release direction was ordered; 'None' omits it."
+  }
+ }
+}

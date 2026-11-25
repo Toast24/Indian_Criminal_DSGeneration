@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three accused (Mukesh, Rajesh, Kailasho) are identified and convicted."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Mixed: two male (husband, brother-in-law), one female (mother-in-law)",
+   "quote": "Smt. Kailasho @ Kailashwati, guilty of an offence punishable under Section 304B",
+   "page": 9,
+   "reason": "Value omits that one accused, the mother-in-law Kailasho, is female."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "both the accused were young persons while their mother was an aged lady",
+   "page": 18,
+   "reason": "No specific age for the accused is given; only that they were young."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused religion is not stated in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused caste is not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only the victim's family's financial limitations are mentioned, not the accused's status."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Ms. Renu is female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Ms. Renu (deceased) was daughter of Smt. Vimla Devi",
+   "page": 10,
+   "reason": "The judgment gives no age for the deceased; the value 25 is unsupported."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated; the Hindu rites reference concerns the marriage ceremony only."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Husband (M), brother-in-law (R) and mother-in-law, i.e. husband's family members",
+   "quote": "husband ('M'), brother-in-law ('R') and mother-in-law of a woman burnt her to death",
+   "page": 3,
+   "reason": "Only the husband is a spouse; the other two accused are in-laws."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is dowry death under Section 304-B."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Section 304-B IPC is the provision applied."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Kerosene poured and set alight is the means used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 18,
+   "reason": "Judgment refers to definite ocular, expert and documentary evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by any accused is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry demand, cruelty, unnatural death and false defence are all identified by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court states it sees no mitigating circumstances in favour of the accused."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 3,
+   "reason": "Trial court convicted under 304-B and sentenced to life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction and sentence confirmed",
+   "quote": "The High Court vide its judgment dated 14th October, 2009 dismissed the appeal of all the accused",
+   "page": 9,
+   "reason": "High Court did not 'not apply'; it dismissed the appeals and confirmed conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeals, so convictions stand."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry death under 304-B was held proved."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term in years is stated; life imprisonment is given."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts only, without outcome: drop 'were found guilty' and the statement that the High Court confirmed the conviction",
+   "quote": "were found guilty of her death after pouring kerosene on her",
+   "page": 3,
+   "reason": "Facts are largely accurate but reveal the court outcome (guilt, High Court confirmation), which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment is the sentence imposed and upheld."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death was caused, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 18,
+   "reason": "Judgment records unnatural death, cruelty and ill-treatment of the deceased."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence under s.304-B IPC, committed by three accused",
+   "quote": "guilty of an offence punishable under Section 304B of the Indian Penal Code",
+   "page": 9,
+   "reason": "Judgment refers to a single offence under 304-B, not three offences."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Rs.10,000 paid to accused for refrigerator demand (dowry)",
+   "quote": "the family of Ms. Renu paid a sum of Rs.10,000/- to Rajesh Bhatnagar for purchasing the refrigerator",
+   "page": 10,
+   "reason": "Value says not applicable, but the judgment records a Rs.10,000 payment extracted as dowry."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the manner in which the offence has been committed is found to be brutal",
+   "page": 24,
+   "reason": "The court made no finding of premeditation or planning; only brutality and dowry motive."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 24,
+   "reason": "Offence committed for satisfaction of dowry demands, particularly television or cooler."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 18,
+   "reason": "Matches the court's statement on definite evidence accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 16,
+   "reason": "Judgment says PW1 and PW2 fully corroborated each other with no contradiction or variation."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 23,
+   "reason": "Accused absconded after body was handed over; court treats this as showing guilt."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "dates_of_offence: 17 Feb 1996; trial_judgment: 2 Dec 1996; high_court_decision: 14 Oct 2009; supreme_court_decision: 10 May 2012",
+   "quote": "Learned Second Additional District Judge, Haridwar, vide its judgment dated 2nd December, 1996",
+   "page": 9,
+   "reason": "Several dates are stated in the judgment (offence, trial, High Court, Supreme Court), so 'Not stated' is wrong."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 9,
+   "reason": "Counsel names for accused and state match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 9,
+   "reason": "Judgment states the prosecution filed a charge sheet under Section 173 CrPC."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is found or alleged; Section 313 discussion is not an irregularity finding."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 9,
+   "reason": "Trial conviction, High Court confirmation and Supreme Court dismissal are all accurately recorded."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 3,
+   "reason": "Summary matches the prosecution case as stated in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 19,
+   "reason": "Defence projected stove-fire accident and that accused was hurt trying to save deceased."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 13,
+   "reason": "Matches the court's statement of the s.304-B ingredients and presumption."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Relied on: Bansi Lal; Biswajit Halder; Kundula Bala Subrahmanyam. Cited/referred only: Meka Ramaswamy; Rajesh Tandon; Asraf Ali; Hemchand",
+   "quote": "Bansi Lal v. State of Haryana (2011) 11 SCC 359: 2011 (1) SCR 724; Biswajit Halder ... - relied on",
+   "page": 3,
+   "reason": "Lists cases cited or referred to by counsel or court as if all were relied upon."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 24,
+   "reason": "Matches the court's reasoning on brutality, dowry motive and false defence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 23,
+   "reason": "Court found no mitigating circumstances, so 'None' is accurate."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 24,
+   "reason": "Brutality, dowry motive and false defence are the aggravating factors the court identified."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is mentioned."
+  }
+ }
+}

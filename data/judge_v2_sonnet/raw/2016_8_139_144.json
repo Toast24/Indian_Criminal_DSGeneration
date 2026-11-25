@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "GURPAL SINGH v. STATE OF PUNJAB",
+   "page": 1,
+   "reason": "Matches the reported title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "acquitting the co-accused Harpartap Singh, his son",
+   "page": 3,
+   "reason": "Only the appellant's liability is decided by the Supreme Court; the co-accused was already acquitted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant... rushed downstairs of his house and brought his DBBL gun",
+   "page": 3,
+   "reason": "The accused is referred to as male and has a son."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is stated; the mention of fields is not an occupation."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Nothing on wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "hit Paramjit and Jatinder on their abdomen and Lakhwinder on his mouth and head",
+   "page": 4,
+   "reason": "Victims include both men and a woman."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim ages are given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "lingering land dispute between the informant and the appellant, who are brothers",
+   "page": 3,
+   "reason": "The brother relationship and land dispute are stated; the other victims are friends of the informant's son."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Culpable homicide",
+   "quote": "conviction of the appellant ought to be moderated to one under Section 304 Part 1 IPC and 307 IPC",
+   "page": 5,
+   "reason": "The charge was murder, but the final established offence is culpable homicide (plus attempt to murder)."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charge-sheet was laid against both the accused persons under Sections 302 and 307 IPC",
+   "page": 4,
+   "reason": "Charged and final sections are correctly given."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the 12 bore DBBL gun loaded with two live cartridges used for the offence",
+   "page": 5,
+   "reason": "Correct weapon."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The medical evidence reveals injuries on the deceased and the injured compatible with the weapon used.",
+   "page": 5,
+   "reason": "Eyewitness, medical, recovery and site plan evidence are all noted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fired from his gun towards them, which hit Paramjit and Jatinder",
+   "page": 4,
+   "reason": "Firing at several persons, causing one death and injuries, is supported by the facts."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "overpowered by an uncontrollable fit of anger... twelve years have elapsed",
+   "page": 5,
+   "reason": "Matches the court's reasoning."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "life imprisonment and fine of Rs.5,000/- ... five years rigorous imprisonment and fine of Rs.2,000/-",
+   "page": 3,
+   "reason": "Accurate; sentences concurrent and co-accused acquitted."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court has affirmed the conviction and the sentence recorded by the Trial Court",
+   "page": 4,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal is partly allowed. The conviction of the appellant is converted",
+   "page": 6,
+   "reason": "Conviction was altered and the sentence reduced."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "converted to one under Section 304 Part I and 307 IPC",
+   "page": 6,
+   "reason": "Correct."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "fixed_term",
+   "quote": "the sentence is reduced to the period already undergone",
+   "page": 6,
+   "reason": "The sentence was reduced to the period already undergone, a fixed term rather than 'not stated'."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentence is reduced to the period already undergone",
+   "page": 6,
+   "reason": "The number of years is not stated, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove gendered pronouns for the accused (e.g. 'his own son', 'his son'), using 'the accused's son' instead.",
+   "quote": "The accused came with his own son.",
+   "page": 3,
+   "reason": "The facts are accurate and outcome-free, but 'his' gives the accused's gender, which the instructions prohibit."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state statutory punishment ranges."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Jatinder succumbed to the injuries sustained",
+   "page": 4,
+   "reason": "A death occurred, so the main offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "hit the informant on the side of his head ... Jatinder succumbed",
+   "page": 4,
+   "reason": "Injuries and death are accurately described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction of the appellant ought to be moderated to one under Section 304 Part 1 IPC and 307 IPC",
+   "page": 5,
+   "reason": "Two sections charged; two convictions stand."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "overpowered by an uncontrollable fit of anger",
+   "page": 5,
+   "reason": "The court found sudden anger, not planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "over a lingering land dispute ... the appellant had hurled abuses to him",
+   "page": 3,
+   "reason": "Alleged motive is correctly marked."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "gun ... had been recovered from the appellant... four cartridge shells have also been recovered",
+   "page": 5,
+   "reason": "Matches the evidence relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "consistent, coherent and convincing narration",
+   "page": 5,
+   "reason": "Accurate."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant and the accused fled the scene",
+   "page": 4,
+   "reason": "Fleeing is noted as part of the prosecution account."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody period not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail details."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on 06.07.2002 ... the occurrence is of the year 2004",
+   "page": 3,
+   "reason": "Dates are accurately given and the discrepancy is noted."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Yatinder Singh, Sr. Adv.( AC), Arijeet Singh, Ms. Aprajita Anvita",
+   "page": 3,
+   "reason": "Matches the listed counsel."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "After completing the investigation, charge-sheet was laid",
+   "page": 4,
+   "reason": "Correct."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal is partly allowed",
+   "page": 6,
+   "reason": "Outcomes at each level are accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "telltale testimony of the injured eye-witnesses, supported on all fours by the medical evidence",
+   "page": 4,
+   "reason": "Accurate."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "exoneration of the co-accused ... all the purported eye-witnesses are relatives",
+   "page": 4,
+   "reason": "Accurate."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "had the knowledge of the likely fatal consequences thereof",
+   "page": 5,
+   "reason": "Consistent with the reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it would meet the ends of justice, if the sentence for the offences is reduced",
+   "page": 5,
+   "reason": "Accurate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "twelve years have elapsed ... uncontrollable fit of anger",
+   "page": 5,
+   "reason": "Matches."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant is hereby ordered to be set at liberty forthwith",
+   "page": 6,
+   "reason": "Matches."
+  }
+ }
+}

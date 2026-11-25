@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial proceeded against two persons, A-1 and A-2, who are the appellant and Vinu."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The appellant is referred to as male throughout, with a wife and son."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the appellant."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant was working as Deputy Superintendent of Police, a police officer."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prior record is only mentioned for PW.8 and PW.11, not the appellant."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Praveen is referred to as male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the victim appears in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Victim was related to the accused; victim had an illicit relationship with accused's wife",
+   "quote": "He was also related to the appellant.",
+   "page": 12,
+   "reason": "Victim was not the accused's spouse; the spouse was the wife with whom the victim had a relationship."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under Section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment cites s.302, s.201, s.364 each read with s.120-B IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Chopper (M.O.4) was the weapon used for dismemberment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case is expressly based on circumstantial evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is described; only disclosure statements leading to recoveries."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive, vehicle use, dismemberment and conspiracy are the court's proved circumstances against the appellant."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sessions court convicted the appellant and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction affirmed",
+   "quote": "which was dismissed by the High Court vide judgment and order dated 10.12.2009",
+   "page": 16,
+   "reason": "High Court dismissed the appeal, affirming conviction; value says Not applicable."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Murder (s.302 r/w s.120-B); s.201 r/w s.120-B (causing disappearance of evidence); s.364 r/w s.120-B (kidnapping)",
+   "quote": "Both the accused were also convicted under Section 201 read with Section 120-B IPC",
+   "page": 16,
+   "reason": "Criminal trespass is not mentioned; s.201 concerns evidence, not disappearance of a person."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant was sentenced to life imprisonment under s.302."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment has no fixed term, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "100000",
+   "quote": "a fine of Rs. one lakh, in default of which, he would undergo SI for a period of one year",
+   "page": 16,
+   "reason": "Judgment records a fine of Rs one lakh for the appellant, not null."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts should describe the prosecution case without stating the accused's guilt as established",
+   "quote": "Appellant clearly involved in conspiracy to eliminate 'P'",
+   "page": 1,
+   "reason": "Summary states the accused was involved in murder and conspiracy as fact, echoing the court's finding and revealing the outcome."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory minimum or maximum punishment for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder was completed; the victim was killed and body dismembered."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's body was dismembered, with parts recovered from the lake."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Three offences convicted for appellant (s.302, s.201, s.364, each read with s.120-B); charge sheet named five persons",
+   "quote": "charge sheet was filed against five persons, including the appellant",
+   "page": 15,
+   "reason": "Five refers to persons charged, not offences; appellant was convicted under three sections."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found the appellant and A-2 hatched a conspiracy to eliminate the victim."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found the appellant could not tolerate the victim's intimacy with his wife."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Chopper and van recoveries, DNA report, post-mortem and disclosure statement are all relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court stressed quality over number and noted High Court re-appreciated PW.12's evidence, accepting parts."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant returned the van after use; his conduct regarding the van was held relevant under s.8 Evidence Act",
+   "quote": "his conduct was relevant under Section 8 of the Evidence Act",
+   "page": 19,
+   "reason": "Value restates sentencing and absconding of others; the judgment's actual post-offence conduct point is the van and s.8."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; only the arrest date is given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Sessions judgment 3.1.2006; High Court 10.12.2009; Supreme Court decision 4 February 2013",
+   "quote": "FEBRUARY 4, 2013",
+   "page": 1,
+   "reason": "Supreme Court decision date is 4 February 2013, not 24.2.2013 (an arrest date)."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge sheet against five, trial against two, and recoveries and DNA report are accurately described."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Absence of test identification parade and s.164 statements not marked were raised; court found no fatal irregularity",
+   "quote": "such documents, if the same were in fact, a part of the record, were not marked",
+   "page": 21,
+   "reason": "Judgment records unmarked s.164 statements and no TIP as contested issues, so 'None noted' is incomplete."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court dismissal and Supreme Court dismissal are accurately stated."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the State's submissions on motive, circumstances and conspiracy."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the appellant's submissions on motive, TIP, s.164 statements and blood group."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Circumstantial evidence and beyond reasonable doubt standard are the principles applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Also includes Gura Singh, John Pandian, Dr Sunil Clifford Daniel, Babu v State of Kerala, Kulvinder Singh, Dandu Jaggaraju, Dhanabal, Ram Charan, Duncan Agro, Sheetla Sahai and many others",
+   "quote": "Relied on: Jogendra Nahak & Ors. v. State of Orissa",
+   "page": 5,
+   "reason": "Listed cases are accurate, but the list omits many authorities relied on in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Reasoning given concerns guilt and proof, not the choice of sentence; no sentencing rationale is discussed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not discuss mitigating factors, so asserting None is unsupported."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not label aggravating factors for sentence; 'None' conflicts with the extracted aggravating circumstances."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "All sentences directed to run concurrently",
+   "quote": "All the sentences were directed to run concurrently.",
+   "page": 16,
+   "reason": "Judgment expressly orders the sentences to run concurrently, not None."
+  }
+ }
+}

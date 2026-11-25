@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Vinod Jaswantray Vyas (Dead) Through Lrs. v. The State of Gujarat",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "tried the accused appellant Vinod Jaswantray Vyas... and his co-accused Chinubhai Govindbhai Patel",
+   "page": 5,
+   "reason": "Two accused (A1 and A2) were tried together."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused appellant Vinod Jaswantray Vyas... and altered his conviction",
+   "page": 4,
+   "reason": "Accused referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for either accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The accused appellant(A1) was posted as a Police Inspector at Amraiwadi Police Station",
+   "page": 6,
+   "reason": "A1 was a Police Inspector; A2 was Superintendent of Police."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Antecedents discussed concern the victim, not the accused; accused record is not stated."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Jeeva had come to surrender at the police station along with his advocate",
+   "page": 6,
+   "reason": "Victim Jeeva is male, referred to as brother and with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the victim Jeeva appears in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Police officers holding the victim in custody (no prior relationship stated)",
+   "quote": "The accused appellant(A1) was posted as a Police Inspector at Amraiwadi Police Station",
+   "page": 6,
+   "reason": "Accused were police officers with custodial control over the victim, not strangers."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder (IPC s.302 r/w s.114); High Court altered to culpable homicide under s.304 Part I",
+   "quote": "the offence punishable under Section 302 of the Penal Code, 1860 to one under Section 304 Part I IPC",
+   "page": 1,
+   "reason": "Trial charge was murder under s.302; culpable homicide applies only to the High Court's altered conviction."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 r/w s.114; s.304 Part I (High Court)",
+   "quote": "for the offences punishable under Section 302 read with Section 114 IPC",
+   "page": 5,
+   "reason": "Section 302 is right, but s.34 and Arms Act s.27 are not in the judgment; s.114 is omitted."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Fists and sticks",
+   "quote": "assaulted Jeeva with fists and sticks in the confines of the police station",
+   "page": 6,
+   "reason": "The judgment identifies fists and sticks as the weapons used."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness and medical evidence; circumstantial evidence not expressly identified",
+   "quote": "formidable evidence of the Medical Jurist (PW-9) which totally discredits the version of the so called eyewitnesses",
+   "page": 29,
+   "reason": "Medical and eyewitness evidence are central; circumstantial evidence is not identified as a category."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Aggravating circumstances are not discussed in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Mitigating circumstances are not discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "proceeded to convict both the accused for the above offences and sentenced them to imprisonment for life",
+   "page": 5,
+   "reason": "Trial court convicted under s.302 r/w 114 and sentenced to life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Affirmed guilt; s.302 altered to s.304 Part I; eight years RI and Rs 50,000 compensation",
+   "quote": "the offence was toned down from Section 302 IPC to offence under Section 304 Part I IPC",
+   "page": 5,
+   "reason": "High Court did act: it altered the offence and modified the sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "both accused i.e. Vinod Jaswantray Vyas(A1)(since deceased) and Chinubhai Govindbhai Patel(A2)(since deceased) are acquitted of the charges",
+   "page": 31,
+   "reason": "Supreme Court acquitted both accused."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has failed to bring home the guilt of both the accused persons",
+   "page": 31,
+   "reason": "No offence was finally established given the acquittal."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "both the accused... are acquitted of the charges",
+   "page": 31,
+   "reason": "No final imprisonment, since both accused were acquitted."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment term applies after acquittal."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine applies after acquittal; trial-court fine was set aside."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts should omit the outcome; remove 'leading to the acquittal of the accused'",
+   "quote": "Both the accused i.e. Vinod Jaswantray Vyas(A1)(since deceased) and Chinubhai Govindbhai Patel(A2)(since deceased) are acquitted",
+   "page": 31,
+   "reason": "Neutral facts reveal the court outcome by stating the acquittal."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Maximum: life imprisonment (trial sentence); no minimum stated",
+   "quote": "sentenced them to imprisonment for life and fine of Rs. 25,000/- each",
+   "page": 5,
+   "reason": "Life imprisonment is supported; the 6-year minimum is not in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rushed to the civil hospital in the early hours of 12th June, 1992, where the doctors declared him dead",
+   "page": 6,
+   "reason": "Offence resulted in the victim's death, so it is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "causing multiple injuries all over his body due to which he became unconscious",
+   "page": 6,
+   "reason": "Multiple external and internal injuries, including fractures, leading to death, are described."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence (s.302 r/w s.114) charged against both accused",
+   "quote": "charges were framed by the trial Court against both the accused for the offence punishable under Section 302 read with Section 114 IPC",
+   "page": 8,
+   "reason": "Only one offence was charged against both accused, not two."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; High Court directed Rs 50,000 compensation to the heirs",
+   "quote": "he shall pay a compensation of Rs. 50,000/- to the heirs of the deceased",
+   "page": 4,
+   "reason": "No property loss is stated, but a compensation order to heirs exists."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The theory of motive attributed by the prosecution witnesses (PW-1 and PW-2) to the accused A1 and A2 is also not palpable",
+   "page": 30,
+   "reason": "Court found no proven motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is formidable evidence of the Medical Jurist (PW-9) which totally discredits the version of the so called eyewitnesses",
+   "page": 29,
+   "reason": "Court relied on the Medical Jurist's evidence over the eyewitnesses."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "PW-1 and PW-2 held to show unnatural conduct; PW-3 discredited for contradictions, omissions and infirmities",
+   "quote": "This pertinent omission in failing to inform their advocate about the custodial torture... casting a doubt on the truthfulness of their version",
+   "page": 25,
+   "reason": "Unnatural-conduct finding applies to PW-1 and PW-2; PW-3 was rejected for infirmities, not unnatural conduct."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused post-offence conduct is discussed; only the sisters' complaint delay is noted."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Next evening i.e. on 11th June, 1992, Jeeva was produced before the jurisdictional Magistrate, who remanded him to judicial custody",
+   "page": 6,
+   "reason": "Remand to judicial custody on 11 June and death on 12 June are supported."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentence awarded to the accused appellant(A1) was suspended vide order dated 6th June, 2017 and he was directed to be released on bail",
+   "page": 5,
+   "reason": "Suspension of sentence and bail order are supported; A1's death is also stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "vide judgment dated 4th March, 1997... common judgment dated 13th February, 2017",
+   "page": 5,
+   "reason": "Offence, trial, High Court and Supreme Court dates are supported."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Harin P. Raval, Sr. Adv., Anando Mukherjee, Ms. Ekta Bharati... Advs. for the Appellants.",
+   "page": 4,
+   "reason": "Counsel names match the appearances section."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Complaint registered as Criminal Case No. 1920 of 1993 after cognizance; trial completed; no charge sheet mentioned",
+   "quote": "Cognizance was taken for the offence punishable under Section 302 IPC and the complaint came to be registered as Criminal Case No. 1920 of 1993",
+   "page": 8,
+   "reason": "Case registration and trial are supported; a charge sheet is not mentioned."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Non-examination of advocate Patanwadia, Anna Dorai and Meena; no prison-record investigation; delayed complaint",
+   "quote": "advocate Shri Patanwadia was not examined in evidence in support of the prosecution case",
+   "page": 12,
+   "reason": "The judgment notes several investigative and examination lapses."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Acquitted both accused",
+   "page": 31,
+   "reason": "Trial conviction, High Court alteration and Supreme Court acquittal of both match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Witnesses had no reason to falsely implicate; telegram was prompt; no delay; accused influenced the investigation",
+   "quote": "the witnesses, Selvin Prabhakar(PW-1), Dhanlakshmi Vaiyapuri(PW-2) had no reason so as to falsely implicate the accused appellant",
+   "page": 11,
+   "reason": "Delay and lack of motive were defence points; the prosecution argued reliability and prompt telegram."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Fresh injuries show assault in Sabarmati jail; eyewitnesses unreliable; delay, no motive, stairs-climbing impossibility also argued",
+   "quote": "clearly Jeeva(deceased) had been assaulted at the Sabarmati Central jail and a totally false case has been foisted",
+   "page": 9,
+   "reason": "Jail-assault theory and eyewitness doubts are supported; delay, motive and stairs arguments are omitted."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Ocular evidence generally takes precedence; medical opinion prevails only where contradiction completely demolishes eyewitness version",
+   "quote": "generally, the evidence of the eyewitnesses should be given precedence. However, where the contradiction is so prominent",
+   "page": 29,
+   "reason": "The value states medical precedence as the rule; the judgment gives eyewitnesses precedence generally, with an exception."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Also relied on Lahu Kamlakar Patil, Shivasharanappa, Narendrasinh Keshubhai Zala, Harvinder Singh, Chunthuram",
+   "quote": "Sait Tarajee Khimchand and Others v. Yelamarti Satyam alias Satteyya",
+   "page": 3,
+   "reason": "Three cases listed correctly, but several others relied on for unnatural conduct are omitted."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale applies since the accused were acquitted."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "High Court directed Rs 50,000 compensation to the heirs of the deceased",
+   "quote": "he shall pay a compensation of Rs. 50,000/- to the heirs of the deceased",
+   "page": 4,
+   "reason": "The High Court ordered compensation to heirs, so 'None' is wrong."
+  }
+ }
+}

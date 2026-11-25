@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "KRISHAN KUMAR MALIK v. STATE OF HARYANA",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Criminal Appeal No. 1252 of 2011 ... Appellant accordingly acquitted",
+   "page": 1,
+   "reason": "Only the appellant's liability is decided before the Court; the count of one is supported."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a statement before the Bench has been made ... that he is 5' 6\" tall",
+   "page": 18,
+   "reason": "Appellant is referred to as male throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated for the appellant in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity is mentioned for the accused."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community is named for the accused."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the appellant is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class status of the appellant is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Prosecutrix, PW-9, was a resident of Saraswati Road",
+   "page": 12,
+   "reason": "Victim is a female prosecutrix."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "was said to be aged about 17 years at the time of the commission of the said offence",
+   "page": 12,
+   "reason": "Age of 17 is stated, though framed as approximate."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No relationship between the appellant and victim is described; the judgment only notes the victim knew the accused's names."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offence is rape with abduction, so Rape fits."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 366 and 376 (2) (g) of the Indian Penal Code",
+   "page": 11,
+   "reason": "Both charged sections are correctly listed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "In the undergarments of the prosecutrix, male semen were found but these were not sent for analysis",
+   "page": 9,
+   "reason": "Lists the main evidence types the judgment discusses."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating facts are noted by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court notes no mitigating circumstances; the handicap is used only for identification."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The said four accused were awarded a sentence of ten years R.I. and a fine of Rs. 2000/-",
+   "page": 11,
+   "reason": "Sentences and convictions match the trial court's order as described."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Learned Single Judge ... partly allowed Criminal Appeal 338-SB of 1996, qua Vijay Dua and Krishan Kumar Takkar",
+   "page": 12,
+   "reason": "Partial allowance, two acquittals and upheld conviction match the High Court order."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Appellant is acquitted of all the charges.",
+   "page": 24,
+   "reason": "Supreme Court acquitted the appellant."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Appellant is acquitted of all the charges.",
+   "page": 24,
+   "reason": "No offence stands after acquittal."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Appellant is acquitted of all the charges.",
+   "page": 24,
+   "reason": "No sentence remains after acquittal, so 'none' applies."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fixed-term sentence exists, so null is correct."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final fine exists after acquittal, so null is correct."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The aunt, her husband, their sons, neighbours, the victim's mother and sister were not examined.",
+   "page": 8,
+   "reason": "Summary is roughly 290 words, stays neutral, names no one, and omits court proceedings and outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory maximum or minimum punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "two men were said to have sexually assaulted her",
+   "page": 13,
+   "reason": "Rape is treated as a completed offence in the narrative."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "she had not received any significant injuries on other parts of her body ... except for the cheek bite",
+   "page": 16,
+   "reason": "Accurately captures minor injuries and the healed hymen tear."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 366 and 376 (2) (g) of the Indian Penal Code",
+   "page": 11,
+   "reason": "Two sections charged; none finally upheld after acquittal."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court made no finding on premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Medical evidence shows that her Labia Majora and Labia Minora were healthy",
+   "page": 16,
+   "reason": "Court relied on medical findings and the untested semen as weakening the case; no conviction evidence accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Her photographs and video recording fully reflects it, yet she had the audacity to deny this fact.",
+   "page": 16,
+   "reason": "Court's credibility findings on the prosecutrix are accurately summarised."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct by the accused is noted."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sessions Case No.52 of 1994 decided on 24.04.1996",
+   "page": 11,
+   "reason": "Offence, trial, High Court and Supreme Court dates all match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Jaspal Singh, Sanjeev Anand, Yakesh Anand, Nimit Mathur, Vikram Anand for the Appellant.",
+   "page": 10,
+   "reason": "Counsel for appellant and State are correctly listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "FIR was recorded at Police Station, Manesar on 24.06.1994",
+   "page": 13,
+   "reason": "FIR, medical exam, statements, arrests and trial are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-9 was already shown the Appellant and other accused at the Police Station",
+   "page": 18,
+   "reason": "Lists the procedural lapses the court noted accurately."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Learned Single Judge ... acquitted them of all the charges levelled against them",
+   "page": 12,
+   "reason": "Outcomes at trial, High Court and Supreme Court match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "brought to our notice by learned counsel for the Respondent-State",
+   "page": 23,
+   "reason": "Only the s.53A DNA point is recorded as the State's submission."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant's counsel stated, after verification from the appellant's wife, that he is 5'6\" tall; the short-statured description did not match his appearance.",
+   "quote": "a statement before the Bench has been made by learned counsel for Appellant, after verification from the Appellant's wife, that he is 5' 6\" tall",
+   "page": 18,
+   "reason": "Height statement is correct, but 'dock identification was meaningless' was the court's own reasoning, not counsel's argument."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the solitary evidence of prosecutrix is sufficient provided the same inspires confidence and appears to be absolutely trustworthy, unblemished and should be of sterling quality",
+   "page": 20,
+   "reason": "Sole-witness test, lacuna principle and s.6 res gestae standard all match the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Taylor's 2nd Edn. (1965) Principles and Practice of Medical Jurisprudence - referred to.",
+   "page": 10,
+   "reason": "No case precedents are cited; only texts are referred to."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed, so 'Not applicable' fits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He be set at liberty forthwith if not required in any other criminal case.",
+   "page": 24,
+   "reason": "Liberty direction matches the judgment."
+  }
+ }
+}

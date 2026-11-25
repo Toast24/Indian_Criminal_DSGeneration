@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two accused, A-1 Rakesh and A-2 Ram Piari, are identified."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Mixed: A-1 male (husband), A-2 female (mother-in-law)",
+   "quote": "Rakesh (A-1) and Smt. Ram Piari, (A-2) mother-in-law",
+   "page": 3,
+   "reason": "Only the husband is male; the second accused is a female mother-in-law."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for either accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased is female, referred to as 'her' and 'wife'."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the deceased is given; only marriage duration of 8 years is mentioned."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "A-1 husband; A-2 mother-in-law of the deceased",
+   "quote": "husband and mother-in-law of the deceased respectively",
+   "page": 1,
+   "reason": "Spouse fits only A-1; A-2 is the mother-in-law, not a spouse."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence under s.302 IPC with dowry-related s.498A; murder category is supported."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sections 498-A and 302 read with 34 IPC are cited."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Kerosene oil and a match stick were used to set the deceased on fire."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dying declaration, doctor and magistrate evidence, and other witnesses are relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Burns, dowry harassment and mercilessly beating the deceased are all described."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued A-1 took deceased to hospital and had own burn injuries (seeking s.304 Part I); rejected",
+   "quote": "in view of the conduct of A-1 taking the deceased to the hospital and he also sustained injuries on his hand",
+   "page": 12,
+   "reason": "Mitigation was argued and rejected, so 'None noted' omits the defence's mitigation claims."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under ss.498-A and 302 r/w 34 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court dismissed the appeal and confirmed the conviction and sentence",
+   "quote": "the Division Bench of the High Court dismissed the appeal preferred by the appellants herein and confirmed the judgment on conviction",
+   "page": 3,
+   "reason": "The High Court did hear and decide the appeal; 'Not applicable' is contradicted."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Supreme Court dismissed the appeal, so the conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution held to have established the s.302/34 murder case beyond reasonable doubt."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rigorous imprisonment for life was imposed under s.302/34."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentence is not a fixed term, so null fits; the one-year term was under s.498-A."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.2000/- each under s.302/34 (default one year RI); Rs.500/- each under s.498-A",
+   "quote": "a fine of Rs.2000/- each",
+   "page": 3,
+   "reason": "The judgment states fines of Rs.2000 and Rs.500 each, so null is contradicted."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts as described, omitting the outcome: trial court convicted and High Court upheld the conviction",
+   "quote": "the High Court upheld the conviction",
+   "page": 3,
+   "reason": "Facts are accurate, but the summary reveals the trial and High Court outcomes, which it must not."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "RI for life and Rs.2000 fine under s.302/34 matches the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offence was completed; the deceased died of burn injuries."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "About 85% burns and merciless beating before the fire are both stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges under ss.498-A and 302 r/w 34 were framed and both upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment makes no finding of planning or premeditation; it only describes the act."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry demands and harassment for not bringing money are the stated motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dying declaration accepted on magistrate and doctor evidence, as the value states."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found Magistrate and doctor evidence proved the case and the procedure was proper."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "A-1 did not seek treatment for his claimed burns until arrest on 21.05.1998; accused did not inform the deceased's parents or shift her to another hospital",
+   "quote": "Admittedly, he did not get treatment till he was arrested on 21.05.1998",
+   "page": 11,
+   "reason": "The judgment states post-incident conduct of the accused, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated; only the arrest date is given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not discussed in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Incident, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's listing."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Application to magistrate 16.05.1998; FIR registered, investigating officer took case on 17.05.1998; investigation completed; charges framed",
+   "quote": "An FIR was registered and the investigating officer took the case for investigation on 17.05.1998",
+   "page": 4,
+   "reason": "FIR date is not explicit and no charge sheet is mentioned; charges were framed after investigation."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Relatives present during recording; wrong names in declaration; PW-11 recorded accidental-fire history; all held immaterial",
+   "quote": "some of the relatives were present at the time of recording of dying declaration, are not material contradictions",
+   "page": 2,
+   "reason": "Irregularities were raised and found immaterial, so 'None noted' understates them."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court dismissal and Supreme Court dismissal match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry harassment and killing by husband and mother-in-law, based on dying declaration, is supported."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Unreliable dying declaration and improbability due to husband's burns are both argued."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dying declaration acceptance on the facts and beyond-reasonable-doubt standard are applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is named; court said cited decisions were inapplicable without referring to them."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Court refused to alter s.302 conviction to s.304 Part I because death resulted from burns at accused's instance at matrimonial home",
+   "quote": "There is no valid ground to· alter the conviction as pleaded by the counsel for the first appellant",
+   "page": 12,
+   "reason": "Judgment does not give a sentencing rationale; it rejects reduction of the offence, which the value omits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors were accepted by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identified no explicit aggravating factors for sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Second appellant Ram Piari released after 14 years on orders of the appropriate Government",
+   "quote": "Inasmuch as the second appellant-Ram Piari had been released after 14 years on the orders of the appropriate Government",
+   "page": 12,
+   "reason": "The judgment records Ram Piari's release after 14 years, which 'None' omits."
+  }
+ }
+}

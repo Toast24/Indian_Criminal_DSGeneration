@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "VUTUKURU LAKSHMAIAH v. STATE OF ANDHRA PRADESH",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted A-1 to A-5 and A-7 to A-9",
+   "page": 8,
+   "reason": "Accused numbered A-1 to A-9, so nine accused are supported."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "The accused persons took the plea of false implication",
+   "page": 8,
+   "reason": "Judgment never states the accused's gender; 'Mixed' has no textual basis."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Vutukuru Lakshmaiah, A-1, was the Councilor for Ward No. 16 of Nellore Municipality",
+   "page": 6,
+   "reason": "Judgment identifies A-1's occupation as Councilor for Ward No. 16."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased was assaulted as he was a witness",
+   "page": 20,
+   "reason": "Victim is referred to with male pronouns throughout."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to accused; rival political supporter with previous animosity",
+   "quote": "the deceased was assaulted as he was a witness in Velongini Raja's murder case wherein the accused-appellant, A-1, was an accused",
+   "page": 20,
+   "reason": "Parties were known rivals with previous animosity, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Murder",
+   "page": 1,
+   "reason": "Offence is murder under s.302 IPC, as the headnote and judgment state."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss. 302, 148, 324, 149 (324 r/w 149); s.307 in FIR; s.304 Part I considered",
+   "quote": "Sections 302 and 148 of the Indian Penal Code (IPC)",
+   "page": 6,
+   "reason": "Omits standalone s.149 and s.307 from the FIR, and the s.304 Part I issue considered."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A-4 and A-6 beat him with iron rods",
+   "page": 6,
+   "reason": "Knives and iron rods are both stated as weapons used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the testimony of the eye-witnesses-PW 2 and PW 3 and the dying declaration of the victim",
+   "page": 1,
+   "reason": "Eyewitness testimony and dying declaration are the evidence relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned; only recoveries at the arrested persons' instance."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "considering the nature of injuries and the previous animosity",
+   "page": 20,
+   "reason": "Previous animosity, multiple stab injuries and unlawful assembly are the factors the court relied on."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are identified."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted A-1 to A-5 and A-7 to A-9 for the offences punishable under Sections 148 and 302 IPC",
+   "page": 8,
+   "reason": "Matches the trial court's convictions as described in the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court has acquitted A-4, A-8 and A-9",
+   "page": 17,
+   "reason": "High Court acquitted A-4, A-8, A-9 and upheld the others' conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we do not perceive any merit in these appeals and accordingly, the same stand dismissed",
+   "page": 20,
+   "reason": "Supreme Court dismissed appeals, so convictions stand."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is not a fit case where the offence under Section 302 IPC should be converted to Section 304 Part I IPC",
+   "page": 20,
+   "reason": "Offence finally upheld is murder under s.302 IPC."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for life",
+   "page": 6,
+   "reason": "Life imprisonment is the sentence stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term in years is stated; the sentence is life."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Same facts without the closing sentence stating the challenges were rejected (that reveals the outcome)",
+   "quote": "but these arguments were rejected",
+   "page": 8,
+   "reason": "Facts are accurate, but the final sentence reveals the court outcome, which is prohibited."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment imposed under s.302; statutory minimum and maximum not stated",
+   "quote": "sentenced each of them to suffer rigorous imprisonment for life",
+   "page": 6,
+   "reason": "Life sentence is supported, but statutory minimum and maximum are not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "who succumbed to his injuries three days later",
+   "page": 1,
+   "reason": "Victim died, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there are five stab injuries at different parts of the body",
+   "page": 20,
+   "reason": "Multiple stab injuries leading to death three days later are described."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the appellants ... guilty of the offence under Sections 302 and 148",
+   "page": 6,
+   "reason": "Judgment does not state a count of charges; the figures 8 and 7 are not supported."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as a premeditation finding; court relied on previous animosity as motive for intent",
+   "quote": "the deceased was assaulted as he was a witness in Velongini Raja's murder case",
+   "page": 20,
+   "reason": "Court relied on previous animosity for intent but did not expressly find premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "considering the nature of injuries and the previous animosity",
+   "page": 20,
+   "reason": "Previous animosity is the motive identified, linked to the witness status in a murder case."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the witnesses categorically deposed that they were able to see the accused persons",
+   "page": 15,
+   "reason": "Court accepted PW2 and PW3 eyewitness evidence, the dying declaration and witness presence."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court found witnesses were not chance witnesses and deposed categorically; the 'detailed' testimony point concerns PW-18",
+   "quote": "In his testimony, he has categorically stated every aspect in detail",
+   "page": 16,
+   "reason": "Credibility finding is right, but the 'detailed testimony' point refers to the Magistrate PW-18, not the eyewitnesses."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence 14.05.1996; trial court judgment date not stated; High Court judgment 22.03.2007; Supreme Court judgment 24.04.2015",
+   "quote": "From the Judgment and Order dated 22.03.2007 of the High Court of Andhra Pradesh",
+   "page": 5,
+   "reason": "22.03.2007 is the High Court judgment date; the trial court judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Nagendra Rai, A.T.M. Rangaramanujam, P. N. Ramalingam, for the Appellant",
+   "page": 5,
+   "reason": "Counsel names for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the chargesheet was placed before the competent court",
+   "page": 8,
+   "reason": "Chargesheet filed and trial completed, as the judgment describes."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Non-framing of a charge under s.149 IPC was raised; court held no prejudice",
+   "quote": "the said submission pales into insignificance",
+   "page": 14,
+   "reason": "Non-framing of the s.149 charge was argued and considered, though found non-prejudicial, so 'None noted' is incomplete."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "partly allowed the appeal thereby acquitting A4, A5 and A9",
+   "page": 6,
+   "reason": "Trial conviction, partial High Court acquittal and Supreme Court dismissal are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued dying declaration reliable, witnesses not chance witnesses, s.149 no bar, and not a case for conversion; alibi and intent points are court reasoning",
+   "quote": "there is no reason to discard the dying declaration as there is no infirmity in the same",
+   "page": 9,
+   "reason": "Some points are the State's, but alibi and intent-to-kill arguments are attributed to the prosecution without support."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Also argued alibi, no intention to kill, contradictions, and conversion to s.304 Part II",
+   "quote": "they may be liable for conviction under Section 304 Part II IPC and not under Section 302 IPC",
+   "page": 9,
+   "reason": "Covers chance witnesses, vague dying declaration and s.149, but omits the alibi, no-intention and s.304 arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the burden shifts to the accused to establish the plea of alibi with certainty",
+   "page": 19,
+   "reason": "Non-fatal s.149 charge, alibi burden and dying declaration reliability principles are all applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Also referred: State of Orissa v. Dibakar Naik; Sunder Lal v. State of Rajasthan; Marimuthu v. State of Tamil Nadu",
+   "quote": "State of Orissa v. Dibakar Naik (2002) 5 SCC 323; Sunder Lal v. State of Rajasthan (2007) 10 SCC 371",
+   "page": 4,
+   "reason": "Listed precedents are accurate, but three cases referred to in the headnote are omitted."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is not a fit case where the offence under Section 302 IPC should be converted to Section 304 Part I IPC",
+   "page": 20,
+   "reason": "No separate sentencing rationale; the only related reasoning concerns conversion, so 'Not applicable' is acceptable."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors were identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Nature of five stab injuries and previous animosity, relied on to refuse conversion to s.304 Part I",
+   "quote": "considering the nature of injuries and the previous animosity, we are of the considered opinion",
+   "page": 20,
+   "reason": "Court expressly relied on injury nature and previous animosity as aggravating; 'None' contradicts this."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Separate sentence under s.148 IPC imposed; all sentences concurrent",
+   "quote": "imposed separate sentence under Section 148 IPC with the default clause stipulating that all the sentences shall be concurrent",
+   "page": 6,
+   "reason": "Separate s.148 sentence and concurrency direction are stated, so 'None' is wrong."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "Seven charge-sheeted; sixteen named in FIR; two appellants",
+   "quote": "the police ... found that only seven persons out of the lot were involved",
+   "page": 11,
+   "reason": "Value gives only the two appellants; total accused charge-sheeted (seven) and named in FIR (sixteen) are omitted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused Budhi Singh and Achhar Singh are male, referred to as 'his'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No individual accused occupation is stated; only general reference to a farming community."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused socioeconomic status is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record of the accused is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Swari Devi is female, referred to as an old woman and mother."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only 'an old woman' is mentioned; no numeric age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Budhi Singh is described as the neighbour of the complainant's family."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 IPC is the principal offence, with hurt and trespass offences alongside."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions are under ss.302, 452, 326 and 323 IPC, matching the value."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Axes are the weapons used by the convicted accused; sickles, spears and sticks were used by others."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness and medical evidence are central; FIR and recoveries also relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are stated."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Additional Sessions Judge acquitted all accused."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court set aside acquittal and convicted the two appellants."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed appeals, maintaining convictions."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 and grievous hurt under s.326 are established, along with s.323 and s.452."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Budhi Singh: life imprisonment; Achhar Singh: rigorous imprisonment for five years",
+   "quote": "Budhi Singh has been convicted ... and sentenced to undergo imprisonment for life along with fine",
+   "page": 10,
+   "reason": "Value omits that Budhi Singh received life imprisonment; 'fixed_term' applies only to Achhar Singh."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "Achhar Singh: 5 years; Budhi Singh: life",
+   "quote": "sentenced to undergo rigorous imprisonment for five years along with fine",
+   "page": 10,
+   "reason": "Five years applies only to Achhar Singh; Budhi Singh's sentence is life imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fines are mentioned without any amount, so null is appropriate."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Summary should also state that Swari Devi was killed by an axe blow to the head during the attack",
+   "quote": "causing her death on the spot",
+   "page": 11,
+   "reason": "Facts are accurate and non-revealing, but omit the central fact of the victim's death."
+  },
+  "offence_severity": {
+   "verdict": "incorrect",
+   "correct_value": "Section 302 IPC: life imprisonment (Budhi Singh); ss.326/323/452 sentences as stated in the judgment",
+   "quote": "sentenced to undergo imprisonment for life along with fine",
+   "page": 10,
+   "reason": "Judgment states life imprisonment for s.302; the stated sentencing ranges do not appear in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died from the attack, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fatal head injury by axe and grievous injuries with incised wounds and facial fracture are described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Multiple offences were charged and convictions upheld for s.302/452 and s.326/323/452 as stated."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Property damage to door, windows and utensils is mentioned; no monetary value stated",
+   "quote": "the accused had broken the door, windows and utensils",
+   "page": 17,
+   "reason": "Judgment mentions property damage, so 'Not applicable' is inaccurate, though no value is quantified."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is stated in the judgment."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Prior enmity over a land purchase dispute, prior litigation and social boycott of the complainant's family",
+   "quote": "prior animosity existed between the parties because Budhi Singh and Narinder Singh wanted to purchase the land",
+   "page": 17,
+   "reason": "Judgment identifies motive as prior land-related enmity, litigation and social boycott, not 'Not identified'."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the judgment's account of consistent evidence against Budhi Singh and Achhar Singh accepted by High Court."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitnesses are held consistent and corroborated; trial court erred in discounting them for exaggeration."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Bail bonds of the accused existed and were cancelled; no further bail history stated",
+   "quote": "Their bail bonds are cancelled",
+   "page": 25,
+   "reason": "Judgment shows the accused were on bail bonds, which were cancelled; 'Not stated' overlooks this."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial duration not stated; key dates: trial judgment 24.02.1998, High Court 12.05.2010/27.05.2010, Supreme Court 07.05.2021",
+   "quote": "acquittal by the Addl. Sessions Judge, Mandi dated 24.02.1998",
+   "page": 10,
+   "reason": "Dates are accurate but the field asks for duration, which the judgment does not state."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel for appellants and State counsel are listed as stated."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registered, charge-sheet filed against seven, and trial completed, as stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified as such; trial court errors concern appreciation of evidence."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial acquittal, High Court setting aside acquittal with convictions, and Supreme Court dismissal are accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "unsupported",
+   "correct_value": "State counsel relied on Sheikh Hasib and Dharma Rama Bhagare: FIR not substantive evidence; exaggerations not fatal; Gangadhar Behera on residual evidence",
+   "quote": "the FIR was not a substantive piece of evidence and could be used for contradicting or corroborating only its maker",
+   "page": 14,
+   "reason": "Judgment does not record the prosecution arguing trial court's acquittal was perverse; its recorded arguments differ."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence argued trial court's possible view should not be disturbed absent perversity, consistent with the value's substance."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Presumption of innocence and High Court's power to re-appreciate evidence in acquittal appeals are applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murugesan, Aruvelu, Salim Akhtar and Woolmington are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no sentencing rationale; the value's reasoning restates conviction grounds, not sentencing."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "The Supreme Court cancelled the bail bonds and directed the accused to undergo the remainder of their sentence",
+   "quote": "Their bail bonds are cancelled and they are directed to undergo the remainder of their sentence",
+   "page": 25,
+   "reason": "Judgment attributes the bail cancellation and sentence direction to this Court, not the High Court."
+  }
+ }
+}

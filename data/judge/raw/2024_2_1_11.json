@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the header on page 1."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Four accused (A-1 to A-4) are identified in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A-3 ... his participation in the assault",
+   "page": 10,
+   "reason": "Accused are referred to with male pronouns throughout, so male is supported."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A-1 stopped the auto-rickshaw and dragged the deceased out by pulling his legs",
+   "page": 3,
+   "reason": "Deceased is referred to with male pronouns, so male is supported."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age is not stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Same village, political rivals; no family relation to deceased stated",
+   "quote": "the accused 1 to 4 belonging to the same family, and the deceased, come from the same village",
+   "page": 3,
+   "reason": "Judgment places accused as one family and deceased as from same village; no relative relationship is stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302/34 as charged and tried."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sections 302/34 and 304 Part II IPC are both referenced."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A-1 recovered and showed an axe, A-2 a sword and A-4 a knife",
+   "page": 4,
+   "reason": "Axe, sword, stone and knife are all identified as weapons used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, post-mortem, recovery and confessional evidence are all discussed."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Confessional statement recorded and led to recoveries; court did not expressly rely on it",
+   "quote": "PW-18 recorded the confessional statement of the accused",
+   "page": 4,
+   "reason": "Confession was recorded and led to recoveries, but judgment does not expressly say it was relied upon."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as judicial aggravating factors; facts show political animosity and multiple weapons",
+   "quote": null,
+   "page": null,
+   "reason": "Facts support these elements, but the court did not classify them as aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not expressly discuss mitigating circumstances; reduction rests on lack of common intention."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted them under Section 302 read with Section 34 of the IPC. Accordingly, they were sentenced to undergo imprisonment for life",
+   "page": 5,
+   "reason": "Trial court convicted all four under s.302/34 and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "After remand, High Court confirmed trial court conviction and sentence for all four and dismissed appeals",
+   "quote": "After remand, the High Court confirmed the judgment of the Trial Court and dismissed the criminal appeals.",
+   "page": 5,
+   "reason": "Modification for A-3 was by the Supreme Court, not the High Court, which confirmed all convictions."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All four accused remain convicted, with A-3's conviction altered."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we hold him guilty of the offence under Section 304 Part II IPC",
+   "page": 11,
+   "reason": "Murder under s.302/34 for A-1, A-2, A-4 and s.304 Part II for A-3 matches the holding."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment for A-1, A-2, A-4; fixed term (10 years) for A-3",
+   "quote": "sentence him to undergo imprisonment for 10 years",
+   "page": 11,
+   "reason": "Fixed term applies only to A-3; the other three received life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "10 years for A-3; life imprisonment for A-1, A-2, A-4",
+   "quote": "sentence him to undergo imprisonment for 10 years",
+   "page": 11,
+   "reason": "10 years applies only to A-3; the others received life imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs. 500 each (trial court), default one month simple imprisonment",
+   "quote": "to pay a fine of Rs. 500 each",
+   "page": 5,
+   "reason": "Judgment states a fine of Rs. 500 each was imposed by the trial court, not null."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts-only summary of the dispute, the 15.11.2001 assault, evidence, and the trial and High Court convictions, omitting the Supreme Court's modification",
+   "quote": "the Supreme Court modified the conviction of one accused to culpable homicide not amounting to murder",
+   "page": 11,
+   "reason": "Summary reveals the Supreme Court's modification of A-3's conviction, which must not appear in neutral facts."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment (A-1, A-2, A-4); 10 years (A-3)",
+   "quote": "sentenced to undergo imprisonment for life",
+   "page": 5,
+   "reason": "Life imprisonment is supported; death penalty is not mentioned anywhere in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "leading to death of the deceased on the spot",
+   "page": 3,
+   "reason": "The assault resulted in the victim's death, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "thereby inflicting severe bleeding injuries leading to death of the deceased on the spot",
+   "page": 3,
+   "reason": "Severe bleeding injuries leading to death are described."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Four accused were charged and convicted; three upheld under s.302 and A-3 under s.304 Part II."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "animosity between the two groups, eventually leading to the murder of the deceased",
+   "page": 3,
+   "reason": "Political animosity arising from Gram Panchayat elections is stated as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on eyewitness testimony including PW-6 and the post-mortem report."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-6's testimony was a clinching piece of evidence",
+   "page": 6,
+   "reason": "Trial court found eyewitness testimonies consistent and PW-6 clinching; court affirmed these analyses."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed beyond arrest and investigation."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the trial judgment dated 24.02.2005",
+   "page": 5,
+   "reason": "Offence, trial judgment, High Court and Supreme Court dates are all stated in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellants' counsel: Gaurav Agrawal and others; respondents' counsel: Sirajudeen, Sr. Adv. (for respondent No.2), Krishan Kumar Singh (for State) and others",
+   "quote": "Advs. for the Respondents.",
+   "page": 3,
+   "reason": "Names are listed, but the list is respondents' counsel, not all labelled as State counsel; Sirajudeen appears for respondent No.2."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a charge-sheet was filed on 09.01.2002",
+   "page": 5,
+   "reason": "FIR, charge sheet date and completed trial are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Courts mechanically drew s.34 inference against A-3 without analysing his role; High Court initially acquitted and was remanded",
+   "quote": "both the Courts have mechanically drawn an inference against A-3 under Section 34",
+   "page": 8,
+   "reason": "Supreme Court found the courts mechanically inferred A-3's involvement without analysing his role, an irregularity."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, initial High Court acquittal, remand, and Supreme Court modification are all supported."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The case of the prosecution is that the accused 1 to 4 belonging to the same family",
+   "page": 3,
+   "reason": "Prosecution's case on political animosity, dragging and multi-weapon assault is stated."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated; judgment records no defence argument on A-3's common intention",
+   "quote": "neither the prosecution or defence, nor the court, have focussed on the role of A-3",
+   "page": 8,
+   "reason": "Judgment says the defence did not focus on A-3's role; no defence argument on common intention is recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Common intention required for s.302/34; without it, participation with knowledge that act is likely to cause death attracts s.304 Part II (Camilo Vaz)",
+   "quote": "his participation in the assault and the wielding of the stone certainly makes him culpable",
+   "page": 10,
+   "reason": "Omits the knowledge-based principle from Camilo Vaz that the court relied on for s.304 Part II."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All four cases cited in the judgment are listed."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no common intention for A-3 and held his stone assault culpable under s.304 Part II with 10 years."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court does not expressly list mitigating factors; reduction rests on lack of common intention."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court does not expressly list aggravating factors in its sentencing analysis."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Default simple imprisonment of one month for non-payment of fine (trial court)",
+   "quote": "in default, to undergo simple imprisonment of one month",
+   "page": 5,
+   "reason": "Trial court's default imprisonment term is stated, so 'None' is not accurate."
+  }
+ }
+}

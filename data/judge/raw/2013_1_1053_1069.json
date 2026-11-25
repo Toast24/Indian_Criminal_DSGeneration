@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "SURENDER KAUSHIK AND OTHERS v. STATE OF UTTAR PRADESH AND OTHERS",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "Twelve accused in second FIR (No. 442 of 2012); four in first FIR (No. 274 of 2012)",
+   "quote": "the accused persons, twelve in number",
+   "page": 16,
+   "reason": "Twelve applies only to the second FIR; the first FIR named four accused, which the value omits."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never states accused genders; 'Mixed' is an inference from names."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused ages are stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are described as society members, not occupations."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim is identified in gender terms; the complainants are not treated as victims."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Parties are society members; no explicit accused-victim relationship is framed."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Forgery, fabrication and cheating-related property offences",
+   "quote": "offences punishable under Sections 406, 420, 467, 468, 471, 504 and 506 of the Indian Penal Code",
+   "page": 4,
+   "reason": "No culpable homicide is involved; offences are criminal breach of trust, cheating, forgery and related IPC offences."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 420, 467, 468 and 471 of the IPC",
+   "page": 6,
+   "reason": "Listed sections match the union of both FIRs' IPC provisions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No trial or evidence assessment is described, so evidence type is unstated."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned anywhere in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are stated."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No trial occurred; the Magistrate only directed FIR registration."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court declined to quash FIR No. 442 of 2012 and issued directions on surrender and interim bail",
+   "quote": "the High Court has declined to quash the FIR No. 442 of 2012",
+   "page": 4,
+   "reason": "High Court did have an outcome: it declined to quash the FIR and gave directions."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; second FIR not quashed",
+   "quote": "the appeal, being sans substance, stands dismissed",
+   "page": 17,
+   "reason": "No acquittal occurred; the Supreme Court dismissed the appeal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was finally established; no conviction is recorded."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed, so not_stated is appropriate."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only, without the court's holding on the second FIR's permissibility",
+   "quote": "Hence, we conclude and hold that the submission that the FIR lodged by the fourth respondent is a second FIR and is, therefore, liable to be quashed, does not merit acceptance.",
+   "page": 17,
+   "reason": "Summary states the court's holding that the second FIR was permissible, which neutral_facts must not reveal."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing range or statutory maximum is discussed in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "filed the same before the competent authority",
+   "page": 16,
+   "reason": "Alleged forged documents were filed, which supports completed offences as alleged."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is alleged."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated as a count; FIRs list multiple IPC sections, with no conviction or charge upheld",
+   "quote": "registered for offences punishable under Sections 420, 467, 468 and 471",
+   "page": 6,
+   "reason": "No counts were 'upheld'; the judgment only records FIR sections and dismisses a quashing appeal."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged intent to grab society property/funds; no amount of loss stated",
+   "quote": "with the common intention to grab the property/funds of the society",
+   "page": 7,
+   "reason": "Property/funds were alleged to be targeted, so 'Not applicable' is incomplete; no amount is given."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged conspiracy among accused to prepare forged documents",
+   "quote": "having entered into a conspiracy had prepared forged documents",
+   "page": 7,
+   "reason": "A conspiracy to prepare forged documents is alleged, so planning is not wholly unstated."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "To grab the property/funds of the society",
+   "quote": "with the common intention to grab the property/funds of the society",
+   "page": 7,
+   "reason": "The judgment identifies an alleged motive of grabbing society property and funds."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; court considered only FIR allegations, not evidence",
+   "quote": "It is impossible to say that the principle of sameness gets attracted.",
+   "page": 2,
+   "reason": "No evidence was assessed or accepted; the court only examined FIR allegations for sameness."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No witnesses or credibility assessment appear; the court addressed only FIR allegations."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody period is mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "grant of interim bail",
+   "page": 5,
+   "reason": "High Court issued directions regarding grant of interim bail, consistent with the value."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "dates_of_offence: alleged forged affidavit dated 15.12.2008; trial_judgment: Not stated; high_court_decision: 12.10.2012; supreme_court_decision: 14.02.2013",
+   "quote": "fabricated an affidavit on 15.12.2008",
+   "page": 6,
+   "reason": "Offence date is given in the judgment as 15.12.2008; the SC decision was 14 February 2013."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Nagendra Rai (senior counsel for appellants); Altaf Ahmed (for fourth respondent complainant); others appeared for parties unspecified",
+   "quote": "Mr. Nagendra Rai, learned senior counsel appearing for the appellants",
+   "page": 4,
+   "reason": "Listed counsel appeared for appellants and complainant, not described as accused; the list is generic."
+  },
+  "investigation_status": {
+   "verdict": "unsupported",
+   "correct_value": "FIRs registered; investigation had commenced; no charge sheet mentioned",
+   "quote": "for an investigation in that regard would have already commenced",
+   "page": 16,
+   "reason": "Charge sheet filing is not mentioned; only FIR registration and commenced investigation appear."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity was found; the second FIR challenge was rejected."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "order dated 12.10.2012",
+   "page": 4,
+   "reason": "Trial court not stated, High Court order dated 12.10.2012, and SC appeal dismissed all match."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "State argued there is no absolute bar on a second FIR where allegations and versions differ",
+   "quote": "there is no absolute prohibition in law for lodgment of a second FIR",
+   "page": 7,
+   "reason": "Value reverses positions; the State supported the second FIR, while the appellants argued prohibition."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants argued a second FIR for the same cognizable offence is legally barred under Bhajan Lal and related cases",
+   "quote": "law prohibits lodgment of the second FIR in respect of the same cognizable offence",
+   "page": 7,
+   "reason": "Value reverses positions; the appellants, not the defence, argued the second FIR was barred."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the concept of sameness has been given a restricted meaning",
+   "page": 16,
+   "reason": "Matches the court's stated principle on sameness and counter FIRs."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Upkar Singh; Amrawati; Lal Kamlendra Pratap Singh; Bhajan Lal; T.T. Antony; Pandurang Chandrakant Mhatre; Babubhai; Ram Lal Narang; Navjot Sandhu; Kari Choudhary; J.A.C. Saldanha; also Ram Mohan Garg, Ramesh Baburao Devaskar, Vikram",
+   "quote": "Ramesh Baburao Devaskar v. State of Maharashtra (2007) 13 SCC 501; Vikram v State of Maharashtra (2007) 12 SCC 332 - referred to",
+   "page": 3,
+   "reason": "List omits Ram Mohan Garg, Ramesh Baburao Devaskar and Vikram, which the judgment cites."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred, so not applicable."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court directed surrender before concerned court and grant of interim bail; no sentence order",
+   "quote": "issue certain directions in relation to surrender before the concerned court and grant of interim bail",
+   "page": 5,
+   "reason": "High Court did issue surrender and interim bail directions, so 'None' is incomplete."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "Five convicted by trial court (DR, MR, SR, SS, HR); more accused were charged, including RJ, Smt. R and Rajesh.",
+   "quote": "the trial court convicted and sentenced accused 'DR', 'MR', 'SR', 'SS' and 'HR'",
+   "page": 3,
+   "reason": "Five were convicted, but the value omits that other accused were charged and acquitted or summoned."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convicted accused are men; one woman (Smt. Rajesh/R) was acquitted, which the value does not contradict."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Sher Singh was a teacher by profession (per counsel's submission); he also took tuitions.",
+   "quote": "Sher Singh who was a teacher by profession, had a cast iron alibi",
+   "page": 15,
+   "reason": "Occupation is stated for accused Sher Singh, so 'Not stated' is contradicted."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Urned Singh is male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age is not stated anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Neighbours/acquaintances in a land dispute; accused were angered by the deceased's interference in land purchase.",
+   "quote": "for having interfered in the purchase of agricultural land",
+   "page": 8,
+   "reason": "Judgment shows a prior dispute and relationship, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final conviction is for murder under s.302 read with s.149."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment lists ss.302/149, 323/149 and 148 IPC, matching the value."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Kulhari (axe), bankri, jailli, lathis and kasis are all mentioned; value covers the main weapons."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness (injured witnesses) and medical evidence are relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is recorded; only a weapon recovery on interrogation is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Multiple fractures, vital-part injuries, heavy bleeding and intent to kill are all noted by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are expressly identified by the court; High Court's non-vital-parts view was rejected."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under ss.302/149, 323/149 and 148 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court converted s.302/149 conviction to s.304 Part II/149."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court restored trial court's conviction for the appellants."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder under s.302 read with s.149 IPC",
+   "quote": "The judgment of the trial court is restored in all respects.",
+   "page": 7,
+   "reason": "Murder is correct, but the judgment rests on s.302 read with s.149, not s.302 alone."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court sentenced to rigorous imprisonment for life for murder, which was restored."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentence has no fixed years, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.300/- each (trial court fine, with default imprisonment)",
+   "quote": "to a fine of Rs.300/- each for the offences under Section 302 read with Section 149",
+   "page": 12,
+   "reason": "A fine of Rs.300 each was imposed by the trial court, so null is contradicted."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts should omit the Supreme Court's decision and reasoning outcome.",
+   "quote": "but the Supreme Court overturned this decision, finding the intent to kill was evident.",
+   "page": 1,
+   "reason": "Facts reveal the Supreme Court's outcome and reasoning, which neutral_facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "incorrect",
+   "correct_value": "Rigorous imprisonment for life and fine of Rs.300 each (trial court sentence, restored).",
+   "quote": "to rigorous imprisonment for life and to a fine of Rs.300/- each",
+   "page": 12,
+   "reason": "The 5-year sentence and Rs.50,000 fine were High Court terms that were set aside."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim was killed, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death of one, injuries to two others, fractures and internal bleeding are all described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Three offences convicted by trial court: s.302/149, s.323/149 and s.148 IPC; all restored.",
+   "quote": "The judgment of the trial court is restored in all respects.",
+   "page": 7,
+   "reason": "Vague; the judgment specifies three convicted offences, all restored."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Value says 'Not applicable' but the judgment simply does not discuss financial or property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is expressly stated."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Dispute over purchase of agricultural land; deceased had interfered in the purchase.",
+   "quote": "for having interfered in the purchase of agricultural land",
+   "page": 8,
+   "reason": "The judgment clearly identifies the land-purchase dispute as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Medical evidence of 26 injuries, fractures and rib/liver injuries is accurately summarised."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court relied on injured eyewitnesses whose presence was admitted by defence; delay in FIR explained; no express credibility assessment.",
+   "quote": "the presence of Simla and Raj Kumar has been admitted by the defence",
+   "page": 17,
+   "reason": "Judgment does not expressly assess credibility of the medical examiner; reliance rests on defence-admitted presence."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused ran away from the spot after leaving the injured deceased at the tubewell.",
+   "quote": "The accused then ran away from the spot.",
+   "page": 9,
+   "reason": "Value says Not stated, but the judgment records the accused fleeing after the attack."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants were on bail when the High Court passed its order.",
+   "quote": "The appellants are on bail, they shall be taken into custody forthwith",
+   "page": 21,
+   "reason": "Judgment states the appellants were on bail, contradicting 'Not stated'."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Accused: R.S. Cheema (Crl.A. 1071/2009) and K.B. Sinha (Crl.A. 1294/2009); State counsel not named.",
+   "quote": "R.S. Cheema, K.B. Sinha, Kawaljit Kochhar",
+   "page": 8,
+   "reason": "Counsel for accused appellants are named in the judgment, so 'Not stated' is wrong."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registered, charge-sheet filed and trial completed are all reflected."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence irregularity claims were rejected; no irregularity is found by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court conversion to s.304 Part II and Supreme Court restoration are accurately recorded."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution case: incident in deceased's field, victim taken to tubewell; delay and injury non-explanation arguments rebutted; High Court's non-vital view erroneous.",
+   "quote": "the observations made by the High Court were erroneous in the light of the medical and other evidence",
+   "page": 7,
+   "reason": "Omits the prosecution's rebuttal of delay, injury and alibi arguments; intent point is the court's reasoning."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued FIR delay, site change, suppressed injuries on DW-9, alibi; animosity, if any, was only with Balbir Singh.",
+   "quote": "the animosity, if any, existed was with the latter",
+   "page": 3,
+   "reason": "Omits the alibi plea and misstates the animosity point as 'no animosity' overall."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Intent to kill inferred from injuries' nature and doctor's opinion on sufficiency is accurately described."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All three cases are cited and held inapplicable, with matching citations."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Restoration rests on intent to cause death and sufficiency of injuries, as the value states."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are accepted by the court; the High Court's non-vital reasoning was rejected."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "26 injuries, fractures, injuries on vital parts, heavy internal bleeding, and intention to cause death.",
+   "quote": "the intention of the accused was evident and that was to cause death",
+   "page": 24,
+   "reason": "Court expressly relied on several aggravating factors, so 'None' is contradicted."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Substantive sentences to run concurrently; default imprisonment for non-payment of fine.",
+   "quote": "all the substantive sentences to run concurrently",
+   "page": 12,
+   "reason": "Concurrency and default-imprisonment terms are stated in the trial sentence, so 'None' is incomplete."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence date: 29.9.1991; High Court judgment: 01.10.2008; Supreme Court decision: 16.12.2010; trial judgment date not stated.",
+   "quote": "Judgment and Order dated 01.10.2008 of the High Court of Punjab and Haryana",
+   "page": 7,
+   "reason": "01.10.2008 is the High Court judgment date, not the trial judgment, and High Court date is wrongly marked not stated."
+  }
+ }
+}

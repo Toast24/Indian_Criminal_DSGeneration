@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "Ranjeet Singh @ Dara v. State of Madhya Pradesh",
+   "quote": "RANJEET SINGH @ DARA v. STATE OF MADHYA PRADESH",
+   "page": 1,
+   "reason": "Matches the case title in the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": "1",
+   "quote": "the appellant herein",
+   "page": 6,
+   "reason": "Only one appellant; the Court decides his liability alone."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": "the appellant opened the door and stated that he killed the deceased",
+   "page": 2,
+   "reason": "Judgment refers to the appellant with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused appears in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated; the surname alone cannot be used."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth, poverty or class of the accused appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment says nothing about prior criminal record."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Female",
+   "quote": "The deceased Jayawati was the second wife of Machi Singh",
+   "page": 6,
+   "reason": "Victim is a woman, referred to as the deceased's mother by her son."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the victim is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": "Relative (step-son of the victim); the appellant was a regular visitor to the house",
+   "quote": "The appellant was the step son of the deceased.",
+   "page": 11,
+   "reason": "Step-son relationship and regular visits are both described in the judgment."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Murder",
+   "quote": "Penal Code, 1860: s. 302 - Murder",
+   "page": 1,
+   "reason": "Offence is murder under section 302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC s.302",
+   "quote": "Penal Code, 1860: s. 302 - Murder",
+   "page": 1,
+   "reason": "Only section 302 IPC is referred to."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "Sword (blood-stained)",
+   "quote": "He was holding blood stained sword in his hand",
+   "page": 1,
+   "reason": "Blood-stained sword is the weapon identified throughout."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": "Circumstantial evidence; oral evidence of witnesses; medical evidence (post-mortem report); documentary evidence; recovery of the sword and blood-stained items",
+   "quote": "There was oral, medical and documentary evidence, which would undoubtedly connect the appellant with the murder.",
+   "page": 3,
+   "reason": "All listed evidence types are described in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "Oral statement made when the door was opened that the accused had killed the victim; treated as part of oral evidence, not separately analysed as a confession",
+   "quote": "the appellant opened the door and stated that he killed the deceased",
+   "page": 2,
+   "reason": "Statement is recounted and relied on as oral evidence; no separate confession analysis appears."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "Court did not identify aggravating facts beyond the evidence itself."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted by the Court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Convicted under s.302 IPC; life imprisonment and fine of Rs. 5000, in default one year rigorous imprisonment",
+   "quote": "sentenced him to imprisonment for life and imposed a fine of Rs. 5000/-, in default of which he had to further undergo rigorous imprisonment for one year",
+   "page": 7,
+   "reason": "Matches the trial court's conviction and sentence."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Appeal (Criminal Appeal No. 469 of 2000) dismissed; conviction under s.302 IPC confirmed",
+   "quote": "The High Court vide order dated 13/3/2006 confirmed the conviction of the accused under Section 302 IPC.",
+   "page": 8,
+   "reason": "High Court confirmed the conviction, matching the value."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "convicted",
+   "quote": "The appeal is accordingly dismissed.",
+   "page": 16,
+   "reason": "Supreme Court dismissed the appeal, upholding conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "Murder under IPC s.302",
+   "quote": "convicted the appellant herein for the offences punishable under Section 302 IPC",
+   "page": 7,
+   "reason": "Conviction under s.302 stands."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "life",
+   "quote": "sentenced him to imprisonment for life",
+   "page": 7,
+   "reason": "Life imprisonment sentence stands after the appeal was dismissed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced him to imprisonment for life",
+   "page": 7,
+   "reason": "Life sentence is not a fixed term, so null is correct."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": 5000,
+   "quote": "imposed a fine of Rs. 5000/-",
+   "page": 7,
+   "reason": "Fine of Rs. 5000 imposed by trial court and not disturbed."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove the closing sentence on the injury report's author not being examined, which is a later court finding, and avoid 'his wife' for the relative; the rest of the incident and evidence summary is accurate.",
+   "quote": "its author was not examined as a witness",
+   "page": 15,
+   "reason": "Summary is largely accurate, but the author-not-examined point comes from High Court analysis and the defence reliance is argument, not trial evidence."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the statutory punishment for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed",
+   "quote": "the death (murder) of Jayawati",
+   "page": 6,
+   "reason": "Victim was killed, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Death of the victim; seventeen injuries, mostly incised wounds from a sharp-edged weapon such as a sword, to the abdomen, head, limbs and buttock",
+   "quote": "All the aforesaid injuries could be caused with a sharp edged weapon such as a sword.",
+   "page": 15,
+   "reason": "Death and the listed injuries are supported by the post-mortem description."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": "1 charged; 1 finally upheld",
+   "quote": "convicted the appellant herein for the offences punishable under Section 302 IPC",
+   "page": 7,
+   "reason": "Single section charged and upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is described."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Court made no finding on premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": "alleged: apprehension that the father would favour the illegitimate son (PW-11) over the legitimate sons; the Court did not decide the motive",
+   "quote": "He was apprehensive that the father may favour the illegitimate son PW11 over the legitimate sons.",
+   "page": 9,
+   "reason": "Motive is correctly marked as alleged by the State's counsel and not decided by the Court."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "Oral evidence of PW-1, PW-9, PW-11, PW-12 and PW-13; post-mortem report Ex. P-11; seizure of sword and blood-stained items; failure to explain presence and sword",
+   "quote": "The version given by PW 11 is consistent with the testimony of the Investigating Officer PW.13.",
+   "page": 12,
+   "reason": "Accepted evidence is accurately listed from the Court's reasoning."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "PW-11 was cross-examined at length without anything useful elicited and his account was consistent with PW-13; PW-10's naming of another family member was possibly confusion; discrepancies did not justify discarding evidence",
+   "quote": "Nothing useful could be elicited from him.",
+   "page": 12,
+   "reason": "Credibility assessments match the Court's observations."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Refused to open the locked door to the son and the ground-floor occupant and said he would open it only when police arrived; then opened the door and stated he had killed the victim",
+   "quote": "the appellant shouted that he will open the door only when the police arrives",
+   "page": 12,
+   "reason": "Conduct at the door is accurately described from the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No duration of custody is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment contains no bail information."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": "offence: 6.9.1997; trial judgment: 7.3.2000; High Court: 13.3.2006; Supreme Court: 20.9.2010",
+   "quote": "By order dated 7/3/2000, the Trial Court convicted the appellant",
+   "page": 7,
+   "reason": "All dates match the judgment, and the offence date appears in the paragraphs on page 6 and page 14."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Appellant: K.T.S. Tulsi, Senior Advocate (with Ram Nivas, Raj Kamal, A.P. Dhamija, Sanjeev Malhotra); State: C.D. Singh (with Sunny Choudhary, Shashank Parihar, Sakshi Kakkar)",
+   "quote": "K.T.S. Tulsi, Ram Nivas, Raj Kamal, A.P. Dhamija, Sanjeev Malhotra for the Appellant.",
+   "page": 5,
+   "reason": "Counsel names match the judgment's appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR registered as Case No. 165/97 under s.302 IPC; accused arrested; trial completed",
+   "quote": "case No: 165/97 under Section 302 IPC was registered vide Ex P/21",
+   "page": 6,
+   "reason": "Charge sheet filing is not mentioned in the judgment; the rest is supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "Defence argued FIR registration was delayed and copy not sent to Magistrate for five days; courts below found no prejudice and sufficient explanation",
+   "quote": "the delay in sending the copy of the FIR has not caused any prejudice to the appellant",
+   "page": 9,
+   "reason": "Delay argument and the courts' findings are accurately summarised."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial court: convicted under s.302 IPC, life imprisonment and fine Rs. 5000; High Court: appeal dismissed, conviction confirmed; Supreme Court: appeal dismissed",
+   "quote": "we find no reason to interfere with the well reasoned judgments of the trial court and the High Court. The appeal is accordingly dismissed.",
+   "page": 16,
+   "reason": "Outcome at each level matches the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": "Delay in sending FIR copy caused no prejudice and was explained by PW-13; delay cannot discard evidence; motive; caught red-handed; Ex. D5 falsified by Ex. P22",
+   "quote": "the delay in sending the copy of the FIR would not in itself be sufficient to discard the entire prosecution evidence",
+   "page": 9,
+   "reason": "State's arguments are accurately reflected from paragraphs 9 and 10."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "False implication; real culprit shielded; FIR deliberately delayed; investigation incomplete; appellant in police custody at 11.45 hrs; injuries to hands made wielding sword impossible; discrepancies in PW-10, PW-11 and PW-13 evidence",
+   "quote": "He had been sent for medical examination to Dr.RC.Choudhary. On medical examination, this witness had recorded the time of examination at 11.45 hrs.",
+   "page": 8,
+   "reason": "Defence submissions are accurately summarised from the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "Circumstantial evidence chain must be complete and consistent only with guilt (Hanumant); Article 136 interference with concurrent findings only in very exceptional circumstances; none shown",
+   "quote": "the interference with concurrent findings of facts would only be in very exceptional circumstances",
+   "page": 15,
+   "reason": "Principles applied match the Court's reasoning."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "Hanumant Govind Nargundkar v. State of M.P. 1952 SCR 1091 (relied on); Ganga Kumar Srivastava v. State of Bihar (2005) 6 SCC 211 (held inapplicable); others referred to",
+   "quote": "Ganga Kumar Srivastava Vs. State of Bihar,[(2005) 6 SCC 211]",
+   "page": 15,
+   "reason": "Citations and treatment match the judgment's case law references."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "Court gave no separate sentencing reasoning; it only dismissed the appeal."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "Court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "Court did not expressly weigh aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No compensation, directions or guidelines are ordered."
+  }
+ }
+}

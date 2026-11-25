@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Seven accused were charged and tried, as stated in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the accused Sasi and Dasan were also in the bus",
+   "page": 6,
+   "reason": "Judgment names accused but never states their genders; 'Mixed' is inferred, not stated."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused occupation is stated; the auto-rickshaw driver is witness PW-4."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status of accused is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Sathyan is referred to as the brother of PW-1, a male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Political rivals (BJP accused vs Congress workers); no personal relationship stated",
+   "quote": "the accused persons belonged to the Bhartiya Janta Party whereas PW-1 and his brother were workers of the Congress Party",
+   "page": 1,
+   "reason": "'Stranger' is not stated; the judgment describes them as rival party workers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 IPC, as convicted."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction was under s.302 read with s.34 IPC, as stated."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sword, axe and knife are all described as weapons used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness and medical evidence are relied on; documentary FIR and trip-sheet also appear."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned anywhere in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Political animosity is the stated motive and aggravating context."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial Court acquitted all seven accused."
+  },
+  "high_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Reversed acquittal and convicted four accused; acquittal of other three maintained",
+   "quote": "the acquittal of other three accused was maintained",
+   "page": 2,
+   "reason": "Value omits that three accused's acquittal was maintained; only four were convicted."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Four appellants convicted; acquittal of three other accused maintained",
+   "quote": "who were convicted under Section 302 r/w Section 34 IPC and sentenced to life imprisonment, whereas the acquittal of other three accused was maintained",
+   "page": 2,
+   "reason": "Only the four appellants were convicted; value omits the three acquittals."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 r/w s.34 was the finally established offence."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence was life imprisonment, as stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term in years is stated; null is appropriate for life imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Victim-brother PW-1 was grievously injured; the deceased brother died after 58 injuries; accused allegedly formed an unlawful assembly",
+   "quote": "PW-1 was grievously injured while his brother died at the hospital",
+   "page": 1,
+   "reason": "Conflates the injured PW-1 with the deceased victim, saying the victim was injured and later died; facts otherwise accurate."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the accused were charged for offences punishable under Sections 147, 148, 307, 324 and 302",
+   "page": 1,
+   "reason": "Judgment states no minimum or maximum punishment; the range given is not in the text."
+  },
+  "attempt_completion": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder completed (brother died); attempt charged under s.307 for injuries to PW-1",
+   "quote": "the accused were charged for offences punishable under Sections 147, 148, 307, 324 and 302",
+   "page": 7,
+   "reason": "'Completed' ignores the s.307 attempt charge concerning injuries to PW-1."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "PW-1 had three incised wounds; deceased had 58 injuries, mostly incised and cutting."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges and the four upheld convictions are accurately summarised."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed; the absence is consistent with the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "incorrect",
+   "correct_value": "Prosecution case: accused formed an unlawful assembly and waited at Babu's shop for the deceased",
+   "quote": "the accused persons formed themselves into an unlawful assembly",
+   "page": 1,
+   "reason": "Judgment does state alleged planning: unlawful assembly and waiting at Babu's shop, per the prosecution case."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Political animosity between BJP accused and Congress victims is the stated motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held the prosecution story was supported by PW-2 and independent PWs 3 and 4."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found PW-1 credible, PWs 2-4 present despite FIR omissions, consistent with the judgment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence: 24 March 1994; Trial court judgment date not stated; High Court judgment: 23.05.2003; Supreme Court judgment: 4 February 2011",
+   "quote": "FEBRUARY 4, 2011",
+   "page": 1,
+   "reason": "Supreme Court date is 4 February 2011, not 24 February; trial judgment date is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and State match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR was registered, investigation completed, accused charged and tried."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged FIR delay and non-examination of bus crew raised; court found them not fatal",
+   "quote": "the bus crew ought to have been examined",
+   "page": 15,
+   "reason": "Judgment notes alleged FIR delay and non-examination of bus crew; 'None noted' omits these."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial acquittal, High Court reversal of four acquittals, and Supreme Court dismissal are accurately stated."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution story: accused (BJP) formed unlawful assembly and assaulted PW-1 and brother; Court held it supported by PWs 2-4",
+   "quote": "the prosecution story was entirely correct and was fully supported by the evidence of PW 2",
+   "page": 1,
+   "reason": "Last sentence is the court's conclusion, not a prosecution argument; the core story is accurate."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Defence argued no justification for interference in acquittal appeal, FIR delay, discrepant eyewitnesses, and non-examination of bus crew",
+   "quote": "It has further been pointed out that the presence of PWs 2, 3 and 4 was even otherwise to be ruled out",
+   "page": 11,
+   "reason": "Claim that defence argued trial findings were 'not perverse' is not stated; other arguments are reflected."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court applied the Arulvelu principle on interference with acquittal, as stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Arulvelu v. State is the precedent cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "sentenced to life imprisonment",
+   "page": 2,
+   "reason": "Judgment gives no reasoning for the sentence; rationale is inferred from the acquittal reversal."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "sentenced to life imprisonment",
+   "page": 2,
+   "reason": "Judgment does not discuss sentencing or mitigating factors; 'None' is not stated."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "sentenced to life imprisonment",
+   "page": 2,
+   "reason": "Judgment does not discuss sentencing or aggravating factors; 'None' is not stated."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentencing orders are mentioned beyond life imprisonment."
+  }
+ }
+}

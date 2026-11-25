@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "3",
+   "quote": "against the appellants and Mr. A.K. Mukherjee for offences under Sections 420, 406 and 120B",
+   "page": 7,
+   "reason": "Two appellants were before the Court, but the complaint named three accused including A.K. Mukherjee."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Gender of accused is not stated in the judgment."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes accused as senior employees/functionaries of FCIL."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim is a company, so no gender is stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is a company; no age stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not applicable and not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not applicable and not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only a commercial tripartite agreement is described; no personal relationship is stated."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Cheating, criminal breach of trust and criminal conspiracy",
+   "quote": "cheating and dishonestly inducing delivery of property; criminal breach of trust and criminal conspiracy",
+   "page": 1,
+   "reason": "Omits cheating, which was the main charge analysed alongside criminal breach of trust and conspiracy."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.420, 406, 120B; Companies Act ss.540, 542",
+   "quote": "Sections 420, 406 and 120B of the Indian Penal Code",
+   "page": 7,
+   "reason": "Omits IPC s.420 and misrenders s.120B as s.1208; s.405 and s.415 are discussed but not charged."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "in para 5 of the plaint filed by IEL it is averred that",
+   "page": 20,
+   "reason": "Court only assessed complaint allegations and civil plaint averments; 'circumstantial' evidence is not described."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never mentions any confession, so 'None' is not backed by the text."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed; 'None noted' is a fair reflection."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed; 'None noted' is a fair reflection."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Metropolitan Magistrate, 8th Court, Kolkata, who issued summons against the appellants",
+   "page": 9,
+   "reason": "Magistrate took cognizance and issued summons."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Petition under s.482 CrPC dismissed; complaint not quashed",
+   "quote": "The High Court dismissed the petition.",
+   "page": 2,
+   "reason": "High Court outcome was stated; the petition was dismissed, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Complaint and magistrate's cognizance order quashed; appeals allowed",
+   "quote": "the order of the Magistrate taking cognizance in Complaint Case No.2560 of 2003 is quashed.",
+   "page": 24,
+   "reason": "No trial occurred; the complaint was quashed, not an acquittal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no prima facie case is made out against the appellants",
+   "page": 24,
+   "reason": "No offence was held established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment is mentioned."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only, omitting the Supreme Court's outcome (appeals allowed, High Court order set aside, magistrate's order quashed)",
+   "quote": "The Supreme Court allowed the appeals, set aside the High Court's order, and quashed the magistrate's order",
+   "page": 24,
+   "reason": "Neutral facts reveal the court outcome, which the field must not do."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not mention any punishment range for the offences."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants induced 'IEL' to pay Rs.4,20,41,622/- to 'BCCL'",
+   "page": 19,
+   "reason": "Payment is alleged to have been made, so the offence is described as completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no prima facie case is made out against the appellants in respect of alleged offences under Sections 420, 406 and 1208",
+   "page": 24,
+   "reason": "Three offences charged; no prima facie case found for any."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants induced 'IEL' to pay Rs.4,20,41,622/- to 'BCCL'",
+   "page": 19,
+   "reason": "The alleged loss of Rs.4,20,41,622 matches the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is discussed beyond the agreement itself."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No specific motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "No evidence accepted; the complaint's suppression allegation was held insufficient to show dishonest intent",
+   "quote": "A bare reading of the complaint would show that there is not even a whisper",
+   "page": 15,
+   "reason": "The Court did not accept the allegations; it found them insufficient, so 'accepted' is misleading."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": "On their own showing IEL was fully aware of the financial health of FCIL",
+   "page": 20,
+   "reason": "No witnesses were assessed; the Court relied on complaint and plaint averments, not credibility."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "dates_of_offence: 2001 (payments Sept–Nov 2001); trial_judgment: Not stated; high_court_decision: 28 Feb 2007; supreme_court_decision: 24 Sept 2010",
+   "quote": "dated 28.2.2007 of the High Court of West Bengal",
+   "page": 1,
+   "reason": "Offence period, High Court and Supreme Court decision dates are stated in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "accused: Jaideep Gupta (senior counsel) and other counsel for appellants; state: Not stated; Sanjoy Ghosh appeared for IEL",
+   "quote": "Mr. Sanjoy Ghosh, learned counsel appearing on behalf of the IEL",
+   "page": 10,
+   "reason": "Sanjoy Ghosh represented the complainant IEL, not the accused."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Petition uls. 482 Cr. P. C. - Dismissed by High Court",
+   "page": 1,
+   "reason": "Complaint, summons and s.482 petition dismissal match the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the impugned order is set aside and the order of the Magistrate taking cognizance",
+   "page": 24,
+   "reason": "Trial court appeal not stated; High Court dismissal and Supreme Court outcome match."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it has been alleged by IEL that at the time of entering into the tripartite agreement",
+   "page": 15,
+   "reason": "Summarises IEL's allegation of suppression and inducement accurately."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is not even averred that the accused had a fraudulent or dishonest intention",
+   "page": 10,
+   "reason": "Accurately reflects the appellants' argument that ingredients were missing and IEL knew FCIL's health."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "such a culpable intention right at the time of entering into an agreement cannot be presumed merely from his failure to keep the promise subsequently",
+   "page": 15,
+   "reason": "Accurately states the cheating principle applied by the Court."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Ram Jas; Hridaya Ranjan Prasad Verma; Anil Mahajan; Onkar Nath Mishra; Common Cause; Jaswantrai Manilal Akhaniya (AIR 1956 SC 575); Indian Oil Corpn v. NEPC India (2006) 6 SCC 736",
+   "quote": "AIR 1956 SC 575 Relied on. Para 33",
+   "page": 6,
+   "reason": "Omits Jaswantrai and Indian Oil, which the judgment expressly lists as 'Relied on'."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred; 'Not applicable' is appropriate."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence or other order beyond quashing is given."
+  }
+ }
+}

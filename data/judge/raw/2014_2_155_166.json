@@ -1,0 +1,389 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to 'the eight accused'."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never states accused genders; 'Mixed' has no textual basis."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated for the accused."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste is stated for the accused."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation is stated for the accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's prior criminal record is not mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Bairam and injured Bhagwan Singh are male sons of the complainant."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to victims' family: inimical neighbours in land dispute, with prior enmity",
+   "quote": "appellant and complainant party were on inimical terms due to land disputes",
+   "page": 2,
+   "reason": "Judgment describes enmity and land disputes, so 'Stranger' contradicts the record."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 with related attempted murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 r/w s.34; IPC s.307 r/w s.34 (for appellants)",
+   "quote": "Section 307 read with Section 34 of the IPC",
+   "page": 7,
+   "reason": "Final appellant convictions are under s.307 r/w s.34, not s.149; s.148 and s.149 also omitted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Axes, sword, dhariya and lathis are all described as weapons used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness testimony and medical evidence (PW-12 doctor) are relied upon."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned anywhere in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Brutal nature of murder and previous enmity/strong motive",
+   "quote": "The deceased was most brutally murdered.",
+   "page": 9,
+   "reason": "Previous enmity is noted, but the brutal manner of killing is omitted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted all accused under ss.148, 302 r/w 149 and 307 r/w 149."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court acquitted four accused and altered convictions for others."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so convictions stand."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final convictions are under s.302 r/w 34 and s.307 r/w 34 IPC."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentences are life imprisonment plus rigorous imprisonment for five years."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed term of years is given for the life sentence."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.1,000 (s.302) and Rs.2,000 (s.307) for Sheesh Ram; similar fines for others",
+   "quote": "a fine of Rs.1,000/-",
+   "page": 7,
+   "reason": "The judgment states specific fines, so null is contradicted."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts summarized without stating the Supreme Court's outcome or reasoning on reliability",
+   "quote": "Dismissing the appeal, the Court",
+   "page": 2,
+   "reason": "Summary states the Supreme Court upheld conviction, revealing the outcome, which is prohibited."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment",
+   "quote": "sentenced to suffer imprisonment for life",
+   "page": 7,
+   "reason": "Death sentence is not stated; the sentence imposed was life imprisonment."
+  },
+  "attempt_completion": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder completed; attempted murder (s.307) on Bhagwan Singh",
+   "quote": "considering him dead all the accused left the place",
+   "page": 2,
+   "reason": "Murder was completed, but the s.307 attempt on the surviving victim is not reflected."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Head injury and haemorrhage causing death, plus four incised wounds and parietal fracture, are stated."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Multiple offences were charged, and convictions under ss.302 and 307 were upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is mentioned in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Not explicitly stated; accused Battu exhorted 'do not let this opportunity slip off'",
+   "quote": "do not let this opportunity slip off",
+   "page": 6,
+   "reason": "No explicit premeditation finding, but the exhortation suggests opportunistic intent the value ignores."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found strong motive from previous enmity and pending murder trial."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "PW-5's evidence was accepted and corroborated by PW-2, PW-3 and PW-4."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court held interested witnesses are not always suspect and PW-5 was trustworthy."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct such as flight or concealment is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "dates_of_offence": "04/02/1991",
+    "trial_judgment": "Not stated",
+    "high_court_decision": "29/05/2003",
+    "supreme_court_decision": "29/01/2014"
+   },
+   "quote": "Judgment and Order dated 29.05.2003 of the High Court",
+   "page": 5,
+   "reason": "29/5/2003 is the High Court judgment date, not the trial judgment; HC date recorded as Not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge-sheets were laid and the case committed to the Sessions Court."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is raised or discussed."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued the four eyewitnesses were consistent, two were independent, and falsus in uno doctrine does not apply",
+   "quote": "the evidence of four eye-witnesses is consistent",
+   "page": 8,
+   "reason": "Value describes the case theory, not the State's submissions on witness consistency and independence."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence argued exaggeration, mixed truth and falsehood, and false implication due to enmity."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court applied falsus in uno maxim as a rule of caution and separated grain from chaff."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Balaka Singh and Rizan are the cases relied upon, with citations matching."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no sentencing reasoning; the value restates conviction reasoning."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Not labelled as aggravating, but court notes brutal murder and strong motive",
+   "quote": "The deceased was most brutally murdered.",
+   "page": 9,
+   "reason": "Value says 'None', yet the court highlighted brutality and strong motive."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentences, fines and default terms for the three appellants match page 7."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant, Rohtash, is the only accused prosecuted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to the appellant as male ('he', 'his')."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "The judgment gives the victim's age only; no accused age appears.",
+   "page": 9,
+   "reason": "Accused's age is never stated; age 28 has no basis in the text."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only that the couple were of different castes; no caste named."
+  },
+  "accused_occupation": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "The appellant and the deceased were classmates of different castes",
+   "page": 14,
+   "reason": "Judgment says they studied Pharmacy together but never gives the accused's occupation as student."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Sonia is female, the appellant's wife."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the deceased was aged 30."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste not stated; only inter-caste marriage mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant was the husband of the deceased."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder of wife under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.302 and 404",
+   "quote": "convicted for the offences punishable under Sections 302 and 404 of the Indian Penal Code",
+   "page": 9,
+   "reason": "s.34 never appears; s.404 conviction omitted."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Manual strangulation/throttling; rope recovered near the body",
+   "quote": "the Police had recovered the dead body, as well as various material objects lying near it, including a rope",
+   "page": 28,
+   "reason": "Death was by smothering and throttling; rope recovered but its use as weapon is disputed."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial; medical (post-mortem); recovery; last seen together; hair FSL report; mobile call records",
+   "quote": "The appellant gave a specimen of his hair ... FSL report showed that the hair was similar",
+   "page": 30,
+   "reason": "Omits last-seen evidence, forensic hair comparison, and call records relied upon."
+  },
+  "confession": {
+   "verdict": "incorrect",
+   "correct_value": "Telephone calls to relatives informing them he had killed the deceased (alleged extra-judicial confession); suicide note",
+   "quote": "making an extra- judicial confession stating that he had killed Sonia",
+   "page": 12,
+   "reason": "Judgment records calls admitting the killing and a suicide note; 'None' is contradicted."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not list formal aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted and sentenced to life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction and sentence affirmed",
+   "quote": "by which it has affirmed the judgment and order of the Sessions Court",
+   "page": 9,
+   "reason": "High Court affirmed conviction; 'Not applicable' is contradicted."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal; conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 IPC upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No term of years is stated for life imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "5000 (s.302); 500 (s.404)",
+   "quote": "to pay a fine of Rs.5,000/-",
+   "page": 9,
+   "reason": "Judgment states fines of Rs.5,000 and Rs.500; 'null' is contradicted."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The accused, a former Pharmacy classmate, married a woman who was a lecturer and hostel warden. Their marriage was unhappy and they sought divorce by mutual consent. The accused visited the hostel, spoke with her for about an hour, then left. She was later found dead. Circumstantial evidence was presented, including asphyxia, a rope, and possession of her mobile phone. He stayed at a guest house under a false name, attempted suicide, made calls to relatives, and left a diary and letter. He refused a test identification parade and gave no explanation.",
+   "quote": "The accused also made calls from the victim's mobile phone to her relatives, falsely claiming to have killed her.",
+   "page": 25,
+   "reason": "'Student' is unsupported, and 'falsely' presumes the outcome against the appellant."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment sentence is consistent with the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died; the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-mortem found asphyxia from smothering and throttling."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charged under ss.302 and 404 IPC; convictions upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Deceased's mobile phone taken and misappropriated (s.404 conviction)",
+   "quote": "convicted for the offences punishable under Sections 302 and 404 of the Indian Penal Code",
+   "page": 9,
+   "reason": "'Not applicable' ignores the mobile phone taken from the deceased and the s.404 conviction."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not expressly find premeditation."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment identifies marital discord and alleged mental and financial torture as motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accepted evidence matches the judgment's findings."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Caretaker PW.8 found independent and credible; PW.2 hostile but partly relied upon",
+   "quote": "Bimla, Caretaker (PW.8), is definitely an independent witness.",
+   "page": 30,
+   "reason": "Only PW.8 is found independent; 'main witnesses' overgeneralises and omits the hostile witness."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Absconding, fictitious guest-house stay, suicide attempt, and left items are all supported."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated; only the arrest date appears."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "dates_of_offence: 2.9.2004; trial_judgment: Not stated; high_court: 05.02.2009; supreme_court: 29.05.2013",
+   "quote": "judgment and order dated 5.2.2009 passed by the High Court of Punjab and Haryana",
+   "page": 9,
+   "reason": "05.02.2009 is the High Court judgment date, not the trial court's; trial date not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment appearances."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registered, chargesheet filed, and trial completed are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence irregularities were raised but the court found none material."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court dismissal, and Supreme Court dismissal all match."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Last-seen, suicide note, phone use, and conduct arguments are accurately summarised."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "No eyewitness; circumstantial standard unmet; discrepancies; non-examined witnesses; hostile witness evidence inadmissible; last-seen theory inapplicable; no motive after mutual divorce consent",
+   "quote": "The evidence of Jagatpal (PW.2), a hostile witness, could not have been considered at all.",
+   "page": 12,
+   "reason": "Omits the hostile witness, last-seen, and motive arguments the defence raised."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Circumstantial evidence standard and complete chain principle are applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cited precedents, including R. Shaji and Sharad Birdhichand Sarda, match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "convicted and sentenced to undergo life imprisonment",
+   "page": 1,
+   "reason": "Judgment gives no reasoning for the sentence; it only records the courts below's sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never discusses mitigating factors, so 'None' is an unsupported assertion."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Court described the offence as a heinous crime",
+   "quote": "it might have been frustration which had forced the appellant to commit such a heinous crime",
+   "page": 31,
+   "reason": "Court characterised the crime as heinous, which contradicts 'None'."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Sentences under ss.302 and 404 IPC ordered to run concurrently",
+   "quote": "However, both the substantive sentences have been ordered to run concurrently.",
+   "page": 9,
+   "reason": "Judgment expressly orders concurrent running of sentences; 'None' is contradicted."
+  }
+ }
+}

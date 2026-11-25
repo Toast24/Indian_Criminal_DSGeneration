@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant plus A2 and A3 are named, supporting three accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is the husband and is referred to as male throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Worked at a xerox cum type institute in Nampally",
+   "quote": "the appellant used to work in a xerox cum type institute in Nampally",
+   "page": 8,
+   "reason": "The judgment states the accused's workplace, so occupation is not 'Not stated'."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased is the wife, referred to as female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is the husband of the deceased."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry death under s.304B with s.498A cruelty charge matches the judgment."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.304B, s.498A (also Dowry Prohibition Act s.2; Evidence Act s.113B)",
+   "quote": "to hold an accused guilty of both the offences under Sections 304B and 498A, IPC",
+   "page": 9,
+   "reason": "Value omits the 'B' in s.304B and the Dowry Prohibition Act and Evidence Act provisions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned; death was by burn injuries."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Oral testimony of PW1, PW4 and DW1; suicide note Ext. D19; hall ticket Ext. D1",
+   "quote": "Ext. D19 ... the handwriting and signature of the deceased",
+   "page": 10,
+   "reason": "No medical report, recovery or dying declaration is mentioned in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under Sections 304B and 498A IPC",
+   "quote": "convicted the appellant and his other relatives under Sections 3048 and 498A, IPC",
+   "page": 2,
+   "reason": "Conviction is right but the section should be 304B, not 304."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 2,
+   "reason": "High Court acquitted A2 and A3 and maintained the appellant's conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 12,
+   "reason": "Supreme Court allowed the appeal and set aside both judgments."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 12,
+   "reason": "Court held neither offence was made out, so none was established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment is stated in the judgment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated in the judgment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts without the outcome or the court's reasoning, e.g. the accused was charged, convicted by the trial court, and the High Court partly upheld it.",
+   "quote": "The court ultimately acquitted the accused, stating that the prosecution failed to prove the essential ingredients",
+   "page": 12,
+   "reason": "Neutral facts reveal the acquittal and court reasoning, and wrongly say the court found the note was written by the deceased."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state punishment ranges for the offences."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 5,
+   "reason": "The deceased died from burn injuries, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 5,
+   "reason": "The deceased received severe burn injuries."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charged under 2 counts (ss.304B and 498A); High Court maintained both convictions",
+   "quote": "maintained the conviction of the appellant under Sections 3048 and 498A",
+   "page": 2,
+   "reason": "High Court upheld conviction on both counts, not just one."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss from the offence is described; the dowry items were given at marriage."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is found or mentioned."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged dowry demand of Rs.50,000 for a computer; court held it was not a dowry demand",
+   "quote": "the demand of Rs.50,000/- by the appellant was made six months after the marriage",
+   "page": 8,
+   "reason": "A motive of alleged dowry demand is stated; 'Not identified' omits it."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 10,
+   "reason": "Court relied on DW1's evidence and Ext. D19, which cast reasonable doubt on the prosecution."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court found PW1 and PW4 made general allegations of harassment without specific acts of cruelty",
+   "quote": "they have made general allegations of harassment by the appellant towards the deceased",
+   "page": 9,
+   "reason": "Accurate on general allegations, but the judgment does not expressly rule on credibility."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant took the chit to P.S. Mangalhat and asked police to receive it; they refused",
+   "quote": "Immediately I took the Ex. 019 to the P.S. Mangalhat and asked them to receive but they refused to take the same.",
+   "page": 10,
+   "reason": "The judgment records the appellant's conduct in taking the chit to police."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "About one month in custody before release on bail",
+   "quote": "after one month they were released on bail",
+   "page": 9,
+   "reason": "The judgment states the detention lasted about one month."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 9,
+   "reason": "Judgment states the family was arrested and released on bail after one month."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR lodged 4.4.1999; High Court judgment 11.12.2006; Supreme Court decided 13.3.2013; trial court date not stated",
+   "quote": "judgment dated 11th December, 2006 of the Andhra Pradesh High Court",
+   "page": 5,
+   "reason": "Trial court conviction date is not in the judgment, so that claim is unsupported."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 4,
+   "reason": "Counsel names for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 5,
+   "reason": "Case registered under s.304B and charge-sheet filed under ss.498A and 304B."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Courts failed to compare handwriting under s.73 or seek expert opinion under s.45 Evidence Act",
+   "quote": "neither the Trial Court nor the High Court have resorted to these provisions of the Evidence Act",
+   "page": 11,
+   "reason": "The judgment identifies this failure to follow Evidence Act provisions as an irregularity."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 2,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 5,
+   "reason": "Prosecution argued the Rs.50,000 demand was dowry and that cruelty was proved."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 6,
+   "reason": "Defence relied on the suicide note and the computer business demand."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 9,
+   "reason": "Court required proof beyond reasonable doubt of cruelty or harassment for both offences."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 8,
+   "reason": "Appasaheb & Anr. v. State of Maharashtra is cited on the meaning of dowry."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing was imposed by the Supreme Court, so none applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": 12,
+   "reason": "Only order is setting aside convictions and discharging the bail bond."
+  }
+ }
+}

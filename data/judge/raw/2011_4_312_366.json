@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "Eight accused were tried; two (Sheo Shankar Singh and Umesh Singh) were the appellants before the Court.",
+   "quote": "Out of the remaining six accused persons, the trial court found...",
+   "page": 333,
+   "reason": "Two is the appellant count only; the trial involved eight accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants are referred to in the male gender throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for either accused anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Scheduled Tribe status relates to petrol pump allottee Aamlal Kisku, not the accused."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "Owner of a factory (Kalyans Vyapor Brisket Udyog) per the seizure; otherwise not stated.",
+   "quote": "the Motor Cycle used by accused was seized from the premises of Kalyans Vyapor Brisket Udyog owned by the appellant-Sheo Shankar Singh",
+   "page": 345,
+   "reason": "Judgment mentions factory ownership and petrol pump partnership, so 'Not stated' is incomplete."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only pending cases are mentioned; no prior conviction record is stated."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased is referred to as male throughout."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased MLA."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the deceased is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the deceased is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated as family or personal; adversarial, as the deceased opposed the accused's coal-mafia activities and petrol pump interests.",
+   "quote": "the deceased who was perceived by the appellants as a hurdle in their activities",
+   "page": 340,
+   "reason": "Judgment shows an adversarial relationship, not that they were strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions were under s.302/34 IPC and s.27 Arms Act."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Firearm (pistol/gun) used; judgment refers to gunshots and a pistol."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, circumstantial, medical and seizure/recovery evidence are all relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court does not expressly list aggravating circumstances it accepted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants were not professional killers; no political angle to the killing; manner of killing not particularly brutal or diabolical.",
+   "quote": "Firstly, because the appellants are not professional killers.",
+   "page": 328,
+   "reason": "Court expressly reasoned mitigating points, which the extracted value wrongly says are not stated."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted and sentenced the appellants to rigorous life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court upheld conviction and enhanced sentence to death."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction upheld by the Supreme Court; sentence modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder was held established beyond reasonable doubt."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rigorous imprisonment for life was the final sentence."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment has no fixed year term; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts without outcome, e.g. the accused were tried and convicted of murder; the trial court sentenced them to life; the High Court enhanced it to death.",
+   "quote": "The Supreme Court upheld the conviction but commuted the death sentence to life imprisonment",
+   "page": 365,
+   "reason": "Summary reveals the Supreme Court's outcome, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder of a sitting MLA; trial sentence life imprisonment; High Court enhanced to death.",
+   "quote": "the sentence of rigorous imprisonment for life imposed upon the said two appellants by the Trial Court enhanced to the sentence of death",
+   "page": 331,
+   "reason": "Lists sentences rather than severity; loses the murder description."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased was killed; the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death from gunshot injuries to the head; PW16 injured in the fall."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder (s.302/34) for both; Arms Act s.27 conviction only for Umesh Singh. Charges under ss.120B and 201 were not part of the appellants' convictions.",
+   "quote": "Appellant-Umesh Singh was further charged with an offence punishable under Section 27 of the Arms Act.",
+   "page": 333,
+   "reason": "Two counts is loose; the Arms Act count applied only to one appellant."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Not expressly found; the deceased was perceived as a hurdle to the accused's activities, but no premeditation finding is made.",
+   "quote": "the deceased who was perceived by the appellants as a hurdle in their activities",
+   "page": 340,
+   "reason": "Court notes the perception of a hurdle but does not find premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive tied to opposition to coal mafia activities and the petrol pump dispute."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the Court's listed evidence and findings."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the Court's reasoning on PW16's consistency and corroboration."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused fled the scene on the motorcycle towards Nirsa after the killing.",
+   "quote": "walked back to the motorcycle whose engine was kept running by Sheo Shankar Singh and fled towards Nirsa",
+   "page": 332,
+   "reason": "Post-offence flight from the scene is stated in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence: 14 April 2000; trial judgment: 18 November 2003; High Court judgment: 6 May 2005; Supreme Court: 15 February 2011.",
+   "quote": "The trial court by its judgment dated 18th November, 2003 found the appellants...",
+   "page": 333,
+   "reason": "Offence date and trial and High Court judgment dates are stated, not 'Not stated'."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants: U.R. Lalit (senior counsel); respondents: A.T.M. Rangaramanujam and Sunil Kumar (senior counsel).",
+   "quote": "Mr. U.R. Lalit, learned senior counsel for the appellants, Mr. A.T.M. Rangaramanujam and Mr. Sunil Kumar, learned senior counsels appearing for the respondents",
+   "page": 334,
+   "reason": "Counsel for both sides are named in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "Investigation lapses: no TIP for PW16; blood-stained T-shirt not sent to FSL; cartridges not sent to ballistic expert; PW6 statement recorded 1.5 months later.",
+   "quote": "the failure of the investigating agency to make a reference would not in the circumstances of the case discredit either the version of the witnesses",
+   "page": 354,
+   "reason": "Value reports court's evidentiary conclusions, not investigation status or the lapses found."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Failure to send blood-stained T-shirt to FSL and cartridges to ballistic expert; no TIP for PW16; one-and-half-month delay in recording PW6's statement.",
+   "quote": "no explanation is forthcoming for the failure of the prosecution in making a reference to the forensic science laboratory",
+   "page": 354,
+   "reason": "Judgment expressly records investigative lapses and an unexplained omission."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches trial, High Court and Supreme Court outcomes."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the prosecution case on coal mafia motive and eyewitness reliance."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Defence challenged the TIP for PW16, the FSL and ballistic omissions, the delay in recording PW6, the FIR timing and borrowed motorcycle.",
+   "quote": "Mr. Lalit then argued that while a test identification parade had been conducted",
+   "page": 349,
+   "reason": "Sentencing argument is not attributed to the defence; the recorded defence arguments are misstated."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rarest of rare test and life as the rule are applied in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Also relied on: Shivaji Genu Mohite; Hari Shanker; Kishanpal; Malkhansingh; Pramod Mandal; Aqeel Ahmad; Ram Bihari Yadav; Surendra Paswan; Amar Singh; Ranbir; Satbir Singh; Prakash Sakha Vasave.",
+   "quote": "State of Maharashtra v. Prakash Sakha Vasave and Ors. (2009) 11 SCC 193 - relied on.",
+   "page": 330,
+   "reason": "Listed cases are accurate but the list omits many precedents relied on."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the four reasons given for commutation, including the trial/High Court disagreement."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the reasons the Court gave against the death penalty."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court identified no aggravating factors justifying death."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only the death sentence was modified to life; no other order is stated."
+  }
+ }
+}

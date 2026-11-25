@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant, the husband, whose conviction the Court decides."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Husband-appellant strangulated his wife",
+   "page": 1,
+   "reason": "Accused is described as husband and referred to as 'he' throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the accused's age."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The accused's occupation is not stated; the workshop worker is a separate witness."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or poverty statement; only the Legal Services Committee appointment of counsel is mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "strangulating his mother",
+   "page": 6,
+   "reason": "Victim is the wife and mother, referred to as 'she' and 'her'."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Husband-appellant strangulated his wife",
+   "page": 1,
+   "reason": "Spousal relationship is stated in the judgment."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Penal Code, 1860: ss. 300 exception 4, 302 – Murder",
+   "page": 1,
+   "reason": "The charged offence is murder under s.302, as the headnote and trial record show."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "registered in FIR No.205/2010 against the appellant-accused under Sections 302 and 34 IPC",
+   "page": 3,
+   "reason": "Sections 302 and 34 are cited, and the final conviction is modified to s.304 Part II."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The iron rod (saria) was picked up at the spur of the moment",
+   "page": 2,
+   "reason": "The saria is the weapon used in strangulation."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-15 – SI Dharmandra Pratap was the first to arrive at the scene of crime",
+   "page": 6,
+   "reason": "Eyewitness, last-seen, corroborative and scene evidence are all described in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Strangulation with a saria; High Court held the manner of compressing the neck was extreme cruelty (rejected by the Supreme Court)",
+   "quote": "the manner in which the appellant compressed his wife's neck also depicts an act of extreme cruelty",
+   "page": 1,
+   "reason": "The High Court's extreme-cruelty finding is an aggravating fact noted in the judgment, so 'None noted' omits it."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it was nothing but an act committed by the appellant in a heat of passion",
+   "page": 2,
+   "reason": "Sudden fight, no premeditation, heat of passion and non-cruel manner are noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "held that appellant is guilty for offence under Section 302 IPC ... sentenced the appellant for life imprisonment",
+   "page": 3,
+   "reason": "Conviction under s.302 and life imprisonment match the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "High Court has dismissed the criminal appeal, confirming the conviction and sentence",
+   "page": 3,
+   "reason": "High Court dismissed the appeal on 11.10.2017, confirming conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the conviction of the appellant-accused under Section 302 IPC is modified, as the one under Section 304 Part II",
+   "page": 8,
+   "reason": "Conviction was modified to a lesser offence, matching conviction_modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the conviction of the appellant-accused under Section 302 IPC is modified, as the one under Section 304 Part II, IPC",
+   "page": 8,
+   "reason": "Final conviction is under s.304 Part II, with Exception 4 to s.300 applied."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we impose a sentence of 10 years' simple imprisonment on the accused",
+   "page": 8,
+   "reason": "Final sentence is a fixed term of imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we impose a sentence of 10 years' simple imprisonment on the accused",
+   "page": 8,
+   "reason": "Final fixed term of 10 years is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Summary should avoid gendered pronouns for the accused (e.g. 'the victim, the accused's wife' rather than 'the victim, his wife') and avoid referring to the trial",
+   "quote": "the victim, his wife, on the rooftop",
+   "page": 3,
+   "reason": "Summary uses the pronoun 'his' for the accused and refers to 'trial', breaking the neutrality rules."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory maximum or minimum punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "caused her death",
+   "page": 3,
+   "reason": "The offence was completed, as the victim died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "strangulated his wife with saria and caused her death",
+   "page": 1,
+   "reason": "Death by strangulation with a saria is stated."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "2 charged (ss.302 and 34 IPC per FIR); 1 finally upheld (s.304 Part II IPC, conviction modified)",
+   "quote": "registered in FIR No.205/2010 against the appellant-accused under Sections 302 and 34 IPC",
+   "page": 3,
+   "reason": "Charge count omits s.34, which the judgment cites alongside s.302."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is recorded as an offence loss; the money was taken from the wallet during the quarrel only."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "It is not as if 'saria' was brought in a pre-planned way to murder the wife",
+   "page": 2,
+   "reason": "Court found no premeditation; saria picked up on the spur of the moment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "when she had taken out some money from the appellant's wallet",
+   "page": 2,
+   "reason": "Quarrel after wife took money from wallet is the incident context the court accepted as a sudden fight."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the primary witness PW-7, the son of the accused and deceased, has deposed",
+   "page": 7,
+   "reason": "PW-7's account is relied upon, with PW-9, PW-17, PW-18 and PW-15 as corroboration."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their deposition inspired confidence and all the aforesaid witnesses stood the test of cross-examination",
+   "page": 4,
+   "reason": "High Court found these witnesses credible, and the Supreme Court accepted PW-7's account."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PW-9 – Fayaz ... witnessed the appellant leaving the premises in the morning on 01.09.2010",
+   "page": 6,
+   "reason": "Leaving at 6:30 a.m. is the only post-offence conduct noted, per PW-9."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Time in custody is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on the intervening night of 31.08.2010 and 01.09.2010 ... vide judgment dated 19.07.2012",
+   "page": 3,
+   "reason": "Offence, trial judgment, High Court and Supreme Court dates all match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Shikhil Suri, Shiv Kumar Suri, Advs. for the Appellant. Ms. Pinky Anand, ASG ... for the Respondent",
+   "page": 2,
+   "reason": "Counsel for appellant and State are listed correctly."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a case was registered in FIR No.205/2010 ... on 01.09.2010. ... prosecution examined 18 witnesses",
+   "page": 3,
+   "reason": "FIR date and 18 prosecution witnesses match; trial completion is evident from the judgments."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court notes no procedural lapse; tutoring grounds were raised but not accepted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the conviction recorded against the appellant under Section 302 IPC is liable to be set aside",
+   "page": 7,
+   "reason": "Trial conviction, High Court dismissal and partial Supreme Court allowance match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is a clear case of murder which is proved against the appellant by four material witnesses",
+   "page": 5,
+   "reason": "Prosecution's murder case, four witnesses, and extreme-cruelty argument are stated."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all the four ingredients thereof apply to the facts of the case on hand",
+   "page": 5,
+   "reason": "Defence argued sudden quarrel, no intention to kill, and all four Exception 4 ingredients met."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Unless it is barbaric, torturous and brutal, strangulation ... cannot be said to be an act of extreme cruelty",
+   "page": 7,
+   "reason": "Four-ingredient test and barbaric/torturous standard for extreme cruelty are applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Surinder Kumar v. Union Territory, Chandigarh (1989) 2 SCC 217",
+   "page": 7,
+   "reason": "Surinder Kumar is the only precedent relied on, with citation given."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the act of the appellant-accused would fall under Exception 4 to Section 300 IPC",
+   "page": 7,
+   "reason": "Court reasoned that Exception 4 applies, justifying s.304 Part II and 10 years."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Since the occurrence in sudden quarrel and there was no premeditation",
+   "page": 7,
+   "reason": "Court weighed sudden quarrel, no premeditation, heat of passion and non-cruel manner."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Having regard to nature and manner of incident it cannot be said that act of the appellant was extremely cruel",
+   "page": 7,
+   "reason": "Court did not weigh any aggravating factor; it rejected extreme cruelty."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No compensation, directions or other orders are stated."
+  }
+ }
+}

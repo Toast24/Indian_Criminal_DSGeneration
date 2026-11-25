@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the judgment's caption: Markash Jajara v. The State of Assam & Anr."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant whose liability is decided."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as the appellant, the victim's father-in-law's counterpart, and as 'he'; male is supported."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion is stated or described."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste, tribe or community is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No occupation of the accused is mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "owing to his poor financial conditions, the appellant's appeal was forwarded by the Jail Authorities",
+   "page": 5,
+   "reason": "Judgment expressly describes the accused's poor financial condition."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his younger brother – Markush Borja had been assaulted and killed",
+   "page": 3,
+   "reason": "Victim is male (the deceased, a brother and husband)."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the victim is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the victim is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "murder of his son-in-law, namely, late Markush Borja",
+   "page": 2,
+   "reason": "Relationship as son-in-law (relative) is accurately described."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Culpable homicide",
+   "quote": "the act of the appellant in causing injuries to the deceased falls within the expression of `culpable homicide' which does not amount to `murder'",
+   "page": 8,
+   "reason": "Charged as murder, but the Court held the final offence is culpable homicide not amounting to murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Section 302 IPC",
+   "page": 2,
+   "reason": "s.302 IPC is the charged section; Exception I of s.300 is correctly noted as considered."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "assaulted and killed by the appellant with a bamboo stick",
+   "page": 3,
+   "reason": "Bamboo stick, also described as bamboo lathi, is supported."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Extra-judicial confession, PW-6 testimony, medical, circumstantial and non-eyewitness evidence are all present in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Supreme Court read PW-6's evidence in its entirety",
+   "page": 7,
+   "reason": "Oral confession to daughter and PW-1's account are described; Court accepted causing of injuries."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Fatal head injury per autopsy surgeon; no other aggravating facts noted by the Court",
+   "quote": "the injury sustained over the head by the deceased is fatal to cause instantaneous death",
+   "page": 4,
+   "reason": "Third laceration is 'just below the chin', not on the head as stated."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "suddenly thrashed his son-in-law with the bamboo stick",
+   "page": 8,
+   "reason": "Provocation, loss of self-control, no premeditation and protective motive are supported."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Guilty under s.302 IPC; life imprisonment and fine of Rs.10,000 (six months imprisonment in default)",
+   "quote": "sentenced to undergo life imprisonment with a fine of Rs.10,000/- with the stipulated imprisonment of six months on default",
+   "page": 2,
+   "reason": "The judgment does not describe the default imprisonment as simple."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Gauhati High Court has dismissed the jail appeal",
+   "page": 2,
+   "reason": "High Court dismissed the appeal, upholding conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the act of the appellant ... falls within the expression of `culpable homicide'",
+   "page": 8,
+   "reason": "Conviction altered to a lesser offence and sentence changed, matching conviction_modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "falls within the expression of `culpable homicide' which does not amount to `murder'",
+   "page": 8,
+   "reason": "Final offence is culpable homicide not amounting to murder."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment of ten years",
+   "page": 8,
+   "reason": "Final sentence is a fixed term of rigorous imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment of ten years",
+   "page": 8,
+   "reason": "Ten years is the final fixed term."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "10000",
+   "quote": "The sentence as awarded by the courts below stands modified accordingly",
+   "page": 8,
+   "reason": "Court only modified imprisonment; the Rs.10,000 fine from courts below was not expressly altered."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Neutral summary uses no names or outcomes and covers incident and evidence without revealing the verdict."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the statutory maximum or minimum for s.302."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased suffered the following injuries",
+   "page": 4,
+   "reason": "Death was caused, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the injury sustained over the head by the deceased is fatal to cause instantaneous death",
+   "page": 4,
+   "reason": "Death from head lacerations and fatal injury is supported."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "1 charged; 0 finally upheld under s.302 (conviction altered to culpable homicide not amounting to murder)",
+   "quote": "sentence of life imprisonment awarded to the appellant to rigorous imprisonment of ten years",
+   "page": 8,
+   "reason": "s.302 conviction was not upheld; the final conviction is for a different offence."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No money or property loss is involved."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant did not have any pre-meditated intention to commit the murder of his son-in-law",
+   "page": 8,
+   "reason": "Court expressly found no pre-meditated intention."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant's motive at best was to prevent the deceased from misbehaving with his daughter after consuming alcohol",
+   "page": 8,
+   "reason": "Motive accepted by the Court is accurately stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant and the deceased were the only ones present in the house at the time of occurrence",
+   "page": 7,
+   "reason": "PW-6 testimony, presence-only evidence and post-mortem findings were relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the statement of P.W.6 - Sarani Boria needs to be appreciated in its entirety",
+   "page": 7,
+   "reason": "Court's assessment of PW-6 and the non-eyewitness status of PW-8 is accurately reported."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "My father was also taken to the police station.",
+   "page": 3,
+   "reason": "Confession to daughter and taking to police station are supported by the testimony."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "judgment and order dated 03.10.2016, passed by the learned Sessions Judge, Jorhat",
+   "page": 2,
+   "reason": "Trial judgment, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Gaurav Agrawal, Adv. for the Appellant. Nalin Kohli, Sr. AAG",
+   "page": 2,
+   "reason": "Counsel for appellant and State are correctly listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "FIR, under Section 302 IPC, was registered on the receipt of an ejahar submitted by P.W.8",
+   "page": 2,
+   "reason": "FIR, arrest, chargesheet, nine witnesses and completed trial are supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural lapse is noted by the Court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appeal partly allowed.",
+   "page": 2,
+   "reason": "Outcomes at trial court, High Court and Supreme Court are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment records no State arguments in the Supreme Court."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the defence did not question the two witnesses on the same",
+   "page": 6,
+   "reason": "Records no Supreme Court defence arguments and accurately reports High Court defence contentions."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "whilst deprived of the power of self-control by grave and sudden provocation",
+   "page": 6,
+   "reason": "Exception I to s.300 with provocation analysis is the applied principle."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ajay Sing -Vs- State of Maharashtra reported in (2007) 12 sec 341",
+   "page": 5,
+   "reason": "Precedent was cited by the High Court, not the Supreme Court, as the value states."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Ends of justice would be adequately met by converting life imprisonment to rigorous imprisonment of ten years",
+   "quote": "the ends of justice would be adequately met by converting the sentence of life imprisonment",
+   "page": 8,
+   "reason": "Court gave ends-of-justice rationale; linking it expressly to provocation and no premeditation is inference."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The fatal occurrence was seemingly the final culmination of loss of the power of self-control",
+   "page": 8,
+   "reason": "Provocation, loss of self-control, no premeditation and protective motive are weighed by the Court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court weighed no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant shall be released on completion of the requisite and reduced period of sentence",
+   "page": 8,
+   "reason": "Release order and disposal of interlocutory applications are accurately noted."
+  }
+ }
+}

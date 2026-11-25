@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "PHULEL SINGH v. STATE OF HARAYANA",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the learned trial court convicted all the three accused persons",
+   "page": 6,
+   "reason": "Three accused are stated in the trial court proceedings."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "her husband Phulel Singh, i.e., the appellant herein",
+   "page": 8,
+   "reason": "Appellant is the deceased's husband, so male is supported."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased was not treated properly by the appellant",
+   "page": 4,
+   "reason": "Deceased is referred to as female throughout."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The marriage between the deceased and the appellant was solemnized in March, 1987",
+   "page": 4,
+   "reason": "Appellant was the deceased's husband."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for causing the dowry death of the deceased",
+   "page": 6,
+   "reason": "Dowry death under Section 304-B is the charge at issue."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.304-B; charges also framed under IPC s.302 r/w s.34 (acquitted on s.302)",
+   "quote": "Charges were framed for the offences punishable under Section 302 read with Section 34 of IPC and Section 304-B of IPC",
+   "page": 5,
+   "reason": "Omits the Section 302 r/w 34 charge and the acquittal on it."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "put kerosene on her person and set her ablaze",
+   "page": 8,
+   "reason": "Kerosene is the means used, as stated in the dying declaration."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Dying declaration, medical evidence (PW-7, PW-8), oral testimony of relatives and Sarpanch; no recovery evidence mentioned",
+   "quote": "Dr. Jasmeet Singh Dhir (PW-7), the Medical Officer at DMC, Ludhiana",
+   "page": 4,
+   "reason": "Recovery is not mentioned; oral testimony of relatives and Sarpanch is omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The accused persons also denied that the deceased was set ablaze by them.",
+   "page": 6,
+   "reason": "Accused denied the allegations; no confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted all the three accused persons for the offence punishable under Section 304-B of IPC",
+   "page": 6,
+   "reason": "Trial court convicted under Section 304-B."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "partly allowed the appeals filed by Jora Singh, father-in-law of the deceased and the appellant herein",
+   "page": 5,
+   "reason": "High Court partly allowed the appeal and acquitted accused no.1 only."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is acquitted of all the charges levelled against him",
+   "page": 10,
+   "reason": "Supreme Court acquitted the appellant."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "no case under Section 304-B of IPC is made out by the prosecution",
+   "page": 10,
+   "reason": "No offence was finally established against the appellant."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is acquitted of all the charges levelled against him",
+   "page": 10,
+   "reason": "No final imprisonment; the appellant was acquitted."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is acquitted of all the charges levelled against him",
+   "page": 10,
+   "reason": "No final imprisonment term after acquittal."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Fine was imposed at trial but no amount is stated; no final fine."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without the Supreme Court's finding; the fitness examination was by the doctor, not the magistrate.",
+   "quote": "the Supreme Court found that the prosecution failed to prove harassment beyond reasonable doubt",
+   "page": 10,
+   "reason": "Reveals the court outcome; also wrongly says the magistrate examined fitness, when the doctor did."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentence to undergo rigorous imprisonment for a period of seven years",
+   "page": 1,
+   "reason": "Trial sentence was seven years rigorous imprisonment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased was burnt and that she was being taken to Ludhiana",
+   "page": 4,
+   "reason": "Deceased died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "she had 91% burns on her body",
+   "page": 4,
+   "reason": "91% burns is stated in the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charges under s.302 r/w s.34 and s.304-B IPC; conviction under s.304-B upheld by High Court but quashed by Supreme Court",
+   "quote": "but conﬁrmed the conviction and sentence awarded by the learned trial court to the appellant herein",
+   "page": 6,
+   "reason": "Omits that the Supreme Court later quashed the conviction."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss from the offence is described."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant used to harass the deceased on account of insufficiency of dowry",
+   "page": 4,
+   "reason": "Motive is dowry demand non-fulfilment, as the prosecution alleged."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it cannot be said that the dying declaration (Ex. P.L.) is free from doubt",
+   "page": 9,
+   "reason": "Court found the dying declaration not free from doubt."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "their evidence will have to be scrutinized with greater care, caution and circumspection",
+   "page": 10,
+   "reason": "Relatives' evidence scrutinised carefully; Sarpanch did not support dowry harassment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the accused is recorded by the court."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "his bail bonds shall stand discharged",
+   "page": 10,
+   "reason": "Only bail bond discharge is mentioned; no bail history is given."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "passed by the Division Bench of the High Court ... dated 24th July 2009",
+   "page": 3,
+   "reason": "Offence, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rajul Bhargav, Sr. Adv., Rajiv K. Garg, Ashish Garg, Lalit Nagar, T. L. Garg, Advs. for the Appellant.",
+   "page": 3,
+   "reason": "Counsel names match the appearances listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a charge-sheet came to be filed in the court of jurisdictional Magistrate",
+   "page": 5,
+   "reason": "FIR, charge sheet and completed trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Dying declaration recorded three days after burns on relatives' application; doubt over doctor's fitness examination and bed-head ticket entries",
+   "quote": "the dying declaration came to be recorded on 8th November 1991 after an application was made by the relatives of the deceased",
+   "page": 8,
+   "reason": "Court flagged the delayed recording, relatives' involvement, and doubtful fitness examination as irregularities."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted and sentenced; High Court partly allowed, acquitting accused no.1 and upholding appellant's conviction; Supreme Court allowed appeal and acquitted appellant",
+   "quote": "The learned trial court convicted all the three accused persons",
+   "page": 6,
+   "reason": "Trial court convicted; it did not uphold its own conviction, so wording is slightly off."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has proved the case beyond reasonable doubt",
+   "page": 7,
+   "reason": "Summary matches the State's arguments on dying declaration and dowry harassment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the dying declaration was a tutored one at the instance of her relatives",
+   "page": 7,
+   "reason": "Defence argued tutoring and lack of dowry harassment evidence, as stated."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the court must come to a conclusion that the dying declaration is trustworthy, reliable and one which inspires confidence",
+   "page": 8,
+   "reason": "Principle matches the court's stated test for dying declarations."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Makhan Singh v. State of Haryana 1 decided on 16th August 2022",
+   "page": 7,
+   "reason": "Precedent is cited in the judgment, relied on by the appellant."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given, as the appellant was acquitted."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No judicial mitigating factors are recorded."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No judicial aggravating factors are recorded."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Bail bonds discharged; pending applications disposed of",
+   "quote": "his bail bonds shall stand discharged",
+   "page": 10,
+   "reason": "The order discharges bail bonds and disposes of pending applications, not 'None'."
+  }
+ }
+}

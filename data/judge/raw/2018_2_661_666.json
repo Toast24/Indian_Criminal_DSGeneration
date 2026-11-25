@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "SHAJAHAN v. STATE REP. BY INSPECTOR OF POLICE",
+   "page": 1,
+   "reason": "Case title matches the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the trial court convicted all the five accused",
+   "page": 5,
+   "reason": "Five accused are stated in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "from his house at Pudupet in Vridhachalam",
+   "page": 4,
+   "reason": "All accused are referred to with male names and pronouns; no female accused appears, so 'Mixed' is contradicted."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "deceased Muthukrishnan who was sleeping inside the shop",
+   "page": 3,
+   "reason": "Deceased is male, referred to with 'his' throughout."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "Muthukrishnan who was sleeping inside the shop",
+   "page": 3,
+   "reason": "Judgment does not describe any relationship; 'Stranger' is an inference not stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "with common intention to commit robbery in a Pawn Broking shop",
+   "page": 3,
+   "reason": "Robbery/dacoity with murder matches the judgment's offence."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.396 r/w s.34 (also charged under ss.457, 395, 302 r/w 34 and FIR under ss.457, 380, 302)",
+   "quote": "Sections 457, 395, 396 and 302 read with 34 IPC",
+   "page": 4,
+   "reason": "Conviction is under s.396 r/w s.34, but other charged sections are omitted."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Jute rope used to strangle deceased; accused were not armed",
+   "quote": "tied the jute rope around the neck of Muthukrishnan",
+   "page": 3,
+   "reason": "Value says no weapon, but a jute rope was used for strangulation."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Oral witness testimony, recovery, confessions, identification by owner, documentary registers of pawn shop",
+   "quote": "corroborated by the registers maintained in his Pawn shop",
+   "page": 5,
+   "reason": "Omits oral eyewitness-type testimony, identification and documentary registers; 'circumstantial' is not stated."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Based on the confession statements of accused Basheer and Shajahan, jewels kept in the cover",
+   "page": 4,
+   "reason": "Each listed confession is stated to have led to recoveries."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the offence under Section 396 IPC is to be viewed with seriousness",
+   "page": 6,
+   "reason": "Murder during dacoity is the aggravating feature the court highlights."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "But in the case in hand, the accused were not armed.",
+   "page": 6,
+   "reason": "Court relies on non-use of arms and long lapse of time."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted all the five accused inter alia under Section 396 IPC read with Section 34 IPC and sentenced them to undergo rigorous imprisonment for ten years",
+   "page": 5,
+   "reason": "Matches the trial court conviction and sentence."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court enhanced the sentence of imprisonment from ten years to imprisonment for life",
+   "page": 5,
+   "reason": "Conviction upheld and sentence enhanced to life, as stated."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Conviction under s.396 r/w s.34 maintained; sentence reduced to ten years; appellants ordered released",
+   "quote": "While maintaining the conviction under Section 396 IPC, the sentence",
+   "page": 6,
+   "reason": "'Convicted' is right but omits the sentence reduction and release order."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 396 IPC prescribes punishment for dacoity with murder.",
+   "page": 6,
+   "reason": "Dacoity with murder is the established offence."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced them to undergo rigorous imprisonment for ten years",
+   "page": 5,
+   "reason": "Fixed-term rigorous imprisonment of ten years is stated."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the sentence of imprisonment for life is modified as ten years",
+   "page": 6,
+   "reason": "Final sentence is ten years."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned, so null is appropriate."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Chellam (PW-4), a sweeper at the pawn shop, informed the owner PW-1 that the deceased was found dead.",
+   "quote": "Chellam-PW-4 employed as the sweeper at the Pawn shop came to the house of PW-1",
+   "page": 3,
+   "reason": "Says deceased's brother discovered body; judgment names sweeper Chellam (PW-4) informing owner PW-1."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "death or imprisonment for life",
+   "page": 6,
+   "reason": "Section 396 sentencing options are death or life imprisonment, as stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "other accused robbed jewellery about 4.788 kg. of gold",
+   "page": 3,
+   "reason": "Robbery and murder were completed."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Deceased strangled to death; A4 is alleged to have sat on him and tightened a rope around his neck",
+   "quote": "Babu @ Nawab Sahib (A4) is alleged to have sat on his chest",
+   "page": 3,
+   "reason": "Judgment presents A4's strangling as an allegation, not an established fact."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence: s.396 r/w s.34 (dacoity with murder), committed by five accused; conviction maintained",
+   "quote": "convicted all the five accused inter alia under Section 396 IPC read with Section 34 IPC",
+   "page": 5,
+   "reason": "Value confuses accused count with offences; only s.396 conviction was maintained, not 'five offences'."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "total worth about Rs.12,00,000/-",
+   "page": 3,
+   "reason": "Loss of about Rs.12,00,000 in gold and silver matches."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not expressly stated beyond common intention."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Robbery of jewellery from the pawn shop (common intention to commit robbery)",
+   "quote": "with common intention to commit robbery in a Pawn Broking shop",
+   "page": 3,
+   "reason": "Judgment states the motive as robbery of the pawn shop, not unidentified."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There is clear and cogent evidence against accused Raja Mohammad and Babu @ Nawab Sahib",
+   "page": 5,
+   "reason": "Matches the court's acceptance of PW-15, PW-17 and recoveries."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "evidence of PWs 21 and 22 is to be read along with the evidence of Investigating Officer (PW-37)",
+   "page": 5,
+   "reason": "Matches the court's treatment of hostile witnesses and PW-37."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Basheer and Shajahan ran when intercepted by police and were caught",
+   "quote": "the appellants started running and the police caught hold of them",
+   "page": 4,
+   "reason": "Judgment states the accused fled on interception, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants are stated to be in custody for more than ten years",
+   "page": 6,
+   "reason": "Custody of more than ten years is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence: 13/14.11.2002; High Court judgment: 03.09.2010; Supreme Court decision: 16.02.2018; trial judgment date not stated",
+   "quote": "From the Judgment and Order dated 03.09.2010 of the High Court of Madras",
+   "page": 3,
+   "reason": "03.09.2010 is the High Court judgment date, not the trial judgment; High Court date is mislabelled as not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Amit Kumar, R. Balasubramanian, B. Karunakaran",
+   "page": 3,
+   "reason": "Counsel names for appellant and respondent match."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "chargesheet was filed against the accused under Sections 457, 395, 396 and 302 read with 34 IPC",
+   "page": 4,
+   "reason": "Chargesheet sections match the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court enhanced the sentence of imprisonment from ten years to imprisonment for life",
+   "page": 5,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution case: accused committed robbery in pawn shop; A4 strangled sleeping deceased; jewels recovered via confessions; no separate arguments recorded",
+   "quote": "with common intention to commit robbery in a Pawn Broking shop",
+   "page": 3,
+   "reason": "Restates trial outcomes rather than prosecution arguments; the judgment records no separate prosecution arguments."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence arguments are not recorded in the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all his companions who are conjointly committing dacoity, are liable to be convicted under Section 396 IPC",
+   "page": 6,
+   "reason": "Matches the court's stated principle on constructive liability under s.396."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Dinesh alias Buddha v. State of Rajasthan (2006) 3 SCC 771 was relied on by the High Court; the Supreme Court only referred to it",
+   "quote": "Placing reliance upon Dinesh alias Buddha v. State of Rajasthan",
+   "page": 6,
+   "reason": "Citation is correct, but it was the High Court's reliance, not the Supreme Court's."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Considering the long lapse of time and the facts and circumstances of the case, the sentence of imprisonment for life is modified as ten years",
+   "page": 6,
+   "reason": "Rationale matches the court's stated reasoning."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Considering the long lapse of time and the facts and circumstances of the case",
+   "page": 6,
+   "reason": "Long lapse of time and case facts are cited as mitigating."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The offence under Section 396 IPC is to be viewed with seriousness",
+   "page": 6,
+   "reason": "No aggravating factors are expressly listed; the court only stresses seriousness."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellants are ordered to be released forthwith, if not required in any other case",
+   "page": 6,
+   "reason": "Release order matches the judgment."
+  }
+ }
+}

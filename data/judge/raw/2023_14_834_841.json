@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Single appellant; one accused is consistent with the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is male; judgment refers to him as father and uses 'his'."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age of accused is not mentioned in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to the appellant's poor financial conditions."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased is male, referred to as the brother and as 'his' husband's brother context."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not stated in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the appellant murdered his son-in-law."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence charged and tried was murder under s.302 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment discusses s.302 IPC and Exception I of s.300 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased was struck with a bamboo stick."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness-less circumstantial evidence, daughter's account of extra-judicial confession, postmortem report",
+   "quote": "as per the postmortem report, the deceased suffered the following injuries",
+   "page": 4,
+   "reason": "Recovery evidence is not mentioned; the evidence was witness testimony, confession and medical evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Extra-judicial confession to daughter was relied on by trial and High Court."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment identifies no aggravating circumstances."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment relies on provocation, loss of self-control and intent to prevent misbehaviour."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court found guilt under s.302 and imposed life imprisonment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed the appeal, upholding the conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed appeal in part and modified the conviction and sentence."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Act held to be culpable homicide not amounting to murder."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence modified to fixed-term rigorous imprisonment of ten years."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment converts life sentence to rigorous imprisonment of ten years."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "10000",
+   "quote": "with a fine of Rs.10,000/-",
+   "page": 2,
+   "reason": "Judgment states a fine of Rs.10,000 was imposed by the Sessions Judge; value null ignores it."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without outcome: accused's son-in-law died in accused's house; accused's daughter testified about confession; courts reviewed the evidence.",
+   "quote": "sentence modified to ten years rigorous imprisonment",
+   "page": 8,
+   "reason": "Summary reveals the court outcome (culpable homicide and ten-year sentence), which neutral facts must not disclose."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment",
+   "quote": "sentenced to undergo life imprisonment",
+   "page": 2,
+   "reason": "Judgment mentions only life imprisonment; death penalty is not stated as imposed or considered."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased was found dead, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Postmortem listed head, mastoid and chin lacerations; head injury fatal, instantaneous death."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "One offence charged under s.302 IPC; finally held culpable homicide not amounting to murder, not upheld as murder",
+   "quote": "falls within the expression of `culpable homicide' which does not amount to `murder'",
+   "page": 8,
+   "reason": "Single offence charged, but the murder conviction was not upheld; it was modified."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no pre-meditated intention; act was sudden loss of self-control."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court states motive was to prevent deceased misbehaving with daughter after drinking."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Daughter's (P.W.6) statement read in its entirety, including confession and her admissions about the deceased's drinking; postmortem showing fatal head injury",
+   "quote": "the injury sustained over the head by the deceased is fatal to cause instantaneous death",
+   "page": 4,
+   "reason": "Postmortem does not state a bamboo stick caused injuries; SC did not simply accept confession as stated."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court found daughter's statement clear, specific, unambiguous and trustworthy; Supreme Court instead required the statement to be appreciated in its entirety, noting her admissions.",
+   "quote": "clear, specific, unambiguous and trustworthy",
+   "page": 5,
+   "reason": "Trustworthiness finding is the High Court's, not the Supreme Court's; the Supreme Court's view was more qualified."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused confessed to daughter and villagers after the incident and was alone with the body",
+   "quote": "the accused confessed before the villagers that he had committed the murder",
+   "page": 5,
+   "reason": "Judgment describes the accused's confessions to daughter and villagers, which is post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court dates match the judgment; offence date not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearances listed in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registered, chargesheet filed and trial completed, per judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution case rested on daughter's confession evidence and postmortem, as reflected in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence pleaded no eye witness and that the confession could not be relied upon."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary accurately paraphrases Exception I of s.300 IPC."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (Ajay Singh v. State of Maharashtra was cited in the High Court's reasoning, not relied on by the Supreme Court)",
+   "quote": "Ajay Sing -Vs- State of Maharashtra reported in (2007) 12 sec 341",
+   "page": 5,
+   "reason": "Precedent appears only in the quoted High Court judgment; the Supreme Court does not rely on it."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ends of justice met by converting life sentence to ten years rigorous imprisonment."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on motive to protect daughter, sustained provocation and lack of pre-meditation."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified in the judgment."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant to be released on completion of reduced sentence if not required in any other case; pending applications disposed of",
+   "quote": "The appellant shall be released on completion of the requisite and reduced period of sentence",
+   "page": 8,
+   "reason": "Judgment contains a release direction and disposal of pending applications, not 'None'."
+  }
+ }
+}

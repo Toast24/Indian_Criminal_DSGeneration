@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "2 (appellant as first accused; second accused Anima, acquitted)",
+   "quote": "The acquittal of the second accused, however, was confirmed by the High Court.",
+   "page": 7,
+   "reason": "Value omits that a second accused was tried and acquitted."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is the husband, referred to as male throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no age for the appellant."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment mentions Hindu rites for the marriage but does not state the accused's religion."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste information appears in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Business (unspecified)",
+   "quote": "the appellant demanded a sum of Rs.40,000/- from the father of the deceased Krishna for the purpose of his business",
+   "page": 7,
+   "reason": "Judgment states the appellant had a business for which money was demanded."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not described in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased is a married woman referred to as female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the deceased's age."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste information appears in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion not explicitly stated for the deceased; only marriage rites mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant was the deceased's husband."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Abetment of suicide and cruelty by husband (ss.306, 498A IPC)",
+   "quote": "the charge of abetment uls.306 and as well as s.498A stood proved",
+   "page": 1,
+   "reason": "No murder charge; offences were abetment of suicide and cruelty."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.306, 498A, 107; Evidence Act s.113A",
+   "quote": "s. 113A of the Evidence Act was duly attracted",
+   "page": 1,
+   "reason": "Omits s.107 IPC and s.113A Evidence Act, which the court applied."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Kerosene was the means used to burn the deceased."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Oral/ocular testimony, circumstantial, medical, recovery, documentary (receipts), presumption under s.113A",
+   "quote": "the consistent statements of P.Ws.3, 9 and 11",
+   "page": 10,
+   "reason": "Omits oral witness testimony and documentary receipts, which were central."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession; appellant denied the statements in s.313 questioning."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cruelty, money demand and illicit relationship are the factors relied on."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court acquitted the appellant."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court held appellant guilty on both charges."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, upholding conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Abetment under s.306 and cruelty under s.498A were held proved."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rigorous imprisonment for fixed terms was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "10 years RI (s.306) plus 3 years RI (s.498A), consecutive, totalling 13 years",
+   "quote": "Both sentences were directed to run consecutively.",
+   "page": 7,
+   "reason": "Omits the separate three-year sentence under s.498A running consecutively."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "Rs.10,000 under s.306 and Rs.10,000 under s.498A (default terms of one year each)",
+   "quote": "apart from fine of Rs.10,000/-, in default to suffer further rigorous imprisonment for one year",
+   "page": 7,
+   "reason": "Omits the second Rs.10,000 fine imposed for the s.498A offence."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without the outcome, e.g. remove 'The Supreme Court upheld the High Court's decision...'",
+   "quote": "The Supreme Court upheld the High Court's decision, concluding that the deceased's suicide was instigated",
+   "page": 6,
+   "reason": "Summary reveals the court outcome, which neutral_facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "10 years RI and Rs.10,000 fine (s.306); 3 years RI and Rs.10,000 fine (s.498A); sentences consecutive",
+   "quote": "imposed the sentence of imprisonment of 10 years and also a fine of Rs.10,000/-",
+   "page": 6,
+   "reason": "'Minimum' is not stated; the judgment gives the actual sentences imposed."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased died from the burns, so the act was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Extensive burn injuries leading to death are documented."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two charges under ss.306 and 498A were framed and both upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Jewels of the deceased pledged by appellant for Rs.11,000; demand of Rs.40,000 from father",
+   "quote": "the appellant pledged the jewels of deceased Krishna for a sum of Rs.11,000/-",
+   "page": 8,
+   "reason": "Judgment shows pledging of the deceased's jewels and a money demand, not 'not applicable'."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment finds instigation and demand, but never finds premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Money demand from father and illicit relationship with second accused are the motives relied on."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on PWs 3, 9, 11, recoveries, postmortem report and PW15's evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Nothing was suggested to any of the witnesses on behalf of the appellant to state that they were deposing against him with any other ulterior motive.",
+   "page": 12,
+   "reason": "Court found consistent testimony with no ulterior motive, supporting the assessment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct of the appellant is discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Death/offence 26.05.1987; High Court judgment 24.12.2008; Supreme Court decision 04.09.2012; trial judgment date not stated",
+   "quote": "From the Judgment & Order dated 24.12.2008 of the High Court",
+   "page": 6,
+   "reason": "24.12.2008 is the High Court judgment date, not the trial judgment date."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ravi Kumar Tomar, Amitava Acharjee, H.B. Tiwari, Smriti for the Appellant.",
+   "page": 6,
+   "reason": "Counsel names match the judgment for both sides."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution filed its final report before the Trial Court",
+   "page": 7,
+   "reason": "Final report filed and charges framed; FIR based on PW3's complaint."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence raised FIR authorship, but the court identified no procedural irregularity."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Acquittal at trial, conviction in High Court, appeal dismissed by Supreme Court."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary matches the prosecution's instigation and cruelty arguments."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the postmortem doctor-P.W.15 stated that he was not able to come to any definite opinion",
+   "page": 8,
+   "reason": "Summary matches defence arguments on circumstantial evidence and missing ingredients."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it must be shown that (i) the woman has committed suicide, (ii) such suicide has been committed within a period of seven years",
+   "page": 13,
+   "reason": "Summary accurately states the s.113A presumption as quoted in Ramesh Kumar."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All four cases listed are relied on or cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rationale matches the High Court's findings on abetment and cruelty as reproduced."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court does not label aggravating factors; none are expressly identified."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Both the sentences were directed to run consecutively.",
+   "page": 7,
+   "reason": "Sentence details and consecutive direction match the judgment."
+  }
+ }
+}

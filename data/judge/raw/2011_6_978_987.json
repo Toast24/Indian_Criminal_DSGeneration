@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to a single appellant-accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is referred to with male pronoun 'his' in the witness account."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused appears anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's occupation is not mentioned; only the deceased's farming work is described."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused's socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Jethusing is male, husband of PW-3."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not given in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they all are related",
+   "page": 8,
+   "reason": "Judgment states the accused and the family were related."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is homicidal death under s.302 IPC, i.e. murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302; Bombay Police Act s.135(1)",
+   "quote": "under Section 135 (1) of the Bombay Police Act",
+   "page": 5,
+   "reason": "Omits the Bombay Police Act s.135(1) charge and conviction also made in the case."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Axe is the weapon used throughout the judgment."
+  },
+  "evidence_type": {
+   "verdict": "incorrect",
+   "correct_value": "Ocular (eyewitness PW-3), medical, recovery, FSL serological report, res gestae witness statements",
+   "quote": "The star witness in the case is PW-3",
+   "page": 8,
+   "reason": "No dying declaration is mentioned; eyewitness testimony is the key evidence, not circumstantial."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is described; only disclosure statements leading to recovery are mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not list aggravating circumstances; 'None noted' is acceptable."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment identifies no mitigating circumstances."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under IPC s.302 and Bombay Police Act s.135(1); life imprisonment and Rs. 500 fine; Rs. 100 fine for s.135(1)",
+   "quote": "awarded him life imprisonment and a fine of Rs. 500/-",
+   "page": 5,
+   "reason": "Life sentence is right but omits the Bombay Police Act conviction and the fines."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Affirmed conviction and sentence; appeal dismissed",
+   "quote": "affirmed the judgment and order of Trial Court and thus dismissed the appeal",
+   "page": 5,
+   "reason": "High Court did hear the appeal and affirmed the conviction, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, leaving conviction in place."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 is the offence held established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence is imprisonment for life."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives life imprisonment, not a fixed term in years."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "500",
+   "quote": "awarded him life imprisonment and a fine of Rs. 500/-",
+   "page": 5,
+   "reason": "Judgment states a fine of Rs. 500 under s.302, so null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Facts only, without the final sentence stating the accused's involvement was established",
+   "quote": "it is clearly established beyond shadow of any doubt that the appellant was the person",
+   "page": 10,
+   "reason": "Core facts are accurate, but the closing sentence reveals the court's conclusion on guilt, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment is the sentence imposed and upheld for murder."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "severe wounds inflicted upon his face by an axe",
+   "page": 8,
+   "reason": "Judgment describes severe facial wounds causing death."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charged with 2 offences: IPC s.302 and Bombay Police Act s.135(1); both upheld",
+   "quote": "under Section 135 (1) of the Bombay Police Act",
+   "page": 5,
+   "reason": "Accused was charged and convicted under two provisions, not one offence."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is mentioned in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "FSL report; recovery of blood-stained scarf and axe at accused's instance; PW-3 eyewitness testimony corroborated by medical evidence; PW-5 and PW-6 s.161 statements",
+   "quote": "Their statements were recorded under Section 161 of Code of Criminal Procedure",
+   "page": 8,
+   "reason": "Attributes s.161 statements to PW-3 and omits PW-3's eyewitness testimony as the star witness."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Their evidence is of sterling quality and deserves to be accepted",
+   "page": 10,
+   "reason": "Judgment finds the witnesses' evidence corroborated and of sterling quality."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Witnesses saw accused going away from the field with an axe in his hand; accused made disclosure statements leading to recovery",
+   "quote": "they had also seen Appellant going away from the field, with an axe in his hand",
+   "page": 7,
+   "reason": "Judgment records witnesses seeing the accused leaving the scene with an axe, which is relevant conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Period of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence date, trial, High Court and Supreme Court dates all match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondent match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR registered; investigation completed; accused charged and tried",
+   "quote": "On completion of the investigation, the Appellant was charged and prosecuted",
+   "page": 7,
+   "reason": "FIR and trial are supported, but a charge sheet filing is not expressly stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is raised or noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court affirmance and Supreme Court dismissal match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary reflects the prosecution case as described in the judgment."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Accused denied charges, claimed innocence and sought acquittal; the FIR omission was explained by the wife, not argued by the defence",
+   "quote": "submitted that he is innocent and prayed for absolving the charges",
+   "page": 7,
+   "reason": "The FIR-omission explanation was given by PW-3, not argued by the accused."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment applies s.6 res gestae treatment and corroboration of witnesses."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedent is cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "there is no scope for any interference in the concurrent findings recorded by the two courts below",
+   "page": 10,
+   "reason": "Judgment gives no reasoning on sentence; it only upholds concurrent findings."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed or identified."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are expressly identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Sentences run concurrently; s.135(1) Bombay Police Act: 4 months simple imprisonment and Rs. 100 fine",
+   "quote": "The sentences were directed to run concurrently.",
+   "page": 5,
+   "reason": "Judgment records concurrent sentences and a separate Bombay Police Act sentence, not 'None'."
+  }
+ }
+}

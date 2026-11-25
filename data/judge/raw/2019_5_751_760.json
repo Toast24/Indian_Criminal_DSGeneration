@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The first accused is a partnership firm",
+   "page": 3,
+   "reason": "Three accused: the firm, the second respondent (partner), and the managing partner."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "he resides in Kuwait",
+   "page": 6,
+   "reason": "Gender is not stated for the firm or the third accused; only one 'he' pronoun appears, so 'Mixed' is not backed."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age is stated for any accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "Partnership firm dealing in data entry work; first respondent (partner) employed with National Bank of Kuwait per defence",
+   "quote": "the first respondent resides in Kuwait where he is employed with the National Bank of Kuwait",
+   "page": 6,
+   "reason": "Firm occupation is right, but the first respondent's employment as reported by the defence is omitted."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he believed them and kept quite for some time",
+   "page": 4,
+   "reason": "Complainant is referred to with male pronouns in paragraph 5."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complainant's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Related: accused no. 2 is son of complainant's brother-in-law; parties are related",
+   "quote": "As the accused no. 2 is son of brother in law of complainant",
+   "page": 4,
+   "reason": "'Acquaintance' understates the family relationship the judgment expressly describes."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Dishonour of cheques for insufficiency of funds (NI Act s.138)",
+   "quote": "complaint under Section 138 of the Negotiable Instruments Act",
+   "page": 3,
+   "reason": "Judgment describes a s.138 NI Act cheque dishonour complaint; cheating/fraud is never mentioned."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "NI Act s.138, s.141; CrPC s.482; Constitution Art.136",
+   "quote": "a petition under Section 482 of the Code of Criminal Procedure, 1973",
+   "page": 3,
+   "reason": "Omits CrPC s.482 under which the High Court quashed, and Article 136 invoked by the defence."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is involved in this cheque dishonour case."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Documentary: cheques and complaint averments",
+   "quote": "the cheques were returned due to insufficiency of funds",
+   "page": 7,
+   "reason": "Documentary evidence is right, but 'circumstantial' is not described in the judgment."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Complaint pending before Special Judicial Magistrate; NBWs issued then recalled",
+   "quote": "Non-bailable warrants were issued against the first respondent as he failed to appear",
+   "page": 5,
+   "reason": "The trial court made no decision; the High Court, not the trial court, quashed the proceedings."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court quashed the proceedings",
+   "page": 3,
+   "reason": "High Court quashed the complaint under s.482 CrPC."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal allowed; High Court order set aside; no conviction, complaint to proceed to trial",
+   "quote": "We accordingly allow the appeal and set aside the impugned judgment and order",
+   "page": 9,
+   "reason": "No conviction occurred; the Supreme Court allowed the appeal and restored the complaint."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "The averments are sufficient to meet the requirement of Section 141(1)",
+   "page": 9,
+   "reason": "No offence was established; the court only held the complaint's averments sufficient. Culpable homicide is unrelated."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment is ordered or discussed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Firm and partners sub-contracted data entry work to complainant, who paid a Rs 1,00,000 caution deposit; cheques dishonoured for insufficient funds; complaint under s.138 filed; HC quashed; SC considered sufficiency under s.141",
+   "quote": "The complainant was paid a caution deposit",
+   "page": 3,
+   "reason": "Reverses the caution deposit direction (complainant paid it) and reveals the Supreme Court's outcome, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment states no punishment range under s.138; the stated 6-month to 2-year range is not in the text."
+  },
+  "attempt_completion": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the cheques were returned due to insufficiency of funds",
+   "page": 7,
+   "reason": "The judgment does not characterise the offence as completed or attempted; it only describes dishonour of cheques."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "two more cheques were issued by the managing partner",
+   "page": 5,
+   "reason": "Four cheques are described, but no counts charged or upheld are stated."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the balance amount of Rs. 7,50,000 towards completed work and Rs.1,00,000 given towards caution deposit",
+   "page": 4,
+   "reason": "Matches the balance due and caution deposit described in paragraph 6."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is expressly identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the complaint contains a sufficient description of (i) the nature of the partnership",
+   "page": 9,
+   "reason": "Accurately reflects the court's reliance on complaint averments for s.141(1) sufficiency."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No witness credibility assessment is made; the court only examined sufficiency of complaint averments."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused assured honouring on re-presentation, part-paid Rs 1,00,000, and avoided the complainant",
+   "quote": "they have avoided the complainant",
+   "page": 5,
+   "reason": "The judgment describes post-dishonour assurances, a partial payment and avoidance of the complainant."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody is mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not discussed; only non-bailable warrants are mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in the month of August 2010",
+   "page": 3,
+   "reason": "Offence period Aug 2010 to July 2011 is supported; other sub-fields are accurately stated as not stated or decided."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused: Abhimanyu Bhandari and others (for respondents); Complainant/appellant: Ms. Bhabhna Das, Krishna Dev Jagarlamudi",
+   "quote": "Ms. Bhabhna Das, Krishna Dev Jagarlamudi, Advocates for the Appellant",
+   "page": 2,
+   "reason": "Counsel names are correct, but the appellant is the complainant, not the state."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The complaint was instituted on 19 September 2011",
+   "page": 5,
+   "reason": "Accurately reflects complaint filing and subsequent High Court and Supreme Court developments."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Quashed the complaint",
+   "page": 3,
+   "reason": "Trial court not stated; High Court quashed; Supreme Court allowed appeal, matching the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court was manifestly in error in quashing the complaint",
+   "page": 5,
+   "reason": "Accurately summarises the appellant's submissions relying on Gunmala and s.141."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there was no averment in the complaint that the first respondent was incharge of",
+   "page": 6,
+   "reason": "Accurately summarises the first respondent's submissions, including Kuwait residence and lack of day-to-day connection."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 141 undoubtedly uses the expression company so as to include a firm",
+   "page": 9,
+   "reason": "Correctly states the firm-as-company principle and holistic reading of the complaint."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Gunmala Sales Private Limited v. Anu Mehta and Others",
+   "page": 5,
+   "reason": "Gunmala Sales is the precedent relied on and cited with its citation."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred, so 'Not applicable' fits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Liberty to first respondent to apply for exemption from appearing before the Trial Judge",
+   "quote": "We leave it open to the first respondent to move an application in that regard",
+   "page": 10,
+   "reason": "The judgment grants liberty to seek exemption from appearing before the trial court, so 'None' is wrong."
+  }
+ }
+}

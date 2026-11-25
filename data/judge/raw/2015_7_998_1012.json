@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "A single accused (the respondent, Madan Lal) is involved."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The accused is referred to as male (he, his)."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The victim is a girl (prosecutrix)."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is described as aged about 7 years."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "the accused, Madan Lal, met her and came to know",
+   "page": 5,
+   "reason": "Judgment says only that they met on the way; it never calls him a stranger."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is rape under s. 376(2)(f), with attempt under s. 511."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment cites s. 376(2)(f) r/w s. 511 and s. 354 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecutrix testimony, mother's account (who arrived after the cry), medical witness evidence, forensic examination of clothes",
+   "quote": "Upon hearing the cry of the prosecutrix, her mother, Ramnali Bai, PW2, reached the spot",
+   "page": 5,
+   "reason": "Mother did not witness the act; the list also omits the forensic examination and the prosecutrix's testimony."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is referred to; the accused abjured guilt."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Victim's tender age of seven; offence described as an assault on a woman's dignity and body",
+   "quote": "the prosecutrix was a seven year old girl",
+   "page": 9,
+   "reason": "The judgment stresses the victim's age and gravity of the offence, which were not noted as aggravating."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Compromise between accused and victim's parents; custody already undergone (slightly more than one year)",
+   "quote": "the learned Single Judge has been influenced by the compromise",
+   "page": 12,
+   "reason": "The High Court relied on the compromise and time served, which the judgment records as mitigating considerations."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s. 376(2)(f) r/w 511 and sentenced to five years RI."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court converted to s. 354 and reduced sentence to time already undergone."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeal partly allowed; High Court order set aside and matter remitted for fresh decision; no final conviction by Supreme Court",
+   "quote": "the order of the High Court stands lancinated",
+   "page": 15,
+   "reason": "Supreme Court did not convict; it set aside the High Court order and remitted the matter."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (matter remitted for reappraisal of evidence)",
+   "quote": "we are inclined to set aside the judgment of the High Court and remit the matter to it for appropriate adjudication",
+   "page": 11,
+   "reason": "No offence was finally established; the Supreme Court remitted the matter for fresh decision."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Rigorous imprisonment (trial court); no final sentence imposed by Supreme Court",
+   "quote": "rigorous imprisonment of five years",
+   "page": 4,
+   "reason": "Fixed-term RI is the trial court sentence only; the final sentence was not imposed by the Supreme Court."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "5 (trial court sentence); High Court reduced to time served; no final term imposed",
+   "quote": "rigorous imprisonment of five years",
+   "page": 4,
+   "reason": "Five years is the trial court term only, not the final sentence."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurate and do not reveal the Supreme Court outcome."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (trial court sentence was five years RI)",
+   "quote": "rigorous imprisonment of five years",
+   "page": 4,
+   "reason": "Value restates the sentence; the judgment does not classify offence severity."
+  },
+  "attempt_completion": {
+   "verdict": "incorrect",
+   "correct_value": "Attempt (charged under s. 376(2)(f) r/w s. 511 IPC)",
+   "quote": "framed the charge under Section 376(2)(f) read with Section 511 of IPC",
+   "page": 5,
+   "reason": "Section 511 concerns attempt; the charge was for attempt, not completed rape."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution alleged discharge on her private parts and stomach; no injuries described",
+   "quote": "he discharged on her private parts as well as on the stomach",
+   "page": 5,
+   "reason": "Injuries are not described; only the alleged discharge is mentioned."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence charged under s. 376(2)(f) r/w s. 511 IPC; convicted by trial court; not upheld on appeal",
+   "quote": "set aside the conviction under Section 376(2)(f) read with Section 511",
+   "page": 4,
+   "reason": "The conviction was not upheld; the High Court converted it and the Supreme Court remitted the matter."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated; Supreme Court did not assess the evidence and remitted it for reappraisal",
+   "quote": "we have not referred to the evidence of any of the witnesses",
+   "page": 15,
+   "reason": "The Supreme Court expressly declined to examine the evidence and accepted nothing."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court found the evidence credible; the Supreme Court made no credibility finding; High Court's failure to consider contradictions was counsel's submission",
+   "quote": "the prosecution had been able to bring home the charge on the base of credible evidence",
+   "page": 7,
+   "reason": "The Supreme Court recorded the trial court's finding and the appellant's submission, not its own assessment."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused fled (took to his heels) when the victim's mother arrived",
+   "quote": "then accused took to his heels",
+   "page": 5,
+   "reason": "The judgment records that the accused fled when the mother arrived."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the period undergone is slightly more than one year."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated; respondent was in custody."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence date 27.12.2008; High Court decision 01.02.2010; Supreme Court decision 01.07.2015; trial court judgment date not stated",
+   "quote": "Judgment and Order dated 01.02.2010 in CRA No. 808/2009",
+   "page": 4,
+   "reason": "The 01.02.2010 date is the High Court judgment, not the trial judgment, whose date is not given."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant State: G.D. Singh, Apoorv Kurup, Shreya Dubey; Respondent: Asha Jain Madan (court-appointed)",
+   "quote": "Asha Jain Madan (A.G.) for the Respondent",
+   "page": 4,
+   "reason": "Dipak Misra is the judge, not counsel; Asha Jain Madan represented the respondent, not the accused's side as listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR lodged, chargesheet filed and trial completed are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "High Court judgment was laconic, did not refer to evidence, and was influenced by a compromise in a non-compoundable offence",
+   "quote": "the learned Single Judge has been influenced by the compromise",
+   "page": 12,
+   "reason": "The judgment identifies several procedural defects in the High Court's approach."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued the High Court ignored appellate jurisdiction, failed to reappreciate evidence, converted in a laconic manner, and criticised the sentence",
+   "quote": "the High Court has not kept in mind the jurisdiction of the appellate court",
+   "page": 7,
+   "reason": "Value omits the State's appellate-jurisdiction argument and sentence criticism, and asserts a conviction-validity argument not recorded."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Respondent's counsel argued the High Court's conversion to s. 354 was defensible because ingredients of rape were not established",
+   "quote": "the conversion of the offence to one under Section 354 IPC by the High Court cannot be found fault with",
+   "page": 7,
+   "reason": "The defence supported the High Court's conversion; it did not argue it was improper."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No compromise in rape cases and the appellate duty to reappreciate evidence are both stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Also relied on K. Anbazhagan (Criminal Appeal No. 637 of 2015), Ashok@Pappu, Phulki@Santosh@Makhan and Jeevan (distinguished or referred)",
+   "quote": "K. Anbazhagan v. State of Karnataka and Others Criminal Appeal No.637 of 2015",
+   "page": 2,
+   "reason": "The list omits K. Anbazhagan and the three Madhya Pradesh High Court decisions cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "No final sentence imposed; compromise cannot justify lenient sentence; High Court order set aside and remitted",
+   "quote": "the compromise that has been entered into between the accused and the parents of the victim",
+   "page": 12,
+   "reason": "The Supreme Court imposed no sentence; it set aside the High Court order and remitted the matter."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Supreme Court accepted no mitigating factors; compromise was rejected."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Victim aged seven; offence described as a crime against the dignity and body of a woman",
+   "quote": "These are crimes against the body of a woman which is her own temple",
+   "page": 13,
+   "reason": "The judgment stresses gravity and the victim's age, which the value marks as none."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matter remitted, respondent to be taken into custody forthwith, and appeal to be heard afresh."
+  }
+ }
+}

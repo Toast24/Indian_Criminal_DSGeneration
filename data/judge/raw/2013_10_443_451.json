@@ -1,0 +1,387 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only one accused, the husband Girdhari Lal, is before the court."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is the husband, referred to as male throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Babita is the wife, female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the deceased is given; only years of marriage are mentioned."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the deceased is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the deceased is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is the deceased's husband."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Dowry death (s.304B IPC) / abetment of suicide (s.306 IPC)",
+   "quote": "convicted him for the offence under Section 306 IPC",
+   "page": 9,
+   "reason": "Judgment concerns dowry death and abetment of suicide, not culpable homicide."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "IPC ss.304B and 306 and Evidence Act ss.113A and 113B are discussed."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is identified; death was from burns."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Ocular/witness testimony, documentary, medical (postmortem)",
+   "quote": "established from the ocular and documentary evidence",
+   "page": 9,
+   "reason": "Medical and documentary evidence are correct, but witnesses are not described as eyewitnesses to the death."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Aggravating circumstances are not stated by the court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Mitigating circumstances are not stated by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The trial court on appreciation of evidence and on hearing the parties convicted the respondent under Section 304-B IPC and sentenced him to undergo life imprisonment.",
+   "page": 5,
+   "reason": "Matches the trial court conviction and life sentence."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted the respondent under Section 306 IPC instead of 304B IPC",
+   "page": 5,
+   "reason": "Matches High Court conversion to s.306 and five-year sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction under s.306 stands; State's appeal dismissed."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Abetment of suicide of a married woman (s.306 IPC)",
+   "quote": "convicted him for the offence under Section 306 IPC",
+   "page": 9,
+   "reason": "Judgment establishes abetment of suicide under s.306, not culpable homicide not amounting to murder."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Five years rigorous imprisonment is a fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Five years imprisonment is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fine of Rs.1000/-",
+   "page": 4,
+   "reason": "Fine of Rs.1000 is stated."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts summary without the Supreme Court outcome or the court's reasoning on the presumptions",
+   "quote": "thus the conviction under Section 306 IPC was upheld.",
+   "page": 5,
+   "reason": "Summary reveals the appellate outcome and court reasoning, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state a minimum or maximum punishment range."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death by burns occurred, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Extensive burn injuries causing death are described."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Case registered under s.304B and s.498A IPC; conviction under s.306 IPC",
+   "quote": "a case under Section 3048 and 498A IPC was registered",
+   "page": 5,
+   "reason": "Omits that s.498A was also registered; the value is also not a count."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss is mentioned, so not applicable."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not stated in the judgment."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Dowry-related cruelty and harassment by the husband",
+   "quote": "Girdhari Lal used to beat and harass Babita for dowry after her marriage",
+   "page": 7,
+   "reason": "Judgment identifies dowry-related harassment as the motive, not 'not identified'."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's finding of cruelty based on ocular and documentary evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's observations on PW1 and PW7 statements about dowry demands."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution alleged respondent did not inform the deceased's parents about the incident",
+   "quote": "respondent did not inform the parents of the deceased regarding the incident",
+   "page": 5,
+   "reason": "Judgment records this as the prosecution's submission, so 'Not stated' misses it."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Respondent had already undergone more than six years of imprisonment",
+   "quote": "had already undergone imprisonment for a period of more than six years",
+   "page": 4,
+   "reason": "The judgment states the custody period, so 'Not stated' is wrong."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "dates_of_offence: 10 August 1998; trial_judgment date not stated; high_court_decision: 14 March 2007; supreme_court_decision: 7 October 2013",
+   "quote": "Judgment and Order dated 14.03.2007 of the High Court",
+   "page": 4,
+   "reason": "14.03.2007 is the High Court judgment date; the trial court judgment date is not given."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "accused": "Satendar Sing Gulati, Kamaldeep Gulati",
+    "state": "Archana Pathak Dave, Milind Kumar"
+   },
+   "quote": "Archana Pathak Dave, Milind Kumar for the Appellant. Satendar Sing Gulati, Kamaldeep Gulati for the Respondent.",
+   "page": 4,
+   "reason": "Counsel for accused and state are swapped in the value."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Chargesheet was filed and trial was completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the State's submissions on unnatural death and burden of proof."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Respondent's counsel supported the High Court decision, as recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's s.304B 'soon before' analysis and s.113A presumption."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (no case law cited; statutory provisions only)",
+   "quote": null,
+   "page": null,
+   "reason": "Only statutory provisions are referenced; no judicial precedents are cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "No sentencing reasoning given; court upheld s.306 conviction on finding of cruelty leading to suicide",
+   "quote": "Therefore, the Appellate Court rightly presumed, having regard to all other circumstances of the case",
+   "page": 9,
+   "reason": "Judgment gives reasoning for conviction, not for the sentence imposed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "High Court directed release forthwith if not required in any other case",
+   "quote": "the High Court directed to release him forthwith, if not required to be detained in any other case",
+   "page": 4,
+   "reason": "The High Court issued a release direction, so 'None' is wrong."
+  }
+ }
+}

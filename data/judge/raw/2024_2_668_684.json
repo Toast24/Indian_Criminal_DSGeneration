@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two accused, Ram Singh and co-accused Lala Ram, are identified in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant is referred to with male pronouns, e.g. 'prosecution could not prove his guilt'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the appellant anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous conviction is stated; only pending cases from the Pradhan election scuffle are mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Dulli is the mother of PW-1 and is referred to as female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The victim's age is not stated anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Known to victim; fellow village resident with election rivalry against victim's family",
+   "quote": "Both the accused were residents of his village and belonged to the same community.",
+   "page": 6,
+   "reason": "Accused were village neighbours with a Pradhan election rivalry, not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 IPC (with s.301), plus attempt under s.307."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions were under IPC ss.301/302 and 307, as stated in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Weapon alleged was a country made pistol, though it was never recovered."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness, medical, documentary (seizure memo, inquest report, chemical examiner report)",
+   "quote": "in the seizure memo dated 20.08.1982, which has been placed on record",
+   "page": 11,
+   "reason": "Omits documentary evidence such as seizure memo, inquest report and chemical examiner materials."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned; accused denied the accusation under s.313 Cr.P.C."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "Considering the gruesome nature of the murder",
+   "page": 6,
+   "reason": "Listed items are defence weaknesses in prosecution case, not aggravating circumstances; judgment identifies none."
+  },
+  "mitigating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Co-accused Lala Ram acquitted on same evidence; eyewitness evidence found not credible",
+   "quote": "on the same set of evidence, the trial court gave the benefit of doubt to the other accused Lala Ram",
+   "page": 16,
+   "reason": "Co-accused acquittal is relevant, but eyewitness credibility doubts and parity principle are the core factors."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under s.301/302 and s.307 IPC and imposed sentences."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction and sentence confirmed",
+   "quote": "the appeal filed by the appellant before the High Court ... was dismissed.",
+   "page": 3,
+   "reason": "High Court dismissed the appeal and confirmed conviction, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant was given benefit of doubt and conviction was set aside, i.e. acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution failed to prove guilt beyond reasonable doubt, so no offence was finally established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment; appellant directed to be released from jail forthwith."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment term; sentence was set aside."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without outcome: victim sitting on cot in front of informant's house; PW-1 and brother present; instigation by Lala Ram; weapon not recovered; conviction of appellant and acquittal of co-accused by trial court; High Court dismissed appeal",
+   "quote": "we set aside the conviction and sentence of the accused.",
+   "page": 17,
+   "reason": "Wrongly places cot at accused's house and states the Supreme Court outcome, which neutral facts must not reveal."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentences imposed were life imprisonment under s.302 and five years RI under s.307."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder was completed by death of the victim; s.307 attempt is a separate count."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Gunshot injury to the left breast caused death of the victim."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Two offences (s.301/302 and s.307 IPC) charged; both convictions set aside by Supreme Court",
+   "quote": "we set aside the conviction and sentence of the accused.",
+   "page": 17,
+   "reason": "Both convictions were set aside, not upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed; the judgment only describes instigation at the scene."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Political rivalry over village Pradhan election; earlier scuffle between victim's son and appellant",
+   "quote": "he had a rivalry with accused Ram Singh in connection with the election of village Pradhan.",
+   "page": 7,
+   "reason": "Judgment clearly identifies election rivalry and prior scuffle as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Non-recovery of weapon and non-examination of ballistic expert not fatal alone; combined with glaring inconsistencies and omitted material witnesses, fatal",
+   "quote": "the omission to seek ballistic opinion and examination of the ballistic expert may be fatal to the prosecution case.",
+   "page": 15,
+   "reason": "Court held non-recovery alone is not fatal; it was the combination with other defects that mattered."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the evidence tendered by the eyewitnesses suffer from serious lacunae. Thus, their evidence cannot be said to be credible.",
+   "page": 16,
+   "reason": "Matches the court's assessment that eyewitness evidence suffered serious lacunae and was not credible."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused fled the scene after the shooting",
+   "quote": "Ram Singh and Lala Ram ran away towards the north.",
+   "page": 4,
+   "reason": "Judgment states both accused ran away after the firing, which is post-offence conduct."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Prayer for bail was before the Supreme Court; notice issued on 16.07.2018",
+   "quote": "this Court had issued notice only on the question of converting the conviction from under Section 302 IPC to Section 304 IPC and also on the prayer for grant of bail",
+   "page": 5,
+   "reason": "Judgment records that notice was issued on the prayer for bail, so 'Not stated' is inaccurate."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Trial court judgment dated 28.05.1983; High Court 05.02.2018; Supreme Court 21 February 2024",
+   "quote": "The judgment and order of the Additional Sessions Court dated 28.05.1983",
+   "page": 17,
+   "reason": "Trial court date is wrongly given as 05.02.2018; it was 28.05.1983."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondent match the appearances section."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Chargesheet was filed and the trial was completed, per the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Non-recovery of weapon, no ballistic examination and no expert opinion are noted as irregularities."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court confirmation and Supreme Court set-aside all match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution relied on ocular evidence of positive firing act and the gruesome nature of murder; conviction fully justified",
+   "quote": "The ocular evidence clearly points to the positive act of the appellant firing the gunshot",
+   "page": 6,
+   "reason": "Does not mention police investigation or post-mortem reliance, nor the 'beyond all reasonable doubt' standard, as stated."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence points on inconsistencies, non-recovery, no ballistic report and parity with co-accused match the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Principles on non-recovery, ballistic expert, material witnesses and parity match paras 29-33."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All cited precedents and citations match those listed in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rationale matches the court's finding that guilt was not proved beyond reasonable doubt."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court does not expressly identify mitigating factors for sentencing."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court does not identify aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant directed to be released from jail forthwith, if not required in any other case",
+   "quote": "the appellant is directed to be released from jail forthwith, if not required in any other case.",
+   "page": 17,
+   "reason": "Release order was made and should be recorded rather than 'None'."
+  }
+ }
+}

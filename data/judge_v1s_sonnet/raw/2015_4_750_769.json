@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "VUTUKURU LAKSHMAIAH v. STATE OF ANDHRA PRADESH",
+   "page": 1,
+   "reason": "Matches the title."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted A-1 to A-5 and A-7 to A-9",
+   "page": 8,
+   "reason": "Accused A-1 to A-9 (A-6 deceased) make nine accused."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment never states any accused's gender explicitly; 'Mixed' has no support (names suggest male)."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No ages given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "A-1 was Councilor for Ward No. 16, Nellore Municipality; others' occupations not stated",
+   "quote": "accused Vutukuru Lakshmaiah, A-1, was the Councilor for Ward No. 16 of Nellore Municipality",
+   "page": 6,
+   "reason": "True only for A-1, not all accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No criminal records mentioned, though A-1 was accused in an earlier murder case."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased, Patrangi Ramanaiah",
+   "page": 6,
+   "reason": "Victim referred to as male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Political rivals; victim was a witness in a murder case against A-1",
+   "quote": "in the said prosecution the deceased and PW-1 were witnesses",
+   "page": 6,
+   "reason": "Parties had previous animosity; not strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "found the appellants guilty of the offence under Sections 302 and 148",
+   "page": 6,
+   "reason": "Murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "offences punishable under Sections 148 and 302 IPC",
+   "page": 8,
+   "reason": "Sections match those of the trial conviction."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "stabbed the deceased multiple times with knives, while A-4 and A-6 beat him with iron rods",
+   "page": 6,
+   "reason": "Knives and iron rods."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "especially the evidence of PW-1 to PW-3, and the dying declaration",
+   "page": 8,
+   "reason": "Eyewitness and dying declaration (also recoveries)."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Previous animosity, multiple stab injuries; victim was a witness against A-1",
+   "quote": "considering the nature of injuries and the previous animosity",
+   "page": 20,
+   "reason": "Unlawful assembly is not a sentencing aggravator; the rest is fine."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None accepted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted A-1 to A-5 and A-7 to A-9 for the offences punishable under Sections 148 and 302 IPC",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "affirmed the conviction and sentence ... acquitting A4, A8 and A9",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the same stand dismissed.",
+   "page": 20,
+   "reason": "Appeals dismissed, convictions upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "not a fit case where the offence under Section 302 IPC should be converted",
+   "page": 20,
+   "reason": "Section 302 upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced each of them to suffer rigorous imprisonment for life",
+   "page": 6,
+   "reason": "Life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life term, no years."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine stated."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Stabbed with knives; iron rods used to beat him; death three days later; dying declaration and eyewitnesses",
+   "quote": "A-4 and A-6 beat him with iron rods",
+   "page": 6,
+   "reason": "Mostly accurate, but ends by revealing the arguments were rejected (outcome)."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "rigorous imprisonment for life",
+   "page": 6,
+   "reason": "Life."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "succumbed",
+   "page": 1,
+   "reason": "Death occurred."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "five stab injuries at different parts of the body",
+   "page": 20,
+   "reason": "Matches."
+  },
+  "number_of_offences": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No count of 8 charged or 7 upheld stated in the judgment."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Court made no finding of premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased was assaulted as he was a witness in Velongini Raja's murder case",
+   "page": 20,
+   "reason": "Animosity; victim a witness against A-1."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has been able to establish the presence of the witnesses",
+   "page": 15,
+   "reason": "Matches."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Court held witnesses not chance witnesses; they deposed they saw the accused despite lamp lighting",
+   "quote": "we are unable to put them in the category of so-called 'chance witnesses'",
+   "page": 15,
+   "reason": "Broadly right, but 'detailed testimony' is embellished."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not discussed by the court."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence 14.05.1996; High Court judgment 22.03.2007; SC 24.04.2015; trial court date not stated",
+   "quote": "judgment and order dated 22.03.2007 passed by the High Court",
+   "page": 5,
+   "reason": "22.03.2007 is the High Court date, not the trial judgment date."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellants: Nagendra Rai et al.; Respondent counsel June Chaudhary et al.",
+   "quote": "Nagendra Rai, A.TM. Rangaramanujam, P. N. Ramalingam, for the Appellant",
+   "page": 5,
+   "reason": "Largely right, but the judgment names only Nagendra Rai and June Chaudhary as arguing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "After completion of the investigation, the chargesheet was placed",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Non-framing of a Section 149 charge was raised but held not prejudicial",
+   "quote": "non-framing of charge under Section 149 IPC",
+   "page": 10,
+   "reason": "Irregularity was alleged and rejected; 'None noted' oversimplifies."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "partly allowed the appeal thereby acquitting A4, A8 and A9",
+   "page": 8,
+   "reason": "Matches."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State argued the dying declaration is reliable, witnesses are credible, Section 149 can be applied without charge, and Section 302 applies",
+   "quote": "it is squarely a case under Section 302 IPC and not under Section 304 Part I or Part II",
+   "page": 10,
+   "reason": "Alibi and injury/animosity points are the court's reasoning, not the State's arguments."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Chance witnesses, vague dying declaration, false implication, alibi, no charge under s.149, alternative s.304 Part II",
+   "quote": "could not have been convicted in aid of Section 149 IPC",
+   "page": 9,
+   "reason": "Omits alibi and s.304 plea; says absent charge warranted acquittal, which is overstated."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the burden shifts to the accused to establish the plea of alibi with certainty",
+   "page": 19,
+   "reason": "Matches the principles applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cases listed are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Court declined to convert s.302 to s.304 Part I given the nature of injuries and previous animosity",
+   "quote": "considering the nature of injuries and the previous animosity",
+   "page": 20,
+   "reason": "The court gave a rationale for retaining the s.302 conviction."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None recognised."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Nature of injuries and previous animosity",
+   "quote": "considering the nature of injuries and the previous animosity",
+   "page": 20,
+   "reason": "Court relied on these to refuse reducing the offence."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "all the sentences shall be concurrent",
+   "page": 6,
+   "reason": "Concurrent sentences; no other orders. Acceptable."
+  }
+ }
+}

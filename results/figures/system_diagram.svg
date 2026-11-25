@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#444"/>
+    </marker>
+    <style>
+      .box{stroke:#333;stroke-width:1.2;rx:8}
+      .t{font-weight:bold;font-size:13.5px}
+      .s{font-size:11.5px;fill:#333}
+      .ln{stroke:#444;stroke-width:1.4;fill:none;marker-end:url(#a)}
+      .stage{font-size:12px;font-weight:bold;fill:#555;letter-spacing:.5px}
+    </style>
+  </defs>
+  <rect width="1000" height="560" fill="#fff"/>
+
+  <!-- stage labels -->
+  <text x="20" y="28" class="stage">STAGE 1 · DATA &amp; COUNTERFACTUALS</text>
+  <text x="145" y="298" class="stage">STAGE 2 · DECISION ELICITATION &amp; BIAS TESTS</text>
+  <text x="560" y="298" class="stage">STAGE 3 · REASONING PROBES</text>
+
+  <!-- stage 1 (blue) -->
+  <rect class="box" x="20" y="45" width="210" height="95" fill="#dbe9f6"/>
+  <text x="125" y="70" text-anchor="middle" class="t">Bail case corpus</text>
+  <text x="125" y="90" text-anchor="middle" class="s">1,200 anonymised, gender-</text>
+  <text x="125" y="105" text-anchor="middle" class="s">neutral Indian bail cases</text>
+  <text x="125" y="120" text-anchor="middle" class="s">(facts, bail type, outcome)</text>
+
+  <rect class="box" x="265" y="45" width="215" height="95" fill="#dbe9f6"/>
+  <text x="372" y="70" text-anchor="middle" class="t">Filtering &amp; stratification</text>
+  <text x="372" y="90" text-anchor="middle" class="s">outcome-leakage filter;</text>
+  <text x="372" y="105" text-anchor="middle" class="s">keyword strata: legally</text>
+  <text x="372" y="120" text-anchor="middle" class="s">irrelevant vs. relevant</text>
+
+  <rect class="box" x="515" y="45" width="215" height="95" fill="#dbe9f6"/>
+  <text x="622" y="70" text-anchor="middle" class="t">Matched sampling</text>
+  <text x="622" y="90" text-anchor="middle" class="s">gender: 150 + 150 cases</text>
+  <text x="622" y="105" text-anchor="middle" class="s">caste: 149 + 10 cases</text>
+  <text x="622" y="120" text-anchor="middle" class="s">(seed 42, outcome-balanced)</text>
+
+  <rect class="box" x="765" y="45" width="215" height="95" fill="#dbe9f6"/>
+  <text x="872" y="70" text-anchor="middle" class="t">Counterfactual prompts</text>
+  <text x="872" y="90" text-anchor="middle" class="s">one inserted line varies:</text>
+  <text x="872" y="105" text-anchor="middle" class="s">Gender: Male | Female</text>
+  <text x="872" y="120" text-anchor="middle" class="s">Caste: none|Gen|OBC|SC</text>
+
+  <path class="ln" d="M230,92 L263,92"/>
+  <path class="ln" d="M480,92 L513,92"/>
+  <path class="ln" d="M730,92 L763,92"/>
+
+  <!-- connector down -->
+  <path class="ln" d="M872,140 L872,175 L125,175 L125,313"/>
+
+  <!-- stage 2 (green) -->
+  <rect class="box" x="20" y="315" width="210" height="110" fill="#dff0dc"/>
+  <text x="125" y="340" text-anchor="middle" class="t">LLM judge</text>
+  <text x="125" y="360" text-anchor="middle" class="s">sarvam-105b · gpt-oss-120b</text>
+  <text x="125" y="375" text-anchor="middle" class="s">reasoning effort low, JSON</text>
+  <text x="125" y="390" text-anchor="middle" class="s">T=0 primary; T=0 rerun and</text>
+  <text x="125" y="405" text-anchor="middle" class="s">T=0.7 repeats (noise floor)</text>
+
+  <rect class="box" x="265" y="315" width="250" height="110" fill="#dff0dc"/>
+  <text x="390" y="340" text-anchor="middle" class="t">Decision record</text>
+  <text x="390" y="360" text-anchor="middle" class="s">bail_granted (bool)</text>
+  <text x="390" y="375" text-anchor="middle" class="s">reasoning (&lt;75 words)</text>
+  <text x="390" y="390" text-anchor="middle" class="s">relevant_acts (≤4 statutes)</text>
+  <text x="390" y="405" text-anchor="middle" class="s">resumable JSONL log</text>
+
+  <rect class="box" x="265" y="445" width="250" height="100" fill="#dff0dc"/>
+  <text x="390" y="470" text-anchor="middle" class="t">Paired bias statistics</text>
+  <text x="390" y="490" text-anchor="middle" class="s">McNemar · Cochran Q · bootstrap CI</text>
+  <text x="390" y="505" text-anchor="middle" class="s">flips vs. same-prompt noise floor</text>
+  <text x="390" y="520" text-anchor="middle" class="s">GEE · mention asymmetry · Holm</text>
+
+  <path class="ln" d="M230,370 L263,370"/>
+  <path class="ln" d="M390,425 L390,443"/>
+
+  <!-- stage 3 (orange) -->
+  <rect class="box" x="560" y="315" width="200" height="110" fill="#fbe5cf"/>
+  <text x="660" y="340" text-anchor="middle" class="t">Case selection</text>
+  <text x="660" y="360" text-anchor="middle" class="s">real flips (variable changed)</text>
+  <text x="660" y="375" text-anchor="middle" class="s">placebo flips (same prompt,</text>
+  <text x="660" y="390" text-anchor="middle" class="s">fake labels attached)</text>
+  <text x="660" y="405" text-anchor="middle" class="s">relevant cases with no flip</text>
+
+  <rect class="box" x="785" y="315" width="195" height="110" fill="#fbe5cf"/>
+  <text x="882" y="340" text-anchor="middle" class="t">Self-explanation</text>
+  <text x="882" y="360" text-anchor="middle" class="s">neutral: "what explains</text>
+  <text x="882" y="375" text-anchor="middle" class="s">the difference?"</text>
+  <text x="882" y="390" text-anchor="middle" class="s">leading + challenge turn</text>
+  <text x="882" y="405" text-anchor="middle" class="s">"why didn't you flip?"</text>
+
+  <rect class="box" x="660" y="445" width="320" height="100" fill="#fbe5cf"/>
+  <text x="820" y="470" text-anchor="middle" class="t">Faithfulness &amp; legal-awareness metrics</text>
+  <text x="820" y="490" text-anchor="middle" class="s">fresh-context LLM judge labels attribution / stance</text>
+  <text x="820" y="505" text-anchor="middle" class="s">blame rate real vs. placebo (Fisher) · doubles down</text>
+  <text x="820" y="520" text-anchor="middle" class="s">names the provision (s.437/480 proviso; SC/ST Act)</text>
+
+  <path class="ln" d="M515,370 L558,370"/>
+  <path class="ln" d="M760,370 L783,370"/>
+  <path class="ln" d="M882,425 L882,443"/>
+</svg>

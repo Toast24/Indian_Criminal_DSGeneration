@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states originally there were six accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants are male; judgment refers to them as 'his' in the assault narrative."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Rabbani Khan is referred to as male with 'his' pronouns."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age of 35 appears nowhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Relationship not stated; previous enmity alleged and admitted by prosecution witnesses",
+   "quote": "previous enmity having been admitted by the prosecution witnesses",
+   "page": 7,
+   "reason": "Judgment refers to previous enmity between parties, so 'Stranger' contradicts the record."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction is for murder under Section 302 read with 149."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment cites Sections 302/149, 323/149 and 147 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states accused were armed with spears and lathis."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness ocular evidence and hospital injury examination/reports are referenced."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned; the appellants only claimed false implication."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deadly weapons, common object, and surrounding to prevent escape are all stated in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Convicted under Sections 302/149, 323/149 and 147 IPC",
+   "quote": "conviction under Section 302/149 of the Indian Penal Code (IPC) ... along with conviction under Sections 323/149 and 147 IPC",
+   "page": 6,
+   "reason": "Omits the conviction under Section 147 IPC, which the judgment states."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "From the Judgment and Order dated 28.05.2009 of the High Court of Jharkhand at Ranchi in Criminal Appeal (DB) No. 211 of 2000.",
+   "page": 6,
+   "reason": "A High Court judgment is referenced under appeal, so 'Not applicable' is wrong; its outcome is not stated."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeals, upholding the convictions."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction for murder under Section 302/149 was upheld."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rigorous imprisonment for life is stated for the Section 302/149 conviction."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No number of years is stated, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts match the judgment and do not reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment under 302/149 and varied terms under 323/149 and 147 are stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased was killed, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Injuries to P.W. 7 and 8 (head, hand, face); deceased had head assault per witnesses but only one bruise on upper arm found medically",
+   "quote": "only one bruise has been found on the upper arm",
+   "page": 7,
+   "reason": "Deceased head injuries are not medically established; the only injury found on him was an upper arm bruise."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "charge was framed under Sections 302/149 and 323/149 IPC against six persons",
+   "page": 6,
+   "reason": "Six refers to accused persons, not offences; 'four upheld' is not stated anywhere in the judgment."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed, so 'Not applicable' is reasonable."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not discussed."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Previous enmity alleged; admitted by prosecution witnesses",
+   "quote": "previous enmity having been admitted by the prosecution witnesses",
+   "page": 7,
+   "reason": "Judgment refers to previous enmity as a possible motive, so 'Not identified' is incomplete."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted ocular evidence of P.W. 7 and 8, hospital statements, and P.W. 11's testimony."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment holds absence of injury report is defective investigation but does not discredit the injured witnesses."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment directs appellants to surrender forthwith to serve remaining sentence."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated; appellants are described as on bail."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Appellants were on bail; bail bonds cancelled on dismissal",
+   "quote": "The appellants are stated to be on bail. Their bail bonds are cancelled",
+   "page": 14,
+   "reason": "The judgment does state bail status and cancellation of bail bonds."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Occurrence 01.11.1983; High Court judgment 28.05.2009; Supreme Court decision 04.10.2019; trial judgment date not stated",
+   "quote": "Judgment and Order dated 28.05.2009 of the High Court of Jharkhand",
+   "page": 6,
+   "reason": "The 28.05.2009 date is the High Court judgment, not the trial judgment as labelled."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellant and respondents match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the injury report request, its availability, and charge sheet submission after it."
+  },
+  "procedural_irregularity": {
+   "verdict": "incorrect",
+   "correct_value": "Defective investigation (no injury reports for P.W. 7 and 8); s.147 charge framed against four persons only; s.313 objection raised",
+   "quote": "may at best be a case of defective investigation",
+   "page": 8,
+   "reason": "Judgment identifies a defective investigation and charge defects, so 'None noted' is contradicted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court judgment of 28.05.2009, and Supreme Court dismissal on 04.10.2019 are consistent with the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "incorrect",
+   "correct_value": "State argued no lacuna in s.313 examination, no prejudice shown, and objection belated, relying on Shobhit Chamar and Fahim Khan",
+   "quote": "Learned counsel for the State submitted that there was no lacunae in the examination of the accused under Section 313 Cr.P.C.",
+   "page": 7,
+   "reason": "The charge-defect and prejudice arguments were the appellants' submissions, not the prosecution's."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants argued the defective charge, s.313 prejudice, and absence of injury reports casting doubt, as the judgment records."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Audi alteram partem under s.313 and the need to show prejudice are both applied in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Listed cases match those cited and relied upon or referred to in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no sentencing reasoning; it addresses only upholding conviction and lack of prejudice."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed in the judgment."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Surrounding deceased to prevent escape; use of spears; common object of murder",
+   "quote": "All the accused surrounded the deceased obviously to prevent his escape.",
+   "page": 13,
+   "reason": "The judgment records aggravating facts such as surrounding to prevent escape and use of spears, contradicting 'None'."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appeals dismissed, surrender ordered, and bail bonds cancelled, as stated in the judgment."
+  }
+ }
+}

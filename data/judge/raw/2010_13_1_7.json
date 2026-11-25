@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two appellants, Mission Suklabaidhya and Uttam Chakraborty, were tried together."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "Mission Suklabaidhya and Uttam Chakraborty were friends",
+   "page": 3,
+   "reason": "Both accused are referred to as male (husband, friend); 'Mixed' contradicts this."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religion of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste of the accused is stated."
+  },
+  "accused_occupation": {
+   "verdict": "incorrect",
+   "correct_value": "Mission Suklabaidhya was a retired Army personnel; co-accused's occupation not stated",
+   "quote": "Mission Suklabaidhya, who was a retired Army personnel",
+   "page": 3,
+   "reason": "Judgment states the husband's occupation as retired Army personnel, not 'Not stated'."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased is referred to as female (her daughter, the wife)."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Husband (Mission Suklabaidhya); co-accused Uttam Chakraborty was a friend of the husband",
+   "quote": "Mission Suklabaidhya and Uttam Chakraborty were friends",
+   "page": 3,
+   "reason": "'Spouse' covers only the husband; the co-accused was a friend, which is omitted."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge and conviction were for murder."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under Section 302 IPC, as the judgment states."
+  },
+  "weapon": {
+   "verdict": "incorrect",
+   "correct_value": "Kerosene oil (fire caused by kerosene)",
+   "quote": "died in a fire caused by kerosene oil",
+   "page": 4,
+   "reason": "The judgment refers to kerosene oil causing the fire, so 'None mentioned' is contradicted."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness testimony, medical (post-mortem), inquest, motive corroboration by mother's testimony",
+   "quote": "PW-7 the doctor, Khairuz Zaman Choudhary, who had carried out the post-mortem examination",
+   "page": 4,
+   "reason": "Eyewitness and medical evidence are correct; 'recovery' is not mentioned, and inquest and motive evidence are omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Crime truly horrendous; murder committed in matrimonial house; aggravating circumstances held to outweigh mitigating ones",
+   "quote": "his crime was truly horrendous",
+   "page": 2,
+   "reason": "Judgment identifies the horrendous nature and matrimonial-house setting as aggravating, so 'None noted' is contradicted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Mitigating circumstances are not specified in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted both, death for Mission Suklabaidhya and life for Uttam Chakraborty."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "High Court confirmed the death sentence (death reference) and dismissed Criminal Appeal No. 212/2005",
+   "quote": "The High Court, by the impugned judgment, confirmed the death reference and dismissed the Criminal Appeal.",
+   "page": 5,
+   "reason": "The judgment states the High Court outcome explicitly, so 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeals partly allowed: Uttam Chakraborty acquitted; Mission Suklabaidhya's conviction maintained with death sentence commuted to life",
+   "quote": "set aside his conviction and sentence and direct that he be set free",
+   "page": 7,
+   "reason": "'Acquitted' applies only to Uttam; the husband's conviction was upheld with sentence commuted."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Murder under s.302 IPC by accused-husband Mission Suklabaidhya",
+   "quote": "though the conviction of Mission Suklabaidhya needs to be maintained",
+   "page": 6,
+   "reason": "The husband's murder conviction was maintained, so 'None' is contradicted."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment (husband, death commuted)",
+   "quote": "the death sentence awarded should be commuted to life imprisonment",
+   "page": 6,
+   "reason": "Husband's sentence was commuted to life imprisonment; 'none' is contradicted."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment has no stated term in years; null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Deceased's mother (PW-5) was told her daughter fell ill and went to the police station; co-accused Uttam was seen present, not the husband",
+   "quote": "went to the house of Nioti Das PW-1, the mother of the deceased",
+   "page": 4,
+   "reason": "Facts wrongly call the informed person the domestic help's mother and say the husband was present; the judgment says Uttam was present."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated (sentences imposed: death for husband, life for co-accused; statutory range not stated)",
+   "quote": "awarded the death penalty, Uttam Chakraborty was ordered to undergo imprisonment for life",
+   "page": 5,
+   "reason": "Statutory minimum and maximum are not stated in the judgment; they come from outside knowledge."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deceased died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Burn death, eight-month foetus, and abdominal cut with foetus removed are all stated."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence charged (murder under s.302 IPC); conviction upheld for husband, co-accused acquitted",
+   "quote": "the appellants were brought to trial on a charge of murder",
+   "page": 3,
+   "reason": "Only one charge of murder is stated; 'two offences charged' is not supported."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "the very material circumstance that the murder had been committed in the matrimonial house of the couple",
+   "page": 5,
+   "reason": "The court made no premeditation or planning finding; it only noted motive and the matrimonial-house location."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Illicit relationship between accused-husband and domestic help PW-1, which the deceased discovered and objected to",
+   "quote": "Mission Suklabaidhya and PW-1 developed an illicit relationship and when this was discovered by the deceased",
+   "page": 3,
+   "reason": "The illicit relationship was between the husband and the domestic help, not the deceased; the value misstates the parties."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on PW-6's evidence as primary basis for conviction, while doubting capital sentence on it."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment says PW-6's credibility was not doubted but caution was needed for capital sentence."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is recorded in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence night of 13/14 April 2004; High Court judgment 26.04.2006; Supreme Court decision 6 April 2010; trial court date not stated",
+   "quote": "From the Judgment & Order dated 26.04.2006 of the Gauhati High Court",
+   "page": 3,
+   "reason": "26.04.2006 is the High Court date; the trial court judgment date is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR lodged, investigation completed, and trial followed; supported by the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "incorrect",
+   "correct_value": "SC commuted husband Mission Suklabaidhya's death sentence to life; Uttam Chakraborty's conviction and sentence set aside",
+   "quote": "set aside his conviction and sentence and direct that he be set free",
+   "page": 7,
+   "reason": "Value wrongly says death was commuted for Uttam and that the co-accused's conviction was set aside, reversing the parties."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution relied on PW-6, PW-1 (later resiled), PW-4, PW-5 (motive), PW-2 inquest and PW-7 post-mortem evidence",
+   "quote": "The prosecution relied primarily on the evidence of PW-6 Marjon Suklabaidhya",
+   "page": 4,
+   "reason": "Omits the other witnesses and medical evidence relied on; PW-1 later resiled, which the value does not mention."
+  },
+  "defence_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not record any defence arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the Suresh principle that child witness evidence is not safe enough for a capital sentence."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Suresh (1981) 2 SCC 569 and Raja Ram Yadav (1996) 9 SCC 287 are both cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found capital sentence imprudent based on the child witness's statement, consistent with the judgment."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "his crime was truly horrendous",
+   "page": 2,
+   "reason": "Horrendous nature is an aggravating point, not mitigation; the judgment does not identify mitigating factors or the husband as primary perpetrator."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Crime truly horrendous; murder committed in the matrimonial house of the couple",
+   "quote": "the murder had been committed in the matrimonial house of the couple",
+   "page": 5,
+   "reason": "Judgment treats the horrendous crime and matrimonial-house setting as aggravating, not 'None'."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Co-accused acquitted as there was absolutely no evidence connecting him to the murder."
+  }
+ }
+}

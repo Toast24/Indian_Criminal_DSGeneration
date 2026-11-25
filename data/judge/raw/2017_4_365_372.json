@@ -1,0 +1,398 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading exactly."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the first respondent/accused borrowed Rs. 64,000/-",
+   "page": 4,
+   "reason": "Only the first respondent is treated as the accused in the judgment."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "statutory notice ... was issued to him",
+   "page": 4,
+   "reason": "No explicit gender is stated; only masculine pronouns refer to the accused, so Not stated is acceptable."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age of the accused is not mentioned anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not stated (only a third party, K Rajesh, is described as an LIC officer)."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The complainant's gender is not stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complainant's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complainant's caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complainant's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "Borrower and lender: the accused borrowed money from the complainant",
+   "quote": "the first respondent/accused borrowed Rs. 64,000/- oil 13-10-1990 from the appellant/complainant",
+   "page": 4,
+   "reason": "The judgment states a borrower-lender relationship, not Not stated."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Dishonour of cheque - ... Negotiable Instruments Act, 1881 - s.138",
+   "page": 1,
+   "reason": "Cheque dishonour offence under NI Act fits the broad 'Other' category."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Negotiable Instruments Act, 1881 - s.138 rlw. s.142",
+   "page": 1,
+   "reason": "Matches the statutory provisions discussed in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "after appreciating the documentary evidence adduced on behalf of the parties",
+   "page": 4,
+   "reason": "Case rests on cheques, bank memos and postal-endorsed notices, i.e. documentary evidence."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are noted in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "first respondent was willing to pay Rs. 2,00,000/- in lieu of suffering simple imprisonment",
+   "page": 8,
+   "reason": "Offer to pay in lieu of imprisonment is not framed as mitigation; 'None noted' is defensible."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Trial Court by judgment dated 29-07-1993 convicted and sentenced the first respondent to undergo simple imprisonment of three months",
+   "page": 5,
+   "reason": "Matches the trial court conviction and three-month sentence."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Allowed the criminal revision, set aside the concurrent conviction findings, holding s.138 not attracted",
+   "quote": "the High Court allowed the criminal revision of the first respondent by setting aside the concurrent judgments",
+   "page": 4,
+   "reason": "High Court did decide the revision; 'Not applicable' contradicts the judgment."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Conviction upheld; High Court judgment set aside; sentence substituted by conditional deposit of Rs. 2,00,000 in lieu of imprisonment",
+   "quote": "we set aside the impugned judgment of the High Court",
+   "page": 8,
+   "reason": "'Convicted' is broadly right but omits the conditional payment in lieu of imprisonment."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "therefore Section 138 read with 142 of N.I. Act is attracted",
+   "page": 8,
+   "reason": "Court held s.138 r/w s.142 attracted, supporting this value."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Fixed term of three months simple imprisonment, substituted by payment of Rs. 2,00,000 in lieu, with restoration if not deposited",
+   "quote": "in lieu of suffering simple imprisonment of three months",
+   "page": 8,
+   "reason": "Fixed term is right, but the sentence was commuted to payment, which is omitted."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": 0.25,
+   "quote": "simple imprisonment of three months",
+   "page": 8,
+   "reason": "Sentence was three months, i.e. 0.25 years, not 3 years."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is imposed; the Rs. 2,00,000 is a deposit in lieu of imprisonment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts up to the High Court's reversal, without stating the Supreme Court's decision or reasoning on the outcome",
+   "quote": "The Supreme Court overturned the High Court's decision, finding that the first notice was valid and the second notice was merely a reminder.",
+   "page": 8,
+   "reason": "Facts are accurate, but the final sentence reveals the Supreme Court outcome, which neutral facts must not do."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shall be deemed to have committed an offence and shall ... be punished with imprisonment for a term which may extend to two years, or with fine which may extend to twice the amount of the cheque",
+   "page": 6,
+   "reason": "Quotes the statutory punishment under s.138, which is the applicable severity."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the drawer shall be deemed to have committed an offence under the Act",
+   "page": 7,
+   "reason": "Offence treated as completed on dishonour and non-payment after notice."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No physical harm is mentioned in the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "One offence under s.138 relating to two dishonoured cheques",
+   "quote": "the first two cheques dated 13-10-1990 ... returned by the bank",
+   "page": 5,
+   "reason": "Value is descriptive rather than a count; it omits that the complaint concerns a single s.138 offence."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the first respondent failed to return the borrowed amount Rs. 64,000/-",
+   "page": 4,
+   "reason": "Rs. 64,000 is the borrowed amount stated as unpaid."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified; the judgment only notes non-return of the loan."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the first notice sent by appellant on 12-04-1991 was effective and notice was deemed to have been served",
+   "page": 8,
+   "reason": "Accurately reflects the Court's acceptance of the first notice and reminder characterisation."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No witness credibility assessment is stated."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No post-offence conduct is discussed beyond postal non-service, which is not conduct as such."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Bail was granted to the first respondent, liable to cancellation if the deposit is not made",
+   "quote": "bail granted to the first respondent shall stand cancelled",
+   "page": 8,
+   "reason": "The judgment refers to bail having been granted, so 'Not stated' is wrong."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "dates_of_offence": "Cheques dated 13-10-1990 (dishonour intimation 08-04-1991)",
+    "trial_judgment": "29-07-1993",
+    "appellate_decision": "07-07-1995",
+    "high_court_decision": "06-10-2003",
+    "supreme_court_decision": "Not stated"
+   },
+   "quote": "by its judgment dated 07-07-1995 dismissed the appeal",
+   "page": 5,
+   "reason": "07-07-1995 is the appellate decision, not High Court; 06-10-2003 is the High Court date, not the Supreme Court's."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "complainant_appellant": "M. Gireesh Kumar, Sriram P., Ms. Athira G. Nair (for Ankur S. Kulkarni)",
+    "accused_respondent": "C. K. Sasi, Manu Krishnan G., Abraham Mathews (for P. V. Dinesh)"
+   },
+   "quote": "for the Appellant ... for the Respondents",
+   "page": 3,
+   "reason": "Counsel labels are swapped; the state is not a party, and C.K. Sasi appears for the respondents."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appellant lodged a private complaint before the Judicial First Class Magistrate-II",
+   "page": 4,
+   "reason": "Private complaint was filed and trial completed; no police investigation is mentioned."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified by the Court."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": {
+    "trial_court": "Convicted and sentenced to three months simple imprisonment",
+    "appellate_court": "Addl. Sessions Judge dismissed the first respondent's appeal on 07-07-1995",
+    "high_court": "Allowed the criminal revision, setting aside the concurrent judgments",
+    "supreme_court": "Set aside the High Court judgment"
+   },
+   "quote": "by its judgment dated 07-07-1995 dismissed the appeal by upholding and confirming the judgment of the Trial Court",
+   "page": 5,
+   "reason": "Omits the Sessions Court appeal, which is a key step in the history."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "statutory notice under proviso (b) of Section 138 ... was issued to him",
+   "page": 4,
+   "reason": "Accurately summarises the complainant's case and private complaint."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the provisions of Section 138 of the N.I. Act cannot be invoked as the appellant had not complied with the conditions in Clause (b)",
+   "page": 5,
+   "reason": "Accurately reflects the revision ground raised by the first respondent."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "once notice is sent by registered post by correctly addressing to the drawer of the cheque, the service of notice is deemed to have been effected",
+   "page": 7,
+   "reason": "Matches the principle stated in the judgment, including the Clause (c) object point."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mis. New India Sugar Mills Ltd. v. Commissioner of Sales Tax AIR 1963 SC 1207",
+   "page": 3,
+   "reason": "All four cited authorities match the judgment's listed precedents."
+  },
+  "sentencing_rationale": {
+   "verdict": "incorrect",
+   "correct_value": "No sentencing rationale stated; Court directed Rs. 2,00,000 deposit in lieu of three months' simple imprisonment",
+   "quote": "in lieu of suffering simple imprisonment of three months",
+   "page": 8,
+   "reason": "Value gives liability reasoning, not sentencing; it also wrongly says the Court imposed the final sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court does not expressly state mitigating factors; 'None' is acceptable."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court identifies no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Rs. 2,00,000/- before the Judicial First Class Magistrate-II at Alappuzha on or before 30.04.2017",
+   "page": 8,
+   "reason": "Accurately reflects the deposit, compensation, and restoration directions."
+  }
+ }
+}

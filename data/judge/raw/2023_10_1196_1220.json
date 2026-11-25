@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption on page 1."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "appellant Nos. 1-7 (summoned accused)",
+   "page": 5,
+   "reason": "Paragraph 3 identifies seven summoned appellants."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Gender of accused is not stated in the judgment."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age appears in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victims' gender is not expressly stated; only 'two brothers' are referred to."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The relationship between accused and victims is not stated beyond the alleged incident."
+  },
+  "offence_category": {
+   "verdict": "incorrect",
+   "correct_value": "Murder (IPC s.302) with rioting, attempt to murder and related offences as charged",
+   "quote": "under Sections 147, 148, 149, 302, 452 307, 504 of the Indian Penal Code",
+   "page": 5,
+   "reason": "Judgment cites s.302 (murder) and s.307 (attempt); 'culpable homicide' is not mentioned anywhere."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Sections 147, 148, 149, 302, 452 307, 504 of the Indian Penal Code",
+   "page": 5,
+   "reason": "All listed IPC sections match the FIR sections in paragraph 3."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Firearm (firing mentioned; specific weapon type not stated)",
+   "quote": "went to the Complainant-Respondent No.2's house and started hurling abuses and firing",
+   "page": 5,
+   "reason": "Judgment refers to 'firing', so 'None mentioned' is inaccurate, though no specific weapon is named."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not characterise the evidence as circumstantial; it refers to witness evidence and trial material."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never mentions a confession, so 'None' is an assertion not backed by the text."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "passed an Order dated 23.09.2022 summoning the accused to join the trial",
+   "page": 5,
+   "reason": "Trial court summoned the appellants to join the trial, as stated in paragraph 4."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Criminal revision dismissed; High Court affirmed the summoning order dated 23.09.2022",
+   "quote": "dismissed the same and affirmed the Order passed by the Additional Sessions Judge",
+   "page": 5,
+   "reason": "High Court outcome is clearly stated; 'Not applicable' is wrong."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; appellants remain summoned to face trial as accused (no acquittal)",
+   "quote": "we find no merit in the appeal which is accordingly dismissed",
+   "page": 25,
+   "reason": "Supreme Court dismissed the appeal; no acquittal was recorded or discussed."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence is established; the judgment only decides the summoning/hearing issue."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment is imposed or discussed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts match paragraphs 3-5 and 9-17 and do not reveal the outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Severity is not assessed in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "partially_correct",
+   "correct_value": "Homicide (s.302) and attempt to murder (s.307) charged; completion not determined in this judgment",
+   "quote": "under Sections 147, 148, 149, 302, 452 307, 504 of the Indian Penal Code",
+   "page": 5,
+   "reason": "Judgment charges s.307 attempt and s.302 homicide, so 'Not stated' omits the attempt charge."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "resulted in the Complainant's injuries and the death of his two brothers",
+   "page": 5,
+   "reason": "Paragraph 3 describes injuries to the complainant and deaths of two brothers."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "under Sections 147, 148, 149, 302, 452 307, 504 of the Indian Penal Code",
+   "page": 5,
+   "reason": "Multiple sections charged; no count-wise finding is made, as the value notes."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (the Court did not assess or accept evidence; it decided only the hearing issue)",
+   "quote": "we do not accept the contentions of the appellants herein",
+   "page": 25,
+   "reason": "Court did not accept any evidence; it only rejected the appellants' hearing contention."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not assess witness credibility, and the value contradicts itself."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not discussed."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No individual custody duration is stated; only a general reference to accused who may be in custody."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (trial duration); dates: FIR 09.06.2018; summoning order 23.09.2022; High Court order 03.01.2023; SC judgment 18.07.2023",
+   "quote": "registered an FIR bearing No.186/2018 on 09.06.2018",
+   "page": 5,
+   "reason": "Dates are supported, but the field asks for trial duration, which is not stated; charge-sheet filing date is absent."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "S. Nagamuthu, Sr. Adv., Ram Kishor Singh Yadav, Kaushal Yadav",
+   "page": 4,
+   "reason": "Counsel names for appellants and respondents match the counsel listing on page 4."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "A charge sheet was filed against the accused persons but the names of the appellants were not mentioned in it",
+   "page": 5,
+   "reason": "Matches paragraph 3 regarding FIR sections, charge sheet and summoning under s.319."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Court found no irregularity; the hearing argument was rejected."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "trial_court: Order dated 23.09.2022 summoning appellants; high_court: Criminal revision dismissed, order affirmed 03.01.2023; supreme_court: Appeal dismissed",
+   "quote": "passed an Order dated 23.09.2022 summoning the accused to join the trial",
+   "page": 5,
+   "reason": "Trial court order summoned appellants; it was not an 'affirmed' order. Other entries are correct."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the said observations of this Court in paragraph 9 must be read in the context of the facts of the said case",
+   "page": 8,
+   "reason": "State argued Jogendra paragraph 9 is fact-specific and hearing is not mandatory, matching the value."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellants argued no hearing was given, Jogendra Yadav required it, and the order should be set aside or the matter referred to a larger Bench",
+   "quote": "either the judgment in Jogendra Yadav be complied with by granting an opportunity of hearing to the appellants herein or the matter may be referred to a larger Bench",
+   "page": 8,
+   "reason": "Value omits the alternative request for reference to a larger Bench."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Section 319 clearly uses the expression 'to proceed' which means to proceed with the trial",
+   "page": 24,
+   "reason": "Matches the Court's reasoning on 'proceed' and the rejection of a mandatory hearing requirement."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Hardeep Singh; Sukhpal Singh Khair; Brijendra Singh; Jogendra Yadav",
+   "page": 4,
+   "reason": "Listed authorities match those followed or referred to in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurs, so no sentencing rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not consider mitigating factors; 'None' is an unsupported assertion."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not consider aggravating factors; 'None' is an unsupported assertion."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence or other order beyond dismissal of the appeal is made."
+  }
+ }
+}

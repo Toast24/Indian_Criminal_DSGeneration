@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the case title given in the judgment header."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "One respondent (the Commandant) faced the GCM and the appeals concern him alone."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment refers to the Commandant as 'he' and 'his' throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only superannuation is mentioned; no age in years is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity is mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community is mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes him as Commandant of 227 Company ASC (Supply), an Army officer."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on wealth or class is made."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offence is against the government and no individual victim is identified, so victimless is supported."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is given."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only official superior-subordinate roles are described; no personal relationship with a victim is stated."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Cheating/Fraud (charge 1, intent to defraud); other charges are military discipline offences",
+   "quote": "the first charge was an offence falling under section 52(f) of the Act which provides that ... any person who does anything with intent to defraud",
+   "page": 9,
+   "reason": "'Other' ignores that the lead charge is an intent-to-defraud offence closer to Cheating/Fraud."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment cites Army Act ss.52(f), 63, 71 and Pension Regulation 16(a), matching the value."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is involved in the charges."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment notes 13 prosecution witnesses, documentary exhibits, material objects and the inspection findings."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Oral remark and confidential report (15.2.1990) recorded as an admission-type statement; relied on by prosecution to found charge 1",
+   "quote": "Making of the said remark has been interpreted as respondent no.1 accepting meat from the contractor with heart as part of the dressed meat",
+   "page": 9,
+   "reason": "Value says 'None', but the accused's remark was the basis of charge 1 and could count as an admission."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating facts are noted; the court found the punishment disproportionate."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Limited role, technical charges, subordinates' lapses, over 20 years old and superannuation are all noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "GCM found guilty of charges 1, 4 and 5(c), not guilty of charges 2 and 3; sentenced to dismissal from service",
+   "quote": "the GCM found the first respondent not guilty of the second and third charges, but guilty of the first charge, fourth charge and item (c) of the fifth charge",
+   "page": 16,
+   "reason": "Verdicts and dismissal are right, but pension forfeiture was a later President's order, not the trial court's outcome."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court partly allowed the writ, upheld GCM findings and dismissal, and quashed the pension forfeiture order."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Findings of guilt were left intact but the punishment was substituted, which fits conviction_modified."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court upheld findings on charges 1, 4 and 5(c), under ss.52(f) and 63."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Substituted punishment is forfeiture of eight years' service and severe reprimand; no imprisonment is imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed-term imprisonment is imposed, so null is correct."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Covers the incident, inspection and evidence in about 265 words without names or court outcome; the contract-interpretation dispute is presented as the prosecution case."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states ten years maximum under s.52(f) and seven years under s.63; no minimum is stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offences were completed acts or omissions."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No injury or death is involved."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "2 charged (ss.52(f) and 63); 2 finally upheld (charges 1, 4 and 5(c) under those sections)",
+   "quote": "Section 52(f) and section 63 are very broadly and generally worded and deal with residuary offences",
+   "page": 29,
+   "reason": "Instruction counts sections, not charges; the value's '5 charges' and '3 findings' do not follow that format."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No monetary or property loss amount is stated in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning finding is made."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Intent to defraud the government is the alleged motive, and the court found at best a wrong interpretation of clause 86."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Inspection figures, the recorded remark and the subordinates' responsibility are the evidence the court relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court expressly declined to re-assess evidence and did not assess credibility."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment notes the remark was reiterated in the confidential report dated 15.2.1990."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates for the offence, GCM trial start and sentence, High Court and Supreme Court judgment all match the text."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for both sides match the judgment's appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Inspection, subordinates' charge-sheeting, charge-sheet of 30.12.1992 and GCM trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no procedural irregularity; the Presiding Officer disqualification plea was rejected."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court: dismissal 30.7.1993. High Court: writ partly allowed. Supreme Court: Crl.A. 876/2003 allowed; Crl.A. 877/2003 allowed, dismissal substituted by forfeiture of eight years' service and reprimand",
+   "quote": "We allow Criminal Appeal No.877 of 2003 filed by the first respondent",
+   "page": 39,
+   "reason": "Court allowed Crl.A. 877/2003 outright; 'allowed in part' mislabels the disposal, though the substitution is right."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellants' challenge to the High Court's quashing of the Regulation 16(a) pension order is supported."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rule 39(2)(c) disqualification and bias challenge are stated; proportionality challenge is also reflected in the appeal."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Limited judicial review of court martial, proportionality test and Regulation 16(a) independence are applied in the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "P.D. Yadav, Major A. Hussain, Ranjit Thakur (relied on), R.K. Sharma (referred) and Brig. A.K. Malhotra (reversed) match the case reference list."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Disproportionality, remand not pursued due to age of matter and superannuation are all stated."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Technical nature, limited role, subordinates' lapses and superannuation were weighed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identified no aggravating factors."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Pension order set aside, pension to be settled within six months, and no back wages are all ordered."
+  }
+ }
+}

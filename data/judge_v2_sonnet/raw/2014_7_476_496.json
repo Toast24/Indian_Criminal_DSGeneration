@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the case caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two appellants (Ohan Raj and Badal) whose liability the Court decides."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to as men (e.g. 'he'); Male is a reasonable reading of the judgment."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of accused stated; kirpan is not an identity description."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No record of the appellants mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Vijaypal, a male doctor, husband of PW7."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No relationship described; the prosecution case shows the accused as unconnected strangers."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder and robbery; murder is the main offence."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 r/w s.34 and s.392 r/w ss.395 and 397 (charged); trial court convicted under s.302 r/w s.341 and s.392 r/w s.397",
+   "quote": "charge under Section 302 read with Section 34 and Section 392 read with Sections 395 and 397 of the Indian Penal Code",
+   "page": 12,
+   "reason": "Mostly right, but the charged provisions are stated differently; the trial court conviction included s.341 and the extraction mixes the two."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Doctor opined injuries might have been caused by a kirpan."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the evidence discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurate: the co-accused's confessions were considered and held misplaced."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Sanjay and Ohan Raj convicted: life imprisonment, Rs 2,000 fine under s.302 r/w s.341; 8 years RI, Rs 1,000 fine under s.392 r/w s.397, concurrent. Badal acquitted on 18 Feb 2009 in a separate trial.",
+   "quote": "convicted and sentenced the accused Sanjay and Ohan Raj ordering imprisonment for life",
+   "page": 12,
+   "reason": "Omits that co-accused Sanjay was also convicted."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the High Court outcome."
+  },
+  "final_outcome": {
+   "verdict": "acquitted",
+   "correct_value": "acquitted",
+   "quote": "the appeals are allowed and the accused are acquitted forthwith",
+   "page": 21,
+   "reason": "Appellants acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None, since the accused were acquitted."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence remains."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Null as no fixed term."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine remains."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Remove the statement that no other evidence placed the accused near the scene, which is the Court's conclusion, and the 'held by another police force' framing; the car was recovered from the co-accused on arrest.",
+   "quote": "there is no other evidence which indicates or established the presence of the accused appellants near the place of commission of crime",
+   "page": 19,
+   "reason": "Largely accurate, but includes the Court's evaluative finding and the brother's testimony is presented as a fact of the case."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state the statutory punishment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Seven ante mortem injuries; death from shock and haemorrhage."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "3 charged (s.302, s.392, s.397 with ss.34/395); 0 finally upheld",
+   "quote": "s.302 read with Section 34 and Section 392 read with Sections 395 and 397",
+   "page": 12,
+   "reason": "The count is arguable; sections 34, 395, 397 are also charged sections, so '2 charged' undercounts."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Wrist watch and briefcase; Maruti car was missing and recovered from the co-accused",
+   "quote": "the car of the deceased was also found to be missing",
+   "page": 10,
+   "reason": "Broadly right; the car was recovered from Sanjay, which the extraction notes."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court made no finding."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "alleged: robbery of the victim's belongings (briefcase, wrist watch)",
+   "quote": "murder of the husband of PW7 and taking away his belongings",
+   "page": 2,
+   "reason": "The prosecution case alleges robbery as the motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted nothing as proving guilt; only possession of stolen goods can be inferred."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "PW7's identification of the watch does not inspire confidence (per the trial court, with which the Supreme Court concurred); PW15 is an interested witness, uncorroborated.",
+   "quote": "We have found no material on record which corroborated the statement of Raj Singh who is an interested witness",
+   "page": 19,
+   "reason": "PW7 is the wife and the recovery witness; 'recovery witness' in the extraction conflates the roles."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Badal remained absent during trial and was declared a proclaimed offender; Sanjay's disclosure statements led to recovery of kirpan, clothes and car; the appellants' disclosure statements led to recovery of the items.",
+   "quote": "declared a proclaimed offender but he was arrested later",
+   "page": 11,
+   "reason": "Mostly right, but the co-accused's disclosures are not mentioned."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurate."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the counsel listed."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural lapse noted; the problems were evidential."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurate summary."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution relied on circumstantial evidence: the co-accused's disclosure, recoveries of briefcase and watch, PW7's identification and PW15's testimony, treated by the High Court as a complete chain.",
+   "quote": "The High Court relied firstly, on the statement of the wife of the deceased",
+   "page": 14,
+   "reason": "The judgment records the prosecution's case and the circumstances relied on even though no distinct submissions are set out."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence at trial recorded; no Supreme Court submissions are given."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the principles stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Mano v. State of Tamil Nadu (2001) 13 SCC 795 in the footnote (headnote gives 2007), otherwise as listed",
+   "quote": "4. (2001) 13 sec 795.",
+   "page": 17,
+   "reason": "The year for Mano is inconsistent in the judgment; the extraction chose 2007 from the headnote."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence imposed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant in Crl. A. 1410/2010 to be set at liberty forthwith if not required in any other case; appellant in 703/2011 already on bail",
+   "quote": "is directed to be set at liberty forthwith, if not required in any other case",
+   "page": 21,
+   "reason": "Accurate, though the High Court judgment was also set aside."
+  }
+ }
+}

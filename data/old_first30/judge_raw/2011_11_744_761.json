@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sham @ Kishor Bhaskarrao Matkari v. State of Maharashtra",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant-accused was prosecuted",
+   "page": 2,
+   "reason": "Single accused is referred to throughout."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he had no pre-plan to do away with the family of his brother",
+   "page": 4,
+   "reason": "Accused is referred to as male throughout."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused was 28 years old and was jobless",
+   "page": 4,
+   "reason": "Court states age 28; para 12 records counsel's claim of 38, but the Court's own finding is 28."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the accused was 28 years old and was jobless",
+   "page": 4,
+   "reason": "Judgment describes accused as jobless at time of incident."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the antecedents of the accused-appellant are unblemished",
+   "page": 4,
+   "reason": "Court finds unblemished antecedents and no prior criminal activity."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Manohar, his wife Meena, daughter Monika and son Vishwesh",
+   "page": 7,
+   "reason": "Victims include both male and female members, so 'Mixed' is supported."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victims' ages are not stated; children are only described as small or young."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant-accused was the real brother of Manohar Matkari-the deceased",
+   "page": 9,
+   "reason": "Accused was brother of the deceased; other victims were his family members."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction under Section 302 IPC for murder",
+   "page": 13,
+   "reason": "Offence is murder under s.302 with attempt under s.307."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for the offences punishable under Sections 302, 307 and 201 of the Indian Penal Code",
+   "page": 8,
+   "reason": "Sections 302, 307 and 201 are correctly listed, with s.201 acquittal noted."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "a stone of big size and a gas cylinder with tube were lying near her body",
+   "page": 7,
+   "reason": "Stone and gas cylinder are recorded; Court states no dangerous weapon was used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There is no reason to disbelieve the version of Monika (PW-7) ... neighbours and landlord ... confessional statement",
+   "page": 12,
+   "reason": "Eyewitness, medical, recovery and confessional evidence are all relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the statement recorded by the Executive Magistrate had been treated as statement under Section 164",
+   "page": 12,
+   "reason": "Hospital statement to Executive Magistrate treated as s.164 statement and relied upon."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "(iii) The assault on victims by the respondent was aimed at midnight when the victims were fast asleep",
+   "page": 14,
+   "reason": "Listed aggravating circumstances are the High Court's findings recited by the Supreme Court."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the quarrel started due to the land dispute and ... he was sleeping with the other victims in the same house",
+   "page": 17,
+   "reason": "Mitigating factors match those the Court relied on in para 14."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced him to imprisonment for life and to pay a fine of Rs.25,000/-",
+   "page": 8,
+   "reason": "Life term, fines, 7 years RI under s.307 and s.201 acquittal are all supported."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court dismissed the appeal filed by the appellant-accused and allowed the appeal filed by the State and enhanced the sentence",
+   "page": 9,
+   "reason": "Accused's appeal dismissed, State's appeal allowed, life sentence enhanced to death."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Conviction maintained; death sentence set aside and life imprisonment restored",
+   "quote": "while maintaining the conviction of the appellant-accused for the offence under Section 302 IPC, award of extreme penalty of death by the High Court is set aside",
+   "page": 18,
+   "reason": "Conviction was upheld, not modified; only the sentence was altered."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we are in entire agreement with the said conclusion",
+   "page": 13,
+   "reason": "Court upholds conviction under ss.302 and 307 as stated in para 10."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we restore the sentence of life imprisonment as directed by the trial Court",
+   "page": 18,
+   "reason": "Final sentence is life imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment has no fixed term, so null is consistent with the judgment."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.25,000 (s.302); Rs.1,000 (s.307)",
+   "quote": "sentenced him to imprisonment for life and to pay a fine of Rs.25,000/-",
+   "page": 8,
+   "reason": "Judgment records fines of Rs.25,000 and Rs.1,000, so null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He sent the accused to the hospital for treatment in a police jeep",
+   "page": 7,
+   "reason": "Facts match the judgment and do not reveal the Supreme Court's sentencing outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No formal severity classification is given; 'cold-blooded murders' is a High Court characterization only."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Akhilesh ... expired on 29.06.2001",
+   "page": 8,
+   "reason": "Three murders completed; s.307 attempt on the two surviving children."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "victim Manohar and his wife Meenabai died on the spot having suffered head injuries",
+   "page": 14,
+   "reason": "Deaths, head injuries, burns and two injured children are supported."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for the offences punishable under Sections 302, 307 and 201",
+   "page": 8,
+   "reason": "Three sections were registered and s.302 and s.307 finally upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property loss value is stated; only the accused's story mentions household articles taken."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it must be said that the assault was pre-meditated",
+   "page": 16,
+   "reason": "High Court found premeditation; Supreme Court held no pre-plan and found High Court reasons inadequate."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The quarrel started due to the land dispute",
+   "page": 4,
+   "reason": "Land/property dispute is the accepted motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Considering the opinion of the doctors, cause of death and recovery of a stone inside the house",
+   "page": 12,
+   "reason": "Listed evidence matches what the Court accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There is no reason to disbelieve the version of Monika (PW-7)",
+   "page": 12,
+   "reason": "Court found PW-7, PW-1, PW-3 and doctors credible."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "This plea of the respondent (original accused) was found to be false",
+   "page": 14,
+   "reason": "Three-thieves story recorded as found false; hospital confession noted."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He is in jail since 30.06.2001 and in the death cell since the date of the judgment of the High Court",
+   "page": 4,
+   "reason": "Custody dates and durations match the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "trial Court ... 04/05.03.2003",
+   "page": 8,
+   "reason": "Offence, trial, High Court and Supreme Court dates are all supported."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Tara Chand Sharma, Mahabir Singh Mangla, Uma Datta, Kishan Datta and Neelam Sharma for the Appellant",
+   "page": 5,
+   "reason": "Counsel names for both sides match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charge-sheet was laid in the Court of Judicial Magistrate",
+   "page": 8,
+   "reason": "FIR, investigation, charge-sheet and completed trial are all supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment notes no procedural irregularity, though the statement was treated as s.164 despite not being a dying declaration."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the High Court dismissed the appeal preferred by the appellant-accused and allowed the appeal preferred by the State",
+   "page": 9,
+   "reason": "Trial, High Court and Supreme Court outcomes are accurately recorded."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in view of death of three persons and causing injuries to two, all in one family, the High Court was justified",
+   "page": 9,
+   "reason": "State's argument on three deaths and two injuries is accurately recorded."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "in view of several mitigating circumstances ... the extreme penalty of death is not warranted",
+   "page": 9,
+   "reason": "Defence argument on mitigating circumstances and rarest of rare is accurately recorded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is not a rarest of rare case where extreme penalty of death is called for",
+   "page": 18,
+   "reason": "Rarest of rare test, balancing and adequate reasons requirement are all applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ajitsingh Hamamsingh Gujral vs. State of Maharashtra, JT 2011 (10) SC 465 - distinguished",
+   "page": 5,
+   "reason": "Precedents and treatment (distinguished vs referred) match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the reasonings assigned by the High Court for awarding extreme penalty of death sentence are not acceptable",
+   "page": 18,
+   "reason": "Rationale matches the Court's reasoning in para 14."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "there is no reason to disbelieve that the appellant cannot be reformed or rehabilitated",
+   "page": 17,
+   "reason": "Mitigating factors match para 14; the reformability point is a fair paraphrase."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Though the appellant caused death of three persons",
+   "page": 17,
+   "reason": "Court acknowledges three deaths and rejects the High Court's death-sentence reasoning."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentence order is recorded beyond the life sentence restoration."
+  }
+ }
+}

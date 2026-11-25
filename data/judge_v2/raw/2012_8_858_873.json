@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": "State of Madhya Pradesh v. Surendra Kori",
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "1",
+   "quote": "The respondent herein, who was functioning as the Deputy Registrar, Khargone",
+   "page": 3,
+   "reason": "Single respondent is correct, but schema requires an integer, not 1.0."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": "Male",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment uses male pronouns for the respondent (\"his own sub-districts\")."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the respondent is given."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity is mentioned for the accused."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the respondent is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": "Deputy Registrar, Khargone",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states he was functioning as Deputy Registrar at Khargone."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No statement on the respondent's wealth or class."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Victims are the State and project oustees; no gender is stated."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No personal relationship between accused and victims is described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": "Forgery",
+   "quote": null,
+   "page": null,
+   "reason": "Charges include ss.467, 468, 471 forgery-related offences alongside s.420."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": "IPC ss.420, 467, 468, 469, 471 r/w ss.34 and 120-B; Registration Act ss.34 and 81",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the charge-sheet sections listed in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": "None mentioned",
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is referred to."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": "Documentary (sale deeds, registration records), departmental and Deputy Collector enquiry reports, complainant's FIR and charge-sheet material",
+   "quote": null,
+   "page": null,
+   "reason": "Evidence described in the judgment is documentary and enquiry-based."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the accused is mentioned."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "Alleged registration of more than 102 fictitious sale deeds for the same transaction; loss to State",
+   "quote": null,
+   "page": null,
+   "reason": "Matches allegations recorded in the judgment, labelled as alleged."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": "None noted",
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating facts are noted by the court."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Not applicable; no trial verdict; charge-sheet filed and investigation continuing",
+   "quote": null,
+   "page": null,
+   "reason": "No trial verdict is mentioned; the judgment notes no trial outcome."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": "Under s.482 CrPC, FIRs and charge-sheets quashed; revision petitions allowed",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the High Court's decision described in para 11."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": "other",
+   "quote": null,
+   "page": null,
+   "reason": "Appeals allowed and High Court judgments set aside; no conviction or acquittal entered."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "No offence has been finally established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": "none",
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed-term sentence exists."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine was imposed."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Summary without pronouns for the accused; the Deputy Collector, not the Collector, conducted the inquiry",
+   "quote": "he has misused his position",
+   "page": 9,
+   "reason": "Uses gender pronoun \"his\" for accused and misattributes the inquiry to the Collector rather than the Deputy Collector."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": "Section 81 Registration Act: up to seven years' imprisonment, or fine, or both",
+   "quote": null,
+   "page": null,
+   "reason": "Matches s.81 penalty text quoted in the judgment; IPC punishments not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": "Completed (as alleged)",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes forged deeds as executed and registered."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No physical injury or death is involved."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": "9 charged; 0 finally upheld",
+   "quote": null,
+   "page": null,
+   "reason": "Distinct sections charged in charge-sheet total nine; none finally upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": "Alleged loss to government of Rs.3,39,857 for one deed; alleged fraud on Package in more than 102 deeds",
+   "quote": null,
+   "page": null,
+   "reason": "Amounts match the FIR and charge-sheet as alleged."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": "Alleged conspiracy and planning; not decided by the Supreme Court",
+   "quote": null,
+   "page": null,
+   "reason": "Court only notes prima facie allegations of conspiracy."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": "alleged: unlawful gain from fictitious sale deeds to obtain Package benefits",
+   "quote": null,
+   "page": null,
+   "reason": "Motive is recorded as alleged, consistent with the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": "None finally accepted; prima facie material in FIRs, charge-sheets and enquiry reports",
+   "quote": null,
+   "page": null,
+   "reason": "Court expressly makes only prima facie observations."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No witness credibility assessment is made."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": "Suspended from service by Registration Department after enquiry",
+   "quote": null,
+   "page": null,
+   "reason": "Suspension after enquiry is recorded in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Arrest is mentioned but no custody duration is given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No bail proceedings are mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": "offence: 1.4.2005 to 31.3.2007; trial judgment: not given; High Court: 22.01.2009; Supreme Court: 26.09.2012",
+   "quote": null,
+   "page": null,
+   "reason": "Dates match those stated in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": "Accused: Ardhendumauli Kumar Prasad; State: Sidharth Dave, Abhimanyu Singh, C.D. Singh",
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": "FIR registered 18.9.2007; charge-sheet No. 546 of 2007 filed under s.173(8); investigation continuing",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the FIR and charge-sheet details in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": "Photocopies accepted, fees not realised, s.64 memos not sent, affidavits and PAN details missing",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the enquiry findings listed by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": "Trial court: no trial; High Court: FIRs and charge-sheets quashed; Supreme Court: appeals allowed",
+   "quote": null,
+   "page": null,
+   "reason": "Accurately traces the procedural history."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": "Registrar liable if prima facie instrumental in aiding fictitious deeds; large number of deeds could not be executed without his knowledge",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the State's submissions in para 12."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": "Registrar bound only to register documents; no duty to verify genuineness; no knowledge of forgery",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the respondent's contentions in para 10."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": "s.482 CrPC used sparingly; High Court should not give prima facie decision on hazy facts or assess evidence",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the principles stated in para 13 and applied in para 18."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": "M.M.T.C. Ltd v. Medchl Chemicals (2002) 1 SCC 234; State of Orissa v. Saroj Kumar Sahoo (2005) 13 SCC 540; Eicher Tractors v. Harihar Singh (2006) 12 SCC 763; Jambu Prasad (AIR 1941 PC 16, referred)",
+   "quote": null,
+   "page": null,
+   "reason": "Cases and citations match those in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": "Not applicable",
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": "None",
+   "quote": null,
+   "page": null,
+   "reason": "The court weighed no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": "Magnitude of the alleged crime and number of allegedly fraudulent documents, requiring trial evidence",
+   "quote": null,
+   "page": null,
+   "reason": "Matches the factors listed in para 19."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": "None; observations are prima facie and do not bind the trial court",
+   "quote": null,
+   "page": null,
+   "reason": "Para 20 states the observations are prima facie and not binding."
+  }
+ }
+}

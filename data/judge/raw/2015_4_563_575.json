@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "NANDA GOPALAN v. STATE OF KERALA",
+   "page": 1,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant stands convicted under Sections 324 and 326",
+   "page": 3,
+   "reason": "Only one appellant is convicted and sentenced, consistent with the value of 1."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is son of cousin of injured Sukumaran (PW1)",
+   "page": 3,
+   "reason": "Describing the appellant as a son supports male gender, though not stated outright."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the accused."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of the accused is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "He was admitted to a Medical Trust Hospital",
+   "page": 3,
+   "reason": "The injured PW-1 is referred to as male throughout."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for the victim anywhere in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant is son of cousin of injured Sukumaran (PW1)",
+   "page": 3,
+   "reason": "Close relative relationship is supported by the cousin's son description."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Penal Code, 1860: ss.324 and 326 - ... caused injuries",
+   "page": 1,
+   "reason": "Sections 324 and 326 concern voluntarily causing hurt, so hurt is accurate."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Sections 324 and 326 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Sections 324 and 326 IPC are the provisions applied."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "attacked PW 1 by using a bat made of coconut leaf stem",
+   "page": 3,
+   "reason": "Both the bat and the stone are identified as weapons."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Medical evidence, witness testimony (injured, family, independent witnesses), and documents",
+   "quote": "In addition, medical evidence and relevant documents were also produced.",
+   "page": 4,
+   "reason": "Medical and eyewitness evidence are supported; 'circumstantial' is not mentioned in the judgment."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not mention any confession, so 'None' is not backed by the text."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no aggravating circumstances, so 'None noted' is consistent."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "particularly when they are close relatives, reduction in sentence can be ordered",
+   "page": 6,
+   "reason": "Compromise and close relationship are identified as mitigating factors."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo rigorous imprisonment for two years and three years respectively and to pay fine of Rs.30,000/-",
+   "page": 3,
+   "reason": "Matches the trial court conviction, sentences and Rs.30,000 compensation."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "which has been affirmed by the High Court with reduction in sentence",
+   "page": 4,
+   "reason": "The High Court affirmed the conviction with reduced sentence, as stated."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "we do no find any ground to interfere with the conviction of the appellant",
+   "page": 6,
+   "reason": "Conviction upheld while sentence reduced, so 'convicted' is accurate."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the nature of weapon used does not fall under Sections 324 and 326",
+   "page": 9,
+   "reason": "The Court upheld the findings that the charges under Sections 324 and 326 stand."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "sentenced to undergo rigorous imprisonment for two years and three years respectively",
+   "page": 3,
+   "reason": "Fixed-term rigorous imprisonment is the sentence type stated."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "Two years (s.324) and three years (s.326) originally, reduced to period already undergone",
+   "quote": "rigorous imprisonment for two years and three years respectively",
+   "page": 3,
+   "reason": "Value 2.0 captures only the s.324 term and omits the three-year s.326 term and final reduction."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "Compensation of Rs.2,00,000 (increased from Rs.30,000); not a fine",
+   "quote": "the amount of compensation is increased to Rs.2 lakhs to be paid to the victim",
+   "page": 2,
+   "reason": "Rs.2 lakh amount is correct but it is compensation, not a fine."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Accused attacked victim with coconut-leaf bat, then sat on chest and injured him with a stone; trial court convicted; High Court affirmed with reduced sentence; compromise reached during appeal.",
+   "quote": "leading to a reduction in the sentence and an increase in compensation",
+   "page": 1,
+   "reason": "Reveals the Supreme Court outcome; also calls the injuries 'grievous' though this judgment does not so find for this case."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Punishment ranges for ss.324 and 326 are not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "caused injuries with a stone. PW 1 became unconscious.",
+   "page": 3,
+   "reason": "Hurt was actually caused, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "(1) 4 x 1 ems through and through lacerated wound over left angle of the mouth",
+   "page": 4,
+   "reason": "Lacerations, missing teeth, contusions and unconsciousness are all reported."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted under Sections 324 and 326",
+   "page": 3,
+   "reason": "Two offences were charged and both were upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed beyond compensation, so 'Not applicable' fits."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment says nothing about premeditation or planning."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court held the prosecution case proved; the Supreme Court found no ground to interfere with the conviction.",
+   "quote": "The trial court held the case of the prosecution to have been proved",
+   "page": 4,
+   "reason": "Facts are right, but the attribution to the Supreme Court accepting the version is not what the judgment states."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment lists witnesses but makes no express credibility assessment."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Post-offence conduct is not mentioned in the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "reduced to the period already undergone",
+   "page": 13,
+   "reason": "The judgment refers to time already served but never states its duration."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "on 141h May, 1999 at 7.30 a.m.",
+   "page": 3,
+   "reason": "Offence date, High Court date and Supreme Court date match; trial judgment date is not stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ram Jethmalani (AC), Karan Kalia ... for the Appellant. Jogy Scaria ... for the Respondent.",
+   "page": 3,
+   "reason": "Counsel names and sides match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR recorded by PW-2, investigation conducted, appellant sent up for trial",
+   "quote": "PW 2 recorded the First Information Report and conducted investigation and sent up the appellant for trial.",
+   "page": 4,
+   "reason": "Charge sheet filing is not mentioned; the judgment says the appellant was sent up for trial."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is noted in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "reduce the sentence of imprisonment of the appellant to the period already undergone",
+   "page": 13,
+   "reason": "Trial, High Court and Supreme Court steps are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution case: appellant hit PW-1 with a coconut-leaf stem bat, sat on his chest, and injured him with a stone.",
+   "quote": "the appellant attacked PW 1 by using a bat made of coconut leaf stem",
+   "page": 3,
+   "reason": "Core facts are right, but 'grievous injuries' is not stated in the prosecution case description."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Amicus curiae argued in the Supreme Court that the weapon was not dangerous and that the charge could be altered to ss.323 and 325; compromise was relied on.",
+   "quote": "since the weapon used in the present case was not of the nature specified under Sections 324 and 326, the charge could be altered to Sections 323 and 325",
+   "page": 5,
+   "reason": "The weapon argument was made by amicus in the Supreme Court and was not raised in the lower courts."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "just and appropriate sentence has to be imposed keeping in mind the proportion between crime and punishment",
+   "page": 9,
+   "reason": "Proportionality principle and the factors listed match the judgment."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Relied on: Dasan (2014) 12 SCC 666; Mathai (2005) 3 SCC 260; Anwarul Haq (2005) 10 SCC 581; Ghanshyam (2003) 8 SCC 13; Bankat (2005) 1 SCC 343. Referred to: Regina v. Bibi.",
+   "quote": "Regina vs. Bibi 1980 (1) WLR 1193 - referred to.",
+   "page": 2,
+   "reason": "All cases are listed, but Regina v. Bibi was only referred to, not relied on."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "In view of the above, we are inclined to reduce the sentence",
+   "page": 13,
+   "reason": "Rationale based on compromise and sentencing proportionality matches the judgment."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "particularly when they are close relatives, reduction in sentence can be ordered",
+   "page": 6,
+   "reason": "The Court expressly treated the compromise between close relatives as a ground for reduction."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The judgment identifies no aggravating factors, consistent with 'None'."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "increasing the amount of compensation to Rs.2 lakhs to be paid to the victim within three months, failing which the sentence awarded by the High Court will stand affirmed",
+   "page": 13,
+   "reason": "Compensation increase, three-month deadline and default condition are all stated."
+  }
+ }
+}

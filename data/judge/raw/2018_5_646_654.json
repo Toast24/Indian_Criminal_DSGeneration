@@ -1,0 +1,389 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Four persons are named as accused in paragraph 4."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused include two men and one woman (Smt. Makoi Devi), so Mixed is supported."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Satyawati is referred to as a lady and a young bride; female is supported."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Spouse and in-laws (husband Tribhuwan Singh, mother-in-law, brother-in-law)",
+   "quote": "the wife of Tribhuwan Singh",
+   "page": 4,
+   "reason": "Relative is vague; judgment states husband and in-laws family relationships specifically."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302/34 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.302/34 and 201; Section 4 Dowry Prohibition Act (charged)",
+   "quote": "Sections 302/34 and 201 of IPC read with Section 4 of the DP Act",
+   "page": 5,
+   "reason": "Omits s.201 IPC conviction and s.4 DP Act charge stated in the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Gun (DBBL gun) was the weapon used, as stated in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial, medical evidence, recovery of gun, ballistic report, oral testimony (PW-1)",
+   "quote": "obtained ballistic report from the experts",
+   "page": 5,
+   "reason": "No dying declaration is mentioned anywhere; other listed types are supported but oral testimony omitted."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by accused is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dowry demand, seven gunshot injuries and failure to explain are relied on by courts."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are identified in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court acquitted Jwala Singh and convicted the remaining three accused."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court acquitted Smt. Makoi Devi and upheld conviction of the two appellants."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeals, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder of Satyawati is held established beyond reasonable doubt."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life imprisonment was imposed for s.302/34 conviction."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fixed term for life sentence; value null is consistent with the text."
+  },
+  "fine_rs": {
+   "verdict": "partially_correct",
+   "correct_value": "5000 (fine imposed on Tribhuwan Singh; no fine stated for Chandra Bhawan Singh)",
+   "quote": "pay a fine of Rs.5000/-",
+   "page": 3,
+   "reason": "Judgment states a Rs.5000 fine for Tribhuwan Singh, so null is incomplete."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Four family members were prosecuted for the murder of a woman by gunshot, following alleged dowry-related harassment, with the death in the in-laws' house on 18.03.1984.",
+   "quote": "the High Court confirmed the conviction of the remaining accused",
+   "page": 9,
+   "reason": "Summary reveals lower court and High Court outcomes, which neutral facts must not disclose."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Life imprisonment (s.302/34 IPC); Rs.5000 fine for Tribhuwan Singh; 5 years RI for Chandra Bhawan Singh under s.201",
+   "quote": "sentenced to undergo rigorous imprisonment for five years",
+   "page": 4,
+   "reason": "Omits the five-year rigorous imprisonment under s.201 and attributes the fine ambiguously."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence was completed with death of Satyawati."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim suffered multiple gunshot injuries resulting in death."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charges under ss.302/34 and 201 IPC against four accused; conviction upheld for two (Tribhuwan Singh and Chandra Bhawan Singh)",
+   "quote": "The High Court acquitted Smt. Makoi Devi (mother-in-law) from all the charges",
+   "page": 6,
+   "reason": "Four offences is wrong; only two accused had convictions upheld, not three."
+  },
+  "financial_property_loss": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment says nothing about financial or property loss, so Not applicable is unsupported."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive was demand for dowry (motor cycle) and harassment for it."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted PW-1 testimony, DBBL gun use, gunshot injuries and failure to explain."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "PW-1 testimony found natural and consistent; suicide story found unbelievable."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Chandra Bhawan Singh lodged the first FIR falsely stating suicide, held to divert police attention",
+   "quote": "he falsely stated that Satyawati committed suicide because he wanted to divert the attention of the police",
+   "page": 9,
+   "reason": "Judgment treats the false suicide FIR as post-offence conduct; 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; only arrest date is given."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": {
+    "dates_of_offence": "18.03.1984",
+    "trial_judgment": "07.05.1986",
+    "high_court_decision": "20.05.2014",
+    "supreme_court_decision": "May 01, 2018"
+   },
+   "quote": "On 18.03.1984 (after 3 days), Satyawati was found dead in her in-laws house",
+   "page": 5,
+   "reason": "Offence date is 18.03.1984 when death was found; 15.03.1984 is when she was brought back."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and State match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR lodged, challan filed on 09.06.1984, and trial completed are stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified in the judgment."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial, High Court and Supreme Court outcomes match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State supported the reasoning and conclusions of both Courts below and sought dismissal of the appeals",
+   "quote": "supported the reasoning and the conclusion arrived at by both the Courts below",
+   "page": 7,
+   "reason": "Judgment records the State's submission as supporting lower courts; the detailed prosecution points attributed are not stated."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Concurrent findings not sustainable; chain of circumstances incomplete; suicide story; Tribhuwan Singh's alibi plea",
+   "quote": "learned counsel contended that the circumstances appearing in the case from the evidence would show that Satyawati committed suicide",
+   "page": 6,
+   "reason": "Omits the alibi plea of Tribhuwan Singh; other defence points are accurately captured."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Principle on interference with concurrent findings under Article 136 is accurately stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "[2018] 5 S.C.R. 646",
+   "page": 1,
+   "reason": "That is the report citation of this judgment itself; no precedent is cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no sentencing rationale; it only affirms guilt and the sentence imposed."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstances relied on: dowry demand, seven gunshot injuries, failure to explain, inside-house death",
+   "quote": "these seven circumstances do establish the chain of events",
+   "page": 8,
+   "reason": "Court relied on aggravating circumstances in paragraphs 36-39, so 'None' is inaccurate."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Sentences of Chandra Bhawan Singh to run concurrently",
+   "quote": "All the sentences of Chandra Bhawan Singh would run concurrently.",
+   "page": 4,
+   "reason": "Judgment records a concurrent-sentence order, so 'None' is wrong."
+  }
+ }
+}

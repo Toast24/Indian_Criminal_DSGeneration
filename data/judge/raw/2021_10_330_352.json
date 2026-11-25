@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "STATE OF GUJARAT & ANR. v. NARAYAN @ NARAYAN SAI @ MOTA BHAGWAN",
+   "page": 1,
+   "reason": "Case title matches the judgment header; spacing differs only through OCR."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appeal arises from a judgment of a Single Judge... directed the release of the respondent",
+   "page": 5,
+   "reason": "Only one respondent is before the Court in this matter."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The respondent is the only son of his father.",
+   "page": 13,
+   "reason": "Respondent is referred to with male pronouns throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the respondent appears anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the respondent is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the respondent is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the respondent is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "incorrect",
+   "correct_value": "Judgment refers to a financial background and crores of rupees of properties seized, invested on his behalf",
+   "quote": "has a network of persons and a financial background",
+   "page": 10,
+   "reason": "Judgment does reference the respondent's financial background and seized investments, so 'Not stated' is contradicted."
+  },
+  "previous_criminal_record": {
+   "verdict": "partially_correct",
+   "correct_value": "Seven offences registered against him, with illegal jail activities, bribery attempts and witness threats attributed to him or followers",
+   "quote": "seven offences have been registered against him",
+   "page": 9,
+   "reason": "Omits the seven registered offences; threats and assaults on witnesses were by followers, not the respondent himself."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "compensation of Rs. 5,00,000/- ... to the prosecutrix",
+   "page": 6,
+   "reason": "The complainant/prosecutrix is female, so the victim is female."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the prosecutrix is given in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not describe any relationship between respondent and prosecutrix."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Respondent is accused in high profile cases of rape and atrocities",
+   "page": 9,
+   "reason": "Rape under s.376(2)(c) IPC is the principal offence of conviction."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.376(2)(c), 377, 354, 504, 506(2), 508, 323",
+   "quote": "(vii) Section 323: six months' rigorous imprisonment",
+   "page": 6,
+   "reason": "Omits s.323 IPC, which is among the convictions listed."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "No weapon used in the convicted offences; lethal weapon and revolver used by others against witnesses",
+   "quote": "was assaulted with a lethal weapon on 28 February 2014",
+   "page": 7,
+   "reason": "Weapons are mentioned, but only in attacks on witnesses by others, not the convicted offences."
+  },
+  "evidence_type": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not discuss the evidence type for the convicted offences."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment is silent on confession; 'None' asserts an absence it never states."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The respondent and his father have a mass following of persons who owe loyalty to them",
+   "page": 23,
+   "reason": "Listed aggravating circumstances match the DGP grounds endorsed in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "No untoward incident took place after the respondent was released in December 2020",
+   "page": 10,
+   "reason": "High Court noted no untoward incident and the mother's health was the basis for release."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Sessions Court by a judgment dated 30 April 2019 convicted the respondent",
+   "page": 5,
+   "reason": "Conviction with life imprisonment and fine is stated."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Allowing the application of the respondent, the Single Judge of the High Court held",
+   "page": 10,
+   "reason": "High Court allowed the application and directed furlough."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal by State allowed; High Court judgment and order of 24 June 2021 set aside",
+   "quote": "we allow the appeal and set aside the impugned judgment and order of the High Court dated 24 June 2021",
+   "page": 23,
+   "reason": "Respondent was not acquitted; the Supreme Court allowed the State's appeal against furlough."
+  },
+  "offence_finally_established": {
+   "verdict": "incorrect",
+   "correct_value": "Trial conviction under IPC ss.376(2)(c), 377, 354, 504, 506(2), 508 and 323 stands; appeal against it pending in High Court",
+   "quote": "The appeal against the respondent's conviction and the application for suspension of sentence are pending",
+   "page": 13,
+   "reason": "Conviction was not set aside; the judgment records it as standing with appeal pending."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment and rigorous imprisonment (various terms)",
+   "quote": "(i) Section 376(2): life imprisonment together with a fine",
+   "page": 5,
+   "reason": "Judgment records life and rigorous imprisonment sentences, not 'none'."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "(i) Section 376(2): life imprisonment",
+   "page": 5,
+   "reason": "Sentence is life imprisonment, which has no fixed term in years."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs 1,00,000 (ss.376(2), 377); Rs 25,000 (s.354); Rs 5,000 (ss.504, 506(2), 508); Rs 500 (s.323)",
+   "quote": "together with a fine of Rs. 1,00,000/-",
+   "page": 5,
+   "reason": "Fines were imposed under each conviction; value null contradicts the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "The respondent was convicted of rape and other IPC offences in 2019 and was in custody. During trial, attempts were made to bribe officials and threaten witnesses. He was granted furlough in December 2020 and interim bail in early 2021. The DGP denied furlough on public peace grounds; the High Court allowed it.",
+   "quote": "The High Court allowed the furlough leave, but the Supreme Court overturned this decision",
+   "page": 23,
+   "reason": "Summary reveals the Supreme Court's outcome and invents 'cruelty' as an offence, which the judgment does not state."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "(i) Section 376(2): life imprisonment together with a fine of Rs. 1,00,000/-",
+   "page": 5,
+   "reason": "Seven sentence entries listed match the conviction summary in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions for the listed offences imply completed offences; no attempt-only finding is made."
+  },
+  "physical_harm": {
+   "verdict": "partially_correct",
+   "correct_value": "Witnesses injured and one killed by others in attacks linked to followers; no physical harm described for the convicted offences",
+   "quote": "The witness suffered severe injury and died during treatment.",
+   "page": 8,
+   "reason": "Harm is accurately described but was caused by unknown persons or followers, not in the convicted offences."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Seven offences registered against him; seven convictions recorded under IPC sections listed",
+   "quote": "seven offences have been registered against him",
+   "page": 9,
+   "reason": "Judgment records seven convictions, so 'finally upheld' count is stated, not absent."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "Compensation of Rs 5,00,000 to prosecutrix under s.357(3) CrPC; crores of rupees of properties seized, linked to investments on respondent's behalf",
+   "quote": "The respondent was directed to pay compensation of Rs. 5,00,000/-",
+   "page": 6,
+   "reason": "Judgment records compensation and seized properties worth crores, so 'Not applicable' is contradicted."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Attempts to threaten and suborn investigating team and witnesses noted; Court made no premeditation finding",
+   "quote": "An attempt has been made to threaten and suborn the investigating team and the witnesses.",
+   "page": 23,
+   "reason": "Attempts are accurately noted, but 'premeditation and planning' is not a finding in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive for the convicted offences is discussed."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Court held the DGP's opinion not perverse and based on relevant circumstances; it did not formally accept evidence",
+   "quote": "The opinion of the Sanctioning Authority under the Rules does not suffer from perversity",
+   "page": 23,
+   "reason": "Circumstances are accurately listed, but the Court reviewed the DGP's opinion rather than accepting evidence."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "No witness credibility assessment made; Court noted DGP's circumstances on threats to witnesses and conduct in jail",
+   "quote": "The conduct after the trial, in jail, has not been shown to be above reproach.",
+   "page": 23,
+   "reason": "Court recorded the DGP's circumstances but did not assess any witness's credibility."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The respondent was released on temporary bail for a period of three weeks on 16 April 2015",
+   "page": 6,
+   "reason": "Bail, furlough and surrender dates match the judgment."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The respondent has been under imprisonment for a period of seven and a half years.",
+   "page": 11,
+   "reason": "High Court noted seven and a half years of imprisonment."
+  },
+  "bail_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Temporary bail 16 April 2015 (three weeks) and 15 February 2019 (two days); interim bail 31 January to 3 February 2021",
+   "quote": "released on temporary bail from 31 January 2021 to 3 February 2021",
+   "page": 6,
+   "reason": "Only the 2021 interim bail is listed; 2015 and 2019 temporary bail periods are omitted."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR 6 October 2013; trial judgment 30 April 2019; High Court furlough order 2 December 2020; impugned High Court order 24 June 2021",
+   "quote": "registered against the respondent on 6 October 2013",
+   "page": 5,
+   "reason": "FIR date mislabelled as offence date; 2 December 2020 was a furlough order, not a judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Tushar Mehta, SG, Kanu Agrawal, Aniruddha P. Mayee, Advs. for the Appellants.",
+   "page": 5,
+   "reason": "Counsel names for both sides match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR registered; charges framed; trial concluded",
+   "quote": "Charges were framed. On the conclusion of the trial",
+   "page": 5,
+   "reason": "Charge sheet filing is not stated; charges framed and trial conclusion are."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No procedural irregularity is identified by the Court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Single Judge directed the release of the respondent on furlough.",
+   "page": 5,
+   "reason": "Trial conviction, High Court furlough order, and Supreme Court allowance are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Furlough can be denied if it is not in the interest of the society",
+   "page": 12,
+   "reason": "State's argument on public peace, criminal history and witness threats is accurately summarised."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Furlough is a matter of right; no untoward incident since release; prior offences unconnected to respondent; prior furlough order valid",
+   "quote": "The furlough leave is a matter of right",
+   "page": 13,
+   "reason": "Omits the matter-of-right argument and the claim that respondent is not connected to other offences."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the grant of furlough must be balanced against the public interest and can be refused to certain categories of prisoners.",
+   "page": 21,
+   "reason": "Discretionary nature and public interest balancing reflect the Court's stated principles."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "(2006) 4 SCC 776; (2017) 15 SCC 55; (2000) 3 SCC 394",
+   "page": 12,
+   "reason": "The three cases and citations match the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no sentencing rationale; 'Not applicable' is consistent."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no mitigating factor in sentencing terms; 'None' is consistent."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Cumulative circumstances indicating risk to public peace: threats to witnesses, mass following, attempts to bribe officials, conduct in jail",
+   "quote": "The order dated 8 May 2021 has adduced a number of circumstances which cumulatively indicate",
+   "page": 23,
+   "reason": "Court expressly relied on aggravating circumstances in upholding the DGP's opinion, so 'None' is contradicted."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No further sentence order is made; the Court only sets aside the High Court order."
+  }
+ }
+}

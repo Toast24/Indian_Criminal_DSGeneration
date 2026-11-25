@@ -1,0 +1,384 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "RAKHAL DEBNATH v. STATE OF WEST BENGAL",
+   "page": 1,
+   "reason": "Matches the title."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "1 (second accused was acquitted by High Court; only the appellant's liability decided)",
+   "quote": "The acquittal of the second accused, however, was confirmed by the High Court.",
+   "page": 7,
+   "reason": "One accused before the Supreme Court; value is acceptable but given as float; substance right."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant got married to the deceased Krishna",
+   "page": 7,
+   "reason": "Appellant is the husband, so male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age stated."
+  },
+  "accused_religion": {
+   "verdict": "partially_correct",
+   "correct_value": "Hindu (married per Hindu rites and customs)",
+   "quote": "married to the deceased Krishna as per Hindu rites and customs on 22.04.1987",
+   "page": 7,
+   "reason": "Judgment describes a Hindu marriage, giving a religious identity."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "for the purpose of his business",
+   "page": 7,
+   "reason": "Only a business purpose is mentioned; no occupation is stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No statement on class or wealth."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is the wife."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Age not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "victim_religion": {
+   "verdict": "partially_correct",
+   "correct_value": "Hindu (married per Hindu rites and customs)",
+   "quote": "as per Hindu rites and customs",
+   "page": 7,
+   "reason": "Marriage under Hindu rites describes a religious identity."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant got married to the deceased Krishna",
+   "page": 7,
+   "reason": "Husband and wife."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Other (abetment of suicide) / Cruelty",
+   "quote": "charges under Sections 306 and 498A of IPC",
+   "page": 7,
+   "reason": "Main charge is s.306 abetment, but s.498A cruelty is also charged; 'Other' is defensible."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Sections 306 and 498A of IPC",
+   "page": 7,
+   "reason": "Sections correct; s.113A applied as presumption."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "pouring kerosene on herself and set herself on fire",
+   "page": 14,
+   "reason": "No weapon; kerosene self-immolation."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Medical, recovery, oral, documentary evidence all discussed."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "None (accused denied under s.313 making the stove statement to the doctor; not relied on)",
+   "quote": "in the 313 questioning the appellant made it clear that he did not make any such statement",
+   "page": 9,
+   "reason": "It was not a confession; the extracted description is slightly off but reaches the right substance."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "suicide within 35 days from the date of her marriage",
+   "page": 12,
+   "reason": "Matches facts noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The Trial Court acquitted the appellant",
+   "page": 6,
+   "reason": "Correct."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The High Court thus partly allowed the appeal of the State.",
+   "page": 7,
+   "reason": "Sentences and second accused's acquittal correct."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the same is dismissed",
+   "page": 15,
+   "reason": "Conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "charge of abetment under Section 306 and as well as Section 498A stood proved",
+   "page": 14,
+   "reason": "Correct."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Both the sentences were directed to run consecutively.",
+   "page": 7,
+   "reason": "Fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "10 years ... three years ... run consecutively",
+   "page": 7,
+   "reason": "10+3=13."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "fine of Rs.10,000/- ... apart from fine of Rs.10,000/-",
+   "page": 7,
+   "reason": "Two fines total 20,000."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurate, neutral, no outcome mentioned; uses no names. Minor mention of 'niece' is acceptable."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Statutory maximum not stated in judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death occurred."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "first degree burn injuries from top of the head up to the tip of the leg",
+   "page": 10,
+   "reason": "Matches."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two charged, both upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "P.W.3 repaid a sum of Rs.11,000/- to P. W.17 to get back the jewels",
+   "page": 11,
+   "reason": "Matches."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not discussed."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conduct of the appellant ... demand of money ... instigated",
+   "page": 14,
+   "reason": "Consistent with the court's finding."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the evidence relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "We also do not find any inconsistency in the evidence of P.W.3 and other witnesses",
+   "page": 12,
+   "reason": "Accurate."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated (pledging of the jewels was pre-death; disputed stove statement noted)",
+   "quote": "the appellant pledged the jewels of deceased Krishna",
+   "page": 7,
+   "reason": "Stove statement is recorded by doctor but denied by accused; characterisation is slightly strained."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Not stated."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Judgment & Order dated 24.12.2008",
+   "page": 6,
+   "reason": "Dates correct; trial date not given."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Ravi Kumar Tomar, Amitava Acharjee, H.B. Tiwari, Smriti for the Appellant.",
+   "page": 6,
+   "reason": "Matches."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The prosecution filed its final report before the Trial Court",
+   "page": 7,
+   "reason": "Accurate."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None noted."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accurate."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches para 4."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches para 3."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches paras 13-15."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches case law reference."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing discussion."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "None (court did not weigh aggravating factors for sentence)",
+   "quote": null,
+   "page": null,
+   "reason": "Court discussed these for guilt, not sentencing."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "None."
+  }
+ }
+}

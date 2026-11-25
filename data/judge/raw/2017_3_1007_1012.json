@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption on page 1."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to 11 accused named in the final report and 11 arrested."
+  },
+  "accused_gender": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment never states the accused's gender; 'Mixed' is an inference."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused age is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused religion is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused caste is stated."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused occupation is stated for the accused as a group."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victims are the appellant and his brother, referred to with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim age is stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim caste is stated."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No victim religion is stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "at whose instance ... the attack ... by 10-12 persons ... at the instance of one Anil Joshi, Cabinet Minister",
+   "page": 2,
+   "reason": "Judgment does not describe the relationship as stranger; it only links the attack to Anil Joshi's instigation."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge under s.307 IPC, attempt to murder, is the core offence discussed."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the FIR sections listed on page 2."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Swords, baseball bat, daatars and Gandassa are all mentioned on page 2."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Complainant statement, medical report, weapon recovery and CCTV footage are all referenced."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment is silent on confessions; 'None' asserts an absence the judgment does not expressly state."
+  },
+  "aggravating_circumstances": {
+   "verdict": "partially_correct",
+   "correct_value": "Use of swords and daatars by 10-12 persons attacking victims in a car; no open declaration of intent recorded in this case",
+   "quote": "10-12 persons suddenly attacked the victims and they were armed with swords, baseball, etc.",
+   "page": 3,
+   "reason": "Deadly weapons supported, but open declaration and unarmed-victim points come from the quoted precedent, not this case."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sessions Judge framed charges under the listed sections, including s.307, per page 3."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court deleted the s.307 charge while maintaining other charges."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (no conviction; appeal allowed and accused to be tried under s.307 IPC)",
+   "quote": "the accused persons shall also be tried for the offence under Section 307 IPC",
+   "page": 5,
+   "reason": "No conviction is recorded; the Supreme Court only restored the charge and directed trial."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; ingredients of s.307 IPC held prima facie made out at charge stage",
+   "quote": "The above facts would indicate that the ingredients of Section 307 IPC are made out.",
+   "page": 6,
+   "reason": "Court only found ingredients prima facie at framing of charge; no offence was finally established."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "the accused persons shall also be tried for the offence under Section 307 IPC",
+   "page": 5,
+   "reason": "No sentence was imposed; the judgment only directs trial, so fixed_term is unsupported."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated, so null is appropriate."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is stated, so null is appropriate."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Attack by 10-12 armed persons on victims in a car; car glass smashed; grievous sharp-edged injuries; medical report, weapon recovery and CCTV examined; prosecution case on intent to kill.",
+   "quote": "Open announcement by the accused and others that the appellant would not be alive",
+   "page": 5,
+   "reason": "Attackers' open statements of intent come from the quoted precedent, not this case's facts; the rest is accurate and outcome-neutral."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the punishment prescribed under s.307 IPC."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The offence is an attempt to murder under s.307 IPC."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Grievous injuries by sharp-edged weapons and simple injuries are described on pages 2 and 4."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged with multiple IPC offences including s.307; High Court deleted s.307 charge; Supreme Court restored it",
+   "quote": "deleted the charge framed under Section 307 IPC as unsustainable while maintaining the charge in respect of other offences",
+   "page": 2,
+   "reason": "Describes the Supreme Court outcome vaguely and omits that the High Court had deleted the s.307 charge."
+  },
+  "financial_property_loss": {
+   "verdict": "partially_correct",
+   "correct_value": "Damage to car glass (front, back and driving side glass smashed); s.427 IPC charged",
+   "quote": "smashed the front, backside and driving side glass of the car",
+   "page": 3,
+   "reason": "Judgment describes property damage to the car and a s.427 charge, so 'Not applicable' is inaccurate."
+  },
+  "premeditation_planning": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated (motive to teach a lesson is noted; no premeditation finding is made)",
+   "quote": "to punish the appellant/ teach him a lesson for instituting four cases against the said Anil Joshi",
+   "page": 2,
+   "reason": "The court made no premeditation finding; the open-declaration basis comes from the quoted precedent."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Motive to punish the appellant for instituting four cases against Anil Joshi is stated."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Complainant's statement and medical report (sharp-edged grievous injuries) relied on at charge stage; no evidence of accused's intent to kill in this case was accepted",
+   "quote": "Having regard to the aforesaid statement of the persons recorded under Section 161 Cr.P.C. and the medical report",
+   "page": 4,
+   "reason": "Court relied on statements and medical report prima facie only; the expressed intent to kill is from the precedent."
+  },
+  "witness_credibility": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The court made no credibility assessment of witnesses; it only assessed charge-stage material."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused skipped away from the spot in their cars with their weapons after people gathered",
+   "quote": "accused alongwith their respective weapons skipped away from the spot on their cars",
+   "page": 4,
+   "reason": "The judgment does describe the accused fleeing the scene with weapons, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No bail history is stated."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence/FIR date: 10.05.2014 (para 5 says 10.05.2004); High Court order: 28.08.2015; Supreme Court decision: April 13, 2017; no trial judgment date given",
+   "quote": "FIR No. 138/2014 dated 10.05.2014",
+   "page": 2,
+   "reason": "Offence date conflicts with FIR date; 28.08.2015 is the High Court order, not a trial judgment."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant (complainant) counsel: Manu Sharma, Ms. Ridhima Mandhar, M. Shoeb Alam, Ms. Fauzia Shakil, Ujjwal Singh, Mojahid Karim Khan; Respondents' counsel: Jitendra Mohan Sharma, Sr. Adv., Ajit Sharma, Sandeep Singh, Ms. Shweta Jain Pahlad Singh Sharma",
+   "quote": "Advs. for the Appellant. Jitendra Mohan Sharma, Sr. Adv., Ajit Sharma, Sandeep Singh, Ms. Shweta Jain Pahlad Singh Sharma, Advs. for the Respondents.",
+   "page": 2,
+   "reason": "First group represents the appellant complainant, not the accused; labels are reversed."
+  },
+  "investigation_status": {
+   "verdict": "incorrect",
+   "correct_value": "FIR registered, charge sheet filed, charges framed; trial pending",
+   "quote": "The Sessions Judge framed charges under the aforesaid provisions, including Section 307 IPC.",
+   "page": 2,
+   "reason": "Trial is not completed; the accused are yet to be tried under s.307 IPC."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court erred in deleting the s.307 IPC charge at the framing-of-charge stage",
+   "quote": "we fail to understand as to how the High Court could come to the conclusion, at the stage of framing of the charge itself",
+   "page": 4,
+   "reason": "Supreme Court found the High Court's approach clearly unsustainable, which is a procedural error."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court framing, High Court deletion and Supreme Court allowance of appeal match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant's ground that s.307 charge was rightly framed and facts show grievous attack with deadly weapons is reflected."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence argued medical evidence did not support s.307 and intention to kill was missing, per page 2."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Intention is a question of fact and injuries need not be fatal, as stated on pages 4 and 5."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Anjani Kumar Chaudhary v. State of Bihar (2014) 12 SCC 286 is cited on pages 1 and 4."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing is addressed, so the value 'Not applicable' is acceptable."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court does not weigh aggravating factors for sentence."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal allowed; High Court order quashed; accused to be tried for offence under s.307 IPC",
+   "quote": "the order of the High Court is hereby quashed and set aside. As a consequence, the accused persons shall also be tried for the offence under Section 307 IPC",
+   "page": 6,
+   "reason": "The Supreme Court did direct trial under s.307, so 'None' is contradicted."
+  }
+ }
+}

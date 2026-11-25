@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted all the four accused for the offence punishable under Section 302/34",
+   "page": 11,
+   "reason": "Four accused were tried and convicted by the trial court."
+  },
+  "accused_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Male and female (Momin, Jaikam, Sajid male; Nazra female)",
+   "quote": "Original Accused No.2-Nazra ... is the wife of appellant-Momin Khan (A-1)",
+   "page": 10,
+   "reason": "One accused, Nazra (A-2), is female; value omits her."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not expressly stated for the accused."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Male and female (Mausam, Shaukeen, Samad male; Asgari, Shanno, Muskan female)",
+   "quote": "Asgari (mother, aged about 80 years)",
+   "page": 10,
+   "reason": "Victims included both males and females; value lists only male."
+  },
+  "victim_age": {
+   "verdict": "partially_correct",
+   "correct_value": "Mausam Khan about 85; Asgari about 80; Shanno about 30; Samad about 8; Muskan about 15",
+   "quote": "Maus am Khan (father, aged about 85 years) and deceased Asgari (mother, aged about 80 years)",
+   "page": 10,
+   "reason": "Single value 80 reflects only one victim, mother Asgari; father was about 85."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Appellant-Jaikam Khan (A-3) is the first cousin of deceased Shaukeen Khan, appellant-Momin Khan (A-1)",
+   "page": 10,
+   "reason": "Accused were related to victims as brothers, cousins, nephews and wife."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under IPC s.302 with s.34."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302/34; Arms Act s.25/4",
+   "quote": "convicted for the offence punishable under Section 25/4 of the Arms Act",
+   "page": 11,
+   "reason": "Arms Act s.25/4 charge omitted from the value."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "All these accused persons were holding knife and chhuriyan (small knife) in their hands",
+   "page": 17,
+   "reason": "Knives are the weapons described, consistent with the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness testimony and circumstantial evidence were relied on by the prosecution."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged extra-judicial statements in arrest-cum-recovery memo (Ex Ka-49), held largely inadmissible except discovery facts",
+   "quote": "All the statements made therein with regard to the confession of committing the crime would not be admissible in evidence.",
+   "page": 31,
+   "reason": "Alleged confessory statements existed in the recovery memo; they were held inadmissible, not absent."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not set out aggravating circumstances as such."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Mitigating circumstances are not discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "convicted all the four accused ... and sentenced them to death",
+   "page": 11,
+   "reason": "Trial court convicted and sentenced to death, as stated."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeals of accused 1, 3, 4 dismissed and death sentence confirmed; Nazra (A-2) acquitted",
+   "quote": "confirming the judgment and order of conviction dated 2nd January, 2016",
+   "page": 9,
+   "reason": "High Court confirmed convictions and death sentences; value wrongly says not applicable."
+  },
+  "final_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Appeals of accused Nos. 1, 3, 4 allowed and they were released; PW-1's appeal against Nazra's acquittal dismissed",
+   "quote": "Criminal Appeal Nos. 440-441 of 2020 ... are allowed",
+   "page": 42,
+   "reason": "Accused were acquitted in effect, but value omits the release and PW-1 appeal dismissal."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The conviction and death sentence imposed on the accused is totally unsustainable in law.",
+   "page": 42,
+   "reason": "No offence was finally established against the accused."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment; accused directed to be released."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No final imprisonment term survives the Supreme Court order."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine survives the Supreme Court order."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Accused were Momin Khan (son), Jaikam Khan (cousin), Sajid (nephew) and Nazra (wife); facts without outcome statements",
+   "quote": "Appellant-Jaikam Khan (A-3) is the first cousin of deceased Shaukeen Khan",
+   "page": 10,
+   "reason": "Accused were not all brothers, and the summary states the court's findings and outcome, which is not allowed."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder under s.302/34 IPC; death sentence by trial court, confirmed by HC, set aside by SC",
+   "quote": "sentenced them to death vide order dated 11th January, 2016",
+   "page": 11,
+   "reason": "Death sentence was imposed below but set aside; value presents it as current severity."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "killed them brutally",
+   "page": 10,
+   "reason": "Murders were completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mausam Khan (father), Asgari (mother), Shaukeen Khan (brother), Shanno (sister-in-law), Samad (nephew) and Muskan (niece) and killed them brutally",
+   "page": 11,
+   "reason": "Six deaths are consistent with the judgment."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Six murders charged; no conviction upheld for any of them",
+   "quote": "conviction and death sentence imposed on the accused is totally unsustainable in law",
+   "page": 42,
+   "reason": "No convictions were upheld; the value wrongly says three counts were upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is adjudicated in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "incorrect",
+   "correct_value": "Not found; trial court's pre-planning narrative held to be conjecture and surmise",
+   "quote": "all the observations are nothing but conjectures and surmises, without there being any evidentiary support",
+   "page": 38,
+   "reason": "Supreme Court rejected the trial court's premeditation finding as unsupported conjecture."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the main motive behind the crime was with regard to the dispute over the management of the brick-kiln",
+   "page": 32,
+   "reason": "Brick-kiln dispute motive matches the judgment's description."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the prosecution has utterly failed to prove the case beyond reasonable doubt",
+   "page": 42,
+   "reason": "Court found prosecution evidence insufficient, consistent with the value."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "They would fall in the category of 'neither wholly reliable nor wholly unreliable'",
+   "page": 21,
+   "reason": "Matches the court's assessment of P.W.1 and P.W.2."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused allegedly fled via rear gate, changed clothes, and were arrested at Rajghat Chauraha; court found these doubtful",
+   "quote": "the accused had run away from the rear gate of the compound, which is towards north",
+   "page": 32,
+   "reason": "Post-offence conduct is described in the judgment, not Not stated."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated as a duration; key dates: offence 23 Jan 2014, trial judgment 2 Jan 2016, HC 18 May 2018, SC 15 Dec 2021",
+   "quote": "the incident took place on 23.01.2014",
+   "page": 10,
+   "reason": "Value lists dates but gives no trial duration; dates are otherwise supported."
+  },
+  "legal_representation": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused: Ms. Nitya Ramakrishnan, Dama Seshadri Naidu; PW-1: Anant Agarwal; State: Vinod Diwakar, AAG",
+   "quote": "Shri Vinod Diwakar, learned Additional Advocate General appearing on behalf of the respondent-State",
+   "page": 12,
+   "reason": "Vinod Diwakar was State counsel, not accused counsel; value also mislabels the counsel list."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the crime is registered on 23rd January, 2014 at 10.00 p.m.",
+   "page": 36,
+   "reason": "FIR registration, charge-sheet and completed trial match the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "none of the independent witnesses have been examined by the prosecution",
+   "page": 34,
+   "reason": "Listed irregularities match the judgment's findings."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted all four accused (incl. Nazra) and imposed death; HC confirmed convictions of 1, 3, 4 and acquitted Nazra; SC allowed their appeals and dismissed PW-1's appeal",
+   "quote": "set aside the conviction under Section 302/34 of the Indian Penal Code, 1860 ... and the death penalty awarded to her",
+   "page": 10,
+   "reason": "Omits that the High Court confirmed the convictions of accused 1, 3, and 4 and that trial court convicted Nazra."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the entire case rests on the ocular testimony of P.W.1 and P.W.2",
+   "page": 12,
+   "reason": "Summary of prosecution reliance on eyewitnesses, site-plans, recoveries, and motive is supported."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "they are interested witnesses",
+   "page": 12,
+   "reason": "Defence arguments on related witnesses, non-examination and recoveries are supported."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "it is the duty of the prosecution to prove the case beyond reasonable doubt",
+   "page": 41,
+   "reason": "Principles on burden of proof and scrutiny of interested witnesses are supported."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Listed precedents match those marked as relied on; referred-to cases omitted, which is acceptable."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "No sentence imposed; convictions and death sentence set aside because prosecution failed to prove guilt beyond reasonable doubt",
+   "quote": "The conviction and death sentence imposed on the accused is totally unsustainable in law.",
+   "page": 42,
+   "reason": "Rationale is right, but the claim that a final sentence was imposed is wrong."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not list mitigating factors; 'None' is an unsupported assertion."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not identify aggravating factors; 'None' is unsupported."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Accused 1, 3, 4 directed to be released forthwith if not required in other offence; PW-1 appeal dismissed",
+   "quote": "Momin Khan (Accused No.1), Jaikam Khan (Accused No.3) and Sajid (Accused No.4) are directed to be released forthwith",
+   "page": 42,
+   "reason": "Court ordered release and dismissed PW-1's appeal; value says None."
+  }
+ }
+}

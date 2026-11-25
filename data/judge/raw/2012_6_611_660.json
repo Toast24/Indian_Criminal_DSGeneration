@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes five accused (A-1 to A-5)."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are referred to as male (he/his), consistent with 'Male'."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for any accused in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "partially_correct",
+   "correct_value": "A-1 was a domestic servant (described elsewhere as office peon); A-2 occupation not stated",
+   "quote": "accused No. 1 was working as domestic servant of Baldevraj Seth",
+   "page": 29,
+   "reason": "Applies only to A-1; A-1 also described as office peon; A-2 occupation not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Both male and female victims: Baldevraj Seth (male), Prabha Seth (female), son Rishab (male), daughter Kanika (female)",
+   "quote": "three members of his family (wife, son and daughter)",
+   "page": 1,
+   "reason": "Victims included both male and female members, not only male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age of the victim (Railway official) is given in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "A-1 was a domestic servant attached to the victim's bungalow with a grudge against the wife; A-2 was A-1's nephew",
+   "quote": "was attached to the bungalow of Shri Baldevraj Seth for the last 7 years",
+   "page": 17,
+   "reason": "Accused were not strangers; A-1 was the victim's domestic servant and A-2 his nephew."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under Section 302 IPC with related offences."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches A-2's convictions under ss.302 r/w 34, 201, 435, 411 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the accused were armed with knives and a pistol."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial evidence; forensic, fingerprint, ballistic, DNA, medical, neighbour/witness testimony, recoveries; no eye-witness; no dying declaration mentioned",
+   "quote": "there is no witness to the commission of crime",
+   "page": 6,
+   "reason": "Dying declaration is not mentioned; no eye-witness, and other evidence types are omitted."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Extra-judicial confessions not relied on by High Court; only admissible s.27 parts (recoveries) and doctor's history used",
+   "quote": "The High Court was right in not relying upon such confessions",
+   "page": 12,
+   "reason": "Confessions were largely not relied upon; only admissible portions used for recoveries."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Multiple murders, evidence destruction and false stories are supported; brutal manner also noted."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated for the appellant."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted all five accused."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court acquitted A-3 and A-4 and sustained convictions of A-1, A-2 and A-5."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed A-2's appeal, confirming conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murder under s.302 r/w 34 IPC confirmed against A-2."
+  },
+  "imprisonment_type": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment",
+   "quote": "is sentenced to suffer imprisonment for life for the offence U/s. 302 R/w 34 IPC",
+   "page": 22,
+   "reason": "A-2 was sentenced to life imprisonment, not a fixed term."
+  },
+  "imprisonment_years": {
+   "verdict": "incorrect",
+   "correct_value": "Not applicable (life imprisonment, no fixed years stated)",
+   "quote": "is sentenced to suffer imprisonment for life",
+   "page": 22,
+   "reason": "No 20-year term appears; sentence was life imprisonment."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned for the appellant."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only, without stating the appellate outcome (remove 'The Supreme Court confirmed the conviction...' and trial/High Court outcome sentences)",
+   "quote": "Dismissing the appeal",
+   "page": 6,
+   "reason": "Neutral facts reveal the court outcome by stating the Supreme Court confirmed the conviction."
+  },
+  "offence_severity": {
+   "verdict": "incorrect",
+   "correct_value": "Life imprisonment for A-2 under s.302 r/w 34; death sentence was imposed only on A-1 and later commuted",
+   "quote": "While A-1 was sentenced to death, A-2 to A-4 were sentenced to life imprisonment",
+   "page": 5,
+   "reason": "Value states a generic legal penalty, not the sentence actually imposed on A-2."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Murders were completed, as the victims were killed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Four family members killed; accused No. 3 suffered bullet injury."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "A-2 convicted of four offences (s.302 r/w 34, 201, 435, 411 IPC), all upheld",
+   "quote": "A-2 Under section 302, 302 R/w 34, 201, 435, 380 or alternatively 411 IPC",
+   "page": 22,
+   "reason": "Charges included alternatives; the four upheld convictions for A-2 are not clearly counted."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Cash of Rs.44,560 and gold ornaments taken from the almirah are supported."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the accused planned to kill the entire family."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Persistent grudge of A-1 towards the wife is the stated motive."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Forensic, blood stains, seized items, fingerprints and gold ornaments identification are all accepted."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found no occasion for witnesses to falsely depose; witness accounts found consistent and reliable."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Failure to explain injuries and false answers under s.313 CrPC are supported."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated."
+  },
+  "trial_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Offence 17 March 2003; trial judgment dated 24 January 2007; High Court judgment 28 March 2007; SC appeal dismissed",
+   "quote": "by a very detailed judgment dated 24th January, 2007",
+   "page": 22,
+   "reason": "Trial judgment date is stated in the judgment, not 'Not stated'."
+  },
+  "legal_representation": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant: A.T.M. Ranga Ramanujam, Gouri Karuna Das Mohanti, Deepak Agnihotri, Prakhar Sharma, Anu Gupta; Respondent: D. Mahesh Babu, Mayur R. Shah, Shishir Pinaki",
+   "quote": "A.T.M. Ranga Ramanujam, Gouri Karuna Das Mohanti, Deepak Agnihotri, Prakhar Sharma, Anu Gupta for the Appellant",
+   "page": 16,
+   "reason": "Counsel names for both sides are listed in the judgment."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charge-sheet was filed and trial was completed."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant's irregularity objections were rejected; no irregularity found by the court."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court, High Court and Supreme Court outcomes are accurately summarised; A-1's withdrawn SLP noted."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary of prosecution's chain of circumstances and evidence is consistent with the judgment."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence grounds (circumstantial weakness, fingerprints, ID parade delay) match the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Circumstantial evidence chain principle and s.313 CrPC adverse inference are correctly stated."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Includes Sanatan Naskar, Chandran, B.A. Umesh, Asraf Ali, Manu Sao, Sidhartha Vashisht, Balwinder Singh, Aloke Nath Dutta and others; Jadunath Singh and Malkhansingh only quoted within other judgments",
+   "quote": "Sana tan Naskar and Anr. v. State of West Bengal (2010) 8 sec 249 - referred to",
+   "page": 6,
+   "reason": "List is incomplete and includes Jadunath/Malkhansingh, which appear only as quoted within other judgments."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "Supreme Court only confirmed conviction; no separate sentencing rationale given; 'heinous crime' referred to in guilt analysis",
+   "quote": "the accused has not only failed to explain his conduct",
+   "page": 15,
+   "reason": "Court gave no separate sentencing reasoning; the stated rationale is drawn from guilt analysis."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors were recorded by the Supreme Court for A-2."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Crime committed in a most brutal manner; cutting throats of each deceased; heinous crime",
+   "quote": "They committed the crime in a most brutal manner by cutting the throat of each one of the deceased",
+   "page": 29,
+   "reason": "Judgment expressly identifies brutal manner of the killings as an aggravating feature."
+  },
+  "other_sentence_order": {
+   "verdict": "incorrect",
+   "correct_value": "Sentences for A-2 ordered to run concurrently",
+   "quote": "All the sentences shall run concurrently.",
+   "page": 22,
+   "reason": "Judgment records that all of A-2's sentences run concurrently."
+  }
+ }
+}

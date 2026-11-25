@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant with four others, totalling five accused, is supported."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as male throughout (he, his)."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "belonging to the age group of 18 to 25 years",
+   "page": 12,
+   "reason": "The 18-25 range describes the assailants as a group; the appellant's own age is never stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim P.W.9 is a woman, referred to as her and she."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "belonging to the age group of 18 to 25 years",
+   "page": 12,
+   "reason": "Victim's age is never stated; the 18-25 range describes the assailants."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not describe any relationship between accused and victim, so 'Stranger' is unsupported."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is dacoity/robbery under ss.395-397 IPC."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ss.395, 396 and 397 IPC are the provisions applied."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Knives, rods and wooden club are described as weapons used."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical and recovery/panchnama evidence are all relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deadly weapons, five persons, murder and grievous hurt are identified as aggravating elements."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are noted in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court convicted under ss.395, 396 and 397 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court dismissed the appeal and confirmed conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, so conviction stands."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Robbery, dacoity and murder are held to be established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rigorous imprisonment for life is imposed under s.396."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Life sentence carries no fixed years, so null is consistent."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "Rs.500/- for s.395; Rs.500/- for s.396; Rs.500/- for s.397",
+   "quote": "fine of Rs.500/-",
+   "page": 7,
+   "reason": "Fines of Rs.500/- are stated for each of the three offences, not null."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral facts without stating the trial or High Court outcome; accused apprehended with others, two juveniles and two absconding",
+   "quote": "The trial court convicted the appellant",
+   "page": 8,
+   "reason": "Facts reveal the court outcome. Also claims recovery of stolen items, which the judgment says was not made."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rigorous imprisonment for life under s.396 is the stated sentence."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Robbery and murder were completed, with the victim killed and robbed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Death of one victim and grievous injuries to the other are stated."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Three counts: ss.395, 396 and 397 IPC",
+   "quote": "convicted the appellant under each of the three counts",
+   "page": 2,
+   "reason": "Judgment describes three counts, not eight offences; value's '8 offences' conflicts with it."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "P.W.2 stated Rs.4,000-5,000 cash and the victim's ornaments were taken."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No premeditation or planning is discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is identified in the judgment."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accepted evidence is the victim's identification and P.W.2's and medical evidence, consistent with the conviction being upheld."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found P.W.9's identification unhesitant and her opportunity to observe ample."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Accused and others fled on a motorcycle and, when chased, abandoned it and ran into an open field",
+   "quote": "started running in the open field",
+   "page": 8,
+   "reason": "Judgment describes fleeing and running from police, so 'Not stated' is wrong."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence date, trial, High Court and Supreme Court dates all appear in the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Investigating officer filed the chargesheet, supporting completed investigation."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Absence of test identification parade; panch said wooden articles were not seized in his presence",
+   "quote": "without holding proper test identification parade",
+   "page": 9,
+   "reason": "Defence raised a missing identification parade and panch-witness gaps; 'None noted' omits these, though the court rejected them."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court convicted and sentenced; High Court dismissed appeal and confirmed conviction; Supreme Court dismissed appeal",
+   "quote": "dismissed the Criminal Appeal No.403 of 2005 and confirmed the conviction",
+   "page": 7,
+   "reason": "Trial court is wrongly described as confirming conviction; it was the court that convicted."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness identification, medical evidence, P.W.2's evidence on stolen cash and ornaments, and the seized motorcycle; no recovery of stolen items",
+   "quote": "due to inability of the police to arrest the two absconding accused, recoveries of those items were not placed before the Court",
+   "page": 10,
+   "reason": "Stolen items were not recovered; the value's claim of recovery of stolen items from the appellant is wrong."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Defence arguments on five-person ingredient, no recoveries and no identification parade match the judgment."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Five-or-more participation with murder or grievous hurt by deadly weapons is the principle applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Relied on: Dana Yadav, Simon, Daya Singh. Referred to: Suraj Pal. Distinguished: Mohd. Abdul Hafeez. Cited: Rafiq Ahmad",
+   "quote": "Suraj Pal v. State of Haryana 1994 (5) Suppl. SCR 373 = (1995) 2 sec 64 - referred to",
+   "page": 6,
+   "reason": "Suraj Pal was only referred to, not relied on; Rafiq Ahmad and Mohd. Abdul Hafeez treatment is omitted."
+  },
+  "sentencing_rationale": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment gives no sentencing rationale; the cited recovery of stolen items is also not supported."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The court identifies no mitigating factors."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Involvement of five persons, murder of the deceased, and grievous injuries inflicted on P.W.9",
+   "quote": "having regard to the involvement of number of persons and the murder of Sharad and the grievous injuries inflicted upon P.W.9",
+   "page": 15,
+   "reason": "Court expressly relies on number of persons, murder and grievous injuries, so 'None' is contradicted."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No other sentencing order is described; appeal is simply dismissed."
+  }
+ }
+}

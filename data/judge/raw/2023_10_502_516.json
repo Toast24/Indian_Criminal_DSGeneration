@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption exactly."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "Eight accused charge-sheeted; three respondents before the Court",
+   "quote": "police filed a chargesheet ... against eight accused including the respondents-accused herein",
+   "page": 7,
+   "reason": "Value counts only the three respondents; the chargesheet names eight accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are named with 'S/o' (son of), indicating male; supported."
+  },
+  "accused_age": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "Vikash Panwar, aged 25 years at the time",
+   "page": 6,
+   "reason": "The age of 25 belongs to the deceased, Vikash Panwar; accused ages are not stated."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not stated in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not stated in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of accused is not stated in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No accused's criminal record is mentioned; judgment only lists it as a general factor."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased Vikash Panwar is referred to as the elder brother; male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the deceased was aged 25 at the time."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not stated in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not stated in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused are relatives of Nirma (deceased's live-in partner), not stated as relatives of the deceased",
+   "quote": "Budharam and Vikas Vishnoi, Nirma's brothers, Shrawan Jani, Nirma's husband",
+   "page": 6,
+   "reason": "Accused are tied to Nirma, not shown to be relatives of the deceased."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges are under s.302 IPC for murder; supported."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "IPC ss.302, 120B and Arms Act ss.3, 25, 27 match the judgment."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment refers to a country-made pistol and its butt being used."
+  },
+  "evidence_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Eyewitness statements, CCTV footage, weapon and phone recovery, call tower records (as submitted by State)",
+   "quote": "statements of eye-witnesses ... CCTV footage ... recovered murder weapons, phones",
+   "page": 8,
+   "reason": "Medical and circumstantial evidence are not mentioned; 'medical' is unsupported."
+  },
+  "confession": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not mention any confession; 'None' asserts an absence it does not state."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Honour killing, conspiracy, weapon use and multiple accused all appear in the judgment's facts."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identifies no mitigating circumstances; defence points are only arguments."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court dismissed Vikas Vishnoi's regular bail application on 10 November 2021."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court granted bail to the respondents in its impugned orders."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeals allowed; High Court bail orders set aside; accused directed to surrender",
+   "quote": "the impugned judgments dated 14 February, 2022 and 02 February, 2023 ... are set aside. The appeals are allowed.",
+   "page": 15,
+   "reason": "No acquittal; Supreme Court set aside bail orders and ordered surrender."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Not stated; only prima facie case noted, trial ongoing",
+   "quote": "we are not inclined to hold at this juncture that the prosecution has not established a prima-facie case",
+   "page": 14,
+   "reason": "No offence is finally established; the court only found a prima facie case."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence was imposed; accused are on trial."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term was imposed."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine was imposed."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Neutral summary of facts without the Supreme Court's outcome; accused described as relatives of the deceased's partner, not of the deceased",
+   "quote": "the appeals are allowed ... Their bail bonds stand cancelled",
+   "page": 15,
+   "reason": "States the Supreme Court's outcome, which neutral facts must not reveal, and wrongly calls accused relatives of the deceased."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel submitted offences could result in life imprisonment or death penalty."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased was shot dead, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Deceased died from shooting, so death was caused."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "Charged: IPC s.302 and s.120B; Arms Act ss.3, 25, 27 for Budharam; no offence finally upheld",
+   "quote": "Respondent-accused, Budharam was charged for offences punishable under Sections 302 and 120B of the IPC",
+   "page": 7,
+   "reason": "No offences were finally upheld; the trial is ongoing and charges only are recorded."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution alleged conspiracy and reconnaissance; court made no finding on planning",
+   "quote": "the acts of reconnaissance that were carried out by the accused before the alleged fateful incident",
+   "page": 14,
+   "reason": "Court noted alleged reconnaissance prima facie and expressed no finding on merits."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Incident is stated to be an instance of honour killing, linked to the extra-marital relationship."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Court noted adequate material prima facie pointing to guilt; it accepted no evidence and expressed no merits opinion",
+   "quote": "while not expressing any opinion on the merits of the case, that the prosecution has brought on record adequate material",
+   "page": 14,
+   "reason": "Court did not 'accept' evidence; it only found prima facie material while expressing no merits opinion."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court noted Nirma turned hostile and could not rule out witness influence or tampering."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged: accused seen on CCTV escaping crime scene (State submission); no bail-condition violation alleged",
+   "quote": "wherein they were seen escaping the crime scene",
+   "page": 8,
+   "reason": "Escape from scene is alleged by State, so 'Not stated' is inaccurate."
+  },
+  "custody_duration": {
+   "verdict": "partially_correct",
+   "correct_value": "Arrested 22 May 2020 (Budharam) and 30 May 2020 (others); in judicial custody; not an inordinate period",
+   "quote": "Budharam was arrested on 22 May, 2020 while respondents-accused, Rajendra Bishnoi and Vikas Vishnoi were arrested on 30 May, 2020",
+   "page": 6,
+   "reason": "Arrest dates and custody are stated, so duration is not wholly unstated."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Covers High Court bail grants and subsequent orders for Budharam and Rajendra Bishnoi."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, chargesheet, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel listing matches the judgment's appearance block."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, chargesheet dates and ongoing trial are supported."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found High Court bail order cryptic and casual without considering material aspects."
+  },
+  "appeal_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court dismissed Vikas Vishnoi's bail application; High Court granted bail; Supreme Court set aside orders and cancelled bail bonds",
+   "quote": "The same was dismissed by an Order dated 10 November, 2021",
+   "page": 7,
+   "reason": "Trial court rejection applied only to Vikas Vishnoi, not all respondents."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant argued lack of reasoning, ignored material, and serious offence with strong evidence."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court was right; accused entitled to liberty; no misuse of bail or justified fear of witness influence",
+   "quote": "the High Court was right in enlarging the accused on bail",
+   "page": 9,
+   "reason": "Claim that merits need not be considered in detail is not a defence argument."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court applied liberty versus seriousness factors and held reasonless bail orders illegal."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "All ten cases listed match those referred to in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing occurred, so no sentencing rationale applies."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court identified no mitigating factors in favour of the accused."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Seriousness of allegations; honour killing; active participation; severity of punishment; risk of witness influence",
+   "quote": "the allegations against the respondents-accused is not only that they were involved in a conspiracy",
+   "page": 14,
+   "reason": "Court did identify aggravating factors, including honour killing, active participation and witness-influence risk."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appeals allowed, High Court orders set aside, bail bonds cancelled, surrender within two weeks."
+  }
+ }
+}

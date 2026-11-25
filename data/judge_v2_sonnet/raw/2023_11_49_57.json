@@ -1,0 +1,20 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "he saw two boys coming out of the room of deceased Hoshiyar Singh",
+   "page": 5,
+   "reason": "The accused are described as 'boys' and Prem Singh is 'son'/'he', so male gender is stated."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Circumstantial case requires an unbroken chain of circumstances; the prosecution mainly relies on the testimony of PW-20 and PW-21.",
+   "quote": "the prosecution mainly relies on the testimony of Jai Singh (PW-20) and Naresh Kumar (PW-21).",
+   "page": 4,
+   "reason": "Counsel's submission did not call the testimony unreliable; that is the Court's finding, not the argument recorded."
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "MAJOR SINGH v. STATE OF PUNJAB & ANR.",
+   "page": 1,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "There is only one accused and one injury was given by the accused.",
+   "page": 6,
+   "reason": "Judgment states there is only one accused."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant ... who is real nephew of the deceased",
+   "page": 6,
+   "reason": "Accused is referred to with male pronouns and as a nephew."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age for the appellant appears anywhere in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of the accused is not mentioned."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of the accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the accused is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Makhan Singh, father of Sukhraj Singh (complainant)",
+   "page": 2,
+   "reason": "Victim is a male uncle, referred to as father and with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "an old and feeble man",
+   "page": 6,
+   "reason": "Judgment describes the victim as old and feeble but gives no age of 65."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Parties are relatives.",
+   "page": 6,
+   "reason": "Accused was the nephew of the deceased uncle."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "conviction under section 304 Part-II IPC",
+   "page": 10,
+   "reason": "Final conviction is for culpable homicide not amounting to murder."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 (High Court conviction); s.304 Part-II (Supreme Court conviction); s.300 Exception 4 considered",
+   "quote": "The appellant is convicted under Section 304 Part-II IPC.",
+   "page": 10,
+   "reason": "Omits s.302 under which the High Court convicted and the Exception 4 argument."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "holding a wooden 'Bahi' (wooden side of a cot frame)",
+   "page": 2,
+   "reason": "Weapon is the wooden cot leg, called Bahi, and was recovered."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the main injury was on the head ... both the eye witnesses ... The recovery of 'Bahi'",
+   "page": 6,
+   "reason": "Medical, eyewitness and recovery evidence are all relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "he confessed about the concealment of 'Bahi' by him in the wheat chaff room",
+   "page": 3,
+   "reason": "Confession about hiding the Bahi is recorded, and the Bahi was recovered."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "High Court noted blow with great force on head of an old and feeble man, and grudge from previous quarrel",
+   "quote": "the manner in which the appellant gave a blow of wooden arm of cot ('Bahi') with great force on the head of an old and feeble man",
+   "page": 6,
+   "reason": "Judgment records aggravating points considered by the High Court, so 'Not stated' is wrong."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Provocation by uncle's reprimand the previous day; single blow; non-dangerous weapon; no intention to kill",
+   "quote": "He was furious about getting yelled by his uncle a day before, which acted as a provocation",
+   "page": 10,
+   "reason": "Judgment expressly lists provocation, single blow and non-dangerous weapon as mitigating points."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The learned Additional Sessions Judge, Muktsar vide order 13.07.2001, acquitted the appellant",
+   "page": 4,
+   "reason": "Trial court acquitted the accused."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appellant was convicted under section 302 IPC",
+   "page": 2,
+   "reason": "High Court convicted under s.302 IPC."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the Appeals are partly allowed. The judgment of the High Court is modified",
+   "page": 10,
+   "reason": "Supreme Court partly allowed appeal and modified the conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the deceased is not liable to be convicted under section 302 IPC but would be liable to be convicted under section 304 Part-II IPC",
+   "page": 10,
+   "reason": "Final established offence is culpable homicide not amounting to murder."
+  },
+  "imprisonment_type": {
+   "verdict": "partially_correct",
+   "correct_value": "Sentence of period already undergone (time served), not a stated fixed term",
+   "quote": "awarded sentence of the period already undergone",
+   "page": 10,
+   "reason": "Sentence is time already served; 'fixed_term' is an inference the judgment does not state."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "More than eight years (period already undergone)",
+   "quote": "He has already undergone more than eight years of incarceration.",
+   "page": 10,
+   "reason": "Judgment says more than eight years, not exactly 8, and sentence is time served."
+  },
+  "fine_rs": {
+   "verdict": "incorrect",
+   "correct_value": "5000",
+   "quote": "pay fine of Rs.5,000/-",
+   "page": 2,
+   "reason": "High Court fine of Rs.5,000 was retained, so null is wrong."
+  },
+  "neutral_facts": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Facts are accurate and do not reveal the Supreme Court outcome."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No severity rating is stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The deceased died due to the injury caused by accused.",
+   "page": 6,
+   "reason": "Offence was completed with death of the victim."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the cause of death was due to shock and hemorrhage as a result of head injury",
+   "page": 3,
+   "reason": "Eight injuries, main head injury, and death from shock and haemorrhage are stated."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "One offence; charged and convicted by High Court under s.302 IPC; Supreme Court convicted under s.304 Part-II",
+   "quote": "the appellant was convicted under section 302 IPC",
+   "page": 2,
+   "reason": "Value wrongly says High Court convicted under s.304; it was s.302."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is mentioned, so the not-applicable value fits."
+  },
+  "premeditation_planning": {
+   "verdict": "partially_correct",
+   "correct_value": "Supreme Court did not expressly find no premeditation; High Court held the attack was not sudden and arose from a grudge",
+   "quote": "the occurrence had not taken place all of a sudden and without any predetermination",
+   "page": 6,
+   "reason": "Supreme Court does not expressly find lack of premeditation; High Court reasoning points the other way."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Maybe he wanted to punish his uncle for the reprimand, he received the previous day.",
+   "page": 10,
+   "reason": "Motive of punishing the uncle for the reprimand is stated, though tentatively."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The recovery of 'Bahi', i.e. the weapon used to cause the fatal injury",
+   "page": 6,
+   "reason": "Post-mortem, eyewitness and weapon recovery evidence were accepted as established."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court found the ocular version truthful and trustworthy, supported by medical evidence; trial court had found eyewitnesses not credible",
+   "quote": "Ocular version is truthful and trust worthy and is fully supported by the medical evidence.",
+   "page": 6,
+   "reason": "This is the High Court's finding, not the Supreme Court's, and the trial court had disbelieved the witnesses."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Ran away from the spot after the blow; surrendered after the High Court conviction on 04.10.2014",
+   "quote": "Major Singh ran away from the spot with the 'Bahi'",
+   "page": 3,
+   "reason": "Surrender is correct, but the flight from the spot is omitted."
+  },
+  "custody_duration": {
+   "verdict": "incorrect",
+   "correct_value": "Arrested 09.08.1998; released 13.07.2001 after acquittal; re-surrendered 04.10.2014; over eight years incarceration",
+   "quote": "The appellant was arrested on 09.08.1998 and was released on 13.07.2001",
+   "page": 10,
+   "reason": "Judgment states custody dates and total incarceration, so 'Not stated' is wrong."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail is not mentioned; release followed acquittal and is not described as bail."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "order 13.07.2001 ... 03.04.2014 ... 16.06.2022",
+   "page": 2,
+   "reason": "Offence, trial, High Court and Supreme Court dates match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Gagan Gupta, Adv. for the Appellant. R. K. Rathore, Ms. Jaspreet Gogia, Advs. for the Respondents.",
+   "page": 2,
+   "reason": "Counsel names match the judgment."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR registered; police investigation with site plan and recovery; case committed to Sessions Court 13.10.1998; trial completed",
+   "quote": "the case was committed to the Sessions Court, vide order dated 13.10.1998",
+   "page": 3,
+   "reason": "A charge sheet filing is not expressly stated; committal to Sessions Court is recorded."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court noted 4½-hour FIR delay and late arrest; High Court held these not fatal",
+   "quote": "There was a delay of 4½ hours in recording the FIR.",
+   "page": 4,
+   "reason": "Irregularities were raised by the trial court, though the High Court found them not material."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the appeal and revision petition were allowed, the acquittal by the Trial Court was set aside",
+   "page": 2,
+   "reason": "Trial acquittal, High Court conviction under s.302, and Supreme Court modification match."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the death of the deceased was homicidal",
+   "page": 6,
+   "reason": "Summary of prosecution case on homicide, eyewitnesses, post-mortem and recovery is supported."
+  },
+  "defence_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "Counsel pleaded in the alternative for culpable homicide not amounting to murder (s.304); accused claimed false implication",
+   "quote": "as has been pleaded by the counsel for the appellant in the alternative",
+   "page": 7,
+   "reason": "Lack of intention and weapon points are the court's reasoning, not recorded defence arguments."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Intention is pivotal to decide whether the accused has committed culpable homicide amounting to murder",
+   "page": 10,
+   "reason": "Accurately reflects the intention, knowledge and degree test applied."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "Mohd. Rafiq v. State of Madhya Pradesh, (2021) 10 SCC 706 – referred to.",
+   "page": 1,
+   "reason": "Precedent citation matches the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "partially_correct",
+   "correct_value": "s.304 Part-II chosen for lack of intention to kill and single blow; sentence reduced because more than eight years already undergone",
+   "quote": "His sentence shall be reduced from life imprisonment to period already undergone.",
+   "page": 10,
+   "reason": "Omits the custody-period reason for reducing the sentence."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Provocation by previous day's reprimand; lack of intention; single blow; non-dangerous weapon",
+   "quote": "He was furious about getting yelled by his uncle a day before, which acted as a provocation",
+   "page": 10,
+   "reason": "Lack of premeditation is not listed as a mitigating factor by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court identifies no aggravating factors; High Court's aggravating points are not adopted."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "The appellant may be released forthwith, if he is not wanted in any other criminal case. ... fine imposed by the High Court would remain as it is.",
+   "page": 10,
+   "reason": "Sentence reduction, release and fine retention are accurately stated."
+  }
+ }
+}

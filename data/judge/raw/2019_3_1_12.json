@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states all four accused were acquitted by the trial court."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant referred to with male pronouns ('found him guilty')."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the appellant."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant's occupation is not stated in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not stated in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim (Captain Vinod Rawat) referred to as male with 'he'."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the deceased Captain."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": "PW-13 stated that he did not know the appellant previously",
+   "page": 9,
+   "reason": "Judgment does not describe the victim-accused relationship; 'Stranger' is an inference."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Headnote and charges concern murder, with conviction reduced to s.304 Part II."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.304 Part II (conviction); charged under ss.302 and 325 r/w s.34 IPC and ss.37, 135 Bombay Police Act",
+   "quote": "tried for offences under Sections 302 and 325 read with Section 34 of the India Penal Code",
+   "page": 4,
+   "reason": "Omits original charges under ss.302, 325 r/w 34 and Bombay Police Act provisions."
+  },
+  "weapon": {
+   "verdict": "partially_correct",
+   "correct_value": "Gupti (PW-13 and dying declaration also describe a knife)",
+   "quote": "assaulted with a weapon in the nature of a knife on the left side of his body",
+   "page": 9,
+   "reason": "Judgment refers to a gupti but PW-13 and dying declaration describe a knife; inconsistency omitted."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dying declaration, eyewitness PW-13, medical and recovery evidence are all relied on."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by the appellant is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Not stated",
+   "quote": "since the incident had been preceded by a quarrel, the case would not attract the provisions of Section 302",
+   "page": 11,
+   "reason": "Quarrel was the reason for reducing the offence to s.304 Part II, not an aggravating factor."
+  },
+  "mitigating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Incident was preceded by a quarrel, leading to s.304 Part II instead of s.302",
+   "quote": "since the incident had been preceded by a quarrel, the case would not attract the provisions of Section 302",
+   "page": 11,
+   "reason": "Judgment's preceding quarrel was the basis for reduced conviction, so 'None noted' is wrong."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court acquitted all accused including the appellant."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court convicted appellant under s.304 Part II."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court dismissed the appeal, upholding the conviction."
+  },
+  "offence_finally_established": {
+   "verdict": "partially_correct",
+   "correct_value": "Offence under s.304 Part II IPC",
+   "quote": "convicted the appellant under Section 304 Part II",
+   "page": 11,
+   "reason": "Judgment states s.304 Part II; the phrase 'culpable homicide not amounting to murder' does not appear."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentence described as rigorous imprisonment for a fixed five-year period."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states imprisonment for five years."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states a fine of INR 2,000/-."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "The victim and his colleague were chased by the accused after a quarrel at a hotel, and the victim was assaulted.",
+   "quote": "the case is that they were chased and were assaulted",
+   "page": 4,
+   "reason": "Summary inverts the chase: the accused chased the victim and colleague, not the reverse."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Sentencing range for the offence is not stated in the judgment."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim died, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Stab injury to the victim's body led to death; medical evidence consistent."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged under ss.302 and 325 r/w s.34 IPC and ss.37, 135 Bombay Police Act; conviction only under s.304 Part II",
+   "quote": "tried for offences under Sections 302 and 325 read with Section 34 of the India Penal Code",
+   "page": 4,
+   "reason": "Four provisions were charged, but the 'four offences' framing is loose; charges are not itemised."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or financial loss is discussed in the judgment."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state premeditation; incident arose from a quarrel."
+  },
+  "motive": {
+   "verdict": "partially_correct",
+   "correct_value": "Quarrel at the hotel between the accused and the two visitors (chilli powder thrown into eyes)",
+   "quote": "a quarrel took place at the hotel between the accused and the two visitors",
+   "page": 4,
+   "reason": "Judgment identifies the quarrel as the precipitating context, so 'Not identified' is incomplete."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's reasoning on dying declaration, PW-13, clothes, blood group and medical evidence."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the court's treatment of PW-13 and the hostile panch witnesses."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant ran away after the assault (per PW-13)",
+   "quote": "The appellant thereafter ran away.",
+   "page": 9,
+   "reason": "PW-13's evidence states the appellant ran away after the assault."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Arrest time is given, but no custody duration is stated."
+  },
+  "bail_history": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant was released on bail during the pendency of the proceedings; bail bonds cancelled on dismissal",
+   "quote": "the appellant has been released on bail during the pendency of these proceedings",
+   "page": 12,
+   "reason": "Judgment states the appellant was released on bail during the appeal."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates of offence, trial judgment, High Court and Supreme Court decisions match."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Named counsel for appellant and State match the judgment's counsel listing."
+  },
+  "investigation_status": {
+   "verdict": "partially_correct",
+   "correct_value": "FIR under ss.326, 307 r/w s.34; investigation extended to s.302 after victim's death; trial completed",
+   "quote": "an offence was registered under Sections 326 and 307 read with Section 34 of the Penal Code",
+   "page": 4,
+   "reason": "Charge sheet filing is not stated; investigation extension to s.302 is omitted."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Trial court noted investigation discrepancies; defence alleged no identification parade and non-examination of witnesses, which the court did not accept",
+   "quote": "noting the discrepancies in the investigation",
+   "page": 5,
+   "reason": "Discrepancies and identification parade lapses were raised and noted, though the court did not treat them as irregularities."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial acquittal, High Court conviction under s.304 Part II and Supreme Court dismissal match."
+  },
+  "prosecution_argument": {
+   "verdict": "partially_correct",
+   "correct_value": "State relied on PW-13's evidence, the dying declaration and the investigating officer's evidence (PW-14); perversity of acquittal",
+   "quote": "the appreciation of the evidence by the trial court was evidently perverse",
+   "page": 6,
+   "reason": "Medical evidence was the court's finding, not a State argument; investigating officer's evidence is omitted."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the defence submissions on discrepancies, identification, hostile witnesses and non-examined witnesses."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Perversity and miscarriage of justice principle matches para 23, with Chandrappa and Gopal Reddy as sources."
+  },
+  "precedent_relied_upon": {
+   "verdict": "partially_correct",
+   "correct_value": "Relied upon: K Gopal Reddy (1979) and Chandrappa (2007). Referred to: Mookiah (2013), Murugesan (2012), Prem Singh (2013).",
+   "quote": "relied on ... referred to",
+   "page": 3,
+   "reason": "Headnote distinguishes relied-upon from referred-to cases; the value lists all five as relied upon."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Matches the High Court's quarrel-based reasoning and beyond-reasonable-doubt finding."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "incorrect",
+   "correct_value": "Incident was preceded by a quarrel, which led to s.304 Part II instead of s.302",
+   "quote": "since the incident had been preceded by a quarrel, the case would not attract the provisions of Section 302",
+   "page": 11,
+   "reason": "The quarrel was judicially treated as a basis for reducing the offence, so 'None' is wrong."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court does not identify any aggravating factors; the State's army-officer argument was not adopted."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment orders surrender to undergo sentence and cancels bail bonds."
+  }
+ }
+}

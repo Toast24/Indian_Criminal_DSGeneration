@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment's caption."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court decides liability of the two appellants, Anuj Singh and Manoj Singh."
+  },
+  "accused_gender": {
+   "verdict": "incorrect",
+   "correct_value": "Male",
+   "quote": "Manoj Singh went to his house and came back again along with co-accused Anuj Singh",
+   "page": 5,
+   "reason": "The judgment uses male pronouns for the accused, so 'Not stated' is contradicted."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of the accused is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No religious identity of the accused is stated."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No caste or community of the accused is named."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Manoj Singh's government job as junior engineer is stated in the defence evidence and PW-4's testimony."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No wealth or class statement about the accused appears."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The informant-victim is referred to with male pronouns and is a male."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not named."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not stated."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes Manoj Singh as neighbour and notes previous enmity over a land dispute."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final offence is voluntarily causing hurt by dangerous weapon (s.324), though originally charged as attempt."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged: IPC s.307 and Arms Act s.27 (appellants); trial court convicted under IPC s.307 r/w s.34 and Arms Act s.27; finally upheld: IPC s.324 and Arms Act s.27",
+   "quote": "charge-sheet against the two appellants, Anuj Singh and Manoj Singh, under Section 307 IPC read with Section 27 of the Arms Act",
+   "page": 5,
+   "reason": "Appellants were charged without s.34; s.34 applied only to co-accused in the charge, though the trial court convicted with s.34."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Guns used by the appellants; spears and lathis used by co-accused, as stated."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Eyewitness, medical and alibi evidence are the main categories discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession or admission by the accused is relied on."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Firearm use in an altercation over land is the aggravating fact the court relied on."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "the injuries were inflicted on the non-vital part of the body of the Informant",
+   "page": 12,
+   "reason": "Court expressly records injuries on non-vital parts of the body."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court sentences of 5 years RI with Rs.5,000 fine and 3 years RI with Rs.2,000 fine match the judgment."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court modified s.307/34 to s.324 with 2 years RI and confirmed the Arms Act conviction and sentence."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction modified from s.307/34 to s.324, with Arms Act conviction upheld."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court holds s.324 IPC and s.27 Arms Act established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sentences are fixed-term rigorous imprisonment."
+  },
+  "imprisonment_years": {
+   "verdict": "partially_correct",
+   "correct_value": "3 years under Arms Act s.27; 2 years RI under s.324 IPC (concurrency not stated)",
+   "quote": "awarded two years rigorous imprisonment with a fine of Rs.5,000/- and three months simple imprisonment",
+   "page": 4,
+   "reason": "Value gives only the Arms Act term; the 2-year s.324 sentence also stands and concurrency is not addressed."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Rs.5,000 under s.324 plus Rs.2,000 under Arms Act s.27 totals Rs.7,000."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "Summary should avoid gender pronouns (e.g. 'his house', 'he was posted'); the facts are otherwise accurate and do not reveal outcome.",
+   "quote": "went to his house and returned with a second man",
+   "page": 5,
+   "reason": "Facts are accurate and outcome-neutral, but gender pronouns 'his' and 'he' violate the no-pronoun rule."
+  },
+  "offence_severity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": "shall be punished with imprisonment for a period of three years, or with fine",
+   "page": 14,
+   "reason": "Judgment states s.324 punishment as up to three years, or fine, or both; minimum not stated."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Hurt was actually caused by firing, so the offence is completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Doctor records firearm entry and exit wounds to forearm and leg, simple in nature, with charring at one site."
+  },
+  "number_of_offences": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Two sections charged (s.307, Arms Act s.27); two finally upheld (s.324, Arms Act s.27)."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No property or money loss is mentioned."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court describes the firing as arising from an altercation; no planning finding is made."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepts previous enmity over land dispute and the altercation over the wall repair."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Consistent eyewitness testimony and PW-8's firearm injury evidence were relied on."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court holds minor contradictions do not discredit witnesses and rejects the alibi."
+  },
+  "post_offence_conduct": {
+   "verdict": "partially_correct",
+   "correct_value": "Accused fled the scene when villagers arrived, per the fardbeyan and PW-3/PW-4 testimony",
+   "quote": "all the accused persons ran away from the place of occurrence",
+   "page": 8,
+   "reason": "Flight from the scene is recorded in the witness evidence, so 'Not stated' omits it."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody period is not mentioned."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates for offence, trial judgment, High Court and Supreme Court match the judgment."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant and respondent counsel listed match the judgment's appearance block."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR, charge-sheet, cognizance, committal and completed trial are all stated."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Delayed FIR forwarding was raised by the defence; the court did not decide it."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court modification and Supreme Court dismissal are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Respondent and intervenor argued the High Court rightly convicted and no interference was needed."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No recovery of guns or bullets, FIR delay and contradictions were the defence points."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court applied minor-contradiction, medical corroboration and s.324 ingredients, with s.27 following."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Only Narayan Chetanram Chaudhary v. State of Maharashtra (2000) 8 SCC 457 is cited."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court gives no separate sentencing rationale; 'Not applicable' fits."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court does not weigh mitigating factors for sentence."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court does not weigh aggravating factors for sentence."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No compensation, directions or other orders are made."
+  }
+ }
+}

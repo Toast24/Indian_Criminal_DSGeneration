@@ -1,0 +1,377 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Three accused are named: the appellant (A1), her husband (A2) and mother-in-law (A3)."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The appellant is referred to as a woman throughout."
+  },
+  "accused_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no age for the appellant."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation of the appellant is not stated."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No socioeconomic status of the appellant is stated."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "partially_correct",
+   "correct_value": "Female (Mandabai, Nikita); male (Akash, aged 5)",
+   "quote": "their son Akash got burnt to death inside the house",
+   "page": 6,
+   "reason": "Primary deceased Mandabai and Nikita are female, but victim Akash was male."
+  },
+  "victim_age": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "No age is given for Mandabai; only children's ages (5 and 2) are stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "partially_correct",
+   "correct_value": "Co-wife (husband's second wife) of Mandabai; step-mother to her children",
+   "quote": "the appellant was also living with her husband and Mandabai, the wife from the first marriage",
+   "page": 6,
+   "reason": "Appellant was a co-wife, not a spouse, of Mandabai; step-mother relation to children omitted."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence is murder under s.302 IPC, with arson under s.436."
+  },
+  "statutory_provisions": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Convictions were under Sections 302 and 436 IPC."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Kerosene was the substance alleged to have been used to set the fire."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Circumstantial evidence, medical evidence, and recovery panchnamas are all relied on."
+  },
+  "confession": {
+   "verdict": "partially_correct",
+   "correct_value": "Alleged extra-judicial confession to PW-1 (father-in-law), disbelieved by High Court",
+   "quote": "the extra-judicial confession stated to have been made to him that she had sprinkled kerosene",
+   "page": 7,
+   "reason": "An alleged extra-judicial confession existed but was disbelieved; 'None' omits it."
+  },
+  "aggravating_circumstances": {
+   "verdict": "incorrect",
+   "correct_value": "Court described the incident as gruesome and unpardonable, resulting in deaths of three persons, two of them small children",
+   "quote": "is certainly gruesome as it resulted in the death of three persons of which two were small children",
+   "page": 10,
+   "reason": "Judgment does describe the incident in aggravating terms, contrary to 'Not stated'."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sessions Court convicted the appellant under ss.302 and 436 IPC."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal dismissed; conviction under ss.302 and 436 IPC affirmed",
+   "quote": "the High Court has dismissed the appeal filed by the appellant herein",
+   "page": 5,
+   "reason": "High Court did have an outcome: it dismissed the appeal and affirmed conviction."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed the appeal and the appellant was acquitted."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Conviction was set aside, so no offence was finally established."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence of imprisonment survived; appellant was set at liberty."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is stated in the final order."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned in the judgment."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only, without stating the Supreme Court's outcome or reasoning on the result",
+   "quote": "but the Supreme Court overturned it, finding that the chain of circumstantial evidence was incomplete",
+   "page": 1,
+   "reason": "Facts summary reveals the court outcome, which the neutral_facts field must not do."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment does not state the punishment range under s.302 IPC."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The deaths occurred, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "incorrect",
+   "correct_value": "Three deaths: Mandabai (first wife), Akash (son, burnt inside house) and Nikita (daughter); Mandabai and Nikita died next day from burns",
+   "quote": "Mandabai the first wife of Gulab and their daughter Nikita rushed out of the house with burn injuries, while their son Akash got burnt to death",
+   "page": 6,
+   "reason": "Value omits that first wife Mandabai died; it misstates who died and who was burnt."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Two offences (ss.302 and 436 IPC) convicted by courts below; number of counts charged not stated",
+   "quote": "convicting the appellant in respect of the offence punishable under Section 302 and 436",
+   "page": 5,
+   "reason": "Two convictions are correct, but 'three counts charged' is not stated in the judgment."
+  },
+  "financial_property_loss": {
+   "verdict": "incorrect",
+   "correct_value": "House and adjoining cowshed destroyed by the fire",
+   "quote": "the fire accident was of the nature which had destroyed the entire house and also the adjoining cowshed etc.",
+   "page": 15,
+   "reason": "Judgment states the house and cowshed were destroyed, so 'Not applicable' is contradicted."
+  },
+  "premeditation_planning": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not expressly find absence of premeditation or planning."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Alleged motive: second marriage, desire for domestic dominance, and maintenance arrangement for first wife; held not a strong motive",
+   "quote": "The High Court has further held the second marriage; the desire for domestic dominance and the execution of document for maintenance",
+   "page": 15,
+   "reason": "Motive was alleged by courts below and addressed, though rejected as strong; 'Not identified' misstates this."
+  },
+  "key_evidence_accepted": {
+   "verdict": "partially_correct",
+   "correct_value": "Kerosene residues on frock of Nikita was the sole circumstance noted; can recovery was disbelieved by High Court for not being sent for chemical analysis",
+   "quote": "the High Court has in its earlier part of the reasoning disbelieved the recovery of the can",
+   "page": 11,
+   "reason": "Can recovery was disbelieved, not merely considered; value omits this."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "High Court disbelieved PW-1 and extra-judicial confession; oral dying declaration to PW-2 disbelieved by trial court and approved by High Court",
+   "quote": "the High Court had discarded the extra-judicial confession and further disbelieved the evidence of PW-1",
+   "page": 7,
+   "reason": "Attributes disbelief to 'the court' generally; the High Court did it, and dying declarations were treated differently."
+  },
+  "post_offence_conduct": {
+   "verdict": "incorrect",
+   "correct_value": "Appellant came out unscathed and shouted; High Court held she did not try to alarm or save the deceased",
+   "quote": "she did not try to alarm the deceased Mandabai and her children to leave the house so as to save them from fire",
+   "page": 8,
+   "reason": "Post-offence conduct is described in the judgment, contrary to 'Not stated'."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated."
+  },
+  "bail_history": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant was on interim bail when the Supreme Court ruled; bail bond discharged",
+   "quote": "The appellant Parubai who is on interim bail is set at liberty and her bail bond shall stand discharged",
+   "page": 16,
+   "reason": "Judgment states interim bail status, so 'Not stated' is incomplete."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance list."
+  },
+  "investigation_status": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not state that a charge sheet was filed."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Kerosene can recovered but not sent for chemical analysis; its recovery was disbelieved",
+   "quote": "the said can had not been sent for chemical analysis",
+   "page": 11,
+   "reason": "A procedural lapse (no chemical analysis of can) is noted, so 'None noted' is incomplete."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial conviction, High Court affirmance, and Supreme Court allowance match the judgment."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Prosecution case on kerosene, non-injury, and motive reflects the courts' findings as recorded."
+  },
+  "defence_argument": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not record defence arguments; the kerosene-in-house point is the court's own observation."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment applies the chain-of-circumstances and 'must be true, not may be true' principle."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sharad Birdhichand Sarda and Devilal are the cases relied on."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale applies since the appellant was acquitted."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on natural flight reaction, lack of direct evidence, and incomplete chain."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "partially_correct",
+   "correct_value": "Court called the incident gruesome and unpardonable, but no aggravating factors were weighed for sentence",
+   "quote": "is certainly gruesome as it resulted in the death of three persons",
+   "page": 10,
+   "reason": "Court described the incident in aggravating terms, so 'None' is incomplete."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellant set at liberty; bail bond discharged; pending applications disposed of",
+   "quote": "The appellant Parubai who is on interim bail is set at liberty and her bail bond shall stand discharged",
+   "page": 16,
+   "reason": "Final order includes release and bail discharge, so 'None' is incomplete."
+  }
+ }
+}

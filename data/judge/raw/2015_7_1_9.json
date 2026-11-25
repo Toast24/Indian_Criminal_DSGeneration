@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Title matches the judgment caption, with the respondent's SHO designation omitted but otherwise consistent."
+  },
+  "number_of_accused": {
+   "verdict": "incorrect",
+   "correct_value": "At least 4 accused (A-1 to A-4 referenced)",
+   "quote": "A-2 and A-4 also doing so with a stick and stone.",
+   "page": 6,
+   "reason": "Judgment refers to A-2, A-3 and A-4 individually, so the count is at least four, not three."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused are named with male names and honorifics such as 'Pathe Sab', supporting male."
+  },
+  "accused_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No age of any accused is stated in the judgment."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion of accused is not stated; names alone are not treated as a statement of religion."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste of accused is not mentioned."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused occupation is not mentioned."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status of accused is not discussed."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No previous criminal record of accused is mentioned."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim Basavaraj is referred to as the son and with male pronouns."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's age is not stated."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's caste is not mentioned."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim's religion is not mentioned."
+  },
+  "accused_victim_relationship": {
+   "verdict": "incorrect",
+   "correct_value": "No family relationship stated; dispute over land sale and irrigation water between accused and complainant's family",
+   "quote": "The accused-appellants herein were upset by the said sale transaction",
+   "page": 4,
+   "reason": "Accused are not described as relatives; the relationship was one of land and water enmity."
+  },
+  "offence_category": {
+   "verdict": "partially_correct",
+   "correct_value": "Murder (charged under s.302 r/w s.34); High Court convicted under s.304 Part II r/w s.34",
+   "quote": "registered ... for an offence punishable under Section 302 read with Section 34 IPC",
+   "page": 5,
+   "reason": "Charge was murder, but the High Court's conviction was culpable homicide under s.304 Part II; this is omitted."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC s.302 r/w s.34 (charge); s.304 Part II r/w s.34 (High Court conviction)",
+   "quote": "registered at Hutti Police Station for an offence punishable under Section 302 read with Section 34 IPC",
+   "page": 5,
+   "reason": "Omits the charged section 302, which is the original provision under which the case was registered."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes assault with a club of stones, consistent with the value."
+  },
+  "evidence_type": {
+   "verdict": "incorrect",
+   "correct_value": "Eyewitness testimony (PW-1 and PW-4); first information report/fardbeyan (Ex. P-1)",
+   "quote": "The prosecution case primarily rests on the depositions of Haumantha (PW-1), brother of the deceased ... and Mannamma (PW-4), mother of the deceased",
+   "page": 5,
+   "reason": "Case rested on eyewitness depositions; no circumstantial or medical evidence analysis is shown."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession by any accused is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are stated in the judgment."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are stated in the judgment."
+  },
+  "trial_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial court acquitted the appellants after finding the prosecution failed to prove guilt."
+  },
+  "high_court_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Acquittal reversed; appellants convicted under s.304 Part II r/w s.34 IPC and sentenced to 7 years RI",
+   "quote": "Criminal Appeal No.1926 of 2007 has been allowed, judgment and order of the Trial Court acquitting the appellants set aside",
+   "page": 4,
+   "reason": "High Court did not have no outcome; it reversed the acquittal and convicted the appellants."
+  },
+  "final_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Supreme Court allowed the appeal and acquitted the appellants."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence was finally established; the Supreme Court set aside the conviction."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final outcome is acquittal, so no imprisonment was finally imposed."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Final outcome imposes no imprisonment; the 7-year term was set aside."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "The Rs.5,000 fine by the High Court was set aside with the conviction, so no final fine applies."
+  },
+  "neutral_facts": {
+   "verdict": "partially_correct",
+   "correct_value": "The accused were in a dispute with the victim's family over land and water rights. The victim was caught, his hands tied, and assaulted with a club of stones, dying of injuries. The prosecution relied on the brother's and mother's eyewitness accounts, whose conduct was found unnatural. The investigating officer destroyed the brother's initial report. The trial court acquitted; the High Court reversed.",
+   "quote": "The Supreme Court ... acquit the appellants of the charges framed against them.",
+   "page": 9,
+   "reason": "Facts are largely accurate but the summary states the Supreme Court's acquittal, revealing the court outcome, which is prohibited."
+  },
+  "offence_severity": {
+   "verdict": "partially_correct",
+   "correct_value": "Not applicable for final outcome; High Court imposed 7 years RI, later set aside",
+   "quote": "sentenced to undergo rigorous imprisonment for a period of seven years under Section 304 Part II read with Section 34 IPC",
+   "page": 4,
+   "reason": "The seven-year sentence was the High Court's, and it was set aside, so it is not a final severity."
+  },
+  "attempt_completion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence resulted in the victim's death, so the offence was completed."
+  },
+  "physical_harm": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes injuries on head and other body parts leading to death."
+  },
+  "number_of_offences": {
+   "verdict": "incorrect",
+   "correct_value": "1 offence charged (s.302 r/w s.34); no offence finally upheld",
+   "quote": "registered ... under Section 302 read with Section 34 IPC",
+   "page": 5,
+   "reason": "The High Court's conviction was set aside, so no offence was finally upheld."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is quantified or discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation or planning is not expressly stated in the judgment."
+  },
+  "motive": {
+   "verdict": "incorrect",
+   "correct_value": "Enmity over the land sale and irrigation water; accused demanded money for water flow",
+   "quote": "the appellants started demanding money for letting the water flow",
+   "page": 4,
+   "reason": "The judgment identifies a clear motive involving land sale and water obstruction, not 'Not identified'."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court accepted the trial court's finding that witness conduct was unnatural and the prosecution failed to prove guilt."
+  },
+  "witness_credibility": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court found PW-1 and PW-4 unreliable due to unnatural conduct and failure to intervene or assist."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment records witnesses returning home, not helping, and the deceased left with hands tied over 4 hours."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Duration of custody is not stated; the judgment only orders release forthwith."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not mentioned in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Offence date and the trial, High Court and Supreme Court decisions are accurately reflected; no durations are stated."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names for appellants and respondents match the judgment's listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "FIR registration, charge sheet filing and completed trial are all stated in the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Investigating officer destroyed the original complaint from PW-1, undermining the prosecution case."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Trial acquittal, High Court reversal, and Supreme Court acquittal are accurately summarised."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Summary matches the prosecution case as recorded, including the eyewitness reliance."
+  },
+  "defence_argument": {
+   "verdict": "incorrect",
+   "correct_value": "Accused alleged PW-1 had a money and land dispute with the deceased and was actually responsible for the injuries",
+   "quote": "Although the accused have alleged that Hanumantha PW-1 who had a dispute over money and land with the deceased was actually responsible",
+   "page": 8,
+   "reason": "Judgment's recorded defence is that PW-1 was responsible; the value omits this and attributes trial court findings to defence."
+  },
+  "legal_principle_applied": {
+   "verdict": "partially_correct",
+   "correct_value": "Prosecution must prove guilt beyond reasonable doubt; the conduct of witnesses closely related to the deceased was scrutinised",
+   "quote": "The conclusion drawn by the Trial Court that the prosecution had not proved the charges against the appellants beyond reasonable doubt, was, in our opinion, correct",
+   "page": 9,
+   "reason": "Beyond reasonable doubt is supported; scrutiny of related witnesses is the trial court's reasoning, not an articulated general principle."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No precedents or case law are cited in the judgment."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing rationale is given; the Supreme Court acquitted, so sentencing is not applicable."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are identified by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are identified by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "partially_correct",
+   "correct_value": "Appellants to be released from custody forthwith if not required in any other case",
+   "quote": "The appellants shall be released from custody forthwith if not required in connection with any other case.",
+   "page": 9,
+   "reason": "The judgment contains a release order, which the value's 'None' omits."
+  }
+ }
+}

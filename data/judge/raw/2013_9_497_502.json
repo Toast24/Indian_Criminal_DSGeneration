@@ -1,0 +1,384 @@
+{
+ "model": "claude-haiku-5-5",
+ "stop_reason": "end_turn",
+ "verdicts": {
+  "case_title": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Case title matches the judgment heading."
+  },
+  "number_of_accused": {
+   "verdict": "partially_correct",
+   "correct_value": "4 (appellant plus three others charge-sheeted)",
+   "quote": "The appellant herein was charge-sheeted for the offences under Sections 376, 302 and 201 of the Indian Penal Code, along with three others.",
+   "page": 3,
+   "reason": "Judgment shows four charge-sheeted accused, not one; the appellant is one of them."
+  },
+  "accused_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Accused is referred to as 'he' throughout, supporting male."
+  },
+  "accused_age": {
+   "verdict": "partially_correct",
+   "correct_value": "Juvenile (school certificate DOB 10.05.1991); Medical Board estimated about 20 years, which was not accepted",
+   "quote": "the Board opined that the appellant was about 20 years of age on the date of the incident.",
+   "page": 4,
+   "reason": "20 is the disputed Medical Board estimate; the court accepted the school certificate showing juvenility."
+  },
+  "accused_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Religion is not mentioned in the judgment."
+  },
+  "accused_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Caste is not mentioned in the judgment."
+  },
+  "accused_occupation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Occupation is not mentioned in the judgment."
+  },
+  "accused_socioeconomic_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Socioeconomic status is not mentioned in the judgment."
+  },
+  "previous_criminal_record": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No prior criminal record is mentioned in the judgment."
+  },
+  "victim_gender": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim is not described in the judgment."
+  },
+  "victim_age": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim age is not stated in the judgment."
+  },
+  "victim_caste": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim caste is not mentioned in the judgment."
+  },
+  "victim_religion": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Victim religion is not mentioned in the judgment."
+  },
+  "accused_victim_relationship": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No relationship between accused and victim is described."
+  },
+  "offence_category": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Charges include s.302 IPC (murder), so the category is supported by the charge."
+  },
+  "statutory_provisions": {
+   "verdict": "partially_correct",
+   "correct_value": "IPC ss.376, 302 and 201",
+   "quote": "charge-sheeted for the offences under Sections 376, 302 and 201 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Omits s.201 and adds s.34, which the judgment never mentions."
+  },
+  "weapon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No weapon is mentioned in the judgment."
+  },
+  "evidence_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "School leaving certificate and Head Mistress testimony are the evidence discussed."
+  },
+  "confession": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No confession is mentioned in the judgment."
+  },
+  "aggravating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating circumstances are discussed."
+  },
+  "mitigating_circumstances": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating circumstances are discussed."
+  },
+  "trial_court_outcome": {
+   "verdict": "partially_correct",
+   "correct_value": "Sessions Judge allowed appeal, set aside JJ Board order and directed case to be tried by JJ Board",
+   "quote": "The appeal was accordingly allowed and the order passed by the court below was set aside and a direction was given to recall the case from the Sessions Court to be tried by the JJ Board.",
+   "page": 4,
+   "reason": "Omits that the Sessions Judge allowed the appeal and directed JJ Board trial; committal was only the CJM's step."
+  },
+  "high_court_outcome": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "High Court allowed revision and restored JJ Board order, as stated."
+  },
+  "final_outcome": {
+   "verdict": "incorrect",
+   "correct_value": "Appeal allowed; High Court order set aside; Sessions Judge's order restored; case to be tried by JJ Board",
+   "quote": "Consequently, the order passed by the High Court is set aside and that of the Sessions Judge, Dumka is restored. The appeal is allowed",
+   "page": 6,
+   "reason": "No acquittal is recorded; the Supreme Court restored the Sessions Judge's order sending the case to the JJ Board."
+  },
+  "offence_finally_established": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No offence is finally established; the question was juvenility only."
+  },
+  "imprisonment_type": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence is imposed in the judgment."
+  },
+  "imprisonment_years": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No imprisonment term is mentioned."
+  },
+  "fine_rs": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No fine is mentioned."
+  },
+  "neutral_facts": {
+   "verdict": "incorrect",
+   "correct_value": "Facts only: charges under ss.376, 302, 201 IPC; school certificate and Head Mistress evidence; JJ Board and Medical Board; Sessions Judge and High Court orders, without the Supreme Court's decision",
+   "quote": "but the Supreme Court overturned the High Court's decision, reinstating the Sessions Judge's order. The Supreme Court concluded that the school leaving certificate was valid",
+   "page": 6,
+   "reason": "Reveals the Supreme Court's outcome and reasoning, and omits s.201 from the charges."
+  },
+  "offence_severity": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "The judgment gives no punishment ranges for any of the charged offences."
+  },
+  "attempt_completion": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment describes no act; 'Completed' is only inferred from the s.302 charge."
+  },
+  "physical_harm": {
+   "verdict": "unsupported",
+   "correct_value": "Not stated",
+   "quote": null,
+   "page": null,
+   "reason": "Judgment does not describe any death or injury; only charges under s.302 are listed."
+  },
+  "number_of_offences": {
+   "verdict": "partially_correct",
+   "correct_value": "Charged with 3 offences (ss.376, 302, 201 IPC); none adjudicated on merits",
+   "quote": "charge-sheeted for the offences under Sections 376, 302 and 201 of the Indian Penal Code",
+   "page": 3,
+   "reason": "Three charges are correct, but no offence was upheld; the judgment only decides juvenility."
+  },
+  "financial_property_loss": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No financial or property loss is discussed."
+  },
+  "premeditation_planning": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Premeditation is not discussed in the judgment."
+  },
+  "motive": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No motive is stated or discussed."
+  },
+  "key_evidence_accepted": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Court relied on the school leaving certificate proved through the Head Mistress, as stated."
+  },
+  "witness_credibility": {
+   "verdict": "partially_correct",
+   "correct_value": "Head Mistress's evidence was unchallenged and proved the certificate; the court did not expressly assess credibility",
+   "quote": "The evidence adduced by the head mistress was not challenged.",
+   "page": 5,
+   "reason": "Court relied on the evidence being unchallenged, not an express credibility finding."
+  },
+  "post_offence_conduct": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment states the appellant surrendered before the court on 13.06.2008."
+  },
+  "custody_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Custody duration is not stated in the judgment."
+  },
+  "bail_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Bail history is not stated in the judgment."
+  },
+  "trial_duration": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Dates match: offence 12/13-04-2008, Sessions order 30.05.2009, HC 29.10.2010, SC 18.09.2013."
+  },
+  "legal_representation": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Counsel names match the judgment's appearance listing."
+  },
+  "investigation_status": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Sequence of charge sheet, age application, medical opinion and appeals matches the judgment."
+  },
+  "procedural_irregularity": {
+   "verdict": "partially_correct",
+   "correct_value": "Sessions Judge found no cogent reasons for discarding the school certificate; High Court gave none",
+   "quote": "No cogent reasons have been stated by the High Court to discard the school leaving certificate",
+   "page": 5,
+   "reason": "Judgment notes lack of cogent reasons for rejecting the certificate, which the value omits."
+  },
+  "appeal_history": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Criminal Revision No.504 of 2009 and the Supreme Court appeal are accurately described."
+  },
+  "prosecution_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Respondent's application claimed the certificate was forged; counsel argued for medical board opinion."
+  },
+  "defence_argument": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Appellant's counsel argued the certificate was proved and medical report only arises if it is discarded."
+  },
+  "legal_principle_applied": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Judgment applies Ashwani Kumar Saxena: no medical examination where the certificate is proved."
+  },
+  "precedent_relied_upon": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "Ashwani Kumar Saxena, 2012 (10) SCR 540, is the relied-upon authority."
+  },
+  "sentencing_rationale": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentencing is addressed in the judgment."
+  },
+  "judicial_mitigating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No mitigating factors are discussed by the court."
+  },
+  "judicial_aggravating_factors": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No aggravating factors are discussed by the court."
+  },
+  "other_sentence_order": {
+   "verdict": "correct",
+   "correct_value": null,
+   "quote": null,
+   "page": null,
+   "reason": "No sentence or other order of this kind is made."
+  }
+ }
+}
